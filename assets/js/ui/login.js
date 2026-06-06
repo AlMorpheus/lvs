@@ -1,5 +1,5 @@
 // Экран входа: выбор участника + пароль (пароль расшифровывает вшитый токен).
-import { h, clear } from './components.js';
+import { h, clear } from './components.js?v=2';
 
 export function renderLogin(root, { users, onLogin }) {
   const err = h('p', { class: 'error-msg' });

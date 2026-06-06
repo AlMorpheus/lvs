@@ -1,7 +1,7 @@
 // Экран «Таблица»: лидерборд + разбивка очков + победители туров.
-import { h, clear } from './components.js';
+import { h, clear } from './components.js?v=2';
 
-const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉' };
+const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉', 4: '🪵' };
 const ROUND_LABELS = {
   'group-1': 'Групповой 1 тур',
   'group-2': 'Групповой 2 тур',
@@ -33,7 +33,6 @@ export function renderTable(view, ctx) {
   const lead = h('div', { class: 'lead' });
   for (const row of table) {
     const sub = [];
-    sub.push(`Матчи ${row.matchPts}`);
     if (row.jackpotPts) sub.push(`Джекпоты +${row.jackpotPts}`);
     if (row.futuresPts) sub.push(`Прогнозы +${row.futuresPts}`);
     if (row.exactCount) sub.push(`Точных ${row.exactCount}`);
