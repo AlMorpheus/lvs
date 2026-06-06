@@ -1,39 +1,40 @@
 /* ============================================================
-   Кубок друзей · ЧМ-2026 — дизайн-система (яркий стиль турнира)
-   Mobile-first, затем десктоп. Боковое меню превращается в drawer.
+   ЛВС · FIFA World Cup 26 — дизайн-система по официальному брендбуку.
+   Плоские цвета (без градиентов), чёрные плашки-заголовки, мотив «26»,
+   типографика: Montserrat (display) + Noto Sans (текст, supporting FWC26).
    ============================================================ */
 
 :root {
-  /* Палитра в духе официального бренда ЧМ-2026: сочные градиенты */
-  --pink: #ff2d78;
-  --magenta: #e0218a;
-  --purple: #7c3aed;
-  --violet: #9333ea;
-  --blue: #2563eb;
-  --cyan: #06b6d4;
-  --teal: #14b8a6;
-  --lime: #84cc16;
-  --gold: #fbbf24;
-  --orange: #fb7185;
+  /* Официальная палитра FWC26 (плоские цвета) */
+  --red: #e4002b;
+  --purple: #6a1fe0;
+  --blue: #2e5bff;
+  --navy: #15237b;
+  --lime: #c7f000;
+  --teal: #00c2a3;
+  --green: #0f9d58;
+  --orange: #ff4e16;
+  --pink: #ec0f79;
+  --yellow: #eaff00;
+  --lav: #c6b5f2;
+  --sky: #8fb6ff;
+  --maroon: #7e1a1a;
 
-  --ink: #14082b;
-  --ink-soft: #4b3a63;
-  --muted: #8b7da3;
-  --line: #ece6f5;
-  --bg: #f5f3fb;
-  --card: #ffffff;
-  --white: #ffffff;
+  --ink: #0b0b0c;
+  --muted: #6f6f78;
+  --line: #e7e4dd;
+  --paper: #ffffff;
+  --bg: #f3f1ea;
 
-  --grad-brand: linear-gradient(135deg, #ff2d78 0%, #9333ea 45%, #2563eb 100%);
-  --grad-brand-2: linear-gradient(135deg, #06b6d4 0%, #7c3aed 60%, #ff2d78 100%);
-  --grad-sun: linear-gradient(135deg, #fbbf24 0%, #fb7185 100%);
-  --grad-pitch: linear-gradient(135deg, #14b8a6 0%, #2563eb 100%);
+  --display: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --body: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
-  --radius: 18px;
-  --radius-sm: 12px;
-  --shadow: 0 10px 30px rgba(46, 16, 84, 0.12);
-  --shadow-sm: 0 4px 14px rgba(46, 16, 84, 0.08);
-  --sidebar-w: 264px;
+  --r: 20px;
+  --r-sm: 12px;
+  --r-lg: 28px;
+  --shadow: 0 8px 26px rgba(11, 11, 12, 0.1);
+  --shadow-sm: 0 3px 12px rgba(11, 11, 12, 0.07);
+  --sidebar-w: 268px;
 
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -49,15 +50,15 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   min-height: 100%;
-  background: var(--bg); /* единый фон и под панелью Safari, и в зоне overscroll */
-  color-scheme: light; /* iOS в тёмной теме не подкрашивает страницу/панель в серый */
+  background: var(--bg);
+  color-scheme: light;
 }
 body {
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--body);
   color: var(--ink);
-  background: var(--bg);
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.45;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: var(--purple);
@@ -69,9 +70,40 @@ button {
 h1,
 h2,
 h3 {
+  font-family: var(--display);
   margin: 0 0 0.4em;
-  line-height: 1.15;
+  line-height: 1.04;
   letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+/* Фирменная мультиколор-полоса (плоские сегменты) */
+.brandstrip {
+  display: flex;
+  height: 6px;
+  width: 100%;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.brandstrip i {
+  flex: 1;
+}
+.brandstrip i:nth-child(1) { background: var(--red); }
+.brandstrip i:nth-child(2) { background: var(--purple); }
+.brandstrip i:nth-child(3) { background: var(--blue); }
+.brandstrip i:nth-child(4) { background: var(--teal); }
+.brandstrip i:nth-child(5) { background: var(--lime); }
+
+/* Мотив «26» — скруглённый чёрный тайл */
+.mark {
+  font-family: var(--display);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  display: inline-grid;
+  place-items: center;
+  background: var(--ink);
+  color: #fff;
+  border-radius: 28%;
 }
 
 /* ---------- Загрузка ---------- */
@@ -80,10 +112,15 @@ h3 {
   display: grid;
   place-content: center;
   justify-items: center;
-  gap: 12px;
-  color: var(--muted);
-  background: var(--grad-brand);
+  gap: 14px;
+  background: var(--red);
   color: #fff;
+}
+.boot p {
+  font-family: var(--display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 .boot-ball {
   font-size: 56px;
@@ -96,97 +133,105 @@ h3 {
 }
 
 /* ============================================================
-   ЭКРАН ВХОДА
+   ВХОД
    ============================================================ */
 .login {
   min-height: 100dvh;
   display: grid;
   place-items: center;
   padding: 24px;
-  background: var(--grad-brand);
+  background: var(--red);
   position: relative;
   overflow: hidden;
 }
-.login::before,
+/* плоские цветовые блоки фона (а-ля «26 graphic») */
+.login::before {
+  content: '';
+  position: absolute;
+  inset: auto -20% -30% 40%;
+  height: 70%;
+  background: var(--purple);
+  border-top-left-radius: 60% 80%;
+}
 .login::after {
   content: '';
   position: absolute;
-  border-radius: 50%;
-  filter: blur(8px);
-  opacity: 0.45;
-}
-.login::before {
-  width: 320px;
-  height: 320px;
-  background: var(--grad-sun);
-  top: -120px;
-  right: -80px;
-}
-.login::after {
-  width: 280px;
-  height: 280px;
-  background: var(--grad-pitch);
-  bottom: -120px;
-  left: -90px;
+  inset: -25% 50% 55% -20%;
+  background: var(--blue);
+  border-bottom-right-radius: 70% 60%;
 }
 .login-card {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 380px;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(8px);
-  border-radius: 24px;
-  padding: 28px 24px;
-  box-shadow: 0 24px 60px rgba(10, 0, 40, 0.35);
+  max-width: 392px;
+  background: var(--paper);
+  border-radius: var(--r-lg);
+  padding: 28px 24px 26px;
+  box-shadow: 0 26px 70px rgba(10, 0, 30, 0.4);
 }
 .login-logo {
-  font-size: 40px;
-  text-align: center;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 12px;
+  font-size: 1.7rem;
+}
+.login-logo::after {
+  content: '26';
 }
 .login-card h1 {
   text-align: center;
-  font-size: 1.4rem;
-  background: var(--grad-brand);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--ink);
 }
 .login-sub {
   text-align: center;
   color: var(--muted);
-  margin: -4px 0 18px;
-  font-size: 0.9rem;
+  margin: -2px 0 18px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.login-card .brandstrip {
+  margin-bottom: 18px;
 }
 
-/* ---------- Поля форм ---------- */
+/* ---------- Поля ---------- */
 label.field {
   display: block;
   margin-bottom: 14px;
 }
 label.field > span {
   display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--ink-soft);
-  margin-bottom: 6px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  margin-bottom: 7px;
 }
 .input,
-select.input {
+select.input,
+textarea.input {
   width: 100%;
   padding: 13px 14px;
-  border: 1.5px solid var(--line);
-  border-radius: var(--radius-sm);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
   font-size: 1rem;
+  font-family: var(--body);
   background: #fff;
   color: var(--ink);
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition: box-shadow 0.12s;
 }
 .input:focus,
-select.input:focus {
+select.input:focus,
+textarea.input:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.14);
+  box-shadow: 0 0 0 4px rgba(106, 31, 224, 0.18);
 }
 
 /* ---------- Кнопки ---------- */
@@ -196,47 +241,47 @@ select.input:focus {
   justify-content: center;
   gap: 8px;
   width: 100%;
-  padding: 13px 18px;
-  border: none;
-  border-radius: var(--radius-sm);
-  font-size: 1rem;
-  font-weight: 700;
+  padding: 14px 18px;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-sm);
+  font-family: var(--display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #fff;
-  background: var(--grad-brand);
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.1s, filter 0.15s, opacity 0.15s;
+  background: var(--red);
+  transition: transform 0.08s, filter 0.15s;
 }
 .btn:hover {
-  filter: brightness(1.05);
+  filter: brightness(1.04);
 }
 .btn:active {
   transform: translateY(1px);
 }
 .btn:disabled {
-  opacity: 0.55;
+  opacity: 0.5;
   cursor: not-allowed;
-  filter: grayscale(0.2);
 }
 .btn.ghost {
-  background: transparent;
-  color: var(--purple);
-  border: 1.5px solid var(--line);
-  box-shadow: none;
+  background: #fff;
+  color: var(--ink);
 }
 .btn.small {
   width: auto;
-  padding: 8px 14px;
-  font-size: 0.85rem;
+  padding: 9px 16px;
+  font-size: 0.8rem;
 }
 .error-msg {
-  color: #e11d48;
+  color: var(--red);
   font-size: 0.85rem;
+  font-weight: 600;
   margin: 8px 0 0;
   min-height: 1.1em;
 }
 
 /* ============================================================
-   КАРКАС ПРИЛОЖЕНИЯ
+   КАРКАС
    ============================================================ */
 .shell {
   min-height: 100dvh;
@@ -250,7 +295,7 @@ select.input:focus {
   left: 0;
   width: var(--sidebar-w);
   height: 100dvh;
-  background: var(--grad-brand);
+  background: var(--ink);
   color: #fff;
   padding: calc(20px + var(--safe-top)) 16px calc(16px + var(--safe-bottom));
   display: flex;
@@ -264,55 +309,72 @@ select.input:focus {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  font-size: 1.1rem;
-  margin-bottom: 24px;
-  padding: 0 6px;
+  gap: 12px;
+  margin-bottom: 26px;
+  padding: 0 4px;
 }
-.brand .ball {
-  font-size: 1.6rem;
+.brand .mark {
+  width: 46px;
+  height: 46px;
+  font-size: 1.15rem;
+  background: var(--red);
+}
+.brand .brand-name {
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: -0.02em;
+  line-height: 1;
 }
 .brand small {
   display: block;
-  font-weight: 600;
-  font-size: 0.72rem;
-  opacity: 0.85;
+  font-weight: 700;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-top: 3px;
 }
 .nav {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 .nav a {
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 13px 14px;
-  border-radius: 14px;
+  border-radius: 12px;
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
-  opacity: 0.85;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  opacity: 0.72;
   transition: background 0.15s, opacity 0.15s;
 }
 .nav a .ic {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 .nav a:hover {
-  background: rgba(255, 255, 255, 0.12);
   opacity: 1;
+  background: rgba(255, 255, 255, 0.08);
 }
 .nav a.active {
-  background: rgba(255, 255, 255, 0.22);
   opacity: 1;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+  background: var(--red);
 }
 .sidebar .spacer {
   flex: 1;
 }
+.sidebar .brandstrip {
+  margin-bottom: 14px;
+}
 .user-box {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   padding: 12px 14px;
 }
@@ -320,35 +382,38 @@ select.input:focus {
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 .user-box .who .avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--grad-sun);
+  width: 34px;
+  height: 34px;
+  border-radius: 30%;
+  background: var(--lime);
   display: grid;
   place-items: center;
-  font-weight: 800;
-  color: #3b0764;
+  font-family: var(--display);
+  font-weight: 900;
+  color: var(--ink);
 }
 .user-box button {
   margin-top: 10px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.18);
+  background: transparent;
   color: #fff;
-  border: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
   padding: 9px;
   border-radius: 10px;
-  font-weight: 600;
-  font-size: 0.85rem;
+  font-family: var(--display);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
 }
 
-/* drawer backdrop */
 .backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(20, 8, 43, 0.5);
+  background: rgba(11, 11, 12, 0.55);
   z-index: 35;
   opacity: 0;
   pointer-events: none;
@@ -359,7 +424,7 @@ select.input:focus {
   pointer-events: auto;
 }
 
-/* ---------- Верхняя панель (мобайл) ---------- */
+/* ---------- Верхняя панель ---------- */
 .topbar {
   position: sticky;
   top: 0;
@@ -368,75 +433,68 @@ select.input:focus {
   align-items: center;
   gap: 12px;
   padding: calc(10px + var(--safe-top)) 14px 10px;
-  background: rgba(245, 243, 251, 0.85);
+  background: rgba(243, 241, 234, 0.9);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
 .topbar .burger {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
   border: none;
-  background: var(--grad-brand);
+  background: var(--ink);
   color: #fff;
   font-size: 1.2rem;
   display: grid;
   place-items: center;
-  box-shadow: var(--shadow-sm);
 }
 .topbar .title {
+  font-family: var(--display);
   font-weight: 800;
   font-size: 1.05rem;
-}
-.topbar .title small {
-  display: block;
-  font-weight: 600;
-  font-size: 0.72rem;
-  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
 }
 
 /* ---------- Контент ---------- */
 .content {
   padding: 16px 14px calc(40px + var(--safe-bottom));
-  max-width: 880px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .view-title {
-  font-size: 1.5rem;
-  margin: 6px 2px 14px;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin: 8px 2px 16px;
 }
 .view-title .accent {
-  background: var(--grad-brand);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--red);
 }
 
 /* ============================================================
    КАРТОЧКИ МАТЧЕЙ
    ============================================================ */
 .round-head {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  margin: 22px 2px 10px;
+  gap: 8px;
+  margin: 24px 0 12px;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--display);
   font-weight: 800;
-  font-size: 0.95rem;
-  color: var(--ink-soft);
+  font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-.round-head::after {
-  content: '';
-  flex: 1;
-  height: 2px;
-  background: var(--line);
-  border-radius: 2px;
+  letter-spacing: 0.06em;
+  padding: 8px 14px;
+  border-radius: 10px;
 }
 
 .match {
-  background: var(--card);
-  border-radius: var(--radius);
+  background: var(--paper);
+  border-radius: var(--r);
   box-shadow: var(--shadow-sm);
   padding: 14px;
   margin-bottom: 12px;
@@ -448,40 +506,43 @@ select.input:focus {
   justify-content: space-between;
   gap: 6px;
   flex-wrap: wrap;
-  font-size: 0.76rem;
+  font-size: 0.74rem;
+  font-weight: 600;
   color: var(--muted);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 3px 9px;
-  border-radius: 999px;
-  font-weight: 700;
-  font-size: 0.72rem;
+  padding: 4px 9px;
+  border-radius: 8px;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #fff;
 }
 .badge.mult {
-  background: var(--grad-sun);
-  color: #4a1d00;
+  background: var(--ink);
 }
 .badge.live {
-  background: #ef4444;
+  background: var(--red);
   animation: pulse 1.4s infinite;
 }
 .badge.ft {
-  background: var(--ink-soft);
+  background: var(--muted);
 }
 .badge.open {
-  background: var(--grad-pitch);
+  background: var(--green);
 }
 .badge.locked {
-  background: #94a3b8;
+  background: #b8b4ad;
 }
 @keyframes pulse {
   50% {
-    opacity: 0.55;
+    opacity: 0.5;
   }
 }
 
@@ -494,7 +555,7 @@ select.input:focus {
 .team {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 9px;
   min-width: 0;
 }
 .team.away {
@@ -502,160 +563,118 @@ select.input:focus {
   text-align: right;
 }
 .team .flag {
-  width: 30px;
-  height: 22px;
-  border-radius: 4px;
+  width: 32px;
+  height: 24px;
+  border-radius: 5px;
   object-fit: cover;
   background: var(--line);
   flex: none;
   display: inline-grid;
   place-items: center;
-  font-size: 18px;
+  font-size: 19px;
   overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
 }
 .team .name {
+  font-family: var(--display);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   min-width: 0;
 }
 .team .name .rank {
-  font-weight: 600;
-  font-size: 0.78em;
+  font-weight: 700;
+  font-size: 0.72em;
   color: var(--muted);
 }
 .score {
-  font-weight: 800;
-  font-size: 1.3rem;
-  min-width: 64px;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  min-width: 66px;
   text-align: center;
-  color: var(--ink);
 }
 .score .vs {
   color: var(--muted);
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.82rem;
+  font-weight: 800;
 }
 .score .reg-note {
   display: block;
-  font-size: 0.62rem;
-  font-weight: 600;
+  font-family: var(--body);
+  font-size: 0.6rem;
+  font-weight: 700;
   color: var(--muted);
   margin-top: 2px;
 }
-.bd-note {
-  font-size: 0.78rem;
-  color: var(--muted);
-  padding: 2px 0 6px;
-}
 
-/* блок ставки внутри карточки */
 .bet-summary {
   margin-top: 12px;
   padding-top: 12px;
-  border-top: 1px dashed var(--line);
-  font-size: 0.85rem;
-  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  font-size: 0.86rem;
+  color: var(--ink);
 }
 .bet-summary .row {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  padding: 2px 0;
+  padding: 3px 0;
 }
-.pts {
-  font-weight: 800;
-  color: #fff;
-  background: var(--grad-pitch);
-  padding: 2px 10px;
-  border-radius: 999px;
-  font-size: 0.8rem;
-}
-.pts.zero {
-  background: #cbd5e1;
-  color: #475569;
-}
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 4px;
-}
-.chip {
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 3px 10px;
-  font-size: 0.78rem;
-  font-weight: 600;
-}
-.chip.hit {
-  background: #dcfce7;
-  border-color: #86efac;
-  color: #166534;
-}
-.chip.miss {
-  opacity: 0.7;
-}
-
 .bet-summary .row.clickable {
   cursor: pointer;
   border-radius: 8px;
-  padding: 4px 6px;
+  padding: 5px 6px;
   margin: 0 -6px;
 }
 .bet-summary .row.clickable:hover {
   background: var(--bg);
 }
+.bet-summary .row.me {
+  font-weight: 700;
+}
 .caret {
   color: var(--muted);
   font-size: 0.8em;
 }
-.breakdown {
-  margin: 2px 0 10px;
-  padding: 10px 12px;
+.pts {
+  font-family: var(--display);
+  font-weight: 800;
+  color: #fff;
+  background: var(--green);
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+.pts.zero {
+  background: #cfcbc2;
+  color: #5b5b62;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+.chip {
   background: var(--bg);
   border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-}
-.bd-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  font-size: 0.84rem;
-  padding: 3px 0;
-  color: var(--ink-soft);
-}
-.bd-row .bd-pts {
-  font-weight: 700;
-  white-space: nowrap;
-}
-.bd-row.miss {
-  color: var(--muted);
-}
-.bd-row.bd-strong {
-  border-top: 1px dashed var(--line);
-  margin-top: 4px;
-  padding-top: 7px;
-  color: var(--ink);
-  font-weight: 700;
-}
-.bd-row.bd-total {
-  border-top: 2px solid var(--line);
-  margin-top: 4px;
-  padding-top: 7px;
-  color: var(--ink);
-  font-weight: 800;
-}
-.bd-row.bd-total .bd-pts {
-  color: #fff;
-  background: var(--grad-pitch);
-  padding: 1px 10px;
   border-radius: 999px;
+  padding: 4px 11px;
+  font-size: 0.78rem;
+  font-weight: 600;
 }
-
+.chip.hit {
+  background: var(--lime);
+  border-color: var(--lime);
+  color: var(--ink);
+}
+.chip.miss {
+  opacity: 0.6;
+}
 .cta-row {
   margin-top: 12px;
 }
@@ -664,7 +683,7 @@ select.input:focus {
 .betform {
   margin-top: 12px;
   padding-top: 12px;
-  border-top: 1px dashed var(--line);
+  border-top: 1px solid var(--line);
 }
 .stepper-wrap {
   display: grid;
@@ -677,30 +696,32 @@ select.input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
 }
 .stepper button {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  border: 2px solid var(--ink);
   font-size: 1.3rem;
   font-weight: 800;
   color: #fff;
-  background: var(--purple);
+  background: var(--ink);
   display: grid;
   place-items: center;
 }
 .stepper .val {
-  font-size: 1.6rem;
-  font-weight: 800;
+  font-family: var(--display);
+  font-size: 1.7rem;
+  font-weight: 900;
   min-width: 30px;
   text-align: center;
 }
 .stepper-mid {
   text-align: center;
   color: var(--muted);
-  font-weight: 700;
+  font-weight: 800;
+  font-family: var(--display);
 }
 .scorers {
   display: flex;
@@ -709,9 +730,11 @@ select.input:focus {
   margin-bottom: 12px;
 }
 .scorers .label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--ink-soft);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink);
 }
 .potential {
   font-size: 0.8rem;
@@ -730,113 +753,177 @@ select.input:focus {
   flex: 1;
 }
 
+/* ---------- Детализация очков ---------- */
+.breakdown {
+  margin: 2px 0 10px;
+  padding: 12px 14px;
+  background: var(--bg);
+  border-radius: var(--r-sm);
+}
+.bd-note {
+  font-size: 0.78rem;
+  color: var(--muted);
+  padding: 2px 0 6px;
+}
+.bd-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.85rem;
+  padding: 3px 0;
+}
+.bd-row .bd-pts {
+  font-family: var(--display);
+  font-weight: 800;
+  white-space: nowrap;
+}
+.bd-row.miss {
+  color: var(--muted);
+}
+.bd-row.bd-strong {
+  border-top: 1px solid var(--line);
+  margin-top: 4px;
+  padding-top: 7px;
+  font-weight: 700;
+}
+.bd-row.bd-total {
+  border-top: 2px solid var(--ink);
+  margin-top: 4px;
+  padding-top: 8px;
+  font-family: var(--display);
+  font-weight: 900;
+}
+.bd-row.bd-total .bd-pts {
+  color: #fff;
+  background: var(--green);
+  padding: 1px 10px;
+  border-radius: 999px;
+}
+
 /* ============================================================
    ТАБЛИЦА ЛИДЕРОВ
    ============================================================ */
 .lead {
-  background: var(--card);
-  border-radius: var(--radius);
+  background: var(--paper);
+  border-radius: var(--r);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--line);
   overflow: hidden;
 }
 .lead-row {
   display: grid;
-  grid-template-columns: 36px 1fr auto;
+  grid-template-columns: 40px 1fr auto;
   align-items: center;
-  gap: 10px;
-  padding: 13px 14px;
+  gap: 12px;
+  padding: 14px;
   border-bottom: 1px solid var(--line);
 }
 .lead-row:last-child {
   border-bottom: none;
 }
 .lead-row .rank {
-  font-weight: 800;
-  font-size: 1.05rem;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.1rem;
   color: var(--muted);
   text-align: center;
 }
-.lead-row.top1 .rank {
-  color: var(--gold);
+.lead-row .medal {
+  font-size: 1.3rem;
 }
 .lead-row .who {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 .lead-row .who b {
+  font-family: var(--display);
+  font-weight: 700;
   font-size: 1rem;
 }
 .lead-row .who small {
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.75rem;
 }
 .lead-row .total {
-  font-weight: 800;
-  font-size: 1.2rem;
-  background: var(--grad-brand);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  color: var(--ink);
 }
-.lead-row .medal {
-  font-size: 1.2rem;
+.lead-row.top1 {
+  background: var(--lime);
+}
+.lead-row.top1 .rank,
+.lead-row.top1 .total {
+  color: var(--ink);
 }
 .lead-row.me {
-  background: linear-gradient(90deg, rgba(124, 58, 237, 0.08), transparent);
+  box-shadow: inset 3px 0 0 var(--red);
 }
 
 .jackpot-note {
-  background: var(--card);
+  background: var(--paper);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: var(--r);
   padding: 14px;
   margin-top: 14px;
-  font-size: 0.85rem;
-  color: var(--ink-soft);
+  font-size: 0.86rem;
+  color: var(--ink);
   box-shadow: var(--shadow-sm);
 }
 
-/* ---------- Блок приветствия ---------- */
+/* ============================================================
+   БЛОК ПРИВЕТСТВИЯ
+   ============================================================ */
 .greet {
   position: relative;
-  border-radius: var(--radius);
-  padding: 16px 16px 14px;
+  border-radius: var(--r);
+  padding: 18px;
   margin: 4px 0 14px;
   color: #fff;
-  background: var(--grad-brand);
-  box-shadow: var(--shadow-sm);
+  background: var(--purple);
   overflow: hidden;
 }
 .greet::after {
-  content: '⚽';
+  content: '26';
   position: absolute;
-  right: -10px;
-  top: -14px;
-  font-size: 80px;
-  opacity: 0.14;
-  transform: rotate(12deg);
+  right: -6px;
+  bottom: -26px;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: rgba(255, 255, 255, 0.1);
 }
 .greet-hi {
-  font-size: 1.25rem;
-  font-weight: 800;
-  letter-spacing: -0.01em;
+  font-family: var(--display);
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  position: relative;
+  z-index: 1;
 }
 .greet-sub {
-  font-size: 0.92rem;
+  font-size: 0.94rem;
+  font-weight: 600;
+  margin-top: 3px;
   opacity: 0.95;
-  margin-top: 2px;
+  position: relative;
+  z-index: 1;
 }
 .greet-sub.holiday {
-  font-weight: 700;
+  font-weight: 800;
 }
 .greet-tip {
   position: relative;
   z-index: 1;
-  margin-top: 10px;
-  background: rgba(255, 255, 255, 0.16);
+  margin-top: 11px;
+  background: rgba(0, 0, 0, 0.22);
   border-radius: 12px;
-  padding: 9px 12px;
+  padding: 10px 12px;
   font-size: 0.86rem;
   font-weight: 600;
 }
@@ -848,24 +935,23 @@ select.input:focus {
   justify-content: space-between;
   gap: 8px;
   margin-top: 8px;
-  background: rgba(255, 255, 255, 0.95);
+  background: #fff;
   color: var(--ink);
   border-radius: 12px;
-  padding: 9px 12px;
+  padding: 10px 12px;
   font-size: 0.88rem;
   font-weight: 600;
-  box-shadow: var(--shadow-sm);
+  border-left: 5px solid var(--red);
 }
 .ann-del {
   flex: none;
   border: none;
-  background: #f1e9fb;
-  color: var(--purple);
-  width: 24px;
-  height: 24px;
+  background: var(--bg);
+  color: var(--ink);
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   font-weight: 800;
-  cursor: pointer;
 }
 .greet-admin {
   position: relative;
@@ -875,36 +961,44 @@ select.input:focus {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 .greet-admin-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin-bottom: 6px;
-  opacity: 0.95;
+  font-family: var(--display);
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 7px;
 }
 .ann-input {
   margin-bottom: 8px;
   resize: vertical;
-  color: var(--ink);
+  border-color: transparent;
 }
 .greet-admin .btn {
   width: auto;
+  background: var(--ink);
+  border-color: var(--ink);
 }
 
 /* ============================================================
    ПРАВИЛА
    ============================================================ */
 .rules .card {
-  background: var(--card);
+  background: var(--paper);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: var(--r);
   box-shadow: var(--shadow-sm);
   padding: 18px;
   margin-bottom: 14px;
 }
 .rules h2 {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 .rules h3 {
   font-size: 1rem;
@@ -913,8 +1007,11 @@ select.input:focus {
 }
 .rules p,
 .rules li {
-  color: var(--ink-soft);
+  color: var(--ink);
   font-size: 0.92rem;
+}
+.rules .potential {
+  color: var(--muted);
 }
 .rules ul {
   padding-left: 20px;
@@ -926,25 +1023,33 @@ select.input:focus {
   font-size: 0.88rem;
   margin: 8px 0;
 }
-.rules td,
-.rules th {
-  word-break: break-word;
-  overflow-wrap: anywhere;
-}
 .rules th,
 .rules td {
   text-align: left;
-  padding: 8px 10px;
+  padding: 9px 10px;
   border-bottom: 1px solid var(--line);
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 .rules th {
-  color: var(--ink);
+  font-family: var(--display);
+  color: #fff;
+  background: var(--ink);
   font-weight: 700;
-  background: var(--bg);
+  text-transform: uppercase;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+}
+.rules th:first-child {
+  border-top-left-radius: 8px;
+}
+.rules th:last-child {
+  border-top-right-radius: 8px;
 }
 .rules td.n {
-  font-weight: 800;
-  color: var(--purple);
+  font-family: var(--display);
+  font-weight: 900;
+  color: var(--red);
   white-space: nowrap;
 }
 .rules .pillrow {
@@ -953,23 +1058,44 @@ select.input:focus {
   gap: 8px;
   margin: 10px 0;
 }
+.pill {
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: #fff;
+}
+.pill.x1 {
+  background: var(--muted);
+}
+.pill.x13 {
+  background: var(--blue);
+}
+.pill.x16 {
+  background: var(--purple);
+}
+.pill.x20 {
+  background: var(--red);
+}
 .rank-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4px 16px;
+  gap: 2px 16px;
   margin-top: 10px;
-  font-size: 0.86rem;
+  font-size: 0.88rem;
 }
 .rank-item {
   display: flex;
   gap: 8px;
-  padding: 3px 0;
+  padding: 5px 0;
   border-bottom: 1px solid var(--line);
 }
 .rank-item .n {
-  font-weight: 800;
-  color: var(--purple);
-  min-width: 34px;
+  font-family: var(--display);
+  font-weight: 900;
+  color: var(--red);
+  min-width: 36px;
 }
 .rank-item .t {
   white-space: nowrap;
@@ -981,34 +1107,15 @@ select.input:focus {
     grid-template-columns: 1fr;
   }
 }
-.pill {
-  border-radius: 999px;
-  padding: 6px 12px;
-  font-weight: 700;
-  font-size: 0.82rem;
-  color: #fff;
-}
-.pill.x1 {
-  background: #94a3b8;
-}
-.pill.x13 {
-  background: var(--blue);
-}
-.pill.x16 {
-  background: var(--violet);
-}
-.pill.x20 {
-  background: var(--pink);
-}
 
 /* ============================================================
-   ОНБОРДИНГ (чемпион + бомбардир)
+   ОНБОРДИНГ
    ============================================================ */
 .onboard {
   position: fixed;
   inset: 0;
   z-index: 60;
-  background: var(--grad-brand-2);
+  background: var(--blue);
   display: grid;
   place-items: center;
   padding: 24px;
@@ -1016,14 +1123,17 @@ select.input:focus {
 }
 .onboard-card {
   background: #fff;
-  border-radius: 24px;
+  border-radius: var(--r-lg);
   padding: 26px 22px;
-  max-width: 440px;
+  max-width: 452px;
   width: 100%;
-  box-shadow: 0 24px 60px rgba(10, 0, 40, 0.4);
+  box-shadow: 0 26px 70px rgba(0, 0, 30, 0.4);
 }
 .onboard-card h1 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
 }
 .onboard-card .lead-text {
   color: var(--muted);
@@ -1032,12 +1142,13 @@ select.input:focus {
 }
 .bonus-tag {
   display: inline-block;
-  background: var(--grad-sun);
-  color: #4a1d00;
-  font-weight: 800;
+  background: var(--lime);
+  color: var(--ink);
+  font-family: var(--display);
+  font-weight: 900;
   border-radius: 999px;
   padding: 2px 10px;
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   margin-left: 6px;
 }
 
@@ -1047,10 +1158,10 @@ select.input:focus {
 .empty {
   text-align: center;
   color: var(--muted);
-  padding: 40px 20px;
+  padding: 44px 20px;
 }
 .empty .big {
-  font-size: 44px;
+  font-size: 46px;
 }
 .toast {
   position: fixed;
@@ -1059,30 +1170,24 @@ select.input:focus {
   transform: translateX(-50%);
   background: var(--ink);
   color: #fff;
-  padding: 12px 18px;
+  padding: 13px 20px;
   border-radius: 999px;
-  font-weight: 600;
+  font-family: var(--display);
+  font-weight: 700;
   font-size: 0.9rem;
   z-index: 80;
   box-shadow: var(--shadow);
   max-width: 90vw;
 }
 .toast.ok {
-  background: linear-gradient(135deg, #16a34a, #15803d);
+  background: var(--green);
 }
 .toast.err {
-  background: linear-gradient(135deg, #e11d48, #be123c);
+  background: var(--red);
 }
 .skeleton {
-  background: linear-gradient(90deg, #eee 25%, #f6f6f6 37%, #eee 63%);
-  background-size: 400% 100%;
-  animation: sk 1.3s infinite;
+  background: var(--line);
   border-radius: 8px;
-}
-@keyframes sk {
-  to {
-    background-position: -200% 0;
-  }
 }
 
 /* ============================================================
@@ -1102,15 +1207,15 @@ select.input:focus {
     background: transparent;
     backdrop-filter: none;
     border-bottom: none;
-    padding-top: 24px;
+    padding-top: 26px;
   }
   .main {
     margin-left: var(--sidebar-w);
   }
   .content {
-    padding: 8px 32px 60px;
+    padding: 8px 36px 60px;
   }
   .view-title {
-    font-size: 1.9rem;
+    font-size: 2.6rem;
   }
 }

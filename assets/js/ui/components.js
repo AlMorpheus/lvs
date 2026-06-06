@@ -20,6 +20,11 @@ export function h(tag, attrs = {}, children = []) {
   return el;
 }
 
+/** Фирменная мультиколор-полоса (плоские сегменты палитры FWC26). */
+export function brandStrip() {
+  return h('div', { class: 'brandstrip' }, [0, 1, 2, 3, 4].map(() => h('i', {})));
+}
+
 export function clear(node) {
   while (node.firstChild) node.removeChild(node.firstChild);
   return node;
