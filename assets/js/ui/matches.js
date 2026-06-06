@@ -45,14 +45,22 @@ function statusBadge(m, S) {
   return h('span', { class: 'badge open', text: cd || 'Открыт' });
 }
 
+function rankOf(team, S) {
+  const r = S.fifa?.teams?.[team?.name];
+  return r != null ? r : null;
+}
+function nameEl(team, S) {
+  const r = rankOf(team, S);
+  return h('span', { class: 'name' }, [team?.name || '?', r != null ? h('small', { class: 'rank', text: ' #' + r }) : '']);
+}
 function teamRow(m, idx, S) {
   const showScore = started(m) && m.score;
   return h('div', { class: 'teams' }, [
-    h('div', { class: 'team home' }, [flagEl(m.home), h('span', { class: 'name', text: m.home?.name || '?' })]),
+    h('div', { class: 'team home' }, [flagEl(m.home), nameEl(m.home, S)]),
     h('div', { class: 'score' }, showScore
       ? `${m.score.home} : ${m.score.away}`
       : [h('span', { class: 'vs', text: 'vs' })]),
-    h('div', { class: 'team away' }, [flagEl(m.away), h('span', { class: 'name', text: m.away?.name || '?' })]),
+    h('div', { class: 'team away' }, [flagEl(m.away), nameEl(m.away, S)]),
   ]);
 }
 

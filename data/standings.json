@@ -1,6 +1,113 @@
 {
-  "table": [],
-  "rounds": {},
+  "table": [
+    {
+      "id": "albert",
+      "name": "Альберт",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 1
+    },
+    {
+      "id": "vadim",
+      "name": "Вадим",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 2
+    },
+    {
+      "id": "dasha",
+      "name": "Даша",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 3
+    },
+    {
+      "id": "liza",
+      "name": "Лиза",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 4
+    },
+    {
+      "id": "lysyy",
+      "name": "Лысый",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 5
+    },
+    {
+      "id": "sasha",
+      "name": "Саша",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 6
+    },
+    {
+      "id": "sergey",
+      "name": "Сергей",
+      "matchPts": 0,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "perRound": {},
+      "rank": 7
+    }
+  ],
+  "rounds": {
+    "group-1": {
+      "key": "group-1",
+      "total": 24,
+      "finished": 0,
+      "winners": [],
+      "leadPts": 0
+    },
+    "group-2": {
+      "key": "group-2",
+      "total": 24,
+      "finished": 0,
+      "winners": [],
+      "leadPts": 0
+    },
+    "group-3": {
+      "key": "group-3",
+      "total": 24,
+      "finished": 0,
+      "winners": [],
+      "leadPts": 0
+    }
+  },
   "tournamentResult": null,
-  "updatedAt": null
+  "updatedAt": "2026-06-06T05:10:18.097Z"
 }

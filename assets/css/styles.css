@@ -518,6 +518,11 @@ select.input:focus {
   text-overflow: ellipsis;
   min-width: 0;
 }
+.team .name .rank {
+  font-weight: 600;
+  font-size: 0.78em;
+  color: var(--muted);
+}
 .score {
   font-weight: 800;
   font-size: 1.3rem;
@@ -784,6 +789,34 @@ select.input:focus {
   flex-wrap: wrap;
   gap: 8px;
   margin: 10px 0;
+}
+.rank-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+  margin-top: 10px;
+  font-size: 0.86rem;
+}
+.rank-item {
+  display: flex;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--line);
+}
+.rank-item .n {
+  font-weight: 800;
+  color: var(--purple);
+  min-width: 34px;
+}
+.rank-item .t {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 460px) {
+  .rank-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .pill {
   border-radius: 999px;

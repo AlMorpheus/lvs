@@ -59,6 +59,9 @@ export function renderRules(view, ctx) {
         h('p', { class: 'potential', text: 'Итог за матч = (очки за счёт + очки за авторов) × коэффициент, округляем до целого (54.6 → 55).' }),
       ]),
 
+      // Рейтинг ФИФА
+      rankingCard(ctx),
+
       // Бонусы
       h('div', { class: 'card' }, [
         h('h2', {}, ['🎁 Бонусы']),
@@ -84,6 +87,18 @@ export function renderRules(view, ctx) {
       ]),
     ])
   );
+}
+
+function rankingCard(ctx) {
+  const teams = ctx.S.fifa?.teams || {};
+  const entries = Object.entries(teams).sort((a, b) => a[1] - b[1]);
+  return h('div', { class: 'card' }, [
+    h('h2', {}, ['🌍 Рейтинг ФИФА команд']),
+    h('p', { class: 'potential', text: 'По нему определяется коэффициент сложности матча. Места приблизительные — организатор может скорректировать.' }),
+    h('div', { class: 'rank-grid' }, entries.map(([name, rank]) =>
+      h('div', { class: 'rank-item' }, [h('span', { class: 'n', text: '#' + rank }), h('span', { class: 't', text: name })])
+    )),
+  ]);
 }
 
 function table(rows) {
