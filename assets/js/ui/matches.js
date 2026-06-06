@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=11';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=11';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=11';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=11';
-import { renderGreeting } from './greeting.js?v=11';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=12';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=12';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=12';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=12';
+import { renderGreeting } from './greeting.js?v=12';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -204,6 +204,12 @@ let _posIdx = null;
 function posIndex(S) {
   return _posIdx || (_posIdx = buildPosIndex(S.squads));
 }
+// «Фамилия · поз» (нап/пз/защ/вр) для отображения авторов в ставке.
+function nameWithPos(id, S, idx) {
+  const nm = idx.get(String(id)) || '—';
+  const ab = POS_ABBR[posIndex(S)[String(id)]];
+  return ab ? `${nm} · ${ab}` : nm;
+}
 function breakdownPanel(bet, m, S, idx) {
   const ex = explainMatch(bet, m, S.app.scoring, posIndex(S));
   if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
@@ -240,7 +246,7 @@ async function revealBlock(m, S, ctx, idx) {
   for (const [uid, bet] of entries) {
     const res = m.finished ? standRow(uid)?.perMatch?.[m.id] : null;
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
-    const scn = (bet.scorers || []).map((id) => idx.get(String(id)) || '—').join(', ');
+    const scn = (bet.scorers || []).map((id) => nameWithPos(id, S, idx)).join(', ');
     const caret = m.finished ? h('span', { class: 'caret', text: ' ▾' }) : '';
     const head = h('div', { class: 'row' + (m.finished ? ' clickable' : '') + (uid === ctx.S.session.userId ? ' me' : '') }, [
       h('span', {}, [h('b', { text: nameOf(uid) + (uid === ctx.S.session.userId ? ' · ты' : '') }), bet.scorers?.length ? ` · ${scn}` : '']),
@@ -284,7 +290,7 @@ function rerenderCard(card, m, S, ctx) {
   } else if (bettingOpen(m, S)) {
     const existing = ownBetCache.get(m.id);
     if (existing) {
-      const scn = (existing.scorers || []).map((id) => idx.get(String(id)) || '—');
+      const scn = (existing.scorers || []).map((id) => nameWithPos(id, S, idx));
       card.append(
         h('div', { class: 'bet-summary' }, [
           h('div', { class: 'row' }, [h('span', { text: 'Твоя ставка' }), h('span', { class: 'chip', text: `${existing.score.home}:${existing.score.away}` })]),
