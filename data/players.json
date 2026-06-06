@@ -941,7 +941,7 @@
   },
   "2279": {
     "name": "Ethan Ampadu",
-    "pos": "Midfielder",
+    "pos": "Defender",
     "team": "767"
   },
   "2285": {
@@ -2176,7 +2176,7 @@
   },
   "19329": {
     "name": "Daniel James",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "767"
   },
   "19331": {
@@ -4506,7 +4506,7 @@
   },
   "129711": {
     "name": "Brennan Johnson",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "767"
   },
   "129718": {
@@ -5751,7 +5751,7 @@
   },
   "307117": {
     "name": "Darío Osorio",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "2383"
   },
   "307123": {
@@ -6306,12 +6306,12 @@
   },
   "371790": {
     "name": "Maximiliano Gutiérrez",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "2383"
   },
   "373591": {
     "name": "Agustín Arce",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "2383"
   },
   "374058": {
@@ -6581,7 +6581,7 @@
   },
   "431884": {
     "name": "Kai Andrews",
-    "pos": "Defender",
+    "pos": "Midfielder",
     "team": "767"
   },
   "432841": {

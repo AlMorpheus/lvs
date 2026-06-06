@@ -3185,15 +3185,15 @@
       "pos": "Defender"
     },
     {
-      "id": 636,
-      "name": "Bernardo Silva",
-      "number": 10,
-      "pos": "Midfielder"
-    },
-    {
       "id": 190485,
       "name": "Samú Costa",
       "number": 24,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 636,
+      "name": "Bernardo Silva",
+      "number": 10,
       "pos": "Midfielder"
     },
     {
@@ -3255,12 +3255,6 @@
       "name": "Diogo Dalot",
       "number": 5,
       "pos": "Defender"
-    },
-    {
-      "id": 41621,
-      "name": "Matheus Nunes",
-      "number": 6,
-      "pos": "Midfielder"
     },
     {
       "id": 41112,
@@ -3775,9 +3769,9 @@
       "pos": "Goalkeeper"
     },
     {
-      "id": 431884,
-      "name": "Kai Andrews",
-      "number": 10,
+      "id": 138780,
+      "name": "Neco Williams",
+      "number": 3,
       "pos": "Defender"
     },
     {
@@ -3787,15 +3781,15 @@
       "pos": "Defender"
     },
     {
-      "id": 18331,
-      "name": "Rhys Norrington-Davies",
-      "number": 18,
+      "id": 2279,
+      "name": "Ethan Ampadu",
+      "number": 5,
       "pos": "Defender"
     },
     {
-      "id": 138780,
-      "name": "Neco Williams",
-      "number": 3,
+      "id": 18331,
+      "name": "Rhys Norrington-Davies",
+      "number": 18,
       "pos": "Defender"
     },
     {
@@ -3805,9 +3799,15 @@
       "pos": "Midfielder"
     },
     {
-      "id": 2279,
-      "name": "Ethan Ampadu",
-      "number": 5,
+      "id": 431884,
+      "name": "Kai Andrews",
+      "number": 10,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 129711,
+      "name": "Brennan Johnson",
+      "number": 11,
       "pos": "Midfielder"
     },
     {
@@ -3820,18 +3820,12 @@
       "id": 19329,
       "name": "Daniel James",
       "number": 20,
-      "pos": "Attacker"
+      "pos": "Midfielder"
     },
     {
       "id": 19804,
       "name": "Kieffer Moore",
       "number": 13,
-      "pos": "Attacker"
-    },
-    {
-      "id": 129711,
-      "name": "Brennan Johnson",
-      "number": 11,
       "pos": "Attacker"
     },
     {
@@ -7409,15 +7403,15 @@
       "pos": "Defender"
     },
     {
-      "id": 298165,
-      "name": "Felipe Loyola",
-      "number": 8,
+      "id": 371790,
+      "name": "Maximiliano Gutiérrez",
+      "number": 19,
       "pos": "Midfielder"
     },
     {
-      "id": 373591,
-      "name": "Agustín Arce",
-      "number": 25,
+      "id": 298165,
+      "name": "Felipe Loyola",
+      "number": 8,
       "pos": "Midfielder"
     },
     {
@@ -7427,10 +7421,10 @@
       "pos": "Midfielder"
     },
     {
-      "id": 371790,
-      "name": "Maximiliano Gutiérrez",
-      "number": 19,
-      "pos": "Attacker"
+      "id": 307117,
+      "name": "Darío Osorio",
+      "number": 11,
+      "pos": "Midfielder"
     },
     {
       "id": 201909,
@@ -7439,9 +7433,9 @@
       "pos": "Attacker"
     },
     {
-      "id": 307117,
-      "name": "Darío Osorio",
-      "number": 11,
+      "id": 373591,
+      "name": "Agustín Arce",
+      "number": 25,
       "pos": "Attacker"
     },
     {
