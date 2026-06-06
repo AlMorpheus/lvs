@@ -4807,6 +4807,18 @@
       "pos": "Attacker"
     },
     {
+      "id": 65361,
+      "name": "David Davidyan",
+      "number": 5,
+      "pos": "Defender"
+    },
+    {
+      "id": 192015,
+      "name": "Edgar Sevikyan",
+      "number": 7,
+      "pos": "Midfielder"
+    },
+    {
       "id": 284110,
       "name": "Aleksandr Mishiev",
       "number": 12,
@@ -4817,12 +4829,6 @@
       "name": "Henri Avagyan",
       "number": 16,
       "pos": "Goalkeeper"
-    },
-    {
-      "id": 65361,
-      "name": "David Davidyan",
-      "number": 5,
-      "pos": "Defender"
     },
     {
       "id": 575156,
@@ -4846,12 +4852,6 @@
       "id": 428082,
       "name": "Artem Bandikyan",
       "number": 2,
-      "pos": "Midfielder"
-    },
-    {
-      "id": 192015,
-      "name": "Edgar Sevikyan",
-      "number": 7,
       "pos": "Midfielder"
     },
     {
@@ -4971,6 +4971,24 @@
       "pos": "Goalkeeper"
     },
     {
+      "id": 311508,
+      "name": "Islam Chesnokov",
+      "number": 9,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 111503,
+      "name": "Dinmukhamed Karaman",
+      "number": 18,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 345424,
+      "name": "Abinur Nurymbet",
+      "number": 13,
+      "pos": "Midfielder"
+    },
+    {
       "id": 265533,
       "name": "Temirlan Anarbekov",
       "number": 12,
@@ -5001,27 +5019,9 @@
       "pos": "Defender"
     },
     {
-      "id": 311508,
-      "name": "Islam Chesnokov",
-      "number": 9,
-      "pos": "Midfielder"
-    },
-    {
       "id": 111862,
       "name": "Sagi Sovet",
       "number": 25,
-      "pos": "Midfielder"
-    },
-    {
-      "id": 111503,
-      "name": "Dinmukhamed Karaman",
-      "number": 18,
-      "pos": "Midfielder"
-    },
-    {
-      "id": 345424,
-      "name": "Abinur Nurymbet",
-      "number": 13,
       "pos": "Midfielder"
     },
     {
