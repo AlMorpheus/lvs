@@ -1819,7 +1819,7 @@
       "flag": "https://media.api-sports.io/football/teams/767.png"
     },
     "score": {
-      "home": 1,
+      "home": 0,
       "away": 0
     },
     "scoreReg": null,
