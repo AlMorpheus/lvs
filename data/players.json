@@ -1794,6 +1794,11 @@
     "pos": "Midfielder",
     "team": "6"
   },
+  "11371": {
+    "name": "I. Saavedra",
+    "pos": "Midfielder",
+    "team": "2383"
+  },
   "11421": {
     "name": "Gabriel Suazo",
     "pos": "Defender",
@@ -2143,6 +2148,11 @@
     "name": "J.  McGinn",
     "pos": "Midfielder",
     "team": "1108"
+  },
+  "19221": {
+    "name": "H. Wilson",
+    "pos": "Attacker",
+    "team": "767"
   },
   "19235": {
     "name": "D. Spence",
@@ -2624,6 +2634,11 @@
     "pos": "Defender",
     "team": "777"
   },
+  "30765": {
+    "name": "I. Radu",
+    "pos": "Goalkeeper",
+    "team": "774"
+  },
   "30776": {
     "name": "C. Romero",
     "pos": "Defender",
@@ -3082,6 +3097,11 @@
   "42589": {
     "name": "Ștefan Târnovanu",
     "pos": "Goalkeeper",
+    "team": "774"
+  },
+  "42999": {
+    "name": "C. Petrila",
+    "pos": "Attacker",
     "team": "774"
   },
   "43024": {
