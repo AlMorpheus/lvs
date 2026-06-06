@@ -902,15 +902,12 @@ textarea.input:focus {
   letter-spacing: -0.02em;
   color: var(--ink);
 }
-.lead-row.top1 {
+.lead-row.me {
   background: var(--lime);
 }
-.lead-row.top1 .rank,
-.lead-row.top1 .total {
+.lead-row.me .rank,
+.lead-row.me .total {
   color: var(--ink);
-}
-.lead-row.me {
-  box-shadow: inset 3px 0 0 var(--red);
 }
 
 .jackpot-note {
