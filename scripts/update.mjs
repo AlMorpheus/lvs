@@ -125,31 +125,43 @@ async function buildMatches() {
   // множители
   for (const m of matches) m.multiplier = matchMultiplier(m, ranksById, app.multipliers);
 
-  // extra-матчи (товарищеские/тест) — отдельно от ЧМ, НЕ влияют на «матч открытия»
-  for (const ex of overrides.extraFixtures || []) {
+  // extra-матчи (товарищеские/тест) — ОДИН батч-запрос, НЕ влияют на «матч открытия»
+  const extra = overrides.extraFixtures || [];
+  if (extra.length) {
+    const multById = {};
+    extra.forEach((e) => (multById[String(e.id)] = e.multiplier ?? 1));
+    let resp = [];
     try {
-      const resp = await api('/fixtures', { id: ex.id });
-      const f = resp[0];
-      if (!f) continue;
-      const prevM = prevById.get(String(f.fixture?.id));
-      matches.push({
-        id: String(f.fixture?.id),
-        date: f.fixture?.date,
-        status: f.fixture?.status?.short,
-        round: f.league?.name || 'Товарищеский матч',
-        roundKey: 'test',
-        stage: 'friendly',
-        isExtra: true,
-        home: { id: f.teams?.home?.id, name: f.teams?.home?.name, flag: f.teams?.home?.logo },
-        away: { id: f.teams?.away?.id, name: f.teams?.away?.name, flag: f.teams?.away?.logo },
-        score: f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null,
-        scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
-        finished: FINISHED.has(f.fixture?.status?.short),
-        scorers: prevM?.scorers || [],
-        multiplier: ex.multiplier ?? 1,
-      });
+      resp = await api('/fixtures', { ids: extra.map((e) => e.id).join('-') });
     } catch (e) {
-      console.warn('extra fixture', ex.id, e.message);
+      console.warn('extra fixtures batch:', e.message);
+    }
+    const byId = {};
+    for (const f of resp) byId[String(f.fixture?.id)] = f;
+    for (const e of extra) {
+      const id = String(e.id);
+      const f = byId[id];
+      if (f) {
+        const prevM = prevById.get(id);
+        matches.push({
+          id,
+          date: f.fixture?.date,
+          status: f.fixture?.status?.short,
+          round: f.league?.name || 'Товарищеский матч',
+          roundKey: 'test',
+          stage: 'friendly',
+          isExtra: true,
+          home: { id: f.teams?.home?.id, name: f.teams?.home?.name, flag: f.teams?.home?.logo },
+          away: { id: f.teams?.away?.id, name: f.teams?.away?.name, flag: f.teams?.away?.logo },
+          score: f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null,
+          scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
+          finished: FINISHED.has(f.fixture?.status?.short),
+          scorers: prevM?.scorers || [],
+          multiplier: multById[id],
+        });
+      } else if (prevById.get(id)) {
+        matches.push(prevById.get(id)); // API не отдал — берём прошлую версию, чтобы матч не исчез
+      }
     }
   }
 
@@ -183,7 +195,7 @@ async function fetchSquad(tid) {
   return players.map((p) => ({ id: p.id, name: p.name, pos: p.position, number: p.number }));
 }
 
-async function updateSquads(matches) {
+async function updateSquads(matches, doDailyRefresh) {
   const squads = readJSON('data/squads.json', {});
   const now = Date.now();
   const soon = now + 36 * 3600 * 1000;
@@ -202,14 +214,16 @@ async function updateSquads(matches) {
   const MAX = 14; // бережём дневную квоту API
   let fetched = 0;
 
-  // 1) обновляем заявки команд ближайших матчей (даже если уже в кэше)
-  for (const tid of priority) {
-    if (fetched >= MAX) break;
-    try {
-      const players = await fetchSquad(tid);
-      if (players.length) { squads[tid] = players; fetched++; }
-    } catch (e) {
-      console.warn(`Состав команды ${tid} не обновлён:`, e.message);
+  // 1) раз в день обновляем заявки команд ближайших матчей (травмы и т.п.)
+  if (doDailyRefresh) {
+    for (const tid of priority) {
+      if (fetched >= MAX) break;
+      try {
+        const players = await fetchSquad(tid);
+        if (players.length) { squads[tid] = players; fetched++; }
+      } catch (e) {
+        console.warn(`Состав команды ${tid} не обновлён:`, e.message);
+      }
     }
   }
   // 2) добираем отсутствующие
@@ -328,17 +342,19 @@ async function main() {
   const matches = await buildMatches();
   writeJSON('data/matches.json', matches);
 
-  const squads = await updateSquads(matches);
+  // составы освежаем не чаще раза в день (травмы), чтобы частый запуск не жёг квоту API
+  const today = new Date().toISOString().slice(0, 10);
+  app.tournament = app.tournament || {};
+  const doDailyRefresh = app.tournament.squadsRefreshedOn !== today;
+  const squads = await updateSquads(matches, doDailyRefresh);
   writeJSON('data/squads.json', squads);
 
-  // зафиксировать дату матча открытия в конфиге
+  // конфиг сохраняем всегда: дата матча открытия, метки времени
   const opening = matches.find((m) => m.isOpening);
-  if (opening) {
-    app.tournament = app.tournament || {};
-    app.tournament.openingKickoff = opening.date;
-    app.tournament.lastUpdated = new Date().toISOString();
-    writeJSON('config/app.json', app);
-  }
+  if (opening) app.tournament.openingKickoff = opening.date;
+  if (doDailyRefresh) app.tournament.squadsRefreshedOn = today;
+  app.tournament.lastUpdated = new Date().toISOString();
+  writeJSON('config/app.json', app);
 
   const bets = readAllBets(matches);
   writeReveals(matches, bets);
