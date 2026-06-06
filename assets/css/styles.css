@@ -684,6 +684,99 @@ textarea.input:focus {
   background: #cfcbc2;
   color: #5b5b62;
 }
+/* Раскрытые ставки участников */
+.reveal-entry {
+  padding: 11px 0;
+  border-top: 1px solid var(--line);
+}
+.reveal-entry:first-of-type {
+  border-top: none;
+}
+.reveal-entry.me {
+  background: var(--lime);
+  border-radius: 12px;
+  padding: 11px 12px;
+  margin: 4px -6px;
+  border-top: none;
+}
+.reveal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.reveal-who {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+.reveal-who b {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.96rem;
+}
+.you-tag {
+  flex: none;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+.reveal-entry.me .you-tag {
+  background: var(--green);
+}
+.reveal-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+}
+.rscore {
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+.reveal-scorers {
+  margin-top: 8px;
+}
+.reveal-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 100%;
+  margin-top: 10px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+.reveal-entry.me .reveal-toggle {
+  background: #fff;
+}
+.reveal-toggle.open {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+.reveal-chev {
+  font-size: 0.85em;
+  line-height: 1;
+}
+.reveal-bd:empty {
+  display: none;
+}
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -902,12 +995,97 @@ textarea.input:focus {
   letter-spacing: -0.02em;
   color: var(--ink);
 }
+.lead-row.clickable {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.12s;
+}
+.lead-row.clickable:hover {
+  background: var(--bg);
+}
+.lead-row .total {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.go-chev {
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: var(--muted);
+}
 .lead-row.me {
   background: var(--lime);
 }
 .lead-row.me .rank,
-.lead-row.me .total {
+.lead-row.me .total,
+.lead-row.me .go-chev {
   color: var(--ink);
+}
+
+/* История участника (оверлей по клику в таблице) */
+.history-overlay {
+  background: rgba(0, 0, 30, 0.55);
+  backdrop-filter: blur(6px);
+  align-items: start;
+  padding: 18px;
+}
+.history-card {
+  max-width: 560px;
+  max-height: calc(100dvh - 36px);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 18px;
+}
+.history-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.history-top h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.history-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 4px;
+}
+.hstat {
+  flex: 1 1 auto;
+  min-width: 64px;
+  text-align: center;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 9px 6px;
+}
+.hstat b {
+  display: block;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+.hstat small {
+  color: var(--muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.history-list {
+  overflow-y: auto;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.history-match {
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 14px;
 }
 
 .jackpot-note {

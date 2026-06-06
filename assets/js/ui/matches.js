@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=18';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=18';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=18';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=18';
-import { renderGreeting } from './greeting.js?v=18';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=19';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=19';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=19';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=19';
+import { renderGreeting } from './greeting.js?v=19';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -256,32 +256,45 @@ async function revealBlock(m, S, ctx, idx) {
   }
   const standRow = (uid) => (S.standings.table || []).find((r) => r.id === uid);
   const nameOf = (uid) => S.users.find((u) => u.id === uid)?.name || uid;
-  if (m.finished) wrap.append(h('div', { class: 'potential', text: 'Нажми на участника — покажу, как набраны очки.' }));
+  if (m.finished) wrap.append(h('div', { class: 'potential', text: 'Жми «Как набраны очки» под ставкой — покажу разбор.' }));
 
   // свои ставки сверху
   const entries = Object.entries(revealed).sort((a, b) => (a[0] === ctx.S.session.userId ? -1 : b[0] === ctx.S.session.userId ? 1 : 0));
   for (const [uid, bet] of entries) {
+    const me = uid === ctx.S.session.userId;
     const res = m.finished ? standRow(uid)?.perMatch?.[m.id] : null;
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
-    const scn = (bet.scorers || []).map((id) => nameWithPos(id, S, idx)).join(', ');
-    const caret = m.finished ? h('span', { class: 'caret', text: ' ▾' }) : '';
-    const head = h('div', { class: 'row' + (m.finished ? ' clickable' : '') + (uid === ctx.S.session.userId ? ' me' : '') }, [
-      h('span', {}, [h('b', { text: nameOf(uid) + (uid === ctx.S.session.userId ? ' · ты' : '') }), bet.scorers?.length ? ` · ${scn}` : '']),
-      h('span', {}, [`${bet.score.home}:${bet.score.away} `, pts, caret]),
+    const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
+
+    const entry = h('div', { class: 'reveal-entry' + (me ? ' me' : '') }, [
+      h('div', { class: 'reveal-head' }, [
+        h('div', { class: 'reveal-who' }, [h('b', { text: nameOf(uid) }), me ? h('span', { class: 'you-tag', text: 'я' }) : '']),
+        h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${bet.score.home}:${bet.score.away}` }), pts]),
+      ]),
+      scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
     ]);
-    const holder = h('div', {});
+
     if (m.finished) {
-      head.addEventListener('click', () => {
+      const holder = h('div', { class: 'reveal-bd' });
+      const label = h('span', { text: 'Как набраны очки' });
+      const chev = h('span', { class: 'reveal-chev', text: '▾' });
+      const toggle = h('button', { class: 'reveal-toggle', type: 'button' }, [label, chev]);
+      toggle.addEventListener('click', () => {
         if (holder.firstChild) {
           clear(holder);
-          caret.textContent = ' ▾';
+          toggle.classList.remove('open');
+          label.textContent = 'Как набраны очки';
+          chev.textContent = '▾';
         } else {
           holder.append(breakdownPanel(bet, m, S, idx));
-          caret.textContent = ' ▴';
+          toggle.classList.add('open');
+          label.textContent = 'Скрыть разбор';
+          chev.textContent = '▴';
         }
       });
+      entry.append(toggle, holder);
     }
-    wrap.append(head, holder);
+    wrap.append(entry);
   }
   return wrap;
 }
@@ -458,4 +471,68 @@ function renderGroups(container, matches, ctx, reverse) {
       container.append(card);
     }
   }
+}
+
+// История участника: все его сыгранные матчи с разбором очков (вызывается из таблицы).
+export async function openPlayerHistory(ctx, userId, name) {
+  const S = ctx.S;
+  const idx = buildPlayerIndex(S);
+  const row = (S.standings.table || []).find((r) => r.id === userId);
+
+  const card = h('div', { class: 'onboard-card history-card' });
+  const overlay = h('div', { class: 'onboard history-overlay' }, [card]);
+  const close = () => overlay.remove();
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) close();
+  });
+
+  card.append(
+    h('div', { class: 'history-top' }, [
+      h('h1', { text: name }),
+      h('button', { class: 'btn ghost small', text: 'Закрыть', onclick: close }),
+    ])
+  );
+
+  if (row) {
+    const stat = [h('div', { class: 'hstat' }, [h('b', { text: row.total }), h('small', { text: 'всего' })])];
+    if (row.matchPts != null) stat.push(h('div', { class: 'hstat' }, [h('b', { text: row.matchPts }), h('small', { text: 'за матчи' })]));
+    if (row.jackpotPts) stat.push(h('div', { class: 'hstat' }, [h('b', { text: '+' + row.jackpotPts }), h('small', { text: 'джекпоты' })]));
+    if (row.futuresPts) stat.push(h('div', { class: 'hstat' }, [h('b', { text: '+' + row.futuresPts }), h('small', { text: 'прогнозы' })]));
+    if (row.exactCount) stat.push(h('div', { class: 'hstat' }, [h('b', { text: row.exactCount }), h('small', { text: 'точных' })]));
+    card.append(h('div', { class: 'history-stats' }, stat));
+  }
+
+  const listHost = h('div', { class: 'history-list' }, [h('div', { class: 'potential', text: 'Загружаем историю…' })]);
+  card.append(listHost);
+  document.body.append(overlay);
+
+  const finished = S.matches.filter((m) => m.finished).sort((a, b) => new Date(b.date) - new Date(a.date));
+  clear(listHost);
+  let any = false;
+  for (const m of finished) {
+    let rev = null;
+    try {
+      rev = await loadRevealed(S.session, m.id);
+    } catch {}
+    const bet = rev && rev[userId];
+    if (!bet) continue;
+    any = true;
+    const res = row?.perMatch?.[m.id];
+    const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
+    listHost.append(
+      h('div', { class: 'history-match' }, [
+        h('div', { class: 'match-top' }, [
+          h('span', { text: fmtDateTime(m.date) }),
+          h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', pts]),
+        ]),
+        teamRow(m, idx, S),
+        h('div', { class: 'chips', style: 'margin-top:8px' }, [
+          h('span', { class: 'chip', text: `${bet.score.home}:${bet.score.away}` }),
+          ...(bet.scorers || []).map((id) => scorerChip(id, m, S, idx)),
+        ]),
+        breakdownPanel(bet, m, S, idx),
+      ])
+    );
+  }
+  if (!any) listHost.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Пока нет сыгранных матчей с раскрытыми ставками.' })]));
 }

@@ -1,5 +1,6 @@
 // Экран «Таблица»: лидерборд + разбивка очков + победители туров.
-import { h, clear } from './components.js?v=18';
+import { h, clear } from './components.js?v=19';
+import { openPlayerHistory } from './matches.js?v=19';
 
 const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉', 4: '🪵' };
 const ROUND_LABELS = {
@@ -38,13 +39,16 @@ export function renderTable(view, ctx) {
     if (row.futuresPts) sub.push(`Прогнозы +${row.futuresPts}`);
     if (row.exactCount) sub.push(`Точных ${row.exactCount}`);
     lead.append(
-      h('div', { class: 'lead-row' + (row.id === me ? ' me' : '') }, [
+      h('div', {
+        class: 'lead-row clickable' + (row.id === me ? ' me' : ''),
+        onclick: () => openPlayerHistory(ctx, row.id, row.name),
+      }, [
         h('div', { class: 'rank' }, MEDALS[row.rank] ? h('span', { class: 'medal', text: MEDALS[row.rank] }) : String(row.rank)),
         h('div', { class: 'who' }, [
           h('b', { text: row.name }),
           h('small', { text: sub.join(' · ') }),
         ]),
-        h('div', { class: 'total', text: row.total }),
+        h('div', { class: 'total' }, [String(row.total), h('span', { class: 'go-chev', text: '›' })]),
       ])
     );
   }
