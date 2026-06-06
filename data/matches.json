@@ -17,6 +17,7 @@
       "flag": "https://media.api-sports.io/football/teams/1531.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -41,6 +42,7 @@
       "flag": "https://media.api-sports.io/football/teams/770.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -64,6 +66,7 @@
       "flag": "https://media.api-sports.io/football/teams/1113.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -87,6 +90,7 @@
       "flag": "https://media.api-sports.io/football/teams/2380.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -110,6 +114,7 @@
       "flag": "https://media.api-sports.io/football/teams/15.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -133,6 +138,7 @@
       "flag": "https://media.api-sports.io/football/teams/31.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -156,6 +162,7 @@
       "flag": "https://media.api-sports.io/football/teams/1108.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -179,6 +186,7 @@
       "flag": "https://media.api-sports.io/football/teams/777.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -202,6 +210,7 @@
       "flag": "https://media.api-sports.io/football/teams/5530.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -225,6 +234,7 @@
       "flag": "https://media.api-sports.io/football/teams/12.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -248,6 +258,7 @@
       "flag": "https://media.api-sports.io/football/teams/2382.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -271,6 +282,7 @@
       "flag": "https://media.api-sports.io/football/teams/28.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -294,6 +306,7 @@
       "flag": "https://media.api-sports.io/football/teams/1533.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -317,6 +330,7 @@
       "flag": "https://media.api-sports.io/football/teams/32.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -340,6 +354,7 @@
       "flag": "https://media.api-sports.io/football/teams/7.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -363,6 +378,7 @@
       "flag": "https://media.api-sports.io/football/teams/4673.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -386,6 +402,7 @@
       "flag": "https://media.api-sports.io/football/teams/13.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -409,6 +426,7 @@
       "flag": "https://media.api-sports.io/football/teams/1090.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -432,6 +450,7 @@
       "flag": "https://media.api-sports.io/football/teams/1532.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -455,6 +474,7 @@
       "flag": "https://media.api-sports.io/football/teams/1548.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -478,6 +498,7 @@
       "flag": "https://media.api-sports.io/football/teams/1508.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -501,6 +522,7 @@
       "flag": "https://media.api-sports.io/football/teams/3.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -524,6 +546,7 @@
       "flag": "https://media.api-sports.io/football/teams/11.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -547,6 +570,7 @@
       "flag": "https://media.api-sports.io/football/teams/8.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -570,6 +594,7 @@
       "flag": "https://media.api-sports.io/football/teams/1531.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -593,6 +618,7 @@
       "flag": "https://media.api-sports.io/football/teams/1113.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -616,6 +642,7 @@
       "flag": "https://media.api-sports.io/football/teams/1569.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -639,6 +666,7 @@
       "flag": "https://media.api-sports.io/football/teams/17.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -662,6 +690,7 @@
       "flag": "https://media.api-sports.io/football/teams/20.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -685,6 +714,7 @@
       "flag": "https://media.api-sports.io/football/teams/31.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -708,6 +738,7 @@
       "flag": "https://media.api-sports.io/football/teams/2386.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -731,6 +762,7 @@
       "flag": "https://media.api-sports.io/football/teams/2380.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -754,6 +786,7 @@
       "flag": "https://media.api-sports.io/football/teams/5.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -777,6 +810,7 @@
       "flag": "https://media.api-sports.io/football/teams/1501.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -800,6 +834,7 @@
       "flag": "https://media.api-sports.io/football/teams/5530.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -823,6 +858,7 @@
       "flag": "https://media.api-sports.io/football/teams/12.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -846,6 +882,7 @@
       "flag": "https://media.api-sports.io/football/teams/23.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -869,6 +906,7 @@
       "flag": "https://media.api-sports.io/football/teams/22.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -892,6 +930,7 @@
       "flag": "https://media.api-sports.io/football/teams/1533.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -915,6 +954,7 @@
       "flag": "https://media.api-sports.io/football/teams/32.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -938,6 +978,7 @@
       "flag": "https://media.api-sports.io/football/teams/775.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -961,6 +1002,7 @@
       "flag": "https://media.api-sports.io/football/teams/1567.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -984,6 +1026,7 @@
       "flag": "https://media.api-sports.io/football/teams/13.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1007,6 +1050,7 @@
       "flag": "https://media.api-sports.io/football/teams/1532.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1030,6 +1074,7 @@
       "flag": "https://media.api-sports.io/football/teams/1568.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1053,6 +1098,7 @@
       "flag": "https://media.api-sports.io/football/teams/1504.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1076,6 +1122,7 @@
       "flag": "https://media.api-sports.io/football/teams/3.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1099,6 +1146,7 @@
       "flag": "https://media.api-sports.io/football/teams/1508.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1122,6 +1170,7 @@
       "flag": "https://media.api-sports.io/football/teams/5529.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1145,6 +1194,7 @@
       "flag": "https://media.api-sports.io/football/teams/1569.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1168,6 +1218,7 @@
       "flag": "https://media.api-sports.io/football/teams/2386.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1191,6 +1242,7 @@
       "flag": "https://media.api-sports.io/football/teams/6.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1214,6 +1266,7 @@
       "flag": "https://media.api-sports.io/football/teams/16.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1237,6 +1290,7 @@
       "flag": "https://media.api-sports.io/football/teams/17.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1260,6 +1314,7 @@
       "flag": "https://media.api-sports.io/football/teams/25.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1283,6 +1338,7 @@
       "flag": "https://media.api-sports.io/football/teams/1501.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1306,6 +1362,7 @@
       "flag": "https://media.api-sports.io/football/teams/5.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1329,6 +1386,7 @@
       "flag": "https://media.api-sports.io/football/teams/1118.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1352,6 +1410,7 @@
       "flag": "https://media.api-sports.io/football/teams/2384.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1375,6 +1434,7 @@
       "flag": "https://media.api-sports.io/football/teams/20.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1398,6 +1458,7 @@
       "flag": "https://media.api-sports.io/football/teams/1567.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1421,6 +1482,7 @@
       "flag": "https://media.api-sports.io/football/teams/2.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1444,6 +1506,7 @@
       "flag": "https://media.api-sports.io/football/teams/9.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1467,6 +1530,7 @@
       "flag": "https://media.api-sports.io/football/teams/23.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1490,6 +1554,7 @@
       "flag": "https://media.api-sports.io/football/teams/22.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1513,6 +1578,7 @@
       "flag": "https://media.api-sports.io/football/teams/1.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1536,6 +1602,7 @@
       "flag": "https://media.api-sports.io/football/teams/1504.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1559,6 +1626,7 @@
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1582,6 +1650,7 @@
       "flag": "https://media.api-sports.io/football/teams/27.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1605,6 +1674,7 @@
       "flag": "https://media.api-sports.io/football/teams/1568.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1628,6 +1698,7 @@
       "flag": "https://media.api-sports.io/football/teams/775.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
@@ -1651,6 +1722,7 @@
       "flag": "https://media.api-sports.io/football/teams/26.png"
     },
     "score": null,
+    "scoreReg": null,
     "finished": false,
     "scorers": [],
     "multiplierOverride": null,
