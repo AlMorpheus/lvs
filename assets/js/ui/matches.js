@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=19';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=19';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=19';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=19';
-import { renderGreeting } from './greeting.js?v=19';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=20';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=20';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=20';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=20';
+import { renderGreeting } from './greeting.js?v=20';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -426,27 +426,33 @@ export async function renderMatches(view, ctx) {
     })
   );
 
-  // Фокус — на предстоящих; сыгранные/идущие — в свёрнутый архив
+  // Идущие сейчас — всегда вверху; затем предстоящие; завершённые — в свёрнутый архив
+  const live = S.matches.filter((m) => started(m) && !m.finished);
   const upcoming = S.matches.filter((m) => !started(m));
-  const archived = S.matches.filter((m) => started(m));
+  const finished = S.matches.filter((m) => m.finished);
+
+  if (live.length) {
+    listWrap.append(h('div', { class: 'live-banner' }, [h('span', { class: 'live-dot' }), 'Идут сейчас']));
+    renderGroups(listWrap, live, ctx, false);
+  }
 
   if (upcoming.length) {
     renderGroups(listWrap, upcoming, ctx, false);
-  } else {
+  } else if (!live.length) {
     listWrap.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Предстоящих матчей нет — смотри архив ниже.' })]));
   }
 
-  if (archived.length) {
+  if (finished.length) {
     const archWrap = h('div', { id: 'archWrap', hidden: true });
     const toggle = h('button', { class: 'archive-toggle' });
-    const setLabel = () => (toggle.textContent = `${archWrap.hidden ? '▸' : '▾'} Сыгранные и идущие матчи (${archived.length})`);
+    const setLabel = () => (toggle.textContent = `${archWrap.hidden ? '▸' : '▾'} Сыгранные матчи (${finished.length})`);
     toggle.addEventListener('click', () => {
       archWrap.hidden = !archWrap.hidden;
       setLabel();
     });
     setLabel();
     // в архиве — последние сверху
-    renderGroups(archWrap, archived, ctx, true);
+    renderGroups(archWrap, finished, ctx, true);
     listWrap.append(h('div', { class: 'archive-section' }, [toggle, archWrap]));
   }
 }

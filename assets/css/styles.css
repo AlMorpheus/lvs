@@ -492,6 +492,34 @@ textarea.input:focus {
   border-radius: 10px;
 }
 
+/* Заголовок «Идут сейчас» над текущими матчами */
+.live-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 4px 0 12px;
+  background: var(--red);
+  color: #fff;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 8px 14px;
+  border-radius: 10px;
+}
+.live-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #fff;
+  animation: live-pulse 1.2s ease-in-out infinite;
+}
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.7); }
+}
+
 .match {
   background: var(--paper);
   border-radius: var(--r);
