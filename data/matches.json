@@ -1776,7 +1776,7 @@
   {
     "id": "1528286",
     "date": "2026-06-06T17:45:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1795,9 +1795,34 @@
       "home": 2,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "scorers": [],
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "scorers": [
+      {
+        "playerId": 925,
+        "name": "G. Guedes",
+        "teamId": 27,
+        "minute": 58,
+        "type": "normal"
+      },
+      {
+        "playerId": 1485,
+        "name": "B. Fernandes",
+        "teamId": 27,
+        "minute": 75,
+        "type": "normal"
+      },
+      {
+        "playerId": 318592,
+        "name": "L. Cepeda",
+        "teamId": 2383,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplier": 1
   },
   {
