@@ -35,14 +35,14 @@ const SS_KEY = 'lvs.session';
 
 export function getSession() {
   if (_session) return _session;
-  const raw = sessionStorage.getItem(SS_KEY);
+  const raw = localStorage.getItem(SS_KEY);
   if (!raw) return null;
   try {
     const s = JSON.parse(raw);
     _session = { userId: s.userId, name: s.name, token: s.token, sk: b64ToBytes(s.sk), userKey: b64ToBytes(s.userKey) };
     return _session;
   } catch {
-    sessionStorage.removeItem(SS_KEY);
+    localStorage.removeItem(SS_KEY);
     return null;
   }
 }
@@ -64,7 +64,7 @@ export async function login(userId, password) {
   }
 
   _session = { userId, name: user.name, token, sk, userKey };
-  sessionStorage.setItem(
+  localStorage.setItem(
     SS_KEY,
     JSON.stringify({ userId, name: user.name, token, sk: bytesToB64(sk), userKey: bytesToB64(userKey) })
   );
@@ -73,5 +73,5 @@ export async function login(userId, password) {
 
 export function logout() {
   _session = null;
-  sessionStorage.removeItem(SS_KEY);
+  localStorage.removeItem(SS_KEY);
 }
