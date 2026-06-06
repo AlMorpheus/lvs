@@ -1776,7 +1776,7 @@
   {
     "id": "1528286",
     "date": "2026-06-06T17:45:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1791,7 +1791,10 @@
       "name": "Chile",
       "flag": "https://media.api-sports.io/football/teams/2383.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "scorers": [],
