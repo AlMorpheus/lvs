@@ -1,8 +1,9 @@
 // Экран «Таблица»: лидерборд + разбивка очков + победители туров.
-import { h, clear } from './components.js?v=6';
+import { h, clear } from './components.js?v=7';
 
 const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉', 4: '🪵' };
 const ROUND_LABELS = {
+  test: 'Тест',
   'group-1': 'Групповой 1 тур',
   'group-2': 'Групповой 2 тур',
   'group-3': 'Групповой 3 тур',

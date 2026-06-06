@@ -1727,5 +1727,77 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
+  },
+  {
+    "id": "1528286",
+    "date": "2026-06-06T17:45:00+00:00",
+    "status": "NS",
+    "round": "Friendlies",
+    "roundKey": "test",
+    "stage": "friendly",
+    "isExtra": true,
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 2383,
+      "name": "Chile",
+      "flag": "https://media.api-sports.io/football/teams/2383.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "scorers": [],
+    "multiplier": 1
+  },
+  {
+    "id": "1542180",
+    "date": "2026-06-06T17:45:00+00:00",
+    "status": "NS",
+    "round": "Friendlies",
+    "roundKey": "test",
+    "stage": "friendly",
+    "isExtra": true,
+    "home": {
+      "id": 774,
+      "name": "Romania",
+      "flag": "https://media.api-sports.io/football/teams/774.png"
+    },
+    "away": {
+      "id": 767,
+      "name": "Wales",
+      "flag": "https://media.api-sports.io/football/teams/767.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "scorers": [],
+    "multiplier": 1.3
+  },
+  {
+    "id": "1502474",
+    "date": "2026-06-06T18:30:00+00:00",
+    "status": "NS",
+    "round": "Friendlies",
+    "roundKey": "test",
+    "stage": "friendly",
+    "isExtra": true,
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 25,
+      "name": "Germany",
+      "flag": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "scorers": [],
+    "multiplier": 1.6
   }
 ]

@@ -1,12 +1,12 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=6';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=6';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=6';
-import { renderLogin } from './ui/login.js?v=6';
-import { renderMatches } from './ui/matches.js?v=6';
-import { renderTable } from './ui/table.js?v=6';
-import { renderRules } from './ui/rules.js?v=6';
-import { maybeOnboard } from './ui/onboarding.js?v=6';
+import { initCrypto } from './crypto.js?v=7';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=7';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=7';
+import { renderLogin } from './ui/login.js?v=7';
+import { renderMatches } from './ui/matches.js?v=7';
+import { renderTable } from './ui/table.js?v=7';
+import { renderRules } from './ui/rules.js?v=7';
+import { maybeOnboard } from './ui/onboarding.js?v=7';
 
 const root = document.getElementById('root');
 

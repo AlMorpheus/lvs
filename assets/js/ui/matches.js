@@ -1,12 +1,13 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=6';
-import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=6';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=6';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=6';
-import { renderGreeting } from './greeting.js?v=6';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=7';
+import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=7';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=7';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=7';
+import { renderGreeting } from './greeting.js?v=7';
 
-const ROUND_ORDER = ['group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
+const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
+  test: 'Товарищеские (тест)',
   'group-1': 'Групповой этап · 1 тур',
   'group-2': 'Групповой этап · 2 тур',
   'group-3': 'Групповой этап · 3 тур',

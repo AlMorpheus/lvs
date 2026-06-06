@@ -106,8 +106,15 @@
       "finished": 0,
       "winners": [],
       "leadPts": 0
+    },
+    "test": {
+      "key": "test",
+      "total": 3,
+      "finished": 0,
+      "winners": [],
+      "leadPts": 0
     }
   },
   "tournamentResult": null,
-  "updatedAt": "2026-06-06T10:16:59.332Z"
+  "updatedAt": "2026-06-06T11:37:23.493Z"
 }

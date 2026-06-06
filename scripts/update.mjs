@@ -125,6 +125,34 @@ async function buildMatches() {
   // множители
   for (const m of matches) m.multiplier = matchMultiplier(m, ranksById, app.multipliers);
 
+  // extra-матчи (товарищеские/тест) — отдельно от ЧМ, НЕ влияют на «матч открытия»
+  for (const ex of overrides.extraFixtures || []) {
+    try {
+      const resp = await api('/fixtures', { id: ex.id });
+      const f = resp[0];
+      if (!f) continue;
+      const prevM = prevById.get(String(f.fixture?.id));
+      matches.push({
+        id: String(f.fixture?.id),
+        date: f.fixture?.date,
+        status: f.fixture?.status?.short,
+        round: f.league?.name || 'Товарищеский матч',
+        roundKey: 'test',
+        stage: 'friendly',
+        isExtra: true,
+        home: { id: f.teams?.home?.id, name: f.teams?.home?.name, flag: f.teams?.home?.logo },
+        away: { id: f.teams?.away?.id, name: f.teams?.away?.name, flag: f.teams?.away?.logo },
+        score: f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null,
+        scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
+        finished: FINISHED.has(f.fixture?.status?.short),
+        scorers: prevM?.scorers || [],
+        multiplier: ex.multiplier ?? 1,
+      });
+    } catch (e) {
+      console.warn('extra fixture', ex.id, e.message);
+    }
+  }
+
   // авторы голов — только для завершённых без кэша
   for (const m of matches) {
     if (m.finished && (!m.scorers || !m.scorers.length)) {
