@@ -1731,7 +1731,7 @@
   {
     "id": "1537649",
     "date": "2026-06-06T14:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1746,7 +1746,10 @@
       "name": "Kazakhstan",
       "flag": "https://media.api-sports.io/football/teams/1095.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "scorers": [],
