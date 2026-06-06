@@ -37,11 +37,11 @@ function translit(s) {
 
 const ALPHABET = '23456789abcdefghjkmnpqrstuvwxyz'; // без похожих символов
 function password() {
-  const need = 16;
+  const need = 8;
   const bytes = sodium.randombytes_buf(need);
   let s = '';
   for (let i = 0; i < need; i++) s += ALPHABET[bytes[i] % ALPHABET.length];
-  return s.match(/.{1,4}/g).join('-'); // xxxx-xxxx-xxxx-xxxx
+  return s.match(/.{1,4}/g).join('-'); // xxxx-xxxx (короткий, удобный для ввода)
 }
 
 function wrap(plainBytesOrStr, key) {
