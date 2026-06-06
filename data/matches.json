@@ -1880,7 +1880,7 @@
   {
     "id": "1502474",
     "date": "2026-06-06T18:30:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1899,9 +1899,34 @@
       "home": 1,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "scorers": [],
+    "scoreReg": {
+      "home": 1,
+      "away": 2
+    },
+    "finished": true,
+    "scorers": [
+      {
+        "playerId": 978,
+        "name": "K. Havertz",
+        "teamId": 25,
+        "minute": 2,
+        "type": "normal"
+      },
+      {
+        "playerId": 19549,
+        "name": "A. Robinson",
+        "teamId": 2384,
+        "minute": 37,
+        "type": "normal"
+      },
+      {
+        "playerId": 644,
+        "name": "L. Sane",
+        "teamId": 25,
+        "minute": 57,
+        "type": "normal"
+      }
+    ],
     "multiplier": 1.6
   }
 ]
