@@ -1,0 +1,16 @@
+{
+  "name": "lvs-wc2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Кубок друзей · турнир прогнозов на ЧМ-2026 (статический сайт на GitHub Pages)",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "update": "node scripts/update.mjs",
+    "test": "node scripts/test-scoring.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "dependencies": {
+    "libsodium-wrappers-sumo": "^0.7.15"
+  }
+}

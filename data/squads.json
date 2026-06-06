@@ -1,0 +1,50 @@
+{
+  "1": [
+    { "id": 110, "name": "Santiago Giménez", "pos": "Attacker", "number": 9 },
+    { "id": 111, "name": "Hirving Lozano", "pos": "Attacker", "number": 22 },
+    { "id": 112, "name": "Edson Álvarez", "pos": "Midfielder", "number": 4 }
+  ],
+  "2": [
+    { "id": 210, "name": "Luka Modrić", "pos": "Midfielder", "number": 10 },
+    { "id": 211, "name": "Andrej Kramarić", "pos": "Attacker", "number": 9 },
+    { "id": 212, "name": "Joško Gvardiol", "pos": "Defender", "number": 20 }
+  ],
+  "3": [
+    { "id": 310, "name": "Lamine Yamal", "pos": "Attacker", "number": 19 },
+    { "id": 311, "name": "Álvaro Morata", "pos": "Attacker", "number": 7 },
+    { "id": 312, "name": "Rodri", "pos": "Midfielder", "number": 16 }
+  ],
+  "4": [
+    { "id": 410, "name": "Lionel Messi", "pos": "Attacker", "number": 10 },
+    { "id": 411, "name": "Julián Álvarez", "pos": "Attacker", "number": 9 },
+    { "id": 412, "name": "Lautaro Martínez", "pos": "Attacker", "number": 22 }
+  ],
+  "5": [
+    { "id": 510, "name": "Kylian Mbappé", "pos": "Attacker", "number": 10 },
+    { "id": 511, "name": "Ousmane Dembélé", "pos": "Attacker", "number": 11 },
+    { "id": 512, "name": "Aurélien Tchouaméni", "pos": "Midfielder", "number": 8 }
+  ],
+  "6": [
+    { "id": 610, "name": "Salem Al-Dawsari", "pos": "Attacker", "number": 10 },
+    { "id": 611, "name": "Firas Al-Buraikan", "pos": "Attacker", "number": 9 }
+  ],
+  "7": [
+    { "id": 710, "name": "Vinícius Júnior", "pos": "Attacker", "number": 7 },
+    { "id": 711, "name": "Rodrygo", "pos": "Attacker", "number": 10 },
+    { "id": 712, "name": "Raphinha", "pos": "Attacker", "number": 11 }
+  ],
+  "8": [
+    { "id": 810, "name": "Cristiano Ronaldo", "pos": "Attacker", "number": 7 },
+    { "id": 811, "name": "Rafael Leão", "pos": "Attacker", "number": 15 },
+    { "id": 812, "name": "Bruno Fernandes", "pos": "Midfielder", "number": 8 }
+  ],
+  "9": [
+    { "id": 901, "name": "Florian Wirtz", "pos": "Midfielder", "number": 10 },
+    { "id": 902, "name": "Kai Havertz", "pos": "Attacker", "number": 7 },
+    { "id": 903, "name": "Jamal Musiala", "pos": "Midfielder", "number": 14 }
+  ],
+  "10": [
+    { "id": 1001, "name": "Christian Pulisic", "pos": "Attacker", "number": 10 },
+    { "id": 1002, "name": "Folarin Balogun", "pos": "Attacker", "number": 9 }
+  ]
+}

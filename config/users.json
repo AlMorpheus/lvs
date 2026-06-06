@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "id": "albert",
+      "name": "Альберт",
+      "salt": "inlzixso6168yeNcyzQenw==",
+      "wrappedToken": {
+        "nonce": "Xj+Dr4L1lycgiELMEDkstTLGecf6Yc2/",
+        "cipher": "+QLFHzXf93KnEuskRHRON/NR3KRPX4Zt5pAi3ZWzMJh4YQ2sv3n9OdvrUyWaxH5JHy+oUKTk8++lJcnudxN3hidKGYaygbXgpKRfNo+PvJAhIT7TiZbCwgrnZw3wM+kSEbovJCl4Ozb8z5ORng=="
+      },
+      "wrappedSK": {
+        "nonce": "BGnRoULn2yEWt38U5whOseBZiXId6Jim",
+        "cipher": "BpfrO6a/ZTPLgKC/omqpxRrkG/HIob3JW2c1WdzBPo6YzkjtNoVO5XVv0ndCwDx7"
+      }
+    },
+    {
+      "id": "sasha",
+      "name": "Саша",
+      "salt": "mmZLZF7CXXJBGQODL4tOLg==",
+      "wrappedToken": {
+        "nonce": "Y1HOhGEzjFI3IIvp+rNjBQBQ+KGOpGat",
+        "cipher": "EDkvfyWwwciTukTQl1qLpvlzNNAHf8dOsQJqGKIQBIbxtjFtzFeQQEn6rGwqzlbIRdSSdh2GodgwOX4CSMN8KTHSD09aPeDRZrhtLAb3VrZ/UvLtcnRqaOgyty1x8c1rqMXJh58KKhPcdGIwkg=="
+      },
+      "wrappedSK": {
+        "nonce": "x3nTRR7+FUKe8tzIIJfcks7FVdcJ9SUu",
+        "cipher": "Abz/RPoBP9t4G+udwHfkmOMKxmvq5auUyex1CbbjRROqcyF5tXgGWcIc1m4zhFq2"
+      }
+    },
+    {
+      "id": "vadim",
+      "name": "Вадим",
+      "salt": "c/EhfchWZ6aQFfeoY0fZTw==",
+      "wrappedToken": {
+        "nonce": "hCChDpIKV00gezzgNz3/1iwlzJbRWlEe",
+        "cipher": "O+92zXBdkjVIcxCaKNhmK61SbXH6AjZK4zD+DzGkkqD4gBt3Da8XDgQZ0UdUrnlNc0WvMYS+bFy0WqyksEJyI0idacLWfZOUzVdiGv45jCebVbiNugeppenprX6KQd4Ttq0a37TaJQtUr2Tk3A=="
+      },
+      "wrappedSK": {
+        "nonce": "6ogGLsxHA6HDjIVHLsEUiXRkDwWsaZD6",
+        "cipher": "aEf3lN/nuv9e0lAnVzGDvI5ZyY8zJEEqZd6Ju9FfbebWrKeUVpD9Tp1a5Y9UZ/9q"
+      }
+    },
+    {
+      "id": "sergey",
+      "name": "Сергей",
+      "salt": "bSlZuQg6BvpcJEQtz/o4/A==",
+      "wrappedToken": {
+        "nonce": "9gD8wtkKRP2Ez0RsR7GBTCS7Pg3m7S4c",
+        "cipher": "dONUqR1jdDsyJEtD1MJLELVFQsY5bptM3JElCr6j++xn6BVfRfn3W0quVtCTzd9TZ2s9BJOTGF8yQlpcvnr5XbGGsAJggaRDEKyyM+8xTEZ4w5xWjJ2fiuWf4g9DLor5iu7ZNuLvGUMok4/SVg=="
+      },
+      "wrappedSK": {
+        "nonce": "UB36ypqsUd4c4OE530Iikikk/4+rxE0d",
+        "cipher": "gheovm6zfGMw7kuAdFpYg+5vyEjRWkWoDFAgWHKeVZDyvb6+ckT/I+mWY4OlBsIk"
+      }
+    },
+    {
+      "id": "dasha",
+      "name": "Даша",
+      "salt": "R+wk8Gc+XLBqAPF5cwPkCA==",
+      "wrappedToken": {
+        "nonce": "I3wzlzucZKx1mv4dT17UczbZuV2WqqT9",
+        "cipher": "QeMLi1+6Cydolnom1UJhh538MaCnVCEsaxwVxR4xyIanc3hyfBx4VrqFTaRooEWzItzrevMSN5NOQTAiZARuEcJ/n0WWRJtpcRKmUA1+8eHM1jmWKfomPy9LeXzRD14S3imLqUESwRkgcshUpg=="
+      },
+      "wrappedSK": {
+        "nonce": "Z7+dNM1kPvaRJ3Ik1VDKKHW1HkYZPtaQ",
+        "cipher": "AWbpqjmFcF4wGnnKeqTRWR/uEwPq7Sx+h9llDe7W3rOMYp2W/SRDeXfvjlxVUKyq"
+      }
+    },
+    {
+      "id": "liza",
+      "name": "Лиза",
+      "salt": "kdKIF3Dmu/XCrHfR03eChw==",
+      "wrappedToken": {
+        "nonce": "v/jH3NVpKY4Tn0nlSaKuMji152E0ErTZ",
+        "cipher": "zp/zY0rCiCza/BUnE0HdhBiGGyqLyy7rdRtFLQbxau/bJiKn2ellhv69NtdpZwjLJlH6jw3GmD9QiUiUfUj88CxQFljcmvTompPGq3BlEVZH0cX2CqMm54VkoULv/c8dwnnDT7iZ3UbjlwQX8w=="
+      },
+      "wrappedSK": {
+        "nonce": "umr0oMfb+KckEJYKW6aNT9NlnsXUmiYc",
+        "cipher": "wi/7w3kF09iTbsDomw7lQNmIFlFcBCj++0SYPy3fSorlU6us5F4vxeDCXulhYbKK"
+      }
+    },
+    {
+      "id": "lysyy",
+      "name": "Лысый",
+      "salt": "aX+bAGHMZ90yopnsgBmYQA==",
+      "wrappedToken": {
+        "nonce": "CNcYyT6CQKPuwhuGtsLGxBCrh/XSIr1J",
+        "cipher": "F9+oDg7XewlQUa3q51jHSizn+mMyT5Y4DK5VtrlVG58ip7fpISy3bwkkHkPAfC5yx6uuzMFonNI1iZSbcG7K2o7f517TxkjLlks0JfWUcuN7weBKWxenWaBrnCpdtiktXZge1Xf3sGylB1/Gkw=="
+      },
+      "wrappedSK": {
+        "nonce": "HX0nJTXFX+Gl9ifixI9oXCaX0sCJRB4x",
+        "cipher": "vLD7O/rgRVkZCaAvxJJpAD0MSvawsJ1CodfdvsXguE3huD2xTDzw1mlYW1qoYxIy"
+      }
+    }
+  ]
+}

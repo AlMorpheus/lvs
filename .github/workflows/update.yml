@@ -1,0 +1,49 @@
+name: Update results & standings
+
+on:
+  schedule:
+    - cron: '7 * * * *' # каждый час (в :07)
+  workflow_dispatch: {} # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # нужна история для проверки времени коммита ставок
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm install --no-audit --no-fund
+
+      - name: Run update
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          ACTION_PRIVATE_KEY: ${{ secrets.ACTION_PRIVATE_KEY }}
+          SHARED_KEY: ${{ secrets.SHARED_KEY }}
+        run: node scripts/update.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "wc2026-bot"
+          git config user.email "actions@github.com"
+          git add data/ config/app.json
+          if git diff --cached --quiet; then
+            echo "Изменений нет."
+          else
+            git commit -m "auto: обновление результатов и таблицы"
+            git push
+          fi

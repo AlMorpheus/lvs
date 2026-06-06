@@ -1,0 +1,920 @@
+/* ============================================================
+   Кубок друзей · ЧМ-2026 — дизайн-система (яркий стиль турнира)
+   Mobile-first, затем десктоп. Боковое меню превращается в drawer.
+   ============================================================ */
+
+:root {
+  /* Палитра в духе официального бренда ЧМ-2026: сочные градиенты */
+  --pink: #ff2d78;
+  --magenta: #e0218a;
+  --purple: #7c3aed;
+  --violet: #9333ea;
+  --blue: #2563eb;
+  --cyan: #06b6d4;
+  --teal: #14b8a6;
+  --lime: #84cc16;
+  --gold: #fbbf24;
+  --orange: #fb7185;
+
+  --ink: #14082b;
+  --ink-soft: #4b3a63;
+  --muted: #8b7da3;
+  --line: #ece6f5;
+  --bg: #f5f3fb;
+  --card: #ffffff;
+  --white: #ffffff;
+
+  --grad-brand: linear-gradient(135deg, #ff2d78 0%, #9333ea 45%, #2563eb 100%);
+  --grad-brand-2: linear-gradient(135deg, #06b6d4 0%, #7c3aed 60%, #ff2d78 100%);
+  --grad-sun: linear-gradient(135deg, #fbbf24 0%, #fb7185 100%);
+  --grad-pitch: linear-gradient(135deg, #14b8a6 0%, #2563eb 100%);
+
+  --radius: 18px;
+  --radius-sm: 12px;
+  --shadow: 0 10px 30px rgba(46, 16, 84, 0.12);
+  --shadow-sm: 0 4px 14px rgba(46, 16, 84, 0.08);
+  --sidebar-w: 264px;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.45;
+}
+a {
+  color: var(--purple);
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+h1,
+h2,
+h3 {
+  margin: 0 0 0.4em;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Загрузка ---------- */
+.boot {
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 12px;
+  color: var(--muted);
+  background: var(--grad-brand);
+  color: #fff;
+}
+.boot-ball {
+  font-size: 56px;
+  animation: spin 1.4s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ============================================================
+   ЭКРАН ВХОДА
+   ============================================================ */
+.login {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--grad-brand);
+  position: relative;
+  overflow: hidden;
+}
+.login::before,
+.login::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(8px);
+  opacity: 0.45;
+}
+.login::before {
+  width: 320px;
+  height: 320px;
+  background: var(--grad-sun);
+  top: -120px;
+  right: -80px;
+}
+.login::after {
+  width: 280px;
+  height: 280px;
+  background: var(--grad-pitch);
+  bottom: -120px;
+  left: -90px;
+}
+.login-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  border-radius: 24px;
+  padding: 28px 24px;
+  box-shadow: 0 24px 60px rgba(10, 0, 40, 0.35);
+}
+.login-logo {
+  font-size: 40px;
+  text-align: center;
+}
+.login-card h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.login-sub {
+  text-align: center;
+  color: var(--muted);
+  margin: -4px 0 18px;
+  font-size: 0.9rem;
+}
+
+/* ---------- Поля форм ---------- */
+label.field {
+  display: block;
+  margin-bottom: 14px;
+}
+label.field > span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+.input,
+select.input {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  background: #fff;
+  color: var(--ink);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.input:focus,
+select.input:focus {
+  outline: none;
+  border-color: var(--purple);
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.14);
+}
+
+/* ---------- Кнопки ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 13px 18px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--grad-brand);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.1s, filter 0.15s, opacity 0.15s;
+}
+.btn:hover {
+  filter: brightness(1.05);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  filter: grayscale(0.2);
+}
+.btn.ghost {
+  background: transparent;
+  color: var(--purple);
+  border: 1.5px solid var(--line);
+  box-shadow: none;
+}
+.btn.small {
+  width: auto;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+}
+.error-msg {
+  color: #e11d48;
+  font-size: 0.85rem;
+  margin: 8px 0 0;
+  min-height: 1.1em;
+}
+
+/* ============================================================
+   КАРКАС ПРИЛОЖЕНИЯ
+   ============================================================ */
+.shell {
+  min-height: 100dvh;
+}
+
+/* ---------- Боковое меню ---------- */
+.sidebar {
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  width: var(--sidebar-w);
+  height: 100dvh;
+  background: var(--grad-brand);
+  color: #fff;
+  padding: calc(20px + var(--safe-top)) 16px calc(16px + var(--safe-bottom));
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sidebar.open {
+  transform: translateX(0);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  padding: 0 6px;
+}
+.brand .ball {
+  font-size: 1.6rem;
+}
+.brand small {
+  display: block;
+  font-weight: 600;
+  font-size: 0.72rem;
+  opacity: 0.85;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 14px;
+  border-radius: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0.85;
+  transition: background 0.15s, opacity 0.15s;
+}
+.nav a .ic {
+  font-size: 1.2rem;
+}
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.12);
+  opacity: 1;
+}
+.nav a.active {
+  background: rgba(255, 255, 255, 0.22);
+  opacity: 1;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+.sidebar .spacer {
+  flex: 1;
+}
+.user-box {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+.user-box .who {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.user-box .who .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--grad-sun);
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  color: #3b0764;
+}
+.user-box button {
+  margin-top: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.18);
+  color: #fff;
+  border: none;
+  padding: 9px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* drawer backdrop */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 8, 43, 0.5);
+  z-index: 35;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s;
+}
+.backdrop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ---------- Верхняя панель (мобайл) ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: calc(10px + var(--safe-top)) 14px 10px;
+  background: rgba(245, 243, 251, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.topbar .burger {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: none;
+  background: var(--grad-brand);
+  color: #fff;
+  font-size: 1.2rem;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-sm);
+}
+.topbar .title {
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+.topbar .title small {
+  display: block;
+  font-weight: 600;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+/* ---------- Контент ---------- */
+.content {
+  padding: 16px 14px calc(40px + var(--safe-bottom));
+  max-width: 880px;
+  margin: 0 auto;
+}
+.view-title {
+  font-size: 1.5rem;
+  margin: 6px 2px 14px;
+}
+.view-title .accent {
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ============================================================
+   КАРТОЧКИ МАТЧЕЙ
+   ============================================================ */
+.round-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 22px 2px 10px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.round-head::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: var(--line);
+  border-radius: 2px;
+}
+
+.match {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 14px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+}
+.match-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 0.76rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.72rem;
+  color: #fff;
+}
+.badge.mult {
+  background: var(--grad-sun);
+  color: #4a1d00;
+}
+.badge.live {
+  background: #ef4444;
+  animation: pulse 1.4s infinite;
+}
+.badge.ft {
+  background: var(--ink-soft);
+}
+.badge.open {
+  background: var(--grad-pitch);
+}
+.badge.locked {
+  background: #94a3b8;
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+}
+.team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.team.away {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.team .flag {
+  width: 30px;
+  height: 22px;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--line);
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  font-size: 18px;
+  overflow: hidden;
+}
+.team .name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+.score {
+  font-weight: 800;
+  font-size: 1.3rem;
+  min-width: 64px;
+  text-align: center;
+  color: var(--ink);
+}
+.score .vs {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* блок ставки внутри карточки */
+.bet-summary {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.bet-summary .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px 0;
+}
+.pts {
+  font-weight: 800;
+  color: #fff;
+  background: var(--grad-pitch);
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+.pts.zero {
+  background: #cbd5e1;
+  color: #475569;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+.chip {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.chip.hit {
+  background: #dcfce7;
+  border-color: #86efac;
+  color: #166534;
+}
+.chip.miss {
+  opacity: 0.7;
+}
+
+.cta-row {
+  margin-top: 12px;
+}
+
+/* ---------- Форма ставки ---------- */
+.betform {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+}
+.stepper-wrap {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.stepper button {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #fff;
+  background: var(--purple);
+  display: grid;
+  place-items: center;
+}
+.stepper .val {
+  font-size: 1.6rem;
+  font-weight: 800;
+  min-width: 30px;
+  text-align: center;
+}
+.stepper-mid {
+  text-align: center;
+  color: var(--muted);
+  font-weight: 700;
+}
+.scorers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.scorers .label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+.potential {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.potential b {
+  color: var(--purple);
+}
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+.form-actions .btn {
+  width: auto;
+  flex: 1;
+}
+
+/* ============================================================
+   ТАБЛИЦА ЛИДЕРОВ
+   ============================================================ */
+.lead {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+.lead-row {
+  display: grid;
+  grid-template-columns: 36px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 14px;
+  border-bottom: 1px solid var(--line);
+}
+.lead-row:last-child {
+  border-bottom: none;
+}
+.lead-row .rank {
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--muted);
+  text-align: center;
+}
+.lead-row.top1 .rank {
+  color: var(--gold);
+}
+.lead-row .who {
+  display: flex;
+  flex-direction: column;
+}
+.lead-row .who b {
+  font-size: 1rem;
+}
+.lead-row .who small {
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+.lead-row .total {
+  font-weight: 800;
+  font-size: 1.2rem;
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.lead-row .medal {
+  font-size: 1.2rem;
+}
+.lead-row.me {
+  background: linear-gradient(90deg, rgba(124, 58, 237, 0.08), transparent);
+}
+
+.jackpot-note {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px;
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================================
+   ПРАВИЛА
+   ============================================================ */
+.rules .card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 18px;
+  margin-bottom: 14px;
+}
+.rules h2 {
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rules h3 {
+  font-size: 1rem;
+  margin-top: 16px;
+  color: var(--purple);
+}
+.rules p,
+.rules li {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+.rules ul {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+.rules table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin: 8px 0;
+}
+.rules td,
+.rules th {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.rules th,
+.rules td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+}
+.rules th {
+  color: var(--ink);
+  font-weight: 700;
+  background: var(--bg);
+}
+.rules td.n {
+  font-weight: 800;
+  color: var(--purple);
+  white-space: nowrap;
+}
+.rules .pillrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+.pill {
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: #fff;
+}
+.pill.x1 {
+  background: #94a3b8;
+}
+.pill.x13 {
+  background: var(--blue);
+}
+.pill.x16 {
+  background: var(--violet);
+}
+.pill.x20 {
+  background: var(--pink);
+}
+
+/* ============================================================
+   ОНБОРДИНГ (чемпион + бомбардир)
+   ============================================================ */
+.onboard {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--grad-brand-2);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow: auto;
+}
+.onboard-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 26px 22px;
+  max-width: 440px;
+  width: 100%;
+  box-shadow: 0 24px 60px rgba(10, 0, 40, 0.4);
+}
+.onboard-card h1 {
+  font-size: 1.3rem;
+}
+.onboard-card .lead-text {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 18px;
+}
+.bonus-tag {
+  display: inline-block;
+  background: var(--grad-sun);
+  color: #4a1d00;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.78rem;
+  margin-left: 6px;
+}
+
+/* ============================================================
+   ПРОЧЕЕ
+   ============================================================ */
+.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 20px;
+}
+.empty .big {
+  font-size: 44px;
+}
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(20px + var(--safe-bottom));
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 80;
+  box-shadow: var(--shadow);
+  max-width: 90vw;
+}
+.toast.ok {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+}
+.toast.err {
+  background: linear-gradient(135deg, #e11d48, #be123c);
+}
+.skeleton {
+  background: linear-gradient(90deg, #eee 25%, #f6f6f6 37%, #eee 63%);
+  background-size: 400% 100%;
+  animation: sk 1.3s infinite;
+  border-radius: 8px;
+}
+@keyframes sk {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* ============================================================
+   ДЕСКТОП
+   ============================================================ */
+@media (min-width: 920px) {
+  .sidebar {
+    transform: none;
+  }
+  .backdrop {
+    display: none;
+  }
+  .topbar .burger {
+    display: none;
+  }
+  .topbar {
+    background: transparent;
+    backdrop-filter: none;
+    border-bottom: none;
+    padding-top: 24px;
+  }
+  .main {
+    margin-left: var(--sidebar-w);
+  }
+  .content {
+    padding: 8px 32px 60px;
+  }
+  .view-title {
+    font-size: 1.9rem;
+  }
+}

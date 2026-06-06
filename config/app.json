@@ -1,0 +1,55 @@
+{
+  "tournamentName": "Кубок друзей · ЧМ-2026",
+  "repo": {
+    "owner": "AlMorpheus",
+    "name": "lvs",
+    "branch": "main"
+  },
+  "api": {
+    "leagueId": 1,
+    "season": 2026,
+    "leagueName": "World Cup"
+  },
+  "actionPublicKey": "2NUyK0wchbiQiXQy74zibq0dGTG7vSA22tKIDwhoPm8=",
+  "kdf": {
+    "opsLimit": 3,
+    "memLimit": 67108864,
+    "alg": 2,
+    "keyLen": 32
+  },
+  "tournament": {
+    "openingKickoff": "2026-06-11T18:00:00Z",
+    "lastUpdated": null
+  },
+  "scoring": {
+    "exact": 20,
+    "outcome": 7,
+    "goalDiff": 5,
+    "teamGoals": 4,
+    "totalGoals": 5,
+    "scoreBlockMax": 20,
+    "scorerEach": 4,
+    "scorersPerBet": 3,
+    "hatTrick": 3,
+    "exactSpecialBonus": 5,
+    "roundJackpot": 10,
+    "championBonus": 100,
+    "topScorerBonus": 50,
+    "specialExactBonusRounds": [
+      "opening",
+      "r16",
+      "qf",
+      "sf",
+      "final"
+    ]
+  },
+  "multipliers": {
+    "knockoutQfPlus": 2,
+    "round16": 1.6,
+    "groupTopMatch": 1.6,
+    "groupFavorite": 1,
+    "groupEqual": 1.3,
+    "topMatchMaxRank": 12,
+    "favoriteRankDiff": 30
+  }
+}
