@@ -167,7 +167,9 @@ function buildOverlay(ctx, existing) {
       await submitTournament(S.session, S.app, { champion, topScorer });
       toast('Прогноз сохранён 🌟', 'ok');
       overlay.remove();
-      document.getElementById('futuresBanner')?.setAttribute('hidden', '');
+      // сразу обновить главную, чтобы прогноз отобразился без перезагрузки
+      if (ctx.refreshData) await ctx.refreshData();
+      else document.getElementById('futuresBanner')?.setAttribute('hidden', '');
     } catch (e) {
       console.error(e);
       err.textContent = 'Не удалось сохранить. Попробуй ещё раз.';
