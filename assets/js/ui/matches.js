@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=13';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=13';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=13';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=13';
-import { renderGreeting } from './greeting.js?v=13';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=16';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=16';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=16';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=16';
+import { renderGreeting } from './greeting.js?v=16';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -412,22 +412,49 @@ export async function renderMatches(view, ctx) {
     })
   );
 
-  // Группировка по турам
+  // Фокус — на предстоящих; сыгранные/идущие — в свёрнутый архив
+  const upcoming = S.matches.filter((m) => !started(m));
+  const archived = S.matches.filter((m) => started(m));
+
+  if (upcoming.length) {
+    renderGroups(listWrap, upcoming, ctx, false);
+  } else {
+    listWrap.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Предстоящих матчей нет — смотри архив ниже.' })]));
+  }
+
+  if (archived.length) {
+    const archWrap = h('div', { id: 'archWrap', hidden: true });
+    const toggle = h('button', { class: 'archive-toggle' });
+    const setLabel = () => (toggle.textContent = `${archWrap.hidden ? '▸' : '▾'} Сыгранные и идущие матчи (${archived.length})`);
+    toggle.addEventListener('click', () => {
+      archWrap.hidden = !archWrap.hidden;
+      setLabel();
+    });
+    setLabel();
+    // в архиве — последние сверху
+    renderGroups(archWrap, archived, ctx, true);
+    listWrap.append(h('div', { class: 'archive-section' }, [toggle, archWrap]));
+  }
+}
+
+// Рендер матчей, сгруппированных по турам. reverse — порядок туров и матчей от свежих к старым (для архива).
+function renderGroups(container, matches, ctx, reverse) {
+  const S = ctx.S;
   const groups = {};
-  for (const m of S.matches) (groups[m.roundKey] ||= []).push(m);
-  const keys = Object.keys(groups).sort((a, b) => {
+  for (const m of matches) (groups[m.roundKey] ||= []).push(m);
+  let keys = Object.keys(groups).sort((a, b) => {
     const ia = ROUND_ORDER.indexOf(a), ib = ROUND_ORDER.indexOf(b);
     return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
   });
-
+  if (reverse) keys = keys.reverse();
   for (const key of keys) {
     const locked = !roundUnlocked(key, S.matches);
-    listWrap.append(h('div', { class: 'round-head', text: (ROUND_LABELS[key] || key) + (locked ? ' · 🔒' : '') }));
-    const ms = groups[key].sort((a, b) => new Date(a.date) - new Date(b.date));
+    container.append(h('div', { class: 'round-head', text: (ROUND_LABELS[key] || key) + (locked ? ' · 🔒' : '') }));
+    const ms = groups[key].sort((a, b) => (reverse ? new Date(b.date) - new Date(a.date) : new Date(a.date) - new Date(b.date)));
     for (const m of ms) {
       const card = h('div', { class: 'match' });
       rerenderCard(card, m, S, ctx);
-      listWrap.append(card);
+      container.append(card);
     }
   }
 }

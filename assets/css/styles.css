@@ -500,6 +500,31 @@ textarea.input:focus {
   margin-bottom: 12px;
   border: 1px solid var(--line);
 }
+
+/* Архив сыгранных/идущих матчей — свёрнутая шторка */
+.archive-section {
+  margin-top: 26px;
+}
+.archive-toggle {
+  width: 100%;
+  text-align: left;
+  background: var(--paper);
+  border: 1px dashed var(--line);
+  border-radius: var(--r-sm);
+  padding: 13px 16px;
+  font-family: var(--display);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.archive-toggle:hover {
+  color: var(--ink);
+}
+#archWrap {
+  margin-top: 8px;
+}
 .match-top {
   display: flex;
   align-items: center;

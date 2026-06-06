@@ -1,6 +1,6 @@
 // Онбординг: прогноз чемпиона и лучшего бомбардира турнира (большие бонусы).
-import { h, clear, toast } from './components.js?v=13';
-import { submitTournament, loadOwnTournament } from '../bets.js?v=13';
+import { h, clear, toast } from './components.js?v=16';
+import { submitTournament, loadOwnTournament } from '../bets.js?v=16';
 
 let shownThisSession = false;
 
