@@ -70,9 +70,31 @@ export function countdown(iso) {
   return `через ${mm} мин`;
 }
 
-/** Флаг команды: <img> по URL, либо эмодзи, либо инициалы. */
+// Название сборной (как в API) -> ISO-код для единых флагов с flagcdn.
+const ISO = {
+  Mexico: 'mx', 'South Africa': 'za', 'South Korea': 'kr', 'Czech Republic': 'cz', Canada: 'ca',
+  'Bosnia & Herzegovina': 'ba', USA: 'us', Paraguay: 'py', Qatar: 'qa', Switzerland: 'ch', Brazil: 'br',
+  Morocco: 'ma', Haiti: 'ht', Scotland: 'gb-sct', Australia: 'au', 'Türkiye': 'tr', Turkey: 'tr',
+  Germany: 'de', 'Curaçao': 'cw', Netherlands: 'nl', Japan: 'jp', 'Ivory Coast': 'ci', Ecuador: 'ec',
+  Sweden: 'se', Spain: 'es', 'Cape Verde Islands': 'cv', 'Cape Verde': 'cv', 'Saudi Arabia': 'sa',
+  Uruguay: 'uy', Belgium: 'be', Egypt: 'eg', Iran: 'ir', 'IR Iran': 'ir', 'New Zealand': 'nz', France: 'fr',
+  Senegal: 'sn', Norway: 'no', Argentina: 'ar', Algeria: 'dz', Austria: 'at', Jordan: 'jo', Portugal: 'pt',
+  'Congo DR': 'cd', 'DR Congo': 'cd', Uzbekistan: 'uz', Colombia: 'co', England: 'gb-eng', Croatia: 'hr',
+  Ghana: 'gh', Panama: 'pa', Wales: 'gb-wls', Chile: 'cl', Romania: 'ro', Armenia: 'am', Kazakhstan: 'kz',
+  Iraq: 'iq', Tunisia: 'tn', Italy: 'it', Poland: 'pl', Nigeria: 'ng', Serbia: 'rs', Denmark: 'dk',
+};
+
+/** URL единого флага (flagcdn по ISO) или логотип из API, или null. */
+export function flagSrc(team) {
+  const iso = team && ISO[team.name];
+  if (iso) return `https://flagcdn.com/w80/${iso}.png`;
+  return team?.flag || null;
+}
+
+/** Флаг команды: единый <img> (flagcdn/лого), либо эмодзи, либо код. */
 export function flagEl(team) {
-  if (team?.flag) return h('span', { class: 'flag' }, [h('img', { src: team.flag, alt: '', width: 30, height: 22 })]);
+  const src = flagSrc(team);
+  if (src) return h('span', { class: 'flag' }, [h('img', { src, alt: '', loading: 'lazy' })]);
   if (team?.emoji) return h('span', { class: 'flag', text: team.emoji });
   const code = (team?.code || team?.name || '?').slice(0, 2).toUpperCase();
   return h('span', { class: 'flag', text: code });

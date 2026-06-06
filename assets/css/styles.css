@@ -575,12 +575,12 @@ textarea.input:focus {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 .team {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 7px;
   min-width: 0;
 }
 .team.away {
@@ -605,11 +605,14 @@ textarea.input:focus {
 .team .name {
   font-family: var(--display);
   font-weight: 700;
-  font-size: 0.98rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 0.92rem;
+  line-height: 1.12;
   min-width: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 .team .name .rank {
   font-weight: 700;
@@ -619,9 +622,10 @@ textarea.input:focus {
 .score {
   font-family: var(--display);
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   letter-spacing: -0.02em;
-  min-width: 66px;
+  min-width: 44px;
+  padding: 0 4px;
   text-align: center;
 }
 .score .vs {

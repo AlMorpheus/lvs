@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=16';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=16';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=16';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=16';
-import { renderGreeting } from './greeting.js?v=16';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=17';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=17';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=17';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=17';
+import { renderGreeting } from './greeting.js?v=17';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -218,7 +218,8 @@ function teamOfPlayer(id, m, S) {
   return null;
 }
 function miniFlag(team) {
-  if (team?.flag) return h('span', { class: 'chip-flag' }, [h('img', { src: team.flag, alt: '', width: 16, height: 12 })]);
+  const src = flagSrc(team);
+  if (src) return h('span', { class: 'chip-flag' }, [h('img', { src, alt: '', loading: 'lazy' })]);
   if (team?.emoji) return h('span', { class: 'chip-flag', text: team.emoji });
   return '';
 }
