@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=8';
-import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=8';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=8';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=8';
-import { renderGreeting } from './greeting.js?v=8';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=9';
+import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=9';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=9';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=9';
+import { renderGreeting } from './greeting.js?v=9';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -71,13 +71,51 @@ function teamRow(m, idx, S) {
   ]);
 }
 
+const POS_ORDER = { Attacker: 0, Midfielder: 1, Defender: 2, Goalkeeper: 3 };
+const POS_ABBR = { Attacker: 'нап', Midfielder: 'пз', Defender: 'защ', Goalkeeper: 'вр' };
+
+// id игроков-лидеров — из закешированного списка фаворитов-бомбардиров, без API.
+let _favIdsCache = null;
+function favScorerIdSet(S) {
+  if (_favIdsCache) return _favIdsCache;
+  const norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const last = (s) => norm((s || '').trim().split(/\s+/).pop()).replace(/[^a-z]/g, '');
+  const teamName = {};
+  for (const mm of S.matches || []) for (const t of [mm.home, mm.away]) if (t?.id != null) teamName[String(t.id)] = t.name;
+  const fav = (S.favScorers && S.favScorers.order) || [];
+  const set = new Set();
+  for (const [tid, players] of Object.entries(S.squads || {})) {
+    const tn = norm(teamName[String(tid)] || '');
+    for (const p of players || []) {
+      if (fav.some((f) => last(f.name) === last(p.name) && norm(f.team) === tn)) set.add(String(p.id));
+    }
+  }
+  _favIdsCache = set;
+  return set;
+}
+
+// Сортировка состава: нападающие → пз → защ → вр; внутри — лидеры, затем номер.
+function sortSquad(players, S) {
+  const fav = favScorerIdSet(S);
+  return [...players].sort((a, b) => {
+    const pa = POS_ORDER[a.pos] ?? 4, pb = POS_ORDER[b.pos] ?? 4;
+    if (pa !== pb) return pa - pb;
+    const fa = fav.has(String(a.id)) ? 0 : 1, fb = fav.has(String(b.id)) ? 0 : 1;
+    if (fa !== fb) return fa - fb;
+    return (a.number || 999) - (b.number || 999) || (a.name || '').localeCompare(b.name || '');
+  });
+}
+
 function scorerSelect(m, S, value) {
   const sel = h('select', { class: 'input' }, [h('option', { value: '', text: '— игрок —' })]);
   for (const team of [m.home, m.away]) {
-    const players = (S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || [];
-    if (!players.length) continue;
+    const raw = (S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || [];
+    if (!raw.length) continue;
     const og = h('optgroup', { label: team.name });
-    for (const p of players) og.append(h('option', { value: String(p.id), text: p.name, selected: String(p.id) === String(value) }));
+    for (const p of sortSquad(raw, S)) {
+      const ab = POS_ABBR[p.pos];
+      og.append(h('option', { value: String(p.id), text: ab ? `${p.name} · ${ab}` : p.name, selected: String(p.id) === String(value) }));
+    }
     sel.append(og);
   }
   return sel;
