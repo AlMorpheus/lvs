@@ -292,17 +292,16 @@ export async function renderMatches(view, ctx) {
   }
 
   let pick = null;
-  if (own.hasTournament) {
-    try {
-      pick = await loadOwnTournament(S.session, S.app);
-    } catch {}
-  }
+  try {
+    pick = await loadOwnTournament(S.session, S.app);
+  } catch {}
+  const hasPick = pick && (pick.champion != null || pick.topScorer != null);
 
   clear(banner);
   const blocks = [];
-  if (pick && (pick.champion || pick.topScorer)) {
-    const champ = pick.champion ? teamLabel(S, pick.champion) || 'не выбран' : 'не выбран';
-    const scorer = pick.topScorer ? playerLabel(S, pick.topScorer) || 'не выбран' : 'не выбран';
+  if (hasPick) {
+    const champ = pick.champion != null ? teamLabel(S, pick.champion) || 'не выбран' : 'не выбран';
+    const scorer = pick.topScorer != null ? playerLabel(S, pick.topScorer) || 'не выбран' : 'не выбран';
     blocks.push(h('div', {}, ['🌟 ', h('b', { text: 'Твой прогноз' }), ' — 🏆 ', champ, ' · 👟 ', scorer]));
   } else if (openingFuture) {
     blocks.push(h('div', {}, ['🌟 Ты ещё не выбрал ', h('b', { text: 'чемпиона' }), ' и ', h('b', { text: 'лучшего бомбардира' }), ' турнира.']));
@@ -310,10 +309,10 @@ export async function renderMatches(view, ctx) {
   if (openingFuture) {
     blocks.push(
       h('div', { style: 'margin-top:10px' }, [
-        h('button', { class: pick ? 'btn ghost small' : 'btn small', text: pick ? 'Изменить прогноз' : 'Сделать прогноз', onclick: () => forceOnboard(ctx) }),
+        h('button', { class: hasPick ? 'btn ghost small' : 'btn small', text: hasPick ? 'Изменить прогноз' : 'Сделать прогноз', onclick: () => forceOnboard(ctx) }),
       ])
     );
-  } else if (pick) {
+  } else if (hasPick) {
     blocks.push(h('div', { class: 'potential', style: 'margin-top:6px', text: 'Прогноз закрыт — турнир начался.' }));
   }
   if (blocks.length) {

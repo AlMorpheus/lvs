@@ -135,7 +135,7 @@ function doLogout() {
   logout();
   S.session = null;
   location.hash = '';
-  showLogin();
+  location.reload(); // полный сброс кэшей в памяти (прогноз/ставки) при смене пользователя
 }
 
 function showLogin() {

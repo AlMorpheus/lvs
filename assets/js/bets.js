@@ -12,11 +12,16 @@ export async function submitBet(session, app, matchId, betObj) {
   await putFile(app.repo, path, JSON.stringify(file, null, 2), `bet: ${session.userId} → ${matchId}`, session.token);
 }
 
+// Кэш прогноза в памяти: undefined — ещё не знаем, null — нет, объект — прогноз.
+// Нужен, потому что GitHub Contents API сразу после записи может вернуть старое.
+let tournamentCache;
+
 /** Сохранить долгосрочный прогноз. predObj = { champion: teamId, topScorer: playerId }. */
 export async function submitTournament(session, app, predObj) {
   const file = encryptBet({ ...predObj, submittedAt: new Date().toISOString() }, session.userKey, app.actionPublicKey);
   const path = tournamentPath(session.userId);
   await putFile(app.repo, path, JSON.stringify(file, null, 2), `tournament pick: ${session.userId}`, session.token);
+  tournamentCache = { champion: predObj.champion ?? null, topScorer: predObj.topScorer ?? null };
 }
 
 /** Множество matchId, на которые у меня уже есть ставка, + флаг наличия прогноза турнира. */
@@ -40,11 +45,12 @@ export async function loadOwnBet(session, app, matchId) {
   return decryptOwnBet(JSON.parse(f.text), session.userKey);
 }
 
-/** Загрузить собственный долгосрочный прогноз (или null). */
+/** Загрузить собственный долгосрочный прогноз (или null). Кэш в памяти важнее GitHub. */
 export async function loadOwnTournament(session, app) {
+  if (tournamentCache !== undefined) return tournamentCache;
   const f = await getFile(app.repo, tournamentPath(session.userId), session.token);
-  if (!f) return null;
-  return decryptOwnBet(JSON.parse(f.text), session.userKey);
+  tournamentCache = f ? decryptOwnBet(JSON.parse(f.text), session.userKey) : null;
+  return tournamentCache;
 }
 
 /** Раскрытые ставки матча (после свистка): { [userId]: bet } или null. */
