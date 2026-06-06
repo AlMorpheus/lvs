@@ -660,12 +660,31 @@ textarea.input:focus {
   margin-top: 6px;
 }
 .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   background: var(--bg);
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 4px 11px;
   font-size: 0.78rem;
   font-weight: 600;
+}
+.chip-flag {
+  flex: none;
+  width: 16px;
+  height: 12px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: inline-grid;
+  place-items: center;
+  font-size: 13px;
+  line-height: 1;
+}
+.chip-flag img {
+  width: 16px;
+  height: 12px;
+  object-fit: cover;
 }
 .chip.hit {
   background: var(--lime);

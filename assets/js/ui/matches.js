@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=12';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=12';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=12';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=12';
-import { renderGreeting } from './greeting.js?v=12';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=13';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=13';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=13';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=13';
+import { renderGreeting } from './greeting.js?v=13';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -210,6 +210,22 @@ function nameWithPos(id, S, idx) {
   const ab = POS_ABBR[posIndex(S)[String(id)]];
   return ab ? `${nm} · ${ab}` : nm;
 }
+// Команда игрока в рамках матча (по составу), чтобы показать флаг.
+function teamOfPlayer(id, m, S) {
+  const inSquad = (team) => ((S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || []).some((p) => String(p.id) === String(id));
+  if (inSquad(m.home)) return m.home;
+  if (inSquad(m.away)) return m.away;
+  return null;
+}
+function miniFlag(team) {
+  if (team?.flag) return h('span', { class: 'chip-flag' }, [h('img', { src: team.flag, alt: '', width: 16, height: 12 })]);
+  if (team?.emoji) return h('span', { class: 'chip-flag', text: team.emoji });
+  return '';
+}
+// Чип автора: флаг команды + «Фамилия · поз».
+function scorerChip(id, m, S, idx) {
+  return h('span', { class: 'chip' }, [miniFlag(teamOfPlayer(id, m, S)), nameWithPos(id, S, idx)]);
+}
 function breakdownPanel(bet, m, S, idx) {
   const ex = explainMatch(bet, m, S.app.scoring, posIndex(S));
   if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
@@ -290,11 +306,11 @@ function rerenderCard(card, m, S, ctx) {
   } else if (bettingOpen(m, S)) {
     const existing = ownBetCache.get(m.id);
     if (existing) {
-      const scn = (existing.scorers || []).map((id) => nameWithPos(id, S, idx));
+      const scorerEls = (existing.scorers || []).map((id) => scorerChip(id, m, S, idx));
       card.append(
         h('div', { class: 'bet-summary' }, [
           h('div', { class: 'row' }, [h('span', { text: 'Твоя ставка' }), h('span', { class: 'chip', text: `${existing.score.home}:${existing.score.away}` })]),
-          scn.length ? chips(scn.map((n) => ({ text: n }))) : '',
+          scorerEls.length ? h('div', { class: 'chips' }, scorerEls) : '',
         ])
       );
     }
