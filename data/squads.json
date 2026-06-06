@@ -3221,21 +3221,9 @@
       "pos": "Attacker"
     },
     {
-      "id": 369,
-      "name": "Diogo Costa",
-      "number": 1,
-      "pos": "Goalkeeper"
-    },
-    {
       "id": 46672,
       "name": "Rui Silva",
       "number": 22,
-      "pos": "Goalkeeper"
-    },
-    {
-      "id": 41960,
-      "name": "Ricardo Velho",
-      "number": 27,
       "pos": "Goalkeeper"
     },
     {
@@ -3245,22 +3233,10 @@
       "pos": "Defender"
     },
     {
-      "id": 161939,
-      "name": "Tomás Araújo",
-      "number": 4,
-      "pos": "Defender"
-    },
-    {
       "id": 886,
       "name": "Diogo Dalot",
       "number": 5,
       "pos": "Defender"
-    },
-    {
-      "id": 41112,
-      "name": "Francisco Trincão",
-      "number": 16,
-      "pos": "Attacker"
     },
     {
       "id": 1864,
@@ -3284,6 +3260,30 @@
       "id": 583,
       "name": "João Félix",
       "number": 11,
+      "pos": "Attacker"
+    },
+    {
+      "id": 369,
+      "name": "Diogo Costa",
+      "number": 1,
+      "pos": "Goalkeeper"
+    },
+    {
+      "id": 41960,
+      "name": "Ricardo Velho",
+      "number": 27,
+      "pos": "Goalkeeper"
+    },
+    {
+      "id": 161939,
+      "name": "Tomás Araújo",
+      "number": 4,
+      "pos": "Defender"
+    },
+    {
+      "id": 41112,
+      "name": "Francisco Trincão",
+      "number": 16,
       "pos": "Attacker"
     }
   ],
@@ -3829,6 +3829,48 @@
       "pos": "Attacker"
     },
     {
+      "id": 19331,
+      "name": "Connor Roberts",
+      "number": 14,
+      "pos": "Defender"
+    },
+    {
+      "id": 18870,
+      "name": "David Brooks",
+      "number": 7,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 328107,
+      "name": "Lewis Koumas",
+      "number": 9,
+      "pos": "Attacker"
+    },
+    {
+      "id": 18866,
+      "name": "Chris Mepham",
+      "number": 2,
+      "pos": "Defender"
+    },
+    {
+      "id": 18599,
+      "name": "Sorba Thomas",
+      "number": 19,
+      "pos": "Attacker"
+    },
+    {
+      "id": 358560,
+      "name": "Cameron Congreve",
+      "number": 26,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 394902,
+      "name": "Ronan Kpakio",
+      "number": 17,
+      "pos": "Defender"
+    },
+    {
       "id": 82855,
       "name": "Tom King",
       "number": 21,
@@ -3839,24 +3881,6 @@
       "name": "Karl Darlow",
       "number": 1,
       "pos": "Goalkeeper"
-    },
-    {
-      "id": 18866,
-      "name": "Chris Mepham",
-      "number": 2,
-      "pos": "Defender"
-    },
-    {
-      "id": 394902,
-      "name": "Ronan Kpakio",
-      "number": 17,
-      "pos": "Defender"
-    },
-    {
-      "id": 19331,
-      "name": "Connor Roberts",
-      "number": 14,
-      "pos": "Defender"
     },
     {
       "id": 19260,
@@ -3877,39 +3901,15 @@
       "pos": "Attacker"
     },
     {
-      "id": 18870,
-      "name": "David Brooks",
-      "number": 7,
-      "pos": "Midfielder"
-    },
-    {
-      "id": 18599,
-      "name": "Sorba Thomas",
-      "number": 19,
-      "pos": "Attacker"
-    },
-    {
       "id": 379621,
       "name": "Joel Colwill",
       "number": 8,
       "pos": "Midfielder"
     },
     {
-      "id": 358560,
-      "name": "Cameron Congreve",
-      "number": 26,
-      "pos": "Midfielder"
-    },
-    {
       "id": 215847,
       "name": "Isaak Davies",
       "number": 24,
-      "pos": "Attacker"
-    },
-    {
-      "id": 328107,
-      "name": "Lewis Koumas",
-      "number": 9,
       "pos": "Attacker"
     }
   ],
@@ -4139,12 +4139,6 @@
       "pos": "Attacker"
     },
     {
-      "id": 42504,
-      "name": "Marian Aioani",
-      "number": 16,
-      "pos": "Goalkeeper"
-    },
-    {
       "id": 42589,
       "name": "Ștefan Târnovanu",
       "number": 1,
@@ -4169,6 +4163,12 @@
       "pos": "Defender"
     },
     {
+      "id": 43033,
+      "name": "Florinel Coman",
+      "number": 7,
+      "pos": "Attacker"
+    },
+    {
       "id": 336687,
       "name": "Andrei Coubiș",
       "number": 24,
@@ -4181,9 +4181,15 @@
       "pos": "Defender"
     },
     {
-      "id": 43033,
-      "name": "Florinel Coman",
-      "number": 7,
+      "id": 278075,
+      "name": "Cătălin Cîrjan",
+      "number": 25,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 43092,
+      "name": "Denis Drăguş",
+      "number": 9,
       "pos": "Attacker"
     },
     {
@@ -4193,27 +4199,21 @@
       "pos": "Midfielder"
     },
     {
+      "id": 42504,
+      "name": "Marian Aioani",
+      "number": 16,
+      "pos": "Goalkeeper"
+    },
+    {
       "id": 43024,
       "name": "Olimpiu Moruțan",
       "number": 21,
       "pos": "Attacker"
     },
     {
-      "id": 278075,
-      "name": "Cătălin Cîrjan",
-      "number": 25,
-      "pos": "Midfielder"
-    },
-    {
       "id": 18047,
       "name": "Alex Dobre",
       "number": 14,
-      "pos": "Attacker"
-    },
-    {
-      "id": 43092,
-      "name": "Denis Drăguş",
-      "number": 9,
       "pos": "Attacker"
     }
   ],
@@ -7439,6 +7439,24 @@
       "pos": "Attacker"
     },
     {
+      "id": 31016,
+      "name": "Francisco Sierralta",
+      "number": 15,
+      "pos": "Defender"
+    },
+    {
+      "id": 11828,
+      "name": "Rodrigo Echeverría",
+      "number": 18,
+      "pos": "Defender"
+    },
+    {
+      "id": 318592,
+      "name": "Lucas Cepeda",
+      "number": 10,
+      "pos": "Attacker"
+    },
+    {
       "id": 311291,
       "name": "Thomas Gillier",
       "number": 1,
@@ -7449,12 +7467,6 @@
       "name": "Brayan Cortés",
       "number": 23,
       "pos": "Goalkeeper"
-    },
-    {
-      "id": 31016,
-      "name": "Francisco Sierralta",
-      "number": 15,
-      "pos": "Defender"
     },
     {
       "id": 2552,
@@ -7481,21 +7493,9 @@
       "pos": "Midfielder"
     },
     {
-      "id": 11828,
-      "name": "Rodrigo Echeverría",
-      "number": 18,
-      "pos": "Defender"
-    },
-    {
       "id": 143574,
       "name": "Clemente Montes",
       "number": 7,
-      "pos": "Attacker"
-    },
-    {
-      "id": 318592,
-      "name": "Lucas Cepeda",
-      "number": 10,
       "pos": "Attacker"
     },
     {
