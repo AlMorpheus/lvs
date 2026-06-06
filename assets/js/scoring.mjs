@@ -25,27 +25,45 @@ export function scorePoints(bet, actual, cfg) {
   return Math.min(pts, cfg.scoreBlockMax);
 }
 
-/**
- * Очки за авторов голов.
- * betScorers   — массив playerId (до 3, прогноз).
- * actualScorers — массив playerId реально забивших (БЕЗ автоголов; дубликаты допустимы).
- * totalGoals   — всего голов в матче (для условия хет-трика «3+ голов»).
- */
-export function scorerPoints(betScorers, actualScorers, totalGoals, cfg) {
-  const picks = [...new Set((betScorers || []).filter((x) => x != null))];
-  const scored = new Set(actualScorers || []);
-  let correct = 0;
-  for (const id of picks) if (scored.has(id)) correct += 1;
+/** Очки за угаданного автора по его позиции. */
+export function scorerValue(pos, cfg) {
+  return cfg.scorerByPos?.[pos] ?? cfg.scorerDefault ?? 2;
+}
 
-  const pts = correct * cfg.scorerEach;
-  const allThree = picks.length >= cfg.scorersPerBet && correct >= cfg.scorersPerBet;
-  const hat = allThree && totalGoals >= 3 ? cfg.hatTrick : 0;
-  return { pts, hat, correct };
+/**
+ * Очки за авторов голов. Цена угаданного автора зависит от его позиции
+ * (нападающий/полузащитник/защитник/вратарь). Хет-трика/бонусов нет.
+ * posMap — { playerId(строка): позиция }.
+ */
+export function scorerPoints(betScorers, actualScorers, posMap, cfg) {
+  const picks = [...new Set((betScorers || []).filter((x) => x != null).map(String))];
+  const scored = new Set((actualScorers || []).map(String));
+  let pts = 0;
+  let correct = 0;
+  const perPick = [];
+  for (const id of picks) {
+    const hit = scored.has(id);
+    const pos = posMap ? posMap[id] : null;
+    const val = hit ? scorerValue(pos, cfg) : 0;
+    if (hit) {
+      correct += 1;
+      pts += val;
+    }
+    perPick.push({ playerId: id, correct: hit, pts: val, pos });
+  }
+  return { pts, correct, perPick };
 }
 
 /** Голы, засчитываемые автору прогноза (исключаем автоголы). */
 export function realScorerIds(match) {
   return (match.scorers || []).filter((s) => s.type !== 'own').map((s) => s.playerId);
+}
+
+/** Карта playerId(строка) -> позиция, из составов (squads.json). */
+export function buildPosIndex(squads) {
+  const map = {};
+  for (const ps of Object.values(squads || {})) for (const p of ps || []) if (p && p.id != null) map[String(p.id)] = p.pos;
+  return map;
 }
 
 /**
@@ -130,16 +148,15 @@ function bestCandidate(bet, match, cfg) {
  * Возвращает разбивку и итог (с учётом множителя и спец-бонуса +5).
  * Если результата нет или ставки нет — возвращает null.
  */
-export function matchPoints(bet, match, cfg) {
+export function matchPoints(bet, match, cfg, posMap) {
   if (!bet || !isFinished(match)) return null;
 
   const best = bestCandidate(bet, match, cfg);
   const sp = best.sp;
-  const finalTotal = match.score.home + match.score.away;
   const actualScorers = realScorerIds(match);
-  const { pts: scp, hat, correct } = scorerPoints(bet.scorers, actualScorers, finalTotal, cfg);
+  const { pts: scp, correct } = scorerPoints(bet.scorers, actualScorers, posMap, cfg);
 
-  const base = sp + scp + hat;
+  const base = sp + scp;
   const multiplier = match.multiplier ?? 1;
   let total = Math.round(base * multiplier);
 
@@ -147,14 +164,14 @@ export function matchPoints(bet, match, cfg) {
   const special = isExact && isSpecialBonusMatch(match, cfg) ? cfg.exactSpecialBonus : 0;
   total += special;
 
-  return { scorePts: sp, scorerPts: scp, hat, correctScorers: correct, base, multiplier, special, total, isExact, usedReg: best.c.reg };
+  return { scorePts: sp, scorerPts: scp, correctScorers: correct, base, multiplier, special, total, isExact, usedReg: best.c.reg };
 }
 
 /**
  * Подробный разбор начисленных очков за матч (для объяснения участнику).
  * Возвращает структурированные позиции; названия игроков подставляет фронтенд.
  */
-export function explainMatch(bet, match, cfg) {
+export function explainMatch(bet, match, cfg, posMap) {
   if (!bet || !isFinished(match)) return null;
   const best = bestCandidate(bet, match, cfg);
   const actual = best.c.score;
@@ -185,30 +202,22 @@ export function explainMatch(bet, match, cfg) {
     if (p > cfg.scoreBlockMax) scoreItems.push({ label: `Ограничение максимумом за счёт`, pts: cfg.scoreBlockMax - p });
   }
 
-  const scored = new Set(realScorerIds(match));
-  const picks = [...new Set((bet.scorers || []).filter((x) => x != null))];
-  const scorerItems = picks.map((id) => ({ playerId: id, correct: scored.has(id), pts: scored.has(id) ? cfg.scorerEach : 0 }));
-  const correct = scorerItems.filter((s) => s.correct).length;
-  const scorerPts = correct * cfg.scorerEach;
+  const actualScorers = realScorerIds(match);
+  const { perPick, pts: scorerPts } = scorerPoints(bet.scorers, actualScorers, posMap, cfg);
+  const scorerItems = perPick; // { playerId, correct, pts, pos }
 
-  const finalTotal = match.score.home + match.score.away;
-  const hat = picks.length >= cfg.scorersPerBet && correct >= cfg.scorersPerBet && finalTotal >= 3 ? cfg.hatTrick : 0;
-
-  const base = scorePts + scorerPts + hat;
+  const base = scorePts + scorerPts;
   const multiplier = match.multiplier ?? 1;
   const afterMult = Math.round(base * multiplier);
   const special = best.isExactAny && isSpecialBonusMatch(match, cfg) ? cfg.exactSpecialBonus : 0;
 
-  return { isExact: best.isExactAny, regUsed, actual, scoreItems, scorerItems, hat, scorePts, scorerPts, base, multiplier, afterMult, special, total: afterMult + special };
+  return { isExact: best.isExactAny, regUsed, actual, scoreItems, scorerItems, scorePts, scorerPts, base, multiplier, afterMult, special, total: afterMult + special };
 }
 
-/**
- * Сколько очков ставка МОЖЕТ принести максимум (для подсказки на форме до матча).
- */
+/** Очки за точный счёт здесь (с учётом коэффициента и спец-бонуса) — для подсказки. */
 export function maxPotential(match, cfg) {
   const multiplier = match.multiplier ?? 1;
-  const base = cfg.scoreBlockMax + cfg.scorerEach * cfg.scorersPerBet + cfg.hatTrick;
-  let total = Math.round(base * multiplier);
+  let total = Math.round(cfg.exact * multiplier);
   if (isSpecialBonusMatch(match, cfg)) total += cfg.exactSpecialBonus;
   return total;
 }
@@ -222,7 +231,7 @@ export function maxPotential(match, cfg) {
  * tournamentResult — { finished, champion: teamId, topScorers: [playerId] } | null
  * Возвращает { table, rounds } где table отсортирована по убыванию total.
  */
-export function standings(users, matches, bets, tournamentResult, cfg) {
+export function standings(users, matches, bets, tournamentResult, cfg, posMap) {
   const byUser = {};
   for (const u of users) {
     byUser[u.id] = {
@@ -244,7 +253,7 @@ export function standings(users, matches, bets, tournamentResult, cfg) {
   for (const m of finishedMatches) {
     for (const u of users) {
       const bet = bets[u.id]?.matches?.[m.id];
-      const res = matchPoints(bet, m, cfg);
+      const res = matchPoints(bet, m, cfg, posMap);
       if (!res) continue;
       const acc = byUser[u.id];
       acc.matchPts += res.total;

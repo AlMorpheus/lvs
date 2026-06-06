@@ -1,5 +1,5 @@
 // Экран «Правила»: кратко и понятно про подсчёт очков.
-import { h } from './components.js?v=9';
+import { h } from './components.js?v=10';
 
 export function renderRules(view, ctx) {
   const c = ctx.S.app.scoring;
@@ -33,11 +33,14 @@ export function renderRules(view, ctx) {
       // Авторы
       h('div', { class: 'card' }, [
         h('h2', {}, ['👟 Очки за авторов голов']),
+        h('p', { class: 'potential', text: 'Выбираешь до 3 игроков. Цена угаданного автора зависит от его позиции — чем неожиданнее гол, тем дороже:' }),
         table([
-          ['Каждый угаданный автор', `+${c.scorerEach}`, 'Выбираешь 3 игрока, до +' + c.scorerEach * c.scorersPerBet],
-          ['Хет-трик прогноза', `+${c.hatTrick}`, 'Все 3 автора угаданы, и в матче 3+ гола'],
+          ['Нападающий', `+${c.scorerByPos.Attacker}`, 'Форварды забивают чаще всего'],
+          ['Полузащитник', `+${c.scorerByPos.Midfielder}`, ''],
+          ['Защитник', `+${c.scorerByPos.Defender}`, 'Редкий гол — дороже'],
+          ['Вратарь', `+${c.scorerByPos.Goalkeeper}`, 'Почти невозможно — джекпот!'],
         ]),
-        h('p', { class: 'potential', text: 'Автор засчитан, если названный игрок забил хотя бы один гол (автоголы не считаются). Порядок не важен.' }),
+        h('p', { class: 'potential', text: 'Автор засчитан, если названный игрок забил хотя бы один гол (автоголы не считаются). Порядок не важен. Бонусов «за всех троих» нет.' }),
       ]),
 
       // Множители
@@ -74,8 +77,8 @@ export function renderRules(view, ctx) {
       // Пример
       h('div', { class: 'card' }, [
         h('h2', {}, ['🧮 Пример']),
-        h('p', {}, ['Ставка ', h('b', { text: '2:1' }), ', забьют игроки A, B, C. Матч 1/4 финала (×2.0).']),
-        h('p', { text: 'Вышло 2:1, забили A и B (2 гола). Очки за счёт: точный — ' + c.exact + '. Авторы: 2 угаданных × ' + c.scorerEach + ' = ' + c.scorerEach * 2 + '. База ' + (c.exact + c.scorerEach * 2) + ' × 2.0 = ' + (c.exact + c.scorerEach * 2) * 2 + ', плюс ' + c.exactSpecialBonus + ' за точный счёт в 1/4 = ' + ((c.exact + c.scorerEach * 2) * 2 + c.exactSpecialBonus) + ' очков.' }),
+        h('p', {}, ['Ставка ', h('b', { text: '2:1' }), ', авторы: нападающий + полузащитник. Матч 1/4 финала (×2.0).']),
+        h('p', { text: 'Вышло 2:1, оба угаданы. Счёт: точный — ' + c.exact + '. Авторы: нап ' + c.scorerByPos.Attacker + ' + пз ' + c.scorerByPos.Midfielder + ' = ' + (c.scorerByPos.Attacker + c.scorerByPos.Midfielder) + '. База ' + (c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) + ' × 2.0 = ' + (c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) * 2 + ', плюс ' + c.exactSpecialBonus + ' за точный счёт в 1/4 = ' + ((c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) * 2 + c.exactSpecialBonus) + ' очков.' }),
       ]),
 
       // Рейтинг ФИФА — после бонусов и примера

@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=9';
-import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=9';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=9';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=9';
-import { renderGreeting } from './greeting.js?v=9';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=10';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=10';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=10';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=10';
+import { renderGreeting } from './greeting.js?v=10';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -187,7 +187,7 @@ function betForm(card, m, S, ctx, existing) {
   return h('div', { class: 'betform' }, [
     stepper,
     scorersBlock,
-    h('div', { class: 'potential' }, ['Максимум за матч: ', h('b', { text: '+' + maxPotential(m, cfg) }), ` (множитель ×${m.multiplier ?? 1})`]),
+    h('div', { class: 'potential' }, ['Точный счёт здесь: ', h('b', { text: '+' + maxPotential(m, cfg) }), ` · коэффициент ×${m.multiplier ?? 1}. Автор: нап +${cfg.scorerByPos.Attacker}, пз +${cfg.scorerByPos.Midfielder}, защ +${cfg.scorerByPos.Defender}, вр +${cfg.scorerByPos.Goalkeeper}.`]),
     h('div', { class: 'form-actions' }, [cancel, save]),
   ]);
 }
@@ -200,16 +200,21 @@ function bdLine(label, pts, opts = {}) {
     h('span', { class: 'bd-pts', text: right }),
   ]);
 }
+let _posIdx = null;
+function posIndex(S) {
+  return _posIdx || (_posIdx = buildPosIndex(S.squads));
+}
 function breakdownPanel(bet, m, S, idx) {
-  const ex = explainMatch(bet, m, S.app.scoring);
+  const ex = explainMatch(bet, m, S.app.scoring, posIndex(S));
   if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
   const rows = [];
   if (ex.regUsed) rows.push(h('div', { class: 'bd-note', text: `⏱ Зачёт по счёту основного времени ${ex.actual.home}:${ex.actual.away} (был доп. тайм)` }));
   ex.scoreItems.forEach((it) => rows.push(bdLine(it.label, it.pts)));
-  ex.scorerItems.forEach((s) =>
-    rows.push(bdLine((s.correct ? '✓ ' : '✗ ') + (idx.get(String(s.playerId)) || 'игрок'), s.pts, { cls: s.correct ? '' : 'miss' }))
-  );
-  if (ex.hat) rows.push(bdLine('Хет-трик прогноза', ex.hat));
+  ex.scorerItems.forEach((s) => {
+    const ab = POS_ABBR[s.pos];
+    const nm = (idx.get(String(s.playerId)) || 'игрок') + (ab ? ' · ' + ab : '');
+    rows.push(bdLine((s.correct ? '✓ ' : '✗ ') + nm, s.pts, { cls: s.correct ? '' : 'miss' }));
+  });
   rows.push(bdLine('База', ex.base, { cls: 'bd-strong' }));
   if (ex.multiplier !== 1) rows.push(bdLine(`× коэффициент ${ex.multiplier}`, null, { right: '= ' + ex.afterMult }));
   if (ex.special) rows.push(bdLine('Бонус за точный счёт', ex.special));

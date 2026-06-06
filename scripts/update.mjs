@@ -9,7 +9,7 @@ import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { createRequire } from 'node:module';
-import { standings as computeStandings, matchMultiplier } from '../assets/js/scoring.mjs';
+import { standings as computeStandings, matchMultiplier, buildPosIndex } from '../assets/js/scoring.mjs';
 
 // ESM-сборка libsodium-sumo в npm битая — грузим CJS-вариант.
 const require = createRequire(import.meta.url);
@@ -344,7 +344,8 @@ async function main() {
   writeReveals(matches, bets);
 
   const tr = await tournamentResult(matches);
-  const result = computeStandings(usersCfg.map((u) => ({ id: u.id, name: u.name })), matches, bets, tr, cfg);
+  const posMap = buildPosIndex(squads);
+  const result = computeStandings(usersCfg.map((u) => ({ id: u.id, name: u.name })), matches, bets, tr, cfg, posMap);
   writeJSON('data/standings.json', { ...result, tournamentResult: tr, updatedAt: new Date().toISOString() });
 
   console.log(`✅ Обновлено. Матчей: ${matches.length}. Запросов к API: ${apiCalls}.`);

@@ -20,7 +20,7 @@
   },
   "tournament": {
     "openingKickoff": "2026-06-11T19:00:00+00:00",
-    "lastUpdated": "2026-06-06T12:13:36.922Z"
+    "lastUpdated": "2026-06-06T12:40:32.465Z"
   },
   "scoring": {
     "exact": 25,
@@ -28,9 +28,14 @@
     "goalDiff": 5,
     "totalGoals": 5,
     "scoreBlockMax": 25,
-    "scorerEach": 3,
     "scorersPerBet": 3,
-    "hatTrick": 9,
+    "scorerByPos": {
+      "Attacker": 2,
+      "Midfielder": 4,
+      "Defender": 7,
+      "Goalkeeper": 100
+    },
+    "scorerDefault": 2,
     "exactSpecialBonus": 5,
     "roundJackpot": 10,
     "championBonus": 70,
