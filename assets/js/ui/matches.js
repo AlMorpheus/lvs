@@ -1,8 +1,8 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
 import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js';
 import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets } from '../bets.js';
-import { forceOnboard } from './onboarding.js';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js';
 
 const ROUND_ORDER = ['group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -291,18 +291,36 @@ export async function renderMatches(view, ctx) {
     console.warn('Не удалось получить список ставок', e);
   }
 
+  let pick = null;
+  if (own.hasTournament) {
+    try {
+      pick = await loadOwnTournament(S.session, S.app);
+    } catch {}
+  }
+
+  clear(banner);
+  const blocks = [];
+  if (pick && (pick.champion || pick.topScorer)) {
+    const champ = pick.champion ? teamLabel(S, pick.champion) || 'не выбран' : 'не выбран';
+    const scorer = pick.topScorer ? playerLabel(S, pick.topScorer) || 'не выбран' : 'не выбран';
+    blocks.push(h('div', {}, ['🌟 ', h('b', { text: 'Твой прогноз' }), ' — 🏆 ', champ, ' · 👟 ', scorer]));
+  } else if (openingFuture) {
+    blocks.push(h('div', {}, ['🌟 Ты ещё не выбрал ', h('b', { text: 'чемпиона' }), ' и ', h('b', { text: 'лучшего бомбардира' }), ' турнира.']));
+  }
   if (openingFuture) {
-    clear(banner);
-    banner.hidden = false;
-    const intro = own.hasTournament
-      ? h('div', {}, ['🌟 Прогноз сделан. До матча открытия можно ', h('b', { text: 'изменить' }), ' чемпиона и бомбардира.'])
-      : h('div', {}, ['🌟 Ты ещё не выбрал ', h('b', { text: 'чемпиона' }), ' и ', h('b', { text: 'лучшего бомбардира' }), ' турнира.']);
-    banner.append(
-      intro,
+    blocks.push(
       h('div', { style: 'margin-top:10px' }, [
-        h('button', { class: own.hasTournament ? 'btn ghost small' : 'btn small', text: own.hasTournament ? 'Изменить прогноз' : 'Сделать прогноз', onclick: () => forceOnboard(ctx) }),
+        h('button', { class: pick ? 'btn ghost small' : 'btn small', text: pick ? 'Изменить прогноз' : 'Сделать прогноз', onclick: () => forceOnboard(ctx) }),
       ])
     );
+  } else if (pick) {
+    blocks.push(h('div', { class: 'potential', style: 'margin-top:6px', text: 'Прогноз закрыт — турнир начался.' }));
+  }
+  if (blocks.length) {
+    banner.hidden = false;
+    blocks.forEach((b) => banner.append(b));
+  } else {
+    banner.hidden = true;
   }
 
   // Предзагрузим собственные открытые ставки для префилла

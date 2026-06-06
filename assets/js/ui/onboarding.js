@@ -65,6 +65,44 @@ function orderedPlayers(S) {
   return [...fav, ...rest];
 }
 
+// Группы для выпадающего списка бомбардира: фавориты + по сборным.
+function scorerGroups(S) {
+  const players = rawPlayers(S);
+  const used = new Set();
+  const fav = [];
+  for (const f of S.favScorers?.order || []) {
+    const fl = normLast(f.name);
+    const ft = normTeam(f.team);
+    const cand =
+      players.find((p) => !used.has(p.id) && normLast(p.name) === fl && normTeam(p.team) === ft) ||
+      players.find((p) => !used.has(p.id) && normLast(p.name) === fl);
+    if (cand) {
+      fav.push(cand);
+      used.add(cand.id);
+    }
+  }
+  const byTeam = new Map();
+  players
+    .filter((p) => !used.has(p.id))
+    .sort((a, b) => (a.team || '').localeCompare(b.team || '') || a.name.localeCompare(b.name))
+    .forEach((p) => {
+      if (!byTeam.has(p.team)) byTeam.set(p.team, []);
+      byTeam.get(p.team).push(p);
+    });
+  return { fav, byTeam };
+}
+
+/** id игрока -> "Имя — Сборная" (для отображения прогноза). */
+export function playerLabel(S, id) {
+  const p = rawPlayers(S).find((x) => x.id === String(id));
+  return p ? `${p.name} — ${p.team}` : null;
+}
+/** id команды -> название (для отображения прогноза). */
+export function teamLabel(S, id) {
+  const t = uniqueTeams(S).find((x) => String(x.id) === String(id));
+  return t ? t.name : null;
+}
+
 function openingLocked(S) {
   const k = S.app.tournament?.openingKickoff;
   return k ? Date.now() >= new Date(k).getTime() : false;
@@ -73,7 +111,8 @@ function openingLocked(S) {
 function buildOverlay(ctx, existing) {
   const S = ctx.S;
   const { fav, rest } = orderedTeams(S);
-  const players = orderedPlayers(S);
+  const sg = scorerGroups(S);
+  const hasPlayers = sg.fav.length || sg.byTeam.size;
   const sc = S.app.scoring;
 
   const champOpt = (t) => h('option', { value: String(t.id), text: t.name, selected: String(t.id) === String(existing?.champion) });
@@ -83,12 +122,13 @@ function buildOverlay(ctx, existing) {
     rest.length ? h('optgroup', { label: 'Остальные (по алфавиту)' }, rest.map(champOpt)) : null,
   ]);
 
-  const dl = h('datalist', { id: 'playersDL' }, players.map((p) => h('option', { value: `${p.name} — ${p.team}` })));
-  const labelOf = (id) => {
-    const p = players.find((x) => x.id === String(id));
-    return p ? `${p.name} — ${p.team}` : '';
-  };
-  const scorerInput = h('input', { class: 'input', list: 'playersDL', placeholder: 'Начни вводить имя', value: existing ? labelOf(existing.topScorer) : '' });
+  const scOptFav = (p) => h('option', { value: p.id, text: `${p.name} — ${p.team}`, selected: p.id === String(existing?.topScorer) });
+  const scOpt = (p) => h('option', { value: p.id, text: p.name, selected: p.id === String(existing?.topScorer) });
+  const scorerSel = h('select', { class: 'input' }, [
+    h('option', { value: '', text: '— игрок —' }),
+    sg.fav.length ? h('optgroup', { label: '⭐ Фавориты' }, sg.fav.map(scOptFav)) : null,
+    ...[...sg.byTeam.entries()].map(([team, ps]) => h('optgroup', { label: team }, ps.map(scOpt))),
+  ]);
 
   const err = h('p', { class: 'error-msg' });
   const save = h('button', { class: 'btn', text: 'Сохранить прогноз' });
@@ -105,10 +145,9 @@ function buildOverlay(ctx, existing) {
       ]),
       h('label', { class: 'field' }, [
         h('span', {}, ['Лучший бомбардир', h('span', { class: 'bonus-tag', text: '+' + sc.topScorerBonus })]),
-        scorerInput,
-        dl,
+        scorerSel,
       ]),
-      players.length ? '' : h('p', { class: 'potential', text: 'Списки игроков подтянутся ботом — бомбардира можно будет выбрать позже.' }),
+      hasPlayers ? '' : h('p', { class: 'potential', text: 'Списки игроков подтянутся ботом — бомбардира можно будет выбрать позже.' }),
       err,
       h('div', { class: 'form-actions' }, [later, save]),
     ]),
@@ -119,12 +158,7 @@ function buildOverlay(ctx, existing) {
   save.addEventListener('click', async () => {
     err.textContent = '';
     const champion = champSel.value || null;
-    let topScorer = null;
-    if (scorerInput.value.trim()) {
-      const p = players.find((x) => `${x.name} — ${x.team}` === scorerInput.value.trim());
-      if (!p) return (err.textContent = 'Выбери бомбардира из списка');
-      topScorer = p.id;
-    }
+    const topScorer = scorerSel.value || null;
     if (!champion && !topScorer) return (err.textContent = 'Выбери хотя бы один прогноз');
 
     save.disabled = later.disabled = true;
