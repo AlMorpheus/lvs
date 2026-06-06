@@ -794,6 +794,98 @@ select.input:focus {
   box-shadow: var(--shadow-sm);
 }
 
+/* ---------- Блок приветствия ---------- */
+.greet {
+  position: relative;
+  border-radius: var(--radius);
+  padding: 16px 16px 14px;
+  margin: 4px 0 14px;
+  color: #fff;
+  background: var(--grad-brand);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.greet::after {
+  content: '⚽';
+  position: absolute;
+  right: -10px;
+  top: -14px;
+  font-size: 80px;
+  opacity: 0.14;
+  transform: rotate(12deg);
+}
+.greet-hi {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.greet-sub {
+  font-size: 0.92rem;
+  opacity: 0.95;
+  margin-top: 2px;
+}
+.greet-sub.holiday {
+  font-weight: 700;
+}
+.greet-tip {
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+.greet-ann {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--ink);
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
+}
+.ann-del {
+  flex: none;
+  border: none;
+  background: #f1e9fb;
+  color: var(--purple);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-weight: 800;
+  cursor: pointer;
+}
+.greet-admin {
+  position: relative;
+  z-index: 1;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+.greet-admin-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  opacity: 0.95;
+}
+.ann-input {
+  margin-bottom: 8px;
+  resize: vertical;
+  color: var(--ink);
+}
+.greet-admin .btn {
+  width: auto;
+}
+
 /* ============================================================
    ПРАВИЛА
    ============================================================ */

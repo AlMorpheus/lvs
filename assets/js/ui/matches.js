@@ -1,8 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=3';
-import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=3';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=3';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=3';
+import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js?v=4';
+import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs?v=4';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=4';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=4';
+import { renderGreeting } from './greeting.js?v=4';
 
 const ROUND_ORDER = ['group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -275,8 +276,13 @@ export async function renderMatches(view, ctx) {
     return;
   }
 
-  // Баннер: прогноз чемпиона/бомбардира
   const openingFuture = S.app.tournament?.openingKickoff ? Date.now() < new Date(S.app.tournament.openingKickoff).getTime() : true;
+
+  // Блок приветствия (наполняется ниже, когда известны ставки)
+  const greetHost = h('div', { id: 'greetHost' });
+  view.append(greetHost);
+
+  // Баннер: прогноз чемпиона/бомбардира
   const banner = h('div', { class: 'jackpot-note', id: 'futuresBanner', hidden: true });
   view.append(banner);
 
@@ -296,6 +302,11 @@ export async function renderMatches(view, ctx) {
     pick = await loadOwnTournament(S.session, S.app);
   } catch {}
   const hasPick = pick && (pick.champion != null || pick.topScorer != null);
+
+  // Блок приветствия: считаем, на сколько матчей ещё не поставлено
+  const openNow = S.matches.filter((m) => bettingOpen(m, S));
+  const toBet = openNow.filter((m) => !own.matchIds.has(m.id)).length;
+  renderGreeting(greetHost, ctx, { toBet, needPick: !hasPick && openingFuture, hasOpen: openNow.length > 0 });
 
   clear(banner);
   const blocks = [];

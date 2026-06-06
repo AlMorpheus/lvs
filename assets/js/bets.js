@@ -1,6 +1,6 @@
 // Высокоуровневые операции со ставками: шифрование + запись/чтение в репо.
-import { encryptBet, decryptOwnBet, decryptRevealed } from './crypto.js?v=3';
-import { putFile, getFile, getDir } from './github.js?v=3';
+import { encryptBet, decryptOwnBet, decryptRevealed } from './crypto.js?v=4';
+import { putFile, getFile, getDir } from './github.js?v=4';
 
 const betPath = (userId, matchId) => `data/bets/${userId}/${matchId}.json`;
 const tournamentPath = (userId) => `data/bets/${userId}/_tournament.json`;
@@ -51,6 +51,30 @@ export async function loadOwnTournament(session, app) {
   const f = await getFile(app.repo, tournamentPath(session.userId), session.token);
   tournamentCache = f ? decryptOwnBet(JSON.parse(f.text), session.userKey) : null;
   return tournamentCache;
+}
+
+// ---------- Объявления организатора ----------
+const ANN_PATH = 'data/announcements.json';
+let annCache; // undefined — не загружали; объект — данные
+
+/** Загрузить объявления { items:[{id,text,createdAt}] }. Через GitHub (свежо для всех). */
+export async function loadAnnouncements(session, app) {
+  if (annCache !== undefined) return annCache;
+  try {
+    const f = await getFile(app.repo, ANN_PATH, session.token);
+    annCache = f ? JSON.parse(f.text) : { items: [] };
+  } catch {
+    annCache = { items: [] };
+  }
+  if (!annCache.items) annCache.items = [];
+  return annCache;
+}
+
+/** Сохранить объявления (только админ). Обновляет кэш сразу. */
+export async function saveAnnouncements(session, app, items) {
+  const data = { items };
+  await putFile(app.repo, ANN_PATH, JSON.stringify(data, null, 2), `announcement by ${session.userId}`, session.token);
+  annCache = data;
 }
 
 /** Раскрытые ставки матча (после свистка): { [userId]: bet } или null. */

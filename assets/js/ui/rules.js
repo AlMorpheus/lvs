@@ -1,5 +1,5 @@
 // Экран «Правила»: кратко и понятно про подсчёт очков.
-import { h } from './components.js?v=3';
+import { h } from './components.js?v=4';
 
 export function renderRules(view, ctx) {
   const c = ctx.S.app.scoring;
@@ -60,9 +60,6 @@ export function renderRules(view, ctx) {
         h('p', { class: 'potential', text: 'Итог за матч = (очки за счёт + очки за авторов) × коэффициент, округляем до целого (54.6 → 55).' }),
       ]),
 
-      // Рейтинг ФИФА
-      rankingCard(ctx),
-
       // Бонусы
       h('div', { class: 'card' }, [
         h('h2', {}, ['🎁 Бонусы']),
@@ -82,17 +79,19 @@ export function renderRules(view, ctx) {
         h('p', { text: 'Вышло 2:1, забили A и B (2 гола). Очки за счёт: точный — 20. Авторы: 2 угаданных × ' + c.scorerEach + ' = ' + c.scorerEach * 2 + '. База ' + (20 + c.scorerEach * 2) + ' × 2.0 = ' + (20 + c.scorerEach * 2) * 2 + ', плюс ' + c.exactSpecialBonus + ' за точный счёт в 1/4 = ' + ((20 + c.scorerEach * 2) * 2 + c.exactSpecialBonus) + ' очков.' }),
       ]),
 
-      h('div', { class: 'card' }, [
-        h('h2', {}, ['🔒 Честность']),
-        h('p', { text: 'Чужие ставки скрыты до стартового свистка — никто не подсмотрит. После начала матча они открываются всем участникам. Все данные в репозитории зашифрованы.' }),
-      ]),
+      // Рейтинг ФИФА — после бонусов и примера
+      rankingCard(ctx),
     ])
   );
 }
 
 function rankingCard(ctx) {
   const teams = ctx.S.fifa?.teams || {};
-  const entries = Object.entries(teams).sort((a, b) => a[1] - b[1]);
+  // только сборные-участницы ЧМ (по расписанию матчей)
+  const playing = new Set();
+  for (const m of ctx.S.matches || []) for (const t of [m.home, m.away]) if (t?.name) playing.add(t.name);
+  let entries = Object.entries(teams).sort((a, b) => a[1] - b[1]);
+  if (playing.size) entries = entries.filter(([name]) => playing.has(name));
   return h('div', { class: 'card' }, [
     h('h2', {}, ['🌍 Рейтинг ФИФА команд']),
     h('p', { class: 'potential', text: 'По нему определяется коэффициент сложности матча. Места приблизительные — организатор может скорректировать.' }),
