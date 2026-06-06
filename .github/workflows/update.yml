@@ -1,9 +1,11 @@
 name: Update results & standings
 
-on:
-  schedule:
-    - cron: '7 * * * *' # каждый час (в :07)
-  workflow_dispatch: {} # ручной запуск из вкладки Actions
+  on:
+    schedule:
+      - cron: '*/5 12-23 * * *'   # часы матчей (UTC) — каждые 5 минут
+      - cron: '*/5 0-5 * * *'     # поздние матчи — каждые 5 минут
+      - cron: '*/30 6-11 * * *'   # тихие часы — раз в 30 минут
+    workflow_dispatch: {}
 
 permissions:
   contents: write
