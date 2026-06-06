@@ -240,6 +240,35 @@ async function updateSquads(matches, doDailyRefresh) {
   return squads;
 }
 
+// Точный состав на матч из заявки (lineups): для игр, которые вот-вот начнутся/идут.
+// Заменяет общий (часто устаревший для сборных) состав реальной заявкой на игру.
+const LINEUP_POS = { G: 'Goalkeeper', D: 'Defender', M: 'Midfielder', F: 'Attacker' };
+async function applyLineups(matches, squads) {
+  const now = Date.now();
+  let used = 0;
+  const MAX = 8;
+  for (const m of matches) {
+    if (m.finished) continue;
+    const ko = new Date(m.date).getTime();
+    if (ko > now + 120 * 60 * 1000 || ko < now - 4 * 3600 * 1000) continue; // окно: за 2 ч до и до +4 ч после
+    if (used >= MAX) break;
+    try {
+      const resp = await api('/fixtures/lineups', { fixture: m.id });
+      if (!resp.length) continue;
+      for (const t of resp) {
+        const tid = String(t.team?.id);
+        const list = [...(t.startXI || []), ...(t.substitutes || [])]
+          .map((e) => ({ id: e.player?.id, name: e.player?.name, number: e.player?.number, pos: LINEUP_POS[e.player?.pos] || null }))
+          .filter((p) => p.id != null);
+        if (list.length) squads[tid] = list;
+      }
+      used++;
+    } catch (e) {
+      console.warn('lineups', m.id, e.message);
+    }
+  }
+}
+
 // ---------- результат турнира (чемпион + бомбардиры) ----------
 async function tournamentResult(matches) {
   const final = matches.find((m) => m.roundKey === 'final');
@@ -347,6 +376,7 @@ async function main() {
   app.tournament = app.tournament || {};
   const doDailyRefresh = app.tournament.squadsRefreshedOn !== today;
   const squads = await updateSquads(matches, doDailyRefresh);
+  await applyLineups(matches, squads); // точная заявка для ближайших/идущих матчей
   writeJSON('data/squads.json', squads);
 
   // конфиг сохраняем всегда: дата матча открытия, метки времени
