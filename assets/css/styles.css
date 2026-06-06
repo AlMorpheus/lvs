@@ -765,7 +765,8 @@ textarea.input:focus {
 .reveal-entry.me .reveal-toggle {
   background: #fff;
 }
-.reveal-toggle.open {
+.reveal-toggle.open,
+.reveal-entry.me .reveal-toggle.open {
   background: var(--ink);
   color: #fff;
   border-color: var(--ink);
