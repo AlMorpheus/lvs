@@ -348,6 +348,10 @@ function readAllBets(matches) {
 }
 
 // ---------- раскрытие ставок начавшихся матчей ----------
+// sig — необратимый хэш содержимого (не раскрывает ставки), чтобы не перезаписывать файл зря.
+function payloadSig(payload) {
+  return toB64(sodium.crypto_generichash(16, sodium.from_string(JSON.stringify(payload))));
+}
 function writeReveals(matches, bets) {
   const SK = fromB64(SHARED);
   const dir = P('data/revealed');
@@ -360,9 +364,16 @@ function writeReveals(matches, bets) {
       const b = bets[u.id]?.matches?.[m.id];
       if (b) payload[u.id] = { score: b.score, scorers: b.scorers, submittedAt: b.submittedAt };
     }
+    const sig = payloadSig(payload);
+    const rel = `data/revealed/${m.id}.json`;
+    if (existsSync(P(rel))) {
+      try {
+        if (JSON.parse(readFileSync(P(rel), 'utf8')).sig === sig) continue; // не изменилось — не перезаписываем
+      } catch {}
+    }
     const nonce = sodium.randombytes_buf(sodium.crypto_secretbox_NONCEBYTES);
     const cipher = sodium.crypto_secretbox_easy(sodium.from_string(JSON.stringify(payload)), nonce, SK);
-    writeJSON(`data/revealed/${m.id}.json`, { v: 1, nonce: toB64(nonce), ct: toB64(cipher) });
+    writeJSON(rel, { v: 1, sig, nonce: toB64(nonce), ct: toB64(cipher) });
   }
 }
 
@@ -379,12 +390,12 @@ async function main() {
   await applyLineups(matches, squads); // точная заявка для ближайших/идущих матчей
   writeJSON('data/squads.json', squads);
 
-  // конфиг сохраняем всегда: дата матча открытия, метки времени
+  // конфиг — только при реальных изменениях (чтобы частый цикл не плодил коммиты)
   const opening = matches.find((m) => m.isOpening);
-  if (opening) app.tournament.openingKickoff = opening.date;
-  if (doDailyRefresh) app.tournament.squadsRefreshedOn = today;
-  app.tournament.lastUpdated = new Date().toISOString();
-  writeJSON('config/app.json', app);
+  let appChanged = false;
+  if (opening && app.tournament.openingKickoff !== opening.date) { app.tournament.openingKickoff = opening.date; appChanged = true; }
+  if (doDailyRefresh) { app.tournament.squadsRefreshedOn = today; appChanged = true; }
+  if (appChanged) { app.tournament.lastUpdated = new Date().toISOString(); writeJSON('config/app.json', app); }
 
   const bets = readAllBets(matches);
   writeReveals(matches, bets);
@@ -392,7 +403,10 @@ async function main() {
   const tr = await tournamentResult(matches);
   const posMap = buildPosIndex(squads);
   const result = computeStandings(usersCfg.map((u) => ({ id: u.id, name: u.name })), matches, bets, tr, cfg, posMap);
-  writeJSON('data/standings.json', { ...result, tournamentResult: tr, updatedAt: new Date().toISOString() });
+  // таблицу пишем только если содержимое изменилось (без учёта метки времени)
+  const prev = readJSON('data/standings.json', null);
+  const same = prev && JSON.stringify([prev.table, prev.rounds, prev.tournamentResult]) === JSON.stringify([result.table, result.rounds, tr]);
+  if (!same) writeJSON('data/standings.json', { ...result, tournamentResult: tr, updatedAt: new Date().toISOString() });
 
   console.log(`✅ Обновлено. Матчей: ${matches.length}. Запросов к API: ${apiCalls}.`);
 }

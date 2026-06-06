@@ -1,24 +1,23 @@
 name: Update results & standings
 
 on:
+  workflow_dispatch: {}
   schedule:
-    # Часы матчей (UTC) — каждые 5 минут: ставки раскрываются и таблица считается вскоре после свистка/финала.
-    - cron: '*/5 12-23 * * *'
-    - cron: '*/5 0-5 * * *'
-    # Тихие часы (06:00–11:59 UTC) — раз в 30 минут, чтобы не дёргать API зря.
-    - cron: '*/30 6-11 * * *'
-  workflow_dispatch: {} # ручной запуск из вкладки Actions
+    # Часовой «сторож»: ставит в очередь следующий длинный прогон, который бесшовно
+    # подхватит эстафету, когда текущий завершится (concurrency + cancel-in-progress: false).
+    - cron: '0 * * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: update
+  group: live
   cancel-in-progress: false
 
 jobs:
-  update:
+  live:
     runs-on: ubuntu-latest
+    timeout-minutes: 350 # ~5.8 часа (лимит job — 6 ч)
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,21 +32,22 @@ jobs:
       - name: Install deps
         run: npm install --no-audit --no-fund
 
-      - name: Run update
+      - name: Live loop (обновление каждые 2 минуты ~5.5 часа)
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           ACTION_PRIVATE_KEY: ${{ secrets.ACTION_PRIVATE_KEY }}
           SHARED_KEY: ${{ secrets.SHARED_KEY }}
-        run: node scripts/update.mjs
-
-      - name: Commit changes
         run: |
           git config user.name "wc2026-bot"
           git config user.email "actions@github.com"
-          git add data/ config/app.json
-          if git diff --cached --quiet; then
-            echo "Изменений нет."
-          else
-            git commit -m "auto: обновление результатов и таблицы"
-            git push
-          fi
+          END=$((SECONDS + 19800)) # ~5.5 часа
+          while [ $SECONDS -lt $END ]; do
+            node scripts/update.mjs || true
+            if [ -n "$(git status --porcelain data/ config/app.json)" ]; then
+              git add data/ config/app.json
+              git commit -m "auto: обновление результатов и таблицы" || true
+              git pull --rebase --no-edit origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
+              git push 2>/dev/null || true
+            fi
+            sleep 120
+          done
