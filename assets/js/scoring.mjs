@@ -126,6 +126,64 @@ export function matchPoints(bet, match, cfg) {
 }
 
 /**
+ * Подробный разбор начисленных очков за матч (для объяснения участнику).
+ * Возвращает структурированные позиции; названия игроков подставляет фронтенд.
+ */
+export function explainMatch(bet, match, cfg) {
+  if (!bet || !isFinished(match)) return null;
+  const actual = { home: match.score.home, away: match.score.away };
+  const isExact = bet.score.home === actual.home && bet.score.away === actual.away;
+
+  const scoreItems = [];
+  let scorePts;
+  if (isExact) {
+    scorePts = cfg.exact;
+    scoreItems.push({ label: `Точный счёт ${actual.home}:${actual.away}`, pts: cfg.exact });
+  } else {
+    let p = 0;
+    if (outcome(bet.score.home, bet.score.away) === outcome(actual.home, actual.away)) {
+      scoreItems.push({ label: 'Угадан исход', pts: cfg.outcome });
+      p += cfg.outcome;
+      if (bet.score.home - bet.score.away === actual.home - actual.away) {
+        scoreItems.push({ label: 'Угадана разница мячей', pts: cfg.goalDiff });
+        p += cfg.goalDiff;
+      }
+    }
+    if (bet.score.home === actual.home) {
+      scoreItems.push({ label: `Голы ${match.home?.name || 'хозяев'} (${actual.home})`, pts: cfg.teamGoals });
+      p += cfg.teamGoals;
+    }
+    if (bet.score.away === actual.away) {
+      scoreItems.push({ label: `Голы ${match.away?.name || 'гостей'} (${actual.away})`, pts: cfg.teamGoals });
+      p += cfg.teamGoals;
+    }
+    if (bet.score.home + bet.score.away === actual.home + actual.away) {
+      scoreItems.push({ label: `Сумма голов (${actual.home + actual.away})`, pts: cfg.totalGoals });
+      p += cfg.totalGoals;
+    }
+    if (!scoreItems.length) scoreItems.push({ label: 'Счёт не угадан', pts: 0 });
+    scorePts = Math.min(p, cfg.scoreBlockMax);
+    if (p > cfg.scoreBlockMax) scoreItems.push({ label: `Ограничение максимумом за счёт`, pts: cfg.scoreBlockMax - p });
+  }
+
+  const scored = new Set(realScorerIds(match));
+  const picks = [...new Set((bet.scorers || []).filter((x) => x != null))];
+  const scorerItems = picks.map((id) => ({ playerId: id, correct: scored.has(id), pts: scored.has(id) ? cfg.scorerEach : 0 }));
+  const correct = scorerItems.filter((s) => s.correct).length;
+  const scorerPts = correct * cfg.scorerEach;
+
+  const totalGoals = actual.home + actual.away;
+  const hat = picks.length >= cfg.scorersPerBet && correct >= cfg.scorersPerBet && totalGoals >= 3 ? cfg.hatTrick : 0;
+
+  const base = scorePts + scorerPts + hat;
+  const multiplier = match.multiplier ?? 1;
+  const afterMult = Math.round(base * multiplier);
+  const special = isExact && isSpecialBonusMatch(match, cfg) ? cfg.exactSpecialBonus : 0;
+
+  return { isExact, scoreItems, scorerItems, hat, scorePts, scorerPts, base, multiplier, afterMult, special, total: afterMult + special };
+}
+
+/**
  * Сколько очков ставка МОЖЕТ принести максимум (для подсказки на форме до матча).
  */
 export function maxPotential(match, cfg) {

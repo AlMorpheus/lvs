@@ -585,6 +585,62 @@ select.input:focus {
   opacity: 0.7;
 }
 
+.bet-summary .row.clickable {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px 6px;
+  margin: 0 -6px;
+}
+.bet-summary .row.clickable:hover {
+  background: var(--bg);
+}
+.caret {
+  color: var(--muted);
+  font-size: 0.8em;
+}
+.breakdown {
+  margin: 2px 0 10px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+.bd-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.84rem;
+  padding: 3px 0;
+  color: var(--ink-soft);
+}
+.bd-row .bd-pts {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.bd-row.miss {
+  color: var(--muted);
+}
+.bd-row.bd-strong {
+  border-top: 1px dashed var(--line);
+  margin-top: 4px;
+  padding-top: 7px;
+  color: var(--ink);
+  font-weight: 700;
+}
+.bd-row.bd-total {
+  border-top: 2px solid var(--line);
+  margin-top: 4px;
+  padding-top: 7px;
+  color: var(--ink);
+  font-weight: 800;
+}
+.bd-row.bd-total .bd-pts {
+  color: #fff;
+  background: var(--grad-pitch);
+  padding: 1px 10px;
+  border-radius: 999px;
+}
+
 .cta-row {
   margin-top: 12px;
 }

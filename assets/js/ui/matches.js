@@ -1,6 +1,6 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
 import { h, clear, flagEl, fmtDateTime, countdown, toast } from './components.js';
-import { maxPotential, matchPoints, roundUnlocked } from '../scoring.mjs';
+import { maxPotential, matchPoints, roundUnlocked, explainMatch } from '../scoring.mjs';
 import { submitBet, loadOwnBet, loadRevealed, listOwnBets } from '../bets.js';
 import { forceOnboard } from './onboarding.js';
 
@@ -147,6 +147,30 @@ function betForm(card, m, S, ctx, existing) {
   ]);
 }
 
+// ---- детализация очков ----
+function bdLine(label, pts, opts = {}) {
+  const right = opts.right != null ? opts.right : pts > 0 ? '+' + pts : pts < 0 ? String(pts) : '+0';
+  return h('div', { class: 'bd-row ' + (opts.cls || '') }, [
+    h('span', { class: 'bd-label', text: label }),
+    h('span', { class: 'bd-pts', text: right }),
+  ]);
+}
+function breakdownPanel(bet, m, S, idx) {
+  const ex = explainMatch(bet, m, S.app.scoring);
+  if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
+  const rows = [];
+  ex.scoreItems.forEach((it) => rows.push(bdLine(it.label, it.pts)));
+  ex.scorerItems.forEach((s) =>
+    rows.push(bdLine((s.correct ? '✓ ' : '✗ ') + (idx.get(String(s.playerId)) || 'игрок'), s.pts, { cls: s.correct ? '' : 'miss' }))
+  );
+  if (ex.hat) rows.push(bdLine('Хет-трик прогноза', ex.hat));
+  rows.push(bdLine('База', ex.base, { cls: 'bd-strong' }));
+  if (ex.multiplier !== 1) rows.push(bdLine(`× коэффициент ${ex.multiplier}`, null, { right: '= ' + ex.afterMult }));
+  if (ex.special) rows.push(bdLine('Бонус за точный счёт', ex.special));
+  rows.push(bdLine('Итого за матч', ex.total, { cls: 'bd-total' }));
+  return h('div', { class: 'breakdown' }, rows);
+}
+
 // ---- раскрытые ставки (после свистка) ----
 async function revealBlock(m, S, ctx, idx) {
   const wrap = h('div', { class: 'bet-summary' }, [h('div', { class: 'potential', text: 'Загружаем ставки…' })]);
@@ -158,16 +182,32 @@ async function revealBlock(m, S, ctx, idx) {
   }
   const standRow = (uid) => (S.standings.table || []).find((r) => r.id === uid);
   const nameOf = (uid) => S.users.find((u) => u.id === uid)?.name || uid;
-  for (const [uid, bet] of Object.entries(revealed)) {
+  if (m.finished) wrap.append(h('div', { class: 'potential', text: 'Нажми на участника — покажу, как набраны очки.' }));
+
+  // свои ставки сверху
+  const entries = Object.entries(revealed).sort((a, b) => (a[0] === ctx.S.session.userId ? -1 : b[0] === ctx.S.session.userId ? 1 : 0));
+  for (const [uid, bet] of entries) {
     const res = m.finished ? standRow(uid)?.perMatch?.[m.id] : null;
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
     const scn = (bet.scorers || []).map((id) => idx.get(String(id)) || '—').join(', ');
-    wrap.append(
-      h('div', { class: 'row' + (uid === ctx.S.session.userId ? ' me' : '') }, [
-        h('span', {}, [h('b', { text: nameOf(uid) }), bet.scorers?.length ? ` · ${scn}` : '']),
-        h('span', {}, [`${bet.score.home}:${bet.score.away} `, pts]),
-      ])
-    );
+    const caret = m.finished ? h('span', { class: 'caret', text: ' ▾' }) : '';
+    const head = h('div', { class: 'row' + (m.finished ? ' clickable' : '') + (uid === ctx.S.session.userId ? ' me' : '') }, [
+      h('span', {}, [h('b', { text: nameOf(uid) + (uid === ctx.S.session.userId ? ' · ты' : '') }), bet.scorers?.length ? ` · ${scn}` : '']),
+      h('span', {}, [`${bet.score.home}:${bet.score.away} `, pts, caret]),
+    ]);
+    const holder = h('div', {});
+    if (m.finished) {
+      head.addEventListener('click', () => {
+        if (holder.firstChild) {
+          clear(holder);
+          caret.textContent = ' ▾';
+        } else {
+          holder.append(breakdownPanel(bet, m, S, idx));
+          caret.textContent = ' ▴';
+        }
+      });
+    }
+    wrap.append(head, holder);
   }
   return wrap;
 }
