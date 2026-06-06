@@ -1,5 +1,5 @@
 // Экран «Таблица»: лидерборд + разбивка очков + победители туров.
-import { h, clear } from './components.js?v=7';
+import { h, clear } from './components.js?v=8';
 
 const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉', 4: '🪵' };
 const ROUND_LABELS = {

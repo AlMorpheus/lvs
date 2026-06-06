@@ -23,12 +23,11 @@
     "lastUpdated": "2026-06-06T11:37:23.434Z"
   },
   "scoring": {
-    "exact": 20,
+    "exact": 25,
     "outcome": 7,
     "goalDiff": 5,
-    "teamGoals": 4,
     "totalGoals": 5,
-    "scoreBlockMax": 20,
+    "scoreBlockMax": 25,
     "scorerEach": 3,
     "scorersPerBet": 3,
     "hatTrick": 9,

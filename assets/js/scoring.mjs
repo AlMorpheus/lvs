@@ -9,7 +9,7 @@ export function outcome(home, away) {
 }
 
 /**
- * Очки за угаданный счёт (макс scoreBlockMax = 20).
+ * Очки за угаданный счёт (макс scoreBlockMax).
  * bet/actual = { home, away } — целые числа.
  */
 export function scorePoints(bet, actual, cfg) {
@@ -20,9 +20,7 @@ export function scorePoints(bet, actual, cfg) {
     pts += cfg.outcome; // угадан исход
     if (bet.home - bet.away === actual.home - actual.away) pts += cfg.goalDiff; // + разница мячей
   }
-  if (bet.home === actual.home) pts += cfg.teamGoals; // голы хозяев точно
-  if (bet.away === actual.away) pts += cfg.teamGoals; // голы гостей точно
-  if (bet.home + bet.away === actual.home + actual.away) pts += cfg.totalGoals; // суммарные голы
+  if (bet.home + bet.away === actual.home + actual.away) pts += cfg.totalGoals; // суммарные голы (только если счёт не угадан)
 
   return Math.min(pts, cfg.scoreBlockMax);
 }
@@ -177,14 +175,6 @@ export function explainMatch(bet, match, cfg) {
         scoreItems.push({ label: 'Угадана разница мячей', pts: cfg.goalDiff });
         p += cfg.goalDiff;
       }
-    }
-    if (bet.score.home === actual.home) {
-      scoreItems.push({ label: `Голы ${match.home?.name || 'хозяев'} (${actual.home})`, pts: cfg.teamGoals });
-      p += cfg.teamGoals;
-    }
-    if (bet.score.away === actual.away) {
-      scoreItems.push({ label: `Голы ${match.away?.name || 'гостей'} (${actual.away})`, pts: cfg.teamGoals });
-      p += cfg.teamGoals;
     }
     if (bet.score.home + bet.score.away === actual.home + actual.away) {
       scoreItems.push({ label: `Сумма голов (${actual.home + actual.away})`, pts: cfg.totalGoals });

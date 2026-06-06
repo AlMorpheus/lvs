@@ -15,12 +15,12 @@ function eq(name, got, exp) {
 }
 
 // Очки за счёт
-eq('точный 2:1', scorePoints({ home: 2, away: 1 }, { home: 2, away: 1 }, cfg), 20);
-eq('исход+разница 2:1->3:2', scorePoints({ home: 2, away: 1 }, { home: 3, away: 2 }, cfg), 12);
-eq('только исход 2:1->4:0', scorePoints({ home: 2, away: 1 }, { home: 4, away: 0 }, cfg), 7);
-eq('ничья 1:1->2:2', scorePoints({ home: 1, away: 1 }, { home: 2, away: 2 }, cfg), 12);
-eq('сумма голов 2:1->0:3', scorePoints({ home: 2, away: 1 }, { home: 0, away: 3 }, cfg), 5); // сумма 3=3
-eq('голы одной команды 2:0->2:3', scorePoints({ home: 2, away: 0 }, { home: 2, away: 3 }, cfg), 4);
+eq('точный 2:1', scorePoints({ home: 2, away: 1 }, { home: 2, away: 1 }, cfg), cfg.exact);
+eq('исход+разница 2:1->3:2', scorePoints({ home: 2, away: 1 }, { home: 3, away: 2 }, cfg), cfg.outcome + cfg.goalDiff);
+eq('только исход 2:1->4:0', scorePoints({ home: 2, away: 1 }, { home: 4, away: 0 }, cfg), cfg.outcome);
+eq('ничья 1:1->2:2', scorePoints({ home: 1, away: 1 }, { home: 2, away: 2 }, cfg), cfg.outcome + cfg.goalDiff);
+eq('сумма голов 2:1->0:3', scorePoints({ home: 2, away: 1 }, { home: 0, away: 3 }, cfg), cfg.totalGoals); // сумма 3=3, исход неверный
+eq('голы команды больше не считаются 2:0->2:3', scorePoints({ home: 2, away: 0 }, { home: 2, away: 3 }, cfg), 0);
 eq('мимо 0:0->1:2', scorePoints({ home: 0, away: 0 }, { home: 1, away: 2 }, cfg), 0);
 
 // Авторы
