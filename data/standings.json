@@ -19,6 +19,17 @@
           "total": 16,
           "isExact": false,
           "usedReg": false
+        },
+        "1542180": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "perRound": {
@@ -29,10 +40,10 @@
     {
       "id": "sasha",
       "name": "Саша",
-      "matchPts": 10,
+      "matchPts": 15,
       "jackpotPts": 0,
       "futuresPts": 0,
-      "total": 10,
+      "total": 15,
       "exactCount": 0,
       "perMatch": {
         "1537649": {
@@ -45,23 +56,8 @@
           "total": 10,
           "isExact": false,
           "usedReg": false
-        }
-      },
-      "perRound": {
-        "test": 10
-      },
-      "rank": 2
-    },
-    {
-      "id": "albert",
-      "name": "Альберт",
-      "matchPts": 5,
-      "jackpotPts": 0,
-      "futuresPts": 0,
-      "total": 5,
-      "exactCount": 0,
-      "perMatch": {
-        "1537649": {
+        },
+        "1542180": {
           "scorePts": 0,
           "scorerPts": 4,
           "correctScorers": 1,
@@ -74,7 +70,44 @@
         }
       },
       "perRound": {
-        "test": 5
+        "test": 15
+      },
+      "rank": 2
+    },
+    {
+      "id": "albert",
+      "name": "Альберт",
+      "matchPts": 8,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 8,
+      "exactCount": 0,
+      "perMatch": {
+        "1537649": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 5,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1542180": {
+          "scorePts": 0,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 2,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 3,
+          "isExact": false,
+          "usedReg": false
+        }
+      },
+      "perRound": {
+        "test": 8
       },
       "rank": 3
     },
@@ -152,11 +185,11 @@
     "test": {
       "key": "test",
       "total": 4,
-      "finished": 1,
+      "finished": 2,
       "winners": [],
       "leadPts": 0
     }
   },
   "tournamentResult": null,
-  "updatedAt": "2026-06-06T15:53:49.078Z"
+  "updatedAt": "2026-06-06T19:42:23.678Z"
 }

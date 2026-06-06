@@ -1803,7 +1803,7 @@
   {
     "id": "1542180",
     "date": "2026-06-06T17:45:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1822,9 +1822,34 @@
       "home": 2,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "scorers": [],
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "scorers": [
+      {
+        "playerId": 43033,
+        "name": "F. Coman",
+        "teamId": 774,
+        "minute": 52,
+        "type": "normal"
+      },
+      {
+        "playerId": 18870,
+        "name": "D. Brooks",
+        "teamId": 767,
+        "minute": 63,
+        "type": "normal"
+      },
+      {
+        "playerId": 43129,
+        "name": "A. Rus",
+        "teamId": 774,
+        "minute": 80,
+        "type": "normal"
+      }
+    ],
     "multiplier": 1.3
   },
   {
