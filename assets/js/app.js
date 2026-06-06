@@ -1,12 +1,12 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=20';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=20';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=20';
-import { renderLogin } from './ui/login.js?v=20';
-import { renderMatches } from './ui/matches.js?v=20';
-import { renderTable } from './ui/table.js?v=20';
-import { renderRules } from './ui/rules.js?v=20';
-import { maybeOnboard } from './ui/onboarding.js?v=20';
+import { initCrypto } from './crypto.js?v=21';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=21';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=21';
+import { renderLogin } from './ui/login.js?v=21';
+import { renderMatches } from './ui/matches.js?v=21';
+import { renderTable } from './ui/table.js?v=21';
+import { renderRules } from './ui/rules.js?v=21';
+import { maybeOnboard } from './ui/onboarding.js?v=21';
 
 const root = document.getElementById('root');
 
@@ -16,6 +16,7 @@ export const S = {
   session: null,
   matches: [],
   squads: {},
+  players: {},
   standings: { table: [], rounds: {} },
   fifa: {},
   favTeams: { order: [] },
@@ -40,9 +41,10 @@ async function tryJSON(path, fallback) {
 }
 
 export async function loadPublicData() {
-  const [matches, squads, standings, fifa, favTeams, favScorers] = await Promise.all([
+  const [matches, squads, players, standings, fifa, favTeams, favScorers] = await Promise.all([
     tryJSON('data/matches.json', []),
     tryJSON('data/squads.json', {}),
+    tryJSON('data/players.json', {}),
     tryJSON('data/standings.json', { table: [], rounds: {} }),
     tryJSON('data/fifa-ranking.json', { teams: {} }),
     tryJSON('data/fav-teams.json', { order: [] }),
@@ -50,6 +52,7 @@ export async function loadPublicData() {
   ]);
   S.matches = Array.isArray(matches) ? matches : matches.matches || [];
   S.squads = squads || {};
+  S.players = players || {};
   S.standings = standings && standings.table ? standings : { table: [], rounds: {} };
   S.fifa = fifa || { teams: {} };
   S.favTeams = favTeams || { order: [] };

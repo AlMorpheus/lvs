@@ -37,6 +37,21 @@ const fifa = readJSON('data/fifa-ranking.json', { teams: {} });
 const overrides = readJSON('data/overrides.json', { matches: {} });
 const cfg = app.scoring;
 
+// ---------- накопительный справочник игроков ----------
+// id -> { name, pos, team }. Имена/позиции НЕ теряются, когда заявку (lineup) усекают
+// до матчевой — иначе ранее выбранный игрок перестаёт находиться по id («—» без флага).
+const playerDir = readJSON('data/players.json', {});
+function recordPlayer(p, teamId) {
+  if (p?.id == null) return;
+  const id = String(p.id);
+  const cur = playerDir[id] || {};
+  playerDir[id] = {
+    name: p.name || cur.name || null,
+    pos: p.pos || cur.pos || null,
+    team: teamId != null ? String(teamId) : cur.team || null,
+  };
+}
+
 // ---------- API-Football ----------
 const API_BASE = 'https://v3.football.api-sports.io';
 let apiCalls = 0;
@@ -347,6 +362,29 @@ function readAllBets(matches) {
   return bets;
 }
 
+// Добираем профили выбранных игроков, которых нет в справочнике (выпали из заявки/состава),
+// чтобы их имя и позиция всегда отображались и учитывались в очках. Каждый — один раз.
+async function recoverPickedPlayers(bets) {
+  const ids = new Set();
+  for (const u of Object.values(bets)) for (const mb of Object.values(u.matches || {})) for (const id of mb.scorers || []) ids.add(String(id));
+  let used = 0;
+  const MAX = 25; // бережём квоту: профиль тянем единожды на игрока
+  for (const id of ids) {
+    if (playerDir[id]?.name) continue;
+    if (used >= MAX) break;
+    try {
+      const resp = await api('/players/profiles', { player: id });
+      const pl = resp[0]?.player;
+      if (pl) {
+        recordPlayer({ id, name: pl.name, pos: pl.position }, null);
+        used++;
+      }
+    } catch (e) {
+      console.warn('профиль игрока', id, e.message);
+    }
+  }
+}
+
 // ---------- раскрытие ставок начавшихся матчей ----------
 // sig — необратимый хэш содержимого (не раскрывает ставки), чтобы не перезаписывать файл зря.
 function payloadSig(payload) {
@@ -390,6 +428,10 @@ async function main() {
   await applyLineups(matches, squads); // точная заявка для ближайших/идущих матчей
   writeJSON('data/squads.json', squads);
 
+  // пополняем накопительный справочник игроков из составов и авторов голов
+  for (const [tid, arr] of Object.entries(squads)) for (const p of arr || []) recordPlayer(p, tid);
+  for (const m of matches) for (const s of m.scorers || []) recordPlayer({ id: s.playerId, name: s.name }, null);
+
   // конфиг — только при реальных изменениях (чтобы частый цикл не плодил коммиты)
   const opening = matches.find((m) => m.isOpening);
   let appChanged = false;
@@ -398,10 +440,17 @@ async function main() {
   if (appChanged) { app.tournament.lastUpdated = new Date().toISOString(); writeJSON('config/app.json', app); }
 
   const bets = readAllBets(matches);
+  await recoverPickedPlayers(bets); // имена/позиции выбранных, но выпавших из состава игроков
   writeReveals(matches, bets);
+
+  // справочник игроков пишем только при изменении
+  const prevDir = readJSON('data/players.json', null);
+  if (JSON.stringify(prevDir) !== JSON.stringify(playerDir)) writeJSON('data/players.json', playerDir);
 
   const tr = await tournamentResult(matches);
   const posMap = buildPosIndex(squads);
+  // позиции из справочника — на случай игроков, отсутствующих в текущем составе
+  for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
   const result = computeStandings(usersCfg.map((u) => ({ id: u.id, name: u.name })), matches, bets, tr, cfg, posMap);
   // таблицу пишем только если содержимое изменилось (без учёта метки времени)
   const prev = readJSON('data/standings.json', null);

@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=20';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=20';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=20';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=20';
-import { renderGreeting } from './greeting.js?v=20';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=21';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=21';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=21';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=21';
+import { renderGreeting } from './greeting.js?v=21';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -22,6 +22,8 @@ const ownBetCache = new Map(); // matchId -> bet | null
 
 function buildPlayerIndex(S) {
   const idx = new Map();
+  // накопительный справочник — основа (имена не теряются при усечении заявки)
+  for (const [id, p] of Object.entries(S.players || {})) if (p?.name) idx.set(String(id), p.name);
   for (const players of Object.values(S.squads || {})) {
     for (const p of players || []) idx.set(String(p.id), p.name);
   }
@@ -202,7 +204,10 @@ function bdLine(label, pts, opts = {}) {
 }
 let _posIdx = null;
 function posIndex(S) {
-  return _posIdx || (_posIdx = buildPosIndex(S.squads));
+  if (_posIdx) return _posIdx;
+  const idx = buildPosIndex(S.squads);
+  for (const [id, p] of Object.entries(S.players || {})) if (p?.pos && idx[String(id)] == null) idx[String(id)] = p.pos;
+  return (_posIdx = idx);
 }
 // «Фамилия · поз» (нап/пз/защ/вр) для отображения авторов в ставке.
 function nameWithPos(id, S, idx) {
@@ -215,6 +220,12 @@ function teamOfPlayer(id, m, S) {
   const inSquad = (team) => ((S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || []).some((p) => String(p.id) === String(id));
   if (inSquad(m.home)) return m.home;
   if (inSquad(m.away)) return m.away;
+  // запасной вариант — команда из справочника игроков
+  const t = (S.players || {})[String(id)]?.team;
+  if (t != null) {
+    if (String(m.home?.id) === String(t)) return m.home;
+    if (String(m.away?.id) === String(t)) return m.away;
+  }
   return null;
 }
 function miniFlag(team) {
