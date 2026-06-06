@@ -48,6 +48,9 @@ body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  min-height: 100%;
+  background: var(--bg); /* единый фон и под панелью Safari, и в зоне overscroll */
+  color-scheme: light; /* iOS в тёмной теме не подкрашивает страницу/панель в серый */
 }
 body {
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
