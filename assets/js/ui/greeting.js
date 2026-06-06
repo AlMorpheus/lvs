@@ -1,7 +1,7 @@
 // Интерактивный блок приветствия: здоровается по имени и времени суток,
 // напоминает про ставки, поздравляет с праздниками, показывает объявления.
-import { h, clear, toast } from './components.js?v=5';
-import { loadAnnouncements, saveAnnouncements } from '../bets.js?v=5';
+import { h, clear, toast } from './components.js?v=6';
+import { loadAnnouncements, saveAnnouncements } from '../bets.js?v=6';
 
 function timeGreeting(name) {
   const hh = new Date().getHours();
@@ -26,15 +26,6 @@ const HOLIDAYS = {
   '12-31': 'С наступающим Новым годом! 🎄',
 };
 
-const EMPATHY = [
-  'Хорошего дня и точных прогнозов! ⚽',
-  'Пусть сегодня зайдут все ставки! 🍀',
-  'Лови вдохновение на верный счёт! ✨',
-  'Главное — участие… и джекпот тура! 🏆',
-  'Доверься чутью — оно не подведёт! 🔮',
-  'Удачного дня! Не забудь про матчи. 🙌',
-];
-
 function ruPlural(n, one, few, many) {
   const m10 = n % 10, m100 = n % 100;
   if (m10 === 1 && m100 !== 11) return one;
@@ -57,8 +48,7 @@ export async function renderGreeting(host, ctx, info) {
   card.append(h('div', { class: 'greet-hi', text: timeGreeting(name) }));
 
   const holiday = HOLIDAYS[mmdd()];
-  const sub = holiday || EMPATHY[new Date().getDate() % EMPATHY.length];
-  card.append(h('div', { class: 'greet-sub' + (holiday ? ' holiday' : ''), text: sub }));
+  if (holiday) card.append(h('div', { class: 'greet-sub holiday', text: holiday }));
 
   // Напоминания
   const tips = [];
