@@ -4,23 +4,65 @@ import { submitTournament, loadOwnTournament } from '../bets.js';
 
 let shownThisSession = false;
 
+const normLast = (name) =>
+  (name || '').normalize('NFD').replace(/[̀-ͯ]/g, '').trim().split(/\s+/).pop().toLowerCase().replace(/[^a-z]/g, '');
+const normTeam = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
 function uniqueTeams(S) {
   const map = new Map();
   for (const m of S.matches) {
     for (const t of [m.home, m.away]) if (t?.id != null && !map.has(String(t.id))) map.set(String(t.id), t);
   }
-  return [...map.values()].sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+  return [...map.values()];
 }
 
-function allPlayers(S) {
+// Команды: сначала фавориты (по коэффициентам), затем остальные по алфавиту.
+function orderedTeams(S) {
+  const teams = uniqueTeams(S);
+  const byName = new Map(teams.map((t) => [t.name, t]));
+  const used = new Set();
+  const fav = [];
+  for (const n of S.favTeams?.order || []) {
+    const t = byName.get(n);
+    if (t && !used.has(String(t.id))) {
+      fav.push(t);
+      used.add(String(t.id));
+    }
+  }
+  const rest = teams.filter((t) => !used.has(String(t.id))).sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+  return { fav, rest };
+}
+
+function rawPlayers(S) {
   const teamName = {};
   for (const t of uniqueTeams(S)) teamName[String(t.id)] = t.name;
   const out = [];
   for (const [tid, players] of Object.entries(S.squads || {})) {
     for (const p of players || []) out.push({ id: String(p.id), name: p.name, team: teamName[String(tid)] || '' });
   }
-  out.sort((a, b) => a.name.localeCompare(b.name));
   return out;
+}
+
+// Бомбардиры: сначала фавориты (сопоставление по фамилии+команде), затем по командам и алфавиту.
+function orderedPlayers(S) {
+  const players = rawPlayers(S);
+  const used = new Set();
+  const fav = [];
+  for (const f of S.favScorers?.order || []) {
+    const fl = normLast(f.name);
+    const ft = normTeam(f.team);
+    const cand =
+      players.find((p) => !used.has(p.id) && normLast(p.name) === fl && normTeam(p.team) === ft) ||
+      players.find((p) => !used.has(p.id) && normLast(p.name) === fl);
+    if (cand) {
+      fav.push(cand);
+      used.add(cand.id);
+    }
+  }
+  const rest = players
+    .filter((p) => !used.has(p.id))
+    .sort((a, b) => (a.team || '').localeCompare(b.team || '') || a.name.localeCompare(b.name));
+  return [...fav, ...rest];
 }
 
 function openingLocked(S) {
@@ -30,13 +72,16 @@ function openingLocked(S) {
 
 function buildOverlay(ctx, existing) {
   const S = ctx.S;
-  const teams = uniqueTeams(S);
-  const players = allPlayers(S);
+  const { fav, rest } = orderedTeams(S);
+  const players = orderedPlayers(S);
   const sc = S.app.scoring;
 
-  const champSel = h('select', { class: 'input' }, [h('option', { value: '', text: '— команда —' })].concat(
-    teams.map((t) => h('option', { value: String(t.id), text: t.name, selected: String(t.id) === String(existing?.champion) }))
-  ));
+  const champOpt = (t) => h('option', { value: String(t.id), text: t.name, selected: String(t.id) === String(existing?.champion) });
+  const champSel = h('select', { class: 'input' }, [
+    h('option', { value: '', text: '— команда —' }),
+    fav.length ? h('optgroup', { label: '⭐ Фавориты' }, fav.map(champOpt)) : null,
+    rest.length ? h('optgroup', { label: 'Остальные (по алфавиту)' }, rest.map(champOpt)) : null,
+  ]);
 
   const dl = h('datalist', { id: 'playersDL' }, players.map((p) => h('option', { value: `${p.name} — ${p.team}` })));
   const labelOf = (id) => {

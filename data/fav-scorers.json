@@ -1,0 +1,25 @@
+{
+  "_note": "Фавориты на звание лучшего бомбардира ЧМ-2026 по букмекерским коэффициентам (снимок на 06.06.2026). Показываются первыми в списке. Сопоставление с заявкой — по фамилии и команде; кого не нашли в составе, тот идёт в общий список. Правится вручную.",
+  "order": [
+    { "name": "Kylian Mbappé", "team": "France" },
+    { "name": "Harry Kane", "team": "England" },
+    { "name": "Erling Haaland", "team": "Norway" },
+    { "name": "Lamine Yamal", "team": "Spain" },
+    { "name": "Lionel Messi", "team": "Argentina" },
+    { "name": "Vinícius Júnior", "team": "Brazil" },
+    { "name": "Julián Álvarez", "team": "Argentina" },
+    { "name": "Lautaro Martínez", "team": "Argentina" },
+    { "name": "Cristiano Ronaldo", "team": "Portugal" },
+    { "name": "Raphinha", "team": "Brazil" },
+    { "name": "Rafael Leão", "team": "Portugal" },
+    { "name": "Álvaro Morata", "team": "Spain" },
+    { "name": "Kai Havertz", "team": "Germany" },
+    { "name": "Bruno Fernandes", "team": "Portugal" },
+    { "name": "Memphis Depay", "team": "Netherlands" },
+    { "name": "Romelu Lukaku", "team": "Belgium" },
+    { "name": "Christian Pulisic", "team": "USA" },
+    { "name": "Endrick", "team": "Brazil" },
+    { "name": "Ousmane Dembélé", "team": "France" },
+    { "name": "Nico Williams", "team": "Spain" }
+  ]
+}

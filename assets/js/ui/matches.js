@@ -291,12 +291,17 @@ export async function renderMatches(view, ctx) {
     console.warn('Не удалось получить список ставок', e);
   }
 
-  if (!own.hasTournament && openingFuture) {
+  if (openingFuture) {
     clear(banner);
     banner.hidden = false;
+    const intro = own.hasTournament
+      ? h('div', {}, ['🌟 Прогноз сделан. До матча открытия можно ', h('b', { text: 'изменить' }), ' чемпиона и бомбардира.'])
+      : h('div', {}, ['🌟 Ты ещё не выбрал ', h('b', { text: 'чемпиона' }), ' и ', h('b', { text: 'лучшего бомбардира' }), ' турнира.']);
     banner.append(
-      h('div', {}, ['🌟 Ты ещё не выбрал ', h('b', { text: 'чемпиона' }), ' и ', h('b', { text: 'лучшего бомбардира' }), ' турнира. ']),
-      h('div', { style: 'margin-top:10px' }, [h('button', { class: 'btn small', text: 'Сделать прогноз', onclick: () => forceOnboard(ctx) })])
+      intro,
+      h('div', { style: 'margin-top:10px' }, [
+        h('button', { class: own.hasTournament ? 'btn ghost small' : 'btn small', text: own.hasTournament ? 'Изменить прогноз' : 'Сделать прогноз', onclick: () => forceOnboard(ctx) }),
+      ])
     );
   }
 

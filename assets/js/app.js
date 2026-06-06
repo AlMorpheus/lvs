@@ -18,6 +18,8 @@ export const S = {
   squads: {},
   standings: { table: [], rounds: {} },
   fifa: {},
+  favTeams: { order: [] },
+  favScorers: { order: [] },
 };
 
 const NAV = [
@@ -38,16 +40,20 @@ async function tryJSON(path, fallback) {
 }
 
 export async function loadPublicData() {
-  const [matches, squads, standings, fifa] = await Promise.all([
+  const [matches, squads, standings, fifa, favTeams, favScorers] = await Promise.all([
     tryJSON('data/matches.json', []),
     tryJSON('data/squads.json', {}),
     tryJSON('data/standings.json', { table: [], rounds: {} }),
     tryJSON('data/fifa-ranking.json', { teams: {} }),
+    tryJSON('data/fav-teams.json', { order: [] }),
+    tryJSON('data/fav-scorers.json', { order: [] }),
   ]);
   S.matches = Array.isArray(matches) ? matches : matches.matches || [];
   S.squads = squads || {};
   S.standings = standings && standings.table ? standings : { table: [], rounds: {} };
   S.fifa = fifa || { teams: {} };
+  S.favTeams = favTeams || { order: [] };
+  S.favScorers = favScorers || { order: [] };
 }
 
 // ---------- Оболочка ----------
