@@ -30,7 +30,7 @@
     "scoreBlockMax": 20,
     "scorerEach": 3,
     "scorersPerBet": 3,
-    "hatTrick": 3,
+    "hatTrick": 9,
     "exactSpecialBonus": 5,
     "roundJackpot": 10,
     "championBonus": 100,

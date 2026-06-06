@@ -57,6 +57,14 @@ const st = standings(users, matches, bets, null, cfg);
 eq('A итог (точный + 1 автор + джекпот)', st.table[0].total, cfg.exact + cfg.scorerEach + cfg.roundJackpot);
 eq('лидер A', st.table[0].id, 'a');
 
+// Плей-офф: счёт основного времени + итог — оба «точный счёт»
+const ko = { finished: true, score: { home: 2, away: 1 }, scoreReg: { home: 1, away: 1 }, scorers: [], multiplier: 2.0, roundKey: 'final', home: { name: 'A' }, away: { name: 'B' } };
+const koExpect = Math.round(cfg.exact * 2.0) + cfg.exactSpecialBonus; // 20*2 + 5
+eq('плей-офф: ставка 1:1 (осн.время) = точный', matchPoints({ score: { home: 1, away: 1 }, scorers: [] }, ko, cfg).total, koExpect);
+eq('плей-офф: ставка 2:1 (итог) = точный', matchPoints({ score: { home: 2, away: 1 }, scorers: [] }, ko, cfg).total, koExpect);
+eq('плей-офф: 1:1 помечен как осн.время', matchPoints({ score: { home: 1, away: 1 }, scorers: [] }, ko, cfg).usedReg, true);
+eq('плей-офф: 0:0 мимо обоих', matchPoints({ score: { home: 0, away: 0 }, scorers: [] }, ko, cfg).isExact, false);
+
 // Долгосрочные прогнозы
 const tr = { finished: true, champion: 5, topScorers: [7] };
 const bets2 = { a: { matches: {}, tournament: { champion: 5, topScorer: 7 } }, b: { matches: {}, tournament: { champion: 6, topScorer: 7 } } };

@@ -101,6 +101,33 @@ export function roundUnlocked(roundKey, matches) {
 }
 
 /**
+ * Счета, по которым проверяется ставка. В плей-офф к итогу (с доп. временем)
+ * добавляется счёт основного времени — ставка засчитывается по лучшему из них.
+ * Так и угадавший «1:1 в основное», и угадавший «2:1 итог» получают точный счёт.
+ */
+export function scoreCandidates(match) {
+  const out = [];
+  if (match.score && match.score.home != null) out.push({ score: match.score, reg: false });
+  const r = match.scoreReg;
+  if (r && r.home != null && (!match.score || r.home !== match.score.home || r.away !== match.score.away)) {
+    out.push({ score: r, reg: true });
+  }
+  return out;
+}
+
+/** Лучший кандидат счёта по очкам за счёт. */
+function bestCandidate(bet, match, cfg) {
+  const cands = scoreCandidates(match);
+  let best = { sp: -1, c: cands[0] || { score: match.score, reg: false } };
+  for (const c of cands) {
+    const sp = scorePoints(bet.score, c.score, cfg);
+    if (sp > best.sp) best = { sp, c };
+  }
+  const isExactAny = cands.some((c) => bet.score.home === c.score.home && bet.score.away === c.score.away);
+  return { ...best, isExactAny };
+}
+
+/**
  * Полный расчёт очков пользователя за один матч.
  * Возвращает разбивку и итог (с учётом множителя и спец-бонуса +5).
  * Если результата нет или ставки нет — возвращает null.
@@ -108,21 +135,21 @@ export function roundUnlocked(roundKey, matches) {
 export function matchPoints(bet, match, cfg) {
   if (!bet || !isFinished(match)) return null;
 
-  const actual = { home: match.score.home, away: match.score.away };
-  const sp = scorePoints(bet.score, actual, cfg);
+  const best = bestCandidate(bet, match, cfg);
+  const sp = best.sp;
+  const finalTotal = match.score.home + match.score.away;
   const actualScorers = realScorerIds(match);
-  const totalGoals = actual.home + actual.away;
-  const { pts: scp, hat, correct } = scorerPoints(bet.scorers, actualScorers, totalGoals, cfg);
+  const { pts: scp, hat, correct } = scorerPoints(bet.scorers, actualScorers, finalTotal, cfg);
 
   const base = sp + scp + hat;
   const multiplier = match.multiplier ?? 1;
   let total = Math.round(base * multiplier);
 
-  const isExact = bet.score.home === actual.home && bet.score.away === actual.away;
+  const isExact = best.isExactAny;
   const special = isExact && isSpecialBonusMatch(match, cfg) ? cfg.exactSpecialBonus : 0;
   total += special;
 
-  return { scorePts: sp, scorerPts: scp, hat, correctScorers: correct, base, multiplier, special, total, isExact };
+  return { scorePts: sp, scorerPts: scp, hat, correctScorers: correct, base, multiplier, special, total, isExact, usedReg: best.c.reg };
 }
 
 /**
@@ -131,7 +158,9 @@ export function matchPoints(bet, match, cfg) {
  */
 export function explainMatch(bet, match, cfg) {
   if (!bet || !isFinished(match)) return null;
-  const actual = { home: match.score.home, away: match.score.away };
+  const best = bestCandidate(bet, match, cfg);
+  const actual = best.c.score;
+  const regUsed = best.c.reg;
   const isExact = bet.score.home === actual.home && bet.score.away === actual.away;
 
   const scoreItems = [];
@@ -172,15 +201,15 @@ export function explainMatch(bet, match, cfg) {
   const correct = scorerItems.filter((s) => s.correct).length;
   const scorerPts = correct * cfg.scorerEach;
 
-  const totalGoals = actual.home + actual.away;
-  const hat = picks.length >= cfg.scorersPerBet && correct >= cfg.scorersPerBet && totalGoals >= 3 ? cfg.hatTrick : 0;
+  const finalTotal = match.score.home + match.score.away;
+  const hat = picks.length >= cfg.scorersPerBet && correct >= cfg.scorersPerBet && finalTotal >= 3 ? cfg.hatTrick : 0;
 
   const base = scorePts + scorerPts + hat;
   const multiplier = match.multiplier ?? 1;
   const afterMult = Math.round(base * multiplier);
-  const special = isExact && isSpecialBonusMatch(match, cfg) ? cfg.exactSpecialBonus : 0;
+  const special = best.isExactAny && isSpecialBonusMatch(match, cfg) ? cfg.exactSpecialBonus : 0;
 
-  return { isExact, scoreItems, scorerItems, hat, scorePts, scorerPts, base, multiplier, afterMult, special, total: afterMult + special };
+  return { isExact: best.isExactAny, regUsed, actual, scoreItems, scorerItems, hat, scorePts, scorerPts, base, multiplier, afterMult, special, total: afterMult + special };
 }
 
 /**

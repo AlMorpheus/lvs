@@ -535,6 +535,18 @@ select.input:focus {
   font-size: 0.9rem;
   font-weight: 600;
 }
+.score .reg-note {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.bd-note {
+  font-size: 0.78rem;
+  color: var(--muted);
+  padding: 2px 0 6px;
+}
 
 /* блок ставки внутри карточки */
 .bet-summary {

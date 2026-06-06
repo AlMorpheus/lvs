@@ -58,7 +58,12 @@ function teamRow(m, idx, S) {
   return h('div', { class: 'teams' }, [
     h('div', { class: 'team home' }, [flagEl(m.home), nameEl(m.home, S)]),
     h('div', { class: 'score' }, showScore
-      ? `${m.score.home} : ${m.score.away}`
+      ? [
+          `${m.score.home} : ${m.score.away}`,
+          m.scoreReg && (m.scoreReg.home !== m.score.home || m.scoreReg.away !== m.score.away)
+            ? h('small', { class: 'reg-note', text: `осн. ${m.scoreReg.home}:${m.scoreReg.away}` })
+            : '',
+        ]
       : [h('span', { class: 'vs', text: 'vs' })]),
     h('div', { class: 'team away' }, [flagEl(m.away), nameEl(m.away, S)]),
   ]);
@@ -159,6 +164,7 @@ function breakdownPanel(bet, m, S, idx) {
   const ex = explainMatch(bet, m, S.app.scoring);
   if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
   const rows = [];
+  if (ex.regUsed) rows.push(h('div', { class: 'bd-note', text: `⏱ Зачёт по счёту основного времени ${ex.actual.home}:${ex.actual.away} (был доп. тайм)` }));
   ex.scoreItems.forEach((it) => rows.push(bdLine(it.label, it.pts)));
   ex.scorerItems.forEach((s) =>
     rows.push(bdLine((s.correct ? '✓ ' : '✗ ') + (idx.get(String(s.playerId)) || 'игрок'), s.pts, { cls: s.correct ? '' : 'miss' }))

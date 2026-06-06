@@ -109,6 +109,8 @@ async function buildMatches() {
       home,
       away,
       score: f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null,
+      // счёт основного времени (для плей-офф: 1:1 в осн. + 2:1 итог — оба «точный счёт»)
+      scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
       finished,
       scorers: prevM?.scorers || [],
       multiplierOverride: overrides.matches?.[String(f.fixture?.id)]?.multiplier ?? null,
