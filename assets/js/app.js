@@ -1,12 +1,12 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=2';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=2';
-import { h, clear, toast, initials } from './ui/components.js?v=2';
-import { renderLogin } from './ui/login.js?v=2';
-import { renderMatches } from './ui/matches.js?v=2';
-import { renderTable } from './ui/table.js?v=2';
-import { renderRules } from './ui/rules.js?v=2';
-import { maybeOnboard } from './ui/onboarding.js?v=2';
+import { initCrypto } from './crypto.js?v=3';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=3';
+import { h, clear, toast, initials } from './ui/components.js?v=3';
+import { renderLogin } from './ui/login.js?v=3';
+import { renderMatches } from './ui/matches.js?v=3';
+import { renderTable } from './ui/table.js?v=3';
+import { renderRules } from './ui/rules.js?v=3';
+import { maybeOnboard } from './ui/onboarding.js?v=3';
 
 const root = document.getElementById('root');
 
@@ -61,7 +61,7 @@ function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('div', { class: 'brand' }, [
       h('span', { class: 'ball', text: '⚽' }),
-      h('div', {}, [h('div', { text: 'Кубок друзей' }), h('small', { text: 'Чемпионат мира 2026' })]),
+      h('div', {}, [h('div', { text: 'ЛВС' }), h('small', { text: 'Чемпионат мира 2026' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
       h('a', { href: `#${n.id}`, dataset: { view: n.id } }, [
