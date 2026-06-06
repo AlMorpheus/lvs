@@ -1,16 +1,82 @@
 {
   "table": [
     {
-      "id": "albert",
-      "name": "Альберт",
-      "matchPts": 0,
+      "id": "sergey",
+      "name": "Сергей",
+      "matchPts": 16,
       "jackpotPts": 0,
       "futuresPts": 0,
-      "total": 0,
+      "total": 16,
       "exactCount": 0,
-      "perMatch": {},
-      "perRound": {},
+      "perMatch": {
+        "1537649": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 16,
+          "isExact": false,
+          "usedReg": false
+        }
+      },
+      "perRound": {
+        "test": 16
+      },
       "rank": 1
+    },
+    {
+      "id": "sasha",
+      "name": "Саша",
+      "matchPts": 10,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 10,
+      "exactCount": 0,
+      "perMatch": {
+        "1537649": {
+          "scorePts": 0,
+          "scorerPts": 8,
+          "correctScorers": 2,
+          "base": 8,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 10,
+          "isExact": false,
+          "usedReg": false
+        }
+      },
+      "perRound": {
+        "test": 10
+      },
+      "rank": 2
+    },
+    {
+      "id": "albert",
+      "name": "Альберт",
+      "matchPts": 5,
+      "jackpotPts": 0,
+      "futuresPts": 0,
+      "total": 5,
+      "exactCount": 0,
+      "perMatch": {
+        "1537649": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 5,
+          "isExact": false,
+          "usedReg": false
+        }
+      },
+      "perRound": {
+        "test": 5
+      },
+      "rank": 3
     },
     {
       "id": "vadim",
@@ -22,7 +88,7 @@
       "exactCount": 0,
       "perMatch": {},
       "perRound": {},
-      "rank": 2
+      "rank": 4
     },
     {
       "id": "dasha",
@@ -34,7 +100,7 @@
       "exactCount": 0,
       "perMatch": {},
       "perRound": {},
-      "rank": 3
+      "rank": 5
     },
     {
       "id": "liza",
@@ -46,35 +112,11 @@
       "exactCount": 0,
       "perMatch": {},
       "perRound": {},
-      "rank": 4
+      "rank": 6
     },
     {
       "id": "lysyy",
       "name": "Лысый",
-      "matchPts": 0,
-      "jackpotPts": 0,
-      "futuresPts": 0,
-      "total": 0,
-      "exactCount": 0,
-      "perMatch": {},
-      "perRound": {},
-      "rank": 5
-    },
-    {
-      "id": "sasha",
-      "name": "Саша",
-      "matchPts": 0,
-      "jackpotPts": 0,
-      "futuresPts": 0,
-      "total": 0,
-      "exactCount": 0,
-      "perMatch": {},
-      "perRound": {},
-      "rank": 6
-    },
-    {
-      "id": "sergey",
-      "name": "Сергей",
       "matchPts": 0,
       "jackpotPts": 0,
       "futuresPts": 0,
@@ -110,11 +152,11 @@
     "test": {
       "key": "test",
       "total": 4,
-      "finished": 0,
+      "finished": 1,
       "winners": [],
       "leadPts": 0
     }
   },
   "tournamentResult": null,
-  "updatedAt": "2026-06-06T14:03:09.571Z"
+  "updatedAt": "2026-06-06T15:53:49.078Z"
 }
