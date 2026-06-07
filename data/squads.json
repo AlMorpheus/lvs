@@ -3981,6 +3981,24 @@
       "pos": "Attacker"
     },
     {
+      "id": 341839,
+      "name": "Filippo Mané",
+      "number": 6,
+      "pos": "Defender"
+    },
+    {
+      "id": 348533,
+      "name": "Seydou Fini",
+      "number": 17,
+      "pos": "Attacker"
+    },
+    {
+      "id": 568225,
+      "name": "Luca Reggiani",
+      "number": 13,
+      "pos": "Defender"
+    },
+    {
       "id": 335117,
       "name": "Giovanni Daffara",
       "number": 12,
@@ -3996,18 +4014,6 @@
       "id": 437093,
       "name": "Niccolò Fortini",
       "number": 2,
-      "pos": "Defender"
-    },
-    {
-      "id": 341839,
-      "name": "Filippo Mané",
-      "number": 6,
-      "pos": "Defender"
-    },
-    {
-      "id": 568225,
-      "name": "Luca Reggiani",
-      "number": 13,
       "pos": "Defender"
     },
     {
@@ -4050,12 +4056,6 @@
       "id": 436260,
       "name": "Francesco Camarda",
       "number": 8,
-      "pos": "Attacker"
-    },
-    {
-      "id": 348533,
-      "name": "Seydou Fini",
-      "number": 17,
       "pos": "Attacker"
     }
   ],
@@ -5513,21 +5513,45 @@
       "pos": "Midfielder"
     },
     {
-      "id": 161800,
-      "name": "Christos Tzolis",
-      "number": 10,
-      "pos": "Attacker"
-    },
-    {
       "id": 1610,
       "name": "Giorgos Masouras",
       "number": 7,
       "pos": "Attacker"
     },
     {
+      "id": 161800,
+      "name": "Christos Tzolis",
+      "number": 10,
+      "pos": "Attacker"
+    },
+    {
       "id": 26845,
       "name": "Anastasios Douvikas",
       "number": 9,
+      "pos": "Attacker"
+    },
+    {
+      "id": 61257,
+      "name": "Lazaros Rota",
+      "number": 15,
+      "pos": "Defender"
+    },
+    {
+      "id": 1600,
+      "name": "Kostas Tsimikas",
+      "number": 21,
+      "pos": "Defender"
+    },
+    {
+      "id": 1602,
+      "name": "Athanasios Androutsos",
+      "number": 24,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 68213,
+      "name": "Alexandros Kyziridis",
+      "number": 26,
       "pos": "Attacker"
     },
     {
@@ -5549,18 +5573,6 @@
       "pos": "Defender"
     },
     {
-      "id": 61257,
-      "name": "Lazaros Rota",
-      "number": 15,
-      "pos": "Defender"
-    },
-    {
-      "id": 1600,
-      "name": "Kostas Tsimikas",
-      "number": 21,
-      "pos": "Defender"
-    },
-    {
       "id": 26751,
       "name": "Dimitris Kourbelis",
       "number": 6,
@@ -5579,22 +5591,10 @@
       "pos": "Midfielder"
     },
     {
-      "id": 1602,
-      "name": "Athanasios Androutsos",
-      "number": 24,
-      "pos": "Midfielder"
-    },
-    {
       "id": 202084,
       "name": "Andreas Ndoj",
       "number": 25,
       "pos": "Defender"
-    },
-    {
-      "id": 68213,
-      "name": "Alexandros Kyziridis",
-      "number": 26,
-      "pos": "Attacker"
     },
     {
       "id": 392482,
