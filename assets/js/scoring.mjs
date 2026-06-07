@@ -238,12 +238,10 @@ export function standings(users, matches, bets, tournamentResult, cfg, posMap) {
       id: u.id,
       name: u.name,
       matchPts: 0,
-      jackpotPts: 0,
       futuresPts: 0,
       total: 0,
       exactCount: 0,
       perMatch: {}, // matchId -> result разбивки
-      perRound: {}, // roundKey -> сумма очков за тур (матчевые, без джекпота)
     };
   }
 
@@ -258,29 +256,7 @@ export function standings(users, matches, bets, tournamentResult, cfg, posMap) {
       const acc = byUser[u.id];
       acc.matchPts += res.total;
       acc.perMatch[m.id] = res;
-      acc.perRound[m.roundKey] = (acc.perRound[m.roundKey] || 0) + res.total;
       if (res.isExact) acc.exactCount += 1;
-    }
-  }
-
-  // Джекпот тура: +N лидеру(ам) полностью завершённого тура
-  const rounds = {};
-  for (const m of matches) {
-    (rounds[m.roundKey] ||= { key: m.roundKey, total: 0, finished: 0, winners: [], leadPts: 0 }).total += 1;
-    if (isFinished(m)) rounds[m.roundKey].finished += 1;
-  }
-  for (const key of Object.keys(rounds)) {
-    const r = rounds[key];
-    if (r.total === 0 || r.finished < r.total) continue; // тур ещё не доигран
-    let best = -Infinity;
-    for (const u of users) best = Math.max(best, byUser[u.id].perRound[key] || 0);
-    if (best <= 0) continue;
-    r.leadPts = best;
-    for (const u of users) {
-      if ((byUser[u.id].perRound[key] || 0) === best) {
-        byUser[u.id].jackpotPts += cfg.roundJackpot;
-        r.winners.push(u.id);
-      }
     }
   }
 
@@ -297,7 +273,7 @@ export function standings(users, matches, bets, tournamentResult, cfg, posMap) {
 
   for (const u of users) {
     const a = byUser[u.id];
-    a.total = a.matchPts + a.jackpotPts + a.futuresPts;
+    a.total = a.matchPts + a.futuresPts;
   }
 
   const table = Object.values(byUser).sort(
@@ -305,5 +281,5 @@ export function standings(users, matches, bets, tournamentResult, cfg, posMap) {
   );
   table.forEach((row, i) => (row.rank = i + 1));
 
-  return { table, rounds };
+  return { table, rounds: {} };
 }

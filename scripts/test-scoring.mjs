@@ -47,7 +47,7 @@ eq('округление база×1.3', matchPoints(pf, { ...perfect, multiplie
 eq('финал +5', matchPoints(pf, { ...perfect, multiplier: 2.0, roundKey: 'final' }, cfg, POS3).total, Math.round(pBase * 2.0) + cfg.exactSpecialBonus);
 eq('открытие +5', matchPoints(pf, { ...perfect, isOpening: true }, cfg, POS3).total, Math.round(pBase * 1.0) + cfg.exactSpecialBonus);
 
-// Таблица + джекпот тура
+// Таблица
 const users = [{ id: 'a', name: 'A' }, { id: 'b', name: 'B' }];
 const matches = [
   { id: 'g1', finished: true, score: { home: 1, away: 0 }, scorers: [{ playerId: 1, type: 'normal' }], multiplier: 1.0, roundKey: 'group-1', stage: 'group', home: { id: 1 }, away: { id: 2 } },
@@ -57,7 +57,7 @@ const bets = {
   b: { matches: { g1: { score: { home: 0, away: 0 }, scorers: [] } } },
 };
 const st = standings(users, matches, bets, null, cfg, { 1: 'Attacker' });
-eq('A итог (точный + 1 нап + джекпот)', st.table[0].total, cfg.exact + cfg.scorerByPos.Attacker + cfg.roundJackpot);
+eq('A итог (точный + 1 нап)', st.table[0].total, cfg.exact + cfg.scorerByPos.Attacker);
 eq('лидер A', st.table[0].id, 'a');
 
 // Плей-офф: счёт основного времени + итог — оба «точный счёт»

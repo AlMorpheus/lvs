@@ -1,5 +1,5 @@
 // Экран «Правила»: кратко и понятно про подсчёт очков.
-import { h } from './components.js?v=21';
+import { h } from './components.js?v=22';
 
 export function renderRules(view, ctx) {
   const c = ctx.S.app.scoring;
@@ -67,11 +67,9 @@ export function renderRules(view, ctx) {
         h('h2', {}, ['🎁 Бонусы']),
         table([
           ['Точный счёт в особом матче', `+${c.exactSpecialBonus}`, 'Открытие, 1/8, 1/4, 1/2, финал'],
-          ['Джекпот тура', `+${c.roundJackpot}`, 'Тому, кто набрал больше всех очков в туре'],
           ['Угадал чемпиона мира', `+${c.championBonus}`, 'Начисляется в конце турнира'],
           ['Угадал лучшего бомбардира', `+${c.topScorerBonus}`, 'Начисляется в конце турнира'],
         ]),
-        h('p', { class: 'potential', text: 'Туры: каждый из трёх групповых туров, 1/8, 1/4, 1/2, финал. При равенстве лидеров тура джекпот получает каждый.' }),
       ]),
 
       // Пример

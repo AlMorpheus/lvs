@@ -20,7 +20,7 @@
   },
   "tournament": {
     "openingKickoff": "2026-06-11T19:00:00+00:00",
-    "lastUpdated": "2026-06-07T00:01:59.854Z",
+    "lastUpdated": "2026-06-07T04:38:16.212Z",
     "squadsRefreshedOn": "2026-06-07"
   },
   "scoring": {
@@ -38,7 +38,6 @@
     },
     "scorerDefault": 2,
     "exactSpecialBonus": 5,
-    "roundJackpot": 10,
     "championBonus": 70,
     "topScorerBonus": 50,
     "specialExactBonusRounds": [

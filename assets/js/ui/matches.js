@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=21';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=21';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=21';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=21';
-import { renderGreeting } from './greeting.js?v=21';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=22';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=22';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=22';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=22';
+import { renderGreeting } from './greeting.js?v=22';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -513,7 +513,6 @@ export async function openPlayerHistory(ctx, userId, name) {
   if (row) {
     const stat = [h('div', { class: 'hstat' }, [h('b', { text: row.total }), h('small', { text: 'всего' })])];
     if (row.matchPts != null) stat.push(h('div', { class: 'hstat' }, [h('b', { text: row.matchPts }), h('small', { text: 'за матчи' })]));
-    if (row.jackpotPts) stat.push(h('div', { class: 'hstat' }, [h('b', { text: '+' + row.jackpotPts }), h('small', { text: 'джекпоты' })]));
     if (row.futuresPts) stat.push(h('div', { class: 'hstat' }, [h('b', { text: '+' + row.futuresPts }), h('small', { text: 'прогнозы' })]));
     if (row.exactCount) stat.push(h('div', { class: 'hstat' }, [h('b', { text: row.exactCount }), h('small', { text: 'точных' })]));
     card.append(h('div', { class: 'history-stats' }, stat));

@@ -4,9 +4,8 @@
       "id": "albert",
       "name": "Альберт",
       "matchPts": 49,
-      "jackpotPts": 10,
       "futuresPts": 0,
-      "total": 59,
+      "total": 49,
       "exactCount": 0,
       "perMatch": {
         "1502474": {
@@ -54,16 +53,12 @@
           "usedReg": false
         }
       },
-      "perRound": {
-        "test": 49
-      },
       "rank": 1
     },
     {
       "id": "sergey",
       "name": "Сергей",
       "matchPts": 46,
-      "jackpotPts": 0,
       "futuresPts": 0,
       "total": 46,
       "exactCount": 0,
@@ -113,16 +108,12 @@
           "usedReg": false
         }
       },
-      "perRound": {
-        "test": 46
-      },
       "rank": 2
     },
     {
       "id": "sasha",
       "name": "Саша",
       "matchPts": 37,
-      "jackpotPts": 0,
       "futuresPts": 0,
       "total": 37,
       "exactCount": 0,
@@ -172,92 +163,50 @@
           "usedReg": false
         }
       },
-      "perRound": {
-        "test": 37
-      },
       "rank": 3
     },
     {
       "id": "vadim",
       "name": "Вадим",
       "matchPts": 0,
-      "jackpotPts": 0,
       "futuresPts": 0,
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "perRound": {},
       "rank": 4
     },
     {
       "id": "dasha",
       "name": "Даша",
       "matchPts": 0,
-      "jackpotPts": 0,
       "futuresPts": 0,
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "perRound": {},
       "rank": 5
     },
     {
       "id": "liza",
       "name": "Лиза",
       "matchPts": 0,
-      "jackpotPts": 0,
       "futuresPts": 0,
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "perRound": {},
       "rank": 6
     },
     {
       "id": "lysyy",
       "name": "Лысый",
       "matchPts": 0,
-      "jackpotPts": 0,
       "futuresPts": 0,
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "perRound": {},
       "rank": 7
     }
   ],
-  "rounds": {
-    "group-1": {
-      "key": "group-1",
-      "total": 24,
-      "finished": 0,
-      "winners": [],
-      "leadPts": 0
-    },
-    "group-2": {
-      "key": "group-2",
-      "total": 24,
-      "finished": 0,
-      "winners": [],
-      "leadPts": 0
-    },
-    "group-3": {
-      "key": "group-3",
-      "total": 24,
-      "finished": 0,
-      "winners": [],
-      "leadPts": 0
-    },
-    "test": {
-      "key": "test",
-      "total": 4,
-      "finished": 4,
-      "winners": [
-        "albert"
-      ],
-      "leadPts": 49
-    }
-  },
+  "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-06T20:34:46.545Z"
+  "updatedAt": "2026-06-07T04:38:16.527Z"
 }

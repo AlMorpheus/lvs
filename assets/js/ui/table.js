@@ -1,19 +1,8 @@
-// Экран «Таблица»: лидерборд + разбивка очков + победители туров.
-import { h, clear } from './components.js?v=21';
-import { openPlayerHistory } from './matches.js?v=21';
+// Экран «Таблица»: лидерборд + разбивка очков.
+import { h, clear } from './components.js?v=22';
+import { openPlayerHistory } from './matches.js?v=22';
 
 const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉', 4: '🪵' };
-const ROUND_LABELS = {
-  test: 'Тест',
-  'group-1': 'Групповой 1 тур',
-  'group-2': 'Групповой 2 тур',
-  'group-3': 'Групповой 3 тур',
-  r16: '1/8 финала',
-  qf: '1/4 финала',
-  sf: '1/2 финала',
-  third: 'За 3-е место',
-  final: 'Финал',
-};
 
 export function renderTable(view, ctx) {
   const S = ctx.S;
@@ -35,7 +24,6 @@ export function renderTable(view, ctx) {
   const lead = h('div', { class: 'lead' });
   for (const row of table) {
     const sub = [];
-    if (row.jackpotPts) sub.push(`Джекпоты +${row.jackpotPts}`);
     if (row.futuresPts) sub.push(`Прогнозы +${row.futuresPts}`);
     if (row.exactCount) sub.push(`Точных ${row.exactCount}`);
     lead.append(
@@ -53,21 +41,4 @@ export function renderTable(view, ctx) {
     );
   }
   view.append(lead);
-
-  // Победители туров (джекпоты)
-  const rounds = S.standings.rounds || {};
-  const won = Object.values(rounds).filter((r) => r.winners && r.winners.length);
-  if (won.length) {
-    const note = h('div', { class: 'jackpot-note' }, [h('div', {}, [h('b', { text: '🎯 Джекпоты туров (+' + (S.app.scoring.roundJackpot) + ')' })])]);
-    const nameOf = (uid) => S.users.find((u) => u.id === uid)?.name || uid;
-    for (const r of won) {
-      note.append(
-        h('div', { class: 'row', style: 'display:flex;justify-content:space-between;margin-top:6px' }, [
-          h('span', { text: ROUND_LABELS[r.key] || r.key }),
-          h('span', { text: r.winners.map(nameOf).join(', ') + ` (${r.leadPts})` }),
-        ])
-      );
-    }
-    view.append(note);
-  }
 }
