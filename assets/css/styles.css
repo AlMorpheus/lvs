@@ -1052,20 +1052,19 @@ textarea.input:focus {
   color: var(--ink);
 }
 
-/* История участника (оверлей по клику в таблице) */
+/* История участника — полноэкранная панель в стиле главной страницы */
 .history-overlay {
-  background: rgba(0, 0, 30, 0.55);
-  backdrop-filter: blur(6px);
-  align-items: start;
-  padding: 18px;
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--bg);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
-.history-card {
-  max-width: 560px;
-  max-height: calc(100dvh - 36px);
-  display: flex;
-  flex-direction: column;
-  padding: 18px 16px;
-  background: var(--bg); /* как фон страницы — чтобы карточки .match выглядели как на главной */
+.history-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 18px 16px calc(28px + var(--safe-bottom));
 }
 .history-top {
   display: flex;
@@ -1073,8 +1072,7 @@ textarea.input:focus {
   justify-content: space-between;
   gap: 12px;
 }
-.history-top h1 {
-  font-size: 1.4rem;
+.history-top .view-title {
   margin: 0;
 }
 .history-stats {
@@ -1106,7 +1104,9 @@ textarea.input:focus {
   letter-spacing: 0.03em;
 }
 .history-list {
-  overflow-y: auto;
+  margin-top: 8px;
+}
+.history-list .round-head:first-child {
   margin-top: 14px;
 }
 .history-list .match:last-child {

@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=23';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=23';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=23';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=23';
-import { renderGreeting } from './greeting.js?v=23';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=24';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=24';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=24';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=24';
+import { renderGreeting } from './greeting.js?v=24';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -493,22 +493,42 @@ function renderGroups(container, matches, ctx, reverse) {
   }
 }
 
+// Карточка матча в истории игрока — один в один как на главной (.match).
+function historyCard(m, bet, res, S, idx) {
+  const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
+  const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
+  const entry = h('div', { class: 'reveal-entry' }, [
+    h('div', { class: 'reveal-head' }, [
+      h('div', { class: 'reveal-who' }, [h('b', { text: 'Прогноз' })]),
+      h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${bet.score.home}:${bet.score.away}` }), pts]),
+    ]),
+    scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
+  ]);
+  entry.append(...breakdownToggle(bet, m, S, idx));
+  return h('div', { class: 'match' }, [
+    h('div', { class: 'match-top' }, [
+      h('span', { text: fmtDateTime(m.date) }),
+      h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', h('span', { class: 'badge ft', text: 'Завершён' })]),
+    ]),
+    teamRow(m, idx, S),
+    h('div', { class: 'bet-summary' }, [entry]),
+  ]);
+}
+
 // История участника: все его сыгранные матчи с разбором очков (вызывается из таблицы).
+// Полноэкранная панель в стиле главной: фон страницы, колонка контента, заголовки туров, карточки .match.
 export async function openPlayerHistory(ctx, userId, name) {
   const S = ctx.S;
   const idx = buildPlayerIndex(S);
   const row = (S.standings.table || []).find((r) => r.id === userId);
 
-  const card = h('div', { class: 'onboard-card history-card' });
-  const overlay = h('div', { class: 'onboard history-overlay' }, [card]);
+  const inner = h('div', { class: 'history-inner' });
+  const overlay = h('div', { class: 'history-overlay' }, [inner]);
   const close = () => overlay.remove();
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) close();
-  });
 
-  card.append(
+  inner.append(
     h('div', { class: 'history-top' }, [
-      h('h1', { text: name }),
+      h('h1', { class: 'view-title' }, [h('span', { class: 'accent', text: name }), ' · история']),
       h('button', { class: 'btn ghost small', text: 'Закрыть', onclick: close }),
     ])
   );
@@ -518,48 +538,42 @@ export async function openPlayerHistory(ctx, userId, name) {
     if (row.matchPts != null) stat.push(h('div', { class: 'hstat' }, [h('b', { text: row.matchPts }), h('small', { text: 'за матчи' })]));
     if (row.futuresPts) stat.push(h('div', { class: 'hstat' }, [h('b', { text: '+' + row.futuresPts }), h('small', { text: 'прогнозы' })]));
     if (row.exactCount) stat.push(h('div', { class: 'hstat' }, [h('b', { text: row.exactCount }), h('small', { text: 'точных' })]));
-    card.append(h('div', { class: 'history-stats' }, stat));
+    inner.append(h('div', { class: 'history-stats' }, stat));
   }
 
   const listHost = h('div', { class: 'history-list' }, [h('div', { class: 'potential', text: 'Загружаем историю…' })]);
-  card.append(listHost);
+  inner.append(listHost);
   document.body.append(overlay);
 
-  const finished = S.matches.filter((m) => m.finished).sort((a, b) => new Date(b.date) - new Date(a.date));
-  clear(listHost);
-  let any = false;
-  for (const m of finished) {
+  // собираем ставки участника по сыгранным матчам
+  const mine = [];
+  for (const m of S.matches.filter((x) => x.finished)) {
     let rev = null;
     try {
       rev = await loadRevealed(S.session, m.id);
     } catch {}
     const bet = rev && rev[userId];
-    if (!bet) continue;
-    any = true;
-    const res = row?.perMatch?.[m.id];
-    const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
-    const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
-
-    // Карточка матча — точно как на главной (.match): шапка + команды + блок ставки.
-    const entry = h('div', { class: 'reveal-entry' }, [
-      h('div', { class: 'reveal-head' }, [
-        h('div', { class: 'reveal-who' }, [h('b', { text: 'Прогноз' })]),
-        h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${bet.score.home}:${bet.score.away}` }), pts]),
-      ]),
-      scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
-    ]);
-    entry.append(...breakdownToggle(bet, m, S, idx));
-
-    listHost.append(
-      h('div', { class: 'match' }, [
-        h('div', { class: 'match-top' }, [
-          h('span', { text: fmtDateTime(m.date) }),
-          h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', h('span', { class: 'badge ft', text: 'Завершён' })]),
-        ]),
-        teamRow(m, idx, S),
-        h('div', { class: 'bet-summary' }, [entry]),
-      ])
-    );
+    if (bet) mine.push({ m, bet });
   }
-  if (!any) listHost.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Пока нет сыгранных матчей с раскрытыми ставками.' })]));
+
+  clear(listHost);
+  if (!mine.length) {
+    listHost.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Пока нет сыгранных матчей с раскрытыми ставками.' })]));
+    return;
+  }
+
+  // группируем по турам и показываем как на главной (свежие туры сверху)
+  const groups = {};
+  for (const it of mine) (groups[it.m.roundKey] ||= []).push(it);
+  const keys = Object.keys(groups)
+    .sort((a, b) => {
+      const ia = ROUND_ORDER.indexOf(a), ib = ROUND_ORDER.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    })
+    .reverse();
+  for (const key of keys) {
+    listHost.append(h('div', { class: 'round-head', text: ROUND_LABELS[key] || key }));
+    const items = groups[key].sort((a, b) => new Date(b.m.date) - new Date(a.m.date));
+    for (const { m, bet } of items) listHost.append(historyCard(m, bet, row?.perMatch?.[m.id], S, idx));
+  }
 }
