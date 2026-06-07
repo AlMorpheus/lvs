@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=24';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=24';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=24';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=24';
-import { renderGreeting } from './greeting.js?v=24';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=25';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=25';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=25';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=25';
+import { renderGreeting } from './greeting.js?v=25';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -528,7 +528,7 @@ export async function openPlayerHistory(ctx, userId, name) {
 
   inner.append(
     h('div', { class: 'history-top' }, [
-      h('h1', { class: 'view-title' }, [h('span', { class: 'accent', text: name }), ' · история']),
+      h('h1', { class: 'view-title' }, [h('span', { class: 'accent', text: name })]),
       h('button', { class: 'btn ghost small', text: 'Закрыть', onclick: close }),
     ])
   );
