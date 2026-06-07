@@ -3,9 +3,9 @@
     {
       "id": "albert",
       "name": "Альберт",
-      "matchPts": 49,
+      "matchPts": 65,
       "futuresPts": 0,
-      "total": 49,
+      "total": 65,
       "exactCount": 0,
       "perMatch": {
         "1502474": {
@@ -38,6 +38,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 5,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1540590": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 16,
           "isExact": false,
           "usedReg": false
         },
@@ -96,6 +107,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1540590": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1542180": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -148,6 +170,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 10,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1540590": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -208,5 +241,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-07T04:38:16.527Z"
+  "updatedAt": "2026-06-07T21:00:17.754Z"
 }

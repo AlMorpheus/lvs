@@ -1932,7 +1932,7 @@
   {
     "id": "1540590",
     "date": "2026-06-07T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1951,9 +1951,20 @@
       "home": 0,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "scorers": [],
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "scorers": [
+      {
+        "playerId": 345808,
+        "name": "F. Esposito",
+        "teamId": 768,
+        "minute": 18,
+        "type": "normal"
+      }
+    ],
     "multiplier": 1.3
   }
 ]
