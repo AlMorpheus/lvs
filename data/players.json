@@ -114,6 +114,11 @@
     "pos": "Attacker",
     "team": "26"
   },
+  "219": {
+    "name": "M. Politano",
+    "pos": "Attacker",
+    "team": "768"
+  },
   "221": {
     "name": "E. Room",
     "pos": "Goalkeeper",
@@ -218,6 +223,11 @@
     "name": "Mohamed Salah",
     "pos": "Attacker",
     "team": "32"
+  },
+  "312": {
+    "name": "A. Meret",
+    "pos": "Goalkeeper",
+    "team": "768"
   },
   "313": {
     "name": "D. Ospina",
@@ -349,6 +359,11 @@
     "pos": "Defender",
     "team": "31"
   },
+  "557": {
+    "name": "O. Vlachodimos",
+    "pos": "Goalkeeper",
+    "team": "1117"
+  },
   "563": {
     "name": "Álex Grimaldo",
     "pos": "Defender",
@@ -363,6 +378,11 @@
     "name": "João Félix",
     "pos": "Attacker",
     "team": "27"
+  },
+  "607": {
+    "name": "A. Bakasetas",
+    "pos": "Midfielder",
+    "team": "1117"
   },
   "617": {
     "name": "Ederson",
@@ -509,6 +529,11 @@
     "pos": "Midfielder",
     "team": "6"
   },
+  "778": {
+    "name": "B. Cristante",
+    "pos": "Midfielder",
+    "team": "768"
+  },
   "790": {
     "name": "E. Dzeko",
     "pos": "Attacker",
@@ -549,6 +574,11 @@
     "pos": "Defender",
     "team": "6"
   },
+  "862": {
+    "name": "L. Spinazzola",
+    "pos": "Defender",
+    "team": "768"
+  },
   "863": {
     "name": "R. Bentancur",
     "pos": "Midfielder",
@@ -558,6 +588,11 @@
     "name": "Cristiano Ronaldo",
     "pos": "Attacker",
     "team": "27"
+  },
+  "877": {
+    "name": "M. Kean",
+    "pos": "Attacker",
+    "team": "768"
   },
   "886": {
     "name": "Diogo Dalot",
@@ -618,6 +653,11 @@
     "name": "D. Sow",
     "pos": "Midfielder",
     "team": "15"
+  },
+  "971": {
+    "name": "P. Retsos",
+    "pos": "Defender",
+    "team": "1117"
   },
   "972": {
     "name": "Jonathan Tah",
@@ -794,6 +834,11 @@
     "pos": "Defender",
     "team": "1113"
   },
+  "1445": {
+    "name": "K. Mavropanos",
+    "pos": "Defender",
+    "team": "1117"
+  },
   "1460": {
     "name": "B. Saka",
     "pos": "Attacker",
@@ -833,6 +878,26 @@
     "name": "José Sá",
     "pos": "Goalkeeper",
     "team": "27"
+  },
+  "1591": {
+    "name": "K. Tzolakis",
+    "pos": "Goalkeeper",
+    "team": "1117"
+  },
+  "1600": {
+    "name": "K. Tsimikas",
+    "pos": "Midfielder",
+    "team": "1117"
+  },
+  "1610": {
+    "name": "G. Masouras",
+    "pos": "Attacker",
+    "team": "1117"
+  },
+  "1622": {
+    "name": "G. Donnarumma",
+    "pos": "Goalkeeper",
+    "team": "768"
   },
   "1631": {
     "name": "R. Rodríguez",
@@ -963,6 +1028,11 @@
     "name": "Stopira",
     "pos": "Defender",
     "team": "1533"
+  },
+  "2360": {
+    "name": "D. Giannoulis",
+    "pos": "Defender",
+    "team": "1117"
   },
   "2410": {
     "name": "Weverton",
@@ -1608,6 +1678,11 @@
     "name": "A. Cubas",
     "pos": "Midfielder",
     "team": "2380"
+  },
+  "6420": {
+    "name": "M. Retegui",
+    "pos": "Attacker",
+    "team": "768"
   },
   "6483": {
     "name": "G. Ávalos",
@@ -2574,6 +2649,21 @@
     "pos": "Attacker",
     "team": "25"
   },
+  "26644": {
+    "name": "C. Mandas",
+    "pos": "Goalkeeper",
+    "team": "1117"
+  },
+  "26751": {
+    "name": "D. Kourbelis",
+    "pos": "Midfielder",
+    "team": "1117"
+  },
+  "26845": {
+    "name": "T. Douvikas",
+    "pos": "Attacker",
+    "team": "1117"
+  },
   "28382": {
     "name": "H. Tabakovic",
     "pos": "Attacker",
@@ -2604,10 +2694,20 @@
     "pos": "Goalkeeper",
     "team": "1501"
   },
+  "30417": {
+    "name": "M. Carnesecchi",
+    "pos": "Goalkeeper",
+    "team": "768"
+  },
   "30424": {
     "name": "Ibañez",
     "pos": "Defender",
     "team": "6"
+  },
+  "30425": {
+    "name": "G. Mancini",
+    "pos": "Defender",
+    "team": "768"
   },
   "30432": {
     "name": "M. de Roon",
@@ -2634,6 +2734,26 @@
     "pos": "Defender",
     "team": "777"
   },
+  "30533": {
+    "name": "M. Locatelli",
+    "pos": "Midfielder",
+    "team": "768"
+  },
+  "30543": {
+    "name": "G. Raspadori",
+    "pos": "Attacker",
+    "team": "768"
+  },
+  "30558": {
+    "name": "N. Barella",
+    "pos": "Midfielder",
+    "team": "768"
+  },
+  "30731": {
+    "name": "E. Caprile",
+    "pos": "Goalkeeper",
+    "team": "768"
+  },
   "30765": {
     "name": "I. Radu",
     "pos": "Goalkeeper",
@@ -2654,10 +2774,35 @@
     "pos": "Defender",
     "team": "3"
   },
+  "31009": {
+    "name": "A. Bastoni",
+    "pos": "Defender",
+    "team": "768"
+  },
+  "31010": {
+    "name": "F. Dimarco",
+    "pos": "Defender",
+    "team": "768"
+  },
   "31016": {
     "name": "Francisco Sierralta",
     "pos": "Defender",
     "team": "2383"
+  },
+  "31146": {
+    "name": "S. Tonali",
+    "pos": "Midfielder",
+    "team": "768"
+  },
+  "31173": {
+    "name": "D. Frattesi",
+    "pos": "Midfielder",
+    "team": "768"
+  },
+  "31226": {
+    "name": "A. Buongiorno",
+    "pos": "Defender",
+    "team": "768"
   },
   "31397": {
     "name": "Vlad Dragomir",
@@ -2834,6 +2979,11 @@
     "pos": "Goalkeeper",
     "team": "4673"
   },
+  "36798": {
+    "name": "V. Pavlidis",
+    "pos": "Attacker",
+    "team": "1117"
+  },
   "36842": {
     "name": "G. Roemeratoe",
     "pos": "Midfielder",
@@ -2843,6 +2993,11 @@
     "name": "J. Gaari",
     "pos": "Defender",
     "team": "5530"
+  },
+  "36885": {
+    "name": "P. Hatzidiakos",
+    "pos": "Defender",
+    "team": "1117"
   },
   "36899": {
     "name": "T. Koopmeiners",
@@ -3874,6 +4029,11 @@
     "pos": "Attacker",
     "team": "11"
   },
+  "61257": {
+    "name": "L. Rota",
+    "pos": "Midfielder",
+    "team": "1117"
+  },
   "61837": {
     "name": "A. Bardakci",
     "pos": "Defender",
@@ -4209,6 +4369,11 @@
     "pos": "Attacker",
     "team": "22"
   },
+  "91215": {
+    "name": "A. Tsiftsis",
+    "pos": "Goalkeeper",
+    "team": "1117"
+  },
   "92993": {
     "name": "M. Wieffer",
     "pos": "Defender",
@@ -4429,6 +4594,11 @@
     "pos": "Defender",
     "team": "2384"
   },
+  "127011": {
+    "name": "A. Cambiaso",
+    "pos": "Defender",
+    "team": "768"
+  },
   "127227": {
     "name": "I. Reyes",
     "pos": "Defender",
@@ -4553,6 +4723,11 @@
     "name": "S. Bueno",
     "pos": "Defender",
     "team": "7"
+  },
+  "135839": {
+    "name": "G. Vagiannidis",
+    "pos": "Defender",
+    "team": "1117"
   },
   "136503": {
     "name": "Salah Zakaria",
@@ -4709,6 +4884,11 @@
     "pos": "Midfielder",
     "team": "2"
   },
+  "157052": {
+    "name": "R. Calafiori",
+    "pos": "Defender",
+    "team": "768"
+  },
   "157997": {
     "name": "A. Diallo",
     "pos": "Attacker",
@@ -4774,6 +4954,11 @@
     "pos": "Defender",
     "team": "1501"
   },
+  "161800": {
+    "name": "C. Tzolis",
+    "pos": "Attacker",
+    "team": "1117"
+  },
   "161884": {
     "name": "S. Hansen",
     "pos": "Attacker",
@@ -4833,6 +5018,16 @@
     "name": "I. Basic",
     "pos": "Midfielder",
     "team": "1113"
+  },
+  "162409": {
+    "name": "K. Koulierakis",
+    "pos": "Defender",
+    "team": "1117"
+  },
+  "162410": {
+    "name": "G. Konstantelias",
+    "pos": "Midfielder",
+    "team": "1117"
   },
   "162414": {
     "name": "A. Amenda",
@@ -5249,6 +5444,16 @@
     "pos": "Attacker",
     "team": "767"
   },
+  "216762": {
+    "name": "C. Zafeiris",
+    "pos": "Midfielder",
+    "team": "1117"
+  },
+  "216812": {
+    "name": "N. Triantis",
+    "pos": "Defender",
+    "team": "1117"
+  },
   "221605": {
     "name": "F. Wiegele",
     "pos": "Goalkeeper",
@@ -5383,6 +5588,11 @@
     "name": "Chris Brady",
     "pos": "Goalkeeper",
     "team": "2384"
+  },
+  "268341": {
+    "name": "F. Gatti",
+    "pos": "Defender",
+    "team": "768"
   },
   "268710": {
     "name": "J. Adams",
@@ -5593,6 +5803,11 @@
     "name": "K. Castaño",
     "pos": "Midfielder",
     "team": "8"
+  },
+  "289761": {
+    "name": "G. Scalvini",
+    "pos": "Defender",
+    "team": "768"
   },
   "290212": {
     "name": "D. Visinský",
@@ -6129,6 +6344,11 @@
     "pos": "Midfielder",
     "team": "8"
   },
+  "345808": {
+    "name": "F. Esposito",
+    "pos": "Attacker",
+    "team": "768"
+  },
   "347211": {
     "name": "R. Risser",
     "pos": "Goalkeeper",
@@ -6228,6 +6448,11 @@
     "name": "Alexander Freeman",
     "pos": "Defender",
     "team": "2384"
+  },
+  "356888": {
+    "name": "N. Pisilli",
+    "pos": "Midfielder",
+    "team": "768"
   },
   "357286": {
     "name": "Bae Jun-Ho",
@@ -6359,6 +6584,11 @@
     "pos": "Midfielder",
     "team": "1532"
   },
+  "383018": {
+    "name": "M. Palestra",
+    "pos": "Defender",
+    "team": "768"
+  },
   "386828": {
     "name": "Lamine Yamal",
     "pos": "Attacker",
@@ -6393,6 +6623,11 @@
     "name": "O. Makhanya",
     "pos": "Defender",
     "team": "1531"
+  },
+  "392514": {
+    "name": "C. Mouzakitis",
+    "pos": "Midfielder",
+    "team": "1117"
   },
   "393977": {
     "name": "A. Arous",
@@ -6443,6 +6678,11 @@
     "name": "Iván Román",
     "pos": "Defender",
     "team": "2383"
+  },
+  "404891": {
+    "name": "K. Karetsas",
+    "pos": "Midfielder",
+    "team": "1117"
   },
   "405957": {
     "name": "L. Bayliss",
@@ -6618,6 +6858,11 @@
     "name": "I. Mbaye",
     "pos": "Attacker",
     "team": "13"
+  },
+  "449603": {
+    "name": "S. Kontouris",
+    "pos": "Midfielder",
+    "team": "1117"
   },
   "453073": {
     "name": "Akam Rahman",
@@ -6828,6 +7073,11 @@
     "name": "T. Fletcher",
     "pos": "Midfielder",
     "team": "1108"
+  },
+  "561139": {
+    "name": "A. Tetteh",
+    "pos": "Attacker",
+    "team": "1117"
   },
   "566059": {
     "name": "R. Elloumi",

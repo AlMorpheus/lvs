@@ -1928,5 +1928,29 @@
       }
     ],
     "multiplier": 1.6
+  },
+  {
+    "id": "1540590",
+    "date": "2026-06-07T19:00:00+00:00",
+    "status": "NS",
+    "round": "Friendlies",
+    "roundKey": "test",
+    "stage": "friendly",
+    "isExtra": true,
+    "home": {
+      "id": 1117,
+      "name": "Greece",
+      "flag": "https://media.api-sports.io/football/teams/1117.png"
+    },
+    "away": {
+      "id": 768,
+      "name": "Italy",
+      "flag": "https://media.api-sports.io/football/teams/768.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "scorers": [],
+    "multiplier": 1.3
   }
 ]
