@@ -3939,15 +3939,9 @@
       "pos": "Defender"
     },
     {
-      "id": 374359,
-      "name": "Davide Bartesaghi",
-      "number": 3,
-      "pos": "Defender"
-    },
-    {
-      "id": 356888,
-      "name": "Niccolò Pisilli",
-      "number": 21,
+      "id": 359603,
+      "name": "Luca Koleosho",
+      "number": 11,
       "pos": "Midfielder"
     },
     {
@@ -3963,21 +3957,27 @@
       "pos": "Midfielder"
     },
     {
-      "id": 359603,
-      "name": "Luca Koleosho",
-      "number": 11,
-      "pos": "Attacker"
+      "id": 374359,
+      "name": "Davide Bartesaghi",
+      "number": 3,
+      "pos": "Midfielder"
     },
     {
-      "id": 345808,
-      "name": "Francesco Pio Esposito",
-      "number": 9,
+      "id": 356888,
+      "name": "Niccolò Pisilli",
+      "number": 21,
       "pos": "Attacker"
     },
     {
       "id": 451504,
       "name": "Jeff Ekhator",
       "number": 18,
+      "pos": "Attacker"
+    },
+    {
+      "id": 345808,
+      "name": "Francesco Pio Esposito",
+      "number": 9,
       "pos": "Attacker"
     },
     {
