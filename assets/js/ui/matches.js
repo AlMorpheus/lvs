@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=22';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=22';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=22';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=22';
-import { renderGreeting } from './greeting.js?v=22';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=23';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=23';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=23';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=23';
+import { renderGreeting } from './greeting.js?v=23';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -256,6 +256,28 @@ function breakdownPanel(bet, m, S, idx) {
   return h('div', { class: 'breakdown' }, rows);
 }
 
+// Кнопка «Как набраны очки» + сворачиваемый разбор. Возвращает [кнопка, контейнер].
+function breakdownToggle(bet, m, S, idx) {
+  const holder = h('div', { class: 'reveal-bd' });
+  const label = h('span', { text: 'Как набраны очки' });
+  const chev = h('span', { class: 'reveal-chev', text: '▾' });
+  const toggle = h('button', { class: 'reveal-toggle', type: 'button' }, [label, chev]);
+  toggle.addEventListener('click', () => {
+    if (holder.firstChild) {
+      clear(holder);
+      toggle.classList.remove('open');
+      label.textContent = 'Как набраны очки';
+      chev.textContent = '▾';
+    } else {
+      holder.append(breakdownPanel(bet, m, S, idx));
+      toggle.classList.add('open');
+      label.textContent = 'Скрыть разбор';
+      chev.textContent = '▴';
+    }
+  });
+  return [toggle, holder];
+}
+
 // ---- раскрытые ставки (после свистка) ----
 async function revealBlock(m, S, ctx, idx) {
   const wrap = h('div', { class: 'bet-summary' }, [h('div', { class: 'potential', text: 'Загружаем ставки…' })]);
@@ -285,26 +307,7 @@ async function revealBlock(m, S, ctx, idx) {
       scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
     ]);
 
-    if (m.finished) {
-      const holder = h('div', { class: 'reveal-bd' });
-      const label = h('span', { text: 'Как набраны очки' });
-      const chev = h('span', { class: 'reveal-chev', text: '▾' });
-      const toggle = h('button', { class: 'reveal-toggle', type: 'button' }, [label, chev]);
-      toggle.addEventListener('click', () => {
-        if (holder.firstChild) {
-          clear(holder);
-          toggle.classList.remove('open');
-          label.textContent = 'Как набраны очки';
-          chev.textContent = '▾';
-        } else {
-          holder.append(breakdownPanel(bet, m, S, idx));
-          toggle.classList.add('open');
-          label.textContent = 'Скрыть разбор';
-          chev.textContent = '▴';
-        }
-      });
-      entry.append(toggle, holder);
-    }
+    if (m.finished) entry.append(...breakdownToggle(bet, m, S, idx));
     wrap.append(entry);
   }
   return wrap;
@@ -535,18 +538,26 @@ export async function openPlayerHistory(ctx, userId, name) {
     any = true;
     const res = row?.perMatch?.[m.id];
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
+    const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
+
+    // Карточка матча — точно как на главной (.match): шапка + команды + блок ставки.
+    const entry = h('div', { class: 'reveal-entry' }, [
+      h('div', { class: 'reveal-head' }, [
+        h('div', { class: 'reveal-who' }, [h('b', { text: 'Прогноз' })]),
+        h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${bet.score.home}:${bet.score.away}` }), pts]),
+      ]),
+      scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
+    ]);
+    entry.append(...breakdownToggle(bet, m, S, idx));
+
     listHost.append(
-      h('div', { class: 'history-match' }, [
+      h('div', { class: 'match' }, [
         h('div', { class: 'match-top' }, [
           h('span', { text: fmtDateTime(m.date) }),
-          h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', pts]),
+          h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', h('span', { class: 'badge ft', text: 'Завершён' })]),
         ]),
         teamRow(m, idx, S),
-        h('div', { class: 'chips', style: 'margin-top:8px' }, [
-          h('span', { class: 'chip', text: `${bet.score.home}:${bet.score.away}` }),
-          ...(bet.scorers || []).map((id) => scorerChip(id, m, S, idx)),
-        ]),
-        breakdownPanel(bet, m, S, idx),
+        h('div', { class: 'bet-summary' }, [entry]),
       ])
     );
   }

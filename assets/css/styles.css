@@ -1064,7 +1064,8 @@ textarea.input:focus {
   max-height: calc(100dvh - 36px);
   display: flex;
   flex-direction: column;
-  padding: 20px 18px;
+  padding: 18px 16px;
+  background: var(--bg); /* как фон страницы — чтобы карточки .match выглядели как на главной */
 }
 .history-top {
   display: flex;
@@ -1106,15 +1107,10 @@ textarea.input:focus {
 }
 .history-list {
   overflow-y: auto;
-  margin-top: 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  margin-top: 14px;
 }
-.history-match {
-  border: 1px solid var(--line);
-  border-radius: var(--r);
-  padding: 14px;
+.history-list .match:last-child {
+  margin-bottom: 0;
 }
 
 .jackpot-note {
