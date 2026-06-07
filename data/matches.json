@@ -1932,7 +1932,7 @@
   {
     "id": "1540590",
     "date": "2026-06-07T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Friendlies",
     "roundKey": "test",
     "stage": "friendly",
@@ -1947,7 +1947,10 @@
       "name": "Italy",
       "flag": "https://media.api-sports.io/football/teams/768.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "scorers": [],
