@@ -3915,154 +3915,148 @@
   ],
   "768": [
     {
-      "id": 30731,
-      "name": "E. Caprile",
-      "pos": "Goalkeeper",
-      "number": 19
-    },
-    {
-      "id": 30417,
-      "name": "M. Carnesecchi",
-      "pos": "Goalkeeper",
-      "number": 12
-    },
-    {
       "id": 1622,
-      "name": "G. Donnarumma",
-      "pos": "Goalkeeper",
-      "number": 1
+      "name": "Gianluigi Donnarumma",
+      "number": 1,
+      "pos": "Goalkeeper"
     },
     {
-      "id": 312,
-      "name": "A. Meret",
-      "pos": "Goalkeeper",
-      "number": 22
+      "id": 453906,
+      "name": "Honest Ahanor",
+      "number": 24,
+      "pos": "Defender"
     },
     {
-      "id": 31009,
-      "name": "A. Bastoni",
-      "pos": "Defender",
-      "number": 21
+      "id": 396637,
+      "name": "Pietro Comuzzo",
+      "number": 15,
+      "pos": "Defender"
     },
     {
-      "id": 31226,
-      "name": "A. Buongiorno",
-      "pos": "Defender",
-      "number": 6
+      "id": 322627,
+      "name": "Fabio Chiarodia",
+      "number": 4,
+      "pos": "Defender"
     },
     {
-      "id": 157052,
-      "name": "R. Calafiori",
-      "pos": "Defender",
-      "number": 13
-    },
-    {
-      "id": 127011,
-      "name": "A. Cambiaso",
-      "pos": "Defender",
-      "number": 20
-    },
-    {
-      "id": 31010,
-      "name": "F. Dimarco",
-      "pos": "Defender",
-      "number": 3
-    },
-    {
-      "id": 268341,
-      "name": "F. Gatti",
-      "pos": "Defender",
-      "number": 19
-    },
-    {
-      "id": 30425,
-      "name": "G. Mancini",
-      "pos": "Defender",
-      "number": 23
-    },
-    {
-      "id": 289761,
-      "name": "G. Scalvini",
-      "pos": "Defender",
-      "number": 20
-    },
-    {
-      "id": 862,
-      "name": "L. Spinazzola",
-      "pos": "Defender",
-      "number": 4
-    },
-    {
-      "id": 30558,
-      "name": "N. Barella",
-      "pos": "Midfielder",
-      "number": 18
-    },
-    {
-      "id": 778,
-      "name": "B. Cristante",
-      "pos": "Midfielder",
-      "number": 16
-    },
-    {
-      "id": 31173,
-      "name": "D. Frattesi",
-      "pos": "Midfielder",
-      "number": 17
-    },
-    {
-      "id": 30533,
-      "name": "M. Locatelli",
-      "pos": "Midfielder",
-      "number": 5
-    },
-    {
-      "id": 383018,
-      "name": "M. Palestra",
-      "pos": "Defender",
-      "number": 2
+      "id": 374359,
+      "name": "Davide Bartesaghi",
+      "number": 3,
+      "pos": "Defender"
     },
     {
       "id": 356888,
-      "name": "N. Pisilli",
-      "pos": "Midfielder",
-      "number": 21
+      "name": "Niccolò Pisilli",
+      "number": 21,
+      "pos": "Midfielder"
     },
     {
-      "id": 31146,
-      "name": "S. Tonali",
-      "pos": "Midfielder",
-      "number": 8
+      "id": 343562,
+      "name": "Luca Lipani",
+      "number": 5,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 311083,
+      "name": "Cher Ndour",
+      "number": 10,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 451504,
+      "name": "Jeff Ekhator",
+      "number": 18,
+      "pos": "Attacker"
     },
     {
       "id": 345808,
-      "name": "F. Esposito",
-      "pos": "Attacker",
-      "number": 9
+      "name": "Francesco Pio Esposito",
+      "number": 9,
+      "pos": "Attacker"
     },
     {
-      "id": 877,
-      "name": "M. Kean",
-      "pos": "Attacker",
-      "number": 11
+      "id": 359603,
+      "name": "Luca Koleosho",
+      "number": 11,
+      "pos": "Attacker"
     },
     {
-      "id": 219,
-      "name": "M. Politano",
-      "pos": "Attacker",
-      "number": 7
+      "id": 335117,
+      "name": "Giovanni Daffara",
+      "number": 12,
+      "pos": "Goalkeeper"
     },
     {
-      "id": 30543,
-      "name": "G. Raspadori",
-      "pos": "Attacker",
-      "number": 10
+      "id": 327774,
+      "name": "Lorenzo Palmisani",
+      "number": 23,
+      "pos": "Goalkeeper"
     },
     {
-      "id": 6420,
-      "name": "M. Retegui",
-      "pos": "Attacker",
-      "number": 9
+      "id": 437093,
+      "name": "Niccolò Fortini",
+      "number": 2,
+      "pos": "Defender"
+    },
+    {
+      "id": 341839,
+      "name": "Filippo Mané",
+      "number": 6,
+      "pos": "Defender"
+    },
+    {
+      "id": 568225,
+      "name": "Luca Reggiani",
+      "number": 13,
+      "pos": "Defender"
+    },
+    {
+      "id": 471040,
+      "name": "Alessio Cacciamani",
+      "number": 7,
+      "pos": "Attacker"
+    },
+    {
+      "id": 325399,
+      "name": "Tommaso Berti",
+      "number": 14,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 342074,
+      "name": "Giacomo Faticanti",
+      "number": 16,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 478991,
+      "name": "Samuele Inacio",
+      "number": 19,
+      "pos": "Attacker"
+    },
+    {
+      "id": 342025,
+      "name": "Matteo Dagasso",
+      "number": 20,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 348532,
+      "name": "Costantino Favasuli",
+      "number": 22,
+      "pos": "Defender"
+    },
+    {
+      "id": 436260,
+      "name": "Francesco Camarda",
+      "number": 8,
+      "pos": "Attacker"
+    },
+    {
+      "id": 348533,
+      "name": "Seydou Fini",
+      "number": 17,
+      "pos": "Attacker"
     }
   ],
   "770": [
@@ -5471,154 +5465,154 @@
   ],
   "1117": [
     {
-      "id": 26644,
-      "name": "C. Mandas",
-      "pos": "Goalkeeper",
-      "number": 13
-    },
-    {
-      "id": 91215,
-      "name": "A. Tsiftsis",
-      "pos": "Goalkeeper",
-      "number": null
-    },
-    {
-      "id": 1591,
-      "name": "K. Tzolakis",
-      "pos": "Goalkeeper",
-      "number": 12
-    },
-    {
       "id": 557,
-      "name": "O. Vlachodimos",
-      "pos": "Goalkeeper",
-      "number": 1
-    },
-    {
-      "id": 2360,
-      "name": "D. Giannoulis",
-      "pos": "Defender",
-      "number": 22
-    },
-    {
-      "id": 36885,
-      "name": "P. Hatzidiakos",
-      "pos": "Defender",
-      "number": 17
-    },
-    {
-      "id": 1445,
-      "name": "K. Mavropanos",
-      "pos": "Defender",
-      "number": 4
+      "name": "Odysseas Vlachodimos",
+      "number": 1,
+      "pos": "Goalkeeper"
     },
     {
       "id": 971,
-      "name": "P. Retsos",
-      "pos": "Defender",
-      "number": 5
+      "name": "Panagiotis Retsos",
+      "number": 5,
+      "pos": "Defender"
     },
     {
-      "id": 61257,
-      "name": "L. Rota",
-      "pos": "Midfielder",
-      "number": 15
-    },
-    {
-      "id": 1600,
-      "name": "K. Tsimikas",
-      "pos": "Midfielder",
-      "number": 21
-    },
-    {
-      "id": 135839,
-      "name": "G. Vagiannidis",
-      "pos": "Defender",
-      "number": 2
-    },
-    {
-      "id": 607,
-      "name": "A. Bakasetas",
-      "pos": "Midfielder",
-      "number": 11
-    },
-    {
-      "id": 404891,
-      "name": "K. Karetsas",
-      "pos": "Midfielder",
-      "number": 19
-    },
-    {
-      "id": 162410,
-      "name": "G. Konstantelias",
-      "pos": "Midfielder",
-      "number": 18
-    },
-    {
-      "id": 449603,
-      "name": "S. Kontouris",
-      "pos": "Midfielder",
-      "number": 18
+      "id": 36885,
+      "name": "Pantelis Hatzidiakos",
+      "number": 17,
+      "pos": "Defender"
     },
     {
       "id": 162409,
-      "name": "K. Koulierakis",
-      "pos": "Defender",
-      "number": 3
+      "name": "Konstantinos Koulierakis",
+      "number": 3,
+      "pos": "Defender"
     },
     {
-      "id": 26751,
-      "name": "D. Kourbelis",
-      "pos": "Midfielder",
-      "number": 6
-    },
-    {
-      "id": 392514,
-      "name": "C. Mouzakitis",
-      "pos": "Midfielder",
-      "number": 8
+      "id": 135839,
+      "name": "Georgios Vagiannidis",
+      "number": 2,
+      "pos": "Midfielder"
     },
     {
       "id": 216812,
-      "name": "N. Triantis",
-      "pos": "Defender",
-      "number": 23
+      "name": "Nectarios Triantis",
+      "number": 23,
+      "pos": "Midfielder"
     },
     {
-      "id": 216762,
-      "name": "C. Zafeiris",
-      "pos": "Midfielder",
-      "number": 20
+      "id": 392514,
+      "name": "Christos Mouzakitis",
+      "number": 8,
+      "pos": "Midfielder"
     },
     {
-      "id": 26845,
-      "name": "T. Douvikas",
-      "pos": "Attacker",
-      "number": 9
-    },
-    {
-      "id": 1610,
-      "name": "G. Masouras",
-      "pos": "Attacker",
-      "number": 7
-    },
-    {
-      "id": 36798,
-      "name": "V. Pavlidis",
-      "pos": "Attacker",
-      "number": 14
-    },
-    {
-      "id": 561139,
-      "name": "A. Tetteh",
-      "pos": "Attacker",
-      "number": 11
+      "id": 26828,
+      "name": "Georgios Kyriakopoulos",
+      "number": 19,
+      "pos": "Midfielder"
     },
     {
       "id": 161800,
-      "name": "C. Tzolis",
-      "pos": "Attacker",
-      "number": 10
+      "name": "Christos Tzolis",
+      "number": 10,
+      "pos": "Attacker"
+    },
+    {
+      "id": 1610,
+      "name": "Giorgos Masouras",
+      "number": 7,
+      "pos": "Attacker"
+    },
+    {
+      "id": 26845,
+      "name": "Anastasios Douvikas",
+      "number": 9,
+      "pos": "Attacker"
+    },
+    {
+      "id": 1591,
+      "name": "Konstantinos Tzolakis",
+      "number": 12,
+      "pos": "Goalkeeper"
+    },
+    {
+      "id": 26644,
+      "name": "Christos Mandas",
+      "number": 13,
+      "pos": "Goalkeeper"
+    },
+    {
+      "id": 1445,
+      "name": "Konstantinos Mavropanos",
+      "number": 4,
+      "pos": "Defender"
+    },
+    {
+      "id": 61257,
+      "name": "Lazaros Rota",
+      "number": 15,
+      "pos": "Defender"
+    },
+    {
+      "id": 1600,
+      "name": "Kostas Tsimikas",
+      "number": 21,
+      "pos": "Defender"
+    },
+    {
+      "id": 26751,
+      "name": "Dimitris Kourbelis",
+      "number": 6,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 449603,
+      "name": "Sotiris Kontouris",
+      "number": 18,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 216762,
+      "name": "Christos Zafeiris",
+      "number": 20,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 1602,
+      "name": "Athanasios Androutsos",
+      "number": 24,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 202084,
+      "name": "Andreas Ndoj",
+      "number": 25,
+      "pos": "Defender"
+    },
+    {
+      "id": 68213,
+      "name": "Alexandros Kyziridis",
+      "number": 26,
+      "pos": "Attacker"
+    },
+    {
+      "id": 392482,
+      "name": "Charalampos Kostoulas",
+      "number": 11,
+      "pos": "Attacker"
+    },
+    {
+      "id": 36798,
+      "name": "Vangelis Pavlidis",
+      "number": 14,
+      "pos": "Attacker"
+    },
+    {
+      "id": 342918,
+      "name": "Andreas Tetteh",
+      "number": 16,
+      "pos": "Attacker"
     }
   ],
   "1118": [

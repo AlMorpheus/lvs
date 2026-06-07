@@ -360,7 +360,7 @@
     "team": "31"
   },
   "557": {
-    "name": "O. Vlachodimos",
+    "name": "Odysseas Vlachodimos",
     "pos": "Goalkeeper",
     "team": "1117"
   },
@@ -655,7 +655,7 @@
     "team": "15"
   },
   "971": {
-    "name": "P. Retsos",
+    "name": "Panagiotis Retsos",
     "pos": "Defender",
     "team": "1117"
   },
@@ -835,7 +835,7 @@
     "team": "1113"
   },
   "1445": {
-    "name": "K. Mavropanos",
+    "name": "Konstantinos Mavropanos",
     "pos": "Defender",
     "team": "1117"
   },
@@ -880,22 +880,27 @@
     "team": "27"
   },
   "1591": {
-    "name": "K. Tzolakis",
+    "name": "Konstantinos Tzolakis",
     "pos": "Goalkeeper",
     "team": "1117"
   },
   "1600": {
-    "name": "K. Tsimikas",
+    "name": "Kostas Tsimikas",
+    "pos": "Defender",
+    "team": "1117"
+  },
+  "1602": {
+    "name": "Athanasios Androutsos",
     "pos": "Midfielder",
     "team": "1117"
   },
   "1610": {
-    "name": "G. Masouras",
+    "name": "Giorgos Masouras",
     "pos": "Attacker",
     "team": "1117"
   },
   "1622": {
-    "name": "G. Donnarumma",
+    "name": "Gianluigi Donnarumma",
     "pos": "Goalkeeper",
     "team": "768"
   },
@@ -2650,17 +2655,22 @@
     "team": "25"
   },
   "26644": {
-    "name": "C. Mandas",
+    "name": "Christos Mandas",
     "pos": "Goalkeeper",
     "team": "1117"
   },
   "26751": {
-    "name": "D. Kourbelis",
+    "name": "Dimitris Kourbelis",
+    "pos": "Midfielder",
+    "team": "1117"
+  },
+  "26828": {
+    "name": "Georgios Kyriakopoulos",
     "pos": "Midfielder",
     "team": "1117"
   },
   "26845": {
-    "name": "T. Douvikas",
+    "name": "Anastasios Douvikas",
     "pos": "Attacker",
     "team": "1117"
   },
@@ -2980,7 +2990,7 @@
     "team": "4673"
   },
   "36798": {
-    "name": "V. Pavlidis",
+    "name": "Vangelis Pavlidis",
     "pos": "Attacker",
     "team": "1117"
   },
@@ -2995,7 +3005,7 @@
     "team": "5530"
   },
   "36885": {
-    "name": "P. Hatzidiakos",
+    "name": "Pantelis Hatzidiakos",
     "pos": "Defender",
     "team": "1117"
   },
@@ -4030,8 +4040,8 @@
     "team": "11"
   },
   "61257": {
-    "name": "L. Rota",
-    "pos": "Midfielder",
+    "name": "Lazaros Rota",
+    "pos": "Defender",
     "team": "1117"
   },
   "61837": {
@@ -4163,6 +4173,11 @@
     "name": "M. Guéhi",
     "pos": "Defender",
     "team": "10"
+  },
+  "68213": {
+    "name": "Alexandros Kyziridis",
+    "pos": "Attacker",
+    "team": "1117"
   },
   "69196": {
     "name": "Mahmoud Saber",
@@ -4725,8 +4740,8 @@
     "team": "7"
   },
   "135839": {
-    "name": "G. Vagiannidis",
-    "pos": "Defender",
+    "name": "Georgios Vagiannidis",
+    "pos": "Midfielder",
     "team": "1117"
   },
   "136503": {
@@ -4955,7 +4970,7 @@
     "team": "1501"
   },
   "161800": {
-    "name": "C. Tzolis",
+    "name": "Christos Tzolis",
     "pos": "Attacker",
     "team": "1117"
   },
@@ -5020,7 +5035,7 @@
     "team": "1113"
   },
   "162409": {
-    "name": "K. Koulierakis",
+    "name": "Konstantinos Koulierakis",
     "pos": "Defender",
     "team": "1117"
   },
@@ -5384,6 +5399,11 @@
     "pos": "Attacker",
     "team": "2383"
   },
+  "202084": {
+    "name": "Andreas Ndoj",
+    "pos": "Defender",
+    "team": "1117"
+  },
   "202381": {
     "name": "Moteb Al Harbi",
     "pos": "Defender",
@@ -5445,13 +5465,13 @@
     "team": "767"
   },
   "216762": {
-    "name": "C. Zafeiris",
+    "name": "Christos Zafeiris",
     "pos": "Midfielder",
     "team": "1117"
   },
   "216812": {
-    "name": "N. Triantis",
-    "pos": "Defender",
+    "name": "Nectarios Triantis",
+    "pos": "Midfielder",
     "team": "1117"
   },
   "221605": {
@@ -6004,6 +6024,11 @@
     "pos": "Defender",
     "team": "1548"
   },
+  "311083": {
+    "name": "Cher Ndour",
+    "pos": "Midfielder",
+    "team": "768"
+  },
   "311291": {
     "name": "Thomas Gillier",
     "pos": "Goalkeeper",
@@ -6079,6 +6104,11 @@
     "pos": "Midfielder",
     "team": "1113"
   },
+  "322627": {
+    "name": "Fabio Chiarodia",
+    "pos": "Defender",
+    "team": "768"
+  },
   "323820": {
     "name": "Aleksandr Mrynskiy",
     "pos": "Defender",
@@ -6098,6 +6128,11 @@
     "name": "G. Puerta",
     "pos": "Midfielder",
     "team": "8"
+  },
+  "325399": {
+    "name": "Tommaso Berti",
+    "pos": "Midfielder",
+    "team": "768"
   },
   "326067": {
     "name": "A. Hadj-Moussa",
@@ -6123,6 +6158,11 @@
     "name": "L. De Fougerolles",
     "pos": "Defender",
     "team": "5529"
+  },
+  "327774": {
+    "name": "Lorenzo Palmisani",
+    "pos": "Goalkeeper",
+    "team": "768"
   },
   "327895": {
     "name": "P. Wanner",
@@ -6188,6 +6228,11 @@
     "name": "D. Moreira",
     "pos": "Attacker",
     "team": "1"
+  },
+  "335117": {
+    "name": "Giovanni Daffara",
+    "pos": "Goalkeeper",
+    "team": "768"
   },
   "336657": {
     "name": "W. Zaïre-Emery",
@@ -6279,15 +6324,30 @@
     "pos": "Defender",
     "team": "1118"
   },
+  "341839": {
+    "name": "Filippo Mané",
+    "pos": "Defender",
+    "team": "768"
+  },
   "341844": {
     "name": "M. Ghorbani",
     "pos": "Midfielder",
     "team": "22"
   },
+  "342025": {
+    "name": "Matteo Dagasso",
+    "pos": "Midfielder",
+    "team": "768"
+  },
   "342035": {
     "name": "C. Volpato",
     "pos": "Attacker",
     "team": "20"
+  },
+  "342074": {
+    "name": "Giacomo Faticanti",
+    "pos": "Midfielder",
+    "team": "768"
   },
   "342136": {
     "name": "Davit Hakobyan",
@@ -6309,6 +6369,11 @@
     "pos": "Defender",
     "team": "1532"
   },
+  "342918": {
+    "name": "Andreas Tetteh",
+    "pos": "Attacker",
+    "team": "1117"
+  },
   "343027": {
     "name": "D. Doué",
     "pos": "Attacker",
@@ -6323,6 +6388,11 @@
     "name": "A. Yousefi",
     "pos": "Defender",
     "team": "22"
+  },
+  "343562": {
+    "name": "Luca Lipani",
+    "pos": "Midfielder",
+    "team": "768"
   },
   "343576": {
     "name": "B. Doak",
@@ -6345,7 +6415,7 @@
     "team": "8"
   },
   "345808": {
-    "name": "F. Esposito",
+    "name": "Francesco Pio Esposito",
     "pos": "Attacker",
     "team": "768"
   },
@@ -6363,6 +6433,16 @@
     "name": "P. Sucic",
     "pos": "Attacker",
     "team": "3"
+  },
+  "348532": {
+    "name": "Costantino Favasuli",
+    "pos": "Defender",
+    "team": "768"
+  },
+  "348533": {
+    "name": "Seydou Fini",
+    "pos": "Attacker",
+    "team": "768"
   },
   "348568": {
     "name": "A. Circati",
@@ -6450,7 +6530,7 @@
     "team": "2384"
   },
   "356888": {
-    "name": "N. Pisilli",
+    "name": "Niccolò Pisilli",
     "pos": "Midfielder",
     "team": "768"
   },
@@ -6473,6 +6553,11 @@
     "name": "K. Sebelebele",
     "pos": "Midfielder",
     "team": "1531"
+  },
+  "359603": {
+    "name": "Luca Koleosho",
+    "pos": "Attacker",
+    "team": "768"
   },
   "360114": {
     "name": "A. Khusanov",
@@ -6543,6 +6628,11 @@
     "name": "L. Camara",
     "pos": "Midfielder",
     "team": "13"
+  },
+  "374359": {
+    "name": "Davide Bartesaghi",
+    "pos": "Defender",
+    "team": "768"
   },
   "375598": {
     "name": "N. Mukau",
@@ -6624,8 +6714,13 @@
     "pos": "Defender",
     "team": "1531"
   },
+  "392482": {
+    "name": "Charalampos Kostoulas",
+    "pos": "Attacker",
+    "team": "1117"
+  },
   "392514": {
-    "name": "C. Mouzakitis",
+    "name": "Christos Mouzakitis",
     "pos": "Midfielder",
     "team": "1117"
   },
@@ -6658,6 +6753,11 @@
     "name": "Pau Cubarsí Paredes",
     "pos": "Defender",
     "team": "9"
+  },
+  "396637": {
+    "name": "Pietro Comuzzo",
+    "pos": "Defender",
+    "team": "768"
   },
   "400948": {
     "name": "Assane Diao",
@@ -6834,6 +6934,16 @@
     "pos": "Midfielder",
     "team": "1108"
   },
+  "436260": {
+    "name": "Francesco Camarda",
+    "pos": "Attacker",
+    "team": "768"
+  },
+  "437093": {
+    "name": "Niccolò Fortini",
+    "pos": "Defender",
+    "team": "768"
+  },
   "438688": {
     "name": "A. Bouaddi",
     "pos": "Midfielder",
@@ -6860,19 +6970,34 @@
     "team": "13"
   },
   "449603": {
-    "name": "S. Kontouris",
+    "name": "Sotiris Kontouris",
     "pos": "Midfielder",
     "team": "1117"
+  },
+  "451504": {
+    "name": "Jeff Ekhator",
+    "pos": "Attacker",
+    "team": "768"
   },
   "453073": {
     "name": "Akam Rahman",
     "pos": "Defender",
     "team": "1567"
   },
+  "453906": {
+    "name": "Honest Ahanor",
+    "pos": "Defender",
+    "team": "768"
+  },
   "466618": {
     "name": "Arsen Ashirbek",
     "pos": "Midfielder",
     "team": "1095"
+  },
+  "471040": {
+    "name": "Alessio Cacciamani",
+    "pos": "Attacker",
+    "team": "768"
   },
   "471407": {
     "name": "Lautaro Millán",
@@ -6893,6 +7018,11 @@
     "name": "Caleb Marfo Yirenkyi",
     "pos": "Midfielder",
     "team": "1504"
+  },
+  "478991": {
+    "name": "Samuele Inacio",
+    "pos": "Attacker",
+    "team": "768"
   },
   "480108": {
     "name": "B. Asare",
@@ -7083,6 +7213,11 @@
     "name": "R. Elloumi",
     "pos": "Attacker",
     "team": "28"
+  },
+  "568225": {
+    "name": "Luca Reggiani",
+    "pos": "Defender",
+    "team": "768"
   },
   "568556": {
     "name": "O. Al Fakhouri",
