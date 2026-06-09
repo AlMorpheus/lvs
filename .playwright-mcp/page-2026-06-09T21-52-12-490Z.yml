@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e10]:
+        - link "betanalyse.pro" [ref=e11] [cursor=pointer]:
+          - /url: /betprediction
+          - generic [ref=e12]:
+            - img [ref=e13]
+            - generic [ref=e21]: betanalyse.pro
+        - navigation [ref=e22]:
+          - link "⚽ Матчи" [ref=e23] [cursor=pointer]:
+            - /url: /betprediction
+            - generic [ref=e24]: ⚽
+            - generic [ref=e25]: Матчи
+          - link "📊 Трек-рекорд" [ref=e26] [cursor=pointer]:
+            - /url: /betprediction/track-record
+            - generic [ref=e27]: 📊
+            - generic [ref=e28]: Трек-рекорд
+          - link "🧠 ЛВС" [ref=e29] [cursor=pointer]:
+            - /url: /betprediction/lvs
+            - generic [ref=e30]: 🧠
+            - generic [ref=e31]: ЛВС
+          - link "🧾 История ЛВС" [ref=e32] [cursor=pointer]:
+            - /url: /betprediction/lvs/history
+            - generic [ref=e33]: 🧾
+            - generic [ref=e34]: История ЛВС
+          - link "ℹ️ О проекте" [ref=e35] [cursor=pointer]:
+            - /url: /betprediction/about
+            - generic [ref=e36]: ℹ️
+            - generic [ref=e37]: О проекте
+        - generic [ref=e38]:
+          - link "💎 Тарифы" [ref=e39] [cursor=pointer]:
+            - /url: /betprediction/pricing
+            - generic [ref=e40]: 💎
+            - generic [ref=e41]: Тарифы
+          - generic "3 бесплатных прогноза в день" [ref=e42]:
+            - img [ref=e43]
+            - generic [ref=e45]: "3"
+            - generic [ref=e46]: FREE
+          - button "RU / EN" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: RU
+            - generic [ref=e49]: /
+            - generic [ref=e50]: EN
+          - generic [ref=e51]:
+            - link "Войти" [ref=e52] [cursor=pointer]:
+              - /url: /betprediction/login
+            - link "Регистрация" [ref=e53] [cursor=pointer]:
+              - /url: /betprediction/register
+    - main [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - img "World Cup 2026" [ref=e58]
+          - generic [ref=e66]:
+            - generic [ref=e67]: 🏆 ЧМ-2026 · LVS
+            - heading "ЛВС — чемпионат мира" [level=1] [ref=e68]
+        - paragraph [ref=e69]: Матчи чемпионата мира появятся здесь
+    - contentinfo [ref=e70]:
+      - generic [ref=e71]:
+        - link "Матчи" [ref=e72] [cursor=pointer]:
+          - /url: /betprediction
+        - link "Трек-рекорд" [ref=e73] [cursor=pointer]:
+          - /url: /betprediction/track-record
+        - link "О проекте" [ref=e74] [cursor=pointer]:
+          - /url: /betprediction/about
+        - link "Тарифы" [ref=e75] [cursor=pointer]:
+          - /url: /betprediction/pricing
+      - paragraph [ref=e76]: betanalyse.pro — аналитика в образовательных целях. Прогнозы не гарантируют результат. 18+.
+      - paragraph [ref=e77]: © 2026 betanalyse.pro
+  - alert [ref=e78]
