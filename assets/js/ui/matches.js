@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=27';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=27';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=27';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=27';
-import { renderGreeting } from './greeting.js?v=27';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=28';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=28';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=28';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=28';
+import { renderGreeting } from './greeting.js?v=28';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -397,8 +397,16 @@ function rerenderCard(card, m, S, ctx) {
       ])
     );
   } else {
-    // заблокировано — показать раскрытые ставки
+    // заблокировано — показать раскрытые ставки (прогноз betanalyse.pro внутри)
     revealBlock(m, S, ctx, idx).then((b) => card.append(b));
+  }
+
+  // До начала матча показываем прогноз betanalyse.pro отдельным блоком.
+  // Он обновляется на их стороне примерно за час до игры — бот тянет свежую версию
+  // каждые 2 минуты, так что здесь всегда актуальный прогноз.
+  if (!started(m)) {
+    const ai = S.aiPredictions?.[m.id];
+    if (ai) card.append(h('div', { class: 'bet-summary' }, [aiPredictionEntry(ai, m)]));
   }
 }
 
