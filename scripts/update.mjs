@@ -297,6 +297,40 @@ async function applyLineups(matches, squads) {
   }
 }
 
+// ---------- прогнозы betanalyse.pro (внешний AI-источник) ----------
+// Тянем публичную статику соседнего проекта (lvs-fixtures.json) и оставляем по матчу
+// только то, что нужно: прогноз счёта и трёх авторов голов. Матчи совпадают по id (API-Football).
+const POS_RU_ABBR = { 'нападающий': 'нап', 'полузащитник': 'пз', 'защитник': 'защ', 'вратарь': 'вр' };
+const BETANALYSE_URL = 'https://erastfandorin2004.github.io/betprediction/data/lvs-fixtures.json';
+async function fetchExpertPredictions() {
+  let days;
+  try {
+    const res = await fetch(BETANALYSE_URL);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    days = await res.json();
+  } catch (e) {
+    console.warn('Прогнозы betanalyse.pro не получены:', e.message);
+    return null; // не трогаем прежний файл
+  }
+  const out = {};
+  for (const d of days || []) {
+    for (const f of d.fixtures || []) {
+      const p = f?.prediction;
+      if (!p || !p.score || p.score.home == null) continue;
+      out[String(f.id)] = {
+        score: { home: p.score.home, away: p.score.away },
+        scorers: (p.scorers || []).slice(0, 3).map((s) => ({
+          name: s.name,
+          team: s.team === 'away' ? 'away' : 'home',
+          pos: POS_RU_ABBR[(s.position || '').toLowerCase()] || null,
+        })),
+        stars: p.stars ?? null,
+      };
+    }
+  }
+  return Object.keys(out).length ? out : null;
+}
+
 // ---------- результат турнира (чемпион + бомбардиры) ----------
 async function tournamentResult(matches) {
   const final = matches.find((m) => m.roundKey === 'final');
@@ -459,6 +493,13 @@ async function main() {
   // справочник игроков пишем только при изменении
   const prevDir = readJSON('data/players.json', null);
   if (JSON.stringify(prevDir) !== JSON.stringify(playerDir)) writeJSON('data/players.json', playerDir);
+
+  // прогнозы betanalyse.pro — отдельной строкой в списке ставок
+  const aiPred = await fetchExpertPredictions();
+  if (aiPred) {
+    const prevP = readJSON('data/ai-predictions.json', null);
+    if (JSON.stringify(prevP) !== JSON.stringify(aiPred)) writeJSON('data/ai-predictions.json', aiPred);
+  }
 
   const tr = await tournamentResult(matches);
   const posMap = buildPosIndex(squads);

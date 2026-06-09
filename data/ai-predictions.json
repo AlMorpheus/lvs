@@ -1,0 +1,1730 @@
+{
+  "1489369": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Hirving Lozano",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Santiago Gimenez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Percy Tau",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489370": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Christian Pulisic",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Folarin Balogun",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Miguel Almiron",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489371": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Rodrygo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Vinicius Junior",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Youssef En-Nesyri",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489372": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Che Adams",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "John McGinn",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Duckens Nazon",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489373": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "неизвестно (нет стартовых составов)",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Breel Embolo",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Xherdan Shaqiri",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 4
+  },
+  "1489374": {
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Jamal Musiala",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Florian Wirtz",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Джамал Мусиала",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 5
+  },
+  "1489375": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Sébastien Haller",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Enner Valencia",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Nicolas Pepe",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489376": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Cody Gakpo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Memphis Depay",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489377": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Romelu Lukaku",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Mohamed Salah",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489378": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Mehdi Taremi",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Sardar Azmoun",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Chris Wood",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489379": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Darwin Núñez",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Federico Valverde",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489380": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Lamine Yamal",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Nico Williams",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Альваро Мората",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489381": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Lionel Messi",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Lautaro Martinez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Julián Álvarez",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489382": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Marko Arnautović",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 4
+  },
+  "1489383": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Килиан Мбаппе",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489384": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Harry Kane",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Phil Foden",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Харри Кейн",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489385": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Inaki Williams",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Mohammed Kudus",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Jose Fajardo",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489386": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Luis Díaz",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Рафаэль Сантос Борре",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489387": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Jonathan David",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Alphonso Davies",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Джонатан Дэвид",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489388": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Hirving Lozano",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Raúl Jiménez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Son Heung-min",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489389": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Rodrygo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Endrick",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489390": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Youssef En-Nesyri",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Hakim Ziyech",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Ché Adams",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489391": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Christian Pulisic",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Folarin Balogun",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Mathew Leckie",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489392": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Enner Valencia",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Kendry Páez",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Moisés Caicedo",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 4
+  },
+  "1489393": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Jamal Musiala",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Kai Havertz",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Florian Wirtz",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 4
+  },
+  "1489394": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Takefusa Kubo",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Youssef Msakni",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489395": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Romelu Lukaku",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489396": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Mohamed Salah",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Chris Wood",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489397": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Lamine Yamal",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Álvaro Morata",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Nico Williams",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489398": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Darwin Núñez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Federico Valverde",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Дарвин Нуньес",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489399": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Lionel Messi",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Лаутаро Мартинес",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489400": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Riyad Mahrez",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Islam Slimani",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Рияд Махрез",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489401": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Erling Haaland",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Sadio Mané",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Martin Odegaard",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489402": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Harry Kane",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Bukayo Saka",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Гарри Кейн",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489403": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Luka Modrić",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Andrej Kramarić",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Bruno Petković",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489404": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Rafael Leao",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489405": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Youssef En-Nesyri",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Hakim Ziyech",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Хаким Зиеш",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 4
+  },
+  "1489406": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Vinicius Junior",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Rodrygo",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Endrick",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489407": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Son Heung-min",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Percy Tau",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Сон Хын Мин",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489408": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Breel Embolo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Jonathan David",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Granit Xhaka",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489409": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Sébastien Haller",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Nicolas Pépé",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Себастьян Аллер",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489410": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Jamal Musiala",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Enner Valencia",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Кай Хаверц",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489411": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Мигель Альмирон",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Miguel Almirón",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Mitchell Duke",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489412": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Memphis Depay",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Cody Gakpo",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Wahbi Khazri",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489413": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Salem Al-Dawsari",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Ryan Mendes",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Фирас Аль-Бураикан",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489414": {
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Mohamed Salah",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489415": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scorers": [
+      {
+        "name": "Romelu Lukaku",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Chris Wood",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1489416": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Erling Haaland",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Килиан Мбаппе",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489417": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Darwin Núñez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Álvaro Morata",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Lamine Yamal",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1489418": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Riyad Mahrez",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Marko Arnautović",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Islam Slimani",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489419": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Luis Diaz",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Криштиану Роналду",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489420": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Andrej Kramarić",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Андрей Крамарич",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Bruno Petković",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1489422": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Harry Kane",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Phil Foden",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 4
+  },
+  "1538999": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Son Heung-min",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Patrik Schick",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Lee Kang-in",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1539000": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Jonathan David",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Edin Džeko",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539001": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Hakan Çalhanoğlu",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Mitchell Duke",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1539002": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Alexander Isak",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Wahbi Khazri",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Александер Исак",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539003": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Rafael Leão",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1539004": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Patrik Schick",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Adam Hlozek",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Патрик Шик",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539005": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Breel Embolo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Edin Džeko",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Бриль Эмболо",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539006": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Kerem Aktürkoğlu",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Enes Ünal",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Miguel Almirón",
+        "team": "away",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1539007": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Cody Gakpo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Memphis Depay",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Alexander Isak",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1539008": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Luis Díaz",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Yoane Wissa",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Луис Диас",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539009": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Эдин Джеко",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Edin Dzeko",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Akram Afif",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539010": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Patrik Schick",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Hirving Lozano",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Santiago Giménez",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539011": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Takefusa Kubo",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Alexander Isak",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Ayase Ueda",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539012": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Christian Pulisic",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Kenan Yıldız",
+        "team": "home",
+        "pos": "пз"
+      }
+    ],
+    "stars": 3
+  },
+  "1539013": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Eldor Shomurodov",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Cedric Bakambu",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Yoane Wissa",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539016": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Erling Haaland",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Martin Odegaard",
+        "team": "away",
+        "pos": "пз"
+      },
+      {
+        "name": "Эрлинг Холанн",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1539017": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Килиан Мбаппе",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
+  "1539074": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Ismaïla Sarr",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Sadio Mané",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Nicolas Jackson",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 3
+  },
+  "1544812": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Cody Gakpo",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Donyell Malen",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Crysencio Summerville",
+        "team": "home",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  }
+}

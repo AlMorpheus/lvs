@@ -24,6 +24,7 @@
 
 GitHub Action (раз в час, секреты на сервере)
   • тянет с API-Football счёт, авторов голов, составы
+  • тянет прогнозы betanalyse.pro (счёт + три автора) → data/ai-predictions.json
   • расшифровывает ставки приватным ключом бота, считает очки
   • после свистка раскрывает ставки матча для участников
   • пишет data/matches.json, standings.json, squads.json, revealed/*

@@ -765,6 +765,28 @@ textarea.input:focus {
 .reveal-entry.me .you-tag {
   background: var(--green);
 }
+/* Прогноз betanalyse.pro — отдельная строка с фиолетовым акцентом бренда */
+.reveal-entry.ai {
+  background: rgba(106, 31, 224, 0.06);
+  border: 1px solid rgba(106, 31, 224, 0.28);
+  border-radius: 12px;
+  padding: 11px 12px;
+  margin: 4px -6px;
+  border-top: 1px solid rgba(106, 31, 224, 0.28);
+}
+.reveal-entry.ai .reveal-who b {
+  color: #6a1fe0;
+}
+.ai-ava {
+  font-size: 1rem;
+  line-height: 1;
+}
+.ai-stars {
+  flex: none;
+  color: #f5a623;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
 .reveal-score {
   display: flex;
   align-items: center;

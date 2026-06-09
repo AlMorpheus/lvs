@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=26';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=26';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=26';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=26';
-import { renderGreeting } from './greeting.js?v=26';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=27';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=27';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=27';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=27';
+import { renderGreeting } from './greeting.js?v=27';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -246,6 +246,32 @@ function miniFlag(team) {
 function scorerChip(id, m, S, idx) {
   return h('span', { class: 'chip' }, [miniFlag(teamOfPlayer(id, m, S)), nameWithPos(id, S, idx)]);
 }
+
+// Фамилия из полного имени betanalyse.pro («Cody Gakpo» → «Gakpo», «Virgil van Dijk» → «van Dijk»).
+function surname(name) {
+  const parts = String(name || '').trim().split(/\s+/);
+  return parts.length > 1 ? parts.slice(1).join(' ') : name || '—';
+}
+// Отдельная строка в списке ставок: прогноз betanalyse.pro (счёт + три автора).
+function aiPredictionEntry(ai, m) {
+  const chip = (s) =>
+    h('span', { class: 'chip' }, [
+      miniFlag(s.team === 'away' ? m.away : m.home),
+      s.pos ? `${surname(s.name)} · ${s.pos}` : surname(s.name),
+    ]);
+  const scorerEls = (ai.scorers || []).map(chip);
+  return h('div', { class: 'reveal-entry ai' }, [
+    h('div', { class: 'reveal-head' }, [
+      h('div', { class: 'reveal-who' }, [
+        h('span', { class: 'ai-ava', text: '🤖' }),
+        h('b', { text: 'betanalyse.pro' }),
+        ai.stars ? h('span', { class: 'ai-stars', text: '★'.repeat(ai.stars) }) : '',
+      ]),
+      h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${ai.score.home}:${ai.score.away}` })]),
+    ]),
+    scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
+  ]);
+}
 function breakdownPanel(bet, m, S, idx) {
   const ex = explainMatch(bet, m, S.app.scoring, posIndex(S));
   if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
@@ -291,8 +317,15 @@ async function revealBlock(m, S, ctx, idx) {
   const wrap = h('div', { class: 'bet-summary' }, [h('div', { class: 'potential', text: 'Загружаем ставки…' })]);
   const revealed = await loadRevealed(ctx.S.session, m.id);
   clear(wrap);
-  if (!revealed || !Object.keys(revealed).length) {
+  const ai = S.aiPredictions?.[m.id]; // прогноз betanalyse.pro
+  const hasRevealed = revealed && Object.keys(revealed).length;
+  if (!hasRevealed && !ai) {
     wrap.append(h('div', { class: 'potential', text: 'Ставки появятся здесь после обработки ботом.' }));
+    return wrap;
+  }
+  if (ai) wrap.append(aiPredictionEntry(ai, m)); // отдельной строкой сверху
+  if (!hasRevealed) {
+    wrap.append(h('div', { class: 'potential', text: 'Ставки участников появятся после обработки ботом.' }));
     return wrap;
   }
   const standRow = (uid) => (S.standings.table || []).find((r) => r.id === uid);

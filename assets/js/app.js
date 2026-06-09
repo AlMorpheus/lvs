@@ -1,12 +1,12 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=26';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=26';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=26';
-import { renderLogin } from './ui/login.js?v=26';
-import { renderMatches } from './ui/matches.js?v=26';
-import { renderTable } from './ui/table.js?v=26';
-import { renderRules } from './ui/rules.js?v=26';
-import { maybeOnboard } from './ui/onboarding.js?v=26';
+import { initCrypto } from './crypto.js?v=27';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=27';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=27';
+import { renderLogin } from './ui/login.js?v=27';
+import { renderMatches } from './ui/matches.js?v=27';
+import { renderTable } from './ui/table.js?v=27';
+import { renderRules } from './ui/rules.js?v=27';
+import { maybeOnboard } from './ui/onboarding.js?v=27';
 
 const root = document.getElementById('root');
 
@@ -21,6 +21,7 @@ export const S = {
   fifa: {},
   favTeams: { order: [] },
   favScorers: { order: [] },
+  aiPredictions: {}, // прогнозы betanalyse.pro: matchId -> { score, scorers, stars }
 };
 
 const NAV = [
@@ -41,7 +42,7 @@ async function tryJSON(path, fallback) {
 }
 
 export async function loadPublicData() {
-  const [matches, squads, players, standings, fifa, favTeams, favScorers] = await Promise.all([
+  const [matches, squads, players, standings, fifa, favTeams, favScorers, aiPredictions] = await Promise.all([
     tryJSON('data/matches.json', []),
     tryJSON('data/squads.json', {}),
     tryJSON('data/players.json', {}),
@@ -49,6 +50,7 @@ export async function loadPublicData() {
     tryJSON('data/fifa-ranking.json', { teams: {} }),
     tryJSON('data/fav-teams.json', { order: [] }),
     tryJSON('data/fav-scorers.json', { order: [] }),
+    tryJSON('data/ai-predictions.json', {}),
   ]);
   S.matches = Array.isArray(matches) ? matches : matches.matches || [];
   S.squads = squads || {};
@@ -57,6 +59,7 @@ export async function loadPublicData() {
   S.fifa = fifa || { teams: {} };
   S.favTeams = favTeams || { order: [] };
   S.favScorers = favScorers || { order: [] };
+  S.aiPredictions = aiPredictions || {};
 }
 
 // ---------- Оболочка ----------
