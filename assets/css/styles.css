@@ -777,6 +777,16 @@ textarea.input:focus {
 .reveal-entry.ai .reveal-who b {
   color: #6a1fe0;
 }
+.ai-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  text-decoration: none;
+}
+.ai-link:hover b {
+  text-decoration: underline;
+}
 .ai-ava {
   font-size: 1rem;
   line-height: 1;

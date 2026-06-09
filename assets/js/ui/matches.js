@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=28';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=28';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=28';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=28';
-import { renderGreeting } from './greeting.js?v=28';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=29';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=29';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=29';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=29';
+import { renderGreeting } from './greeting.js?v=29';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -263,8 +263,10 @@ function aiPredictionEntry(ai, m) {
   return h('div', { class: 'reveal-entry ai' }, [
     h('div', { class: 'reveal-head' }, [
       h('div', { class: 'reveal-who' }, [
-        h('span', { class: 'ai-ava', text: '🤖' }),
-        h('b', { text: 'betanalyse.pro' }),
+        h('a', { class: 'ai-link', href: 'https://erastfandorin2004.github.io/betprediction/lvs', target: '_blank', rel: 'noopener noreferrer' }, [
+          h('span', { class: 'ai-ava', text: '🤖' }),
+          h('b', { text: 'betanalyse.pro' }),
+        ]),
         ai.stars ? h('span', { class: 'ai-stars', text: '★'.repeat(ai.stars) }) : '',
       ]),
       h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${ai.score.home}:${ai.score.away}` })]),
