@@ -519,6 +519,13 @@ textarea.input:focus {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.35; transform: scale(0.7); }
 }
+/* «Только что сыграли» — тот же баннер, но зелёный и без пульса */
+.live-banner.done {
+  background: var(--green);
+}
+.live-dot.done {
+  animation: none;
+}
 
 .match {
   background: var(--paper);

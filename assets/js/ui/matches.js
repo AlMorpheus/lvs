@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=25';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=25';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=25';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=25';
-import { renderGreeting } from './greeting.js?v=25';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=26';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=26';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=26';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=26';
+import { renderGreeting } from './greeting.js?v=26';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -19,6 +19,10 @@ const ROUND_LABELS = {
 };
 
 const ownBetCache = new Map(); // matchId -> bet | null
+
+// Завершённый матч ещё час висит наверху (рядом с «идут сейчас»), чтобы все успели
+// посмотреть результат и начисленные очки, и только потом уходит в архив.
+const RECENT_FINISHED_MS = 60 * 60 * 1000;
 
 function buildPlayerIndex(S) {
   const idx = new Map();
@@ -39,6 +43,10 @@ function bettingOpen(m, S) {
 }
 function started(m) {
   return m.finished || Date.now() >= new Date(m.date).getTime();
+}
+// Завершён, но ещё в «часовом окне» — держим наверху, не в архиве.
+function recentlyFinished(m) {
+  return m.finished && m.finishedAt && Date.now() < new Date(m.finishedAt).getTime() + RECENT_FINISHED_MS;
 }
 
 function statusBadge(m, S) {
@@ -440,19 +448,26 @@ export async function renderMatches(view, ctx) {
     })
   );
 
-  // Идущие сейчас — всегда вверху; затем предстоящие; завершённые — в свёрнутый архив
+  // Идущие сейчас — всегда вверху; следом только что завершённые (ещё час);
+  // затем предстоящие; давно завершённые — в свёрнутый архив.
   const live = S.matches.filter((m) => started(m) && !m.finished);
+  const recent = S.matches.filter((m) => recentlyFinished(m));
   const upcoming = S.matches.filter((m) => !started(m));
-  const finished = S.matches.filter((m) => m.finished);
+  const finished = S.matches.filter((m) => m.finished && !recentlyFinished(m));
 
   if (live.length) {
     listWrap.append(h('div', { class: 'live-banner' }, [h('span', { class: 'live-dot' }), 'Идут сейчас']));
     renderGroups(listWrap, live, ctx, false);
   }
 
+  if (recent.length) {
+    listWrap.append(h('div', { class: 'live-banner done' }, [h('span', { class: 'live-dot done' }), 'Только что сыграли — проверь очки']));
+    renderGroups(listWrap, recent, ctx, true); // свежие сверху
+  }
+
   if (upcoming.length) {
     renderGroups(listWrap, upcoming, ctx, false);
-  } else if (!live.length) {
+  } else if (!live.length && !recent.length) {
     listWrap.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Предстоящих матчей нет — смотри архив ниже.' })]));
   }
 

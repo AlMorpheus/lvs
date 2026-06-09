@@ -83,6 +83,17 @@ function classifyRound(round = '') {
 const FINISHED = new Set(['FT', 'AET', 'PEN']);
 const norm = (s) => (s || '').toLowerCase().trim();
 
+// Момент завершения матча: фиксируем при первом переходе в «завершён» и больше не трогаем.
+// По нему фронт ещё час держит матч наверху (успеть посмотреть начисленные очки), потом — в архив.
+// Если матч уже шёл задолго до этого запуска (>4 ч после свистка) — он завершился не «только что»,
+// ставим метку в прошлое (по свистку), чтобы старые матчи не всплывали наверх.
+function finishedAtFor(finished, prevM, dateIso) {
+  if (!finished) return null;
+  if (prevM?.finishedAt) return prevM.finishedAt;
+  const ko = new Date(dateIso).getTime();
+  return Date.now() - ko > 4 * 3600 * 1000 ? dateIso : new Date().toISOString();
+}
+
 function rankOf(teamName) {
   const t = fifa.teams || {};
   if (t[teamName] != null) return t[teamName];
@@ -127,6 +138,7 @@ async function buildMatches() {
       // счёт основного времени (для плей-офф: 1:1 в осн. + 2:1 итог — оба «точный счёт»)
       scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
       finished,
+      finishedAt: finishedAtFor(finished, prevM, f.fixture?.date),
       scorers: prevM?.scorers || [],
       multiplierOverride: overrides.matches?.[String(f.fixture?.id)]?.multiplier ?? null,
     };
@@ -171,6 +183,7 @@ async function buildMatches() {
           score: f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null,
           scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
           finished: FINISHED.has(f.fixture?.status?.short),
+          finishedAt: finishedAtFor(FINISHED.has(f.fixture?.status?.short), prevM, f.fixture?.date),
           scorers: prevM?.scorers || [],
           multiplier: multById[id],
         });
