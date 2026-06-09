@@ -1247,6 +1247,30 @@
     ],
     "stars": 3
   },
+  "1489421": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scorers": [
+      {
+        "name": "Lionel Messi",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Julián Álvarez",
+        "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Lautaro Martinez",
+        "team": "away",
+        "pos": "нап"
+      }
+    ],
+    "stars": 4
+  },
   "1489422": {
     "score": {
       "home": 0,
