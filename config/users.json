@@ -15,7 +15,7 @@
     },
     {
       "id": "sasha",
-      "name": "Саша",
+      "name": "Мастер",
       "salt": "+i8TMEglc1953rWe6Wg1hw==",
       "wrappedToken": {
         "nonce": "yFNWXaHSiXC4wMvxNQMxrJyYGIIAka+L",
@@ -28,7 +28,7 @@
     },
     {
       "id": "vadim",
-      "name": "Вадим",
+      "name": "Midway",
       "salt": "8UoooxYmYLO8ZElv0IHBZA==",
       "wrappedToken": {
         "nonce": "C/M0SmqLSlWVpqj7qpKn09ftsAqtCV3c",
@@ -41,7 +41,7 @@
     },
     {
       "id": "sergey",
-      "name": "Сергей",
+      "name": "Мел",
       "salt": "A/Xk/URaazMw3LkQ1B602g==",
       "wrappedToken": {
         "nonce": "shUBhGSSiAegbCWrkm3lMdVbWtIOTUJI",
