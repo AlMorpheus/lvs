@@ -1140,6 +1140,42 @@ textarea.input:focus {
   color: var(--muted);
   font-size: 0.75rem;
 }
+/* Прогноз участника: флаг чемпиона + бомбардир */
+.picks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 3px 0 1px;
+  min-width: 0;
+}
+.pick {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: var(--ink);
+  min-width: 0;
+}
+.pick-ic {
+  font-size: 0.82rem;
+  line-height: 1;
+}
+.pick-flag {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px var(--line);
+  flex: none;
+}
+.pick-name {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 110px;
+}
 .lead-row .total {
   font-family: var(--display);
   font-weight: 900;

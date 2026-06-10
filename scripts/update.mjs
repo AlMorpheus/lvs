@@ -555,6 +555,20 @@ async function main() {
   for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
   const usersForStandings = [...usersCfg.map((u) => ({ id: u.id, name: u.name })), { id: AI_ID, name: AI_NAME }];
   const result = computeStandings(usersForStandings, matches, bets, tr, cfg, posMap);
+
+  // После свистка открытия публикуем прогнозы (чемпион/бомбардир) в таблицу — видно,
+  // кто за кого болеет. До свистка не раскрываем (иначе можно подсмотреть и скопировать).
+  const openingMatch = matches.find((m) => m.isOpening);
+  const openingStarted = openingMatch && Date.now() >= new Date(openingMatch.date).getTime();
+  if (openingStarted) {
+    for (const row of result.table) {
+      const pick = bets[row.id]?.tournament;
+      if (!pick) continue;
+      if (pick.champion != null) row.champion = pick.champion;
+      if (pick.topScorer != null) row.topScorer = pick.topScorer;
+    }
+  }
+
   // таблицу пишем только если содержимое изменилось (без учёта метки времени)
   const prev = readJSON('data/standings.json', null);
   const same = prev && JSON.stringify([prev.table, prev.rounds, prev.tournamentResult]) === JSON.stringify([result.table, result.rounds, tr]);

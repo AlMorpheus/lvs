@@ -1,6 +1,6 @@
 // Онбординг: прогноз чемпиона и лучшего бомбардира турнира (большие бонусы).
-import { h, clear, toast } from './components.js?v=43';
-import { submitTournament, loadOwnTournament } from '../bets.js?v=43';
+import { h, clear, toast } from './components.js?v=44';
+import { submitTournament, loadOwnTournament } from '../bets.js?v=44';
 
 let shownThisSession = false;
 
@@ -101,6 +101,15 @@ export function playerLabel(S, id) {
 export function teamLabel(S, id) {
   const t = uniqueTeams(S).find((x) => String(x.id) === String(id));
   return t ? t.name : null;
+}
+/** id команды -> объект команды (с name/flag) — для флага в таблице. */
+export function teamById(S, id) {
+  return uniqueTeams(S).find((x) => String(x.id) === String(id)) || null;
+}
+/** id игрока -> { name, team } — для бомбардира в таблице. */
+export function scorerInfo(S, id) {
+  const p = rawPlayers(S).find((x) => x.id === String(id));
+  return p ? { name: p.name, team: p.team } : null;
 }
 
 function openingLocked(S) {
