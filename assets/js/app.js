@@ -1,12 +1,12 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=37';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=37';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=37';
-import { renderLogin } from './ui/login.js?v=37';
-import { renderMatches, renderHistory } from './ui/matches.js?v=37';
-import { renderTable } from './ui/table.js?v=37';
-import { renderRules } from './ui/rules.js?v=37';
-import { maybeOnboard } from './ui/onboarding.js?v=37';
+import { initCrypto } from './crypto.js?v=38';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=38';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=38';
+import { renderLogin } from './ui/login.js?v=38';
+import { renderMatches, renderHistory } from './ui/matches.js?v=38';
+import { renderTable } from './ui/table.js?v=38';
+import { renderRules } from './ui/rules.js?v=38';
+import { maybeOnboard } from './ui/onboarding.js?v=38';
 
 const root = document.getElementById('root');
 
@@ -67,7 +67,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную' }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=37', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=38', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>

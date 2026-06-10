@@ -1,5 +1,5 @@
 // Экран «Правила»: кратко и понятно про подсчёт очков.
-import { h } from './components.js?v=37';
+import { h } from './components.js?v=38';
 
 export function renderRules(view, ctx) {
   const c = ctx.S.app.scoring;
@@ -50,14 +50,14 @@ export function renderRules(view, ctx) {
         h('div', { class: 'pillrow' }, [
           h('span', { class: 'pill x1', text: '×1.0 — явный фаворит (группа)' }),
           h('span', { class: 'pill x13', text: '×1.3 — равные (группа)' }),
-          h('span', { class: 'pill x16', text: '×1.6 — топ-матч / 1/8' }),
-          h('span', { class: 'pill x20', text: '×2.0 — с 1/4 и дальше' }),
+          h('span', { class: 'pill x16', text: '×1.6 — топ-матч группы' }),
+          h('span', { class: 'pill x20', text: '×2.0 — открытие, 1/8 и плей-офф' }),
         ]),
         h('ul', {}, [
           h('li', { text: '×1.0 — групповой этап, разница в рейтинге ФИФА больше 30 мест' }),
           h('li', { text: '×1.3 — групповой этап, примерно равные команды' }),
-          h('li', { text: '×1.6 — топ-матч группы (обе в топ-12 ФИФА) или 1/8 финала' }),
-          h('li', { text: '×2.0 — 1/4 финала, 1/2 финала и финал' }),
+          h('li', { text: '×1.6 — топ-матч группы (обе команды в топ-12 ФИФА)' }),
+          h('li', { text: '×2.0 — матч открытия, 1/8 финала, 1/4, 1/2 и финал' }),
         ]),
         h('p', { class: 'potential', text: 'Итог за матч = (очки за счёт + очки за авторов) × коэффициент, округляем до целого (54.6 → 55).' }),
       ]),
@@ -66,7 +66,6 @@ export function renderRules(view, ctx) {
       h('div', { class: 'card' }, [
         h('h2', {}, ['🎁 Бонусы']),
         table([
-          ['Точный счёт в особом матче', `+${c.exactSpecialBonus}`, 'Открытие, 1/8, 1/4, 1/2, финал'],
           ['Угадал чемпиона мира', `+${c.championBonus}`, 'Начисляется в конце турнира'],
           ['Угадал лучшего бомбардира', `+${c.topScorerBonus}`, 'Начисляется в конце турнира'],
         ]),
@@ -75,8 +74,8 @@ export function renderRules(view, ctx) {
       // Пример
       h('div', { class: 'card' }, [
         h('h2', {}, ['🧮 Пример']),
-        h('p', {}, ['Ставка ', h('b', { text: '2:1' }), ', авторы: нападающий + полузащитник. Матч 1/4 финала (×2.0).']),
-        h('p', { text: 'Вышло 2:1, оба угаданы. Счёт: точный — ' + c.exact + '. Авторы: нап ' + c.scorerByPos.Attacker + ' + пз ' + c.scorerByPos.Midfielder + ' = ' + (c.scorerByPos.Attacker + c.scorerByPos.Midfielder) + '. База ' + (c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) + ' × 2.0 = ' + (c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) * 2 + ', плюс ' + c.exactSpecialBonus + ' за точный счёт в 1/4 = ' + ((c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) * 2 + c.exactSpecialBonus) + ' очков.' }),
+        h('p', {}, ['Ставка ', h('b', { text: '2:1' }), ', авторы: нападающий + полузащитник. Матч 1/8 финала (×2.0).']),
+        h('p', { text: 'Вышло 2:1, оба угаданы. Счёт: точный — ' + c.exact + '. Авторы: нап ' + c.scorerByPos.Attacker + ' + пз ' + c.scorerByPos.Midfielder + ' = ' + (c.scorerByPos.Attacker + c.scorerByPos.Midfielder) + '. База ' + (c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) + ' × 2.0 = ' + (c.exact + c.scorerByPos.Attacker + c.scorerByPos.Midfielder) * 2 + ' очков.' }),
       ]),
 
       // Рейтинг ФИФА — после бонусов и примера

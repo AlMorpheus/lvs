@@ -37,20 +37,15 @@
       "Goalkeeper": 100
     },
     "scorerDefault": 2,
-    "exactSpecialBonus": 5,
+    "exactSpecialBonus": 0,
     "championBonus": 70,
     "topScorerBonus": 50,
-    "specialExactBonusRounds": [
-      "opening",
-      "r16",
-      "qf",
-      "sf",
-      "final"
-    ]
+    "specialExactBonusRounds": []
   },
   "multipliers": {
     "knockoutQfPlus": 2,
-    "round16": 1.6,
+    "opening": 2,
+    "round16": 2,
     "groupTopMatch": 1.6,
     "groupFavorite": 1,
     "groupEqual": 1.3,

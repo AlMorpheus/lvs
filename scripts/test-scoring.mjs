@@ -1,5 +1,5 @@
 // Проверки модуля очков. Запуск: npm test
-import { scorePoints, scorerPoints, matchPoints, standings } from '../assets/js/scoring.mjs';
+import { scorePoints, scorerPoints, matchPoints, standings, matchMultiplier } from '../assets/js/scoring.mjs';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -44,8 +44,14 @@ const pBase = cfg.exact + 3 * cfg.scorerByPos.Attacker;
 const pf = { score: { home: 3, away: 0 }, scorers: [1, 2, 3] };
 eq('идеальный матч база', matchPoints(pf, perfect, cfg, POS3).base, pBase);
 eq('округление база×1.3', matchPoints(pf, { ...perfect, multiplier: 1.3 }, cfg, POS3).total, Math.round(pBase * 1.3));
-eq('финал +5', matchPoints(pf, { ...perfect, multiplier: 2.0, roundKey: 'final' }, cfg, POS3).total, Math.round(pBase * 2.0) + cfg.exactSpecialBonus);
-eq('открытие +5', matchPoints(pf, { ...perfect, isOpening: true }, cfg, POS3).total, Math.round(pBase * 1.0) + cfg.exactSpecialBonus);
+eq('финал ×2.0 (бонус за точный счёт убран)', matchPoints(pf, { ...perfect, multiplier: 2.0, roundKey: 'final' }, cfg, POS3).total, Math.round(pBase * 2.0) + cfg.exactSpecialBonus);
+eq('бонус за точный счёт отключён', cfg.exactSpecialBonus, 0);
+
+// Множители: матч открытия и 1/8 финала — ×2.0
+const mcfg = JSON.parse(readFileSync(join(ROOT, 'config/app.json'), 'utf8')).multipliers;
+eq('множитель: матч открытия = 2.0', matchMultiplier({ isOpening: true, stage: 'group', home: { id: 1 }, away: { id: 2 } }, {}, mcfg), 2);
+eq('множитель: 1/8 финала = 2.0', matchMultiplier({ stage: 'r16', roundKey: 'r16', home: { id: 1 }, away: { id: 2 } }, {}, mcfg), 2);
+eq('множитель: 1/4 финала = 2.0', matchMultiplier({ stage: 'qf', home: { id: 1 }, away: { id: 2 } }, {}, mcfg), mcfg.knockoutQfPlus);
 
 // Таблица
 const users = [{ id: 'a', name: 'A' }, { id: 'b', name: 'B' }];

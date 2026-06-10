@@ -74,10 +74,11 @@ export function buildPosIndex(squads) {
  */
 export function matchMultiplier(match, ranks, cfg) {
   if (match.multiplierOverride != null) return match.multiplierOverride;
+  if (match.isOpening) return cfg.opening ?? cfg.knockoutQfPlus; // матч открытия — ×2.0
 
   const stage = match.stage;
   if (stage === 'qf' || stage === 'sf' || stage === 'final' || stage === 'third') return cfg.knockoutQfPlus;
-  if (stage === 'r16') return cfg.round16;
+  if (stage === 'r16') return cfg.round16; // 1/8 финала — ×2.0
 
   // Групповой этап
   const big = 999;
@@ -88,7 +89,7 @@ export function matchMultiplier(match, ranks, cfg) {
   return cfg.groupEqual; // примерно равные
 }
 
-/** Матч с бонусом +5 за точный счёт: открытие, 1/8, 1/4, 1/2, финал. */
+/** Особый матч для бонуса за точный счёт (бонус отключён: exactSpecialBonus=0, список пуст). */
 export function isSpecialBonusMatch(match, cfg) {
   const rounds = cfg.specialExactBonusRounds || [];
   if (match.isOpening && rounds.includes('opening')) return true;
@@ -145,7 +146,7 @@ function bestCandidate(bet, match, cfg) {
 
 /**
  * Полный расчёт очков пользователя за один матч.
- * Возвращает разбивку и итог (с учётом множителя и спец-бонуса +5).
+ * Возвращает разбивку и итог (с учётом множителя; спец-бонус за точный счёт отключён).
  * Если результата нет или ставки нет — возвращает null.
  */
 export function matchPoints(bet, match, cfg, posMap) {
