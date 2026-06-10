@@ -1,6 +1,7 @@
 // Криптообёртки на libsodium (Argon2id + secretbox + sealed box).
-// В браузере подгружаем sumo-сборку (в ней есть crypto_pwhash) через ESM CDN.
-import _sodium from 'https://esm.sh/libsodium-wrappers-sumo@0.7.15';
+// Sumo-сборку (в ней есть crypto_pwhash) хостим у себя — без зависимости от стороннего
+// CDN (esm.sh): на некоторых мобильных сетях он блокируется и сайт не открывался вовсе.
+import _sodium from '../vendor/libsodium-wrappers-sumo.js';
 
 let sodium = null;
 
