@@ -313,6 +313,13 @@ textarea.input:focus {
   gap: 12px;
   margin-bottom: 26px;
   padding: 0 4px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.brand:hover {
+  opacity: 0.85;
 }
 .brand .mark {
   width: 46px;
