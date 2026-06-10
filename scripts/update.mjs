@@ -333,7 +333,7 @@ async function fetchExpertPredictions() {
 // ---------- виртуальный игрок betanalyse.pro ----------
 // Полноценный участник: на свистке фиксируем его ПОСЛЕДНИЙ прогноз как ставку и считаем очки.
 const AI_ID = 'betanalyse';
-const AI_NAME = '🤖 betanalyse.pro';
+const AI_NAME = '🤖 Шеф';
 
 const _norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 const _lastName = (s) => _norm(s).split(/\s+/).pop().replace(/[^a-zа-яё]/g, '');

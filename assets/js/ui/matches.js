@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=45';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=45';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=45';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=45';
-import { renderGreeting } from './greeting.js?v=45';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=46';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=46';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=46';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=46';
+import { renderGreeting } from './greeting.js?v=46';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -266,10 +266,8 @@ function aiPredictionEntry(ai, m) {
   return h('div', { class: 'reveal-entry ai' }, [
     h('div', { class: 'reveal-head' }, [
       h('div', { class: 'reveal-who' }, [
-        h('a', { class: 'ai-link', href: `https://erastfandorin2004.github.io/betprediction/lvs#m-${m.id}`, target: '_blank', rel: 'noopener noreferrer' }, [
-          h('span', { class: 'ai-ava', text: '🤖' }),
-          h('b', { text: 'betanalyse.pro' }),
-        ]),
+        h('span', { class: 'ai-ava', text: '🤖' }),
+        h('b', { text: 'Шеф' }),
       ]),
       h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${ai.score.home}:${ai.score.away}` })]),
     ]),
@@ -326,10 +324,10 @@ async function revealBlock(m, S, ctx, idx) {
     return wrap;
   }
   const standRow = (uid) => (S.standings.table || []).find((r) => r.id === uid);
-  const nameOf = (uid) => (uid === AI_ID ? 'betanalyse.pro' : S.users.find((u) => u.id === uid)?.name || uid);
+  const nameOf = (uid) => (uid === AI_ID ? 'Шеф' : S.users.find((u) => u.id === uid)?.name || uid);
   if (m.finished) wrap.append(h('div', { class: 'potential', text: 'Жми «Как набраны очки» под ставкой — покажу разбор.' }));
 
-  // порядок: своя ставка → betanalyse.pro → остальные
+  // порядок: своя ставка → Шеф → остальные
   const rank = (uid) => (uid === ctx.S.session.userId ? 0 : uid === AI_ID ? 1 : 2);
   const entries = Object.entries(revealed).sort((a, b) => rank(a[0]) - rank(b[0]));
   for (const [uid, bet] of entries) {
@@ -340,10 +338,7 @@ async function revealBlock(m, S, ctx, idx) {
     const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
 
     const whoChildren = isAI
-      ? [h('a', { class: 'ai-link', href: `https://erastfandorin2004.github.io/betprediction/lvs#m-${m.id}`, target: '_blank', rel: 'noopener noreferrer' }, [
-          h('span', { class: 'ai-ava', text: '🤖' }),
-          h('b', { text: 'betanalyse.pro' }),
-        ])]
+      ? [h('span', { class: 'ai-ava', text: '🤖' }), h('b', { text: 'Шеф' })]
       : [h('b', { text: nameOf(uid) }), me ? h('span', { class: 'you-tag', text: 'я' }) : ''];
 
     const entry = h('div', { class: 'reveal-entry' + (me ? ' me' : '') + (isAI ? ' ai' : '') }, [
