@@ -1,6 +1,6 @@
 // Экран «Таблица»: лидерборд + разбивка очков.
-import { h, clear } from './components.js?v=39';
-import { openPlayerHistory } from './matches.js?v=39';
+import { h, clear } from './components.js?v=40';
+import { openPlayerHistory } from './matches.js?v=40';
 
 const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉', 4: '🪵' };
 

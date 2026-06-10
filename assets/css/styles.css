@@ -131,6 +131,20 @@ h3 {
     transform: rotate(360deg);
   }
 }
+/* Логотип на экране загрузки — белый бейдж с мягкой пульсацией */
+.boot-logo {
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.22);
+  animation: boot-pulse 1.3s ease-in-out infinite;
+}
+@keyframes boot-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(0.92); opacity: 0.86; }
+}
 
 /* ============================================================
    ВХОД
