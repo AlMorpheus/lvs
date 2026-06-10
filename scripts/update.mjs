@@ -539,7 +539,7 @@ async function main() {
   const aiBets = lockAiBets(matches, aiPredCur, squads);
   bets[AI_ID] = {
     matches: Object.fromEntries(Object.entries(aiBets).map(([id, b]) => [id, { score: b.score, scorers: b.scorers, submittedAt: b.lockedAt }])),
-    tournament: null,
+    tournament: overrides.aiTournament || null, // прогноз ИИ на чемпиона/бомбардира (правка организатора)
   };
 
   await recoverPickedPlayers(bets); // имена/позиции выбранных авторов (в т.ч. у ИИ)

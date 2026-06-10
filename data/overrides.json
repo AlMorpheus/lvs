@@ -1,5 +1,6 @@
 {
-  "_note": "Ручные правки организатора. Множитель матча ЧМ: \"matches\": { \"<fixtureId>\": { \"multiplier\": 1.6 } }. extraFixtures — доп. матчи (товарищеские/тест) по их fixtureId из API-Football; тур 'test', легко удалить.",
+  "_note": "Ручные правки организатора. Множитель матча ЧМ: \"matches\": { \"<fixtureId>\": { \"multiplier\": 1.6 } }. extraFixtures — доп. матчи (товарищеские/тест) по их fixtureId из API-Football; тур 'test', легко удалить. aiTournament — прогноз betanalyse.pro на чемпиона/бомбардира (id команды и игрока из API-Football).",
   "matches": {},
-  "extraFixtures": []
+  "extraFixtures": [],
+  "aiTournament": { "champion": "2", "topScorer": "278" }
 }
