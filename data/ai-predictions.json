@@ -102,11 +102,6 @@
     },
     "scorers": [
       {
-        "name": "Neizvestno (Net Startovykh Sostavov)",
-        "team": "home",
-        "pos": "нап"
-      },
-      {
         "name": "Breel Embolo",
         "team": "away",
         "pos": "нап"
