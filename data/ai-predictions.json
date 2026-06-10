@@ -102,7 +102,7 @@
     },
     "scorers": [
       {
-        "name": "неизвестно (нет стартовых составов)",
+        "name": "Neizvestno (Net Startovykh Sostavov)",
         "team": "home",
         "pos": "нап"
       },
@@ -132,11 +132,6 @@
       },
       {
         "name": "Florian Wirtz",
-        "team": "home",
-        "pos": "пз"
-      },
-      {
-        "name": "Джамал Мусиала",
         "team": "home",
         "pos": "пз"
       }
@@ -280,7 +275,7 @@
         "pos": "нап"
       },
       {
-        "name": "Альваро Мората",
+        "name": "Álvaro Morata",
         "team": "home",
         "pos": "нап"
       }
@@ -350,11 +345,6 @@
         "name": "Antoine Griezmann",
         "team": "home",
         "pos": "пз"
-      },
-      {
-        "name": "Килиан Мбаппе",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 4
@@ -374,11 +364,6 @@
         "name": "Phil Foden",
         "team": "home",
         "pos": "пз"
-      },
-      {
-        "name": "Харри Кейн",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -424,7 +409,7 @@
         "pos": "нап"
       },
       {
-        "name": "Рафаэль Сантос Борре",
+        "name": "Rafael Santos Borre",
         "team": "away",
         "pos": "нап"
       }
@@ -448,7 +433,7 @@
         "pos": "пз"
       },
       {
-        "name": "Джонатан Дэвид",
+        "name": "Dzhonatan Devid",
         "team": "home",
         "pos": "нап"
       }
@@ -710,11 +695,6 @@
         "name": "Federico Valverde",
         "team": "home",
         "pos": "пз"
-      },
-      {
-        "name": "Дарвин Нуньес",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 4
@@ -732,11 +712,6 @@
       },
       {
         "name": "Lautaro Martínez",
-        "team": "home",
-        "pos": "нап"
-      },
-      {
-        "name": "Лаутаро Мартинес",
         "team": "home",
         "pos": "нап"
       }
@@ -758,11 +733,6 @@
         "name": "Islam Slimani",
         "team": "away",
         "pos": "нап"
-      },
-      {
-        "name": "Рияд Махрез",
-        "team": "away",
-        "pos": "пз"
       }
     ],
     "stars": 3
@@ -808,7 +778,7 @@
         "pos": "пз"
       },
       {
-        "name": "Гарри Кейн",
+        "name": "Garri Kein",
         "team": "home",
         "pos": "нап"
       }
@@ -878,11 +848,6 @@
         "name": "Hakim Ziyech",
         "team": "home",
         "pos": "пз"
-      },
-      {
-        "name": "Хаким Зиеш",
-        "team": "home",
-        "pos": "пз"
       }
     ],
     "stars": 4
@@ -925,11 +890,6 @@
       {
         "name": "Percy Tau",
         "team": "home",
-        "pos": "нап"
-      },
-      {
-        "name": "Сон Хын Мин",
-        "team": "away",
         "pos": "нап"
       }
     ],
@@ -976,7 +936,7 @@
         "pos": "нап"
       },
       {
-        "name": "Себастьян Аллер",
+        "name": "Sebastyan Aller",
         "team": "away",
         "pos": "нап"
       }
@@ -1000,7 +960,7 @@
         "pos": "нап"
       },
       {
-        "name": "Кай Хаверц",
+        "name": "Kai Havertz",
         "team": "away",
         "pos": "нап"
       }
@@ -1013,11 +973,6 @@
       "away": 0
     },
     "scorers": [
-      {
-        "name": "Мигель Альмирон",
-        "team": "home",
-        "pos": "пз"
-      },
       {
         "name": "Miguel Almirón",
         "team": "home",
@@ -1072,7 +1027,7 @@
         "pos": "нап"
       },
       {
-        "name": "Фирас Аль-Бураикан",
+        "name": "Firas Al-Buraikan",
         "team": "away",
         "pos": "нап"
       }
@@ -1142,11 +1097,6 @@
         "name": "Erling Haaland",
         "team": "home",
         "pos": "нап"
-      },
-      {
-        "name": "Килиан Мбаппе",
-        "team": "away",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1214,11 +1164,6 @@
         "name": "Luis Diaz",
         "team": "home",
         "pos": "нап"
-      },
-      {
-        "name": "Криштиану Роналду",
-        "team": "away",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1235,7 +1180,7 @@
         "pos": "нап"
       },
       {
-        "name": "Андрей Крамарич",
+        "name": "Andrei Kramarich",
         "team": "home",
         "pos": "нап"
       },
@@ -1382,11 +1327,6 @@
         "name": "Wahbi Khazri",
         "team": "away",
         "pos": "нап"
-      },
-      {
-        "name": "Александер Исак",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1430,11 +1370,6 @@
         "name": "Adam Hlozek",
         "team": "home",
         "pos": "нап"
-      },
-      {
-        "name": "Патрик Шик",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1453,11 +1388,6 @@
       {
         "name": "Edin Džeko",
         "team": "away",
-        "pos": "нап"
-      },
-      {
-        "name": "Бриль Эмболо",
-        "team": "home",
         "pos": "нап"
       }
     ],
@@ -1526,11 +1456,6 @@
         "name": "Yoane Wissa",
         "team": "away",
         "pos": "нап"
-      },
-      {
-        "name": "Луис Диас",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1541,11 +1466,6 @@
       "away": 1
     },
     "scorers": [
-      {
-        "name": "Эдин Джеко",
-        "team": "home",
-        "pos": "нап"
-      },
       {
         "name": "Edin Dzeko",
         "team": "home",
@@ -1670,11 +1590,6 @@
         "name": "Martin Odegaard",
         "team": "away",
         "pos": "пз"
-      },
-      {
-        "name": "Эрлинг Холанн",
-        "team": "away",
-        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1694,11 +1609,6 @@
         "name": "Antoine Griezmann",
         "team": "home",
         "pos": "пз"
-      },
-      {
-        "name": "Килиан Мбаппе",
-        "team": "home",
-        "pos": "нап"
       }
     ],
     "stars": 4
