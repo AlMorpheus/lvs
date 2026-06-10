@@ -329,11 +329,11 @@ textarea.input:focus {
 }
 /* Логотип-эмблема ЛВС в виде белого скруглённого бейджа */
 .brand .brand-logo {
-  width: 46px;
-  height: 46px;
+  width: 52px;
+  height: 52px;
   flex: none;
   display: block;
-  border-radius: 12px;
+  border-radius: 13px;
   background: #fff;
   object-fit: contain;
 }
@@ -346,12 +346,12 @@ textarea.input:focus {
 }
 .brand small {
   display: block;
-  font-weight: 700;
-  font-size: 0.62rem;
-  letter-spacing: 0.08em;
+  font-weight: 800;
+  font-size: 0.84rem;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  opacity: 0.6;
-  margin-top: 3px;
+  opacity: 0.85;
 }
 .nav {
   display: flex;
@@ -1327,31 +1327,43 @@ textarea.input:focus {
 .rules th,
 .rules td {
   text-align: left;
-  padding: 9px 10px;
+  padding: 10px 11px;
   border-bottom: 1px solid var(--line);
-  word-break: break-word;
+  vertical-align: top;
+}
+/* перенос — только в текстовых ячейках, не в шапке (иначе «ОЧКИ» ломается по буквам) */
+.rules td {
   overflow-wrap: anywhere;
 }
 .rules th {
   font-family: var(--display);
-  color: #fff;
-  background: var(--ink);
-  font-weight: 700;
+  color: var(--ink);
+  background: var(--bg);
+  font-weight: 800;
   text-transform: uppercase;
-  font-size: 0.74rem;
-  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--line);
 }
-.rules th:first-child {
-  border-top-left-radius: 8px;
+.rules thead th:first-child {
+  border-top-left-radius: 10px;
 }
-.rules th:last-child {
-  border-top-right-radius: 8px;
+.rules thead th:last-child {
+  border-top-right-radius: 10px;
+}
+/* колонка «Очки» — узкая, по центру, в одну строку и в шапке, и в ячейках */
+.rules th:nth-child(2),
+.rules td.n {
+  width: 1%;
+  white-space: nowrap;
+  text-align: center;
 }
 .rules td.n {
   font-family: var(--display);
   font-weight: 900;
+  font-size: 1rem;
   color: var(--red);
-  white-space: nowrap;
 }
 .rules .pillrow {
   display: flex;
