@@ -1,14 +1,14 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=44';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=44';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=44';
-import { renderLogin } from './ui/login.js?v=44';
-import { renderMatches, renderHistory } from './ui/matches.js?v=44';
-import { renderTable } from './ui/table.js?v=44';
-import { renderRules } from './ui/rules.js?v=44';
-import { maybeOnboard } from './ui/onboarding.js?v=44';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=44';
-import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=44';
+import { initCrypto } from './crypto.js?v=45';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=45';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=45';
+import { renderLogin } from './ui/login.js?v=45';
+import { renderMatches, renderHistory } from './ui/matches.js?v=45';
+import { renderTable } from './ui/table.js?v=45';
+import { renderRules } from './ui/rules.js?v=45';
+import { maybeOnboard } from './ui/onboarding.js?v=45';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=45';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=45';
 
 const root = document.getElementById('root');
 
@@ -69,7 +69,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=44', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=45', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
@@ -148,6 +148,33 @@ function route() {
   else if (known === 'rules') renderRules(view, ctx);
 }
 
+// Периодическое автообновление: участники постоянно меняют ставки/прогнозы, всегда нужен
+// СВЕЖИЙ снимок. Перерисовываем только при реальном изменении данных и не мешаем активному
+// вводу (открытая форма ставки/модалка/фокус в поле — пропускаем тик).
+let autoRefreshStarted = false;
+function startAutoRefresh() {
+  if (autoRefreshStarted) return;
+  autoRefreshStarted = true;
+  const sig = () =>
+    JSON.stringify({
+      t: (S.standings.table || []).map((r) => [r.id, r.total, r.rank, r.champion, r.topScorer]),
+      m: S.matches.map((m) => [m.id, m.finished, m.score?.home, m.score?.away, m.multiplier]),
+    });
+  const tick = async () => {
+    if (document.hidden) return;
+    if (document.querySelector('.betform, .onboard, .history-overlay')) return; // не рвём активный ввод
+    const ae = document.activeElement;
+    if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'SELECT' || ae.tagName === 'TEXTAREA')) return;
+    try {
+      const before = sig();
+      await loadPublicData();
+      if (sig() !== before) route(); // перерисовываем только когда данные реально изменились
+    } catch {}
+  };
+  setInterval(tick, 45000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) tick(); }); // и при возврате в приложение
+}
+
 function doLogout() {
   logout();
   S.session = null;
@@ -173,6 +200,7 @@ async function startApp() {
   route();
   setupPullToRefresh(ctx.refreshData); // свайп-вниз-обновление для домашнего web-app
   setupDrawerSwipe({ open: openDrawer, close: closeDrawer, isOpen: () => !!document.getElementById('sidebar')?.classList.contains('open') });
+  startAutoRefresh(); // периодически подтягиваем свежие ставки/прогнозы (всегда последняя версия)
   // онбординг (чемпион + бомбардир), если ещё не выбрано и не заблокировано
   maybeOnboard(ctx);
 }

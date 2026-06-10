@@ -1,5 +1,5 @@
 // Экран «Правила»: кратко и понятно про подсчёт очков.
-import { h } from './components.js?v=44';
+import { h } from './components.js?v=45';
 
 export function renderRules(view, ctx) {
   const c = ctx.S.app.scoring;
