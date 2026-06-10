@@ -171,13 +171,14 @@ h3 {
   box-shadow: 0 26px 70px rgba(10, 0, 30, 0.4);
 }
 .login-logo {
-  width: 64px;
-  height: 64px;
+  width: 76px;
+  height: 76px;
   margin: 0 auto 12px;
-  font-size: 1.7rem;
-}
-.login-logo::after {
-  content: '26';
+  display: block;
+  border-radius: 18px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
 }
 .login-card h1 {
   text-align: center;
@@ -318,6 +319,16 @@ textarea.input:focus {
   height: 46px;
   font-size: 1.15rem;
   background: var(--red);
+}
+/* Логотип-эмблема ЛВС в виде белого скруглённого бейджа */
+.brand .brand-logo {
+  width: 46px;
+  height: 46px;
+  flex: none;
+  display: block;
+  border-radius: 12px;
+  background: #fff;
+  object-fit: contain;
 }
 .brand .brand-name {
   font-family: var(--display);

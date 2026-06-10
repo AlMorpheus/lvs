@@ -3,3 +3,4 @@ SECRETS.txt
 .DS_Store
 *.log
 .env
+.playwright-mcp/
