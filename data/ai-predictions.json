@@ -842,6 +842,11 @@
         "name": "Hakim Ziyech",
         "team": "home",
         "pos": "пз"
+      },
+      {
+        "name": "Brahim Diaz",
+        "team": "home",
+        "pos": "пз"
       }
     ]
   },
@@ -875,7 +880,7 @@
     },
     "scorers": [
       {
-        "name": "Son Heung-min",
+        "name": "Heung-Min Son",
         "team": "away",
         "pos": "нап"
       },
@@ -883,6 +888,11 @@
         "name": "Percy Tau",
         "team": "home",
         "pos": "нап"
+      },
+      {
+        "name": "Lee Kang-in",
+        "team": "away",
+        "pos": "пз"
       }
     ]
   },
@@ -939,11 +949,6 @@
     },
     "scorers": [
       {
-        "name": "Jamal Musiala",
-        "team": "away",
-        "pos": "пз"
-      },
-      {
         "name": "Enner Valencia",
         "team": "home",
         "pos": "нап"
@@ -952,23 +957,33 @@
         "name": "Kai Havertz",
         "team": "away",
         "pos": "нап"
+      },
+      {
+        "name": "Jamal Musiala",
+        "team": "away",
+        "pos": "пз"
       }
     ]
   },
   "1489411": {
     "score": {
       "home": 1,
-      "away": 0
+      "away": 1
     },
     "scorers": [
       {
-        "name": "Miguel Almirón",
+        "name": "Miguel Almiron",
         "team": "home",
         "pos": "пз"
       },
       {
         "name": "Mitchell Duke",
         "team": "away",
+        "pos": "нап"
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "home",
         "pos": "нап"
       }
     ]
@@ -1036,7 +1051,7 @@
         "pos": "нап"
       },
       {
-        "name": "Mostafa Mohamed",
+        "name": "Omar Marmoush",
         "team": "home",
         "pos": "нап"
       }
@@ -1079,6 +1094,11 @@
       {
         "name": "Erling Haaland",
         "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "team": "away",
         "pos": "нап"
       }
     ]
@@ -1144,6 +1164,11 @@
         "name": "Luis Diaz",
         "team": "home",
         "pos": "нап"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "team": "away",
+        "pos": "пз"
       }
     ]
   },
@@ -1461,6 +1486,11 @@
         "name": "Akram Afif",
         "team": "away",
         "pos": "нап"
+      },
+      {
+        "name": "Ermedin Demirovic",
+        "team": "home",
+        "pos": "нап"
       }
     ]
   },
@@ -1620,29 +1650,6 @@
       },
       {
         "name": "Nicolas Jackson",
-        "team": "home",
-        "pos": "нап"
-      }
-    ]
-  },
-  "1544812": {
-    "score": {
-      "home": 3,
-      "away": 0
-    },
-    "scorers": [
-      {
-        "name": "Cody Gakpo",
-        "team": "home",
-        "pos": "нап"
-      },
-      {
-        "name": "Donyell Malen",
-        "team": "home",
-        "pos": "нап"
-      },
-      {
-        "name": "Crysencio Summerville",
         "team": "home",
         "pos": "нап"
       }
