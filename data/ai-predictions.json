@@ -443,17 +443,17 @@
         "pos": "нап"
       },
       {
-        "name": "Alphonso Davies",
+        "name": "Cyle Larin",
         "team": "home",
-        "pos": "пз"
+        "pos": "нап"
       },
       {
-        "name": "Dzhonatan Devid",
-        "team": "home",
+        "name": "Akram Afif",
+        "team": "away",
         "pos": "нап"
       }
     ],
-    "stars": 4
+    "stars": 3
   },
   "1489388": {
     "score": {
@@ -582,19 +582,19 @@
     },
     "scorers": [
       {
-        "name": "Jamal Musiala",
-        "team": "home",
-        "pos": "пз"
-      },
-      {
         "name": "Kai Havertz",
         "team": "home",
         "pos": "нап"
       },
       {
-        "name": "Florian Wirtz",
+        "name": "Jamal Musiala",
         "team": "home",
         "pos": "пз"
+      },
+      {
+        "name": "Sebastien Haller",
+        "team": "away",
+        "pos": "нап"
       }
     ],
     "stars": 4
@@ -1306,13 +1306,13 @@
         "pos": "нап"
       },
       {
-        "name": "Cyle Larin",
-        "team": "home",
+        "name": "Edin Dzeko",
+        "team": "away",
         "pos": "нап"
       },
       {
-        "name": "Edin Džeko",
-        "team": "away",
+        "name": "Cyle Larin",
+        "team": "home",
         "pos": "нап"
       }
     ],
@@ -1417,7 +1417,7 @@
   "1539005": {
     "score": {
       "home": 2,
-      "away": 0
+      "away": 1
     },
     "scorers": [
       {
@@ -1431,12 +1431,12 @@
         "pos": "нап"
       },
       {
-        "name": "Granit Xhaka",
+        "name": "Xherdan Shaqiri",
         "team": "home",
         "pos": "пз"
       }
     ],
-    "stars": 4
+    "stars": 3
   },
   "1539006": {
     "score": {
@@ -1493,12 +1493,17 @@
     },
     "scorers": [
       {
-        "name": "Luis Díaz",
+        "name": "Luis Diaz",
         "team": "home",
         "pos": "нап"
       },
       {
-        "name": "Yoane Wissa",
+        "name": "J. Rodriguez",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Cedric Bakambu",
         "team": "away",
         "pos": "нап"
       }
