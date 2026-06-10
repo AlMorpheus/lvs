@@ -556,17 +556,12 @@ async function main() {
   const usersForStandings = [...usersCfg.map((u) => ({ id: u.id, name: u.name })), { id: AI_ID, name: AI_NAME }];
   const result = computeStandings(usersForStandings, matches, bets, tr, cfg, posMap);
 
-  // После свистка открытия публикуем прогнозы (чемпион/бомбардир) в таблицу — видно,
-  // кто за кого болеет. До свистка не раскрываем (иначе можно подсмотреть и скопировать).
-  const openingMatch = matches.find((m) => m.isOpening);
-  const openingStarted = openingMatch && Date.now() >= new Date(openingMatch.date).getTime();
-  if (openingStarted) {
-    for (const row of result.table) {
-      const pick = bets[row.id]?.tournament;
-      if (!pick) continue;
-      if (pick.champion != null) row.champion = pick.champion;
-      if (pick.topScorer != null) row.topScorer = pick.topScorer;
-    }
+  // Прогнозы (чемпион/бомбардир) сразу публикуем в таблицу — видно, кто за кого болеет.
+  for (const row of result.table) {
+    const pick = bets[row.id]?.tournament;
+    if (!pick) continue;
+    if (pick.champion != null) row.champion = pick.champion;
+    if (pick.topScorer != null) row.topScorer = pick.topScorer;
   }
 
   // таблицу пишем только если содержимое изменилось (без учёта метки времени)

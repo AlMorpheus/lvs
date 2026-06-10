@@ -28,7 +28,9 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 3
+      "rank": 3,
+      "champion": "2",
+      "topScorer": "278"
     },
     {
       "id": "dasha",
@@ -68,7 +70,9 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 7
+      "rank": 7,
+      "champion": "27",
+      "topScorer": "278"
     },
     {
       "id": "sergey",
