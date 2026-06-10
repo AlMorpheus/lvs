@@ -324,7 +324,6 @@ async function fetchExpertPredictions() {
           team: s.team === 'away' ? 'away' : 'home',
           pos: POS_RU_ABBR[(s.position || '').toLowerCase()] || null,
         })),
-        stars: p.stars ?? null,
       };
     }
   }

@@ -809,12 +809,6 @@ textarea.input:focus {
   font-size: 1rem;
   line-height: 1;
 }
-.ai-stars {
-  flex: none;
-  color: #f5a623;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-}
 .reveal-score {
   display: flex;
   align-items: center;
