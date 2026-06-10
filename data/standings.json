@@ -1,6 +1,16 @@
 {
   "table": [
     {
+      "id": "betanalyse",
+      "name": "🤖 betanalyse.pro",
+      "matchPts": 0,
+      "futuresPts": 0,
+      "total": 0,
+      "exactCount": 0,
+      "perMatch": {},
+      "rank": 1
+    },
+    {
       "id": "vadim",
       "name": "Midway",
       "matchPts": 0,
@@ -8,7 +18,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "albert",
@@ -18,7 +28,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 2
+      "rank": 3
     },
     {
       "id": "lysyy",
@@ -28,7 +38,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "dasha",
@@ -38,7 +48,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "liza",
@@ -48,7 +58,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "sasha",
@@ -58,7 +68,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "sergey",
@@ -68,10 +78,10 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 7
+      "rank": 8
     }
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-10T03:22:52.327Z"
+  "updatedAt": "2026-06-10T04:50:49.952Z"
 }

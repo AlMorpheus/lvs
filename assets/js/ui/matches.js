@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=34';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=34';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=34';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=34';
-import { renderGreeting } from './greeting.js?v=34';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=35';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=35';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=35';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=35';
+import { renderGreeting } from './greeting.js?v=35';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -23,6 +23,9 @@ const ownBetCache = new Map(); // matchId -> bet | null
 // Завершённый матч ещё час висит наверху (рядом с «идут сейчас»), чтобы все успели
 // посмотреть результат и начисленные очки, и только потом уходит в архив.
 const RECENT_FINISHED_MS = 60 * 60 * 1000;
+
+// Виртуальный игрок betanalyse.pro — его ставка фиксируется на свистке и раскрывается как у всех.
+const AI_ID = 'betanalyse';
 
 function buildPlayerIndex(S) {
   const idx = new Map();
@@ -318,32 +321,34 @@ async function revealBlock(m, S, ctx, idx) {
   const wrap = h('div', { class: 'bet-summary' }, [h('div', { class: 'potential', text: 'Загружаем ставки…' })]);
   const revealed = await loadRevealed(ctx.S.session, m.id);
   clear(wrap);
-  const ai = S.aiPredictions?.[m.id]; // прогноз betanalyse.pro
-  const hasRevealed = revealed && Object.keys(revealed).length;
-  if (!hasRevealed && !ai) {
+  if (!revealed || !Object.keys(revealed).length) {
     wrap.append(h('div', { class: 'potential', text: 'Ставки появятся здесь после обработки ботом.' }));
     return wrap;
   }
-  if (ai) wrap.append(aiPredictionEntry(ai, m)); // отдельной строкой сверху
-  if (!hasRevealed) {
-    wrap.append(h('div', { class: 'potential', text: 'Ставки участников появятся после обработки ботом.' }));
-    return wrap;
-  }
   const standRow = (uid) => (S.standings.table || []).find((r) => r.id === uid);
-  const nameOf = (uid) => S.users.find((u) => u.id === uid)?.name || uid;
+  const nameOf = (uid) => (uid === AI_ID ? 'betanalyse.pro' : S.users.find((u) => u.id === uid)?.name || uid);
   if (m.finished) wrap.append(h('div', { class: 'potential', text: 'Жми «Как набраны очки» под ставкой — покажу разбор.' }));
 
-  // свои ставки сверху
-  const entries = Object.entries(revealed).sort((a, b) => (a[0] === ctx.S.session.userId ? -1 : b[0] === ctx.S.session.userId ? 1 : 0));
+  // порядок: своя ставка → betanalyse.pro → остальные
+  const rank = (uid) => (uid === ctx.S.session.userId ? 0 : uid === AI_ID ? 1 : 2);
+  const entries = Object.entries(revealed).sort((a, b) => rank(a[0]) - rank(b[0]));
   for (const [uid, bet] of entries) {
     const me = uid === ctx.S.session.userId;
+    const isAI = uid === AI_ID;
     const res = m.finished ? standRow(uid)?.perMatch?.[m.id] : null;
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
     const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
 
-    const entry = h('div', { class: 'reveal-entry' + (me ? ' me' : '') }, [
+    const whoChildren = isAI
+      ? [h('a', { class: 'ai-link', href: `https://erastfandorin2004.github.io/betprediction/lvs#m-${m.id}`, target: '_blank', rel: 'noopener noreferrer' }, [
+          h('span', { class: 'ai-ava', text: '🤖' }),
+          h('b', { text: 'betanalyse.pro' }),
+        ])]
+      : [h('b', { text: nameOf(uid) }), me ? h('span', { class: 'you-tag', text: 'я' }) : ''];
+
+    const entry = h('div', { class: 'reveal-entry' + (me ? ' me' : '') + (isAI ? ' ai' : '') }, [
       h('div', { class: 'reveal-head' }, [
-        h('div', { class: 'reveal-who' }, [h('b', { text: nameOf(uid) }), me ? h('span', { class: 'you-tag', text: 'я' }) : '']),
+        h('div', { class: 'reveal-who' }, whoChildren),
         h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${bet.score.home}:${bet.score.away}` }), pts]),
       ]),
       scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',

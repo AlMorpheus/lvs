@@ -330,6 +330,45 @@ async function fetchExpertPredictions() {
   return Object.keys(out).length ? out : null;
 }
 
+// ---------- виртуальный игрок betanalyse.pro ----------
+// Полноценный участник: на свистке фиксируем его ПОСЛЕДНИЙ прогноз как ставку и считаем очки.
+const AI_ID = 'betanalyse';
+const AI_NAME = '🤖 betanalyse.pro';
+
+const _norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+const _lastName = (s) => _norm(s).split(/\s+/).pop().replace(/[^a-zа-яё]/g, '');
+
+// Имя автора из прогноза -> id игрока по составу нужной команды (для подсчёта очков как у людей).
+function resolveScorerId(predScorer, m, squads) {
+  const team = predScorer.team === 'away' ? m.away : m.home;
+  const squad = squads[team?.id] || squads[String(team?.id)] || [];
+  if (!squad.length) return null;
+  const full = _norm(predScorer.name);
+  const last = _lastName(predScorer.name);
+  const hit = squad.find((p) => _norm(p.name) === full) || squad.find((p) => _lastName(p.name) === last);
+  return hit ? String(hit.id) : null;
+}
+
+// Фиксация ставки ИИ: на матч, который УЖЕ начался, берём текущий (=последний, ~за час до игры
+// актуализированный) прогноз и замораживаем его. До свистка не трогаем; зафиксированное — навсегда.
+function lockAiBets(matches, aiPred, squads) {
+  const store = readJSON('data/ai-bets.json', {});
+  const now = Date.now();
+  let changed = false;
+  for (const m of matches) {
+    if (now < new Date(m.date).getTime()) continue; // ещё не начался — даём прогнозу актуализироваться
+    if (store[m.id]) continue;                        // уже зафиксировано на момент свистка
+    const pred = aiPred?.[m.id];
+    if (!pred || !pred.score) continue;               // нет прогноза — зафиксируем на следующем прогоне
+    const scorers = (pred.scorers || []).map((s) => resolveScorerId(s, m, squads)).filter(Boolean);
+    store[m.id] = { score: { home: pred.score.home, away: pred.score.away }, scorers, lockedAt: new Date().toISOString() };
+    changed = true;
+    console.log(`🤖 betanalyse.pro: зафиксирована ставка на ${m.id} ${pred.score.home}:${pred.score.away} (авторов ${scorers.length})`);
+  }
+  if (changed) writeJSON('data/ai-bets.json', store);
+  return store;
+}
+
 // ---------- результат турнира (чемпион + бомбардиры) ----------
 async function tournamentResult(matches) {
   const final = matches.find((m) => m.roundKey === 'final');
@@ -448,6 +487,8 @@ function writeReveals(matches, bets) {
       const b = bets[u.id]?.matches?.[m.id];
       if (b) payload[u.id] = { score: b.score, scorers: b.scorers, submittedAt: b.submittedAt };
     }
+    const aib = bets[AI_ID]?.matches?.[m.id]; // ставка виртуального игрока betanalyse.pro
+    if (aib) payload[AI_ID] = { score: aib.score, scorers: aib.scorers, submittedAt: aib.submittedAt };
     const sig = payloadSig(payload);
     const rel = `data/revealed/${m.id}.json`;
     if (existsSync(P(rel))) {
@@ -486,25 +527,34 @@ async function main() {
   if (appChanged) { app.tournament.lastUpdated = new Date().toISOString(); writeJSON('config/app.json', app); }
 
   const bets = readAllBets(matches);
-  await recoverPickedPlayers(bets); // имена/позиции выбранных, но выпавших из состава игроков
-  writeReveals(matches, bets);
 
-  // справочник игроков пишем только при изменении
-  const prevDir = readJSON('data/players.json', null);
-  if (JSON.stringify(prevDir) !== JSON.stringify(playerDir)) writeJSON('data/players.json', playerDir);
-
-  // прогнозы betanalyse.pro — отдельной строкой в списке ставок
+  // betanalyse.pro: свежий прогноз для предматчевого показа + фиксация ставки ИИ на свистке
   const aiPred = await fetchExpertPredictions();
   if (aiPred) {
     const prevP = readJSON('data/ai-predictions.json', null);
     if (JSON.stringify(prevP) !== JSON.stringify(aiPred)) writeJSON('data/ai-predictions.json', aiPred);
   }
+  // для фиксации берём свежий прогноз, а если сеть подвела — последний сохранённый
+  const aiPredCur = aiPred || readJSON('data/ai-predictions.json', {});
+  const aiBets = lockAiBets(matches, aiPredCur, squads);
+  bets[AI_ID] = {
+    matches: Object.fromEntries(Object.entries(aiBets).map(([id, b]) => [id, { score: b.score, scorers: b.scorers, submittedAt: b.lockedAt }])),
+    tournament: null,
+  };
+
+  await recoverPickedPlayers(bets); // имена/позиции выбранных авторов (в т.ч. у ИИ)
+  writeReveals(matches, bets);      // раскрытие включает ставку betanalyse.pro
+
+  // справочник игроков пишем только при изменении
+  const prevDir = readJSON('data/players.json', null);
+  if (JSON.stringify(prevDir) !== JSON.stringify(playerDir)) writeJSON('data/players.json', playerDir);
 
   const tr = await tournamentResult(matches);
   const posMap = buildPosIndex(squads);
   // позиции из справочника — на случай игроков, отсутствующих в текущем составе
   for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
-  const result = computeStandings(usersCfg.map((u) => ({ id: u.id, name: u.name })), matches, bets, tr, cfg, posMap);
+  const usersForStandings = [...usersCfg.map((u) => ({ id: u.id, name: u.name })), { id: AI_ID, name: AI_NAME }];
+  const result = computeStandings(usersForStandings, matches, bets, tr, cfg, posMap);
   // таблицу пишем только если содержимое изменилось (без учёта метки времени)
   const prev = readJSON('data/standings.json', null);
   const same = prev && JSON.stringify([prev.table, prev.rounds, prev.tournamentResult]) === JSON.stringify([result.table, result.rounds, tr]);
