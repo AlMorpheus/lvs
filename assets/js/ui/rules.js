@@ -1,5 +1,5 @@
 // Экран «Правила»: кратко и понятно про подсчёт очков.
-import { h } from './components.js?v=38';
+import { h } from './components.js?v=39';
 
 export function renderRules(view, ctx) {
   const c = ctx.S.app.scoring;
@@ -36,7 +36,7 @@ export function renderRules(view, ctx) {
         h('p', { class: 'potential', text: 'Выбираешь до 3 игроков. Цена угаданного автора зависит от его позиции — чем неожиданнее гол, тем дороже:' }),
         table([
           ['Нападающий', `+${c.scorerByPos.Attacker}`, 'Форварды забивают чаще всего'],
-          ['Полузащитник', `+${c.scorerByPos.Midfielder}`, ''],
+          ['Полузащитник', `+${c.scorerByPos.Midfielder}`, 'Забивают реже форвардов'],
           ['Защитник', `+${c.scorerByPos.Defender}`, 'Редкий гол — дороже'],
           ['Вратарь', `+${c.scorerByPos.Goalkeeper}`, 'Почти невозможно — джекпот!'],
         ]),
