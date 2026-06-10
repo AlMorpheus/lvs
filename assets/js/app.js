@@ -1,13 +1,14 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=41';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=41';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=41';
-import { renderLogin } from './ui/login.js?v=41';
-import { renderMatches, renderHistory } from './ui/matches.js?v=41';
-import { renderTable } from './ui/table.js?v=41';
-import { renderRules } from './ui/rules.js?v=41';
-import { maybeOnboard } from './ui/onboarding.js?v=41';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=41';
+import { initCrypto } from './crypto.js?v=42';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=42';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=42';
+import { renderLogin } from './ui/login.js?v=42';
+import { renderMatches, renderHistory } from './ui/matches.js?v=42';
+import { renderTable } from './ui/table.js?v=42';
+import { renderRules } from './ui/rules.js?v=42';
+import { maybeOnboard } from './ui/onboarding.js?v=42';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=42';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=42';
 
 const root = document.getElementById('root');
 
@@ -67,12 +68,12 @@ export async function loadPublicData() {
 // ---------- Оболочка ----------
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
-    h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную' }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=41', alt: 'ЛВС', width: 52, height: 52 }),
+    h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=42', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
-      h('a', { href: `#${n.id}`, dataset: { view: n.id } }, [
+      h('a', { href: `#${n.id}`, dataset: { view: n.id }, onclick: (e) => { e.preventDefault(); navigate(n.id); } }, [
         h('span', { class: 'ic', text: n.icon }),
         h('span', { text: n.label }),
       ])
@@ -124,8 +125,14 @@ const ctx = {
     await loadPublicData();
     route();
   },
-  goTable: () => (location.hash = '#table'),
+  goTable: () => navigate('table'),
 };
+
+// Переход без добавления записи в историю — чтобы свайп «назад» не кидал на прошлый экран.
+function navigate(id) {
+  if (location.hash !== '#' + id) history.replaceState(null, '', '#' + id);
+  route();
+}
 
 function route() {
   const viewId = (location.hash.replace('#', '') || 'matches').split('?')[0];
@@ -162,9 +169,10 @@ function showLogin() {
 async function startApp() {
   clear(root);
   root.append(buildShell());
-  if (!location.hash) location.hash = '#matches';
+  if (!location.hash) history.replaceState(null, '', '#matches');
   route();
   setupPullToRefresh(ctx.refreshData); // свайп-вниз-обновление для домашнего web-app
+  setupDrawerSwipe({ open: openDrawer, close: closeDrawer, isOpen: () => !!document.getElementById('sidebar')?.classList.contains('open') });
   // онбординг (чемпион + бомбардир), если ещё не выбрано и не заблокировано
   maybeOnboard(ctx);
 }
