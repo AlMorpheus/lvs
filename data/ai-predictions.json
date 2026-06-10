@@ -97,7 +97,7 @@
   },
   "1489373": {
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 2
     },
     "scorers": [
@@ -110,9 +110,14 @@
         "name": "Xherdan Shaqiri",
         "team": "away",
         "pos": "пз"
+      },
+      {
+        "name": "Akram Afif",
+        "team": "home",
+        "pos": "нап"
       }
     ],
-    "stars": 4
+    "stars": 3
   },
   "1489374": {
     "score": {
@@ -120,6 +125,11 @@
       "away": 0
     },
     "scorers": [
+      {
+        "name": "Kai Havertz",
+        "team": "home",
+        "pos": "нап"
+      },
       {
         "name": "Jamal Musiala",
         "team": "home",
@@ -131,7 +141,7 @@
         "pos": "пз"
       }
     ],
-    "stars": 5
+    "stars": 4
   },
   "1489375": {
     "score": {
@@ -332,7 +342,7 @@
     },
     "scorers": [
       {
-        "name": "Kylian Mbappé",
+        "name": "Kylian Mbappe",
         "team": "home",
         "pos": "нап"
       },
@@ -340,6 +350,11 @@
         "name": "Antoine Griezmann",
         "team": "home",
         "pos": "пз"
+      },
+      {
+        "name": "Sadio Mane",
+        "team": "away",
+        "pos": "нап"
       }
     ],
     "stars": 4
@@ -356,9 +371,14 @@
         "pos": "нап"
       },
       {
-        "name": "Phil Foden",
+        "name": "Bukayo Saka",
         "team": "home",
-        "pos": "пз"
+        "pos": "нап"
+      },
+      {
+        "name": "Andrej Kramaric",
+        "team": "away",
+        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1319,8 +1339,13 @@
         "pos": "нап"
       },
       {
-        "name": "Wahbi Khazri",
-        "team": "away",
+        "name": "Viktor Gyökeres",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "team": "home",
         "pos": "нап"
       }
     ],
@@ -1585,6 +1610,11 @@
         "name": "Martin Odegaard",
         "team": "away",
         "pos": "пз"
+      },
+      {
+        "name": "Aymen Hussein",
+        "team": "home",
+        "pos": "нап"
       }
     ],
     "stars": 3
