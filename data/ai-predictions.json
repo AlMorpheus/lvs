@@ -697,17 +697,22 @@
   },
   "1489398": {
     "score": {
-      "home": 2,
+      "home": 3,
       "away": 0
     },
     "scorers": [
       {
-        "name": "Darwin Núñez",
+        "name": "Darwin Nunez",
         "team": "home",
         "pos": "нап"
       },
       {
         "name": "Federico Valverde",
+        "team": "home",
+        "pos": "пз"
+      },
+      {
+        "name": "Facundo Pellistri",
         "team": "home",
         "pos": "пз"
       }
@@ -716,7 +721,7 @@
   },
   "1489399": {
     "score": {
-      "home": 3,
+      "home": 2,
       "away": 0
     },
     "scorers": [
@@ -726,7 +731,12 @@
         "pos": "нап"
       },
       {
-        "name": "Lautaro Martínez",
+        "name": "Lautaro Martinez",
+        "team": "home",
+        "pos": "нап"
+      },
+      {
+        "name": "Julian Alvarez",
         "team": "home",
         "pos": "нап"
       }
@@ -745,9 +755,14 @@
         "pos": "пз"
       },
       {
-        "name": "Islam Slimani",
+        "name": "Baghdad Bounedjah",
         "team": "away",
         "pos": "нап"
+      },
+      {
+        "name": "Musa Al-Taamari",
+        "team": "home",
+        "pos": "пз"
       }
     ],
     "stars": 3
@@ -1378,7 +1393,7 @@
   "1539004": {
     "score": {
       "home": 2,
-      "away": 1
+      "away": 0
     },
     "scorers": [
       {
@@ -1390,6 +1405,11 @@
         "name": "Adam Hlozek",
         "team": "home",
         "pos": "нап"
+      },
+      {
+        "name": "Percy Tau",
+        "team": "away",
+        "pos": "нап"
       }
     ],
     "stars": 3
@@ -1397,7 +1417,7 @@
   "1539005": {
     "score": {
       "home": 2,
-      "away": 1
+      "away": 0
     },
     "scorers": [
       {
@@ -1406,12 +1426,17 @@
         "pos": "нап"
       },
       {
-        "name": "Edin Džeko",
+        "name": "Edin Dzeko",
         "team": "away",
         "pos": "нап"
+      },
+      {
+        "name": "Granit Xhaka",
+        "team": "home",
+        "pos": "пз"
       }
     ],
-    "stars": 3
+    "stars": 4
   },
   "1539006": {
     "score": {
@@ -1626,7 +1651,7 @@
     },
     "scorers": [
       {
-        "name": "Kylian Mbappé",
+        "name": "Kylian Mbappe",
         "team": "home",
         "pos": "нап"
       },
@@ -1634,9 +1659,14 @@
         "name": "Antoine Griezmann",
         "team": "home",
         "pos": "пз"
+      },
+      {
+        "name": "Ousmane Dembele",
+        "team": "home",
+        "pos": "нап"
       }
     ],
-    "stars": 4
+    "stars": 5
   },
   "1539074": {
     "score": {
