@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=35';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=35';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=35';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=35';
-import { renderGreeting } from './greeting.js?v=35';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=36';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=36';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=36';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=36';
+import { renderGreeting } from './greeting.js?v=36';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -495,12 +495,11 @@ export async function renderMatches(view, ctx) {
     })
   );
 
-  // Идущие сейчас — всегда вверху; следом только что завершённые (ещё час);
-  // затем предстоящие; давно завершённые — в свёрнутый архив.
+  // Идущие сейчас — всегда вверху; следом только что завершённые (ещё час); затем предстоящие.
+  // Давно сыгранные — в отдельном разделе «История» (чтобы не скроллить вниз главной).
   const live = S.matches.filter((m) => started(m) && !m.finished);
   const recent = S.matches.filter((m) => recentlyFinished(m));
   const upcoming = S.matches.filter((m) => !started(m));
-  const finished = S.matches.filter((m) => m.finished && !recentlyFinished(m));
 
   if (live.length) {
     listWrap.append(h('div', { class: 'live-banner' }, [h('span', { class: 'live-dot' }), 'Идут сейчас']));
@@ -515,22 +514,25 @@ export async function renderMatches(view, ctx) {
   if (upcoming.length) {
     renderGroups(listWrap, upcoming, ctx, false);
   } else if (!live.length && !recent.length) {
-    listWrap.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Предстоящих матчей нет — смотри архив ниже.' })]));
+    listWrap.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '⚽' }), h('p', { text: 'Предстоящих матчей нет — все сыгранные смотри в разделе «История».' })]));
+  }
+}
+
+// Экран «История»: все сыгранные матчи со ставками всех участников и разбором очков
+// (то, что раньше было свёрнутым архивом внизу главной — теперь отдельным разделом).
+export async function renderHistory(view, ctx) {
+  const S = ctx.S;
+  view.append(h('h1', { class: 'view-title' }, [h('span', { class: 'accent', text: 'История' }), ' матчей']));
+
+  const finished = S.matches.filter((m) => m.finished);
+  if (!finished.length) {
+    view.append(h('div', { class: 'empty' }, [h('div', { class: 'big', text: '📜' }), h('p', { text: 'Сыгранных матчей пока нет — они появятся здесь после первых игр турнира.' })]));
+    return;
   }
 
-  if (finished.length) {
-    const archWrap = h('div', { id: 'archWrap', hidden: true });
-    const toggle = h('button', { class: 'archive-toggle' });
-    const setLabel = () => (toggle.textContent = `${archWrap.hidden ? '▸' : '▾'} Сыгранные матчи (${finished.length})`);
-    toggle.addEventListener('click', () => {
-      archWrap.hidden = !archWrap.hidden;
-      setLabel();
-    });
-    setLabel();
-    // в архиве — последние сверху
-    renderGroups(archWrap, finished, ctx, true);
-    listWrap.append(h('div', { class: 'archive-section' }, [toggle, archWrap]));
-  }
+  const listWrap = h('div', { id: 'historyList' });
+  view.append(listWrap);
+  renderGroups(listWrap, finished, ctx, true); // свежие туры и матчи — сверху
 }
 
 // Рендер матчей, сгруппированных по турам. reverse — порядок туров и матчей от свежих к старым (для архива).

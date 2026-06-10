@@ -1,12 +1,12 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=35';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=35';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=35';
-import { renderLogin } from './ui/login.js?v=35';
-import { renderMatches } from './ui/matches.js?v=35';
-import { renderTable } from './ui/table.js?v=35';
-import { renderRules } from './ui/rules.js?v=35';
-import { maybeOnboard } from './ui/onboarding.js?v=35';
+import { initCrypto } from './crypto.js?v=36';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=36';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=36';
+import { renderLogin } from './ui/login.js?v=36';
+import { renderMatches, renderHistory } from './ui/matches.js?v=36';
+import { renderTable } from './ui/table.js?v=36';
+import { renderRules } from './ui/rules.js?v=36';
+import { maybeOnboard } from './ui/onboarding.js?v=36';
 
 const root = document.getElementById('root');
 
@@ -26,6 +26,7 @@ export const S = {
 
 const NAV = [
   { id: 'matches', icon: '⚽', label: 'Матчи' },
+  { id: 'history', icon: '📜', label: 'История' },
   { id: 'table', icon: '🏆', label: 'Таблица' },
   { id: 'rules', icon: '📖', label: 'Правила' },
 ];
@@ -66,7 +67,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную' }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=35', alt: 'ЛВС', width: 46, height: 46 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=36', alt: 'ЛВС', width: 46, height: 46 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
@@ -110,7 +111,7 @@ function closeDrawer() {
 
 function setActiveNav(viewId) {
   document.querySelectorAll('#nav a').forEach((a) => a.classList.toggle('active', a.dataset.view === viewId));
-  const labels = { matches: 'Матчи', table: 'Таблица', rules: 'Правила' };
+  const labels = { matches: 'Матчи', history: 'История', table: 'Таблица', rules: 'Правила' };
   const t = document.getElementById('topTitle');
   if (t) clear(t).append(h('span', { text: labels[viewId] || 'Матчи' }));
 }
@@ -134,6 +135,7 @@ function route() {
   if (!view) return;
   clear(view);
   if (known === 'matches') renderMatches(view, ctx);
+  else if (known === 'history') renderHistory(view, ctx);
   else if (known === 'table') renderTable(view, ctx);
   else if (known === 'rules') renderRules(view, ctx);
 }
