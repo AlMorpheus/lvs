@@ -1,16 +1,16 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=42';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=42';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=42';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=42';
-import { renderGreeting } from './greeting.js?v=42';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=43';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=43';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=43';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=43';
+import { renderGreeting } from './greeting.js?v=43';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
   test: 'Товарищеские (тест)',
-  'group-1': 'Групповой этап · 1 тур',
-  'group-2': 'Групповой этап · 2 тур',
-  'group-3': 'Групповой этап · 3 тур',
+  'group-1': 'Групповой этап · 1 круг',
+  'group-2': 'Групповой этап · 2 круг',
+  'group-3': 'Групповой этап · 3 круг',
   r16: '1/8 финала',
   qf: '1/4 финала',
   sf: '1/2 финала',
@@ -375,7 +375,7 @@ function rerenderCard(card, m, S, ctx) {
     // тур ещё закрыт — откроется после завершения предыдущего
     card.append(
       h('div', { class: 'bet-summary' }, [
-        h('div', { class: 'potential', text: '🔒 Ставки откроются после завершения предыдущего тура.' }),
+        h('div', { class: 'potential', text: '🔒 Ставки откроются после завершения предыдущего круга.' }),
       ])
     );
   } else if (bettingOpen(m, S)) {

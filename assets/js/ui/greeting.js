@@ -1,7 +1,7 @@
 // Интерактивный блок приветствия: здоровается по имени и времени суток,
 // напоминает про ставки, поздравляет с праздниками, показывает объявления.
-import { h, clear, toast } from './components.js?v=42';
-import { loadAnnouncements, saveAnnouncements } from '../bets.js?v=42';
+import { h, clear, toast } from './components.js?v=43';
+import { loadAnnouncements, saveAnnouncements } from '../bets.js?v=43';
 
 function timeGreeting(name) {
   const hh = new Date().getHours();
@@ -53,7 +53,7 @@ export async function renderGreeting(host, ctx, info) {
   // Напоминания
   const tips = [];
   if (info.toBet > 0) {
-    tips.push(`📝 Не забудь поставить на ${info.toBet} ${ruPlural(info.toBet, 'матч', 'матча', 'матчей')} текущего тура — до начала каждого.`);
+    tips.push(`📝 Не забудь поставить на ${info.toBet} ${ruPlural(info.toBet, 'матч', 'матча', 'матчей')} текущего круга — до начала каждого.`);
   } else if (info.needPick) {
     tips.push('🌟 Самое время выбрать чемпиона и лучшего бомбардира турнира.');
   } else if (info.hasOpen) {
