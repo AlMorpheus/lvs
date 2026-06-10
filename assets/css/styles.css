@@ -476,9 +476,67 @@ textarea.input:focus {
   border: none;
   background: var(--ink);
   color: #fff;
-  font-size: 1.2rem;
   display: grid;
   place-items: center;
+  padding: 0;
+}
+/* Три полоски, нарисованные на CSS — центрируются ровно (символ ☰ сидел низко) */
+.burger-lines,
+.burger-lines::before,
+.burger-lines::after {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: #fff;
+}
+.burger-lines {
+  position: relative;
+}
+.burger-lines::before {
+  position: absolute;
+  top: -6px;
+}
+.burger-lines::after {
+  position: absolute;
+  top: 6px;
+}
+
+/* Pull-to-refresh (домашний web-app на iOS — нативного PTR там нет) */
+.ptr {
+  position: fixed;
+  top: calc(6px + var(--safe-top));
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 60;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  pointer-events: none;
+}
+.ptr-ring {
+  width: 18px;
+  height: 18px;
+  border: 2.5px solid var(--line);
+  border-top-color: var(--red);
+  border-radius: 50%;
+}
+.ptr.ready .ptr-ring {
+  border-top-color: var(--green);
+}
+.ptr.spin .ptr-ring {
+  animation: ptr-rotate 0.7s linear infinite;
+}
+@keyframes ptr-rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
 .topbar .title {
   font-family: var(--display);
