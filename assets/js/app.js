@@ -1,14 +1,14 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=46';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=46';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=46';
-import { renderLogin } from './ui/login.js?v=46';
-import { renderMatches, renderHistory } from './ui/matches.js?v=46';
-import { renderTable } from './ui/table.js?v=46';
-import { renderRules } from './ui/rules.js?v=46';
-import { maybeOnboard } from './ui/onboarding.js?v=46';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=46';
-import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=46';
+import { initCrypto } from './crypto.js?v=47';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=47';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=47';
+import { renderLogin } from './ui/login.js?v=47';
+import { renderMatches, renderHistory } from './ui/matches.js?v=47';
+import { renderTable } from './ui/table.js?v=47';
+import { renderRules } from './ui/rules.js?v=47';
+import { maybeOnboard } from './ui/onboarding.js?v=47';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=47';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=47';
 
 const root = document.getElementById('root');
 
@@ -23,7 +23,6 @@ export const S = {
   fifa: {},
   favTeams: { order: [] },
   favScorers: { order: [] },
-  aiPredictions: {}, // прогнозы betanalyse.pro: matchId -> { score, scorers }
 };
 
 const NAV = [
@@ -45,7 +44,7 @@ async function tryJSON(path, fallback) {
 }
 
 export async function loadPublicData() {
-  const [matches, squads, players, standings, fifa, favTeams, favScorers, aiPredictions] = await Promise.all([
+  const [matches, squads, players, standings, fifa, favTeams, favScorers] = await Promise.all([
     tryJSON('data/matches.json', []),
     tryJSON('data/squads.json', {}),
     tryJSON('data/players.json', {}),
@@ -53,7 +52,6 @@ export async function loadPublicData() {
     tryJSON('data/fifa-ranking.json', { teams: {} }),
     tryJSON('data/fav-teams.json', { order: [] }),
     tryJSON('data/fav-scorers.json', { order: [] }),
-    tryJSON('data/ai-predictions.json', {}),
   ]);
   S.matches = Array.isArray(matches) ? matches : matches.matches || [];
   S.squads = squads || {};
@@ -62,14 +60,13 @@ export async function loadPublicData() {
   S.fifa = fifa || { teams: {} };
   S.favTeams = favTeams || { order: [] };
   S.favScorers = favScorers || { order: [] };
-  S.aiPredictions = aiPredictions || {};
 }
 
 // ---------- Оболочка ----------
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=46', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=47', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>

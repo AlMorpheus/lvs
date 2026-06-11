@@ -528,15 +528,10 @@ async function main() {
 
   const bets = readAllBets(matches);
 
-  // betanalyse.pro: свежий прогноз для предматчевого показа + фиксация ставки ИИ на свистке
-  const aiPred = await fetchExpertPredictions();
-  if (aiPred) {
-    const prevP = readJSON('data/ai-predictions.json', null);
-    if (JSON.stringify(prevP) !== JSON.stringify(aiPred)) writeJSON('data/ai-predictions.json', aiPred);
-  }
-  // для фиксации берём свежий прогноз, а если сеть подвела — последний сохранённый
-  const aiPredCur = aiPred || readJSON('data/ai-predictions.json', {});
-  const aiBets = lockAiBets(matches, aiPredCur, squads);
+  // betanalyse.pro: прогноз НЕ публикуем (ставка Шефа скрыта до свистка, как у участников).
+  // Свежего запроса достаточно для фиксации ставки на старте матча.
+  const aiPred = (await fetchExpertPredictions()) || {};
+  const aiBets = lockAiBets(matches, aiPred, squads);
   bets[AI_ID] = {
     matches: Object.fromEntries(Object.entries(aiBets).map(([id, b]) => [id, { score: b.score, scorers: b.scorers, submittedAt: b.lockedAt }])),
     tournament: overrides.aiTournament || null, // прогноз ИИ на чемпиона/бомбардира (правка организатора)

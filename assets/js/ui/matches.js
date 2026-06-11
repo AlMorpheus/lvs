@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=46';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=46';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=46';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=46';
-import { renderGreeting } from './greeting.js?v=46';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=47';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=47';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=47';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=47';
+import { renderGreeting } from './greeting.js?v=47';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -250,30 +250,6 @@ function scorerChip(id, m, S, idx) {
   return h('span', { class: 'chip' }, [miniFlag(teamOfPlayer(id, m, S)), nameWithPos(id, S, idx)]);
 }
 
-// Фамилия из полного имени betanalyse.pro («Cody Gakpo» → «Gakpo», «Virgil van Dijk» → «van Dijk»).
-function surname(name) {
-  const parts = String(name || '').trim().split(/\s+/);
-  return parts.length > 1 ? parts.slice(1).join(' ') : name || '—';
-}
-// Отдельная строка в списке ставок: прогноз betanalyse.pro (счёт + три автора).
-function aiPredictionEntry(ai, m) {
-  const chip = (s) =>
-    h('span', { class: 'chip' }, [
-      miniFlag(s.team === 'away' ? m.away : m.home),
-      s.pos ? `${surname(s.name)} · ${s.pos}` : surname(s.name),
-    ]);
-  const scorerEls = (ai.scorers || []).map(chip);
-  return h('div', { class: 'reveal-entry ai' }, [
-    h('div', { class: 'reveal-head' }, [
-      h('div', { class: 'reveal-who' }, [
-        h('span', { class: 'ai-ava', text: '🤖' }),
-        h('b', { text: 'Шеф' }),
-      ]),
-      h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${ai.score.home}:${ai.score.away}` })]),
-    ]),
-    scorerEls.length ? h('div', { class: 'chips reveal-scorers' }, scorerEls) : '',
-  ]);
-}
 function breakdownPanel(bet, m, S, idx) {
   const ex = explainMatch(bet, m, S.app.scoring, posIndex(S));
   if (!ex) return h('div', { class: 'breakdown' }, [bdLine('Нет данных', 0)]);
@@ -398,17 +374,11 @@ function rerenderCard(card, m, S, ctx) {
       ])
     );
   } else {
-    // заблокировано — показать раскрытые ставки (прогноз betanalyse.pro внутри)
+    // заблокировано — показать раскрытые ставки (ставка Шефа раскрывается тут же, как у всех)
     revealBlock(m, S, ctx, idx).then((b) => card.append(b));
   }
-
-  // До начала матча показываем прогноз betanalyse.pro отдельным блоком.
-  // Он обновляется на их стороне примерно за час до игры — бот тянет свежую версию
-  // каждые 2 минуты, так что здесь всегда актуальный прогноз.
-  if (!started(m)) {
-    const ai = S.aiPredictions?.[m.id];
-    if (ai) card.append(h('div', { class: 'bet-summary' }, [aiPredictionEntry(ai, m)]));
-  }
+  // Прогноз Шефа до свистка НЕ показываем — он скрыт наравне со ставками участников,
+  // раскрывается только после начала матча (в revealBlock).
 }
 
 export async function renderMatches(view, ctx) {
