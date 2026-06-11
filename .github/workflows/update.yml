@@ -15,7 +15,9 @@ permissions:
 
 concurrency:
   group: live
-  cancel-in-progress: false
+  # true: свежий прогон вытесняет зависший/застрявший (иначе зависший live-loop
+  # держит слот и блокирует обновления — пересборка таблицы останавливается).
+  cancel-in-progress: true
 
 jobs:
   live:
