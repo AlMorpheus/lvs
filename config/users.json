@@ -27,19 +27,6 @@
       }
     },
     {
-      "id": "vadim",
-      "name": "Midway",
-      "salt": "8UoooxYmYLO8ZElv0IHBZA==",
-      "wrappedToken": {
-        "nonce": "C/M0SmqLSlWVpqj7qpKn09ftsAqtCV3c",
-        "cipher": "orBWvyMWjLjaZKC21CqyMZ8pc/SQ70x7U+HXWyro3TF1ZGp6o432misXs0yowRjT1y4Z7/vTsI4gXwTQ9UYx6yh2BEP8RnqsQL6sU1/S1VVRQgkkPr2qQl5rxobQdvd8+9GY00Vf82ooRb95Mg=="
-      },
-      "wrappedSK": {
-        "nonce": "V80N2z8fJdrfYMGGEZFQW+PUdUih+SaF",
-        "cipher": "7sP9RG9WhS9WhFgJhEVZHCua/F5iQ5oJWsLEbEZV5dXVrv6HODFTGu4pkHLAj4b/"
-      }
-    },
-    {
       "id": "sergey",
       "name": "Мел",
       "salt": "A/Xk/URaazMw3LkQ1B602g==",

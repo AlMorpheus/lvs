@@ -13,16 +13,6 @@
       "topScorer": "278"
     },
     {
-      "id": "vadim",
-      "name": "Midway",
-      "matchPts": 0,
-      "futuresPts": 0,
-      "total": 0,
-      "exactCount": 0,
-      "perMatch": {},
-      "rank": 2
-    },
-    {
       "id": "albert",
       "name": "Альберт",
       "matchPts": 0,
@@ -30,7 +20,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 3,
+      "rank": 2,
       "champion": "2",
       "topScorer": "874"
     },
@@ -42,7 +32,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 4,
+      "rank": 3,
       "champion": "2",
       "topScorer": "1100"
     },
@@ -54,7 +44,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 5,
+      "rank": 4,
       "champion": "9",
       "topScorer": "386828"
     },
@@ -66,7 +56,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 6,
+      "rank": 5,
       "champion": "10",
       "topScorer": "184"
     },
@@ -78,7 +68,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 7,
+      "rank": 6,
       "champion": "27",
       "topScorer": "278"
     },
@@ -90,7 +80,7 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 8,
+      "rank": 7,
       "champion": "9",
       "topScorer": "184"
     }
