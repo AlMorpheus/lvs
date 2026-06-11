@@ -54,7 +54,9 @@
       "total": 0,
       "exactCount": 0,
       "perMatch": {},
-      "rank": 5
+      "rank": 5,
+      "champion": "9",
+      "topScorer": "386828"
     },
     {
       "id": "lysyy",
@@ -93,5 +95,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-10T21:02:44.545Z"
+  "updatedAt": "2026-06-11T08:05:37.921Z"
 }
