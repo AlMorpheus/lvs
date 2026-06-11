@@ -2,7 +2,7 @@
   {
     "id": "1489369",
     "date": "2026-06-11T19:00:00+00:00",
-    "status": "NS",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -16,11 +16,32 @@
       "name": "South Africa",
       "flag": "https://media.api-sports.io/football/teams/1531.png"
     },
-    "score": null,
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "scorers": [],
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-11T21:10:04.655Z",
+    "scorers": [
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 9,
+        "type": "normal"
+      },
+      {
+        "playerId": 2887,
+        "name": "R. Jimenez",
+        "teamId": 16,
+        "minute": 67,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "isOpening": true,
     "multiplier": 2
