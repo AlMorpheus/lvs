@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=47';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=47';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=47';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=47';
-import { renderGreeting } from './greeting.js?v=47';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=48';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=48';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=48';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=48';
+import { renderGreeting } from './greeting.js?v=48';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -290,6 +290,21 @@ function breakdownToggle(bet, m, S, idx) {
   return [toggle, holder];
 }
 
+// Фамилия из полного имени прогноза Шефа («Cody Gakpo» → «Gakpo», «Virgil van Dijk» → «van Dijk»).
+function aiSurname(name) {
+  const parts = String(name || '').trim().split(/\s+/);
+  return parts.length > 1 ? parts.slice(1).join(' ') : name || '—';
+}
+// Чипы авторов Шефа: показываем ВСЕХ троих из прогноза (имя+флаг), даже если игрока нет в составе.
+function aiScorerChips(scorerInfo, m) {
+  return (scorerInfo || []).map((s) =>
+    h('span', { class: 'chip' }, [
+      miniFlag(s.team === 'away' ? m.away : m.home),
+      s.pos ? `${aiSurname(s.name)} · ${s.pos}` : aiSurname(s.name),
+    ])
+  );
+}
+
 // ---- раскрытые ставки (после свистка) ----
 async function revealBlock(m, S, ctx, idx) {
   const wrap = h('div', { class: 'bet-summary' }, [h('div', { class: 'potential', text: 'Загружаем ставки…' })]);
@@ -311,7 +326,9 @@ async function revealBlock(m, S, ctx, idx) {
     const isAI = uid === AI_ID;
     const res = m.finished ? standRow(uid)?.perMatch?.[m.id] : null;
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
-    const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
+    const scorerEls = isAI && bet.scorerInfo
+      ? aiScorerChips(bet.scorerInfo, m) // у Шефа показываем всех троих по имени
+      : (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
 
     const whoChildren = isAI
       ? [h('span', { class: 'ai-ava', text: '🤖' }), h('b', { text: 'Шеф' })]

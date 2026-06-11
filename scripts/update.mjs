@@ -360,10 +360,17 @@ function lockAiBets(matches, aiPred, squads) {
     if (store[m.id]) continue;                        // уже зафиксировано на момент свистка
     const pred = aiPred?.[m.id];
     if (!pred || !pred.score) continue;               // нет прогноза — зафиксируем на следующем прогоне
-    const scorers = (pred.scorers || []).map((s) => resolveScorerId(s, m, squads)).filter(Boolean);
+    // сохраняем ВСЕХ троих авторов прогноза (имя+команда), плюс id где удалось сопоставить
+    // с составом — id нужен для подсчёта очков, имя/команда — чтобы показать всех троих.
+    const scorers = (pred.scorers || []).slice(0, 3).map((s) => ({
+      name: s.name,
+      team: s.team === 'away' ? 'away' : 'home',
+      pos: s.pos || null,
+      id: resolveScorerId(s, m, squads),
+    }));
     store[m.id] = { score: { home: pred.score.home, away: pred.score.away }, scorers, lockedAt: new Date().toISOString() };
     changed = true;
-    console.log(`🤖 betanalyse.pro: зафиксирована ставка на ${m.id} ${pred.score.home}:${pred.score.away} (авторов ${scorers.length})`);
+    console.log(`🤖 Шеф: зафиксирована ставка на ${m.id} ${pred.score.home}:${pred.score.away} (авторов ${scorers.length}, с id ${scorers.filter((s) => s.id).length})`);
   }
   if (changed) writeJSON('data/ai-bets.json', store);
   return store;
@@ -487,8 +494,8 @@ function writeReveals(matches, bets) {
       const b = bets[u.id]?.matches?.[m.id];
       if (b) payload[u.id] = { score: b.score, scorers: b.scorers, submittedAt: b.submittedAt };
     }
-    const aib = bets[AI_ID]?.matches?.[m.id]; // ставка виртуального игрока betanalyse.pro
-    if (aib) payload[AI_ID] = { score: aib.score, scorers: aib.scorers, submittedAt: aib.submittedAt };
+    const aib = bets[AI_ID]?.matches?.[m.id]; // ставка виртуального игрока Шеф
+    if (aib) payload[AI_ID] = { score: aib.score, scorers: aib.scorers, scorerInfo: aib.scorerInfo, submittedAt: aib.submittedAt };
     const sig = payloadSig(payload);
     const rel = `data/revealed/${m.id}.json`;
     if (existsSync(P(rel))) {
@@ -533,7 +540,12 @@ async function main() {
   const aiPred = (await fetchExpertPredictions()) || {};
   const aiBets = lockAiBets(matches, aiPred, squads);
   bets[AI_ID] = {
-    matches: Object.fromEntries(Object.entries(aiBets).map(([id, b]) => [id, { score: b.score, scorers: b.scorers, submittedAt: b.lockedAt }])),
+    matches: Object.fromEntries(Object.entries(aiBets).map(([id, b]) => [id, {
+      score: b.score,
+      scorers: (b.scorers || []).map((s) => s.id).filter(Boolean), // id — для подсчёта очков
+      scorerInfo: b.scorers, // полная инфа (имя/команда/поз) — чтобы показать всех троих
+      submittedAt: b.lockedAt,
+    }])),
     tournament: overrides.aiTournament || null, // прогноз ИИ на чемпиона/бомбардира (правка организатора)
   };
 

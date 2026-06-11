@@ -5,7 +5,24 @@
       "away": 0
     },
     "scorers": [
-      "94562"
+      {
+        "name": "Hirving Lozano",
+        "team": "home",
+        "pos": "нап",
+        "id": null
+      },
+      {
+        "name": "Santiago Gimenez",
+        "team": "home",
+        "pos": "нап",
+        "id": "94562"
+      },
+      {
+        "name": "Percy Tau",
+        "team": "away",
+        "pos": "нап",
+        "id": null
+      }
     ],
     "lockedAt": "2026-06-11T19:00:25.677Z"
   }
