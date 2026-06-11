@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=48';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=48';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=48';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=48';
-import { renderGreeting } from './greeting.js?v=48';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=49';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=49';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=49';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=49';
+import { renderGreeting } from './greeting.js?v=49';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -178,7 +178,7 @@ function betForm(card, m, S, ctx, existing) {
   const cancel = h('button', { class: 'btn ghost', text: 'Отмена' });
 
   async function doSave() {
-    const scorers = [s1.value, s2.value, s3.value].filter(Boolean);
+    const scorers = [...new Set([s1.value, s2.value, s3.value].filter(Boolean))]; // без повтора одного игрока
     save.disabled = cancel.disabled = true;
     save.textContent = 'Сохраняем…';
     try {
@@ -328,7 +328,7 @@ async function revealBlock(m, S, ctx, idx) {
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
     const scorerEls = isAI && bet.scorerInfo
       ? aiScorerChips(bet.scorerInfo, m) // у Шефа показываем всех троих по имени
-      : (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
+      : [...new Set((bet.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx)); // без дублей
 
     const whoChildren = isAI
       ? [h('span', { class: 'ai-ava', text: '🤖' }), h('b', { text: 'Шеф' })]
@@ -369,7 +369,7 @@ function rerenderCard(card, m, S, ctx) {
   } else if (bettingOpen(m, S)) {
     const existing = ownBetCache.get(m.id);
     if (existing) {
-      const scorerEls = (existing.scorers || []).map((id) => scorerChip(id, m, S, idx));
+      const scorerEls = [...new Set((existing.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx));
       card.append(
         h('div', { class: 'bet-summary' }, [
           h('div', { class: 'row' }, [h('span', { text: 'Твоя ставка' }), h('span', { class: 'chip', text: `${existing.score.home}:${existing.score.away}` })]),
@@ -542,7 +542,7 @@ function renderGroups(container, matches, ctx, reverse) {
 // Карточка матча в истории игрока — один в один как на главной (.match).
 function historyCard(m, bet, res, S, idx) {
   const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
-  const scorerEls = (bet.scorers || []).map((id) => scorerChip(id, m, S, idx));
+  const scorerEls = [...new Set((bet.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx));
   const entry = h('div', { class: 'reveal-entry' }, [
     h('div', { class: 'reveal-head' }, [
       h('div', { class: 'reveal-who' }, [h('b', { text: 'Прогноз' })]),

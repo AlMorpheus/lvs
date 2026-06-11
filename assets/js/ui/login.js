@@ -1,5 +1,5 @@
 // Экран входа: выбор участника + пароль (пароль расшифровывает вшитый токен).
-import { h, clear, brandStrip } from './components.js?v=48';
+import { h, clear, brandStrip } from './components.js?v=49';
 
 export function renderLogin(root, { users, onLogin }) {
   const err = h('p', { class: 'error-msg' });
@@ -35,7 +35,7 @@ export function renderLogin(root, { users, onLogin }) {
   clear(root).append(
     h('div', { class: 'login' }, [
       h('div', { class: 'login-card' }, [
-        h('img', { class: 'login-logo', src: 'assets/img/logo.png?v=48', alt: 'ЛВС' }),
+        h('img', { class: 'login-logo', src: 'assets/img/logo.png?v=49', alt: 'ЛВС' }),
         h('p', { class: 'login-sub', text: 'FIFA World Cup 26' }),
         brandStrip(),
         h('label', { class: 'field' }, [h('span', { text: 'Участник' }), userSel]),
