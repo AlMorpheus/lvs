@@ -1768,13 +1768,16 @@ textarea.input:focus {
   background: var(--ink);
   color: #fff;
   padding: 13px 20px;
-  border-radius: 999px;
+  border-radius: 16px; /* не 999px: длинный многострочный текст превращал «пилюлю» в кляксу */
   font-family: var(--display);
   font-weight: 700;
   font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: center;
   z-index: 80;
   box-shadow: var(--shadow);
-  max-width: 90vw;
+  width: max-content;
+  max-width: min(360px, 88vw);
 }
 .toast.ok {
   background: var(--green);
