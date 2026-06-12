@@ -2279,6 +2279,24 @@
       "pos": "Attacker"
     },
     {
+      "id": 24888,
+      "name": "Hwang Hee-chan",
+      "number": 11,
+      "pos": "Attacker"
+    },
+    {
+      "id": 237050,
+      "name": "Ji-sung Eom",
+      "number": 25,
+      "pos": "Attacker"
+    },
+    {
+      "id": 34710,
+      "name": "Hyeon-gyu Oh",
+      "number": 18,
+      "pos": "Attacker"
+    },
+    {
       "id": 2890,
       "name": "Jo Hyeonwoo",
       "number": 21,
@@ -2321,12 +2339,6 @@
       "pos": "Midfielder"
     },
     {
-      "id": 237050,
-      "name": "Ji-sung Eom",
-      "number": 25,
-      "pos": "Attacker"
-    },
-    {
       "id": 34168,
       "name": "Jin-gyu Kim",
       "number": 24,
@@ -2348,18 +2360,6 @@
       "id": 34211,
       "name": "Gue-sung Cho",
       "number": 9,
-      "pos": "Attacker"
-    },
-    {
-      "id": 24888,
-      "name": "Hwang Hee-chan",
-      "number": 11,
-      "pos": "Attacker"
-    },
-    {
-      "id": 34710,
-      "name": "Hyeon-gyu Oh",
-      "number": 18,
       "pos": "Attacker"
     },
     {
@@ -4127,6 +4127,24 @@
       "pos": "Attacker"
     },
     {
+      "id": 241,
+      "name": "Michal Sadílek",
+      "number": 18,
+      "pos": "Midfielder"
+    },
+    {
+      "id": 66019,
+      "name": "Adam Hložek",
+      "number": 9,
+      "pos": "Attacker"
+    },
+    {
+      "id": 818,
+      "name": "Tomáš Chorý",
+      "number": 19,
+      "pos": "Attacker"
+    },
+    {
       "id": 66347,
       "name": "Jindřich Staněk",
       "number": 16,
@@ -4155,12 +4173,6 @@
       "name": "Tomáš Holeš",
       "number": 3,
       "pos": "Defender"
-    },
-    {
-      "id": 241,
-      "name": "Michal Sadílek",
-      "number": 18,
-      "pos": "Midfielder"
     },
     {
       "id": 66214,
@@ -4193,12 +4205,6 @@
       "pos": "Midfielder"
     },
     {
-      "id": 66019,
-      "name": "Adam Hložek",
-      "number": 9,
-      "pos": "Attacker"
-    },
-    {
       "id": 66340,
       "name": "Jan Kuchta",
       "number": 11,
@@ -4208,12 +4214,6 @@
       "id": 66275,
       "name": "Mojmír Chytil",
       "number": 13,
-      "pos": "Attacker"
-    },
-    {
-      "id": 818,
-      "name": "Tomáš Chorý",
-      "number": 19,
       "pos": "Attacker"
     }
   ],
