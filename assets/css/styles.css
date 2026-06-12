@@ -442,6 +442,24 @@ textarea.input:focus {
   font-size: 0.78rem;
   letter-spacing: 0.04em;
 }
+.user-box .push-btn[data-state='on'] {
+  border-color: var(--lime);
+  color: var(--lime);
+}
+.user-box .push-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* подсветка карточки матча при переходе из пуша (#matches?m=<id>) */
+.match.flash {
+  animation: match-flash 2.2s ease;
+}
+@keyframes match-flash {
+  0%, 100% { box-shadow: none; }
+  15% { box-shadow: 0 0 0 3px var(--lime); }
+  60% { box-shadow: 0 0 0 3px var(--lime); }
+}
 
 .backdrop {
   position: fixed;

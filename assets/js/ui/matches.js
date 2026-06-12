@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=51';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=51';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=51';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=51';
-import { renderGreeting } from './greeting.js?v=51';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=52';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=52';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=52';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=52';
+import { renderGreeting } from './greeting.js?v=52';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -530,7 +530,7 @@ function renderGroups(container, matches, ctx, reverse) {
     container.append(h('div', { class: 'round-head', text: (ROUND_LABELS[key] || key) + (locked ? ' · 🔒' : '') }));
     const ms = groups[key].sort((a, b) => (reverse ? new Date(b.date) - new Date(a.date) : new Date(a.date) - new Date(b.date)));
     for (const m of ms) {
-      const card = h('div', { class: 'match' });
+      const card = h('div', { class: 'match', id: 'm-' + m.id, dataset: { mid: m.id } });
       rerenderCard(card, m, S, ctx);
       container.append(card);
     }

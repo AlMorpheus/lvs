@@ -31,13 +31,13 @@ export function clear(node) {
 }
 
 let toastTimer = null;
-export function toast(message, type = '') {
+export function toast(message, type = '', ms = 3200) {
   const t = document.getElementById('toast');
   t.textContent = message;
   t.className = 'toast ' + type;
   t.hidden = false;
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => (t.hidden = true), 3200);
+  toastTimer = setTimeout(() => (t.hidden = true), ms);
 }
 
 const dtFmt = new Intl.DateTimeFormat('ru-RU', {

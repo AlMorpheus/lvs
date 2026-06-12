@@ -42,6 +42,7 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           ACTION_PRIVATE_KEY: ${{ secrets.ACTION_PRIVATE_KEY }}
           SHARED_KEY: ${{ secrets.SHARED_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
         run: |
           git config user.name "wc2026-bot"
           git config user.email "actions@github.com"

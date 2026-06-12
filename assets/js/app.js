@@ -1,14 +1,15 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=51';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=51';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=51';
-import { renderLogin } from './ui/login.js?v=51';
-import { renderMatches, renderHistory } from './ui/matches.js?v=51';
-import { renderTable } from './ui/table.js?v=51';
-import { renderRules } from './ui/rules.js?v=51';
-import { maybeOnboard } from './ui/onboarding.js?v=51';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=51';
-import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=51';
+import { initCrypto } from './crypto.js?v=52';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=52';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=52';
+import { renderLogin } from './ui/login.js?v=52';
+import { renderMatches, renderHistory } from './ui/matches.js?v=52';
+import { renderTable } from './ui/table.js?v=52';
+import { renderRules } from './ui/rules.js?v=52';
+import { maybeOnboard } from './ui/onboarding.js?v=52';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=52';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=52';
+import { pushSupported, pushState, enablePush, disablePush, registerSW, isIOS, isStandalone } from './push.js?v=52';
 
 const root = document.getElementById('root');
 
@@ -66,7 +67,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=51', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=52', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
@@ -82,6 +83,7 @@ function buildShell() {
         h('span', { class: 'avatar', text: initials(S.session.name) }),
         h('span', { text: S.session.name }),
       ]),
+      h('button', { class: 'push-btn', id: 'pushBtn', onclick: togglePush, text: '🔔 Уведомления' }),
       h('button', { onclick: doLogout, text: 'Выйти' }),
     ]),
   ]);
@@ -139,10 +141,24 @@ function route() {
   const view = document.getElementById('view');
   if (!view) return;
   clear(view);
-  if (known === 'matches') renderMatches(view, ctx);
+  if (known === 'matches') renderMatches(view, ctx).then(() => focusMatchFromHash());
   else if (known === 'history') renderHistory(view, ctx);
   else if (known === 'table') renderTable(view, ctx);
   else if (known === 'rules') renderRules(view, ctx);
+}
+
+// Диплинк из пуша: #matches?m=<id> — подсвечиваем и прокручиваем к нужному матчу.
+function focusMatchFromHash() {
+  const q = location.hash.split('?')[1];
+  const mid = q && new URLSearchParams(q).get('m');
+  if (!mid) return;
+  // снимаем параметр сразу, чтобы автообновление не прокручивало повторно каждые 30 с
+  history.replaceState(null, '', '#matches');
+  const el = document.getElementById('m-' + mid);
+  if (!el) return;
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el.classList.add('flash');
+  setTimeout(() => el.classList.remove('flash'), 2200);
 }
 
 // Периодическое автообновление: участники постоянно меняют ставки/прогнозы, всегда нужен
@@ -184,6 +200,59 @@ function doLogout() {
   location.reload(); // полный сброс кэшей в памяти (прогноз/ставки) при смене пользователя
 }
 
+// ---------- Уведомления (web push) ----------
+// Кнопка в сайдбаре подстраивается под состояние: не поддерживается / нужен home-screen на iOS /
+// запрещено / выкл / вкл. Подписку шифруем и кладём в репо, бот шлёт пуш при смене состава.
+async function refreshPushBtn() {
+  const btn = document.getElementById('pushBtn');
+  if (!btn) return;
+  const st = await pushState();
+  const map = {
+    unsupported: { text: '🔕 Уведомления недоступны', dis: true },
+    'needs-standalone': { text: '🔔 Включить уведомления', dis: false },
+    denied: { text: '🔕 Уведомления запрещены', dis: true },
+    off: { text: '🔔 Включить уведомления', dis: false },
+    on: { text: '🔔 Уведомления включены', dis: false },
+  };
+  const v = map[st] || map.off;
+  btn.textContent = v.text;
+  btn.disabled = v.dis;
+  btn.dataset.state = st;
+}
+
+let pushBusy = false;
+async function togglePush() {
+  if (pushBusy) return;
+  pushBusy = true;
+  const btn = document.getElementById('pushBtn');
+  const st = btn?.dataset.state;
+  try {
+    if (isIOS() && !isStandalone()) {
+      toast('Чтобы получать уведомления на iPhone: откройте сайт в Safari → «Поделиться» → «На экран „Домой“», затем зайдите из этой иконки и включите уведомления.', '', 6500);
+      return;
+    }
+    if (st === 'on') {
+      await disablePush(S.session, S.app);
+      toast('Уведомления выключены');
+    } else {
+      await enablePush(S.session, S.app);
+      toast('Готово! Пришлём пуш, когда обновятся составы.');
+    }
+  } catch (e) {
+    const msg = {
+      unsupported: 'Этот браузер не умеет уведомления.',
+      'needs-standalone': 'На iPhone сначала добавьте приложение на экран «Домой».',
+      denied: 'Уведомления запрещены — включите их для сайта в настройках браузера.',
+      'no-vapid': 'Уведомления пока не настроены на сервере.',
+    }[e.message] || 'Не получилось включить уведомления. Попробуйте ещё раз.';
+    toast(msg, '', 5000);
+    console.warn('push toggle:', e);
+  } finally {
+    pushBusy = false;
+    refreshPushBtn();
+  }
+}
+
 function showLogin() {
   clear(root);
   renderLogin(root, {
@@ -203,6 +272,8 @@ async function startApp() {
   setupPullToRefresh(ctx.refreshData); // свайп-вниз-обновление для домашнего web-app
   setupDrawerSwipe({ open: openDrawer, close: closeDrawer, isOpen: () => !!document.getElementById('sidebar')?.classList.contains('open') });
   startAutoRefresh(); // периодически подтягиваем свежие ставки/прогнозы (всегда последняя версия)
+  if (pushSupported()) registerSW(); // регистрируем воркер заранее (где поддержка есть)
+  refreshPushBtn(); // подгоняем подпись кнопки под состояние (вкл/выкл/нужен home-screen/нет)
   // онбординг (чемпион + бомбардир), если ещё не выбрано и не заблокировано
   maybeOnboard(ctx);
 }

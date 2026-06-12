@@ -1,7 +1,7 @@
 // Интерактивный блок приветствия: здоровается по имени и времени суток,
 // напоминает про ставки, поздравляет с праздниками, показывает объявления.
-import { h, clear, toast } from './components.js?v=51';
-import { loadAnnouncements, saveAnnouncements } from '../bets.js?v=51';
+import { h, clear, toast } from './components.js?v=52';
+import { loadAnnouncements, saveAnnouncements } from '../bets.js?v=52';
 
 function timeGreeting(name) {
   const hh = new Date().getHours();

@@ -12,6 +12,10 @@
     "leagueName": "World Cup"
   },
   "actionPublicKey": "2NUyK0wchbiQiXQy74zibq0dGTG7vSA22tKIDwhoPm8=",
+  "push": {
+    "vapidPublicKey": "BFb6JaHZ40IUoLgJITXLMMleDncNDYZzwwAey8sCJDud4jXQMdadLHoZ0LgZoTT6-OzMCBUPeZlSeJ0O6HSdyTc",
+    "subject": "mailto:loskov@gmail.com"
+  },
   "kdf": {
     "opsLimit": 3,
     "memLimit": 67108864,

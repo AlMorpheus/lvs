@@ -4,7 +4,7 @@
 // Секреты (env): API_FOOTBALL_KEY, ACTION_PRIVATE_KEY (b64), SHARED_KEY (b64).
 // Коммит/пуш делает workflow после запуска этого скрипта.
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -27,6 +27,7 @@ const toB64 = (b) => sodium.to_base64(b, B64);
 const API_KEY = process.env.API_FOOTBALL_KEY;
 const ACTION_PRIV = process.env.ACTION_PRIVATE_KEY;
 const SHARED = process.env.SHARED_KEY;
+const VAPID_PRIVATE = process.env.VAPID_PRIVATE_KEY;
 
 const readJSON = (rel, fb) => (existsSync(P(rel)) ? JSON.parse(readFileSync(P(rel), 'utf8')) : fb);
 const writeJSON = (rel, obj) => writeFileSync(P(rel), JSON.stringify(obj, null, 2) + '\n');
@@ -516,18 +517,124 @@ function writeReveals(matches, bets) {
   }
 }
 
+// ---------- веб-пуши: уведомляем о смене состава перед матчем ----------
+// Сравниваем заявку команды до/после обновления. Если у команды, играющей в ближайшие
+// ~48 ч (матч ещё НЕ начался — ставку можно поменять), изменился набор игроков —
+// шлём подписчикам пуш. Дедуп не нужен: сравниваем последовательные снимки squads.json,
+// поэтому каждое изменение уведомляется ровно один раз.
+let _webpush = null;
+function configureWebPush() {
+  if (!VAPID_PRIVATE || !app.push?.vapidPublicKey) return null;
+  if (_webpush) return _webpush;
+  try {
+    const wp = require('web-push');
+    wp.setVapidDetails(app.push.subject || 'mailto:admin@example.com', app.push.vapidPublicKey, VAPID_PRIVATE);
+    _webpush = wp;
+    return wp;
+  } catch (e) {
+    console.warn('web-push недоступен:', e.message);
+    return null;
+  }
+}
+
+const squadSig = (arr) => (arr || []).map((p) => String(p.id)).filter(Boolean).sort().join(',');
+
+function detectSquadChanges(matches, oldSquads, newSquads) {
+  const now = Date.now();
+  const horizon = now + 48 * 3600 * 1000;
+  const upcoming = new Map(); // tid -> ближайший будущий матч команды
+  for (const m of matches) {
+    if (m.finished) continue;
+    const ko = new Date(m.date).getTime();
+    if (ko <= now || ko > horizon) continue; // только будущие матчи (ставку ещё можно поменять)
+    for (const t of [m.home, m.away]) {
+      if (t?.id == null) continue;
+      const tid = String(t.id);
+      const prev = upcoming.get(tid);
+      if (!prev || ko < prev.ko) upcoming.set(tid, { ko, match: m, team: t });
+    }
+  }
+  const changes = [];
+  for (const [tid, info] of upcoming) {
+    const oldSig = squadSig(oldSquads[tid]);
+    const newSig = squadSig(newSquads[tid]);
+    if (!oldSig || oldSig === newSig) continue; // не было состава ранее (первичная загрузка) или без изменений
+    changes.push({ tid, ...info });
+  }
+  return changes;
+}
+
+function readPushSubs() {
+  const dir = P('data/push-subs');
+  if (!existsSync(dir)) return [];
+  const out = [];
+  for (const fname of readdirSync(dir)) {
+    if (!fname.endsWith('.json') || fname === 'README.md') continue;
+    const rel = `data/push-subs/${fname}`;
+    try {
+      const dec = decryptBetFile(JSON.parse(readFileSync(P(rel), 'utf8')));
+      if (dec?.sub?.endpoint) out.push({ userId: fname.replace(/\.json$/, ''), rel, sub: dec.sub });
+    } catch (e) {
+      console.warn('push-sub не расшифрован', fname, e.message);
+    }
+  }
+  return out;
+}
+
+async function sendPushNotifications(matches, oldSquads, newSquads) {
+  const wp = configureWebPush();
+  if (!wp) return;
+  const changes = detectSquadChanges(matches, oldSquads, newSquads);
+  if (!changes.length) return;
+  const subs = readPushSubs();
+  if (!subs.length) return;
+
+  // одно уведомление на матч (команды группируем), чтобы не слать два пуша на одну игру
+  const byMatch = new Map();
+  for (const c of changes) {
+    if (!byMatch.has(c.match.id)) byMatch.set(c.match.id, { match: c.match, teams: [] });
+    byMatch.get(c.match.id).teams.push(c.team.name);
+  }
+
+  for (const { match, teams } of byMatch.values()) {
+    const payload = JSON.stringify({
+      title: '🔄 Обновился состав',
+      body: `${teams.join(' и ')}: ${match.home?.name} – ${match.away?.name}. Можно поменять ставку.`,
+      tag: 'squad-' + match.id,
+      url: `./#matches?m=${match.id}`,
+    });
+    let ok = 0;
+    for (const s of subs) {
+      try {
+        await wp.sendNotification(s.sub, payload);
+        ok++;
+      } catch (e) {
+        const code = e.statusCode;
+        if (code === 404 || code === 410) {
+          try { rmSync(P(s.rel)); console.log('🔕 удалена мёртвая подписка', s.userId); } catch {}
+        } else {
+          console.warn('push send', s.userId, code || e.message);
+        }
+      }
+    }
+    console.log(`🔔 пуш «смена состава» по матчу ${match.id} (${teams.join(', ')}) → доставлено ${ok}/${subs.length}`);
+  }
+}
+
 // ---------- main ----------
 async function main() {
   const matches = await buildMatches();
   writeJSON('data/matches.json', matches);
 
   // составы освежаем не чаще раза в день (травмы), чтобы частый запуск не жёг квоту API
+  const oldSquads = readJSON('data/squads.json', {}); // снимок ДО обновления — для пушей о смене состава
   const today = new Date().toISOString().slice(0, 10);
   app.tournament = app.tournament || {};
   const doDailyRefresh = app.tournament.squadsRefreshedOn !== today;
   const squads = await updateSquads(matches, doDailyRefresh);
   await applyLineups(matches, squads); // точная заявка для ближайших/идущих матчей
   writeJSON('data/squads.json', squads);
+  await sendPushNotifications(matches, oldSquads, squads).catch((e) => console.warn('push:', e.message));
 
   // пополняем накопительный справочник игроков из составов и авторов голов
   for (const [tid, arr] of Object.entries(squads)) for (const p of arr || []) recordPlayer(p, tid);

@@ -65,6 +65,16 @@ export async function putFile(repo, path, contentStr, message, token) {
   throw new Error('GitHub PUT: не удалось после нескольких попыток');
 }
 
+/** Удалить файл (если он есть). Тихо игнорирует отсутствие файла. */
+export async function deleteFile(repo, path, message, token) {
+  const existing = await getFile(repo, path, token);
+  if (!existing) return; // уже нет
+  const url = `${API}/repos/${repo.owner}/${repo.name}/contents/${path}`;
+  const body = { message, sha: existing.sha, branch: repo.branch };
+  const res = await fetch(url, { method: 'DELETE', headers: headers(token), body: JSON.stringify(body) });
+  if (!res.ok && res.status !== 404) throw new Error(`GitHub DELETE ${res.status}: ${await res.text()}`);
+}
+
 /** Проверка валидности токена (на форме настройки/диагностики). */
 export async function checkToken(repo, token) {
   const res = await fetch(`${API}/repos/${repo.owner}/${repo.name}`, { headers: headers(token), cache: 'no-store' });
