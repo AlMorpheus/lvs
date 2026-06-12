@@ -451,6 +451,19 @@ textarea.input:focus {
   cursor: default;
 }
 
+/* пометка «вышли стартовые составы» в форме ставки */
+.scorers .label .lineup-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: rgba(36, 160, 80, 0.14);
+  color: #1d8a44;
+  font-size: 0.72rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
 /* подсветка карточки матча при переходе из пуша (#matches?m=<id>) */
 .match.flash {
   animation: match-flash 2.2s ease;

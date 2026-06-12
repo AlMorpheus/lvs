@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=52';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=52';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=52';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=52';
-import { renderGreeting } from './greeting.js?v=52';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=53';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=53';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=53';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=53';
+import { renderGreeting } from './greeting.js?v=53';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -121,15 +121,25 @@ function sortSquad(players, S) {
 
 function scorerSelect(m, S, value) {
   const sel = h('select', { class: 'input' }, [h('option', { value: '', text: '— игрок —' })]);
-  for (const team of [m.home, m.away]) {
-    const raw = (S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || [];
-    if (!raw.length) continue;
-    const og = h('optgroup', { label: team.name });
-    for (const p of sortSquad(raw, S)) {
+  const addGroup = (label, players) => {
+    if (!players.length) return;
+    const og = h('optgroup', { label });
+    for (const p of players) {
       const ab = POS_ABBR[p.pos];
       og.append(h('option', { value: String(p.id), text: ab ? `${p.name} · ${ab}` : p.name, selected: String(p.id) === String(value) }));
     }
     sel.append(og);
+  };
+  for (const team of [m.home, m.away]) {
+    const raw = (S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || [];
+    if (!raw.length) continue;
+    // если вышел стартовый состав (есть пометка start) — основа отдельной группой и выше, затем запас
+    if (raw.some((p) => p.start === true)) {
+      addGroup(`${team.name} · основа`, sortSquad(raw.filter((p) => p.start === true), S));
+      addGroup(`${team.name} · запас`, sortSquad(raw.filter((p) => p.start !== true), S));
+    } else {
+      addGroup(team.name, sortSquad(raw, S));
+    }
   }
   return sel;
 }
@@ -170,8 +180,13 @@ function betForm(card, m, S, ctx, existing) {
   const s2 = scorerSelect(m, S, existing?.scorers?.[1]);
   const s3 = scorerSelect(m, S, existing?.scorers?.[2]);
 
+  // вышли ли стартовые составы (есть пометка start) — подсветим это в заголовке выбора
+  const lineupOut = [m.home, m.away].some((t) => ((S.squads || {})[t?.id] || (S.squads || {})[String(t?.id)] || []).some((p) => p.start === true));
+  const scorersLabel = lineupOut
+    ? h('div', { class: 'label' }, ['Три автора голов ', h('span', { class: 'lineup-tag', text: '📋 стартовые составы вышли' })])
+    : h('div', { class: 'label', text: 'Три автора голов' });
   const scorersBlock = hasSquads
-    ? h('div', { class: 'scorers' }, [h('div', { class: 'label', text: 'Три автора голов' }), s1, s2, s3])
+    ? h('div', { class: 'scorers' }, [scorersLabel, s1, s2, s3])
     : h('div', { class: 'potential', text: 'Составы команд появятся ближе к матчу — пока можно поставить только счёт.' });
 
   const save = h('button', { class: 'btn', text: existing ? 'Обновить ставку' : 'Сохранить ставку' });

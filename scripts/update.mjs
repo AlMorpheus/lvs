@@ -140,6 +140,7 @@ async function buildMatches() {
       scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
       finished,
       finishedAt: finishedAtFor(finished, prevM, f.fixture?.date),
+      lineupAt: prevM?.lineupAt || null, // когда впервые появился стартовый состав (для пуша + UI)
       scorers: prevM?.scorers || [],
       multiplierOverride: overrides.matches?.[String(f.fixture?.id)]?.multiplier ?? null,
     };
@@ -284,12 +285,20 @@ async function applyLineups(matches, squads) {
     try {
       const resp = await api('/fixtures/lineups', { fixture: m.id });
       if (!resp.length) continue;
+      let anyStartXI = false;
       for (const t of resp) {
         const tid = String(t.team?.id);
-        const list = [...(t.startXI || []), ...(t.substitutes || [])]
-          .map((e) => ({ id: e.player?.id, name: e.player?.name, number: e.player?.number, pos: LINEUP_POS[e.player?.pos] || null }))
-          .filter((p) => p.id != null);
-        if (list.length) squads[tid] = list;
+        const map = (e, start) => ({ id: e.player?.id, name: e.player?.name, number: e.player?.number, pos: LINEUP_POS[e.player?.pos] || null, start });
+        const startXI = (t.startXI || []).map((e) => map(e, true)).filter((p) => p.id != null);
+        const subs = (t.substitutes || []).map((e) => map(e, false)).filter((p) => p.id != null);
+        if (startXI.length) anyStartXI = true;
+        const list = [...startXI, ...subs];
+        if (list.length) squads[tid] = list; // основа помечена start:true, запас — start:false
+      }
+      // момент появления стартового состава фиксируем один раз — по нему шлём пуш «состав доступен»
+      if (anyStartXI && !m.lineupAt) {
+        m.lineupAt = new Date().toISOString();
+        m.lineupJustReady = true; // разовый флаг для пуша в этом прогоне
       }
       used++;
     } catch (e) {
@@ -517,11 +526,11 @@ function writeReveals(matches, bets) {
   }
 }
 
-// ---------- веб-пуши: уведомляем о смене состава перед матчем ----------
-// Сравниваем заявку команды до/после обновления. Если у команды, играющей в ближайшие
-// ~48 ч (матч ещё НЕ начался — ставку можно поменять), изменился набор игроков —
-// шлём подписчикам пуш. Дедуп не нужен: сравниваем последовательные снимки squads.json,
-// поэтому каждое изменение уведомляется ровно один раз.
+// ---------- веб-пуши: «стартовый состав доступен» ----------
+// Шлём подписчикам пуш в момент, когда у матча ВПЕРВЫЕ появился стартовый состав
+// (≈ за час до начала). Триггер — разовый флаг m.lineupJustReady, который ставит
+// applyLineups при первом появлении startXI; lineupAt персистится в matches.json,
+// поэтому каждый матч уведомляется ровно один раз.
 let _webpush = null;
 function configureWebPush() {
   if (!VAPID_PRIVATE || !app.push?.vapidPublicKey) return null;
@@ -535,33 +544,6 @@ function configureWebPush() {
     console.warn('web-push недоступен:', e.message);
     return null;
   }
-}
-
-const squadSig = (arr) => (arr || []).map((p) => String(p.id)).filter(Boolean).sort().join(',');
-
-function detectSquadChanges(matches, oldSquads, newSquads) {
-  const now = Date.now();
-  const horizon = now + 48 * 3600 * 1000;
-  const upcoming = new Map(); // tid -> ближайший будущий матч команды
-  for (const m of matches) {
-    if (m.finished) continue;
-    const ko = new Date(m.date).getTime();
-    if (ko <= now || ko > horizon) continue; // только будущие матчи (ставку ещё можно поменять)
-    for (const t of [m.home, m.away]) {
-      if (t?.id == null) continue;
-      const tid = String(t.id);
-      const prev = upcoming.get(tid);
-      if (!prev || ko < prev.ko) upcoming.set(tid, { ko, match: m, team: t });
-    }
-  }
-  const changes = [];
-  for (const [tid, info] of upcoming) {
-    const oldSig = squadSig(oldSquads[tid]);
-    const newSig = squadSig(newSquads[tid]);
-    if (!oldSig || oldSig === newSig) continue; // не было состава ранее (первичная загрузка) или без изменений
-    changes.push({ tid, ...info });
-  }
-  return changes;
 }
 
 function readPushSubs() {
@@ -581,26 +563,19 @@ function readPushSubs() {
   return out;
 }
 
-async function sendPushNotifications(matches, oldSquads, newSquads) {
+async function sendPushNotifications(matches) {
   const wp = configureWebPush();
   if (!wp) return;
-  const changes = detectSquadChanges(matches, oldSquads, newSquads);
-  if (!changes.length) return;
+  const ready = matches.filter((m) => m.lineupJustReady && !m.finished);
+  if (!ready.length) return;
   const subs = readPushSubs();
   if (!subs.length) return;
 
-  // одно уведомление на матч (команды группируем), чтобы не слать два пуша на одну игру
-  const byMatch = new Map();
-  for (const c of changes) {
-    if (!byMatch.has(c.match.id)) byMatch.set(c.match.id, { match: c.match, teams: [] });
-    byMatch.get(c.match.id).teams.push(c.team.name);
-  }
-
-  for (const { match, teams } of byMatch.values()) {
+  for (const match of ready) {
     const payload = JSON.stringify({
-      title: '🔄 Обновился состав',
-      body: `${teams.join(' и ')}: ${match.home?.name} – ${match.away?.name}. Можно поменять ставку.`,
-      tag: 'squad-' + match.id,
+      title: '📋 Стартовый состав доступен',
+      body: `${match.home?.name} – ${match.away?.name}: вышли стартовые составы. Можно уточнить ставку на бомбардиров.`,
+      tag: 'lineup-' + match.id,
       url: `./#matches?m=${match.id}`,
     });
     let ok = 0;
@@ -617,24 +592,24 @@ async function sendPushNotifications(matches, oldSquads, newSquads) {
         }
       }
     }
-    console.log(`🔔 пуш «смена состава» по матчу ${match.id} (${teams.join(', ')}) → доставлено ${ok}/${subs.length}`);
+    console.log(`🔔 пуш «стартовый состав» по матчу ${match.id} (${match.home?.name} – ${match.away?.name}) → доставлено ${ok}/${subs.length}`);
   }
 }
 
 // ---------- main ----------
 async function main() {
   const matches = await buildMatches();
-  writeJSON('data/matches.json', matches);
 
   // составы освежаем не чаще раза в день (травмы), чтобы частый запуск не жёг квоту API
-  const oldSquads = readJSON('data/squads.json', {}); // снимок ДО обновления — для пушей о смене состава
   const today = new Date().toISOString().slice(0, 10);
   app.tournament = app.tournament || {};
   const doDailyRefresh = app.tournament.squadsRefreshedOn !== today;
   const squads = await updateSquads(matches, doDailyRefresh);
-  await applyLineups(matches, squads); // точная заявка для ближайших/идущих матчей
+  await applyLineups(matches, squads); // точная заявка (основа/запас) + метка lineupAt для ближайших матчей
+  // matches.json пишем ПОСЛЕ applyLineups — иначе метка lineupAt не сохранится
+  writeJSON('data/matches.json', matches);
   writeJSON('data/squads.json', squads);
-  await sendPushNotifications(matches, oldSquads, squads).catch((e) => console.warn('push:', e.message));
+  await sendPushNotifications(matches).catch((e) => console.warn('push:', e.message)); // «стартовый состав доступен»
 
   // пополняем накопительный справочник игроков из составов и авторов голов
   for (const [tid, arr] of Object.entries(squads)) for (const p of arr || []) recordPlayer(p, tid);
