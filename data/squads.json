@@ -4109,15 +4109,15 @@
       "pos": "Midfielder"
     },
     {
-      "id": 66387,
-      "name": "Pavel Šulc",
-      "number": 15,
-      "pos": "Attacker"
-    },
-    {
       "id": 66353,
       "name": "Lukáš Provod",
       "number": 17,
+      "pos": "Attacker"
+    },
+    {
+      "id": 66387,
+      "name": "Pavel Šulc",
+      "number": 15,
       "pos": "Attacker"
     },
     {
