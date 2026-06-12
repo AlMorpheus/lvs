@@ -64,8 +64,8 @@
       "flag": "https://media.api-sports.io/football/teams/770.png"
     },
     "score": {
-      "home": 1,
-      "away": 2
+      "home": 2,
+      "away": 1
     },
     "scoreReg": null,
     "finished": false,
