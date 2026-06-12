@@ -106,7 +106,7 @@
   {
     "id": "1539000",
     "date": "2026-06-12T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -124,12 +124,30 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-12T20:58:29.624Z",
     "lineupAt": "2026-06-12T18:00:47.798Z",
     "remind2hAt": "2026-06-12T17:00:06.258Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 77037,
+        "name": "J. Lukic",
+        "teamId": 1113,
+        "minute": 21,
+        "type": "normal"
+      },
+      {
+        "playerId": 2001,
+        "name": "C. Larin",
+        "teamId": 5529,
+        "minute": 78,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
