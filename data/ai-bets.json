@@ -52,5 +52,32 @@
       }
     ],
     "lockedAt": "2026-06-12T02:00:14.266Z"
+  },
+  "1539000": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Jonathan David",
+        "team": "home",
+        "pos": "нап",
+        "id": "8489"
+      },
+      {
+        "name": "Edin Dzeko",
+        "team": "away",
+        "pos": "нап",
+        "id": "790"
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "home",
+        "pos": "нап",
+        "id": "2001"
+      }
+    ],
+    "lockedAt": "2026-06-12T19:00:37.989Z"
   }
 }
