@@ -5384,6 +5384,20 @@
       "start": true
     },
     {
+      "id": 70514,
+      "name": "Armin Gigović",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 314377,
+      "name": "Samed Baždar",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 446130,
       "name": "Mladen Jurkas",
       "number": 12,
@@ -5440,13 +5454,6 @@
       "start": false
     },
     {
-      "id": 70514,
-      "name": "Armin Gigović",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 25129,
       "name": "Dženis Burnić",
       "number": 17,
@@ -5465,13 +5472,6 @@
       "name": "Ermin Mahmic",
       "number": 26,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 314377,
-      "name": "Samed Baždar",
-      "number": 9,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -8400,6 +8400,27 @@
       "start": true
     },
     {
+      "id": 362145,
+      "name": "Ali Ahmed",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 50826,
+      "name": "Jacob Shaffelburg",
+      "number": 14,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 313353,
+      "name": "Promise David",
+      "number": 24,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 51148,
       "name": "Dayne St. Clair",
       "number": 1,
@@ -8449,13 +8470,6 @@
       "start": false
     },
     {
-      "id": 362145,
-      "name": "Ali Ahmed",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 294824,
       "name": "Nathan-Dylan Saliba",
       "number": 25,
@@ -8474,20 +8488,6 @@
       "name": "Jonathan Osorio",
       "number": 21,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 50826,
-      "name": "Jacob Shaffelburg",
-      "number": 14,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 313353,
-      "name": "Promise David",
-      "number": 24,
-      "pos": "Attacker",
       "start": false
     },
     {
