@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=49';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=49';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=49';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=49';
-import { renderGreeting } from './greeting.js?v=49';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=50';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=50';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=50';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=50';
+import { renderGreeting } from './greeting.js?v=50';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -290,18 +290,16 @@ function breakdownToggle(bet, m, S, idx) {
   return [toggle, holder];
 }
 
-// Фамилия из полного имени прогноза Шефа («Cody Gakpo» → «Gakpo», «Virgil van Dijk» → «van Dijk»).
-function aiSurname(name) {
-  const parts = String(name || '').trim().split(/\s+/);
-  return parts.length > 1 ? parts.slice(1).join(' ') : name || '—';
-}
-// Чипы авторов Шефа: показываем ВСЕХ троих из прогноза (имя+флаг), даже если игрока нет в составе.
-function aiScorerChips(scorerInfo, m) {
+// Чипы авторов Шефа: показываем ВСЕХ троих. Сопоставленных с составом — именем из состава
+// (как у людей), несопоставленных — полным именем из прогноза + флаг.
+function aiScorerChips(scorerInfo, m, S, idx) {
   return (scorerInfo || []).map((s) =>
-    h('span', { class: 'chip' }, [
-      miniFlag(s.team === 'away' ? m.away : m.home),
-      s.pos ? `${aiSurname(s.name)} · ${s.pos}` : aiSurname(s.name),
-    ])
+    s.id
+      ? scorerChip(s.id, m, S, idx)
+      : h('span', { class: 'chip' }, [
+          miniFlag(s.team === 'away' ? m.away : m.home),
+          s.pos ? `${s.name} · ${s.pos}` : s.name,
+        ])
   );
 }
 
@@ -327,7 +325,7 @@ async function revealBlock(m, S, ctx, idx) {
     const res = m.finished ? standRow(uid)?.perMatch?.[m.id] : null;
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
     const scorerEls = isAI && bet.scorerInfo
-      ? aiScorerChips(bet.scorerInfo, m) // у Шефа показываем всех троих по имени
+      ? aiScorerChips(bet.scorerInfo, m, S, idx) // у Шефа показываем всех троих
       : [...new Set((bet.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx)); // без дублей
 
     const whoChildren = isAI

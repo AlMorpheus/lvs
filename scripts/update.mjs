@@ -337,6 +337,9 @@ const AI_NAME = '🤖 Шеф';
 
 const _norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 const _lastName = (s) => _norm(s).split(/\s+/).pop().replace(/[^a-zа-яё]/g, '');
+// набор слов имени без учёта порядка и дефисов (Lee Kang-in == Kang-in Lee, корейские имена)
+const _tokens = (s) => new Set(_norm(s).split(/[\s-]+/).filter(Boolean));
+const _sameTokens = (a, b) => a.size === b.size && a.size > 0 && [...a].every((x) => b.has(x));
 
 // Имя автора из прогноза -> id игрока по составу нужной команды (для подсчёта очков как у людей).
 function resolveScorerId(predScorer, m, squads) {
@@ -344,8 +347,12 @@ function resolveScorerId(predScorer, m, squads) {
   const squad = squads[team?.id] || squads[String(team?.id)] || [];
   if (!squad.length) return null;
   const full = _norm(predScorer.name);
+  const tset = _tokens(predScorer.name);
   const last = _lastName(predScorer.name);
-  const hit = squad.find((p) => _norm(p.name) === full) || squad.find((p) => _lastName(p.name) === last);
+  const hit =
+    squad.find((p) => _norm(p.name) === full) ||
+    squad.find((p) => _sameTokens(_tokens(p.name), tset)) || // совпадение по набору слов (порядок не важен)
+    squad.find((p) => _lastName(p.name) === last);
   return hit ? String(hit.id) : null;
 }
 
