@@ -100,7 +100,7 @@
     "team": "10"
   },
   "186": {
-    "name": "Son Heung-Min",
+    "name": "Son Heung-min",
     "pos": "Attacker",
     "team": "17"
   },
@@ -140,7 +140,7 @@
     "team": "5530"
   },
   "241": {
-    "name": "M. Sadílek",
+    "name": "Michal Sadílek",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -545,12 +545,12 @@
     "team": "1118"
   },
   "794": {
-    "name": "P. Schick",
+    "name": "Patrik Schick",
     "pos": "Attacker",
     "team": "770"
   },
   "818": {
-    "name": "T. Chorý",
+    "name": "Tomáš Chorý",
     "pos": "Attacker",
     "team": "770"
   },
@@ -630,8 +630,8 @@
     "team": "27"
   },
   "927": {
-    "name": "Lee Kang-In",
-    "pos": "Midfielder",
+    "name": "Kang-in Lee",
+    "pos": "Attacker",
     "team": "17"
   },
   "931": {
@@ -755,17 +755,17 @@
     "team": "6"
   },
   "1231": {
-    "name": "V. Coufal",
-    "pos": "Defender",
+    "name": "Vladimír Coufal",
+    "pos": "Midfielder",
     "team": "770"
   },
   "1237": {
-    "name": "J. Zelený",
-    "pos": "Defender",
+    "name": "Jaroslav Zelený",
+    "pos": "Midfielder",
     "team": "770"
   },
   "1243": {
-    "name": "T. Soucek",
+    "name": "Tomáš Souček",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -1005,7 +1005,7 @@
     "team": "1095"
   },
   "2252": {
-    "name": "T. Holes",
+    "name": "Tomáš Holeš",
     "pos": "Defender",
     "team": "770"
   },
@@ -1435,37 +1435,37 @@
     "team": "16"
   },
   "2890": {
-    "name": "Jo Hyeon-Woo",
+    "name": "Jo Hyeonwoo",
     "pos": "Goalkeeper",
     "team": "17"
   },
   "2892": {
-    "name": "Kim Seung-Gyu",
+    "name": "Kim Seung-gyu",
     "pos": "Goalkeeper",
     "team": "17"
   },
   "2897": {
-    "name": "Kim Min-Jae",
+    "name": "Kim Min-jae",
     "pos": "Defender",
     "team": "17"
   },
   "2901": {
-    "name": "Hwang In-Beom",
+    "name": "Hwang In-beom",
     "pos": "Midfielder",
     "team": "17"
   },
   "2906": {
-    "name": "Lee Jae-Sung",
-    "pos": "Midfielder",
+    "name": "Jae-sung Lee",
+    "pos": "Attacker",
     "team": "17"
   },
   "2909": {
-    "name": "Paik Seung-Ho",
+    "name": "Seung Ho Paik",
     "pos": "Midfielder",
     "team": "17"
   },
   "2912": {
-    "name": "Kim Moon-Hwan",
+    "name": "Kim Moon-hwan",
     "pos": "Defender",
     "team": "17"
   },
@@ -2535,7 +2535,7 @@
     "team": "6"
   },
   "24888": {
-    "name": "Hwang Hee-Chan",
+    "name": "Hwang Hee-chan",
     "pos": "Attacker",
     "team": "17"
   },
@@ -2580,7 +2580,7 @@
     "team": "1504"
   },
   "25348": {
-    "name": "V. Darida",
+    "name": "Vladimír Darida",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -2890,32 +2890,32 @@
     "team": "1568"
   },
   "34168": {
-    "name": "Kim Jin-Gyu",
+    "name": "Jin-gyu Kim",
     "pos": "Midfielder",
     "team": "17"
   },
   "34211": {
-    "name": "Cho Gue-Sung",
+    "name": "Gue-sung Cho",
     "pos": "Attacker",
     "team": "17"
   },
   "34374": {
-    "name": "Song Bum-Keun",
+    "name": "Song Bum-keun",
     "pos": "Goalkeeper",
     "team": "17"
   },
   "34418": {
-    "name": "Kim Tae-Hyeon",
+    "name": "Kim Tae-hyeon",
     "pos": "Defender",
     "team": "17"
   },
   "34431": {
-    "name": "Lee Dong-Gyeong",
-    "pos": "Attacker",
+    "name": "Dong-gyeong Lee",
+    "pos": "Midfielder",
     "team": "17"
   },
   "34710": {
-    "name": "Oh Hyeon-Gyu",
+    "name": "Hyeon-gyu Oh",
     "pos": "Attacker",
     "team": "17"
   },
@@ -4120,7 +4120,7 @@
     "team": "1568"
   },
   "66019": {
-    "name": "A. Hlozek",
+    "name": "Adam Hložek",
     "pos": "Attacker",
     "team": "770"
   },
@@ -4130,37 +4130,37 @@
     "team": "3"
   },
   "66214": {
-    "name": "D. Doudera",
+    "name": "David Douděra",
     "pos": "Midfielder",
     "team": "770"
   },
   "66275": {
-    "name": "M. Chytil",
+    "name": "Mojmír Chytil",
     "pos": "Attacker",
     "team": "770"
   },
   "66340": {
-    "name": "J. Kuchta",
+    "name": "Jan Kuchta",
     "pos": "Attacker",
     "team": "770"
   },
   "66347": {
-    "name": "J. Stanek",
+    "name": "Jindřich Staněk",
     "pos": "Goalkeeper",
     "team": "770"
   },
   "66353": {
-    "name": "L. Provod",
+    "name": "Lukáš Provod",
     "pos": "Attacker",
     "team": "770"
   },
   "66387": {
-    "name": "P. Sulc",
+    "name": "Pavel Šulc",
     "pos": "Attacker",
     "team": "770"
   },
   "66407": {
-    "name": "L. Krejcí",
+    "name": "Ladislav Krejčí",
     "pos": "Defender",
     "team": "770"
   },
@@ -4455,7 +4455,7 @@
     "team": "1531"
   },
   "99211": {
-    "name": "Park Jin-Seop",
+    "name": "Jin-seob Park",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -4655,12 +4655,12 @@
     "team": "2386"
   },
   "128772": {
-    "name": "D. Zima",
+    "name": "David Zima",
     "pos": "Defender",
     "team": "770"
   },
   "128793": {
-    "name": "D. Jurásek",
+    "name": "David Jurásek",
     "pos": "Defender",
     "team": "770"
   },
@@ -4800,7 +4800,7 @@
     "team": "10"
   },
   "138804": {
-    "name": "M. Kovár",
+    "name": "Matěj Kovář",
     "pos": "Goalkeeper",
     "team": "770"
   },
@@ -5020,7 +5020,7 @@
     "team": "1"
   },
   "162194": {
-    "name": "L. Cerv",
+    "name": "Lukáš Červ",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -5090,7 +5090,7 @@
     "team": "1094"
   },
   "162964": {
-    "name": "R. Hranác",
+    "name": "Robin Hranáč",
     "pos": "Defender",
     "team": "770"
   },
@@ -5325,7 +5325,7 @@
     "team": "1567"
   },
   "197985": {
-    "name": "Seol Young-Woo",
+    "name": "Young-woo Seol",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -5490,7 +5490,7 @@
     "team": "1567"
   },
   "237050": {
-    "name": "Eom Ji-Sung",
+    "name": "Ji-sung Eom",
     "pos": "Attacker",
     "team": "17"
   },
@@ -5505,12 +5505,12 @@
     "team": "13"
   },
   "237218": {
-    "name": "Lee Han-Beom",
+    "name": "Han-Beom Lee",
     "pos": "Defender",
     "team": "17"
   },
   "237220": {
-    "name": "Lee Tae-Seok",
+    "name": "Lee Tae-seok",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -5635,7 +5635,7 @@
     "team": "32"
   },
   "269349": {
-    "name": "L. Hornícek",
+    "name": "Lukáš Horníček",
     "pos": "Goalkeeper",
     "team": "770"
   },
@@ -5750,7 +5750,7 @@
     "team": "25"
   },
   "280358": {
-    "name": "J. Castrop",
+    "name": "Jens Castrop",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -5830,7 +5830,7 @@
     "team": "768"
   },
   "290212": {
-    "name": "D. Visinský",
+    "name": "Denis Višinský",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -5960,7 +5960,7 @@
     "team": "12"
   },
   "304951": {
-    "name": "Lee Gi-Hyuk",
+    "name": "Gi-Hyuk Lee",
     "pos": "Defender",
     "team": "17"
   },
@@ -6265,7 +6265,7 @@
     "team": "20"
   },
   "337740": {
-    "name": "S. Chaloupek",
+    "name": "Štěpán Chaloupek",
     "pos": "Defender",
     "team": "770"
   },
@@ -6534,9 +6534,14 @@
     "pos": "Attacker",
     "team": "768"
   },
+  "357209": {
+    "name": "Wi-je Cho",
+    "pos": "Defender",
+    "team": "17"
+  },
   "357286": {
-    "name": "Bae Jun-Ho",
-    "pos": "Attacker",
+    "name": "Jun-Ho Bae",
+    "pos": "Midfielder",
     "team": "17"
   },
   "358427": {
@@ -6685,7 +6690,7 @@
     "team": "9"
   },
   "386837": {
-    "name": "A. Sojka",
+    "name": "Alexandr Sojka",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -7195,7 +7200,7 @@
     "team": "11"
   },
   "555437": {
-    "name": "H. Sochurek",
+    "name": "Hugo Sochurek",
     "pos": "Midfielder",
     "team": "770"
   },
