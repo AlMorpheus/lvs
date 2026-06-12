@@ -62,7 +62,7 @@
     },
     "away": {
       "id": 770,
-      "name": "Czech Republic",
+      "name": "Czechia",
       "flag": "https://media.api-sports.io/football/teams/770.png"
     },
     "score": {
@@ -101,7 +101,7 @@
       }
     ],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1
   },
   {
     "id": "1539000",
@@ -709,7 +709,7 @@
     "stage": "group",
     "home": {
       "id": 770,
-      "name": "Czech Republic",
+      "name": "Czechia",
       "flag": "https://media.api-sports.io/football/teams/770.png"
     },
     "away": {
@@ -725,7 +725,7 @@
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1
   },
   {
     "id": "1539005",
@@ -1465,7 +1465,7 @@
     "stage": "group",
     "home": {
       "id": 770,
-      "name": "Czech Republic",
+      "name": "Czechia",
       "flag": "https://media.api-sports.io/football/teams/770.png"
     },
     "away": {
@@ -1481,7 +1481,7 @@
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1
   },
   {
     "id": "1489407",
