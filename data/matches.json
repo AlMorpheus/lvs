@@ -26,6 +26,7 @@
     },
     "finished": true,
     "finishedAt": "2026-06-11T21:10:04.655Z",
+    "lineupAt": null,
     "scorers": [
       {
         "playerId": 35532,
@@ -73,6 +74,7 @@
     },
     "finished": true,
     "finishedAt": "2026-06-12T03:55:51.086Z",
+    "lineupAt": null,
     "scorers": [
       {
         "playerId": 66407,
@@ -120,6 +122,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -145,6 +148,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -170,6 +174,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -195,6 +200,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -220,6 +226,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -245,6 +252,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -270,6 +278,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -295,6 +304,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -320,6 +330,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -345,6 +356,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -370,6 +382,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -395,6 +408,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -420,6 +434,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -445,6 +460,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -470,6 +486,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -495,6 +512,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -520,6 +538,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -545,6 +564,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -570,6 +590,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -595,6 +616,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.6
@@ -620,6 +642,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -645,6 +668,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -670,6 +694,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -695,6 +720,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -720,6 +746,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -745,6 +772,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -770,6 +798,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -795,6 +824,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -820,6 +850,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -845,6 +876,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -870,6 +902,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -895,6 +928,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -920,6 +954,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -945,6 +980,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -970,6 +1006,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -995,6 +1032,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1020,6 +1058,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1045,6 +1084,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1070,6 +1110,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1095,6 +1136,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1120,6 +1162,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1145,6 +1188,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1170,6 +1214,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1195,6 +1240,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1220,6 +1266,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1245,6 +1292,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1270,6 +1318,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1295,6 +1344,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1320,6 +1370,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1345,6 +1396,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1370,6 +1422,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1395,6 +1448,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1420,6 +1474,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1445,6 +1500,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1470,6 +1526,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1495,6 +1552,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1520,6 +1578,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1545,6 +1604,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1570,6 +1630,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1595,6 +1656,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1620,6 +1682,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.6
@@ -1645,6 +1708,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1670,6 +1734,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1695,6 +1760,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1720,6 +1786,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
@@ -1745,6 +1812,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1770,6 +1838,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1795,6 +1864,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1820,6 +1890,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
@@ -1845,6 +1916,7 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
+    "lineupAt": null,
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
