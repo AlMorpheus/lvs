@@ -1,14 +1,14 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=50';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=50';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=50';
-import { renderLogin } from './ui/login.js?v=50';
-import { renderMatches, renderHistory } from './ui/matches.js?v=50';
-import { renderTable } from './ui/table.js?v=50';
-import { renderRules } from './ui/rules.js?v=50';
-import { maybeOnboard } from './ui/onboarding.js?v=50';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=50';
-import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=50';
+import { initCrypto } from './crypto.js?v=51';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=51';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=51';
+import { renderLogin } from './ui/login.js?v=51';
+import { renderMatches, renderHistory } from './ui/matches.js?v=51';
+import { renderTable } from './ui/table.js?v=51';
+import { renderRules } from './ui/rules.js?v=51';
+import { maybeOnboard } from './ui/onboarding.js?v=51';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=51';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=51';
 
 const root = document.getElementById('root');
 
@@ -66,7 +66,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=50', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=51', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
@@ -168,8 +168,13 @@ function startAutoRefresh() {
       if (sig() !== before) route(); // перерисовываем только когда данные реально изменились
     } catch {}
   };
-  setInterval(tick, 45000);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) tick(); }); // и при возврате в приложение
+  setInterval(tick, 30000);
+  // обновляемся при любом возврате в приложение: на iOS JS в фоне засыпает, и
+  // событие может прийти любым из этих (visibilitychange/focus/pageshow).
+  const onActive = () => { if (!document.hidden) tick(); };
+  document.addEventListener('visibilitychange', onActive);
+  window.addEventListener('focus', onActive);
+  window.addEventListener('pageshow', onActive);
 }
 
 function doLogout() {

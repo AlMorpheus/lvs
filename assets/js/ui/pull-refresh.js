@@ -1,21 +1,22 @@
-// Pull-to-refresh для домашнего web-app на iOS: в standalone нет нативного PTR.
-// В обычном браузере не включаем — там работает родной pull-to-refresh.
+// Pull-to-refresh: свайп-вниз-обновление. Включаем на любых тач-устройствах — в standalone
+// (иконка на экране «Домой») нативного PTR нет, а определение standalone на iOS ненадёжно,
+// поэтому не полагаемся на него. В обычном Safari это просто заменяет родной PTR эквивалентом.
 const THRESHOLD = 70; // насколько потянуть, чтобы сработало
 const MAX = 120; // максимум смещения индикатора
 const DAMP = 0.5; // сопротивление (тянем «тяжелее», чем палец)
+
+// прокручены ли в самый верх (надёжно для разных движков, включая iOS standalone)
+const atTop = () => (window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0) <= 0;
 
 function enabled() {
   try {
     if (localStorage.getItem('ptrForce') === '1') return true; // ручной хук для проверки
   } catch {}
-  return (
-    window.navigator.standalone === true ||
-    (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches)
-  );
+  return 'ontouchstart' in window || (navigator.maxTouchPoints || 0) > 0;
 }
 
 export function setupPullToRefresh(onRefresh) {
-  if (!enabled()) return; // только standalone — обычный Safari не трогаем
+  if (!enabled()) return; // только тач-устройства (на десктопе жеста нет)
   if (document.getElementById('ptr')) return; // навешиваем один раз
 
   const el = document.createElement('div');
@@ -35,7 +36,7 @@ export function setupPullToRefresh(onRefresh) {
   document.addEventListener(
     'touchstart',
     (e) => {
-      if (busy || e.touches.length !== 1 || window.scrollY > 0) {
+      if (busy || e.touches.length !== 1 || !atTop()) {
         active = false;
         return;
       }
@@ -51,7 +52,7 @@ export function setupPullToRefresh(onRefresh) {
     'touchmove',
     (e) => {
       if (!active || busy) return;
-      if (window.scrollY > 0) {
+      if (!atTop()) {
         active = false;
         return;
       }

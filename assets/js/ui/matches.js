@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=50';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=50';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=50';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=50';
-import { renderGreeting } from './greeting.js?v=50';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=51';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=51';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=51';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=51';
+import { renderGreeting } from './greeting.js?v=51';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
