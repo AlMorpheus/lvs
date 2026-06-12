@@ -1,15 +1,16 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=53';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=53';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=53';
-import { renderLogin } from './ui/login.js?v=53';
-import { renderMatches, renderHistory } from './ui/matches.js?v=53';
-import { renderTable } from './ui/table.js?v=53';
-import { renderRules } from './ui/rules.js?v=53';
-import { maybeOnboard } from './ui/onboarding.js?v=53';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=53';
-import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=53';
-import { pushSupported, pushState, enablePush, disablePush, registerSW, isIOS, isStandalone } from './push.js?v=53';
+import { initCrypto } from './crypto.js?v=54';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=54';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=54';
+import { renderLogin } from './ui/login.js?v=54';
+import { renderMatches, renderHistory } from './ui/matches.js?v=54';
+import { renderTable } from './ui/table.js?v=54';
+import { renderRules } from './ui/rules.js?v=54';
+import { maybeOnboard } from './ui/onboarding.js?v=54';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=54';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=54';
+import { pushSupported, pushState, enablePush, disablePush, registerSW, isIOS, isStandalone } from './push.js?v=54';
+import { maybeShowInstallPrompt } from './ui/install-prompt.js?v=54';
 
 const root = document.getElementById('root');
 
@@ -67,7 +68,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=53', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=54', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>
@@ -306,6 +307,8 @@ async function boot() {
   } else {
     showLogin(); // крипто подгрузится при самом входе
   }
+  // подсказка «добавь на экран Домой» тем, кто открыл сайт во вкладке браузера (не в PWA)
+  setTimeout(maybeShowInstallPrompt, 1800);
 }
 
 boot();
