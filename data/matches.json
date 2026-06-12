@@ -49,7 +49,7 @@
   {
     "id": "1538999",
     "date": "2026-06-12T02:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -67,10 +67,35 @@
       "home": 2,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "scorers": [],
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-12T03:55:51.086Z",
+    "scorers": [
+      {
+        "playerId": 66407,
+        "name": "L. Krejci",
+        "teamId": 770,
+        "minute": 59,
+        "type": "normal"
+      },
+      {
+        "playerId": 2901,
+        "name": "Hwang In-Beom",
+        "teamId": 17,
+        "minute": 67,
+        "type": "normal"
+      },
+      {
+        "playerId": 34710,
+        "name": "Oh Hyeon-Gyu",
+        "teamId": 17,
+        "minute": 80,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },

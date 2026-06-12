@@ -18,6 +18,17 @@
           "total": 62,
           "isExact": true,
           "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 1,
@@ -41,6 +52,17 @@
           "special": 0,
           "total": 54,
           "isExact": true,
+          "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
           "usedReg": false
         }
       },
@@ -66,11 +88,57 @@
           "total": 50,
           "isExact": true,
           "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 3,
       "champion": "2",
       "topScorer": "278"
+    },
+    {
+      "id": "albert",
+      "name": "Альберт",
+      "matchPts": 43,
+      "futuresPts": 0,
+      "total": 43,
+      "exactCount": 1,
+      "perMatch": {
+        "1489369": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 2,
+          "special": 0,
+          "total": 10,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 25,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 25,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 33,
+          "isExact": true,
+          "usedReg": false
+        }
+      },
+      "rank": 4,
+      "champion": "2",
+      "topScorer": "874"
     },
     {
       "id": "liza",
@@ -90,9 +158,20 @@
           "total": 18,
           "isExact": false,
           "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
-      "rank": 4,
+      "rank": 5,
       "champion": "9",
       "topScorer": "386828"
     },
@@ -114,9 +193,20 @@
           "total": 18,
           "isExact": false,
           "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
-      "rank": 5,
+      "rank": 6,
       "champion": "10",
       "topScorer": "184"
     },
@@ -138,38 +228,25 @@
           "total": 14,
           "isExact": false,
           "usedReg": false
-        }
-      },
-      "rank": 6,
-      "champion": "2",
-      "topScorer": "184"
-    },
-    {
-      "id": "albert",
-      "name": "Альберт",
-      "matchPts": 10,
-      "futuresPts": 0,
-      "total": 10,
-      "exactCount": 0,
-      "perMatch": {
-        "1489369": {
-          "scorePts": 5,
+        },
+        "1538999": {
+          "scorePts": 0,
           "scorerPts": 0,
           "correctScorers": 0,
-          "base": 5,
-          "multiplier": 2,
+          "base": 0,
+          "multiplier": 1.3,
           "special": 0,
-          "total": 10,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         }
       },
       "rank": 7,
       "champion": "2",
-      "topScorer": "874"
+      "topScorer": "184"
     }
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-11T21:10:05.040Z"
+  "updatedAt": "2026-06-12T03:55:51.337Z"
 }
