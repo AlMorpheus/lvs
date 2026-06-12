@@ -141,6 +141,7 @@ async function buildMatches() {
       finished,
       finishedAt: finishedAtFor(finished, prevM, f.fixture?.date),
       lineupAt: prevM?.lineupAt || null, // когда впервые появился стартовый состав (для пуша + UI)
+      remind2hAt: prevM?.remind2hAt || null, // когда отправили напоминание «скоро матч» (за ~2 ч)
       scorers: prevM?.scorers || [],
       multiplierOverride: overrides.matches?.[String(f.fixture?.id)]?.multiplier ?? null,
     };
@@ -563,36 +564,66 @@ function readPushSubs() {
   return out;
 }
 
+// Напоминание «скоро матч» за ~2 ч до начала. Метку remind2hAt ставим один раз,
+// она персистится в matches.json → каждый матч напоминаем единожды.
+const REMIND_LEAD_MS = 2 * 3600 * 1000;
+function markDueReminders(matches) {
+  const now = Date.now();
+  for (const m of matches) {
+    if (m.finished || m.remind2hAt) continue;
+    const left = new Date(m.date).getTime() - now;
+    if (left > 0 && left <= REMIND_LEAD_MS) { // вошли в окно «за 2 ч», матч ещё не начался
+      m.remind2hAt = new Date().toISOString();
+      m.remindJustDue = true;
+    }
+  }
+}
+
+// Разослать один payload всем подписчикам; мёртвые подписки (404/410) удаляем.
+async function broadcast(wp, subs, payload, tagLog) {
+  let ok = 0;
+  for (const s of subs) {
+    try {
+      await wp.sendNotification(s.sub, payload);
+      ok++;
+    } catch (e) {
+      const code = e.statusCode;
+      if (code === 404 || code === 410) {
+        try { rmSync(P(s.rel)); console.log('🔕 удалена мёртвая подписка', s.userId); } catch {}
+      } else {
+        console.warn('push send', s.userId, code || e.message);
+      }
+    }
+  }
+  console.log(`🔔 пуш «${tagLog}» → доставлено ${ok}/${subs.length}`);
+}
+
 async function sendPushNotifications(matches) {
   const wp = configureWebPush();
   if (!wp) return;
   const ready = matches.filter((m) => m.lineupJustReady && !m.finished);
-  if (!ready.length) return;
+  const reminders = matches.filter((m) => m.remindJustDue && !m.finished);
+  if (!ready.length && !reminders.length) return;
   const subs = readPushSubs();
   if (!subs.length) return;
 
+  for (const match of reminders) {
+    const hrs = Math.max(1, Math.round((new Date(match.date).getTime() - Date.now()) / 3600000));
+    await broadcast(wp, subs, JSON.stringify({
+      title: '⏰ Скоро матч',
+      body: `${match.home?.name} – ${match.away?.name} начнётся примерно через ${hrs} ч. Не забудьте сделать прогноз!`,
+      tag: 'remind-' + match.id,
+      url: `./#matches?m=${match.id}`,
+    }), `напоминание ${match.id}`);
+  }
+
   for (const match of ready) {
-    const payload = JSON.stringify({
+    await broadcast(wp, subs, JSON.stringify({
       title: '📋 Стартовый состав доступен',
       body: `${match.home?.name} – ${match.away?.name}: вышли стартовые составы. Можно уточнить ставку на бомбардиров.`,
       tag: 'lineup-' + match.id,
       url: `./#matches?m=${match.id}`,
-    });
-    let ok = 0;
-    for (const s of subs) {
-      try {
-        await wp.sendNotification(s.sub, payload);
-        ok++;
-      } catch (e) {
-        const code = e.statusCode;
-        if (code === 404 || code === 410) {
-          try { rmSync(P(s.rel)); console.log('🔕 удалена мёртвая подписка', s.userId); } catch {}
-        } else {
-          console.warn('push send', s.userId, code || e.message);
-        }
-      }
-    }
-    console.log(`🔔 пуш «стартовый состав» по матчу ${match.id} (${match.home?.name} – ${match.away?.name}) → доставлено ${ok}/${subs.length}`);
+    }), `стартовый состав ${match.id}`);
   }
 }
 
@@ -606,7 +637,8 @@ async function main() {
   const doDailyRefresh = app.tournament.squadsRefreshedOn !== today;
   const squads = await updateSquads(matches, doDailyRefresh);
   await applyLineups(matches, squads); // точная заявка (основа/запас) + метка lineupAt для ближайших матчей
-  // matches.json пишем ПОСЛЕ applyLineups — иначе метка lineupAt не сохранится
+  markDueReminders(matches); // отметить матчи, по которым пора слать напоминание «скоро матч» (за ~2 ч)
+  // matches.json пишем ПОСЛЕ applyLineups/markDueReminders — иначе метки lineupAt/remind2hAt не сохранятся
   writeJSON('data/matches.json', matches);
   writeJSON('data/squads.json', squads);
   await sendPushNotifications(matches).catch((e) => console.warn('push:', e.message)); // «стартовый состав доступен»
