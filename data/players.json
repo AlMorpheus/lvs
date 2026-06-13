@@ -15,7 +15,7 @@
     "team": "31"
   },
   "17": {
-    "name": "C. Pulisic",
+    "name": "Christian Pulišić",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -265,7 +265,7 @@
     "team": "1532"
   },
   "415": {
-    "name": "W. McKennie",
+    "name": "Weston McKennie",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -280,7 +280,7 @@
     "team": "15"
   },
   "427": {
-    "name": "H. Wright",
+    "name": "Haji Wright",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -715,7 +715,7 @@
     "team": "1108"
   },
   "1138": {
-    "name": "T. Weah",
+    "name": "Tim Weah",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -735,7 +735,7 @@
     "team": "2"
   },
   "1150": {
-    "name": "T. Adams",
+    "name": "Tyler Adams",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -1094,33 +1094,38 @@
     "pos": "Midfielder",
     "team": "8"
   },
+  "2497": {
+    "name": "Roberto Fernández",
+    "pos": "Goalkeeper",
+    "team": "2380"
+  },
   "2499": {
-    "name": "J. Alonso",
+    "name": "Junior Alonso",
     "pos": "Defender",
     "team": "2380"
   },
   "2500": {
-    "name": "F. Balbuena",
+    "name": "Fabián Balbuena",
     "pos": "Defender",
     "team": "2380"
   },
   "2502": {
-    "name": "G. Gómez",
+    "name": "Gustavo Gómez",
     "pos": "Defender",
     "team": "2380"
   },
   "2507": {
-    "name": "M. Almirón",
+    "name": "Miguel Almirón",
     "pos": "Midfielder",
     "team": "2380"
   },
   "2514": {
-    "name": "A. Romero",
-    "pos": "Attacker",
+    "name": "Alejandro Romero",
+    "pos": "Midfielder",
     "team": "2380"
   },
   "2522": {
-    "name": "A. Sanabria",
+    "name": "Antonio Sanabria",
     "pos": "Attacker",
     "team": "2380"
   },
@@ -1670,7 +1675,7 @@
     "team": "26"
   },
   "6168": {
-    "name": "O. Alderete",
+    "name": "Omar Alderete",
     "pos": "Defender",
     "team": "2380"
   },
@@ -1680,7 +1685,7 @@
     "team": "26"
   },
   "6236": {
-    "name": "A. Cubas",
+    "name": "Andrés Cubas",
     "pos": "Midfielder",
     "team": "2380"
   },
@@ -1690,7 +1695,7 @@
     "team": "768"
   },
   "6483": {
-    "name": "G. Ávalos",
+    "name": "Gabriel Ávalos",
     "pos": "Attacker",
     "team": "2380"
   },
@@ -2185,7 +2190,7 @@
     "team": "5530"
   },
   "19023": {
-    "name": "T. Ream",
+    "name": "Tim Ream",
     "pos": "Defender",
     "team": "2384"
   },
@@ -2290,7 +2295,7 @@
     "team": "10"
   },
   "19549": {
-    "name": "A. Robinson",
+    "name": "Antonee Robinson",
     "pos": "Defender",
     "team": "2384"
   },
@@ -2955,12 +2960,12 @@
     "team": "16"
   },
   "35808": {
-    "name": "G. Velázquez",
+    "name": "Gustavo Velázquez",
     "pos": "Defender",
     "team": "2380"
   },
   "35885": {
-    "name": "A. Zendejas",
+    "name": "Alex Zendejas",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -3110,7 +3115,7 @@
     "team": "5530"
   },
   "38735": {
-    "name": "S. Dest",
+    "name": "Sergiño Dest",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -3775,22 +3780,22 @@
     "team": "1568"
   },
   "50728": {
-    "name": "M. Freese",
+    "name": "Matthew Freese",
     "pos": "Goalkeeper",
     "team": "2384"
   },
   "50735": {
-    "name": "M. McKenzie",
+    "name": "Mark McKenzie",
     "pos": "Defender",
     "team": "2384"
   },
   "50737": {
-    "name": "A. Trusty",
+    "name": "Auston Trusty",
     "pos": "Defender",
     "team": "2384"
   },
   "50739": {
-    "name": "B. Aaronson",
+    "name": "Brenden Aaronson",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -3820,12 +3825,12 @@
     "team": "5529"
   },
   "50852": {
-    "name": "J. Scally",
+    "name": "Joe Scally",
     "pos": "Defender",
     "team": "2384"
   },
   "50879": {
-    "name": "M. Robinson",
+    "name": "Miles Robinson",
     "pos": "Defender",
     "team": "2384"
   },
@@ -3835,7 +3840,7 @@
     "team": "2386"
   },
   "50999": {
-    "name": "M. Turner",
+    "name": "Matt Turner",
     "pos": "Goalkeeper",
     "team": "2384"
   },
@@ -3845,7 +3850,7 @@
     "team": "5529"
   },
   "51114": {
-    "name": "C. Roldan",
+    "name": "Cristian Roldán",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -3920,7 +3925,7 @@
     "team": "11"
   },
   "51733": {
-    "name": "G. Olveira",
+    "name": "Gastón Olveira",
     "pos": "Goalkeeper",
     "team": "2380"
   },
@@ -4210,27 +4215,27 @@
     "team": "32"
   },
   "70670": {
-    "name": "I. Pitta",
+    "name": "Isidro Pitta",
     "pos": "Attacker",
     "team": "2380"
   },
   "70732": {
-    "name": "J. Canale",
+    "name": "José Canale",
     "pos": "Defender",
     "team": "2380"
   },
   "70747": {
-    "name": "J. Enciso",
+    "name": "Julio Enciso",
     "pos": "Attacker",
     "team": "2380"
   },
   "70767": {
-    "name": "B. Ojeda",
+    "name": "Braian Ojeda",
     "pos": "Midfielder",
     "team": "2380"
   },
   "70852": {
-    "name": "O. Gill",
+    "name": "Orlando Gill",
     "pos": "Goalkeeper",
     "team": "2380"
   },
@@ -4305,7 +4310,7 @@
     "team": "1568"
   },
   "73868": {
-    "name": "R. Pepi",
+    "name": "Ricardo Pepi",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -4435,7 +4440,7 @@
     "team": "16"
   },
   "95460": {
-    "name": "A. Arce",
+    "name": "Alex Arce",
     "pos": "Attacker",
     "team": "2380"
   },
@@ -4480,7 +4485,7 @@
     "team": "1548"
   },
   "106485": {
-    "name": "Maurício",
+    "name": "Mauricio",
     "pos": "Midfielder",
     "team": "2380"
   },
@@ -4545,8 +4550,8 @@
     "team": "774"
   },
   "119128": {
-    "name": "G. Caballero",
-    "pos": "Midfielder",
+    "name": "Gustavo Caballero",
+    "pos": "Attacker",
     "team": "2380"
   },
   "119853": {
@@ -4605,7 +4610,7 @@
     "team": "767"
   },
   "126949": {
-    "name": "C. Richards",
+    "name": "Chris Richards",
     "pos": "Defender",
     "team": "2384"
   },
@@ -4805,7 +4810,7 @@
     "team": "770"
   },
   "138835": {
-    "name": "F. Balogun",
+    "name": "Folarin Balogun",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -4995,7 +5000,7 @@
     "team": "2"
   },
   "161921": {
-    "name": "G. Reyna",
+    "name": "Giovanni Reyna",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -5010,7 +5015,7 @@
     "team": "1"
   },
   "162037": {
-    "name": "M. Tillman",
+    "name": "Malik Tillman",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -5295,12 +5300,12 @@
     "team": "8"
   },
   "195107": {
-    "name": "D. Bobadilla",
+    "name": "Damián Bobadilla",
     "pos": "Midfielder",
     "team": "2380"
   },
   "195992": {
-    "name": "J. Cáceres",
+    "name": "Juan Cáceres",
     "pos": "Defender",
     "team": "2380"
   },
@@ -5315,8 +5320,8 @@
     "team": "1504"
   },
   "196298": {
-    "name": "R. Sosa",
-    "pos": "Midfielder",
+    "name": "Ramón Sosa",
+    "pos": "Attacker",
     "team": "2380"
   },
   "196343": {
@@ -5395,7 +5400,7 @@
     "team": "1531"
   },
   "201713": {
-    "name": "S. Berhalter",
+    "name": "Sebastian Berhalter",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -5610,7 +5615,7 @@
     "team": "16"
   },
   "266606": {
-    "name": "C. Brady",
+    "name": "Chris Brady",
     "pos": "Goalkeeper",
     "team": "2384"
   },
@@ -5735,7 +5740,7 @@
     "team": "1090"
   },
   "278370": {
-    "name": "D. Gómez",
+    "name": "Diego Gómez",
     "pos": "Midfielder",
     "team": "2380"
   },
@@ -5975,7 +5980,7 @@
     "team": "17"
   },
   "305832": {
-    "name": "M. Galarza",
+    "name": "Matías Galarza",
     "pos": "Midfielder",
     "team": "2380"
   },
@@ -6530,7 +6535,7 @@
     "team": "1531"
   },
   "355994": {
-    "name": "A. Freeman",
+    "name": "Alexander Freeman",
     "pos": "Defender",
     "team": "2384"
   },
@@ -6585,7 +6590,7 @@
     "team": "5529"
   },
   "362400": {
-    "name": "M. Arfsten",
+    "name": "Maximilian Arfsten",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -6905,7 +6910,7 @@
     "team": "22"
   },
   "425020": {
-    "name": "A. Maidana",
+    "name": "Alexandro Maidana",
     "pos": "Defender",
     "team": "2380"
   },
