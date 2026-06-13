@@ -154,7 +154,7 @@
   {
     "id": "1489370",
     "date": "2026-06-13T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -172,12 +172,51 @@
       "home": 4,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 4,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-13T03:05:02.977Z",
     "lineupAt": "2026-06-13T00:31:58.786Z",
     "remind2hAt": "2026-06-12T23:00:49.533Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 195107,
+        "name": "Damian Bobadilla",
+        "teamId": 2384,
+        "minute": 7,
+        "type": "own"
+      },
+      {
+        "playerId": 138835,
+        "name": "Folarin Balogun",
+        "teamId": 2384,
+        "minute": 31,
+        "type": "normal"
+      },
+      {
+        "playerId": 138835,
+        "name": "Folarin Balogun",
+        "teamId": 2384,
+        "minute": 50,
+        "type": "normal"
+      },
+      {
+        "playerId": 106485,
+        "name": "Maurício Magalhães Prado",
+        "teamId": 2380,
+        "minute": 73,
+        "type": "normal"
+      },
+      {
+        "playerId": 161921,
+        "name": "Giovanni Reyna",
+        "teamId": 2384,
+        "minute": 98,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
