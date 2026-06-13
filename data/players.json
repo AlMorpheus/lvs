@@ -126,7 +126,7 @@
   },
   "225": {
     "name": "A. Behich",
-    "pos": "Defender",
+    "pos": "Midfielder",
     "team": "20"
   },
   "226": {
@@ -296,7 +296,7 @@
   },
   "454": {
     "name": "Y. Akgün",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "777"
   },
   "497": {
@@ -526,7 +526,7 @@
   },
   "762": {
     "name": "Vinícius Júnior",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "6"
   },
   "778": {
@@ -1356,7 +1356,7 @@
   },
   "2751": {
     "name": "M. Leckie",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "20"
   },
   "2755": {
@@ -1381,7 +1381,7 @@
   },
   "2810": {
     "name": "D. Zakaria",
-    "pos": "Defender",
+    "pos": "Midfielder",
     "team": "15"
   },
   "2851": {
@@ -4061,7 +4061,7 @@
   },
   "63274": {
     "name": "B. Yilmaz",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "777"
   },
   "63964": {
@@ -4651,7 +4651,7 @@
   },
   "128766": {
     "name": "L. Deedson",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "2386"
   },
   "128772": {
@@ -4716,7 +4716,7 @@
   },
   "134590": {
     "name": "O. Aydin",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "777"
   },
   "134995": {
@@ -4891,7 +4891,7 @@
   },
   "153622": {
     "name": "K. Trewin",
-    "pos": "Defender",
+    "pos": "Midfielder",
     "team": "20"
   },
   "156477": {
@@ -5146,7 +5146,7 @@
   },
   "174915": {
     "name": "J. Casimir",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "2386"
   },
   "175439": {
@@ -5596,7 +5596,7 @@
   },
   "265785": {
     "name": "Luiz Henrique",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "6"
   },
   "265820": {
@@ -6601,7 +6601,7 @@
   },
   "366516": {
     "name": "G. Laye",
-    "pos": "Defender",
+    "pos": "Midfielder",
     "team": "1569"
   },
   "369425": {
@@ -6946,7 +6946,7 @@
   },
   "433272": {
     "name": "Findlay Curtis",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1108"
   },
   "436260": {

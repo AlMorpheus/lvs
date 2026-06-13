@@ -749,7 +749,7 @@
     {
       "id": 265785,
       "name": "Luiz Henrique",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 21
     },
     {
@@ -785,7 +785,7 @@
     {
       "id": 762,
       "name": "Vinícius Júnior",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 7
     }
   ],
@@ -1995,7 +1995,7 @@
     {
       "id": 2810,
       "name": "D. Zakaria",
-      "pos": "Defender",
+      "pos": "Midfielder",
       "number": 6
     },
     {
@@ -2374,7 +2374,7 @@
       "id": 353883,
       "name": "P. Beach",
       "pos": "Goalkeeper",
-      "number": 28
+      "number": 18
     },
     {
       "id": 6870,
@@ -2391,7 +2391,7 @@
     {
       "id": 225,
       "name": "A. Behich",
-      "pos": "Defender",
+      "pos": "Midfielder",
       "number": 16
     },
     {
@@ -2416,13 +2416,13 @@
       "id": 33847,
       "name": "J. Geria",
       "pos": "Defender",
-      "number": 25
+      "number": 6
     },
     {
       "id": 426480,
       "name": "L. Herrington",
       "pos": "Defender",
-      "number": 26
+      "number": 25
     },
     {
       "id": 20079,
@@ -2440,13 +2440,13 @@
       "id": 6808,
       "name": "J. Italiano",
       "pos": "Defender",
-      "number": 23
+      "number": 4
     },
     {
       "id": 153622,
       "name": "K. Trewin",
-      "pos": "Defender",
-      "number": 36
+      "pos": "Midfielder",
+      "number": 15
     },
     {
       "id": 2749,
@@ -2458,7 +2458,7 @@
       "id": 6832,
       "name": "C. Devlin",
       "pos": "Midfielder",
-      "number": 17
+      "number": 14
     },
     {
       "id": 7050,
@@ -2470,7 +2470,7 @@
       "id": 441269,
       "name": "Paul Okon-Engstler",
       "pos": "Midfielder",
-      "number": 20
+      "number": 24
     },
     {
       "id": 6904,
@@ -2494,19 +2494,19 @@
       "id": 338014,
       "name": "N. Irankunda",
       "pos": "Attacker",
-      "number": 11
+      "number": 17
     },
     {
       "id": 2751,
       "name": "M. Leckie",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 7
     },
     {
       "id": 2755,
       "name": "A. Mabil",
       "pos": "Midfielder",
-      "number": 38
+      "number": 11
     },
     {
       "id": 296645,
@@ -2524,7 +2524,7 @@
       "id": 312459,
       "name": "N. Velupillay",
       "pos": "Attacker",
-      "number": 34
+      "number": 23
     }
   ],
   "22": [
@@ -4544,7 +4544,7 @@
       "id": 62490,
       "name": "S. Akaydin",
       "pos": "Defender",
-      "number": 14
+      "number": 25
     },
     {
       "id": 61837,
@@ -4628,13 +4628,13 @@
       "id": 339887,
       "name": "C. Uzun",
       "pos": "Midfielder",
-      "number": 11
+      "number": 26
     },
     {
       "id": 134590,
       "name": "O. Aydin",
-      "pos": "Midfielder",
-      "number": 20
+      "pos": "Attacker",
+      "number": 24
     },
     {
       "id": 291964,
@@ -4645,7 +4645,7 @@
     {
       "id": 454,
       "name": "Y. Akgün",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 19
     },
     {
@@ -4675,7 +4675,7 @@
     {
       "id": 63274,
       "name": "B. Yilmaz",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 21
     }
   ],
@@ -5242,7 +5242,7 @@
       "id": 557460,
       "name": "T. Fletcher",
       "pos": "Midfielder",
-      "number": 4
+      "number": 8
     },
     {
       "id": 19191,
@@ -5301,7 +5301,7 @@
     {
       "id": 433272,
       "name": "Findlay Curtis",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 25
     }
   ],
@@ -7285,7 +7285,7 @@
     {
       "id": 366516,
       "name": "G. Laye",
-      "pos": "Defender",
+      "pos": "Midfielder",
       "number": 4
     },
     {
@@ -8106,18 +8106,18 @@
       "id": 194242,
       "name": "D. Simon",
       "pos": "Midfielder",
-      "number": 29
+      "number": 25
     },
     {
       "id": 174915,
       "name": "J. Casimir",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 21
     },
     {
       "id": 128766,
       "name": "L. Deedson",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 11
     },
     {
