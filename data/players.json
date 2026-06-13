@@ -10,7 +10,7 @@
     "team": "26"
   },
   "9": {
-    "name": "A. Hakimi",
+    "name": "Achraf Hakimi",
     "pos": "Defender",
     "team": "31"
   },
@@ -55,7 +55,7 @@
     "team": "1"
   },
   "74": {
-    "name": "S. Amrabat",
+    "name": "Sofyan Amrabat",
     "pos": "Midfielder",
     "team": "31"
   },
@@ -190,7 +190,7 @@
     "team": "2"
   },
   "280": {
-    "name": "Alisson Becker",
+    "name": "Alisson",
     "pos": "Goalkeeper",
     "team": "6"
   },
@@ -355,7 +355,7 @@
     "team": "1118"
   },
   "545": {
-    "name": "N. Mazraoui",
+    "name": "Noussair Mazraoui",
     "pos": "Defender",
     "team": "31"
   },
@@ -526,7 +526,7 @@
   },
   "762": {
     "name": "Vinícius Júnior",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "6"
   },
   "778": {
@@ -1320,22 +1320,22 @@
     "team": "22"
   },
   "2701": {
-    "name": "Y. Bounou",
+    "name": "Bono",
     "pos": "Goalkeeper",
     "team": "31"
   },
   "2702": {
-    "name": "M. Mohamedi",
+    "name": "Munir El Kajoui",
     "pos": "Goalkeeper",
     "team": "31"
   },
   "2703": {
-    "name": "A. Tagnaouti",
+    "name": "Ahmed Reda Tagnaouti",
     "pos": "Goalkeeper",
     "team": "31"
   },
   "2722": {
-    "name": "A. El Kaabi",
+    "name": "Ayoub El Kaabi",
     "pos": "Attacker",
     "team": "31"
   },
@@ -1869,6 +1869,11 @@
     "pos": "Goalkeeper",
     "team": "1113"
   },
+  "10097": {
+    "name": "Éderson",
+    "pos": "Midfielder",
+    "team": "6"
+  },
   "10124": {
     "name": "Léo Pereira",
     "pos": "Defender",
@@ -2100,7 +2105,7 @@
     "team": "777"
   },
   "18814": {
-    "name": "I. Diop",
+    "name": "Issa Diop",
     "pos": "Defender",
     "team": "31"
   },
@@ -2715,7 +2720,7 @@
     "team": "768"
   },
   "30424": {
-    "name": "Ibañez",
+    "name": "Roger Ibañez",
     "pos": "Defender",
     "team": "6"
   },
@@ -2985,7 +2990,7 @@
     "team": "16"
   },
   "36579": {
-    "name": "S. Rahimi",
+    "name": "Soufiane Rahimi",
     "pos": "Attacker",
     "team": "31"
   },
@@ -3753,6 +3758,11 @@
     "name": "M. Talbi",
     "pos": "Defender",
     "team": "28"
+  },
+  "50042": {
+    "name": "Marwane Saadane",
+    "pos": "Defender",
+    "team": "31"
   },
   "50057": {
     "name": "E. Elmali",
@@ -4690,7 +4700,7 @@
     "team": "1508"
   },
   "129678": {
-    "name": "A. Ounahi",
+    "name": "Azzedine Ounahi",
     "pos": "Midfielder",
     "team": "31"
   },
@@ -4865,7 +4875,7 @@
     "team": "1567"
   },
   "146772": {
-    "name": "Y. Belammari",
+    "name": "Youssef Belammari",
     "pos": "Defender",
     "team": "31"
   },
@@ -4985,7 +4995,7 @@
     "team": "5530"
   },
   "161897": {
-    "name": "I. Saibari",
+    "name": "Ismael Saibari",
     "pos": "Attacker",
     "team": "31"
   },
@@ -5055,7 +5065,7 @@
     "team": "15"
   },
   "162451": {
-    "name": "A. Salah-Eddine",
+    "name": "Anass Salah-Eddine",
     "pos": "Defender",
     "team": "31"
   },
@@ -5249,6 +5259,11 @@
     "pos": "Defender",
     "team": "1504"
   },
+  "191289": {
+    "name": "Amine Sbai",
+    "pos": "Attacker",
+    "team": "31"
+  },
   "191889": {
     "name": "Maksim Samorodov",
     "pos": "Midfielder",
@@ -5310,7 +5325,7 @@
     "team": "2380"
   },
   "196156": {
-    "name": "Thiago",
+    "name": "Igor Thiago",
     "pos": "Attacker",
     "team": "6"
   },
@@ -5715,7 +5730,7 @@
     "team": "1532"
   },
   "277003": {
-    "name": "N. El Aynaoui",
+    "name": "Neil El Aynaoui",
     "pos": "Midfielder",
     "team": "31"
   },
@@ -5745,7 +5760,7 @@
     "team": "2380"
   },
   "278898": {
-    "name": "C. Riad",
+    "name": "Chadi Riad",
     "pos": "Defender",
     "team": "31"
   },
@@ -5790,7 +5805,7 @@
     "team": "1569"
   },
   "283252": {
-    "name": "Z. El Ouahdi",
+    "name": "Zakaria El Ouahdi",
     "pos": "Defender",
     "team": "31"
   },
@@ -6150,7 +6165,7 @@
     "team": "1532"
   },
   "326183": {
-    "name": "R. Halhal",
+    "name": "Redouane Halhal",
     "pos": "Defender",
     "team": "31"
   },
@@ -6250,8 +6265,8 @@
     "team": "2"
   },
   "336659": {
-    "name": "C. Talbi",
-    "pos": "Midfielder",
+    "name": "Chemsdine Talbi",
+    "pos": "Attacker",
     "team": "31"
   },
   "336671": {
@@ -6330,7 +6345,7 @@
     "team": "1113"
   },
   "340573": {
-    "name": "B. El Khannouss",
+    "name": "Bilal El Khannouss",
     "pos": "Midfielder",
     "team": "31"
   },
@@ -6885,7 +6900,7 @@
     "team": "2383"
   },
   "415431": {
-    "name": "S. El Mourabet",
+    "name": "Samir El Mourabet",
     "pos": "Midfielder",
     "team": "31"
   },
@@ -6975,7 +6990,7 @@
     "team": "768"
   },
   "438688": {
-    "name": "A. Bouaddi",
+    "name": "Ayyoub Bouaddi",
     "pos": "Midfielder",
     "team": "31"
   },
@@ -7115,8 +7130,8 @@
     "team": "28"
   },
   "535046": {
-    "name": "A. Amaimouni",
-    "pos": "Midfielder",
+    "name": "Ayoube Amaimouni Echghouyab",
+    "pos": "Attacker",
     "team": "31"
   },
   "535737": {
