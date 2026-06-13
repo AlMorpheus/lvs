@@ -710,6 +710,34 @@
       "start": true
     },
     {
+      "id": 618,
+      "name": "Danilo",
+      "number": 13,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 299,
+      "name": "Fabinho",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 265785,
+      "name": "Luiz Henrique",
+      "number": 21,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 1165,
+      "name": "Matheus Cunha",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 617,
       "name": "Ederson",
       "number": 23,
@@ -727,13 +755,6 @@
       "id": 860,
       "name": "Alex Sandro",
       "number": 6,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 618,
-      "name": "Danilo",
-      "number": 13,
       "pos": "Defender",
       "start": false
     },
@@ -759,20 +780,6 @@
       "start": false
     },
     {
-      "id": 299,
-      "name": "Fabinho",
-      "number": 17,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 265785,
-      "name": "Luiz Henrique",
-      "number": 21,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 407806,
       "name": "Rayan",
       "number": 26,
@@ -790,13 +797,6 @@
       "id": 377122,
       "name": "Endrick",
       "number": 19,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 1165,
-      "name": "Matheus Cunha",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     },
@@ -3527,16 +3527,16 @@
       "start": true
     },
     {
-      "id": 438688,
-      "name": "Ayyoub Bouaddi",
-      "number": 6,
+      "id": 277003,
+      "name": "Neil El Aynaoui",
+      "number": 24,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 277003,
-      "name": "Neil El Aynaoui",
-      "number": 24,
+      "id": 438688,
+      "name": "Ayyoub Bouaddi",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
@@ -3567,6 +3567,20 @@
       "number": 11,
       "pos": "Attacker",
       "start": true
+    },
+    {
+      "id": 336659,
+      "name": "Chemsdine Talbi",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 415431,
+      "name": "Samir El Mourabet",
+      "number": 15,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 2702,
@@ -3618,13 +3632,6 @@
       "start": false
     },
     {
-      "id": 336659,
-      "name": "Chemsdine Talbi",
-      "number": 7,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 191289,
       "name": "Amine Sbai",
       "number": 17,
@@ -3636,13 +3643,6 @@
       "name": "Gessime Yassine",
       "number": 16,
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 415431,
-      "name": "Samir El Mourabet",
-      "number": 15,
-      "pos": "Midfielder",
       "start": false
     },
     {
