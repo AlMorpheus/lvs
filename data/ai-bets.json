@@ -26,6 +26,33 @@
     ],
     "lockedAt": "2026-06-11T19:00:25.677Z"
   },
+  "1489370": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Christian Pulišić",
+        "team": "home",
+        "pos": "пз",
+        "id": "17"
+      },
+      {
+        "name": "Folarin Balogun",
+        "team": "home",
+        "pos": "нап",
+        "id": "138835"
+      },
+      {
+        "name": "Miguel Almirón",
+        "team": "away",
+        "pos": "пз",
+        "id": "2507"
+      }
+    ],
+    "lockedAt": "2026-06-13T01:00:09.721Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
