@@ -154,7 +154,7 @@
   {
     "id": "1489370",
     "date": "2026-06-13T01:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -168,7 +168,10 @@
       "name": "Paraguay",
       "flag": "https://media.api-sports.io/football/teams/2380.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
