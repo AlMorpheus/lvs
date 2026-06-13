@@ -53,6 +53,33 @@
     ],
     "lockedAt": "2026-06-13T01:00:09.721Z"
   },
+  "1489373": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Breel Embolo",
+        "team": "away",
+        "pos": "нап",
+        "id": "421"
+      },
+      {
+        "name": "Akram Afif",
+        "team": "home",
+        "pos": "нап",
+        "id": "2544"
+      },
+      {
+        "name": "Ruben Vargas",
+        "team": "away",
+        "pos": "нап",
+        "id": "48471"
+      }
+    ],
+    "lockedAt": "2026-06-13T19:01:22.723Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
