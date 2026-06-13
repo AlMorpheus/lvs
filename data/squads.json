@@ -7458,6 +7458,20 @@
       "start": true
     },
     {
+      "id": 106485,
+      "name": "Mauricio",
+      "number": 11,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 95460,
+      "name": "Alex Arce",
+      "number": 18,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 51733,
       "name": "Gastón Olveira",
       "number": 22,
@@ -7528,23 +7542,9 @@
       "start": false
     },
     {
-      "id": 106485,
-      "name": "Mauricio",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 6483,
       "name": "Gabriel Ávalos",
       "number": 21,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 95460,
-      "name": "Alex Arce",
-      "number": 18,
       "pos": "Attacker",
       "start": false
     },
@@ -7952,6 +7952,13 @@
       "start": true
     },
     {
+      "id": 201713,
+      "name": "Sebastian Berhalter",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 50999,
       "name": "Matt Turner",
       "number": 1,
@@ -8004,13 +8011,6 @@
       "id": 161921,
       "name": "Giovanni Reyna",
       "number": 7,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 201713,
-      "name": "Sebastian Berhalter",
-      "number": 14,
       "pos": "Midfielder",
       "start": false
     },
