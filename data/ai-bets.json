@@ -53,6 +53,33 @@
     ],
     "lockedAt": "2026-06-13T01:00:09.721Z"
   },
+  "1489371": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Vinícius Júnior",
+        "team": "home",
+        "pos": "пз",
+        "id": "762"
+      },
+      {
+        "name": "Igor Thiago",
+        "team": "home",
+        "pos": "нап",
+        "id": "196156"
+      },
+      {
+        "name": "Brahim Díaz",
+        "team": "away",
+        "pos": "пз",
+        "id": "744"
+      }
+    ],
+    "lockedAt": "2026-06-13T22:00:42.862Z"
+  },
   "1489373": {
     "score": {
       "home": 0,
