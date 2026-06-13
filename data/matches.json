@@ -223,7 +223,7 @@
   {
     "id": "1489373",
     "date": "2026-06-13T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -241,12 +241,30 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-13T21:05:40.487Z",
     "lineupAt": "2026-06-13T17:55:38.953Z",
     "remind2hAt": "2026-06-13T17:00:04.894Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 421,
+        "name": "B. Embolo",
+        "teamId": 15,
+        "minute": 17,
+        "type": "normal"
+      },
+      {
+        "playerId": 2532,
+        "name": "B. Khoukhi",
+        "teamId": 1569,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
