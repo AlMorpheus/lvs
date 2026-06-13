@@ -1974,6 +1974,20 @@
       "start": true
     },
     {
+      "id": 163032,
+      "name": "Fabian Rieder",
+      "number": 22,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 406244,
+      "name": "Johan Manzambi",
+      "number": 9,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 1142,
       "name": "Yvon Mvogo",
       "number": 12,
@@ -2012,20 +2026,6 @@
       "id": 957,
       "name": "Djibril Sow",
       "number": 15,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 163032,
-      "name": "Fabian Rieder",
-      "number": 22,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 406244,
-      "name": "Johan Manzambi",
-      "number": 9,
       "pos": "Midfielder",
       "start": false
     },
@@ -7326,6 +7326,27 @@
       "start": true
     },
     {
+      "id": 2539,
+      "name": "Ahmed Fathi",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 2537,
+      "name": "Karim Boudiaf",
+      "number": 12,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 2542,
+      "name": "Ahmed Alaaeldin",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 42021,
       "name": "Meshaal Barsham",
       "number": 22,
@@ -7375,20 +7396,6 @@
       "start": false
     },
     {
-      "id": 2539,
-      "name": "Ahmed Fathi",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 2537,
-      "name": "Karim Boudiaf",
-      "number": 12,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 283174,
       "name": "Mohamed Naceur Almanai",
       "number": 26,
@@ -7420,13 +7427,6 @@
       "id": 2545,
       "name": "Hassan Al Haydos",
       "number": 10,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 2542,
-      "name": "Ahmed Alaaeldin",
-      "number": 7,
       "pos": "Attacker",
       "start": false
     }
