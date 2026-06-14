@@ -319,7 +319,7 @@
   {
     "id": "1489372",
     "date": "2026-06-14T01:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -333,7 +333,10 @@
       "name": "Scotland",
       "flag": "https://media.api-sports.io/football/teams/1108.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
