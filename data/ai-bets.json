@@ -162,6 +162,34 @@
     "lockedAt": "2026-06-14T17:00:05.263Z",
     "syncedAt": "2026-06-14T17:00:05.263Z"
   },
+  "1489375": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Enner Valencia",
+        "team": "away",
+        "pos": "нап",
+        "id": "35533"
+      },
+      {
+        "name": "Nicolas Pépé",
+        "team": "home",
+        "pos": "нап",
+        "id": "3246"
+      },
+      {
+        "name": "Elye Wahi",
+        "team": "home",
+        "pos": "нап",
+        "id": "162707"
+      }
+    ],
+    "lockedAt": "2026-06-14T23:00:13.613Z",
+    "syncedAt": "2026-06-14T23:00:13.613Z"
+  },
   "1489376": {
     "score": {
       "home": 2,
