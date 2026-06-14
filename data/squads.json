@@ -2993,6 +2993,13 @@
       "start": true
     },
     {
+      "id": 26475,
+      "name": "Deniz Undav",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 399,
       "name": "Alexander Nübel",
       "number": 21,
@@ -3087,13 +3094,6 @@
       "id": 158644,
       "name": "Maximilian Beier",
       "number": 14,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 26475,
-      "name": "Deniz Undav",
-      "number": 26,
       "pos": "Attacker",
       "start": false
     }
@@ -8869,6 +8869,20 @@
       "start": true
     },
     {
+      "id": 163220,
+      "name": "Jeremy Antonisse",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 195067,
+      "name": "Jearl Margaritha",
+      "number": 16,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 36967,
       "name": "Trevor Iriving Doornbusch",
       "number": 26,
@@ -8918,13 +8932,6 @@
       "start": false
     },
     {
-      "id": 163220,
-      "name": "Jeremy Antonisse",
-      "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 41627,
       "name": "Kenji Gorré",
       "number": 14,
@@ -8943,13 +8950,6 @@
       "name": "Tyrese Noslin",
       "number": 13,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 195067,
-      "name": "Jearl Margaritha",
-      "number": 16,
-      "pos": "Attacker",
       "start": false
     },
     {
