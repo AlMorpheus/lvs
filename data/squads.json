@@ -2493,6 +2493,13 @@
       "start": true
     },
     {
+      "id": 312459,
+      "name": "Nishan Velupillay",
+      "number": 23,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2741,
       "name": "Mathew Ryan",
       "number": 1,
@@ -2581,13 +2588,6 @@
       "name": "Cristian Volpato",
       "number": 20,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 312459,
-      "name": "Nishan Velupillay",
-      "number": 23,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -4703,6 +4703,20 @@
       "start": true
     },
     {
+      "id": 339883,
+      "name": "Kenan Yıldız",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 454,
+      "name": "Yunus Akgün",
+      "number": 19,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 49837,
       "name": "Mert Günok",
       "number": 1,
@@ -4773,13 +4787,6 @@
       "start": false
     },
     {
-      "id": 454,
-      "name": "Yunus Akgün",
-      "number": 19,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 134590,
       "name": "Oğuz Aydın",
       "number": 24,
@@ -4797,13 +4804,6 @@
       "id": 388570,
       "name": "Deniz Gül",
       "number": 9,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 339883,
-      "name": "Kenan Yıldız",
-      "number": 11,
       "pos": "Attacker",
       "start": false
     }
