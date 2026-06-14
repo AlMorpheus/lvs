@@ -498,7 +498,7 @@
   {
     "id": "1489376",
     "date": "2026-06-14T20:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -516,12 +516,44 @@
       "home": 2,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T21:56:53.581Z",
     "lineupAt": "2026-06-14T18:53:16.329Z",
     "remind2hAt": "2026-06-14T18:01:46.661Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 290,
+        "name": "V. van Dijk",
+        "teamId": 1118,
+        "minute": 51,
+        "type": "normal"
+      },
+      {
+        "playerId": 33321,
+        "name": "K. Nakamura",
+        "teamId": 12,
+        "minute": 57,
+        "type": "normal"
+      },
+      {
+        "playerId": 37724,
+        "name": "C. Summerville",
+        "teamId": 1118,
+        "minute": 64,
+        "type": "normal"
+      },
+      {
+        "playerId": 2601,
+        "name": "D. Kamada",
+        "teamId": 12,
+        "minute": 88,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
