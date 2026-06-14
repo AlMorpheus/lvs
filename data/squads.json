@@ -8841,9 +8841,9 @@
       "start": true
     },
     {
-      "id": 161884,
-      "name": "Sontje Hansen",
-      "number": 12,
+      "id": 19047,
+      "name": "Juninho Bacuna",
+      "number": 7,
       "pos": "Midfielder",
       "start": true
     },
@@ -8855,16 +8855,16 @@
       "start": true
     },
     {
-      "id": 19047,
-      "name": "Juninho Bacuna",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 18981,
       "name": "Jürgen Locadia",
       "number": 9,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 161884,
+      "name": "Sontje Hansen",
+      "number": 12,
       "pos": "Attacker",
       "start": true
     },
