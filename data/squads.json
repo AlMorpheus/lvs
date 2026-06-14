@@ -2423,6 +2423,13 @@
       "start": true
     },
     {
+      "id": 6808,
+      "name": "Jacob Italiano",
+      "number": 4,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 348568,
       "name": "Alessandro Circati",
       "number": 3,
@@ -2444,9 +2451,16 @@
       "start": true
     },
     {
-      "id": 6808,
-      "name": "Jacob Italiano",
-      "number": 4,
+      "id": 337587,
+      "name": "Jordan Bos",
+      "number": 5,
+      "pos": "Defender",
+      "start": true
+    },
+    {
+      "id": 6904,
+      "name": "Connor Metcalfe",
+      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -2465,24 +2479,10 @@
       "start": true
     },
     {
-      "id": 337587,
-      "name": "Jordan Bos",
-      "number": 5,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 338014,
       "name": "Nestory Irankunda",
       "number": 17,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 6904,
-      "name": "Connor Metcalfe",
-      "number": 8,
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -4661,16 +4661,16 @@
       "start": true
     },
     {
-      "id": 1640,
-      "name": "Hakan Çalhanoğlu",
-      "number": 10,
+      "id": 214463,
+      "name": "İsmail Yüksek",
+      "number": 16,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 214463,
-      "name": "İsmail Yüksek",
-      "number": 16,
+      "id": 1640,
+      "name": "Hakan Çalhanoğlu",
+      "number": 10,
       "pos": "Midfielder",
       "start": true
     },
