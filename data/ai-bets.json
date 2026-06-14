@@ -162,6 +162,34 @@
     "lockedAt": "2026-06-14T17:00:05.263Z",
     "syncedAt": "2026-06-14T17:00:05.263Z"
   },
+  "1489376": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Cody Gakpo",
+        "team": "home",
+        "pos": "нап",
+        "id": "247"
+      },
+      {
+        "name": "Donyell Malen",
+        "team": "home",
+        "pos": "нап",
+        "id": "249"
+      },
+      {
+        "name": "Ayase Ueda",
+        "team": "away",
+        "pos": "нап",
+        "id": "72155"
+      }
+    ],
+    "lockedAt": "2026-06-14T20:00:56.112Z",
+    "syncedAt": "2026-06-14T20:00:56.112Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
