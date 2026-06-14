@@ -80,6 +80,33 @@
     ],
     "lockedAt": "2026-06-13T22:00:42.862Z"
   },
+  "1489372": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Che Adams",
+        "team": "away",
+        "pos": "нап",
+        "id": "19524"
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "team": "home",
+        "pos": "нап",
+        "id": "8601"
+      },
+      {
+        "name": "Lawrence Shankland",
+        "team": "away",
+        "pos": "нап",
+        "id": "45175"
+      }
+    ],
+    "lockedAt": "2026-06-14T01:00:41.672Z"
+  },
   "1489373": {
     "score": {
       "home": 0,
