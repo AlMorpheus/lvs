@@ -7857,6 +7857,13 @@
       "start": true
     },
     {
+      "id": 16360,
+      "name": "Alan Franco",
+      "number": 21,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 354027,
       "name": "Joel Ordóñez",
       "number": 4,
@@ -7871,23 +7878,9 @@
       "start": true
     },
     {
-      "id": 127817,
-      "name": "Piero Hincapié",
-      "number": 3,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 280695,
-      "name": "Alan Minda",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 16360,
-      "name": "Alan Franco",
-      "number": 21,
+      "id": 16369,
+      "name": "Gonzalo Plata",
+      "number": 19,
       "pos": "Midfielder",
       "start": true
     },
@@ -7906,9 +7899,16 @@
       "start": true
     },
     {
-      "id": 16369,
-      "name": "Gonzalo Plata",
-      "number": 19,
+      "id": 127817,
+      "name": "Piero Hincapié",
+      "number": 3,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 25414,
+      "name": "John Yeboah",
+      "number": 9,
       "pos": "Attacker",
       "start": true
     },
@@ -7920,9 +7920,9 @@
       "start": true
     },
     {
-      "id": 25414,
-      "name": "John Yeboah",
-      "number": 9,
+      "id": 280695,
+      "name": "Alan Minda",
+      "number": 14,
       "pos": "Attacker",
       "start": true
     },
