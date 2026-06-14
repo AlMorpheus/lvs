@@ -408,7 +408,7 @@
   {
     "id": "1489374",
     "date": "2026-06-14T17:00:00+00:00",
-    "status": "1H",
+    "status": "HT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -423,7 +423,7 @@
       "flag": "https://media.api-sports.io/football/teams/5530.png"
     },
     "score": {
-      "home": 2,
+      "home": 3,
       "away": 1
     },
     "scoreReg": null,
