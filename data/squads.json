@@ -1677,6 +1677,13 @@
       "start": true
     },
     {
+      "id": 1942,
+      "name": "Junya Ito",
+      "number": 14,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 33034,
       "name": "Keisuke Osako",
       "number": 12,
@@ -1744,13 +1751,6 @@
       "name": "Yuito Suzuki",
       "number": 17,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 1942,
-      "name": "Junya Ito",
-      "number": 14,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -5927,6 +5927,27 @@
       "start": true
     },
     {
+      "id": 38747,
+      "name": "Quinten Timber",
+      "number": 26,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 36899,
+      "name": "Teun Koopmeiners",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 667,
+      "name": "Memphis Depay",
+      "number": 10,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 26232,
       "name": "Mark Flekken",
       "number": 23,
@@ -5990,30 +6011,9 @@
       "start": false
     },
     {
-      "id": 38747,
-      "name": "Quinten Timber",
-      "number": 26,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 36899,
-      "name": "Teun Koopmeiners",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 38750,
       "name": "Brian Brobbey",
       "number": 19,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 667,
-      "name": "Memphis Depay",
-      "number": 10,
       "pos": "Attacker",
       "start": false
     },
