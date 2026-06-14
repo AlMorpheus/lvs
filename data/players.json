@@ -125,8 +125,8 @@
     "team": "5530"
   },
   "225": {
-    "name": "A. Behich",
-    "pos": "Midfielder",
+    "name": "Aziz Behich",
+    "pos": "Defender",
     "team": "20"
   },
   "226": {
@@ -295,7 +295,7 @@
     "team": "12"
   },
   "454": {
-    "name": "Y. Akgün",
+    "name": "Yunus Akgün",
     "pos": "Attacker",
     "team": "777"
   },
@@ -805,7 +805,7 @@
     "team": "1113"
   },
   "1361": {
-    "name": "F. Kadioglu",
+    "name": "Ferdi Kadıoğlu",
     "pos": "Defender",
     "team": "777"
   },
@@ -910,7 +910,7 @@
     "team": "15"
   },
   "1640": {
-    "name": "H. Çalhanoglu",
+    "name": "Hakan Çalhanoğlu",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -925,7 +925,7 @@
     "team": "6"
   },
   "1719": {
-    "name": "M. Müldür",
+    "name": "Mert Müldür",
     "pos": "Defender",
     "team": "777"
   },
@@ -1345,27 +1345,27 @@
     "team": "2"
   },
   "2741": {
-    "name": "M. Ryan",
+    "name": "Mathew Ryan",
     "pos": "Goalkeeper",
     "team": "20"
   },
   "2742": {
-    "name": "M. Degenek",
+    "name": "Miloš Degenek",
     "pos": "Defender",
     "team": "20"
   },
   "2749": {
-    "name": "J. Irvine",
+    "name": "Jackson Irvine",
     "pos": "Midfielder",
     "team": "20"
   },
   "2751": {
-    "name": "M. Leckie",
+    "name": "Mathew Leckie",
     "pos": "Attacker",
     "team": "20"
   },
   "2755": {
-    "name": "A. Mabil",
+    "name": "Awer Mabil",
     "pos": "Midfielder",
     "team": "20"
   },
@@ -1710,12 +1710,12 @@
     "team": "26"
   },
   "6808": {
-    "name": "J. Italiano",
-    "pos": "Defender",
+    "name": "Jacob Italiano",
+    "pos": "Midfielder",
     "team": "20"
   },
   "6832": {
-    "name": "C. Devlin",
+    "name": "Cameron Devlin",
     "pos": "Midfielder",
     "team": "20"
   },
@@ -1725,13 +1725,13 @@
     "team": "4673"
   },
   "6870": {
-    "name": "P. Izzo",
+    "name": "Paul Izzo",
     "pos": "Goalkeeper",
     "team": "20"
   },
   "6904": {
-    "name": "C. Metcalfe",
-    "pos": "Midfielder",
+    "name": "Connor Metcalfe",
+    "pos": "Attacker",
     "team": "20"
   },
   "6931": {
@@ -1760,7 +1760,7 @@
     "team": "4673"
   },
   "7050": {
-    "name": "A. O Neill",
+    "name": "Aiden O'Neill",
     "pos": "Midfielder",
     "team": "20"
   },
@@ -2100,7 +2100,7 @@
     "team": "767"
   },
   "18776": {
-    "name": "Ç. Söyüncü",
+    "name": "Çağlar Söyüncü",
     "pos": "Defender",
     "team": "777"
   },
@@ -2340,12 +2340,12 @@
     "team": "1108"
   },
   "20079": {
-    "name": "H. Souttar",
+    "name": "Harry Souttar",
     "pos": "Defender",
     "team": "20"
   },
   "20457": {
-    "name": "C. Burgess",
+    "name": "Cameron Burgess",
     "pos": "Defender",
     "team": "20"
   },
@@ -2495,7 +2495,7 @@
     "team": "2"
   },
   "22222": {
-    "name": "Z. Çelik",
+    "name": "Zeki Çelik",
     "pos": "Defender",
     "team": "777"
   },
@@ -2525,7 +2525,7 @@
     "team": "1508"
   },
   "24807": {
-    "name": "S. Özcan",
+    "name": "Salih Özcan",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -2610,7 +2610,7 @@
     "team": "1118"
   },
   "25448": {
-    "name": "K. Ayhan",
+    "name": "Kaan Ayhan",
     "pos": "Defender",
     "team": "777"
   },
@@ -2650,7 +2650,7 @@
     "team": "25"
   },
   "26300": {
-    "name": "O. Kabak",
+    "name": "Ozan Kabak",
     "pos": "Defender",
     "team": "777"
   },
@@ -2750,7 +2750,7 @@
     "team": "1501"
   },
   "30521": {
-    "name": "M. Demiral",
+    "name": "Merih Demiral",
     "pos": "Defender",
     "team": "777"
   },
@@ -2885,7 +2885,7 @@
     "team": "12"
   },
   "33847": {
-    "name": "J. Geria",
+    "name": "Jason Geria",
     "pos": "Defender",
     "team": "20"
   },
@@ -3060,7 +3060,7 @@
     "team": "1090"
   },
   "37155": {
-    "name": "O. Kokçu",
+    "name": "Orkun Kökçü",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -3105,7 +3105,7 @@
     "team": "12"
   },
   "38123": {
-    "name": "A. Hrustic",
+    "name": "Ajdin Hrustić",
     "pos": "Midfielder",
     "team": "20"
   },
@@ -3735,17 +3735,17 @@
     "team": "28"
   },
   "49837": {
-    "name": "M. Günok",
+    "name": "Mert Günok",
     "pos": "Goalkeeper",
     "team": "777"
   },
   "49857": {
-    "name": "I. Kahveci",
+    "name": "İrfan Can Kahveci",
     "pos": "Midfielder",
     "team": "777"
   },
   "49866": {
-    "name": "U. Çakir",
+    "name": "Uğurcan Çakır",
     "pos": "Goalkeeper",
     "team": "777"
   },
@@ -3765,7 +3765,7 @@
     "team": "31"
   },
   "50057": {
-    "name": "E. Elmali",
+    "name": "Eren Elmalı",
     "pos": "Defender",
     "team": "777"
   },
@@ -3775,7 +3775,7 @@
     "team": "7"
   },
   "50132": {
-    "name": "A. Bayindir",
+    "name": "Altay Bayındır",
     "pos": "Goalkeeper",
     "team": "777"
   },
@@ -4060,7 +4060,7 @@
     "team": "1117"
   },
   "61837": {
-    "name": "A. Bardakci",
+    "name": "Abdülkerim Bardakcı",
     "pos": "Defender",
     "team": "777"
   },
@@ -4070,12 +4070,12 @@
     "team": "7"
   },
   "62490": {
-    "name": "S. Akaydin",
+    "name": "Samet Akaydın",
     "pos": "Defender",
     "team": "777"
   },
   "63274": {
-    "name": "B. Yilmaz",
+    "name": "Barış Alper Yılmaz",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -4730,7 +4730,7 @@
     "team": "22"
   },
   "134590": {
-    "name": "O. Aydin",
+    "name": "Oğuz Aydın",
     "pos": "Attacker",
     "team": "777"
   },
@@ -4855,7 +4855,7 @@
     "team": "1533"
   },
   "142959": {
-    "name": "K. Aktürkoglu",
+    "name": "Kerem Aktürkoğlu",
     "pos": "Attacker",
     "team": "777"
   },
@@ -4905,8 +4905,8 @@
     "team": "5"
   },
   "153622": {
-    "name": "K. Trewin",
-    "pos": "Midfielder",
+    "name": "Kai Trewin",
+    "pos": "Defender",
     "team": "20"
   },
   "156477": {
@@ -5365,7 +5365,7 @@
     "team": "2382"
   },
   "198352": {
-    "name": "M. Touré",
+    "name": "Mohamed Touré",
     "pos": "Attacker",
     "team": "20"
   },
@@ -5480,7 +5480,7 @@
     "team": "5530"
   },
   "214463": {
-    "name": "I. Yüksek",
+    "name": "İsmail Yüksek",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -5875,7 +5875,7 @@
     "team": "16"
   },
   "291964": {
-    "name": "A. Güler",
+    "name": "Arda Güler",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -5935,7 +5935,7 @@
     "team": "1567"
   },
   "296645": {
-    "name": "T. Yengi",
+    "name": "Tete Yengi",
     "pos": "Attacker",
     "team": "20"
   },
@@ -6075,7 +6075,7 @@
     "team": "2382"
   },
   "312459": {
-    "name": "N. Velupillay",
+    "name": "Nishan Velupillay",
     "pos": "Attacker",
     "team": "20"
   },
@@ -6295,8 +6295,8 @@
     "team": "1504"
   },
   "337587": {
-    "name": "J. Bos",
-    "pos": "Defender",
+    "name": "Jordan Bos",
+    "pos": "Midfielder",
     "team": "20"
   },
   "337740": {
@@ -6305,7 +6305,7 @@
     "team": "770"
   },
   "338014": {
-    "name": "N. Irankunda",
+    "name": "Nestory Irankunda",
     "pos": "Attacker",
     "team": "20"
   },
@@ -6330,12 +6330,12 @@
     "team": "1569"
   },
   "339883": {
-    "name": "K. Yildiz",
+    "name": "Kenan Yıldız",
     "pos": "Attacker",
     "team": "777"
   },
   "339887": {
-    "name": "C. Uzun",
+    "name": "Can Uzun",
     "pos": "Midfielder",
     "team": "777"
   },
@@ -6380,8 +6380,8 @@
     "team": "768"
   },
   "342035": {
-    "name": "C. Volpato",
-    "pos": "Attacker",
+    "name": "Cristian Volpato",
+    "pos": "Midfielder",
     "team": "20"
   },
   "342074": {
@@ -6485,7 +6485,7 @@
     "team": "768"
   },
   "348568": {
-    "name": "A. Circati",
+    "name": "Alessandro Circati",
     "pos": "Defender",
     "team": "20"
   },
@@ -6545,7 +6545,7 @@
     "team": "2383"
   },
   "353883": {
-    "name": "P. Beach",
+    "name": "Patrick Beach",
     "pos": "Goalkeeper",
     "team": "20"
   },
@@ -6750,7 +6750,7 @@
     "team": "1501"
   },
   "388570": {
-    "name": "D. Gül",
+    "name": "Deniz Gül",
     "pos": "Attacker",
     "team": "777"
   },
@@ -6950,7 +6950,7 @@
     "team": "2380"
   },
   "426480": {
-    "name": "L. Herrington",
+    "name": "Lucas Herrington",
     "pos": "Defender",
     "team": "20"
   },
