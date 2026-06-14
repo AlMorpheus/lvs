@@ -187,5 +187,32 @@
       }
     ],
     "lockedAt": "2026-06-12T19:00:37.989Z"
+  },
+  "1539001": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Kerem Aktürkoğlu",
+        "team": "away",
+        "pos": "нап",
+        "id": "142959"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "team": "away",
+        "pos": "пз",
+        "id": "1640"
+      },
+      {
+        "name": "Nestory Irankunda",
+        "team": "home",
+        "pos": "нап",
+        "id": "338014"
+      }
+    ],
+    "lockedAt": "2026-06-14T04:01:34.694Z"
   }
 }
