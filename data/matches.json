@@ -271,7 +271,7 @@
   {
     "id": "1489371",
     "date": "2026-06-13T22:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -289,12 +289,30 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T00:06:28.809Z",
     "lineupAt": "2026-06-13T20:56:22.846Z",
     "remind2hAt": "2026-06-13T20:01:50.722Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 161897,
+        "name": "Ismael Saibari",
+        "teamId": 31,
+        "minute": 21,
+        "type": "normal"
+      },
+      {
+        "playerId": 762,
+        "name": "Vinícius",
+        "teamId": 6,
+        "minute": 32,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
