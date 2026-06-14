@@ -367,17 +367,21 @@ function resolveScorerId(predScorer, m, squads) {
   return hit ? String(hit.id) : null;
 }
 
-// Фиксация ставки ИИ: на матч, который УЖЕ начался, берём текущий (=последний, ~за час до игры
-// актуализированный) прогноз и замораживаем его. До свистка не трогаем; зафиксированное — навсегда.
+// Ставка ИИ (Шеф). До свистка не храним (скрыта). На начавшемся матче берём ПОСЛЕДНИЙ
+// опубликованный прогноз эксперта и держим ставку в синхроне с ним, пока матч НЕ завершён —
+// эксперт может уточнить прогноз после объявления составов, и это должно подхватываться.
+// Как только матч завершился — фиксируем окончательно (стабильный подсчёт очков).
+const _aiBetSig = (b) => JSON.stringify([b.score, (b.scorers || []).map((s) => [s.name, s.team, s.id ?? null])]);
 function lockAiBets(matches, aiPred, squads) {
   const store = readJSON('data/ai-bets.json', {});
   const now = Date.now();
   let changed = false;
   for (const m of matches) {
-    if (now < new Date(m.date).getTime()) continue; // ещё не начался — даём прогнозу актуализироваться
-    if (store[m.id]) continue;                        // уже зафиксировано на момент свистка
+    if (now < new Date(m.date).getTime()) continue; // ещё не начался — Шеф скрыт, прогноз ещё актуализируется
+    const existing = store[m.id];
+    if (existing && m.finished) continue;             // матч сыгран — ставка заморожена навсегда
     const pred = aiPred?.[m.id];
-    if (!pred || !pred.score) continue;               // нет прогноза — зафиксируем на следующем прогоне
+    if (!pred || !pred.score) continue;               // нет прогноза — не трогаем (зафиксируем/обновим позже)
     // сохраняем ВСЕХ троих авторов прогноза (имя+команда), плюс id где удалось сопоставить
     // с составом — id нужен для подсчёта очков, имя/команда — чтобы показать всех троих.
     const scorers = (pred.scorers || []).slice(0, 3).map((s) => ({
@@ -386,9 +390,11 @@ function lockAiBets(matches, aiPred, squads) {
       pos: s.pos || null,
       id: resolveScorerId(s, m, squads),
     }));
-    store[m.id] = { score: { home: pred.score.home, away: pred.score.away }, scorers, lockedAt: new Date().toISOString() };
+    const next = { score: { home: pred.score.home, away: pred.score.away }, scorers };
+    if (existing && _aiBetSig(existing) === _aiBetSig(next)) continue; // не изменилось — не переписываем
+    store[m.id] = { ...next, lockedAt: existing?.lockedAt || new Date().toISOString(), syncedAt: new Date().toISOString() };
     changed = true;
-    console.log(`🤖 Шеф: зафиксирована ставка на ${m.id} ${pred.score.home}:${pred.score.away} (авторов ${scorers.length}, с id ${scorers.filter((s) => s.id).length})`);
+    console.log(`🤖 Шеф: ${existing ? 'обновлена' : 'зафиксирована'} ставка на ${m.id} ${pred.score.home}:${pred.score.away} (авторов ${scorers.length}, с id ${scorers.filter((s) => s.id).length})`);
   }
   if (changed) writeJSON('data/ai-bets.json', store);
   return store;
