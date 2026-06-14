@@ -2916,160 +2916,186 @@
   ],
   "25": [
     {
-      "id": 702,
-      "name": "O. Baumann",
-      "pos": "Goalkeeper",
-      "number": 12
-    },
-    {
       "id": 497,
-      "name": "M. Neuer",
+      "name": "Manuel Neuer",
+      "number": 1,
       "pos": "Goalkeeper",
-      "number": 1
-    },
-    {
-      "id": 399,
-      "name": "A. Nübel",
-      "pos": "Goalkeeper",
-      "number": 21
-    },
-    {
-      "id": 25368,
-      "name": "W. Anton",
-      "pos": "Defender",
-      "number": 3
-    },
-    {
-      "id": 280074,
-      "name": "N. Brown",
-      "pos": "Defender",
-      "number": 18
-    },
-    {
-      "id": 25158,
-      "name": "D. Raum",
-      "pos": "Defender",
-      "number": 22
-    },
-    {
-      "id": 2285,
-      "name": "A. Rüdiger",
-      "pos": "Defender",
-      "number": 2
-    },
-    {
-      "id": 26243,
-      "name": "N. Schlotterbeck",
-      "pos": "Defender",
-      "number": 15
-    },
-    {
-      "id": 972,
-      "name": "J. Tah",
-      "pos": "Defender",
-      "number": 4
-    },
-    {
-      "id": 163189,
-      "name": "M. Thiaw",
-      "pos": "Defender",
-      "number": 24
+      "start": true
     },
     {
       "id": 502,
-      "name": "J. Kimmich",
+      "name": "Joshua Kimmich",
+      "number": 6,
       "pos": "Defender",
-      "number": 6
+      "start": true
     },
     {
-      "id": 714,
-      "name": "N. Amiri",
-      "pos": "Midfielder",
-      "number": 20
+      "id": 972,
+      "name": "Jonathan Tah",
+      "number": 4,
+      "pos": "Defender",
+      "start": true
     },
     {
-      "id": 511,
-      "name": "L. Goretzka",
-      "pos": "Midfielder",
-      "number": 8
+      "id": 26243,
+      "name": "Nico Schlotterbeck",
+      "number": 15,
+      "pos": "Defender",
+      "start": true
     },
     {
-      "id": 18970,
-      "name": "P. Groß",
-      "pos": "Midfielder",
-      "number": 13
-    },
-    {
-      "id": 494131,
-      "name": "L. Karl",
-      "pos": "Midfielder",
-      "number": 25
-    },
-    {
-      "id": 128533,
-      "name": "J. Leweling",
-      "pos": "Attacker",
-      "number": 9
-    },
-    {
-      "id": 181812,
-      "name": "J. Musiala",
-      "pos": "Midfielder",
-      "number": 10
-    },
-    {
-      "id": 637,
-      "name": "F. Nmecha",
-      "pos": "Midfielder",
-      "number": 23
+      "id": 280074,
+      "name": "Nathaniel Brown",
+      "number": 18,
+      "pos": "Defender",
+      "start": true
     },
     {
       "id": 328033,
-      "name": "A. Pavlovic",
+      "name": "Aleksandar Pavlović",
+      "number": 5,
       "pos": "Midfielder",
-      "number": 5
+      "start": true
+    },
+    {
+      "id": 637,
+      "name": "Felix Nmecha",
+      "number": 23,
+      "pos": "Midfielder",
+      "start": true
     },
     {
       "id": 644,
-      "name": "L. Sané",
+      "name": "Leroy Sané",
+      "number": 19,
       "pos": "Midfielder",
-      "number": 19
+      "start": true
     },
     {
-      "id": 137210,
-      "name": "A. Stiller",
+      "id": 181812,
+      "name": "Jamal Musiala",
+      "number": 10,
       "pos": "Midfielder",
-      "number": 16
+      "start": true
     },
     {
       "id": 203224,
-      "name": "F. Wirtz",
+      "name": "Florian Wirtz",
+      "number": 17,
       "pos": "Midfielder",
-      "number": 17
+      "start": true
     },
     {
       "id": 978,
-      "name": "K. Havertz",
+      "name": "Kai Havertz",
+      "number": 7,
       "pos": "Attacker",
-      "number": 7
+      "start": true
     },
     {
-      "id": 158644,
-      "name": "M. Beier",
-      "pos": "Attacker",
-      "number": 14
+      "id": 399,
+      "name": "Alexander Nübel",
+      "number": 21,
+      "pos": "Goalkeeper",
+      "start": false
     },
     {
-      "id": 26475,
-      "name": "D. Undav",
+      "id": 702,
+      "name": "Oliver Baumann",
+      "number": 12,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 25158,
+      "name": "David Raum",
+      "number": 22,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 25368,
+      "name": "Waldemar Anton",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 2285,
+      "name": "Antonio Rüdiger",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 163189,
+      "name": "Malick Thiaw",
+      "number": 24,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 128533,
+      "name": "Jamie Leweling",
+      "number": 9,
       "pos": "Attacker",
-      "number": 26
+      "start": false
+    },
+    {
+      "id": 511,
+      "name": "Leon Goretzka",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 380978,
+      "name": "Assan Ouédraogo",
+      "number": 25,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 714,
+      "name": "Nadiem Amiri",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 137210,
+      "name": "Angelo Stiller",
+      "number": 16,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 18970,
+      "name": "Pascal Groß",
+      "number": 13,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 158054,
-      "name": "N. Woltemade",
+      "name": "Nick Woltemade",
+      "number": 11,
       "pos": "Attacker",
-      "number": 11
+      "start": false
+    },
+    {
+      "id": 158644,
+      "name": "Maximilian Beier",
+      "number": 14,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 26475,
+      "name": "Deniz Undav",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
     }
   ],
   "26": [
@@ -8766,160 +8792,186 @@
   ],
   "5530": [
     {
-      "id": 214129,
-      "name": "T. Bodak",
-      "pos": "Goalkeeper",
-      "number": 25
-    },
-    {
-      "id": 36967,
-      "name": "T. Doornbusch",
-      "pos": "Goalkeeper",
-      "number": 26
-    },
-    {
       "id": 221,
-      "name": "E. Room",
+      "name": "Eloy Room",
+      "number": 1,
       "pos": "Goalkeeper",
-      "number": 1
-    },
-    {
-      "id": 37175,
-      "name": "R. Bazoer",
-      "pos": "Defender",
-      "number": 23
-    },
-    {
-      "id": 706,
-      "name": "J. Brenet",
-      "pos": "Defender",
-      "number": 20
+      "start": true
     },
     {
       "id": 36970,
-      "name": "S. Floranus",
+      "name": "Sherel Constancio Floranus",
+      "number": 5,
       "pos": "Defender",
-      "number": 5
+      "start": true
+    },
+    {
+      "id": 37175,
+      "name": "Riechedly Bazoer",
+      "number": 23,
+      "pos": "Defender",
+      "start": true
+    },
+    {
+      "id": 228,
+      "name": "Armando Obispo",
+      "number": 18,
+      "pos": "Defender",
+      "start": true
     },
     {
       "id": 353808,
       "name": "Deveron Fonville",
+      "number": 24,
       "pos": "Defender",
-      "number": 24
-    },
-    {
-      "id": 36857,
-      "name": "J. Gaari",
-      "pos": "Defender",
-      "number": 3
-    },
-    {
-      "id": 194645,
-      "name": "S. Sambo",
-      "pos": "Defender",
-      "number": 2
-    },
-    {
-      "id": 37066,
-      "name": "R. van Eijma",
-      "pos": "Defender",
-      "number": 4
-    },
-    {
-      "id": 228,
-      "name": "A. Obispo",
-      "pos": "Defender",
-      "number": 18
-    },
-    {
-      "id": 18997,
-      "name": "L. Bacuna",
-      "pos": "Midfielder",
-      "number": 10
-    },
-    {
-      "id": 162199,
-      "name": "A. Martha",
-      "pos": "Midfielder",
-      "number": 15
-    },
-    {
-      "id": 406846,
-      "name": "T. Noslin",
-      "pos": "Midfielder",
-      "number": 13
+      "start": true
     },
     {
       "id": 309763,
-      "name": "L. Comenencia",
+      "name": "Livano Comenencia",
+      "number": 8,
       "pos": "Midfielder",
-      "number": 8
+      "start": true
     },
     {
-      "id": 37461,
-      "name": "K. Felida",
+      "id": 18997,
+      "name": "Leandro Bacuna",
+      "number": 10,
       "pos": "Midfielder",
-      "number": 22
-    },
-    {
-      "id": 906,
-      "name": "T. Chong",
-      "pos": "Midfielder",
-      "number": 21
-    },
-    {
-      "id": 36842,
-      "name": "G. Roemeratoe",
-      "pos": "Midfielder",
-      "number": 6
-    },
-    {
-      "id": 19047,
-      "name": "J. Bacuna",
-      "pos": "Midfielder",
-      "number": 7
-    },
-    {
-      "id": 163220,
-      "name": "J. Antonisse",
-      "pos": "Attacker",
-      "number": 11
-    },
-    {
-      "id": 37272,
-      "name": "B. Kuwas",
-      "pos": "Attacker",
-      "number": 17
-    },
-    {
-      "id": 41627,
-      "name": "K. Gorré",
-      "pos": "Attacker",
-      "number": 14
+      "start": true
     },
     {
       "id": 161884,
-      "name": "S. Hansen",
-      "pos": "Attacker",
-      "number": 12
+      "name": "Sontje Hansen",
+      "number": 12,
+      "pos": "Midfielder",
+      "start": true
     },
     {
-      "id": 38708,
-      "name": "G. Kastaneer",
-      "pos": "Attacker",
-      "number": 19
+      "id": 906,
+      "name": "Tahith Chong",
+      "number": 21,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 19047,
+      "name": "Juninho Bacuna",
+      "number": 7,
+      "pos": "Midfielder",
+      "start": true
     },
     {
       "id": 18981,
-      "name": "J. Locadia",
+      "name": "Jürgen Locadia",
+      "number": 9,
       "pos": "Attacker",
-      "number": 9
+      "start": true
+    },
+    {
+      "id": 36967,
+      "name": "Trevor Iriving Doornbusch",
+      "number": 26,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 214129,
+      "name": "Tyrick Bodak",
+      "number": 25,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 36857,
+      "name": "Jurien Gaari",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 706,
+      "name": "Joshua Brenet",
+      "number": 20,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 194645,
+      "name": "Shurandy Sambo",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 37066,
+      "name": "Roshon van Eijma",
+      "number": 4,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 162199,
+      "name": "Ar'Jany Martha",
+      "number": 15,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 163220,
+      "name": "Jeremy Antonisse",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 41627,
+      "name": "Kenji Gorré",
+      "number": 14,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 37461,
+      "name": "Kevin Felida",
+      "number": 22,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 406846,
+      "name": "Tyrese Noslin",
+      "number": 13,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 195067,
-      "name": "J. Margaritha",
+      "name": "Jearl Margaritha",
+      "number": 16,
       "pos": "Attacker",
-      "number": 16
+      "start": false
+    },
+    {
+      "id": 36842,
+      "name": "Godfried Roemeratoe",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 38708,
+      "name": "Gervane Kastaneer",
+      "number": 19,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 37272,
+      "name": "Brandley Kuwas",
+      "number": 17,
+      "pos": "Attacker",
+      "start": false
     }
   ]
 }

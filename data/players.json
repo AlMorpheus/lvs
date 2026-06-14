@@ -120,7 +120,7 @@
     "team": "768"
   },
   "221": {
-    "name": "E. Room",
+    "name": "Eloy Room",
     "pos": "Goalkeeper",
     "team": "5530"
   },
@@ -135,7 +135,7 @@
     "team": "1118"
   },
   "228": {
-    "name": "A. Obispo",
+    "name": "Armando Obispo",
     "pos": "Defender",
     "team": "5530"
   },
@@ -255,7 +255,7 @@
     "team": "1508"
   },
   "399": {
-    "name": "A. Nübel",
+    "name": "Alexander Nübel",
     "pos": "Goalkeeper",
     "team": "25"
   },
@@ -300,12 +300,12 @@
     "team": "777"
   },
   "497": {
-    "name": "M. Neuer",
+    "name": "Manuel Neuer",
     "pos": "Goalkeeper",
     "team": "25"
   },
   "502": {
-    "name": "J. Kimmich",
+    "name": "Joshua Kimmich",
     "pos": "Defender",
     "team": "25"
   },
@@ -320,7 +320,7 @@
     "team": "5529"
   },
   "511": {
-    "name": "L. Goretzka",
+    "name": "Leon Goretzka",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -430,12 +430,12 @@
     "team": "27"
   },
   "637": {
-    "name": "F. Nmecha",
+    "name": "Felix Nmecha",
     "pos": "Midfielder",
     "team": "25"
   },
   "644": {
-    "name": "L. Sané",
+    "name": "Leroy Sané",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -450,12 +450,12 @@
     "team": "1118"
   },
   "702": {
-    "name": "O. Baumann",
+    "name": "Oliver Baumann",
     "pos": "Goalkeeper",
     "team": "25"
   },
   "706": {
-    "name": "J. Brenet",
+    "name": "Joshua Brenet",
     "pos": "Defender",
     "team": "5530"
   },
@@ -465,7 +465,7 @@
     "team": "775"
   },
   "714": {
-    "name": "N. Amiri",
+    "name": "Nadiem Amiri",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -610,7 +610,7 @@
     "team": "1108"
   },
   "906": {
-    "name": "T. Chong",
+    "name": "Tahith Chong",
     "pos": "Midfielder",
     "team": "5530"
   },
@@ -660,12 +660,12 @@
     "team": "1117"
   },
   "972": {
-    "name": "J. Tah",
+    "name": "Jonathan Tah",
     "pos": "Defender",
     "team": "25"
   },
   "978": {
-    "name": "K. Havertz",
+    "name": "Kai Havertz",
     "pos": "Attacker",
     "team": "25"
   },
@@ -1015,7 +1015,7 @@
     "team": "767"
   },
   "2285": {
-    "name": "A. Rüdiger",
+    "name": "Antonio Rüdiger",
     "pos": "Defender",
     "team": "25"
   },
@@ -2175,7 +2175,7 @@
     "team": "1090"
   },
   "18970": {
-    "name": "P. Groß",
+    "name": "Pascal Groß",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -2185,12 +2185,12 @@
     "team": "5"
   },
   "18981": {
-    "name": "J. Locadia",
+    "name": "Jürgen Locadia",
     "pos": "Attacker",
     "team": "5530"
   },
   "18997": {
-    "name": "L. Bacuna",
+    "name": "Leandro Bacuna",
     "pos": "Midfielder",
     "team": "5530"
   },
@@ -2200,7 +2200,7 @@
     "team": "2384"
   },
   "19047": {
-    "name": "J. Bacuna",
+    "name": "Juninho Bacuna",
     "pos": "Midfielder",
     "team": "5530"
   },
@@ -2555,7 +2555,7 @@
     "team": "1113"
   },
   "25158": {
-    "name": "D. Raum",
+    "name": "David Raum",
     "pos": "Defender",
     "team": "25"
   },
@@ -2595,7 +2595,7 @@
     "team": "770"
   },
   "25368": {
-    "name": "W. Anton",
+    "name": "Waldemar Anton",
     "pos": "Defender",
     "team": "25"
   },
@@ -2645,7 +2645,7 @@
     "team": "775"
   },
   "26243": {
-    "name": "N. Schlotterbeck",
+    "name": "Nico Schlotterbeck",
     "pos": "Defender",
     "team": "25"
   },
@@ -2660,7 +2660,7 @@
     "team": "26"
   },
   "26475": {
-    "name": "D. Undav",
+    "name": "Deniz Undav",
     "pos": "Attacker",
     "team": "25"
   },
@@ -3005,12 +3005,12 @@
     "team": "1117"
   },
   "36842": {
-    "name": "G. Roemeratoe",
+    "name": "Godfried Roemeratoe",
     "pos": "Midfielder",
     "team": "5530"
   },
   "36857": {
-    "name": "J. Gaari",
+    "name": "Jurien Gaari",
     "pos": "Defender",
     "team": "5530"
   },
@@ -3035,12 +3035,12 @@
     "team": "1118"
   },
   "36967": {
-    "name": "T. Doornbusch",
+    "name": "Trevor Iriving Doornbusch",
     "pos": "Goalkeeper",
     "team": "5530"
   },
   "36970": {
-    "name": "S. Floranus",
+    "name": "Sherel Constancio Floranus",
     "pos": "Defender",
     "team": "5530"
   },
@@ -3050,7 +3050,7 @@
     "team": "1090"
   },
   "37066": {
-    "name": "R. van Eijma",
+    "name": "Roshon van Eijma",
     "pos": "Defender",
     "team": "5530"
   },
@@ -3065,12 +3065,12 @@
     "team": "777"
   },
   "37175": {
-    "name": "R. Bazoer",
+    "name": "Riechedly Bazoer",
     "pos": "Defender",
     "team": "5530"
   },
   "37272": {
-    "name": "B. Kuwas",
+    "name": "Brandley Kuwas",
     "pos": "Attacker",
     "team": "5530"
   },
@@ -3085,7 +3085,7 @@
     "team": "1533"
   },
   "37461": {
-    "name": "K. Felida",
+    "name": "Kevin Felida",
     "pos": "Midfielder",
     "team": "5530"
   },
@@ -3115,7 +3115,7 @@
     "team": "1118"
   },
   "38708": {
-    "name": "G. Kastaneer",
+    "name": "Gervane Kastaneer",
     "pos": "Attacker",
     "team": "5530"
   },
@@ -3205,7 +3205,7 @@
     "team": "27"
   },
   "41627": {
-    "name": "K. Gorré",
+    "name": "Kenji Gorré",
     "pos": "Attacker",
     "team": "5530"
   },
@@ -4660,7 +4660,7 @@
     "team": "27"
   },
   "128533": {
-    "name": "J. Leweling",
+    "name": "Jamie Leweling",
     "pos": "Attacker",
     "team": "25"
   },
@@ -4775,7 +4775,7 @@
     "team": "22"
   },
   "137210": {
-    "name": "A. Stiller",
+    "name": "Angelo Stiller",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -4925,7 +4925,7 @@
     "team": "1501"
   },
   "158054": {
-    "name": "N. Woltemade",
+    "name": "Nick Woltemade",
     "pos": "Attacker",
     "team": "25"
   },
@@ -4940,7 +4940,7 @@
     "team": "1531"
   },
   "158644": {
-    "name": "M. Beier",
+    "name": "Maximilian Beier",
     "pos": "Attacker",
     "team": "25"
   },
@@ -4990,8 +4990,8 @@
     "team": "1117"
   },
   "161884": {
-    "name": "S. Hansen",
-    "pos": "Attacker",
+    "name": "Sontje Hansen",
+    "pos": "Midfielder",
     "team": "5530"
   },
   "161897": {
@@ -5040,7 +5040,7 @@
     "team": "770"
   },
   "162199": {
-    "name": "A. Martha",
+    "name": "Ar'Jany Martha",
     "pos": "Midfielder",
     "team": "5530"
   },
@@ -5125,7 +5125,7 @@
     "team": "28"
   },
   "163189": {
-    "name": "M. Thiaw",
+    "name": "Malick Thiaw",
     "pos": "Defender",
     "team": "25"
   },
@@ -5135,7 +5135,7 @@
     "team": "1533"
   },
   "163220": {
-    "name": "J. Antonisse",
+    "name": "Jeremy Antonisse",
     "pos": "Attacker",
     "team": "5530"
   },
@@ -5215,7 +5215,7 @@
     "team": "31"
   },
   "181812": {
-    "name": "J. Musiala",
+    "name": "Jamal Musiala",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -5300,12 +5300,12 @@
     "team": "1118"
   },
   "194645": {
-    "name": "S. Sambo",
+    "name": "Shurandy Sambo",
     "pos": "Defender",
     "team": "5530"
   },
   "195067": {
-    "name": "J. Margaritha",
+    "name": "Jearl Margaritha",
     "pos": "Attacker",
     "team": "5530"
   },
@@ -5440,7 +5440,7 @@
     "team": "3"
   },
   "203224": {
-    "name": "F. Wirtz",
+    "name": "Florian Wirtz",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -5475,7 +5475,7 @@
     "team": "1548"
   },
   "214129": {
-    "name": "T. Bodak",
+    "name": "Tyrick Bodak",
     "pos": "Goalkeeper",
     "team": "5530"
   },
@@ -5775,7 +5775,7 @@
     "team": "1508"
   },
   "280074": {
-    "name": "N. Brown",
+    "name": "Nathaniel Brown",
     "pos": "Defender",
     "team": "25"
   },
@@ -6035,7 +6035,7 @@
     "team": "1533"
   },
   "309763": {
-    "name": "L. Comenencia",
+    "name": "Livano Comenencia",
     "pos": "Midfielder",
     "team": "5530"
   },
@@ -6205,7 +6205,7 @@
     "team": "775"
   },
   "328033": {
-    "name": "A. Pavlovic",
+    "name": "Aleksandar Pavlović",
     "pos": "Midfielder",
     "team": "25"
   },
@@ -6724,6 +6724,11 @@
     "pos": "Midfielder",
     "team": "1532"
   },
+  "380978": {
+    "name": "Assan Ouédraogo",
+    "pos": "Midfielder",
+    "team": "25"
+  },
   "383018": {
     "name": "M. Palestra",
     "pos": "Defender",
@@ -6855,7 +6860,7 @@
     "team": "1531"
   },
   "406846": {
-    "name": "T. Noslin",
+    "name": "Tyrese Noslin",
     "pos": "Midfielder",
     "team": "5530"
   },
