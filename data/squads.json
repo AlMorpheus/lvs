@@ -8265,6 +8265,13 @@
       "start": true
     },
     {
+      "id": 174915,
+      "name": "Josué Casimir",
+      "number": 21,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 174768,
       "name": "Alexandre Pierre",
       "number": 12,
@@ -8332,13 +8339,6 @@
       "name": "Woodensky Pierre",
       "number": 26,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 174915,
-      "name": "Josué Casimir",
-      "number": 21,
-      "pos": "Attacker",
       "start": false
     },
     {
