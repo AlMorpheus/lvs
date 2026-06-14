@@ -1635,16 +1635,16 @@
       "start": true
     },
     {
-      "id": 2601,
-      "name": "Daichi Kamada",
-      "number": 15,
+      "id": 33889,
+      "name": "Kaishu Sano",
+      "number": 24,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 33889,
-      "name": "Kaishu Sano",
-      "number": 24,
+      "id": 2601,
+      "name": "Daichi Kamada",
+      "number": 15,
       "pos": "Midfielder",
       "start": true
     },
@@ -5864,9 +5864,9 @@
       "start": true
     },
     {
-      "id": 152849,
-      "name": "Micky van de Ven",
-      "number": 15,
+      "id": 38695,
+      "name": "Jan Paul van Hecke",
+      "number": 6,
       "pos": "Defender",
       "start": true
     },
@@ -5878,9 +5878,9 @@
       "start": true
     },
     {
-      "id": 38695,
-      "name": "Jan Paul van Hecke",
-      "number": 6,
+      "id": 152849,
+      "name": "Micky van de Ven",
+      "number": 15,
       "pos": "Defender",
       "start": true
     },
