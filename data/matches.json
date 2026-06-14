@@ -319,7 +319,7 @@
   {
     "id": "1489372",
     "date": "2026-06-14T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -337,12 +337,23 @@
       "home": 0,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T03:03:55.228Z",
     "lineupAt": "2026-06-14T00:32:26.505Z",
     "remind2hAt": "2026-06-13T23:01:11.638Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 19191,
+        "name": "J. McGinn",
+        "teamId": 1108,
+        "minute": 28,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
