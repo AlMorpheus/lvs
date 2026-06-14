@@ -408,7 +408,7 @@
   {
     "id": "1489374",
     "date": "2026-06-14T17:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -426,12 +426,72 @@
       "home": 7,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 7,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T18:59:21.476Z",
     "lineupAt": "2026-06-14T15:52:49.832Z",
     "remind2hAt": "2026-06-14T15:01:28.318Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 637,
+        "name": "F. Nmecha",
+        "teamId": 25,
+        "minute": 6,
+        "type": "normal"
+      },
+      {
+        "playerId": 309763,
+        "name": "L. Comenencia",
+        "teamId": 5530,
+        "minute": 21,
+        "type": "normal"
+      },
+      {
+        "playerId": 26243,
+        "name": "N. Schlotterbeck",
+        "teamId": 25,
+        "minute": 38,
+        "type": "normal"
+      },
+      {
+        "playerId": 978,
+        "name": "K. Havertz",
+        "teamId": 25,
+        "minute": 45,
+        "type": "normal"
+      },
+      {
+        "playerId": 181812,
+        "name": "J. Musiala",
+        "teamId": 25,
+        "minute": 47,
+        "type": "normal"
+      },
+      {
+        "playerId": 280074,
+        "name": "N. Brown",
+        "teamId": 25,
+        "minute": 68,
+        "type": "normal"
+      },
+      {
+        "playerId": 26475,
+        "name": "D. Undav",
+        "teamId": 25,
+        "minute": 78,
+        "type": "normal"
+      },
+      {
+        "playerId": 978,
+        "name": "K. Havertz",
+        "teamId": 25,
+        "minute": 88,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
