@@ -1,7 +1,7 @@
 // Экран «Таблица»: лидерборд + разбивка очков + прогноз (чемпион/бомбардир).
-import { h, flagSrc } from './components.js?v=55';
-import { openPlayerHistory } from './matches.js?v=55';
-import { teamById, scorerInfo } from './onboarding.js?v=55';
+import { h, flagSrc } from './components.js?v=56';
+import { openPlayerHistory } from './matches.js?v=56';
+import { teamById, scorerInfo } from './onboarding.js?v=56';
 
 const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉' };
 

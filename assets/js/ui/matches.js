@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=55';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=55';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=55';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=55';
-import { renderGreeting } from './greeting.js?v=55';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=56';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=56';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=56';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=56';
+import { renderGreeting } from './greeting.js?v=56';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -121,12 +121,14 @@ function sortSquad(players, S) {
 
 function scorerSelect(m, S, value) {
   const sel = h('select', { class: 'input' }, [h('option', { value: '', text: '— игрок —' })]);
+  const rendered = new Set(); // какие id уже есть опциями
   const addGroup = (label, players) => {
     if (!players.length) return;
     const og = h('optgroup', { label });
     for (const p of players) {
       const ab = POS_ABBR[p.pos];
       og.append(h('option', { value: String(p.id), text: ab ? `${p.name} · ${ab}` : p.name, selected: String(p.id) === String(value) }));
+      rendered.add(String(p.id));
     }
     sel.append(og);
   };
@@ -140,6 +142,13 @@ function scorerSelect(m, S, value) {
     } else {
       addGroup(team.name, sortSquad(raw, S));
     }
+  }
+  // ВАЖНО: ранее выбранного игрока не теряем, даже если его сейчас нет в составе
+  // (состав мог быть урезан до заявки на матч) — иначе при пересохранении ставка молча теряет автора.
+  if (value && !rendered.has(String(value))) {
+    const name = S.players?.[String(value)]?.name || ('Игрок #' + value);
+    const og = h('optgroup', { label: 'Твой выбор' }, [h('option', { value: String(value), text: name, selected: true })]);
+    sel.insertBefore(og, sel.children[1] || null); // сразу после плейсхолдера
   }
   return sel;
 }
