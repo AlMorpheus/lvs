@@ -890,13 +890,6 @@
       "start": true
     },
     {
-      "id": 756,
-      "name": "Federico Valverde",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 51494,
       "name": "Manuel Ugarte",
       "number": 5,
@@ -911,9 +904,9 @@
       "start": true
     },
     {
-      "id": 51776,
-      "name": "Maximiliano Araújo",
-      "number": 20,
+      "id": 756,
+      "name": "Federico Valverde",
+      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -921,8 +914,29 @@
       "id": 51530,
       "name": "Federico Viñas",
       "number": 21,
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "start": true
+    },
+    {
+      "id": 51776,
+      "name": "Maximiliano Araújo",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 162891,
+      "name": "Juan Sanabria",
+      "number": 25,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 51603,
+      "name": "Agustín Canobbio",
+      "number": 14,
+      "pos": "Attacker",
+      "start": false
     },
     {
       "id": 61895,
@@ -943,13 +957,6 @@
       "name": "José María Giménez",
       "number": 2,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 162891,
-      "name": "Juan Sanabria",
-      "number": 25,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -985,13 +992,6 @@
       "name": "Emiliano Martínez",
       "number": 15,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 51603,
-      "name": "Agustín Canobbio",
-      "number": 14,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -2937,6 +2937,13 @@
       "start": true
     },
     {
+      "id": 44339,
+      "name": "Nasser Al-Dawsari",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 44449,
       "name": "Ahmed Al-Kassar",
       "number": 22,
@@ -2983,13 +2990,6 @@
       "name": "Nawaf Boushal",
       "number": 13,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 44339,
-      "name": "Nasser Al-Dawsari",
-      "number": 6,
-      "pos": "Midfielder",
       "start": false
     },
     {
