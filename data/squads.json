@@ -503,6 +503,13 @@
       "start": true
     },
     {
+      "id": 48047,
+      "name": "Jesper Karlström",
+      "number": 16,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 47696,
       "name": "Alexander Bernhardsson",
       "number": 21,
@@ -510,9 +517,9 @@
       "start": true
     },
     {
-      "id": 48047,
-      "name": "Jesper Karlström",
-      "number": 16,
+      "id": 48002,
+      "name": "Benjamin Nygren",
+      "number": 10,
       "pos": "Midfielder",
       "start": true
     },
@@ -531,13 +538,6 @@
       "start": true
     },
     {
-      "id": 48002,
-      "name": "Benjamin Nygren",
-      "number": 10,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 18979,
       "name": "Viktor Gyökeres",
       "number": 17,
@@ -550,6 +550,20 @@
       "number": 9,
       "pos": "Attacker",
       "start": true
+    },
+    {
+      "id": 226765,
+      "name": "Elliot Stroud",
+      "number": 24,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 347316,
+      "name": "Lucas Bergvall",
+      "number": 7,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 48033,
@@ -597,20 +611,6 @@
       "id": 161504,
       "name": "Herman Johansson",
       "number": 6,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 226765,
-      "name": "Elliot Stroud",
-      "number": 24,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 347316,
-      "name": "Lucas Bergvall",
-      "number": 7,
       "pos": "Midfielder",
       "start": false
     },
