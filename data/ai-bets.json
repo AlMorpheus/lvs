@@ -218,6 +218,34 @@
     "lockedAt": "2026-06-14T20:00:56.112Z",
     "syncedAt": "2026-06-14T20:00:56.112Z"
   },
+  "1489380": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Ferran Torres",
+        "team": "home",
+        "pos": "нап",
+        "id": "931"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "team": "home",
+        "pos": "нап",
+        "id": "47323"
+      },
+      {
+        "name": "Pablo Gavi",
+        "team": "home",
+        "pos": "нап",
+        "id": "296667"
+      }
+    ],
+    "lockedAt": "2026-06-15T16:00:29.977Z",
+    "syncedAt": "2026-06-15T16:00:29.977Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
