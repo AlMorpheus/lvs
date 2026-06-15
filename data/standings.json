@@ -3,9 +3,9 @@
     {
       "id": "sasha",
       "name": "Мастер",
-      "matchPts": 190,
+      "matchPts": 197,
       "futuresPts": 0,
-      "total": 190,
+      "total": 197,
       "exactCount": 2,
       "perMatch": {
         "1489369": {
@@ -96,6 +96,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489377": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489380": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -159,9 +170,9 @@
     {
       "id": "sergey",
       "name": "Мел",
-      "matchPts": 154,
+      "matchPts": 161,
       "futuresPts": 0,
-      "total": 154,
+      "total": 161,
       "exactCount": 2,
       "perMatch": {
         "1489369": {
@@ -249,6 +260,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 16,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489377": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 7,
           "isExact": false,
           "usedReg": false
         },
@@ -398,6 +420,17 @@
           "usedReg": false
         },
         "1489376": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489377": {
           "scorePts": 0,
           "scorerPts": 0,
           "correctScorers": 0,
@@ -564,6 +597,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489377": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489380": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -717,6 +761,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 21,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489377": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -876,6 +931,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489377": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489380": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -999,6 +1065,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489377": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489380": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -1051,5 +1128,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-15T17:57:23.315Z"
+  "updatedAt": "2026-06-15T20:59:25.108Z"
 }
