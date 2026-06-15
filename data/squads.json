@@ -1187,9 +1187,9 @@
       "start": true
     },
     {
-      "id": 133609,
-      "name": "Pedri",
-      "number": 20,
+      "id": 328,
+      "name": "Fabián Ruiz",
+      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -1201,9 +1201,9 @@
       "start": true
     },
     {
-      "id": 328,
-      "name": "Fabián Ruiz",
-      "number": 8,
+      "id": 133609,
+      "name": "Pedri",
+      "number": 20,
       "pos": "Midfielder",
       "start": true
     },
@@ -6942,16 +6942,16 @@
       "start": true
     },
     {
-      "id": 41608,
-      "name": "Diney Borges",
-      "number": 3,
+      "id": 69260,
+      "name": "Pico",
+      "number": 4,
       "pos": "Defender",
       "start": true
     },
     {
-      "id": 69260,
-      "name": "Pico",
-      "number": 4,
+      "id": 41608,
+      "name": "Diney Borges",
+      "number": 3,
       "pos": "Defender",
       "start": true
     },
@@ -6970,16 +6970,16 @@
       "start": true
     },
     {
-      "id": 37436,
-      "name": "Laros Duarte",
-      "number": 15,
+      "id": 50270,
+      "name": "Ryan Mendes",
+      "number": 20,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 50270,
-      "name": "Ryan Mendes",
-      "number": 20,
+      "id": 37436,
+      "name": "Laros Duarte",
+      "number": 15,
       "pos": "Midfielder",
       "start": true
     },
