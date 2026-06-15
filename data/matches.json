@@ -762,8 +762,7 @@
     "remind2hAt": "2026-06-15T20:00:30.588Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1,
-    "remindJustDue": true
+    "multiplier": 1
   },
   {
     "id": "1489378",
