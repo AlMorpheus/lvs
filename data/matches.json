@@ -560,7 +560,7 @@
   {
     "id": "1489375",
     "date": "2026-06-14T23:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -578,12 +578,23 @@
       "home": 1,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-15T01:05:08.867Z",
     "lineupAt": "2026-06-14T21:53:31.010Z",
     "remind2hAt": "2026-06-14T21:00:45.551Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 157997,
+        "name": "A. Diallo",
+        "teamId": 1501,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
