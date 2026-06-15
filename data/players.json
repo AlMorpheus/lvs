@@ -365,7 +365,7 @@
     "team": "1117"
   },
   "563": {
-    "name": "Álex Grimaldo",
+    "name": "Alejandro Grimaldo",
     "pos": "Defender",
     "team": "9"
   },
@@ -511,7 +511,7 @@
   },
   "753": {
     "name": "Marcos Llorente",
-    "pos": "Midfielder",
+    "pos": "Defender",
     "team": "9"
   },
   "754": {
@@ -636,7 +636,7 @@
   },
   "931": {
     "name": "Ferran Torres",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "9"
   },
   "951": {
@@ -856,7 +856,7 @@
   },
   "1494": {
     "name": "Jovane Cabral",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "1533"
   },
   "1496": {
@@ -1975,7 +1975,7 @@
     "team": "1548"
   },
   "15304": {
-    "name": "Vózinha",
+    "name": "Vozinha",
     "pos": "Goalkeeper",
     "team": "1533"
   },
@@ -2475,7 +2475,7 @@
     "team": "2"
   },
   "22139": {
-    "name": "S. Moreira",
+    "name": "Steven Moreira",
     "pos": "Defender",
     "team": "1533"
   },
@@ -2510,7 +2510,7 @@
     "team": "27"
   },
   "22265": {
-    "name": "Nuno da Costa",
+    "name": "Nuno Da Costa",
     "pos": "Attacker",
     "team": "1533"
   },
@@ -3085,7 +3085,7 @@
     "team": "1533"
   },
   "37436": {
-    "name": "L. Duarte",
+    "name": "Laros Duarte",
     "pos": "Midfielder",
     "team": "1533"
   },
@@ -3421,7 +3421,7 @@
   },
   "44612": {
     "name": "Garry Rodrigues",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1533"
   },
   "44701": {
@@ -4460,7 +4460,7 @@
     "team": "2380"
   },
   "96512": {
-    "name": "Kevin Pina",
+    "name": "Kevin Lenini",
     "pos": "Midfielder",
     "team": "1533"
   },
@@ -4556,7 +4556,7 @@
   },
   "113580": {
     "name": "Willy Semedo",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1533"
   },
   "116117": {
@@ -5140,7 +5140,7 @@
     "team": "25"
   },
   "163200": {
-    "name": "C. dos Santos",
+    "name": "CJ Dos Santos",
     "pos": "Goalkeeper",
     "team": "1533"
   },
@@ -5230,7 +5230,7 @@
     "team": "25"
   },
   "182219": {
-    "name": "Álex Baena",
+    "name": "Alex Baena",
     "pos": "Midfielder",
     "team": "9"
   },
@@ -5245,7 +5245,7 @@
     "team": "9"
   },
   "184226": {
-    "name": "Yeremy Pino",
+    "name": "Yéremy Pino",
     "pos": "Midfielder",
     "team": "9"
   },
@@ -5876,7 +5876,7 @@
   },
   "291024": {
     "name": "Hélio Varela",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1533"
   },
   "291713": {
@@ -5950,8 +5950,8 @@
     "team": "20"
   },
   "296667": {
-    "name": "Gavi",
-    "pos": "Midfielder",
+    "name": "Pablo Gavi",
+    "pos": "Attacker",
     "team": "9"
   },
   "298165": {
@@ -6035,12 +6035,12 @@
     "team": "10"
   },
   "308689": {
-    "name": "S. Lopes Cabral",
+    "name": "Sidny Lopes Cabral",
     "pos": "Defender",
     "team": "1533"
   },
   "309182": {
-    "name": "Gilson Benchimol",
+    "name": "Gilson Tavares",
     "pos": "Attacker",
     "team": "1533"
   },
@@ -6330,7 +6330,7 @@
     "team": "2386"
   },
   "338751": {
-    "name": "Víctor Muñoz",
+    "name": "Victor Muñoz",
     "pos": "Attacker",
     "team": "9"
   },
@@ -6430,7 +6430,7 @@
     "team": "2"
   },
   "343287": {
-    "name": "D. Livramento",
+    "name": "Dailon Rocha Livramento",
     "pos": "Attacker",
     "team": "1533"
   },
@@ -6815,7 +6815,7 @@
     "team": "1113"
   },
   "396623": {
-    "name": "Pau Cubarsí Paredes",
+    "name": "Pau Cubarsí",
     "pos": "Defender",
     "team": "9"
   },
