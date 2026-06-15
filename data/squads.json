@@ -78,6 +78,27 @@
       "start": true
     },
     {
+      "id": 162007,
+      "name": "Maxim De Cuyper",
+      "number": 5,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 2120,
+      "name": "Nicolas Raskin",
+      "number": 23,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 907,
+      "name": "Romelu Lukaku",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 162511,
       "name": "Senne Lammens",
       "number": 12,
@@ -113,13 +134,6 @@
       "start": false
     },
     {
-      "id": 162007,
-      "name": "Maxim De Cuyper",
-      "number": 5,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 1417,
       "name": "Alexis Saelemaekers",
       "number": 22,
@@ -148,13 +162,6 @@
       "start": false
     },
     {
-      "id": 2120,
-      "name": "Nicolas Raskin",
-      "number": 23,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 78,
       "name": "Hans Vanaken",
       "number": 20,
@@ -165,13 +172,6 @@
       "id": 340077,
       "name": "Matías Fernández-Pardo",
       "number": 26,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 907,
-      "name": "Romelu Lukaku",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     }
