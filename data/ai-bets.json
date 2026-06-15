@@ -218,6 +218,34 @@
     "lockedAt": "2026-06-14T20:00:56.112Z",
     "syncedAt": "2026-06-14T20:00:56.112Z"
   },
+  "1489377": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Charles De Ketelaere",
+        "team": "home",
+        "pos": "нап",
+        "id": "147859"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "home",
+        "pos": "пз",
+        "id": "629"
+      },
+      {
+        "name": "Mohamed Salah",
+        "team": "away",
+        "pos": "пз",
+        "id": "306"
+      }
+    ],
+    "lockedAt": "2026-06-15T19:01:45.463Z",
+    "syncedAt": "2026-06-15T19:01:45.463Z"
+  },
   "1489380": {
     "score": {
       "home": 3,
