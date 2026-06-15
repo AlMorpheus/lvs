@@ -2874,16 +2874,16 @@
       "start": true
     },
     {
-      "id": 44362,
-      "name": "Hassan Altambakti",
-      "number": 5,
+      "id": 44475,
+      "name": "Abdulelah Al-Amri",
+      "number": 4,
       "pos": "Defender",
       "start": true
     },
     {
-      "id": 44475,
-      "name": "Abdulelah Al-Amri",
-      "number": 4,
+      "id": 44362,
+      "name": "Hassan Altambakti",
+      "number": 5,
       "pos": "Defender",
       "start": true
     },
@@ -2923,16 +2923,16 @@
       "start": true
     },
     {
-      "id": 306380,
-      "name": "Musab Al Juwayr",
-      "number": 7,
+      "id": 44324,
+      "name": "Firas Al-Buraikan",
+      "number": 9,
       "pos": "Attacker",
       "start": true
     },
     {
-      "id": 44324,
-      "name": "Firas Al-Buraikan",
-      "number": 9,
+      "id": 306380,
+      "name": "Musab Al Juwayr",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
