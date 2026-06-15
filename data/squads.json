@@ -7005,6 +7005,27 @@
       "start": true
     },
     {
+      "id": 37435,
+      "name": "Deroy Duarte",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 113580,
+      "name": "Willy Semedo",
+      "number": 17,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 22265,
+      "name": "Nuno Da Costa",
+      "number": 21,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 41764,
       "name": "Márcio Rosa",
       "number": 12,
@@ -7061,24 +7082,10 @@
       "start": false
     },
     {
-      "id": 37435,
-      "name": "Deroy Duarte",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 128007,
       "name": "Yannick Semedo",
       "number": 16,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 113580,
-      "name": "Willy Semedo",
-      "number": 17,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -7092,13 +7099,6 @@
       "id": 291024,
       "name": "Hélio Varela",
       "number": 26,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 22265,
-      "name": "Nuno Da Costa",
-      "number": 21,
       "pos": "Attacker",
       "start": false
     },
