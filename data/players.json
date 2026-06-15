@@ -416,7 +416,7 @@
   },
   "629": {
     "name": "K. De Bruyne",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "1"
   },
   "635": {
@@ -816,12 +816,12 @@
   },
   "1417": {
     "name": "A. Saelemaekers",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1"
   },
   "1422": {
     "name": "J. Doku",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "1"
   },
   "1424": {
@@ -966,7 +966,7 @@
   },
   "1946": {
     "name": "L. Trossard",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "1"
   },
   "2001": {
@@ -1736,7 +1736,7 @@
   },
   "6931": {
     "name": "L. Cacace",
-    "pos": "Midfielder",
+    "pos": "Defender",
     "team": "4673"
   },
   "6932": {
@@ -2051,7 +2051,7 @@
   },
   "16813": {
     "name": "Hamdi Fathy",
-    "pos": "Midfielder",
+    "pos": "Defender",
     "team": "32"
   },
   "16831": {
@@ -2391,7 +2391,7 @@
   },
   "20844": {
     "name": "H. Hassan",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "32"
   },
   "20850": {
@@ -4226,7 +4226,7 @@
   },
   "70535": {
     "name": "Ibrahim Adel",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "32"
   },
   "70670": {
@@ -4956,7 +4956,7 @@
   },
   "158688": {
     "name": "J. Randall",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "4673"
   },
   "158694": {
@@ -5031,7 +5031,7 @@
   },
   "162007": {
     "name": "M. De Cuyper",
-    "pos": "Midfielder",
+    "pos": "Defender",
     "team": "1"
   },
   "162037": {
@@ -5096,7 +5096,7 @@
   },
   "162714": {
     "name": "A. Onana",
-    "pos": "Defender",
+    "pos": "Midfielder",
     "team": "1"
   },
   "162733": {
@@ -5191,7 +5191,7 @@
   },
   "179856": {
     "name": "B. Old",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "4673"
   },
   "179862": {
@@ -6801,7 +6801,7 @@
   },
   "395075": {
     "name": "Mostafa Zico",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "32"
   },
   "395559": {
