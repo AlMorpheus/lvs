@@ -601,7 +601,7 @@
   {
     "id": "1539002",
     "date": "2026-06-15T02:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -615,7 +615,10 @@
       "name": "Tunisia",
       "flag": "https://media.api-sports.io/football/teams/28.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,

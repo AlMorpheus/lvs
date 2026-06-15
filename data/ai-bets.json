@@ -298,5 +298,33 @@
       }
     ],
     "lockedAt": "2026-06-14T04:01:34.694Z"
+  },
+  "1539002": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Alexander Isak",
+        "team": "home",
+        "pos": "нап",
+        "id": "2864"
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "team": "home",
+        "pos": "нап",
+        "id": "18979"
+      },
+      {
+        "name": "Elias Saad",
+        "team": "away",
+        "pos": "нап",
+        "id": "323974"
+      }
+    ],
+    "lockedAt": "2026-06-15T02:01:43.613Z",
+    "syncedAt": "2026-06-15T02:01:43.613Z"
   }
 }
