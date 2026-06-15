@@ -246,6 +246,34 @@
     "lockedAt": "2026-06-15T19:01:45.463Z",
     "syncedAt": "2026-06-15T19:01:45.463Z"
   },
+  "1489379": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Darwin Núñez",
+        "team": "away",
+        "pos": "нап",
+        "id": null
+      },
+      {
+        "name": "Federico Valverde",
+        "team": "away",
+        "pos": "пз",
+        "id": "756"
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "team": "home",
+        "pos": "пз",
+        "id": "44340"
+      }
+    ],
+    "lockedAt": "2026-06-15T22:00:13.859Z",
+    "syncedAt": "2026-06-15T22:00:13.859Z"
+  },
   "1489380": {
     "score": {
       "home": 3,
