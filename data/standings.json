@@ -96,6 +96,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -241,6 +252,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -381,6 +403,17 @@
           "correctScorers": 0,
           "base": 0,
           "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
           "special": 0,
           "total": 0,
           "isExact": false,
@@ -531,6 +564,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 25,
           "scorerPts": 0,
@@ -673,6 +717,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 21,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -821,6 +876,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -933,6 +999,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -974,5 +1051,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-15T03:59:33.394Z"
+  "updatedAt": "2026-06-15T17:57:23.315Z"
 }
