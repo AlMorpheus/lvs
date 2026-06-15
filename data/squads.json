@@ -3892,6 +3892,13 @@
       "start": true
     },
     {
+      "id": 190575,
+      "name": "Marwan Attia",
+      "number": 19,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 16841,
       "name": "Mohanad Lasheen",
       "number": 17,
@@ -3899,9 +3906,9 @@
       "start": true
     },
     {
-      "id": 190575,
-      "name": "Marwan Attia",
-      "number": 19,
+      "id": 395075,
+      "name": "Mostafa Ziko",
+      "number": 11,
       "pos": "Midfielder",
       "start": true
     },
@@ -3916,13 +3923,6 @@
       "id": 17269,
       "name": "Emam Ashour",
       "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 395075,
-      "name": "Mostafa Ziko",
-      "number": 11,
       "pos": "Midfielder",
       "start": true
     },
