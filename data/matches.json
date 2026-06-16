@@ -979,10 +979,11 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-06-16T23:01:52.971Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1
+    "multiplier": 1,
+    "remindJustDue": true
   },
   {
     "id": "1489382",
