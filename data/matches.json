@@ -758,7 +758,7 @@
   {
     "id": "1489379",
     "date": "2026-06-15T22:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -776,12 +776,30 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-16T00:05:17.290Z",
     "lineupAt": "2026-06-15T20:59:24.178Z",
     "remind2hAt": "2026-06-15T20:00:30.588Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 44475,
+        "name": "A. Al Amri",
+        "teamId": 23,
+        "minute": 41,
+        "type": "normal"
+      },
+      {
+        "playerId": 51776,
+        "name": "M. Araujo",
+        "teamId": 7,
+        "minute": 80,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
