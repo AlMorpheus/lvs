@@ -466,5 +466,33 @@
     ],
     "lockedAt": "2026-06-15T02:01:43.613Z",
     "syncedAt": "2026-06-15T02:01:43.613Z"
+  },
+  "1539016": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scorers": [
+      {
+        "name": "Erling Haaland",
+        "team": "away",
+        "pos": "нап",
+        "id": "1100"
+      },
+      {
+        "name": "Alexander Sørloth",
+        "team": "away",
+        "pos": "нап",
+        "id": "8492"
+      },
+      {
+        "name": "Aymen Hussein",
+        "team": "home",
+        "pos": "нап",
+        "id": "49451"
+      }
+    ],
+    "lockedAt": "2026-06-16T22:01:20.753Z",
+    "syncedAt": "2026-06-16T22:01:20.753Z"
   }
 }
