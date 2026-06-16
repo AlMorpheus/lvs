@@ -76,7 +76,7 @@
   },
   "153": {
     "name": "O. Dembélé",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "2"
   },
   "154": {
@@ -929,6 +929,11 @@
     "pos": "Defender",
     "team": "777"
   },
+  "1725": {
+    "name": "D. Ljubičić",
+    "pos": "Midfielder",
+    "team": "775"
+  },
   "1741": {
     "name": "Nikola Katić",
     "pos": "Defender",
@@ -1671,7 +1676,7 @@
   },
   "6067": {
     "name": "T. Almada",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "26"
   },
   "6168": {
@@ -1971,7 +1976,7 @@
   },
   "15286": {
     "name": "Mousa Tamari",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "1548"
   },
   "15304": {
@@ -2661,7 +2666,7 @@
   },
   "26315": {
     "name": "N. González",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "26"
   },
   "26475": {
@@ -4606,7 +4611,7 @@
   },
   "123530": {
     "name": "Mahmoud Al Mardi",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1548"
   },
   "123742": {
@@ -5531,7 +5536,7 @@
   },
   "229112": {
     "name": "A. Qasem",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "1567"
   },
   "237050": {
@@ -6136,7 +6141,7 @@
   },
   "314511": {
     "name": "A. Nusa",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1090"
   },
   "318592": {
@@ -6176,7 +6181,7 @@
   },
   "323935": {
     "name": "G. Simeone",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "26"
   },
   "323974": {
@@ -6441,7 +6446,7 @@
   },
   "343027": {
     "name": "D. Doué",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "2"
   },
   "343287": {

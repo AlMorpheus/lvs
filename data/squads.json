@@ -306,13 +306,13 @@
     {
       "id": 153,
       "name": "O. Dembélé",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 7
     },
     {
       "id": 343027,
       "name": "D. Doué",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 20
     },
     {
@@ -1959,7 +1959,7 @@
       "id": 630895,
       "name": "Bara Ndiaye",
       "pos": "Midfielder",
-      "number": 27
+      "number": 22
     },
     {
       "id": 237129,
@@ -1995,7 +1995,7 @@
       "id": 446249,
       "name": "I. Mbaye",
       "pos": "Attacker",
-      "number": 27
+      "number": 20
     },
     {
       "id": 14379,
@@ -3332,7 +3332,7 @@
     {
       "id": 26315,
       "name": "N. González",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 15
     },
     {
@@ -3344,7 +3344,7 @@
     {
       "id": 6067,
       "name": "T. Almada",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 16
     },
     {
@@ -3380,7 +3380,7 @@
     {
       "id": 323935,
       "name": "G. Simeone",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 17
     }
   ],
@@ -4740,8 +4740,8 @@
       "number": 25
     },
     {
-      "id": 715,
-      "name": "C. Baumgartner",
+      "id": 1725,
+      "name": "D. Ljubičić",
       "pos": "Midfielder",
       "number": 19
     },
@@ -5156,7 +5156,7 @@
     {
       "id": 314511,
       "name": "A. Nusa",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 20
     },
     {
@@ -7239,7 +7239,7 @@
       "id": 664028,
       "name": "A. Badawi",
       "pos": "Defender",
-      "number": 28
+      "number": 26
     },
     {
       "id": 310835,
@@ -7304,7 +7304,7 @@
     {
       "id": 123530,
       "name": "Mahmoud Al Mardi",
-      "pos": "Midfielder",
+      "pos": "Attacker",
       "number": 13
     },
     {
@@ -7340,7 +7340,7 @@
     {
       "id": 15286,
       "name": "Mousa Tamari",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 10
     }
   ],
@@ -7492,7 +7492,7 @@
     {
       "id": 229112,
       "name": "A. Qasem",
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "number": 11
     },
     {
