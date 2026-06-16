@@ -5143,6 +5143,13 @@
       "start": true
     },
     {
+      "id": 314511,
+      "name": "Antonio Nusa",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 8492,
       "name": "Alexander Sørloth",
       "number": 7,
@@ -5153,13 +5160,6 @@
       "id": 1100,
       "name": "Erling Haaland",
       "number": 9,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 314511,
-      "name": "Antonio Nusa",
-      "number": 20,
       "pos": "Attacker",
       "start": true
     },
