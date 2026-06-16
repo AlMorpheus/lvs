@@ -330,6 +330,34 @@
     "lockedAt": "2026-06-15T16:00:29.977Z",
     "syncedAt": "2026-06-15T16:00:29.977Z"
   },
+  "1489383": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "home",
+        "pos": "нап",
+        "id": "278"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "home",
+        "pos": "пз",
+        "id": "153"
+      },
+      {
+        "name": "Sadio Mané",
+        "team": "away",
+        "pos": "нап",
+        "id": "304"
+      }
+    ],
+    "lockedAt": "2026-06-16T19:01:23.597Z",
+    "syncedAt": "2026-06-16T19:01:23.597Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
