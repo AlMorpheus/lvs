@@ -1921,13 +1921,6 @@
       "start": true
     },
     {
-      "id": 374058,
-      "name": "Lamine Camara",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 2990,
       "name": "Idrissa Gana Gueye",
       "number": 5,
@@ -1945,20 +1938,27 @@
       "id": 2218,
       "name": "Ismaïla Sarr",
       "number": 18,
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 283058,
-      "name": "Nicolas Jackson",
-      "number": 11,
-      "pos": "Attacker",
+      "id": 374058,
+      "name": "Lamine Camara",
+      "number": 8,
+      "pos": "Midfielder",
       "start": true
     },
     {
       "id": 304,
       "name": "Sadio Mané",
       "number": 10,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 283058,
+      "name": "Nicolas Jackson",
+      "number": 11,
       "pos": "Attacker",
       "start": true
     },
