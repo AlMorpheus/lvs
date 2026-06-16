@@ -246,6 +246,34 @@
     "lockedAt": "2026-06-15T19:01:45.463Z",
     "syncedAt": "2026-06-15T19:01:45.463Z"
   },
+  "1489378": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Mehdi Taremi",
+        "team": "home",
+        "pos": "нап",
+        "id": "42315"
+      },
+      {
+        "name": "Chris Wood",
+        "team": "away",
+        "pos": "нап",
+        "id": "18931"
+      },
+      {
+        "name": "Saman Ghoddos",
+        "team": "home",
+        "pos": "пз",
+        "id": "2699"
+      }
+    ],
+    "lockedAt": "2026-06-16T01:01:54.639Z",
+    "syncedAt": "2026-06-16T01:01:54.639Z"
+  },
   "1489379": {
     "score": {
       "home": 0,
