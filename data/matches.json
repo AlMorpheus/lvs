@@ -886,11 +886,12 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
-    "lineupAt": null,
+    "lineupAt": "2026-06-16T17:55:22.008Z",
     "remind2hAt": "2026-06-16T17:01:59.238Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1.3,
+    "lineupJustReady": true
   },
   {
     "id": "1539016",

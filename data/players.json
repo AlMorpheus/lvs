@@ -35,7 +35,7 @@
     "team": "7"
   },
   "33": {
-    "name": "L. Hernández",
+    "name": "Lucas Hernández",
     "pos": "Defender",
     "team": "2"
   },
@@ -65,7 +65,7 @@
     "team": "1"
   },
   "81": {
-    "name": "K. Diatta",
+    "name": "Krépin Diatta",
     "pos": "Defender",
     "team": "13"
   },
@@ -75,7 +75,7 @@
     "team": "27"
   },
   "153": {
-    "name": "O. Dembélé",
+    "name": "Ousmane Dembélé",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -175,7 +175,7 @@
     "team": "26"
   },
   "272": {
-    "name": "A. Rabiot",
+    "name": "Adrien Rabiot",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -215,7 +215,7 @@
     "team": "6"
   },
   "304": {
-    "name": "S. Mané",
+    "name": "Sadio Mané",
     "pos": "Attacker",
     "team": "13"
   },
@@ -235,7 +235,7 @@
     "team": "8"
   },
   "318": {
-    "name": "K. Koulibaly",
+    "name": "Kalidou Koulibaly",
     "pos": "Defender",
     "team": "13"
   },
@@ -725,12 +725,12 @@
     "team": "15"
   },
   "1145": {
-    "name": "I. Konaté",
+    "name": "Ibrahima Konaté",
     "pos": "Defender",
     "team": "2"
   },
   "1149": {
-    "name": "D. Upamecano",
+    "name": "Dayot Upamecano",
     "pos": "Defender",
     "team": "2"
   },
@@ -770,12 +770,12 @@
     "team": "770"
   },
   "1257": {
-    "name": "J. Koundé",
+    "name": "Jules Koundé",
     "pos": "Defender",
     "team": "2"
   },
   "1271": {
-    "name": "A. Tchouaméni",
+    "name": "Aurélien Tchouaméni",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -1000,7 +1000,7 @@
     "team": "1532"
   },
   "2218": {
-    "name": "I. Sarr",
+    "name": "Ismaïla Sarr",
     "pos": "Attacker",
     "team": "13"
   },
@@ -1025,7 +1025,7 @@
     "team": "25"
   },
   "2290": {
-    "name": "N. Kanté",
+    "name": "N'Golo Kanté",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -1345,7 +1345,7 @@
     "team": "31"
   },
   "2724": {
-    "name": "L. Digne",
+    "name": "Lucas Digne",
     "pos": "Defender",
     "team": "2"
   },
@@ -1560,12 +1560,12 @@
     "team": "11"
   },
   "2986": {
-    "name": "É. Mendy",
+    "name": "Edouard Mendy",
     "pos": "Goalkeeper",
     "team": "13"
   },
   "2990": {
-    "name": "I. Gueye",
+    "name": "Idrissa Gana Gueye",
     "pos": "Midfielder",
     "team": "13"
   },
@@ -1830,7 +1830,7 @@
     "team": "1508"
   },
   "8450": {
-    "name": "A. Seck",
+    "name": "Abdoulaye Seck",
     "pos": "Defender",
     "team": "13"
   },
@@ -1960,7 +1960,7 @@
     "team": "1113"
   },
   "14379": {
-    "name": "C. Ndiaye",
+    "name": "Cherif Ndiaye",
     "pos": "Attacker",
     "team": "13"
   },
@@ -2100,8 +2100,8 @@
     "team": "767"
   },
   "18592": {
-    "name": "I. Ndiaye",
-    "pos": "Midfielder",
+    "name": "Iliman Ndiaye",
+    "pos": "Attacker",
     "team": "13"
   },
   "18599": {
@@ -2330,7 +2330,7 @@
     "team": "22"
   },
   "19617": {
-    "name": "M. Olise",
+    "name": "Michael Olise",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -2365,7 +2365,7 @@
     "team": "2386"
   },
   "20566": {
-    "name": "Y. Diouf",
+    "name": "Yehvann Diouf",
     "pos": "Goalkeeper",
     "team": "13"
   },
@@ -2390,7 +2390,7 @@
     "team": "1508"
   },
   "20696": {
-    "name": "P. Gueye",
+    "name": "Pape Gueye",
     "pos": "Midfielder",
     "team": "13"
   },
@@ -2415,7 +2415,7 @@
     "team": "1532"
   },
   "20995": {
-    "name": "M. Lacroix",
+    "name": "Maxence Lacroix",
     "pos": "Defender",
     "team": "2"
   },
@@ -2440,8 +2440,8 @@
     "team": "1532"
   },
   "21509": {
-    "name": "M. Thuram",
-    "pos": "Midfielder",
+    "name": "Marcus Thuram",
+    "pos": "Attacker",
     "team": "2"
   },
   "21587": {
@@ -2455,7 +2455,7 @@
     "team": "2386"
   },
   "21628": {
-    "name": "B. Samba",
+    "name": "Brice Samba",
     "pos": "Goalkeeper",
     "team": "2"
   },
@@ -2480,7 +2480,7 @@
     "team": "1501"
   },
   "22090": {
-    "name": "W. Saliba",
+    "name": "William Saliba",
     "pos": "Defender",
     "team": "2"
   },
@@ -2490,7 +2490,7 @@
     "team": "1533"
   },
   "22147": {
-    "name": "M. Koné",
+    "name": "Manu Koné",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -2500,7 +2500,7 @@
     "team": "1501"
   },
   "22221": {
-    "name": "M. Maignan",
+    "name": "Mike Maignan",
     "pos": "Goalkeeper",
     "team": "2"
   },
@@ -2635,12 +2635,12 @@
     "team": "775"
   },
   "25916": {
-    "name": "M. Niakhaté",
+    "name": "Moussa Niakhaté",
     "pos": "Defender",
     "team": "13"
   },
   "25927": {
-    "name": "J. Mateta",
+    "name": "Jean-Philippe Mateta",
     "pos": "Attacker",
     "team": "2"
   },
@@ -3210,7 +3210,7 @@
     "team": "27"
   },
   "41552": {
-    "name": "P. Ciss",
+    "name": "Pathé Ismaël Ciss",
     "pos": "Midfielder",
     "team": "13"
   },
@@ -3590,7 +3590,7 @@
     "team": "26"
   },
   "47300": {
-    "name": "T. Hernández",
+    "name": "Theo Hernández",
     "pos": "Defender",
     "team": "2"
   },
@@ -4600,7 +4600,7 @@
     "team": "2380"
   },
   "119853": {
-    "name": "M. Diaw",
+    "name": "Mory Diaw",
     "pos": "Goalkeeper",
     "team": "13"
   },
@@ -4945,7 +4945,7 @@
     "team": "20"
   },
   "156477": {
-    "name": "R. Cherki",
+    "name": "Rayan Cherki",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -4965,8 +4965,8 @@
     "team": "25"
   },
   "158121": {
-    "name": "I. Jakobs",
-    "pos": "Midfielder",
+    "name": "Ismail Jakobs",
+    "pos": "Defender",
     "team": "13"
   },
   "158433": {
@@ -5035,12 +5035,12 @@
     "team": "31"
   },
   "161904": {
-    "name": "B. Barcola",
+    "name": "Bradley Barcola",
     "pos": "Attacker",
     "team": "2"
   },
   "161907": {
-    "name": "M. Gusto",
+    "name": "Malo Gusto",
     "pos": "Defender",
     "team": "2"
   },
@@ -5560,7 +5560,7 @@
     "team": "2382"
   },
   "237129": {
-    "name": "P. Sarr",
+    "name": "Pape Matar Sarr",
     "pos": "Midfielder",
     "team": "13"
   },
@@ -5740,7 +5740,7 @@
     "team": "1094"
   },
   "274300": {
-    "name": "M. Akliouche",
+    "name": "Maghnes Akliouche",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -5760,7 +5760,7 @@
     "team": "1501"
   },
   "276184": {
-    "name": "M. Sarr",
+    "name": "Mamadou Sarr",
     "pos": "Defender",
     "team": "13"
   },
@@ -5835,7 +5835,7 @@
     "team": "1567"
   },
   "283058": {
-    "name": "N. Jackson",
+    "name": "Nicolas Jackson",
     "pos": "Attacker",
     "team": "13"
   },
@@ -5855,7 +5855,7 @@
     "team": "5529"
   },
   "284072": {
-    "name": "B. Dieng",
+    "name": "Ahmadou Bamba Dieng",
     "pos": "Attacker",
     "team": "13"
   },
@@ -6135,7 +6135,7 @@
     "team": "16"
   },
   "313937": {
-    "name": "A. Mendy",
+    "name": "Antoine Mendy",
     "pos": "Defender",
     "team": "13"
   },
@@ -6225,8 +6225,8 @@
     "team": "1532"
   },
   "327631": {
-    "name": "H. Diarra",
-    "pos": "Attacker",
+    "name": "Habib Diarra",
+    "pos": "Midfielder",
     "team": "13"
   },
   "327738": {
@@ -6310,7 +6310,7 @@
     "team": "768"
   },
   "336657": {
-    "name": "W. Zaïre-Emery",
+    "name": "Warren Zaïre-Emery",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -6455,7 +6455,7 @@
     "team": "1117"
   },
   "343027": {
-    "name": "D. Doué",
+    "name": "Désiré Doué",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -6500,7 +6500,7 @@
     "team": "768"
   },
   "347211": {
-    "name": "R. Risser",
+    "name": "Robin Risser",
     "pos": "Goalkeeper",
     "team": "2"
   },
@@ -6710,7 +6710,7 @@
     "team": "2383"
   },
   "374058": {
-    "name": "L. Camara",
+    "name": "Lamine Camara",
     "pos": "Midfielder",
     "team": "13"
   },
@@ -6915,7 +6915,7 @@
     "team": "6"
   },
   "409303": {
-    "name": "E. Diouf",
+    "name": "El Hadji Malick Diouf",
     "pos": "Defender",
     "team": "13"
   },
@@ -7065,7 +7065,7 @@
     "team": "1113"
   },
   "446249": {
-    "name": "I. Mbaye",
+    "name": "Ibrahim Mbaye",
     "pos": "Attacker",
     "team": "13"
   },
@@ -7355,7 +7355,7 @@
     "team": "1567"
   },
   "630895": {
-    "name": "Bara Ndiaye",
+    "name": "Bara Sapoko Ndiaye",
     "pos": "Midfielder",
     "team": "13"
   },
