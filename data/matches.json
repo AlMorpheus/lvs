@@ -806,7 +806,7 @@
   {
     "id": "1489378",
     "date": "2026-06-16T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -824,12 +824,44 @@
       "home": 2,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-16T03:04:14.962Z",
     "lineupAt": "2026-06-16T00:31:34.206Z",
     "remind2hAt": "2026-06-15T23:00:53.357Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 94333,
+        "name": "E. Just",
+        "teamId": 4673,
+        "minute": 7,
+        "type": "normal"
+      },
+      {
+        "playerId": 2691,
+        "name": "R. Rezaeian",
+        "teamId": 22,
+        "minute": 32,
+        "type": "normal"
+      },
+      {
+        "playerId": 94333,
+        "name": "E. Just",
+        "teamId": 4673,
+        "minute": 54,
+        "type": "normal"
+      },
+      {
+        "playerId": 134217,
+        "name": "M. Mohebi",
+        "teamId": 22,
+        "minute": 64,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
