@@ -868,7 +868,7 @@
   {
     "id": "1489383",
     "date": "2026-06-16T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -886,12 +886,44 @@
       "home": 3,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-16T21:05:17.553Z",
     "lineupAt": "2026-06-16T17:55:22.008Z",
     "remind2hAt": "2026-06-16T17:01:59.238Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 66,
+        "type": "normal"
+      },
+      {
+        "playerId": 161904,
+        "name": "B. Barcola",
+        "teamId": 2,
+        "minute": 82,
+        "type": "normal"
+      },
+      {
+        "playerId": 446249,
+        "name": "I. Mbaye",
+        "teamId": 13,
+        "minute": 90,
+        "type": "normal"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
