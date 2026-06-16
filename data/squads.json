@@ -2779,6 +2779,20 @@
       "start": true
     },
     {
+      "id": 29781,
+      "name": "Mehdi Ghayedi",
+      "number": 10,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 29720,
+      "name": "Ali Alipour",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2681,
       "name": "Payam Niazmand",
       "number": 12,
@@ -2828,13 +2842,6 @@
       "start": false
     },
     {
-      "id": 29781,
-      "name": "Mehdi Ghayedi",
-      "number": 10,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 341844,
       "name": "Mohammad Ghorbani",
       "number": 21,
@@ -2846,13 +2853,6 @@
       "name": "Mahdi Torabi",
       "number": 16,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 29720,
-      "name": "Ali Alipour",
-      "number": 11,
-      "pos": "Attacker",
       "start": false
     },
     {
