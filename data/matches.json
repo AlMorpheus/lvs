@@ -1072,11 +1072,12 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
-    "lineupAt": null,
+    "lineupAt": "2026-06-17T03:12:57.142Z",
     "remind2hAt": "2026-06-17T02:01:53.868Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1
+    "multiplier": 1,
+    "lineupJustReady": true
   },
   {
     "id": "1539003",
