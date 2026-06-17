@@ -439,6 +439,27 @@
       "start": true
     },
     {
+      "id": 2291,
+      "name": "Mateo Kovačić",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 260865,
+      "name": "Marco Pašalić",
+      "number": 24,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 202696,
+      "name": "Igor Matanović",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 524,
       "name": "Dominik Kotarski",
       "number": 23,
@@ -474,13 +495,6 @@
       "start": false
     },
     {
-      "id": 2291,
-      "name": "Mateo Kovačić",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 14395,
       "name": "Kristijan Jakić",
       "number": 18,
@@ -492,13 +506,6 @@
       "name": "Luka Sučić",
       "number": 21,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 260865,
-      "name": "Marco Pašalić",
-      "number": 24,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -533,13 +540,6 @@
       "id": 46746,
       "name": "Ante Budimir",
       "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 202696,
-      "name": "Igor Matanović",
-      "number": 20,
       "pos": "Attacker",
       "start": false
     }
