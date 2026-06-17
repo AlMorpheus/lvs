@@ -414,6 +414,34 @@
     "lockedAt": "2026-06-16T19:01:23.597Z",
     "syncedAt": "2026-06-16T19:01:23.597Z"
   },
+  "1489384": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Harry Kane",
+        "team": "home",
+        "pos": "нап",
+        "id": "184"
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "home",
+        "pos": "пз",
+        "id": "129718"
+      },
+      {
+        "name": "Petar Musa",
+        "team": "away",
+        "pos": "нап",
+        "id": "66055"
+      }
+    ],
+    "lockedAt": "2026-06-17T20:00:36.593Z",
+    "syncedAt": "2026-06-17T20:00:36.593Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
