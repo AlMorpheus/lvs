@@ -999,7 +999,7 @@
   {
     "id": "1489381",
     "date": "2026-06-17T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1017,12 +1017,37 @@
       "home": 3,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T03:00:46.562Z",
     "lineupAt": "2026-06-17T00:22:37.030Z",
     "remind2hAt": "2026-06-16T23:01:52.971Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 17,
+        "type": "normal"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 60,
+        "type": "normal"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 76,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
