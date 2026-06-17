@@ -1164,7 +1164,7 @@
   {
     "id": "1489384",
     "date": "2026-06-17T20:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1182,12 +1182,58 @@
       "home": 4,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 4,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T22:00:52.281Z",
     "lineupAt": "2026-06-17T19:01:16.841Z",
     "remind2hAt": "2026-06-17T18:01:30.120Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 12,
+        "type": "normal"
+      },
+      {
+        "playerId": 295026,
+        "name": "M. Baturina",
+        "teamId": 3,
+        "minute": 36,
+        "type": "normal"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 42,
+        "type": "normal"
+      },
+      {
+        "playerId": 66055,
+        "name": "P. Musa",
+        "teamId": 3,
+        "minute": 45,
+        "type": "normal"
+      },
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 47,
+        "type": "normal"
+      },
+      {
+        "playerId": 909,
+        "name": "M. Rashford",
+        "teamId": 10,
+        "minute": 85,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.6
   },
