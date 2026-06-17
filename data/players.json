@@ -481,7 +481,7 @@
   },
   "726": {
     "name": "A. Kramaric",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "3"
   },
   "730": {
@@ -621,7 +621,7 @@
   },
   "909": {
     "name": "M. Rashford",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "10"
   },
   "925": {
@@ -946,7 +946,7 @@
   },
   "1864": {
     "name": "Pedro Neto",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "27"
   },
   "1902": {
@@ -1546,7 +1546,7 @@
   },
   "2978": {
     "name": "A. Quintero",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "11"
   },
   "2979": {
@@ -1707,6 +1707,11 @@
   "6503": {
     "name": "N. Molina",
     "pos": "Defender",
+    "team": "26"
+  },
+  "6610": {
+    "name": "M. Senesi",
+    "pos": "Midfielder",
     "team": "26"
   },
   "6716": {
@@ -2291,7 +2296,7 @@
   },
   "19366": {
     "name": "O. Watkins",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "10"
   },
   "19465": {
@@ -3205,8 +3210,8 @@
     "team": "1090"
   },
   "41112": {
-    "name": "Francisco Trincão",
-    "pos": "Attacker",
+    "name": "Trincão",
+    "pos": "Midfielder",
     "team": "27"
   },
   "41552": {
@@ -4076,7 +4081,7 @@
   },
   "57875": {
     "name": "C. Yanis",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "11"
   },
   "57910": {
@@ -4318,6 +4323,11 @@
     "name": "Ayase Ueda",
     "pos": "Attacker",
     "team": "12"
+  },
+  "73418": {
+    "name": "A. Abdullaev",
+    "pos": "Defender",
+    "team": "1568"
   },
   "73507": {
     "name": "A. Nematov",
@@ -4636,7 +4646,7 @@
   },
   "125171": {
     "name": "J. Stanisic",
-    "pos": "Midfielder",
+    "pos": "Defender",
     "team": "3"
   },
   "126640": {
@@ -4801,7 +4811,7 @@
   },
   "136723": {
     "name": "N. Madueke",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "10"
   },
   "136880": {
@@ -4846,7 +4856,7 @@
   },
   "138787": {
     "name": "A. Gordon",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "10"
   },
   "138804": {
@@ -5591,7 +5601,7 @@
   },
   "260865": {
     "name": "M. Pasalic",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "3"
   },
   "263228": {
@@ -5606,7 +5616,7 @@
   },
   "263676": {
     "name": "A. Fayzullaev",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "1568"
   },
   "263733": {
@@ -5956,7 +5966,7 @@
   },
   "295026": {
     "name": "M. Baturina",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "3"
   },
   "295394": {
@@ -6526,7 +6536,7 @@
   },
   "348205": {
     "name": "P. Sucic",
-    "pos": "Attacker",
+    "pos": "Midfielder",
     "team": "3"
   },
   "348532": {
@@ -7363,6 +7373,11 @@
     "name": "Ala Al Haji",
     "pos": "Midfielder",
     "team": "23"
+  },
+  "601853": {
+    "name": "M. Abu Ghoush",
+    "pos": "Midfielder",
+    "team": "1548"
   },
   "626479": {
     "name": "Zaid Ismail",
