@@ -3376,6 +3376,27 @@
       "start": true
     },
     {
+      "id": 6503,
+      "name": "Nahuel Molina",
+      "number": 26,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 26315,
+      "name": "Nicolás González",
+      "number": 15,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 6009,
+      "name": "Julián Alvarez",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2465,
       "name": "Juan Musso",
       "number": 1,
@@ -3400,13 +3421,6 @@
       "id": 624,
       "name": "Nicolás Otamendi",
       "number": 19,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 6503,
-      "name": "Nahuel Molina",
-      "number": 26,
       "pos": "Defender",
       "start": false
     },
@@ -3446,13 +3460,6 @@
       "start": false
     },
     {
-      "id": 26315,
-      "name": "Nicolás González",
-      "number": 15,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 323935,
       "name": "Giuliano Simeone",
       "number": 17,
@@ -3463,13 +3470,6 @@
       "id": 350037,
       "name": "Nico Paz",
       "number": 18,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 6009,
-      "name": "Julián Alvarez",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     },
@@ -7070,6 +7070,27 @@
       "start": true
     },
     {
+      "id": 658,
+      "name": "Houssem Aouar",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 635,
+      "name": "Riyad Mahrez",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 200139,
+      "name": "Mohamed Amoura",
+      "number": 18,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 304229,
       "name": "Melvin Mastil",
       "number": 1,
@@ -7126,24 +7147,10 @@
       "start": false
     },
     {
-      "id": 658,
-      "name": "Houssem Aouar",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 327599,
       "name": "Yassine Titraoui",
       "number": 24,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 635,
-      "name": "Riyad Mahrez",
-      "number": 7,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -7157,13 +7164,6 @@
       "id": 292924,
       "name": "Ahmed Nadhir Benbouali",
       "number": 12,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 200139,
-      "name": "Mohamed Amoura",
-      "number": 18,
       "pos": "Attacker",
       "start": false
     },
