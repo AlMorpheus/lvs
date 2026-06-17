@@ -930,7 +930,7 @@
   {
     "id": "1539016",
     "date": "2026-06-16T22:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -948,12 +948,51 @@
       "home": 1,
       "away": 4
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 4
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T00:02:53.311Z",
     "lineupAt": "2026-06-16T21:30:19.987Z",
     "remind2hAt": "2026-06-16T20:00:10.707Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 29,
+        "type": "normal"
+      },
+      {
+        "playerId": 49451,
+        "name": "A. Hussein",
+        "teamId": 1567,
+        "minute": 39,
+        "type": "normal"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 43,
+        "type": "normal"
+      },
+      {
+        "playerId": 18967,
+        "name": "L. Ostigard",
+        "teamId": 1090,
+        "minute": 76,
+        "type": "normal"
+      },
+      {
+        "playerId": 49451,
+        "name": "A. Hussein",
+        "teamId": 1090,
+        "minute": 90,
+        "type": "own"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
