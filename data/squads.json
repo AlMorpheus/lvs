@@ -3560,6 +3560,27 @@
       "start": true
     },
     {
+      "id": 161585,
+      "name": "Francisco Conceição",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 130,
+      "name": "Nélson Semedo",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 22236,
+      "name": "Rafael Leão",
+      "number": 17,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 1590,
       "name": "José Sá",
       "number": 12,
@@ -3571,13 +3592,6 @@
       "name": "Rui Silva",
       "number": 22,
       "pos": "Goalkeeper",
-      "start": false
-    },
-    {
-      "id": 130,
-      "name": "Nélson Semedo",
-      "number": 2,
-      "pos": "Defender",
       "start": false
     },
     {
@@ -3647,20 +3661,6 @@
       "id": 583,
       "name": "João Félix",
       "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 22236,
-      "name": "Rafael Leão",
-      "number": 17,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 161585,
-      "name": "Francisco Conceição",
-      "number": 26,
       "pos": "Attacker",
       "start": false
     }
@@ -6806,6 +6806,13 @@
       "start": true
     },
     {
+      "id": 365331,
+      "name": "Noah Sadiki",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 48501,
       "name": "Timothy Fayulu",
       "number": 16,
@@ -6851,13 +6858,6 @@
       "id": 8627,
       "name": "Théo Bongonda",
       "number": 10,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 365331,
-      "name": "Noah Sadiki",
-      "number": 14,
       "pos": "Midfielder",
       "start": false
     },
