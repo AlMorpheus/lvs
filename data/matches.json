@@ -1054,7 +1054,7 @@
   {
     "id": "1489382",
     "date": "2026-06-17T04:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1072,12 +1072,44 @@
       "home": 3,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T06:10:03.049Z",
     "lineupAt": "2026-06-17T03:12:57.142Z",
     "remind2hAt": "2026-06-17T02:01:53.868Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 7562,
+        "name": "R. Schmid",
+        "teamId": 775,
+        "minute": 21,
+        "type": "normal"
+      },
+      {
+        "playerId": 164026,
+        "name": "A. Olwan",
+        "teamId": 1548,
+        "minute": 50,
+        "type": "normal"
+      },
+      {
+        "playerId": 53900,
+        "name": "Y. Al Arab",
+        "teamId": 775,
+        "minute": 76,
+        "type": "own"
+      },
+      {
+        "playerId": 18830,
+        "name": "M. Arnautovic",
+        "teamId": 775,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
