@@ -1164,7 +1164,7 @@
   {
     "id": "1489384",
     "date": "2026-06-17T20:00:00+00:00",
-    "status": "1H",
+    "status": "HT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1180,7 +1180,7 @@
     },
     "score": {
       "home": 2,
-      "away": 1
+      "away": 2
     },
     "scoreReg": null,
     "finished": false,
