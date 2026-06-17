@@ -4826,6 +4826,13 @@
       "id": 25915,
       "name": "Phillipp Mwene",
       "number": 16,
+      "pos": "Defender",
+      "start": true
+    },
+    {
+      "id": 7328,
+      "name": "Nicolas Seiwald",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
@@ -4837,9 +4844,9 @@
       "start": true
     },
     {
-      "id": 7328,
-      "name": "Nicolas Seiwald",
-      "number": 6,
+      "id": 7562,
+      "name": "Romano Schmid",
+      "number": 18,
       "pos": "Midfielder",
       "start": true
     },
@@ -4851,17 +4858,10 @@
       "start": true
     },
     {
-      "id": 7562,
-      "name": "Romano Schmid",
-      "number": 18,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 1159,
       "name": "Marcel Sabitzer",
       "number": 9,
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -7429,9 +7429,9 @@
       "start": true
     },
     {
-      "id": 15286,
-      "name": "Mousa Tamari",
-      "number": 10,
+      "id": 492980,
+      "name": "Odeh Fakhoury",
+      "number": 11,
       "pos": "Midfielder",
       "start": true
     },
@@ -7450,16 +7450,16 @@
       "start": true
     },
     {
-      "id": 492980,
-      "name": "Odeh Fakhoury",
-      "number": 11,
+      "id": 164026,
+      "name": "Ali Olwan",
+      "number": 9,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 164026,
-      "name": "Ali Olwan",
-      "number": 9,
+      "id": 15286,
+      "name": "Mousa Tamari",
+      "number": 10,
       "pos": "Attacker",
       "start": true
     },
