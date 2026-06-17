@@ -330,6 +330,34 @@
     "lockedAt": "2026-06-15T16:00:29.977Z",
     "syncedAt": "2026-06-15T16:00:29.977Z"
   },
+  "1489381": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Lionel Messi",
+        "team": "home",
+        "pos": "нап",
+        "id": "154"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "team": "home",
+        "pos": "нап",
+        "id": "217"
+      },
+      {
+        "name": "Amine Gouiri",
+        "team": "away",
+        "pos": "нап",
+        "id": "85041"
+      }
+    ],
+    "lockedAt": "2026-06-17T01:01:05.802Z",
+    "syncedAt": "2026-06-17T01:01:05.802Z"
+  },
   "1489383": {
     "score": {
       "home": 2,
