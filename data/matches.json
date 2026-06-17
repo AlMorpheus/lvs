@@ -1054,7 +1054,7 @@
   {
     "id": "1489382",
     "date": "2026-06-17T04:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1068,7 +1068,10 @@
       "name": "Jordan",
       "flag": "https://media.api-sports.io/football/teams/1548.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
