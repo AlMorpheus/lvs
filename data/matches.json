@@ -1116,7 +1116,7 @@
   {
     "id": "1539003",
     "date": "2026-06-17T17:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1134,12 +1134,30 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T19:01:16.358Z",
     "lineupAt": "2026-06-17T15:54:52.999Z",
     "remind2hAt": "2026-06-17T15:00:46.619Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 335051,
+        "name": "J. Neves",
+        "teamId": 27,
+        "minute": 6,
+        "type": "normal"
+      },
+      {
+        "playerId": 20649,
+        "name": "Y. Wissa",
+        "teamId": 1508,
+        "minute": 45,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
@@ -1164,11 +1182,12 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
-    "lineupAt": null,
+    "lineupAt": "2026-06-17T19:01:16.841Z",
     "remind2hAt": "2026-06-17T18:01:30.120Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.6
+    "multiplier": 1.6,
+    "lineupJustReady": true
   },
   {
     "id": "1489385",

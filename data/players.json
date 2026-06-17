@@ -95,7 +95,7 @@
     "team": "8"
   },
   "184": {
-    "name": "H. Kane",
+    "name": "Harry Kane",
     "pos": "Attacker",
     "team": "10"
   },
@@ -105,7 +105,7 @@
     "team": "17"
   },
   "207": {
-    "name": "I. Perisic",
+    "name": "Ivan Perišić",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -205,7 +205,7 @@
     "team": "1118"
   },
   "292": {
-    "name": "J. Henderson",
+    "name": "Jordan Henderson",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -330,7 +330,7 @@
     "team": "8"
   },
   "524": {
-    "name": "D. Kotarski",
+    "name": "Dominik Kotarski",
     "pos": "Goalkeeper",
     "team": "3"
   },
@@ -410,7 +410,7 @@
     "team": "26"
   },
   "626": {
-    "name": "J. Stones",
+    "name": "John Stones",
     "pos": "Defender",
     "team": "10"
   },
@@ -480,8 +480,8 @@
     "team": "775"
   },
   "726": {
-    "name": "A. Kramaric",
-    "pos": "Midfielder",
+    "name": "Andrej Kramarić",
+    "pos": "Attacker",
     "team": "3"
   },
   "730": {
@@ -515,7 +515,7 @@
     "team": "9"
   },
   "754": {
-    "name": "L. Modric",
+    "name": "Luka Modrić",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -560,7 +560,7 @@
     "team": "1094"
   },
   "842": {
-    "name": "N. Vlasic",
+    "name": "Nikola Vlašić",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -620,8 +620,8 @@
     "team": "1"
   },
   "909": {
-    "name": "M. Rashford",
-    "pos": "Midfielder",
+    "name": "Marcus Rashford",
+    "pos": "Attacker",
     "team": "10"
   },
   "925": {
@@ -670,7 +670,7 @@
     "team": "25"
   },
   "1084": {
-    "name": "M. Pongracic",
+    "name": "Marin Pongračić",
     "pos": "Defender",
     "team": "3"
   },
@@ -785,12 +785,12 @@
     "team": "7"
   },
   "1305": {
-    "name": "D. Livakovic",
+    "name": "Dominik Livaković",
     "pos": "Goalkeeper",
     "team": "3"
   },
   "1322": {
-    "name": "N. Moro",
+    "name": "Nikola Moro",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -840,7 +840,7 @@
     "team": "1117"
   },
   "1460": {
-    "name": "B. Saka",
+    "name": "Bukayo Saka",
     "pos": "Attacker",
     "team": "10"
   },
@@ -950,7 +950,7 @@
     "team": "27"
   },
   "1902": {
-    "name": "D. Caleta-Car",
+    "name": "Duje Ćaleta-Car",
     "pos": "Defender",
     "team": "3"
   },
@@ -1030,7 +1030,7 @@
     "team": "2"
   },
   "2291": {
-    "name": "M. Kovacic",
+    "name": "Mateo Kovačić",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -1375,8 +1375,8 @@
     "team": "20"
   },
   "2763": {
-    "name": "M. Pasalic",
-    "pos": "Midfielder",
+    "name": "Mario Pašalić",
+    "pos": "Attacker",
     "team": "3"
   },
   "2803": {
@@ -1490,12 +1490,12 @@
     "team": "1"
   },
   "2932": {
-    "name": "J. Pickford",
+    "name": "Jordan Pickford",
     "pos": "Goalkeeper",
     "team": "10"
   },
   "2937": {
-    "name": "D. Rice",
+    "name": "Declan Rice",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -1800,7 +1800,7 @@
     "team": "775"
   },
   "7332": {
-    "name": "L. Sucic",
+    "name": "Luka Sučić",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -1955,7 +1955,7 @@
     "team": "8"
   },
   "14268": {
-    "name": "I. Pandur",
+    "name": "Ivor Pandur",
     "pos": "Goalkeeper",
     "team": "3"
   },
@@ -1970,12 +1970,12 @@
     "team": "13"
   },
   "14395": {
-    "name": "K. Jakic",
+    "name": "Kristijan Jakić",
     "pos": "Midfielder",
     "team": "3"
   },
   "14701": {
-    "name": "J. Sutalo",
+    "name": "Josip Šutalo",
     "pos": "Defender",
     "team": "3"
   },
@@ -2180,7 +2180,7 @@
     "team": "28"
   },
   "18961": {
-    "name": "D. Burn",
+    "name": "Dan Burn",
     "pos": "Defender",
     "team": "10"
   },
@@ -2230,12 +2230,12 @@
     "team": "1108"
   },
   "19088": {
-    "name": "D. Henderson",
+    "name": "Dean Henderson",
     "pos": "Goalkeeper",
     "team": "10"
   },
   "19170": {
-    "name": "M. Rogers",
+    "name": "Morgan Rogers",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -2260,7 +2260,7 @@
     "team": "767"
   },
   "19235": {
-    "name": "D. Spence",
+    "name": "Djed Spence",
     "pos": "Defender",
     "team": "10"
   },
@@ -2290,13 +2290,13 @@
     "team": "767"
   },
   "19354": {
-    "name": "E. Konsa",
+    "name": "Ezri Konsa",
     "pos": "Defender",
     "team": "10"
   },
   "19366": {
-    "name": "O. Watkins",
-    "pos": "Midfielder",
+    "name": "Ollie Watkins",
+    "pos": "Attacker",
     "team": "10"
   },
   "19465": {
@@ -2310,7 +2310,7 @@
     "team": "1108"
   },
   "19545": {
-    "name": "R. James",
+    "name": "Reece James",
     "pos": "Defender",
     "team": "10"
   },
@@ -2320,7 +2320,7 @@
     "team": "2384"
   },
   "19586": {
-    "name": "E. Eze",
+    "name": "Eberechi Eze",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -2345,7 +2345,7 @@
     "team": "767"
   },
   "19974": {
-    "name": "I. Toney",
+    "name": "Ivan Toney",
     "pos": "Attacker",
     "team": "10"
   },
@@ -2375,7 +2375,7 @@
     "team": "13"
   },
   "20649": {
-    "name": "Yoane Wissa",
+    "name": "Y. Wissa",
     "pos": "Attacker",
     "team": "1508"
   },
@@ -2815,7 +2815,7 @@
     "team": "1501"
   },
   "30827": {
-    "name": "M. Erlic",
+    "name": "Martin Erlić",
     "pos": "Defender",
     "team": "3"
   },
@@ -3555,7 +3555,7 @@
     "team": "2382"
   },
   "46746": {
-    "name": "A. Budimir",
+    "name": "Ante Budimir",
     "pos": "Attacker",
     "team": "3"
   },
@@ -4175,7 +4175,7 @@
     "team": "770"
   },
   "66055": {
-    "name": "P. Musa",
+    "name": "Petar Musa",
     "pos": "Attacker",
     "team": "3"
   },
@@ -4220,7 +4220,7 @@
     "team": "28"
   },
   "67971": {
-    "name": "M. Guéhi",
+    "name": "Marc Guéhi",
     "pos": "Defender",
     "team": "10"
   },
@@ -4650,8 +4650,8 @@
     "team": "1567"
   },
   "125171": {
-    "name": "J. Stanisic",
-    "pos": "Defender",
+    "name": "Josip Stanišić",
+    "pos": "Midfielder",
     "team": "3"
   },
   "126640": {
@@ -4730,7 +4730,7 @@
     "team": "770"
   },
   "129033": {
-    "name": "J. Gvardiol",
+    "name": "Joško Gvardiol",
     "pos": "Defender",
     "team": "3"
   },
@@ -4760,7 +4760,7 @@
     "team": "767"
   },
   "129718": {
-    "name": "J. Bellingham",
+    "name": "Jude Bellingham",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -4815,7 +4815,7 @@
     "team": "1569"
   },
   "136723": {
-    "name": "N. Madueke",
+    "name": "Noni Madueke",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -4860,7 +4860,7 @@
     "team": "767"
   },
   "138787": {
-    "name": "A. Gordon",
+    "name": "Anthony Gordon",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -4875,7 +4875,7 @@
     "team": "2384"
   },
   "138908": {
-    "name": "E. Anderson",
+    "name": "Elliot Anderson",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -5010,7 +5010,7 @@
     "team": "10"
   },
   "158698": {
-    "name": "J. Quansah",
+    "name": "Jarell Quansah",
     "pos": "Defender",
     "team": "10"
   },
@@ -5125,7 +5125,7 @@
     "team": "31"
   },
   "162489": {
-    "name": "J. Trafford",
+    "name": "James Trafford",
     "pos": "Goalkeeper",
     "team": "10"
   },
@@ -5500,7 +5500,7 @@
     "team": "23"
   },
   "202696": {
-    "name": "I. Matanovic",
+    "name": "Igor Matanović",
     "pos": "Attacker",
     "team": "3"
   },
@@ -5610,8 +5610,8 @@
     "team": "17"
   },
   "260865": {
-    "name": "M. Pasalic",
-    "pos": "Midfielder",
+    "name": "Marco Pašalić",
+    "pos": "Attacker",
     "team": "3"
   },
   "263228": {
@@ -5900,7 +5900,7 @@
     "team": "1567"
   },
   "284322": {
-    "name": "K. Mainoo",
+    "name": "Kobbie Mainoo",
     "pos": "Midfielder",
     "team": "10"
   },
@@ -5910,7 +5910,7 @@
     "team": "5529"
   },
   "284869": {
-    "name": "T. Fruk",
+    "name": "Toni Fruk",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -5975,8 +5975,8 @@
     "team": "5529"
   },
   "295026": {
-    "name": "M. Baturina",
-    "pos": "Midfielder",
+    "name": "Martin Baturina",
+    "pos": "Attacker",
     "team": "3"
   },
   "295394": {
@@ -6095,7 +6095,7 @@
     "team": "2383"
   },
   "307123": {
-    "name": "N. Oreilly",
+    "name": "Nico O'Reilly",
     "pos": "Defender",
     "team": "10"
   },
@@ -6340,7 +6340,7 @@
     "team": "1532"
   },
   "335051": {
-    "name": "João Neves",
+    "name": "J. Neves",
     "pos": "Midfielder",
     "team": "27"
   },
@@ -6555,7 +6555,7 @@
     "team": "5"
   },
   "348205": {
-    "name": "P. Sucic",
+    "name": "Petar Sučić",
     "pos": "Midfielder",
     "team": "3"
   },
@@ -6830,7 +6830,7 @@
     "team": "770"
   },
   "387521": {
-    "name": "L. Vuskovic",
+    "name": "Luka Vušković",
     "pos": "Defender",
     "team": "3"
   },
