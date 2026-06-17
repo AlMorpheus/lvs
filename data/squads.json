@@ -1596,13 +1596,6 @@
       "start": true
     },
     {
-      "id": 2975,
-      "name": "César Blackman",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
       "id": 57667,
       "name": "Jiovany Ramos",
       "number": 13,
@@ -1638,23 +1631,23 @@
       "start": true
     },
     {
-      "id": 50911,
-      "name": "Cristian Martínez",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 2979,
-      "name": "José Luis Rodríguez",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 46855,
       "name": "Yoel Bárcenas",
       "number": 11,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 2975,
+      "name": "César Blackman",
+      "number": 2,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 50911,
+      "name": "Cristian Martínez",
+      "number": 6,
       "pos": "Attacker",
       "start": true
     },
@@ -1662,6 +1655,13 @@
       "id": 51648,
       "name": "Cecilio Waterman",
       "number": 18,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 2979,
+      "name": "José Luis Rodríguez",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
@@ -6677,9 +6677,9 @@
       "start": true
     },
     {
-      "id": 19281,
-      "name": "Antoine Semenyo",
-      "number": 11,
+      "id": 350856,
+      "name": "Ernest Nuamah",
+      "number": 24,
       "pos": "Midfielder",
       "start": true
     },
@@ -6698,9 +6698,9 @@
       "start": true
     },
     {
-      "id": 350856,
-      "name": "Ernest Nuamah",
-      "number": 24,
+      "id": 19281,
+      "name": "Antoine Semenyo",
+      "number": 11,
       "pos": "Midfielder",
       "start": true
     },
