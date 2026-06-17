@@ -523,6 +523,34 @@
     "lockedAt": "2026-06-15T02:01:43.613Z",
     "syncedAt": "2026-06-15T02:01:43.613Z"
   },
+  "1539003": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "home",
+        "pos": "нап",
+        "id": "874"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "team": "home",
+        "pos": "пз",
+        "id": "1485"
+      },
+      {
+        "name": "Yoane Wissa",
+        "team": "away",
+        "pos": "нап",
+        "id": "20649"
+      }
+    ],
+    "lockedAt": "2026-06-17T17:00:33.165Z",
+    "syncedAt": "2026-06-17T17:00:33.165Z"
+  },
   "1539016": {
     "score": {
       "home": 0,
