@@ -250,7 +250,7 @@
     "team": "27"
   },
   "375": {
-    "name": "C. Mbemba",
+    "name": "Chancel Mbemba",
     "pos": "Defender",
     "team": "1508"
   },
@@ -825,7 +825,7 @@
     "team": "1"
   },
   "1424": {
-    "name": "E. Kayembe",
+    "name": "Edo Kayembe",
     "pos": "Midfielder",
     "team": "1508"
   },
@@ -1570,12 +1570,12 @@
     "team": "13"
   },
   "3033": {
-    "name": "C. Bakambu",
+    "name": "Cédric Bakambu",
     "pos": "Attacker",
     "team": "1508"
   },
   "3034": {
-    "name": "M. Elia",
+    "name": "Meschak Elia",
     "pos": "Attacker",
     "team": "1508"
   },
@@ -1830,7 +1830,7 @@
     "team": "775"
   },
   "8445": {
-    "name": "D. Batubinsika",
+    "name": "Dylan Batubinsika",
     "pos": "Defender",
     "team": "1508"
   },
@@ -1865,7 +1865,7 @@
     "team": "2386"
   },
   "8627": {
-    "name": "T. Bongonda",
+    "name": "Théo Bongonda",
     "pos": "Midfielder",
     "team": "1508"
   },
@@ -2125,7 +2125,7 @@
     "team": "31"
   },
   "18816": {
-    "name": "A. Masuaku",
+    "name": "Arthur Masuaku",
     "pos": "Defender",
     "team": "1508"
   },
@@ -2135,7 +2135,7 @@
     "team": "775"
   },
   "18846": {
-    "name": "A. Wan-Bissaka",
+    "name": "Aaron Wan-Bissaka",
     "pos": "Defender",
     "team": "1508"
   },
@@ -2245,7 +2245,7 @@
     "team": "1090"
   },
   "19182": {
-    "name": "A. Tuanzebe",
+    "name": "Axel Tuanzebe",
     "pos": "Defender",
     "team": "1508"
   },
@@ -2375,7 +2375,7 @@
     "team": "13"
   },
   "20649": {
-    "name": "Y. Wissa",
+    "name": "Yoane Wissa",
     "pos": "Attacker",
     "team": "1508"
   },
@@ -2390,7 +2390,7 @@
     "team": "2386"
   },
   "20674": {
-    "name": "S. Banza",
+    "name": "Simon Banza",
     "pos": "Attacker",
     "team": "1508"
   },
@@ -2430,12 +2430,12 @@
     "team": "1504"
   },
   "21098": {
-    "name": "J. Kayembe",
+    "name": "Joris Kayembe",
     "pos": "Defender",
     "team": "1508"
   },
   "21101": {
-    "name": "S. Moutoussamy",
+    "name": "Samuel Moutoussamy",
     "pos": "Midfielder",
     "team": "1508"
   },
@@ -2521,7 +2521,7 @@
   },
   "22236": {
     "name": "Rafael Leão",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "27"
   },
   "22265": {
@@ -2530,12 +2530,12 @@
     "team": "1533"
   },
   "24012": {
-    "name": "L. Mpasi",
+    "name": "Lionel Mpasi Nzau",
     "pos": "Goalkeeper",
     "team": "1508"
   },
   "24245": {
-    "name": "G. Kalulu",
+    "name": "Gedeon Kalulu",
     "pos": "Defender",
     "team": "1508"
   },
@@ -3210,8 +3210,8 @@
     "team": "1090"
   },
   "41112": {
-    "name": "Trincão",
-    "pos": "Midfielder",
+    "name": "Francisco Trincão",
+    "pos": "Attacker",
     "team": "27"
   },
   "41552": {
@@ -3460,7 +3460,7 @@
     "team": "23"
   },
   "44791": {
-    "name": "A. Tshibola",
+    "name": "Aaron Tshibola",
     "pos": "Midfielder",
     "team": "1508"
   },
@@ -3630,8 +3630,8 @@
     "team": "9"
   },
   "47545": {
-    "name": "G. Kakuta",
-    "pos": "Attacker",
+    "name": "Gaël Kakuta",
+    "pos": "Midfielder",
     "team": "1508"
   },
   "47582": {
@@ -3725,7 +3725,7 @@
     "team": "15"
   },
   "48501": {
-    "name": "T. Fayulu",
+    "name": "Timothy Fayulu",
     "pos": "Goalkeeper",
     "team": "1508"
   },
@@ -3735,7 +3735,7 @@
     "team": "2386"
   },
   "48555": {
-    "name": "C. Pickel",
+    "name": "Charles Pickel",
     "pos": "Midfielder",
     "team": "1508"
   },
@@ -4745,8 +4745,8 @@
     "team": "1118"
   },
   "129670": {
-    "name": "N. Mbuku",
-    "pos": "Midfielder",
+    "name": "Nathanaël Mbuku",
+    "pos": "Attacker",
     "team": "1508"
   },
   "129678": {
@@ -5031,7 +5031,7 @@
   },
   "161585": {
     "name": "Francisco Conceição",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "27"
   },
   "161747": {
@@ -5240,7 +5240,7 @@
     "team": "774"
   },
   "179699": {
-    "name": "F. Mayele",
+    "name": "Fiston Mayele",
     "pos": "Attacker",
     "team": "1508"
   },
@@ -5455,7 +5455,7 @@
     "team": "12"
   },
   "199767": {
-    "name": "S. Kapuadi",
+    "name": "Steve Kapuadi",
     "pos": "Defender",
     "team": "1508"
   },
@@ -5835,7 +5835,7 @@
     "team": "31"
   },
   "279482": {
-    "name": "B. Cipenga",
+    "name": "Brian Cipenga",
     "pos": "Attacker",
     "team": "1508"
   },
@@ -6180,7 +6180,7 @@
     "team": "1113"
   },
   "314509": {
-    "name": "M. Epolo",
+    "name": "Matthieu Epolo",
     "pos": "Goalkeeper",
     "team": "1508"
   },
@@ -6715,7 +6715,7 @@
     "team": "1568"
   },
   "365331": {
-    "name": "N. Sadiki",
+    "name": "Noah Sadiki",
     "pos": "Midfielder",
     "team": "1508"
   },
@@ -6765,7 +6765,7 @@
     "team": "768"
   },
   "375598": {
-    "name": "N. Mukau",
+    "name": "Ngal'ayel Mukau",
     "pos": "Midfielder",
     "team": "1508"
   },
