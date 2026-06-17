@@ -3334,6 +3334,13 @@
       "start": true
     },
     {
+      "id": 2472,
+      "name": "Rodrigo De Paul",
+      "number": 7,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 6716,
       "name": "Alexis Mac Allister",
       "number": 20,
@@ -3348,9 +3355,9 @@
       "start": true
     },
     {
-      "id": 2472,
-      "name": "Rodrigo De Paul",
-      "number": 7,
+      "id": 6067,
+      "name": "Thiago Almada",
+      "number": 16,
       "pos": "Midfielder",
       "start": true
     },
@@ -3366,13 +3373,6 @@
       "name": "Lautaro Martínez",
       "number": 22,
       "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 6067,
-      "name": "Thiago Almada",
-      "number": 16,
-      "pos": "Midfielder",
       "start": true
     },
     {
@@ -7028,13 +7028,6 @@
       "start": true
     },
     {
-      "id": 326067,
-      "name": "Anis Hadj Moussa",
-      "number": 11,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 4399,
       "name": "Hicham Boudaoui",
       "number": 14,
@@ -7049,13 +7042,6 @@
       "start": true
     },
     {
-      "id": 276670,
-      "name": "Farès Chaïbi",
-      "number": 10,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 380587,
       "name": "Ibrahim Maza",
       "number": 22,
@@ -7063,9 +7049,23 @@
       "start": true
     },
     {
+      "id": 326067,
+      "name": "Anis Hadj Moussa",
+      "number": 11,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
       "id": 85041,
       "name": "Amine Gouiri",
       "number": 9,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 276670,
+      "name": "Farès Chaïbi",
+      "number": 10,
       "pos": "Attacker",
       "start": true
     },
