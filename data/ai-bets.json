@@ -358,6 +358,34 @@
     "lockedAt": "2026-06-17T01:01:05.802Z",
     "syncedAt": "2026-06-17T01:01:05.802Z"
   },
+  "1489382": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Saša Kalajdžić",
+        "team": "home",
+        "pos": "нап",
+        "id": "7722"
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "team": "home",
+        "pos": "нап",
+        "id": "1159"
+      },
+      {
+        "name": "Mousa Tamari",
+        "team": "away",
+        "pos": "пз",
+        "id": "15286"
+      }
+    ],
+    "lockedAt": "2026-06-17T04:00:09.802Z",
+    "syncedAt": "2026-06-17T04:00:09.802Z"
+  },
   "1489383": {
     "score": {
       "home": 2,
