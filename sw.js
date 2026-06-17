@@ -24,6 +24,13 @@ self.addEventListener('push', (event) => {
   event.waitUntil(self.registration.showNotification(title, options));
 });
 
+// iOS/браузер периодически меняет подписку. Пере-подписываемся, чтобы доставка не прервалась;
+// новый endpoint приложение перезапишет в репо при следующем открытии (refreshSubscription).
+self.addEventListener('pushsubscriptionchange', (event) => {
+  const opts = (event.oldSubscription && event.oldSubscription.options) || { userVisibleOnly: true };
+  event.waitUntil(self.registration.pushManager.subscribe(opts).catch(() => {}));
+});
+
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
   const target = (event.notification.data && event.notification.data.url) || './';

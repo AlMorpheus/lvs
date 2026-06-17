@@ -3,8 +3,8 @@
 // расшифровывает её своим ACTION_PRIVATE_KEY и шлёт уведомления через VAPID при смене состава.
 //
 // iOS: Web Push работает ТОЛЬКО когда сайт добавлен на экран «Домой» (standalone), iOS 16.4+.
-import { encryptBet } from './crypto.js?v=56';
-import { putFile, deleteFile } from './github.js?v=56';
+import { encryptBet } from './crypto.js?v=57';
+import { putFile, deleteFile } from './github.js?v=57';
 
 export function pushSupported() {
   return 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;
@@ -72,9 +72,45 @@ export async function enablePush(session, app) {
     sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: urlB64ToUint8(key) });
   }
 
+  await saveSub(session, app, sub, 'push-sub');
+}
+
+const LAST_EP = 'lvs.push.endpoint'; // последний сохранённый endpoint — чтобы не коммитить зря
+
+async function saveSub(session, app, sub, msgPrefix) {
   const payload = { sub: sub.toJSON(), name: session.name, savedAt: new Date().toISOString() };
   const file = encryptBet(payload, session.userKey, app.actionPublicKey);
-  await putFile(app.repo, `data/push-subs/${session.userId}.json`, JSON.stringify(file, null, 2), `push-sub: ${session.userId}`, session.token);
+  await putFile(app.repo, `data/push-subs/${session.userId}.json`, JSON.stringify(file, null, 2), `${msgPrefix}: ${session.userId}`, session.token);
+  try { localStorage.setItem(LAST_EP, sub.endpoint); } catch {}
+}
+
+/**
+ * Поддержание подписки в актуальном состоянии. Вызывается при каждом запуске приложения.
+ * iOS периодически меняет push-подписку (ротация): старый endpoint ещё отвечает 201, но
+ * доставка прекращается. Поэтому сверяем текущую подписку с сохранённой и, если изменилась
+ * (или пропала — пере-подписываемся), перезаписываем файл в репо. Без изменений — ничего не шлём.
+ */
+export async function refreshSubscription(session, app) {
+  if (!pushSupported() || (isIOS() && !isStandalone())) return;
+  if (Notification.permission !== 'granted') return; // не подписан/запрещён — не трогаем
+  try {
+    const reg = (await navigator.serviceWorker.getRegistration()) || (await registerSW());
+    if (!reg) return;
+    await navigator.serviceWorker.ready;
+    let sub = await reg.pushManager.getSubscription();
+    if (!sub) {
+      const key = app.push?.vapidPublicKey;
+      if (!key) return;
+      sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: urlB64ToUint8(key) });
+    }
+    let last = null;
+    try { last = localStorage.getItem(LAST_EP); } catch {}
+    if (sub.endpoint === last) return; // не изменилось — лишний коммит не нужен
+    await saveSub(session, app, sub, 'push-sub refresh');
+    console.info('push: подписка обновлена');
+  } catch (e) {
+    console.warn('refreshSubscription:', e);
+  }
 }
 
 /** Выключить уведомления: локальная отписка + удаление файла из репо. */
