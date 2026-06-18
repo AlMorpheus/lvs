@@ -7864,13 +7864,6 @@
       "start": true
     },
     {
-      "id": 34121,
-      "name": "Rustam Ashurmatov",
-      "number": 5,
-      "pos": "Defender",
-      "start": true
-    },
-    {
       "id": 360114,
       "name": "Abdukodir Khusanov",
       "number": 2,
@@ -7881,6 +7874,13 @@
       "id": 73418,
       "name": "Abdulla Abdullaev",
       "number": 18,
+      "pos": "Defender",
+      "start": true
+    },
+    {
+      "id": 34121,
+      "name": "Rustam Ashurmatov",
+      "number": 5,
       "pos": "Defender",
       "start": true
     },
