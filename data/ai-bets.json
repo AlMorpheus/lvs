@@ -663,6 +663,34 @@
     "lockedAt": "2026-06-18T16:01:38.588Z",
     "syncedAt": "2026-06-18T16:01:38.588Z"
   },
+  "1539005": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Breel Embolo",
+        "team": "home",
+        "pos": "нап",
+        "id": "421"
+      },
+      {
+        "name": "Dan Ndoye",
+        "team": "home",
+        "pos": "нап",
+        "id": "48648"
+      },
+      {
+        "name": "Edin Džeko",
+        "team": "away",
+        "pos": "нап",
+        "id": "790"
+      }
+    ],
+    "lockedAt": "2026-06-18T19:01:07.115Z",
+    "syncedAt": "2026-06-18T19:01:07.115Z"
+  },
   "1539016": {
     "score": {
       "home": 0,
