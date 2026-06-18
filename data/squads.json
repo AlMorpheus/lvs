@@ -4623,9 +4623,9 @@
       "start": true
     },
     {
-      "id": 241,
-      "name": "Michal Sadílek",
-      "number": 18,
+      "id": 25348,
+      "name": "Vladimír Darida",
+      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -4637,6 +4637,13 @@
       "start": true
     },
     {
+      "id": 241,
+      "name": "Michal Sadílek",
+      "number": 18,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 386837,
       "name": "Alexandr Sojka",
       "number": 24,
@@ -4644,23 +4651,16 @@
       "start": true
     },
     {
-      "id": 66019,
-      "name": "Adam Hložek",
-      "number": 9,
+      "id": 794,
+      "name": "Patrik Schick",
+      "number": 10,
       "pos": "Attacker",
       "start": true
     },
     {
-      "id": 25348,
-      "name": "Vladimír Darida",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 794,
-      "name": "Patrik Schick",
-      "number": 10,
+      "id": 66019,
+      "name": "Adam Hložek",
+      "number": 9,
       "pos": "Attacker",
       "start": true
     },
@@ -7045,13 +7045,6 @@
       "start": true
     },
     {
-      "id": 179893,
-      "name": "Oswin Appollis",
-      "number": 7,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 268710,
       "name": "Jayden Adams",
       "number": 23,
@@ -7069,6 +7062,13 @@
       "id": 127429,
       "name": "Iqraam Rayners",
       "number": 15,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 179893,
+      "name": "Oswin Appollis",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
