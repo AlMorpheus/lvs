@@ -8194,6 +8194,34 @@
       "start": true
     },
     {
+      "id": 42060,
+      "name": "Sultan Al-Brake",
+      "number": 18,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 2539,
+      "name": "Ahmed Fathi",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 283174,
+      "name": "Mohamed Naceur Almanai",
+      "number": 26,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 339795,
+      "name": "Al-Hashmi Al-Hussain",
+      "number": 25,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 136503,
       "name": "Salah Zakaria",
       "number": 21,
@@ -8211,20 +8239,6 @@
       "id": 42288,
       "name": "Lucas Mendes",
       "number": 3,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 42060,
-      "name": "Sultan Al-Brake",
-      "number": 18,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 339795,
-      "name": "Al-Hashmi Al-Hussain",
-      "number": 25,
       "pos": "Defender",
       "start": false
     },
@@ -8250,24 +8264,10 @@
       "start": false
     },
     {
-      "id": 2539,
-      "name": "Ahmed Fathi",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 2543,
       "name": "Almoez Ali",
       "number": 19,
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 283174,
-      "name": "Mohamed Naceur Almanai",
-      "number": 26,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -9443,6 +9443,20 @@
       "start": true
     },
     {
+      "id": 407017,
+      "name": "Moise Bombito",
+      "number": 15,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 294824,
+      "name": "Nathan-Dylan Saliba",
+      "number": 25,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 51148,
       "name": "Dayne St. Clair",
       "number": 1,
@@ -9467,13 +9481,6 @@
       "id": 509,
       "name": "Alphonso Davies",
       "number": 19,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 407017,
-      "name": "Moise Bombito",
-      "number": 15,
       "pos": "Defender",
       "start": false
     },
@@ -9509,13 +9516,6 @@
       "id": 50817,
       "name": "Jonathan Osorio",
       "number": 21,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 294824,
-      "name": "Nathan-Dylan Saliba",
-      "number": 25,
       "pos": "Midfielder",
       "start": false
     },
