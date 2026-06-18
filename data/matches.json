@@ -1281,7 +1281,7 @@
   {
     "id": "1489386",
     "date": "2026-06-18T02:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 1",
     "roundKey": "group-1",
     "stage": "group",
@@ -1299,12 +1299,44 @@
       "home": 1,
       "away": 3
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-18T04:03:44.180Z",
     "lineupAt": "2026-06-18T01:14:14.956Z",
     "remind2hAt": "2026-06-18T00:02:05.100Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 13736,
+        "name": "D. Munoz",
+        "teamId": 8,
+        "minute": 40,
+        "type": "normal"
+      },
+      {
+        "playerId": 263676,
+        "name": "A. Fayzullaev",
+        "teamId": 1568,
+        "minute": 60,
+        "type": "normal"
+      },
+      {
+        "playerId": 2489,
+        "name": "L. Diaz",
+        "teamId": 8,
+        "minute": 65,
+        "type": "normal"
+      },
+      {
+        "playerId": 13376,
+        "name": "J. Campaz",
+        "teamId": 8,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
