@@ -4665,6 +4665,34 @@
       "start": true
     },
     {
+      "id": 1237,
+      "name": "Jaroslav Zelený",
+      "number": 20,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 66387,
+      "name": "Pavel Šulc",
+      "number": 15,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 1243,
+      "name": "Tomáš Souček",
+      "number": 22,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 66353,
+      "name": "Lukáš Provod",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 66347,
       "name": "Jindřich Staněk",
       "number": 16,
@@ -4693,23 +4721,9 @@
       "start": false
     },
     {
-      "id": 1237,
-      "name": "Jaroslav Zelený",
-      "number": 20,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 66214,
       "name": "David Douděra",
       "number": 21,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 1243,
-      "name": "Tomáš Souček",
-      "number": 22,
       "pos": "Midfielder",
       "start": false
     },
@@ -4728,13 +4742,6 @@
       "start": false
     },
     {
-      "id": 66353,
-      "name": "Lukáš Provod",
-      "number": 17,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 66340,
       "name": "Jan Kuchta",
       "number": 11,
@@ -4746,13 +4753,6 @@
       "name": "Mojmír Chytil",
       "number": 13,
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 66387,
-      "name": "Pavel Šulc",
-      "number": 15,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -7073,6 +7073,20 @@
       "start": true
     },
     {
+      "id": 414149,
+      "name": "Relebohile Mofokeng",
+      "number": 10,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 201354,
+      "name": "Evidence Makgopa",
+      "number": 17,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 46417,
       "name": "Sipho Chaine",
       "number": 16,
@@ -7136,13 +7150,6 @@
       "start": false
     },
     {
-      "id": 414149,
-      "name": "Relebohile Mofokeng",
-      "number": 10,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 359561,
       "name": "Kamogelo Sebelebele",
       "number": 25,
@@ -7153,13 +7160,6 @@
       "id": 98936,
       "name": "Lyle Foster",
       "number": 9,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 201354,
-      "name": "Evidence Makgopa",
-      "number": 17,
       "pos": "Attacker",
       "start": false
     }
