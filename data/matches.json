@@ -1343,7 +1343,7 @@
   {
     "id": "1539004",
     "date": "2026-06-18T16:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1357,7 +1357,10 @@
       "name": "South Africa",
       "flag": "https://media.api-sports.io/football/teams/1531.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,

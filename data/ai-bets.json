@@ -635,6 +635,34 @@
     "lockedAt": "2026-06-17T17:00:33.165Z",
     "syncedAt": "2026-06-17T17:00:33.165Z"
   },
+  "1539004": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Patrik Schick",
+        "team": "home",
+        "pos": "нап",
+        "id": "794"
+      },
+      {
+        "name": "Adam Hložek",
+        "team": "home",
+        "pos": "нап",
+        "id": "66019"
+      },
+      {
+        "name": "Iqraam Rayners",
+        "team": "away",
+        "pos": "нап",
+        "id": "127429"
+      }
+    ],
+    "lockedAt": "2026-06-18T16:01:38.588Z",
+    "syncedAt": "2026-06-18T16:01:38.588Z"
+  },
   "1539016": {
     "score": {
       "home": 0,
