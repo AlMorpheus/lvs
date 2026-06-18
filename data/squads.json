@@ -2226,7 +2226,7 @@
       "id": 163032,
       "name": "Fabian Rieder",
       "number": 22,
-      "pos": "Attacker",
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -2242,6 +2242,27 @@
       "number": 11,
       "pos": "Attacker",
       "start": true
+    },
+    {
+      "id": 406244,
+      "name": "Johan Manzambi",
+      "number": 9,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 957,
+      "name": "Djibril Sow",
+      "number": 15,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 48471,
+      "name": "Rubén Vargas",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 1142,
@@ -2286,13 +2307,6 @@
       "start": false
     },
     {
-      "id": 406244,
-      "name": "Johan Manzambi",
-      "number": 9,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 264705,
       "name": "Ardon Jashari",
       "number": 14,
@@ -2300,23 +2314,9 @@
       "start": false
     },
     {
-      "id": 957,
-      "name": "Djibril Sow",
-      "number": 15,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 952,
       "name": "Christian Fassnacht",
       "number": 16,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 48471,
-      "name": "Rubén Vargas",
-      "number": 17,
       "pos": "Midfielder",
       "start": false
     },
@@ -6053,6 +6053,20 @@
       "start": true
     },
     {
+      "id": 162222,
+      "name": "Ivan Bašić",
+      "number": 13,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 329409,
+      "name": "Esmir Bajraktarević",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 108370,
       "name": "Martin Zlomislić",
       "number": 22,
@@ -6120,20 +6134,6 @@
       "name": "Ermin Mahmic",
       "number": 26,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 162222,
-      "name": "Ivan Bašić",
-      "number": 13,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 329409,
-      "name": "Esmir Bajraktarević",
-      "number": 20,
-      "pos": "Attacker",
       "start": false
     },
     {
