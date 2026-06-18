@@ -140,7 +140,7 @@
     "team": "5530"
   },
   "241": {
-    "name": "M. Sadílek",
+    "name": "Michal Sadílek",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -545,12 +545,12 @@
     "team": "1118"
   },
   "794": {
-    "name": "P. Schick",
+    "name": "Patrik Schick",
     "pos": "Attacker",
     "team": "770"
   },
   "818": {
-    "name": "T. Chorý",
+    "name": "Tomáš Chorý",
     "pos": "Attacker",
     "team": "770"
   },
@@ -755,17 +755,17 @@
     "team": "6"
   },
   "1231": {
-    "name": "V. Coufal",
+    "name": "Vladimír Coufal",
     "pos": "Midfielder",
     "team": "770"
   },
   "1237": {
-    "name": "J. Zelený",
-    "pos": "Midfielder",
+    "name": "Jaroslav Zelený",
+    "pos": "Defender",
     "team": "770"
   },
   "1243": {
-    "name": "T. Soucek",
+    "name": "Tomáš Souček",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -1010,7 +1010,7 @@
     "team": "1095"
   },
   "2252": {
-    "name": "T. Holes",
+    "name": "Tomáš Holeš",
     "pos": "Defender",
     "team": "770"
   },
@@ -1590,12 +1590,12 @@
     "team": "1501"
   },
   "3275": {
-    "name": "R. Williams",
+    "name": "Ronwen Williams",
     "pos": "Goalkeeper",
     "team": "1531"
   },
   "3287": {
-    "name": "T. Mokoena",
+    "name": "Teboho Mokoena",
     "pos": "Midfielder",
     "team": "1531"
   },
@@ -2605,7 +2605,7 @@
     "team": "1504"
   },
   "25348": {
-    "name": "V. Darida",
+    "name": "Vladimír Darida",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -3520,27 +3520,27 @@
     "team": "1108"
   },
   "46245": {
-    "name": "R. Goss",
+    "name": "Ricardo Goss",
     "pos": "Goalkeeper",
     "team": "1531"
   },
   "46334": {
-    "name": "A. Modiba",
+    "name": "Aubrey Modiba",
     "pos": "Defender",
     "team": "1531"
   },
   "46417": {
-    "name": "S. Chaine",
+    "name": "Sipho Chaine",
     "pos": "Goalkeeper",
     "team": "1531"
   },
   "46458": {
-    "name": "N. Sibisi",
+    "name": "Nkosinathi Sibisi",
     "pos": "Defender",
     "team": "1531"
   },
   "46601": {
-    "name": "K. Mudau",
+    "name": "Khuliso Mudau",
     "pos": "Defender",
     "team": "1531"
   },
@@ -4180,7 +4180,7 @@
     "team": "1568"
   },
   "66019": {
-    "name": "A. Hlozek",
+    "name": "Adam Hložek",
     "pos": "Attacker",
     "team": "770"
   },
@@ -4190,33 +4190,33 @@
     "team": "3"
   },
   "66214": {
-    "name": "D. Doudera",
+    "name": "David Douděra",
     "pos": "Midfielder",
     "team": "770"
   },
   "66275": {
-    "name": "M. Chytil",
+    "name": "Mojmír Chytil",
     "pos": "Attacker",
     "team": "770"
   },
   "66340": {
-    "name": "J. Kuchta",
+    "name": "Jan Kuchta",
     "pos": "Attacker",
     "team": "770"
   },
   "66347": {
-    "name": "J. Stanek",
+    "name": "Jindřich Staněk",
     "pos": "Goalkeeper",
     "team": "770"
   },
   "66353": {
-    "name": "L. Provod",
-    "pos": "Attacker",
+    "name": "Lukáš Provod",
+    "pos": "Midfielder",
     "team": "770"
   },
   "66387": {
-    "name": "P. Sulc",
-    "pos": "Attacker",
+    "name": "Pavel Šulc",
+    "pos": "Midfielder",
     "team": "770"
   },
   "66407": {
@@ -4515,7 +4515,7 @@
     "team": "11"
   },
   "98936": {
-    "name": "L. Foster",
+    "name": "Lyle Foster",
     "pos": "Attacker",
     "team": "1531"
   },
@@ -4695,7 +4695,7 @@
     "team": "16"
   },
   "127429": {
-    "name": "I. Rayners",
+    "name": "Iqraam Rayners",
     "pos": "Attacker",
     "team": "1531"
   },
@@ -4730,7 +4730,7 @@
     "team": "2386"
   },
   "128772": {
-    "name": "D. Zima",
+    "name": "David Zima",
     "pos": "Defender",
     "team": "770"
   },
@@ -4875,7 +4875,7 @@
     "team": "10"
   },
   "138804": {
-    "name": "M. Kovár",
+    "name": "Matěj Kovář",
     "pos": "Goalkeeper",
     "team": "770"
   },
@@ -5100,7 +5100,7 @@
     "team": "1"
   },
   "162194": {
-    "name": "L. Cerv",
+    "name": "Lukáš Červ",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -5170,7 +5170,7 @@
     "team": "1094"
   },
   "162964": {
-    "name": "R. Hranác",
+    "name": "Robin Hranáč",
     "pos": "Defender",
     "team": "770"
   },
@@ -5180,7 +5180,7 @@
     "team": "15"
   },
   "163041": {
-    "name": "B. Cross",
+    "name": "Bradley Cross",
     "pos": "Defender",
     "team": "1531"
   },
@@ -5265,7 +5265,7 @@
     "team": "4673"
   },
   "179893": {
-    "name": "O. Appollis",
+    "name": "Oswin Appollis",
     "pos": "Attacker",
     "team": "1531"
   },
@@ -5365,7 +5365,7 @@
     "team": "2386"
   },
   "194430": {
-    "name": "T. Mbatha",
+    "name": "Thalente Mbatha",
     "pos": "Midfielder",
     "team": "1531"
   },
@@ -5485,7 +5485,7 @@
     "team": "1569"
   },
   "201354": {
-    "name": "E. Makgopa",
+    "name": "Evidence Makgopa",
     "pos": "Attacker",
     "team": "1531"
   },
@@ -5720,7 +5720,7 @@
     "team": "768"
   },
   "268710": {
-    "name": "J. Adams",
+    "name": "Jayden Adams",
     "pos": "Midfielder",
     "team": "1531"
   },
@@ -5740,7 +5740,7 @@
     "team": "32"
   },
   "269349": {
-    "name": "L. Hornícek",
+    "name": "Lukáš Horníček",
     "pos": "Goalkeeper",
     "team": "770"
   },
@@ -5935,7 +5935,7 @@
     "team": "768"
   },
   "290212": {
-    "name": "D. Visinský",
+    "name": "Denis Višinský",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -6005,8 +6005,8 @@
     "team": "9"
   },
   "295977": {
-    "name": "T. Moremi",
-    "pos": "Midfielder",
+    "name": "Tshepang Moremi",
+    "pos": "Attacker",
     "team": "1531"
   },
   "296373": {
@@ -6335,7 +6335,7 @@
     "team": "1113"
   },
   "330174": {
-    "name": "T. Matuludi",
+    "name": "Tholo Thabang Matuludi",
     "pos": "Defender",
     "team": "1531"
   },
@@ -6400,7 +6400,7 @@
     "team": "20"
   },
   "337740": {
-    "name": "S. Chaloupek",
+    "name": "Štěpán Chaloupek",
     "pos": "Defender",
     "team": "770"
   },
@@ -6660,7 +6660,7 @@
     "team": "1501"
   },
   "354831": {
-    "name": "T. Maseko",
+    "name": "Thapelo Maseko",
     "pos": "Attacker",
     "team": "1531"
   },
@@ -6695,7 +6695,7 @@
     "team": "767"
   },
   "359561": {
-    "name": "K. Sebelebele",
+    "name": "Kamogelo Sebelebele",
     "pos": "Midfielder",
     "team": "1531"
   },
@@ -6840,7 +6840,7 @@
     "team": "9"
   },
   "386837": {
-    "name": "A. Sojka",
+    "name": "Alexandr Sojka",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -6865,7 +6865,7 @@
     "team": "16"
   },
   "392387": {
-    "name": "O. Makhanya",
+    "name": "Olwethu Makhanya",
     "pos": "Defender",
     "team": "1531"
   },
@@ -6955,7 +6955,7 @@
     "team": "2382"
   },
   "406752": {
-    "name": "I. Okon",
+    "name": "Ime Okon",
     "pos": "Defender",
     "team": "1531"
   },
@@ -7005,7 +7005,7 @@
     "team": "767"
   },
   "414149": {
-    "name": "R. Mofokeng",
+    "name": "Relebohile Mofokeng",
     "pos": "Attacker",
     "team": "1531"
   },
@@ -7070,7 +7070,7 @@
     "team": "1094"
   },
   "430078": {
-    "name": "S. Kabini",
+    "name": "Samukelo Kabini",
     "pos": "Defender",
     "team": "1531"
   },
@@ -7170,7 +7170,7 @@
     "team": "1501"
   },
   "474630": {
-    "name": "K. Ndamane",
+    "name": "Khulumani Ndamane",
     "pos": "Defender",
     "team": "1531"
   },
@@ -7210,7 +7210,7 @@
     "team": "32"
   },
   "510799": {
-    "name": "M. Mbokazi",
+    "name": "Mbekezeli Mbokazi",
     "pos": "Defender",
     "team": "1531"
   },
@@ -7370,7 +7370,7 @@
     "team": "11"
   },
   "555437": {
-    "name": "H. Sochurek",
+    "name": "Hugo Sochurek",
     "pos": "Midfielder",
     "team": "770"
   },
