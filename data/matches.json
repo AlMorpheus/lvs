@@ -1391,7 +1391,7 @@
   {
     "id": "1539005",
     "date": "2026-06-18T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1409,12 +1409,51 @@
       "home": 4,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 4,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-18T20:58:54.408Z",
     "lineupAt": "2026-06-18T18:01:08.468Z",
     "remind2hAt": "2026-06-18T17:00:07.618Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 406244,
+        "name": "J. Manzambi",
+        "teamId": 15,
+        "minute": 74,
+        "type": "normal"
+      },
+      {
+        "playerId": 48471,
+        "name": "R. Vargas",
+        "teamId": 15,
+        "minute": 84,
+        "type": "normal"
+      },
+      {
+        "playerId": 406244,
+        "name": "J. Manzambi",
+        "teamId": 15,
+        "minute": 90,
+        "type": "normal"
+      },
+      {
+        "playerId": 340173,
+        "name": "E. Mahmic",
+        "teamId": 1113,
+        "minute": 90,
+        "type": "normal"
+      },
+      {
+        "playerId": 1464,
+        "name": "G. Xhaka",
+        "teamId": 15,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
