@@ -7934,6 +7934,20 @@
       "start": true
     },
     {
+      "id": 53830,
+      "name": "Farrukh Sayfiev",
+      "number": 4,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 53834,
+      "name": "Dostonbek Khamdamov",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 73507,
       "name": "Abduvokhid Nematov",
       "number": 12,
@@ -7951,13 +7965,6 @@
       "id": 72122,
       "name": "Khozhiakbar Alizhonov",
       "number": 3,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 53830,
-      "name": "Farrukh Sayfiev",
-      "number": 4,
       "pos": "Defender",
       "start": false
     },
@@ -8000,13 +8007,6 @@
       "id": 312231,
       "name": "Ruslanbek Jiyanov",
       "number": 10,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 53834,
-      "name": "Dostonbek Khamdamov",
-      "number": 17,
       "pos": "Midfielder",
       "start": false
     },
