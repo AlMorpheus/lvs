@@ -25,7 +25,7 @@
     "team": "1"
   },
   "30": {
-    "name": "S. Arias",
+    "name": "Santiago Arias",
     "pos": "Defender",
     "team": "8"
   },
@@ -90,7 +90,7 @@
     "team": "767"
   },
   "168": {
-    "name": "D. Sánchez",
+    "name": "Davinson Sánchez",
     "pos": "Defender",
     "team": "8"
   },
@@ -230,7 +230,7 @@
     "team": "768"
   },
   "313": {
-    "name": "D. Ospina",
+    "name": "David Ospina",
     "pos": "Goalkeeper",
     "team": "8"
   },
@@ -325,7 +325,7 @@
     "team": "25"
   },
   "517": {
-    "name": "J. Rodríguez",
+    "name": "James Rodríguez",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -955,7 +955,7 @@
     "team": "3"
   },
   "1929": {
-    "name": "J. Lucumí",
+    "name": "Jhon Lucumí",
     "pos": "Defender",
     "team": "8"
   },
@@ -1070,32 +1070,32 @@
     "team": "26"
   },
   "2481": {
-    "name": "Á. Montero",
+    "name": "Álvaro Montero",
     "pos": "Goalkeeper",
     "team": "8"
   },
   "2482": {
-    "name": "C. Vargas",
+    "name": "Camilo Vargas",
     "pos": "Goalkeeper",
     "team": "8"
   },
   "2483": {
-    "name": "D. Machado",
+    "name": "Deiver Machado",
     "pos": "Defender",
     "team": "8"
   },
   "2484": {
-    "name": "Y. Mina",
+    "name": "Yerry Mina",
     "pos": "Defender",
     "team": "8"
   },
   "2489": {
-    "name": "L. Díaz",
+    "name": "Luis Díaz",
     "pos": "Midfielder",
     "team": "8"
   },
   "2490": {
-    "name": "J. Lerma",
+    "name": "Jefferson Lerma",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -1645,7 +1645,7 @@
     "team": "1094"
   },
   "5994": {
-    "name": "J. Carrascal",
+    "name": "Jorge Carrascal",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -1665,7 +1665,7 @@
     "team": "26"
   },
   "6005": {
-    "name": "J. Quintero",
+    "name": "Juan Fernando Quintero",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -1930,27 +1930,27 @@
     "team": "2386"
   },
   "13151": {
-    "name": "J. Portilla",
+    "name": "Juan Portilla",
     "pos": "Midfielder",
     "team": "8"
   },
   "13376": {
-    "name": "J. Campaz",
+    "name": "Jaminton Campaz",
     "pos": "Midfielder",
     "team": "8"
   },
   "13571": {
-    "name": "W. Ditta",
+    "name": "Willer Ditta",
     "pos": "Defender",
     "team": "8"
   },
   "13708": {
-    "name": "J. Arias",
+    "name": "Jhon Arias",
     "pos": "Midfielder",
     "team": "8"
   },
   "13736": {
-    "name": "D. Muñoz",
+    "name": "Daniel Muñoz",
     "pos": "Defender",
     "team": "8"
   },
@@ -2545,7 +2545,7 @@
     "team": "777"
   },
   "24810": {
-    "name": "J. Córdoba",
+    "name": "Jhon Córdoba",
     "pos": "Attacker",
     "team": "8"
   },
@@ -2920,7 +2920,7 @@
     "team": "12"
   },
   "34121": {
-    "name": "R. Ashurmatov",
+    "name": "Rustam Ashurmatov",
     "pos": "Defender",
     "team": "1568"
   },
@@ -3570,7 +3570,7 @@
     "team": "1113"
   },
   "47237": {
-    "name": "L. Suárez",
+    "name": "Luis Javier Suárez",
     "pos": "Attacker",
     "team": "8"
   },
@@ -3635,7 +3635,7 @@
     "team": "1508"
   },
   "47582": {
-    "name": "C. Hernández",
+    "name": "Cucho Hernández",
     "pos": "Attacker",
     "team": "8"
   },
@@ -3820,7 +3820,7 @@
     "team": "1533"
   },
   "50272": {
-    "name": "O. Shukurov",
+    "name": "Otabek Shukurov",
     "pos": "Midfielder",
     "team": "1568"
   },
@@ -3990,17 +3990,22 @@
     "team": "1113"
   },
   "53535": {
-    "name": "E. Shomurodov",
+    "name": "Eldor Shomurodov",
     "pos": "Attacker",
     "team": "1568"
   },
+  "53830": {
+    "name": "Farrukh Sayfiev",
+    "pos": "Defender",
+    "team": "1568"
+  },
   "53834": {
-    "name": "D. Khamdamov",
+    "name": "Dostonbek Khamdamov",
     "pos": "Midfielder",
     "team": "1568"
   },
   "53835": {
-    "name": "O. Hamrobekov",
+    "name": "Odiljon Khamrobekov",
     "pos": "Midfielder",
     "team": "1568"
   },
@@ -4130,7 +4135,7 @@
     "team": "1501"
   },
   "64268": {
-    "name": "J. Mojica",
+    "name": "Johan Mojica",
     "pos": "Defender",
     "team": "8"
   },
@@ -4160,17 +4165,17 @@
     "team": "1094"
   },
   "65571": {
-    "name": "A. Ulmasaliev",
+    "name": "Avazbek Ulmasaliyev",
     "pos": "Defender",
     "team": "1568"
   },
   "65576": {
-    "name": "J. Iskanderov",
+    "name": "Jamshid Iskandarov",
     "pos": "Midfielder",
     "team": "1568"
   },
   "65584": {
-    "name": "A. Amonov",
+    "name": "Azizbek Amanov",
     "pos": "Attacker",
     "team": "1568"
   },
@@ -4295,22 +4300,22 @@
     "team": "11"
   },
   "72120": {
-    "name": "B. Ergashev",
+    "name": "Botirali Ergashev",
     "pos": "Goalkeeper",
     "team": "1568"
   },
   "72122": {
-    "name": "K. Alijonov",
+    "name": "Khozhiakbar Alizhonov",
     "pos": "Defender",
     "team": "1568"
   },
   "72127": {
-    "name": "O. Orunov",
+    "name": "Oston Urunov",
     "pos": "Attacker",
     "team": "1568"
   },
   "72128": {
-    "name": "I. Sergeev",
+    "name": "Igor Sergeev",
     "pos": "Attacker",
     "team": "1568"
   },
@@ -4330,37 +4335,37 @@
     "team": "12"
   },
   "73418": {
-    "name": "A. Abdullaev",
+    "name": "Abdulla Abdullaev",
     "pos": "Defender",
     "team": "1568"
   },
   "73507": {
-    "name": "A. Nematov",
+    "name": "Abduvokhid Nematov",
     "pos": "Goalkeeper",
     "team": "1568"
   },
   "73510": {
-    "name": "U. Eshmurodov",
+    "name": "Umarbek Eshmuradov",
     "pos": "Defender",
     "team": "1568"
   },
   "73514": {
-    "name": "S. Nasrullayev",
+    "name": "Sherzod Nasrullaev",
     "pos": "Midfielder",
     "team": "1568"
   },
   "73520": {
-    "name": "A. Ganiyev",
-    "pos": "Attacker",
+    "name": "Azizjon Ganiev",
+    "pos": "Midfielder",
     "team": "1568"
   },
   "73522": {
-    "name": "A. Mozgovoy",
+    "name": "Akmal Mozgovoy",
     "pos": "Midfielder",
     "team": "1568"
   },
   "73534": {
-    "name": "U. Yusupov",
+    "name": "Utkir Yusupov",
     "pos": "Goalkeeper",
     "team": "1568"
   },
@@ -5380,7 +5385,7 @@
     "team": "5530"
   },
   "195104": {
-    "name": "R. Rios",
+    "name": "Richard Ríos",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -5630,7 +5635,7 @@
     "team": "27"
   },
   "263676": {
-    "name": "A. Fayzullaev",
+    "name": "Abbosbek Fayzullaev",
     "pos": "Attacker",
     "team": "1568"
   },
@@ -5920,7 +5925,7 @@
     "team": "3"
   },
   "289592": {
-    "name": "K. Castaño",
+    "name": "Kevin Castaño",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -6154,6 +6159,11 @@
     "pos": "Attacker",
     "team": "2382"
   },
+  "312231": {
+    "name": "Ruslanbek Jiyanov",
+    "pos": "Midfielder",
+    "team": "1568"
+  },
   "312459": {
     "name": "Nishan Velupillay",
     "pos": "Attacker",
@@ -6250,7 +6260,7 @@
     "team": "28"
   },
   "324034": {
-    "name": "G. Puerta",
+    "name": "Gustavo Puerta",
     "pos": "Midfielder",
     "team": "8"
   },
@@ -6540,8 +6550,8 @@
     "team": "1095"
   },
   "345748": {
-    "name": "A. Gómez",
-    "pos": "Midfielder",
+    "name": "Andrés Gómez",
+    "pos": "Attacker",
     "team": "8"
   },
   "345808": {
@@ -6675,7 +6685,7 @@
     "team": "17"
   },
   "358427": {
-    "name": "J. Urozov",
+    "name": "Jakhongir Urozov",
     "pos": "Defender",
     "team": "1568"
   },
@@ -6695,7 +6705,7 @@
     "team": "768"
   },
   "360114": {
-    "name": "A. Khusanov",
+    "name": "Abdukodir Khusanov",
     "pos": "Defender",
     "team": "1568"
   },
@@ -6715,7 +6725,7 @@
     "team": "2384"
   },
   "363723": {
-    "name": "S. Esanov",
+    "name": "Sherzod Esanov",
     "pos": "Midfielder",
     "team": "1568"
   },
@@ -7020,8 +7030,8 @@
     "team": "1568"
   },
   "416964": {
-    "name": "B. Karimov",
-    "pos": "Defender",
+    "name": "Bekhruz Karimov",
+    "pos": "Midfielder",
     "team": "1568"
   },
   "422572": {
