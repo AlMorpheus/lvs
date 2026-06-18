@@ -498,6 +498,34 @@
     "lockedAt": "2026-06-18T02:01:23.144Z",
     "syncedAt": "2026-06-18T02:01:23.144Z"
   },
+  "1489387": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Jonathan David",
+        "team": "home",
+        "pos": "нап",
+        "id": "8489"
+      },
+      {
+        "name": "Cyle Larin",
+        "team": "home",
+        "pos": "нап",
+        "id": "2001"
+      },
+      {
+        "name": "Akram Afif",
+        "team": "away",
+        "pos": "нап",
+        "id": "2544"
+      }
+    ],
+    "lockedAt": "2026-06-18T22:00:01.915Z",
+    "syncedAt": "2026-06-18T22:00:01.915Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
