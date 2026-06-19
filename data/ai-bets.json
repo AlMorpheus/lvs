@@ -526,6 +526,34 @@
     "lockedAt": "2026-06-18T22:00:01.915Z",
     "syncedAt": "2026-06-18T22:00:01.915Z"
   },
+  "1489388": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Raúl Jiménez",
+        "team": "home",
+        "pos": "нап",
+        "id": "2887"
+      },
+      {
+        "name": "Son Heung-min",
+        "team": "away",
+        "pos": "нап",
+        "id": "186"
+      },
+      {
+        "name": "Julián Quiñones",
+        "team": "home",
+        "pos": "нап",
+        "id": "35532"
+      }
+    ],
+    "lockedAt": "2026-06-19T01:00:51.374Z",
+    "syncedAt": "2026-06-19T01:00:51.374Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
