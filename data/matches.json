@@ -1666,7 +1666,7 @@
   {
     "id": "1489391",
     "date": "2026-06-19T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1684,12 +1684,32 @@
       "home": 2,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-19T21:06:09.663Z",
     "lineupAt": "2026-06-19T17:55:13.050Z",
     "remind2hAt": "2026-06-19T17:00:27.958Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 20457,
+        "name": "C. Burgess",
+        "teamId": 2384,
+        "minute": 11,
+        "type": "own",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 355994,
+        "name": "A. Freeman",
+        "teamId": 2384,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
