@@ -5801,6 +5801,13 @@
       "start": true
     },
     {
+      "id": 19191,
+      "name": "John McGinn",
+      "number": 7,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 1125,
       "name": "Ryan Christie",
       "number": 11,
@@ -5815,10 +5822,10 @@
       "start": true
     },
     {
-      "id": 19191,
-      "name": "John McGinn",
-      "number": 7,
-      "pos": "Midfielder",
+      "id": 1117,
+      "name": "Kieran Tierney",
+      "number": 6,
+      "pos": "Defender",
       "start": true
     },
     {
@@ -5826,13 +5833,6 @@
       "name": "Scott McTominay",
       "number": 4,
       "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 1117,
-      "name": "Kieran Tierney",
-      "number": 6,
-      "pos": "Defender",
       "start": true
     },
     {
