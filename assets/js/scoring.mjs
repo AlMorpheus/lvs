@@ -32,20 +32,25 @@ export function scorerValue(pos, cfg) {
 
 /**
  * Очки за авторов голов. Цена угаданного автора зависит от его позиции
- * (нападающий/полузащитник/защитник/вратарь). Хет-трика/бонусов нет.
- * posMap — { playerId(строка): позиция }.
+ * (нападающий/полузащитник/защитник/вратарь). posMap — { playerId(строка): позиция }.
+ *
+ * Одного игрока можно выбрать НЕСКОЛЬКО раз (ставка на дубль/хет-трик): каждый пик
+ * приносит очки, но не больше, чем игрок реально забил голов (min(пиков, голов)).
+ * Напр. выбрал игрока 3 раза, он забил 2 — зачтутся два пика, третий пустой.
  */
 export function scorerPoints(betScorers, actualScorers, posMap, cfg) {
-  const picks = [...new Set((betScorers || []).filter((x) => x != null).map(String))];
-  const scored = new Set((actualScorers || []).map(String));
+  const picks = (betScorers || []).filter((x) => x != null).map(String); // дубли НЕ убираем
+  const credits = {}; // сколько голов игрока ещё можно «закрыть» пиками
+  for (const id of (actualScorers || []).map(String)) credits[id] = (credits[id] || 0) + 1;
   let pts = 0;
   let correct = 0;
   const perPick = [];
   for (const id of picks) {
-    const hit = scored.has(id);
+    const hit = (credits[id] || 0) > 0; // остался ли незачтённый гол этого игрока
     const pos = posMap ? posMap[id] : null;
     const val = hit ? scorerValue(pos, cfg) : 0;
     if (hit) {
+      credits[id] -= 1;
       correct += 1;
       pts += val;
     }

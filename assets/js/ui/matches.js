@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=62';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=62';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=62';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=62';
-import { renderGreeting } from './greeting.js?v=62';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=63';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=63';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=63';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=63';
+import { renderGreeting } from './greeting.js?v=63';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -202,7 +202,7 @@ function betForm(card, m, S, ctx, existing) {
   const cancel = h('button', { class: 'btn ghost', text: 'Отмена' });
 
   async function doSave() {
-    const scorers = [...new Set([s1.value, s2.value, s3.value].filter(Boolean))]; // без повтора одного игрока
+    const scorers = [s1.value, s2.value, s3.value].filter(Boolean); // можно выбрать одного игрока 2-3 раза (ставка на дубль/хет-трик)
     save.disabled = cancel.disabled = true;
     save.textContent = 'Сохраняем…';
     try {
@@ -358,7 +358,7 @@ async function revealBlock(m, S, ctx, idx) {
     const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
     const scorerEls = isAI && bet.scorerInfo
       ? aiScorerChips(bet.scorerInfo, m, S, idx) // у Шефа показываем всех троих
-      : [...new Set((bet.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx)); // без дублей
+      : (bet.scorers || []).map(String).map((id) => scorerChip(id, m, S, idx)); // дубли показываем (ставка на дубль/хет-трик)
 
     const whoChildren = isAI
       ? [h('span', { class: 'ai-ava', text: '🤖' }), h('b', { text: 'Шеф' })]
@@ -399,7 +399,7 @@ function rerenderCard(card, m, S, ctx) {
   } else if (bettingOpen(m, S)) {
     const existing = ownBetCache.get(m.id);
     if (existing) {
-      const scorerEls = [...new Set((existing.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx));
+      const scorerEls = (existing.scorers || []).map(String).map((id) => scorerChip(id, m, S, idx));
       card.append(
         h('div', { class: 'bet-summary' }, [
           h('div', { class: 'row' }, [h('span', { text: 'Твоя ставка' }), h('span', { class: 'chip', text: `${existing.score.home}:${existing.score.away}` })]),
@@ -602,7 +602,7 @@ function collapsibleCard(m, S, ctx, idx) {
 // Карточка матча в истории игрока — один в один как на главной (.match).
 function historyCard(m, bet, res, S, idx) {
   const pts = res ? h('span', { class: 'pts' + (res.total > 0 ? '' : ' zero'), text: '+' + res.total }) : '';
-  const scorerEls = [...new Set((bet.scorers || []).map(String))].map((id) => scorerChip(id, m, S, idx));
+  const scorerEls = (bet.scorers || []).map(String).map((id) => scorerChip(id, m, S, idx));
   const entry = h('div', { class: 'reveal-entry' }, [
     h('div', { class: 'reveal-head' }, [
       h('div', { class: 'reveal-who' }, [h('b', { text: 'Прогноз' })]),
