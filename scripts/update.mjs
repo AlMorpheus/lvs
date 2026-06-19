@@ -47,6 +47,9 @@ const playerDir = readJSON('data/players.json', {});
 // Позиция игрока берётся ИЗ ОФИЦИАЛЬНОЙ заявки (/players/squads) и фиксируется ОДИН раз
 // (first-write-wins). Стартовый состав (lineup) и последующие обновления НЕ меняют её —
 // иначе позиция «прыгает» (до матча одна, в заявке на игру другая, после матча третья).
+// Официальные позиции из заявки FIFA (data/official-positions.json) — высший авторитет
+// над данными API. Распознанные из официального PDF позиции игроков (id API → позиция).
+const officialPos = readJSON('data/official-positions.json', {});
 const lockedPos = readJSON('data/player-pos.json', {});
 let lockedPosChanged = false;
 function lockPos(id, pos) {
@@ -57,7 +60,7 @@ function lockPos(id, pos) {
   lockedPosChanged = true;
 }
 // проставить игрокам зафиксированную позицию (где она известна)
-const normPos = (id, pos) => lockedPos[String(id)] || pos || null;
+const normPos = (id, pos) => officialPos[String(id)] || lockedPos[String(id)] || pos || null;
 
 function recordPlayer(p, teamId) {
   if (p?.id == null) return;
@@ -688,7 +691,7 @@ async function main() {
   // пополняем накопительный справочник игроков из составов и авторов голов
   for (const [tid, arr] of Object.entries(squads)) for (const p of arr || []) recordPlayer(p, tid);
   for (const m of matches) for (const s of m.scorers || []) recordPlayer({ id: s.playerId, name: s.name }, null);
-  for (const [id, p] of Object.entries(playerDir)) if (lockedPos[id]) p.pos = lockedPos[id]; // справочник тоже по замку
+  for (const [id, p] of Object.entries(playerDir)) { const np = normPos(id, p.pos); if (np) p.pos = np; } // справочник по официальной/замку
 
   // конфиг — только при реальных изменениях (чтобы частый цикл не плодил коммиты)
   const opening = matches.find((m) => m.isOpening);
@@ -724,7 +727,8 @@ async function main() {
   const posMap = buildPosIndex(squads);
   // позиции из справочника — на случай игроков, отсутствующих в текущем составе
   for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
-  for (const [id, pos] of Object.entries(lockedPos)) posMap[id] = pos; // официальная зафиксированная позиция
+  for (const [id, pos] of Object.entries(lockedPos)) posMap[id] = pos; // зафиксированная позиция (API)
+  for (const [id, pos] of Object.entries(officialPos)) posMap[id] = pos; // официальная заявка FIFA — выше API
 
   // ЗАМОРОЗКА позиций авторов голов. Позиция фиксируется один раз — когда игрок впервые
   // забил в завершённом матче — и больше НЕ меняется. Иначе смена позиции в источнике
