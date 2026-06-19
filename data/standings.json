@@ -217,6 +217,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489388": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -527,6 +538,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489388": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -623,9 +645,9 @@
     {
       "id": "betanalyse",
       "name": "🤖 Шеф",
-      "matchPts": 275,
+      "matchPts": 291,
       "futuresPts": 0,
-      "total": 275,
+      "total": 291,
       "exactCount": 1,
       "perMatch": {
         "1489369": {
@@ -834,6 +856,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 14,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489388": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 16,
           "isExact": false,
           "usedReg": false
         },
@@ -1133,6 +1166,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 14,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489388": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -1712,6 +1756,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489388": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -1786,9 +1841,9 @@
     {
       "id": "dasha",
       "name": "Даша",
-      "matchPts": 162,
+      "matchPts": 178,
       "futuresPts": 0,
-      "total": 162,
+      "total": 178,
       "exactCount": 0,
       "perMatch": {
         "1489369": {
@@ -1989,6 +2044,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489388": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 16,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -2085,5 +2151,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-19T00:06:10.194Z"
+  "updatedAt": "2026-06-19T02:57:31.711Z"
 }

@@ -1536,7 +1536,7 @@
   {
     "id": "1489388",
     "date": "2026-06-19T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1554,12 +1554,23 @@
       "home": 1,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-19T02:57:30.641Z",
     "lineupAt": "2026-06-19T00:06:08.946Z",
     "remind2hAt": "2026-06-18T23:01:08.176Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 35970,
+        "name": "L. Romo",
+        "teamId": 16,
+        "minute": 50,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
