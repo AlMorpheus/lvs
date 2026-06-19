@@ -8726,9 +8726,9 @@
       "start": true
     },
     {
-      "id": 162037,
-      "name": "Malik Tillman",
-      "number": 17,
+      "id": 415,
+      "name": "Weston McKennie",
+      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -8740,6 +8740,13 @@
       "start": true
     },
     {
+      "id": 162037,
+      "name": "Malik Tillman",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 38735,
       "name": "Sergiño Dest",
       "number": 2,
@@ -8747,23 +8754,16 @@
       "start": true
     },
     {
-      "id": 415,
-      "name": "Weston McKennie",
-      "number": 8,
-      "pos": "Midfielder",
+      "id": 138835,
+      "name": "Folarin Balogun",
+      "number": 20,
+      "pos": "Attacker",
       "start": true
     },
     {
       "id": 73868,
       "name": "Ricardo Pepi",
       "number": 9,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 138835,
-      "name": "Folarin Balogun",
-      "number": 20,
       "pos": "Attacker",
       "start": true
     },
