@@ -3,8 +3,8 @@
 // расшифровывает её своим ACTION_PRIVATE_KEY и шлёт уведомления через VAPID при смене состава.
 //
 // iOS: Web Push работает ТОЛЬКО когда сайт добавлен на экран «Домой» (standalone), iOS 16.4+.
-import { encryptBet } from './crypto.js?v=58';
-import { putFile, deleteFile } from './github.js?v=58';
+import { encryptBet } from './crypto.js?v=59';
+import { putFile, deleteFile } from './github.js?v=59';
 
 export function pushSupported() {
   return 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;

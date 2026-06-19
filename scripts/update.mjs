@@ -679,7 +679,21 @@ async function main() {
   const squads = await updateSquads(matches, doDailyRefresh);
   await applyLineups(matches, squads); // точная заявка (основа/запас) + метка lineupAt для ближайших матчей
   markDueReminders(matches); // отметить матчи, по которым пора слать напоминание «скоро матч» (за ~2 ч)
-  // matches.json пишем ПОСЛЕ applyLineups/markDueReminders — иначе метки lineupAt/remind2hAt не сохранятся
+
+  // ЗАМОРОЗКА позиции автора гола ПО МАТЧУ. Фиксируем один раз и навсегда:
+  // — у сыгранных ранее матчей берём ЗАСЧИТАННУЮ позицию (scorer-pos.json) — результаты не трогаем;
+  // — у матчей, завершающихся дальше, берём актуальную ОФИЦИАЛЬНУЮ позицию (normPos).
+  // Хранится в matches.json (m.scorers[].pos); scoring.mjs отдаёт ей приоритет для этого матча.
+  const countedPos = readJSON('data/scorer-pos.json', {});
+  for (const m of matches) {
+    if (!m.finished) continue;
+    for (const s of m.scorers || []) {
+      if (s.playerId == null || s.pos) continue; // уже зафиксировано — не трогаем
+      s.pos = countedPos[String(s.playerId)] || normPos(s.playerId, null) || null;
+    }
+  }
+
+  // matches.json пишем ПОСЛЕ applyLineups/markDueReminders/заморозки — иначе метки не сохранятся
   // финальная нормализация: позиция в составах = зафиксированная официальная (если известна)
   for (const arr of Object.values(squads)) for (const p of arr || []) p.pos = normPos(p.id, p.pos);
   if (lockedPosChanged) writeJSON('data/player-pos.json', lockedPos);
@@ -729,24 +743,8 @@ async function main() {
   for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
   for (const [id, pos] of Object.entries(lockedPos)) posMap[id] = pos; // зафиксированная позиция (API)
   for (const [id, pos] of Object.entries(officialPos)) posMap[id] = pos; // официальная заявка FIFA — выше API
-
-  // ЗАМОРОЗКА позиций авторов голов. Позиция фиксируется один раз — когда игрок впервые
-  // забил в завершённом матче — и больше НЕ меняется. Иначе смена позиции в источнике
-  // (напр. API переклассифицировал «пз» → «нап») пересчитывала бы очки уже сыгранных
-  // матчей задним числом. Заморозка имеет приоритет над текущими данными.
-  const frozenPos = readJSON('data/scorer-pos.json', {});
-  let frozenChanged = false;
-  for (const m of matches) {
-    if (!m.finished) continue;
-    for (const s of m.scorers || []) {
-      if (s.playerId == null) continue;
-      const id = String(s.playerId);
-      if (frozenPos[id]) continue;        // уже зафиксировано — не трогаем
-      if (posMap[id]) { frozenPos[id] = posMap[id]; frozenChanged = true; }
-    }
-  }
-  for (const [id, pos] of Object.entries(frozenPos)) posMap[id] = pos; // замороженное важнее текущего
-  if (frozenChanged) writeJSON('data/scorer-pos.json', frozenPos);
+  // Заморозка позиций сыгранных матчей теперь ПО МАТЧУ (m.scorers[].pos, см. выше) — её
+  // учитывает scoring.mjs для конкретного матча. posMap здесь — актуальная (официальная) база.
 
   const usersForStandings = [...usersCfg.map((u) => ({ id: u.id, name: u.name })), { id: AI_ID, name: AI_NAME }];
   const result = computeStandings(usersForStandings, matches, bets, tr, cfg, posMap);

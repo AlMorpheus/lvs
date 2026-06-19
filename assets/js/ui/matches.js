@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=58';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=58';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=58';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=58';
-import { renderGreeting } from './greeting.js?v=58';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=59';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=59';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=59';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=59';
+import { renderGreeting } from './greeting.js?v=59';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -244,14 +244,19 @@ function posIndex(S) {
   for (const [id, p] of Object.entries(S.players || {})) if (p?.pos && idx[String(id)] == null) idx[String(id)] = p.pos;
   // замороженные позиции бомбардиров имеют приоритет — чтобы разбор очков совпадал с таблицей
   // и не «пересчитывался» при смене позиции в источнике (см. data/scorer-pos.json)
-  for (const [id, pos] of Object.entries(S.scorerPos || {})) idx[String(id)] = pos;
   return (_posIdx = idx);
 }
 export function resetPosIndex() { _posIdx = null; } // сброс кэша после обновления данных
+// позиция игрока для КОНКРЕТНОГО матча: зафиксированная по матчу (m.scorers[].pos, если забил)
+// имеет приоритет — сыгранный матч держит засчитанную позицию, иначе берём официальную.
+function posForMatch(id, m, S) {
+  const s = (m?.scorers || []).find((x) => String(x.playerId) === String(id));
+  return (s && s.pos) || posIndex(S)[String(id)];
+}
 // «Фамилия · поз» (нап/пз/защ/вр) для отображения авторов в ставке.
-function nameWithPos(id, S, idx) {
+function nameWithPos(id, m, S, idx) {
   const nm = idx.get(String(id)) || '—';
-  const ab = POS_ABBR[posIndex(S)[String(id)]];
+  const ab = POS_ABBR[posForMatch(id, m, S)];
   return ab ? `${nm} · ${ab}` : nm;
 }
 // Команда игрока в рамках матча (по составу), чтобы показать флаг.
@@ -275,7 +280,7 @@ function miniFlag(team) {
 }
 // Чип автора: флаг команды + «Фамилия · поз».
 function scorerChip(id, m, S, idx) {
-  return h('span', { class: 'chip' }, [miniFlag(teamOfPlayer(id, m, S)), nameWithPos(id, S, idx)]);
+  return h('span', { class: 'chip' }, [miniFlag(teamOfPlayer(id, m, S)), nameWithPos(id, m, S, idx)]);
 }
 
 function breakdownPanel(bet, m, S, idx) {

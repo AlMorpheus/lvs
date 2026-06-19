@@ -59,6 +59,22 @@ export function realScorerIds(match) {
   return (match.scorers || []).filter((s) => s.type !== 'own').map((s) => s.playerId);
 }
 
+/**
+ * Позиции для подсчёта ИМЕННО этого матча: позиция автора гола, зафиксированная по матчу
+ * (match.scorers[].pos), имеет приоритет над общей картой. Так сыгранный матч держит
+ * засчитанную позицию, а будущие матчи берут актуальную (официальную) из posMap.
+ */
+function matchPosMap(match, posMap) {
+  let mp = posMap;
+  for (const s of match.scorers || []) {
+    if (s && s.pos && s.playerId != null) {
+      if (mp === posMap) mp = { ...(posMap || {}) };
+      mp[String(s.playerId)] = s.pos;
+    }
+  }
+  return mp;
+}
+
 /** Карта playerId(строка) -> позиция, из составов (squads.json). */
 export function buildPosIndex(squads) {
   const map = {};
@@ -155,7 +171,7 @@ export function matchPoints(bet, match, cfg, posMap) {
   const best = bestCandidate(bet, match, cfg);
   const sp = best.sp;
   const actualScorers = realScorerIds(match);
-  const { pts: scp, correct } = scorerPoints(bet.scorers, actualScorers, posMap, cfg);
+  const { pts: scp, correct } = scorerPoints(bet.scorers, actualScorers, matchPosMap(match, posMap), cfg);
 
   const base = sp + scp;
   const multiplier = match.multiplier ?? 1;
@@ -204,7 +220,7 @@ export function explainMatch(bet, match, cfg, posMap) {
   }
 
   const actualScorers = realScorerIds(match);
-  const { perPick, pts: scorerPts } = scorerPoints(bet.scorers, actualScorers, posMap, cfg);
+  const { perPick, pts: scorerPts } = scorerPoints(bet.scorers, actualScorers, matchPosMap(match, posMap), cfg);
   const scorerItems = perPick; // { playerId, correct, pts, pos }
 
   const base = scorePts + scorerPts;
