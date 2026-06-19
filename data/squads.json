@@ -2402,6 +2402,20 @@
       "start": true
     },
     {
+      "id": 35576,
+      "name": "Orbelín Pineda",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 313383,
+      "name": "Obed Vargas",
+      "number": 18,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 35769,
       "name": "Carlos Acevedo",
       "number": 12,
@@ -2433,20 +2447,6 @@
       "id": 750,
       "name": "Álvaro Fidalgo",
       "number": 8,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 35576,
-      "name": "Orbelín Pineda",
-      "number": 17,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 313383,
-      "name": "Obed Vargas",
-      "number": 18,
       "pos": "Midfielder",
       "start": false
     },
@@ -2579,6 +2579,27 @@
       "start": true
     },
     {
+      "id": 24888,
+      "name": "Hwang Hee-chan",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 34710,
+      "name": "Hyeon-gyu Oh",
+      "number": 18,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 304958,
+      "name": "Yang Hyun-Jun",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 34374,
       "name": "Song Bum-keun",
       "number": 12,
@@ -2656,30 +2677,9 @@
       "start": false
     },
     {
-      "id": 24888,
-      "name": "Hwang Hee-chan",
-      "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 304958,
-      "name": "Yang Hyun-Jun",
-      "number": 20,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 34211,
       "name": "Gue-sung Cho",
       "number": 9,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 34710,
-      "name": "Hyeon-gyu Oh",
-      "number": 18,
       "pos": "Attacker",
       "start": false
     }
