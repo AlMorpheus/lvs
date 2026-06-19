@@ -1,16 +1,16 @@
 // Точка входа: загрузка данных, сессия, оболочка, роутинг.
-import { initCrypto } from './crypto.js?v=63';
-import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=63';
-import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=63';
-import { renderLogin } from './ui/login.js?v=63';
-import { renderMatches, renderHistory, resetPosIndex } from './ui/matches.js?v=63';
-import { renderTable } from './ui/table.js?v=63';
-import { renderRules } from './ui/rules.js?v=63';
-import { maybeOnboard } from './ui/onboarding.js?v=63';
-import { setupPullToRefresh } from './ui/pull-refresh.js?v=63';
-import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=63';
-import { pushSupported, pushState, enablePush, disablePush, registerSW, refreshSubscription, isIOS, isStandalone } from './push.js?v=63';
-import { maybeShowInstallPrompt, showInstallPrompt } from './ui/install-prompt.js?v=63';
+import { initCrypto } from './crypto.js?v=64';
+import { loadConfig, getApp, getUsers, getSession, login, logout } from './auth.js?v=64';
+import { h, clear, toast, initials, brandStrip } from './ui/components.js?v=64';
+import { renderLogin } from './ui/login.js?v=64';
+import { renderMatches, renderHistory, resetPosIndex } from './ui/matches.js?v=64';
+import { renderTable } from './ui/table.js?v=64';
+import { renderRules } from './ui/rules.js?v=64';
+import { maybeOnboard } from './ui/onboarding.js?v=64';
+import { setupPullToRefresh } from './ui/pull-refresh.js?v=64';
+import { setupDrawerSwipe } from './ui/drawer-swipe.js?v=64';
+import { pushSupported, pushState, enablePush, disablePush, registerSW, refreshSubscription, isIOS, isStandalone } from './push.js?v=64';
+import { maybeShowInstallPrompt, showInstallPrompt } from './ui/install-prompt.js?v=64';
 
 const root = document.getElementById('root');
 
@@ -72,7 +72,7 @@ export async function loadPublicData() {
 function buildShell() {
   const sidebar = h('aside', { class: 'sidebar', id: 'sidebar' }, [
     h('a', { class: 'brand', href: '#matches', 'aria-label': 'На главную', onclick: (e) => { e.preventDefault(); navigate('matches'); } }, [
-      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=63', alt: 'ЛВС', width: 52, height: 52 }),
+      h('img', { class: 'brand-logo', src: 'assets/img/logo.png?v=64', alt: 'ЛВС', width: 52, height: 52 }),
       h('div', {}, [h('small', { text: 'FIFA World Cup 26' })]),
     ]),
     h('nav', { class: 'nav', id: 'nav' }, NAV.map((n) =>

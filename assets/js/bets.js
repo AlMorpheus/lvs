@@ -1,6 +1,6 @@
 // Высокоуровневые операции со ставками: шифрование + запись/чтение в репо.
-import { encryptBet, decryptOwnBet, decryptRevealed } from './crypto.js?v=63';
-import { putFile, getFile, getDir } from './github.js?v=63';
+import { encryptBet, decryptOwnBet, decryptRevealed } from './crypto.js?v=64';
+import { putFile, getFile, getDir } from './github.js?v=64';
 
 const betPath = (userId, matchId) => `data/bets/${userId}/${matchId}.json`;
 const tournamentPath = (userId) => `data/bets/${userId}/_tournament.json`;
