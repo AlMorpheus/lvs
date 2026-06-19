@@ -687,6 +687,25 @@ async function main() {
   const posMap = buildPosIndex(squads);
   // позиции из справочника — на случай игроков, отсутствующих в текущем составе
   for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
+
+  // ЗАМОРОЗКА позиций авторов голов. Позиция фиксируется один раз — когда игрок впервые
+  // забил в завершённом матче — и больше НЕ меняется. Иначе смена позиции в источнике
+  // (напр. API переклассифицировал «пз» → «нап») пересчитывала бы очки уже сыгранных
+  // матчей задним числом. Заморозка имеет приоритет над текущими данными.
+  const frozenPos = readJSON('data/scorer-pos.json', {});
+  let frozenChanged = false;
+  for (const m of matches) {
+    if (!m.finished) continue;
+    for (const s of m.scorers || []) {
+      if (s.playerId == null) continue;
+      const id = String(s.playerId);
+      if (frozenPos[id]) continue;        // уже зафиксировано — не трогаем
+      if (posMap[id]) { frozenPos[id] = posMap[id]; frozenChanged = true; }
+    }
+  }
+  for (const [id, pos] of Object.entries(frozenPos)) posMap[id] = pos; // замороженное важнее текущего
+  if (frozenChanged) writeJSON('data/scorer-pos.json', frozenPos);
+
   const usersForStandings = [...usersCfg.map((u) => ({ id: u.id, name: u.name })), { id: AI_ID, name: AI_NAME }];
   const result = computeStandings(usersForStandings, matches, bets, tr, cfg, posMap);
 
