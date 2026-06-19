@@ -125,7 +125,7 @@
     "team": "5530"
   },
   "225": {
-    "name": "A. Behich",
+    "name": "Aziz Behich",
     "pos": "Defender",
     "team": "20"
   },
@@ -265,7 +265,7 @@
     "team": "1532"
   },
   "415": {
-    "name": "W. McKennie",
+    "name": "Weston McKennie",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -280,7 +280,7 @@
     "team": "15"
   },
   "427": {
-    "name": "H. Wright",
+    "name": "Haji Wright",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -715,7 +715,7 @@
     "team": "1108"
   },
   "1138": {
-    "name": "T. Weah",
+    "name": "Tim Weah",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -735,7 +735,7 @@
     "team": "2"
   },
   "1150": {
-    "name": "T. Adams",
+    "name": "Tyler Adams",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -1350,27 +1350,27 @@
     "team": "2"
   },
   "2741": {
-    "name": "M. Ryan",
+    "name": "Mathew Ryan",
     "pos": "Goalkeeper",
     "team": "20"
   },
   "2742": {
-    "name": "M. Degenek",
+    "name": "Miloš Degenek",
     "pos": "Defender",
     "team": "20"
   },
   "2749": {
-    "name": "J. Irvine",
+    "name": "Jackson Irvine",
     "pos": "Midfielder",
     "team": "20"
   },
   "2751": {
-    "name": "M. Leckie",
+    "name": "Mathew Leckie",
     "pos": "Attacker",
     "team": "20"
   },
   "2755": {
-    "name": "A. Mabil",
+    "name": "Awer Mabil",
     "pos": "Attacker",
     "team": "20"
   },
@@ -1720,12 +1720,12 @@
     "team": "26"
   },
   "6808": {
-    "name": "J. Italiano",
+    "name": "Jacob Italiano",
     "pos": "Defender",
     "team": "20"
   },
   "6832": {
-    "name": "C. Devlin",
+    "name": "Cameron Devlin",
     "pos": "Midfielder",
     "team": "20"
   },
@@ -1735,7 +1735,7 @@
     "team": "4673"
   },
   "6870": {
-    "name": "P. Izzo",
+    "name": "Paul Izzo",
     "pos": "Goalkeeper",
     "team": "20"
   },
@@ -1770,7 +1770,7 @@
     "team": "4673"
   },
   "7050": {
-    "name": "A. O Neill",
+    "name": "Aiden O'Neill",
     "pos": "Midfielder",
     "team": "20"
   },
@@ -2210,7 +2210,7 @@
     "team": "5530"
   },
   "19023": {
-    "name": "T. Ream",
+    "name": "Tim Ream",
     "pos": "Defender",
     "team": "2384"
   },
@@ -2315,7 +2315,7 @@
     "team": "10"
   },
   "19549": {
-    "name": "A. Robinson",
+    "name": "Antonee Robinson",
     "pos": "Defender",
     "team": "2384"
   },
@@ -2355,12 +2355,12 @@
     "team": "1108"
   },
   "20079": {
-    "name": "H. Souttar",
+    "name": "Harry Souttar",
     "pos": "Defender",
     "team": "20"
   },
   "20457": {
-    "name": "C. Burgess",
+    "name": "Cameron Burgess",
     "pos": "Defender",
     "team": "20"
   },
@@ -2910,7 +2910,7 @@
     "team": "12"
   },
   "33847": {
-    "name": "J. Geria",
+    "name": "Jason Geria",
     "pos": "Defender",
     "team": "20"
   },
@@ -2995,7 +2995,7 @@
     "team": "2380"
   },
   "35885": {
-    "name": "A. Zendejas",
+    "name": "Alex Zendejas",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -3135,7 +3135,7 @@
     "team": "12"
   },
   "38123": {
-    "name": "A. Hrustic",
+    "name": "Ajdin Hrustić",
     "pos": "Attacker",
     "team": "20"
   },
@@ -3150,7 +3150,7 @@
     "team": "5530"
   },
   "38735": {
-    "name": "S. Dest",
+    "name": "Sergiño Dest",
     "pos": "Defender",
     "team": "2384"
   },
@@ -3825,22 +3825,22 @@
     "team": "1568"
   },
   "50728": {
-    "name": "M. Freese",
+    "name": "Matthew Freese",
     "pos": "Goalkeeper",
     "team": "2384"
   },
   "50735": {
-    "name": "M. McKenzie",
+    "name": "Mark McKenzie",
     "pos": "Defender",
     "team": "2384"
   },
   "50737": {
-    "name": "A. Trusty",
+    "name": "Auston Trusty",
     "pos": "Defender",
     "team": "2384"
   },
   "50739": {
-    "name": "B. Aaronson",
+    "name": "Brenden Aaronson",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -3870,12 +3870,12 @@
     "team": "5529"
   },
   "50852": {
-    "name": "J. Scally",
+    "name": "Joe Scally",
     "pos": "Defender",
     "team": "2384"
   },
   "50879": {
-    "name": "M. Robinson",
+    "name": "Miles Robinson",
     "pos": "Defender",
     "team": "2384"
   },
@@ -3890,7 +3890,7 @@
     "team": "2386"
   },
   "50999": {
-    "name": "M. Turner",
+    "name": "Matt Turner",
     "pos": "Goalkeeper",
     "team": "2384"
   },
@@ -3900,7 +3900,7 @@
     "team": "5529"
   },
   "51114": {
-    "name": "C. Roldan",
+    "name": "Cristian Roldán",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -4370,7 +4370,7 @@
     "team": "1568"
   },
   "73868": {
-    "name": "R. Pepi",
+    "name": "Ricardo Pepi",
     "pos": "Attacker",
     "team": "2384"
   },
@@ -4680,7 +4680,7 @@
     "team": "767"
   },
   "126949": {
-    "name": "C. Richards",
+    "name": "Chris Richards",
     "pos": "Defender",
     "team": "2384"
   },
@@ -4965,7 +4965,7 @@
     "team": "5"
   },
   "153622": {
-    "name": "K. Trewin",
+    "name": "Kai Trewin",
     "pos": "Defender",
     "team": "20"
   },
@@ -5090,7 +5090,7 @@
     "team": "1"
   },
   "162037": {
-    "name": "M. Tillman",
+    "name": "Malik Tillman",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -5440,7 +5440,7 @@
     "team": "2382"
   },
   "198352": {
-    "name": "M. Touré",
+    "name": "Mohamed Touré",
     "pos": "Attacker",
     "team": "20"
   },
@@ -5490,7 +5490,7 @@
     "team": "1531"
   },
   "201713": {
-    "name": "S. Berhalter",
+    "name": "Sebastian Berhalter",
     "pos": "Midfielder",
     "team": "2384"
   },
@@ -5710,7 +5710,7 @@
     "team": "16"
   },
   "266606": {
-    "name": "C. Brady",
+    "name": "Chris Brady",
     "pos": "Goalkeeper",
     "team": "2384"
   },
@@ -6015,7 +6015,7 @@
     "team": "1567"
   },
   "296645": {
-    "name": "T. Yengi",
+    "name": "Tete Yengi",
     "pos": "Attacker",
     "team": "20"
   },
@@ -6165,7 +6165,7 @@
     "team": "1568"
   },
   "312459": {
-    "name": "N. Velupillay",
+    "name": "Nishan Velupillay",
     "pos": "Attacker",
     "team": "20"
   },
@@ -6395,7 +6395,7 @@
     "team": "1504"
   },
   "337587": {
-    "name": "J. Bos",
+    "name": "Jordan Bos",
     "pos": "Defender",
     "team": "20"
   },
@@ -6480,7 +6480,7 @@
     "team": "768"
   },
   "342035": {
-    "name": "C. Volpato",
+    "name": "Cristian Volpato",
     "pos": "Attacker",
     "team": "20"
   },
@@ -6585,7 +6585,7 @@
     "team": "768"
   },
   "348568": {
-    "name": "A. Circati",
+    "name": "Alessandro Circati",
     "pos": "Defender",
     "team": "20"
   },
@@ -6645,7 +6645,7 @@
     "team": "2383"
   },
   "353883": {
-    "name": "P. Beach",
+    "name": "Patrick Beach",
     "pos": "Goalkeeper",
     "team": "20"
   },
@@ -6665,7 +6665,7 @@
     "team": "1531"
   },
   "355994": {
-    "name": "A. Freeman",
+    "name": "Alexander Freeman",
     "pos": "Defender",
     "team": "2384"
   },
@@ -6720,7 +6720,7 @@
     "team": "5529"
   },
   "362400": {
-    "name": "M. Arfsten",
+    "name": "Maximilian Arfsten",
     "pos": "Defender",
     "team": "2384"
   },
@@ -7055,7 +7055,7 @@
     "team": "2380"
   },
   "426480": {
-    "name": "L. Herrington",
+    "name": "Lucas Herrington",
     "pos": "Defender",
     "team": "20"
   },
