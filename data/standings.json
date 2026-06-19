@@ -313,19 +313,19 @@
     {
       "id": "sasha",
       "name": "Мастер",
-      "matchPts": 315,
+      "matchPts": 311,
       "futuresPts": 0,
-      "total": 315,
+      "total": 311,
       "exactCount": 2,
       "perMatch": {
         "1489369": {
           "scorePts": 25,
-          "scorerPts": 6,
+          "scorerPts": 4,
           "correctScorers": 2,
-          "base": 31,
+          "base": 29,
           "multiplier": 2,
           "special": 0,
-          "total": 62,
+          "total": 58,
           "isExact": true,
           "usedReg": false
         },
@@ -2085,5 +2085,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-19T00:04:07.265Z"
+  "updatedAt": "2026-06-19T00:06:10.194Z"
 }

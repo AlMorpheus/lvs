@@ -100,7 +100,7 @@
     "team": "10"
   },
   "186": {
-    "name": "Son Heung-Min",
+    "name": "Son Heung-min",
     "pos": "Attacker",
     "team": "17"
   },
@@ -630,7 +630,7 @@
     "team": "27"
   },
   "927": {
-    "name": "Lee Kang-In",
+    "name": "Kang-in Lee",
     "pos": "Attacker",
     "team": "17"
   },
@@ -985,7 +985,7 @@
     "team": "1090"
   },
   "2098": {
-    "name": "G. Ochoa",
+    "name": "Guillermo Ochoa",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -1410,8 +1410,8 @@
     "team": "5"
   },
   "2869": {
-    "name": "E. Álvarez",
-    "pos": "Midfielder",
+    "name": "Edson Álvarez",
+    "pos": "Defender",
     "team": "16"
   },
   "2873": {
@@ -1420,17 +1420,17 @@
     "team": "16"
   },
   "2878": {
-    "name": "J. Sánchez",
+    "name": "Jorge Sánchez",
     "pos": "Defender",
     "team": "16"
   },
   "2879": {
-    "name": "R. Alvarado",
-    "pos": "Midfielder",
+    "name": "Roberto Alvarado",
+    "pos": "Attacker",
     "team": "16"
   },
   "2881": {
-    "name": "J. Gallardo",
+    "name": "Jesús Gallardo",
     "pos": "Defender",
     "team": "16"
   },
@@ -1440,22 +1440,22 @@
     "team": "16"
   },
   "2889": {
-    "name": "A. Vega",
+    "name": "Alexis Vega",
     "pos": "Attacker",
     "team": "16"
   },
   "2890": {
-    "name": "Jo Hyeon-Woo",
+    "name": "Jo Hyeonwoo",
     "pos": "Goalkeeper",
     "team": "17"
   },
   "2892": {
-    "name": "Kim Seung-Gyu",
+    "name": "Kim Seung-gyu",
     "pos": "Goalkeeper",
     "team": "17"
   },
   "2897": {
-    "name": "Kim Min-Jae",
+    "name": "Kim Min-jae",
     "pos": "Defender",
     "team": "17"
   },
@@ -1465,18 +1465,18 @@
     "team": "17"
   },
   "2906": {
-    "name": "Lee Jae-Sung",
+    "name": "Jae-sung Lee",
     "pos": "Attacker",
     "team": "17"
   },
   "2909": {
-    "name": "Paik Seung-Ho",
+    "name": "Seung Ho Paik",
     "pos": "Midfielder",
     "team": "17"
   },
   "2912": {
-    "name": "Kim Moon-Hwan",
-    "pos": "Defender",
+    "name": "Kim Moon-hwan",
+    "pos": "Midfielder",
     "team": "17"
   },
   "2920": {
@@ -2560,7 +2560,7 @@
     "team": "6"
   },
   "24888": {
-    "name": "Hwang Hee-Chan",
+    "name": "Hwang Hee-chan",
     "pos": "Attacker",
     "team": "17"
   },
@@ -2925,28 +2925,28 @@
     "team": "1568"
   },
   "34168": {
-    "name": "Kim Jin-Gyu",
+    "name": "Jin-gyu Kim",
     "pos": "Midfielder",
     "team": "17"
   },
   "34211": {
-    "name": "Cho Gue-Sung",
+    "name": "Gue-sung Cho",
     "pos": "Attacker",
     "team": "17"
   },
   "34374": {
-    "name": "Song Bum-Keun",
+    "name": "Song Bum-keun",
     "pos": "Goalkeeper",
     "team": "17"
   },
   "34418": {
-    "name": "Kim Tae-Hyeon",
+    "name": "Kim Tae-hyeon",
     "pos": "Defender",
     "team": "17"
   },
   "34431": {
-    "name": "Lee Dong-Gyeong",
-    "pos": "Attacker",
+    "name": "Dong-gyeong Lee",
+    "pos": "Midfielder",
     "team": "17"
   },
   "34710": {
@@ -2956,7 +2956,7 @@
   },
   "35532": {
     "name": "J. Quinones",
-    "pos": "Midfielder",
+    "pos": "Attacker",
     "team": "16"
   },
   "35533": {
@@ -2965,7 +2965,7 @@
     "team": "2382"
   },
   "35544": {
-    "name": "J. Vásquez",
+    "name": "Johan Vásquez",
     "pos": "Defender",
     "team": "16"
   },
@@ -2975,17 +2975,17 @@
     "team": "5529"
   },
   "35576": {
-    "name": "O. Pineda",
+    "name": "Orbelín Pineda",
     "pos": "Midfielder",
     "team": "16"
   },
   "35690": {
-    "name": "L. Chávez",
+    "name": "Luis Chávez",
     "pos": "Midfielder",
     "team": "16"
   },
   "35769": {
-    "name": "C. Acevedo",
+    "name": "Carlos Acevedo",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -3000,17 +3000,17 @@
     "team": "2384"
   },
   "35970": {
-    "name": "L. Romo",
+    "name": "Luis Romo",
     "pos": "Midfielder",
     "team": "16"
   },
   "36088": {
-    "name": "G. Martínez",
+    "name": "Guillermo Martínez",
     "pos": "Attacker",
     "team": "16"
   },
   "36111": {
-    "name": "C. Huerta",
+    "name": "César Huerta",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -4495,7 +4495,7 @@
     "team": "4673"
   },
   "94562": {
-    "name": "S. Giménez",
+    "name": "Santiago Giménez",
     "pos": "Attacker",
     "team": "16"
   },
@@ -4520,7 +4520,7 @@
     "team": "1531"
   },
   "99211": {
-    "name": "Park Jin-Seop",
+    "name": "Jin-seob Park",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -4690,7 +4690,7 @@
     "team": "768"
   },
   "127227": {
-    "name": "I. Reyes",
+    "name": "Israel Reyes",
     "pos": "Defender",
     "team": "16"
   },
@@ -5425,7 +5425,7 @@
     "team": "1567"
   },
   "197985": {
-    "name": "Seol Young-Woo",
+    "name": "Young-woo Seol",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -5535,7 +5535,7 @@
     "team": "4673"
   },
   "212233": {
-    "name": "B. Gutiérrez",
+    "name": "Brian Gutiérrez",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -5590,7 +5590,7 @@
     "team": "1567"
   },
   "237050": {
-    "name": "Eom Ji-Sung",
+    "name": "Ji-sung Eom",
     "pos": "Attacker",
     "team": "17"
   },
@@ -5610,13 +5610,13 @@
     "team": "2386"
   },
   "237218": {
-    "name": "Lee Han-Beom",
+    "name": "Han-Beom Lee",
     "pos": "Defender",
     "team": "17"
   },
   "237220": {
-    "name": "Lee Tae-Seok",
-    "pos": "Midfielder",
+    "name": "Lee Tae-seok",
+    "pos": "Defender",
     "team": "17"
   },
   "260865": {
@@ -5705,7 +5705,7 @@
     "team": "5"
   },
   "266345": {
-    "name": "É. Lira",
+    "name": "Erik Lira",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -5755,7 +5755,7 @@
     "team": "32"
   },
   "270774": {
-    "name": "J. Rangel",
+    "name": "Raúl Rangel",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -5855,7 +5855,7 @@
     "team": "25"
   },
   "280358": {
-    "name": "J. Castrop",
+    "name": "Jens Castrop",
     "pos": "Midfielder",
     "team": "17"
   },
@@ -5945,7 +5945,7 @@
     "team": "1533"
   },
   "291713": {
-    "name": "A. González",
+    "name": "Armando González",
     "pos": "Attacker",
     "team": "16"
   },
@@ -6075,7 +6075,7 @@
     "team": "12"
   },
   "304951": {
-    "name": "Lee Gi-Hyuk",
+    "name": "Gi-Hyuk Lee",
     "pos": "Defender",
     "team": "17"
   },
@@ -6180,7 +6180,7 @@
     "team": "5529"
   },
   "313383": {
-    "name": "O. Vargas",
+    "name": "Obed Vargas",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -6680,8 +6680,8 @@
     "team": "17"
   },
   "357286": {
-    "name": "Bae Jun-Ho",
-    "pos": "Attacker",
+    "name": "Jun-Ho Bae",
+    "pos": "Midfielder",
     "team": "17"
   },
   "358427": {
@@ -6860,7 +6860,7 @@
     "team": "777"
   },
   "390002": {
-    "name": "M. Chávez",
+    "name": "Mateo Chávez",
     "pos": "Defender",
     "team": "16"
   },
@@ -7190,7 +7190,7 @@
     "team": "1504"
   },
   "482605": {
-    "name": "G. Mora",
+    "name": "Gilberto Mora",
     "pos": "Midfielder",
     "team": "16"
   },
