@@ -3976,16 +3976,16 @@
       "start": true
     },
     {
-      "id": 277003,
-      "name": "Neil El Aynaoui",
-      "number": 24,
+      "id": 438688,
+      "name": "Ayyoub Bouaddi",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 438688,
-      "name": "Ayyoub Bouaddi",
-      "number": 6,
+      "id": 277003,
+      "name": "Neil El Aynaoui",
+      "number": 24,
       "pos": "Midfielder",
       "start": true
     },
@@ -5773,6 +5773,13 @@
       "start": true
     },
     {
+      "id": 138417,
+      "name": "Nathan Patterson",
+      "number": 22,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 19066,
       "name": "Grant Hanley",
       "number": 5,
@@ -5787,23 +5794,16 @@
       "start": true
     },
     {
-      "id": 1117,
-      "name": "Kieran Tierney",
-      "number": 6,
+      "id": 289,
+      "name": "Andy Robertson",
+      "number": 3,
       "pos": "Defender",
       "start": true
     },
     {
-      "id": 138417,
-      "name": "Nathan Patterson",
-      "number": 22,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 903,
-      "name": "Scott McTominay",
-      "number": 4,
+      "id": 1125,
+      "name": "Ryan Christie",
+      "number": 11,
       "pos": "Midfielder",
       "start": true
     },
@@ -5815,13 +5815,6 @@
       "start": true
     },
     {
-      "id": 289,
-      "name": "Andy Robertson",
-      "number": 3,
-      "pos": "Defender",
-      "start": true
-    },
-    {
       "id": 19191,
       "name": "John McGinn",
       "number": 7,
@@ -5829,10 +5822,17 @@
       "start": true
     },
     {
-      "id": 1125,
-      "name": "Ryan Christie",
-      "number": 11,
+      "id": 903,
+      "name": "Scott McTominay",
+      "number": 4,
       "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 1117,
+      "name": "Kieran Tierney",
+      "number": 6,
+      "pos": "Defender",
       "start": true
     },
     {
