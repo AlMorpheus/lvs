@@ -34,14 +34,16 @@
         "name": "J. Quinones",
         "teamId": 16,
         "minute": 9,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 2887,
         "name": "R. Jimenez",
         "teamId": 16,
         "minute": 67,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -83,21 +85,24 @@
         "name": "L. Krejci",
         "teamId": 770,
         "minute": 59,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 2901,
         "name": "Hwang In-Beom",
         "teamId": 17,
         "minute": 67,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 34710,
         "name": "Oh Hyeon-Gyu",
         "teamId": 17,
         "minute": 80,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -138,14 +143,16 @@
         "name": "J. Lukic",
         "teamId": 1113,
         "minute": 21,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 2001,
         "name": "C. Larin",
         "teamId": 5529,
         "minute": 78,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -186,35 +193,40 @@
         "name": "Damian Bobadilla",
         "teamId": 2384,
         "minute": 7,
-        "type": "own"
+        "type": "own",
+        "pos": "Midfielder"
       },
       {
         "playerId": 138835,
         "name": "Folarin Balogun",
         "teamId": 2384,
         "minute": 31,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 138835,
         "name": "Folarin Balogun",
         "teamId": 2384,
         "minute": 50,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 106485,
         "name": "Maurício Magalhães Prado",
         "teamId": 2380,
         "minute": 73,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 161921,
         "name": "Giovanni Reyna",
         "teamId": 2384,
         "minute": 98,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -255,14 +267,16 @@
         "name": "B. Embolo",
         "teamId": 15,
         "minute": 17,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 2532,
         "name": "B. Khoukhi",
         "teamId": 1569,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       }
     ],
     "multiplierOverride": null,
@@ -303,14 +317,16 @@
         "name": "Ismael Saibari",
         "teamId": 31,
         "minute": 21,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 762,
         "name": "Vinícius",
         "teamId": 6,
         "minute": 32,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -351,7 +367,8 @@
         "name": "J. McGinn",
         "teamId": 1108,
         "minute": 28,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -392,14 +409,16 @@
         "name": "N. Irankunda",
         "teamId": 20,
         "minute": 27,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 6904,
         "name": "C. Metcalfe",
         "teamId": 20,
         "minute": 75,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -440,56 +459,64 @@
         "name": "F. Nmecha",
         "teamId": 25,
         "minute": 6,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 309763,
         "name": "L. Comenencia",
         "teamId": 5530,
         "minute": 21,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 26243,
         "name": "N. Schlotterbeck",
         "teamId": 25,
         "minute": 38,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 978,
         "name": "K. Havertz",
         "teamId": 25,
         "minute": 45,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 181812,
         "name": "J. Musiala",
         "teamId": 25,
         "minute": 47,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 280074,
         "name": "N. Brown",
         "teamId": 25,
         "minute": 68,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 26475,
         "name": "D. Undav",
         "teamId": 25,
         "minute": 78,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 978,
         "name": "K. Havertz",
         "teamId": 25,
         "minute": 88,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -530,28 +557,32 @@
         "name": "V. van Dijk",
         "teamId": 1118,
         "minute": 51,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 33321,
         "name": "K. Nakamura",
         "teamId": 12,
         "minute": 57,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 37724,
         "name": "C. Summerville",
         "teamId": 1118,
         "minute": 64,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 2601,
         "name": "D. Kamada",
         "teamId": 12,
         "minute": 88,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -592,7 +623,8 @@
         "name": "A. Diallo",
         "teamId": 1501,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -633,42 +665,48 @@
         "name": "Y. Ayari",
         "teamId": 5,
         "minute": 7,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 2864,
         "name": "A. Isak",
         "teamId": 5,
         "minute": 30,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 163068,
         "name": "O. Rekik",
         "teamId": 28,
         "minute": 43,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 18979,
         "name": "V. Gyokeres",
         "teamId": 5,
         "minute": 59,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 30484,
         "name": "M. Svanberg",
         "teamId": 5,
         "minute": 84,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 265820,
         "name": "Y. Ayari",
         "teamId": 5,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -742,14 +780,16 @@
         "name": "E. Ashour",
         "teamId": 32,
         "minute": 19,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 2654,
         "name": "M. Hany",
         "teamId": 1,
         "minute": 66,
-        "type": "own"
+        "type": "own",
+        "pos": "Defender"
       }
     ],
     "multiplierOverride": null,
@@ -790,14 +830,16 @@
         "name": "A. Al Amri",
         "teamId": 23,
         "minute": 41,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 51776,
         "name": "M. Araujo",
         "teamId": 7,
         "minute": 80,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -838,28 +880,32 @@
         "name": "E. Just",
         "teamId": 4673,
         "minute": 7,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 2691,
         "name": "R. Rezaeian",
         "teamId": 22,
         "minute": 32,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 94333,
         "name": "E. Just",
         "teamId": 4673,
         "minute": 54,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 134217,
         "name": "M. Mohebi",
         "teamId": 22,
         "minute": 64,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -900,28 +946,32 @@
         "name": "K. Mbappe",
         "teamId": 2,
         "minute": 66,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 161904,
         "name": "B. Barcola",
         "teamId": 2,
         "minute": 82,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 446249,
         "name": "I. Mbaye",
         "teamId": 13,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 278,
         "name": "K. Mbappe",
         "teamId": 2,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -962,35 +1012,40 @@
         "name": "E. Haaland",
         "teamId": 1090,
         "minute": 29,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 49451,
         "name": "A. Hussein",
         "teamId": 1567,
         "minute": 39,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 1100,
         "name": "E. Haaland",
         "teamId": 1090,
         "minute": 43,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 18967,
         "name": "L. Ostigard",
         "teamId": 1090,
         "minute": 76,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 49451,
         "name": "A. Hussein",
         "teamId": 1090,
         "minute": 90,
-        "type": "own"
+        "type": "own",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -1031,21 +1086,24 @@
         "name": "L. Messi",
         "teamId": 26,
         "minute": 17,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 154,
         "name": "L. Messi",
         "teamId": 26,
         "minute": 60,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 154,
         "name": "L. Messi",
         "teamId": 26,
         "minute": 76,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -1086,28 +1144,32 @@
         "name": "R. Schmid",
         "teamId": 775,
         "minute": 21,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 164026,
         "name": "A. Olwan",
         "teamId": 1548,
         "minute": 50,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 53900,
         "name": "Y. Al Arab",
         "teamId": 775,
         "minute": 76,
-        "type": "own"
+        "type": "own",
+        "pos": "Defender"
       },
       {
         "playerId": 18830,
         "name": "M. Arnautovic",
         "teamId": 775,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -1148,14 +1210,16 @@
         "name": "J. Neves",
         "teamId": 27,
         "minute": 6,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 20649,
         "name": "Y. Wissa",
         "teamId": 1508,
         "minute": 45,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -1196,42 +1260,48 @@
         "name": "H. Kane",
         "teamId": 10,
         "minute": 12,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 295026,
         "name": "M. Baturina",
         "teamId": 3,
         "minute": 36,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 184,
         "name": "H. Kane",
         "teamId": 10,
         "minute": 42,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 66055,
         "name": "P. Musa",
         "teamId": 3,
         "minute": 45,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 129718,
         "name": "J. Bellingham",
         "teamId": 10,
         "minute": 47,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 909,
         "name": "M. Rashford",
         "teamId": 10,
         "minute": 85,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -1272,7 +1342,8 @@
         "name": "C. Yirenkyi",
         "teamId": 1504,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -1313,28 +1384,32 @@
         "name": "D. Munoz",
         "teamId": 8,
         "minute": 40,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Defender"
       },
       {
         "playerId": 263676,
         "name": "A. Fayzullaev",
         "teamId": 1568,
         "minute": 60,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 2489,
         "name": "L. Diaz",
         "teamId": 8,
         "minute": 65,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 13376,
         "name": "J. Campaz",
         "teamId": 8,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -1375,14 +1450,16 @@
         "name": "M. Sadilek",
         "teamId": 770,
         "minute": 6,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 3287,
         "name": "T. Mokoena",
         "teamId": 1531,
         "minute": 83,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -1423,35 +1500,40 @@
         "name": "J. Manzambi",
         "teamId": 15,
         "minute": 74,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 48471,
         "name": "R. Vargas",
         "teamId": 15,
         "minute": 84,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 406244,
         "name": "J. Manzambi",
         "teamId": 15,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 340173,
         "name": "E. Mahmic",
         "teamId": 1113,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 1464,
         "name": "G. Xhaka",
         "teamId": 15,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -1492,42 +1574,48 @@
         "name": "C. Larin",
         "teamId": 5529,
         "minute": 16,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 8489,
         "name": "J. David",
         "teamId": 5529,
         "minute": 29,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 8489,
         "name": "J. David",
         "teamId": 5529,
         "minute": 45,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       },
       {
         "playerId": 294824,
         "name": "N. Saliba",
         "teamId": 5529,
         "minute": 64,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       },
       {
         "playerId": 283174,
         "name": "M. Al Mannai",
         "teamId": 5529,
         "minute": 75,
-        "type": "own"
+        "type": "own",
+        "pos": "Midfielder"
       },
       {
         "playerId": 8489,
         "name": "J. David",
         "teamId": 5529,
         "minute": 90,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
@@ -1568,7 +1656,8 @@
         "name": "L. Romo",
         "teamId": 16,
         "minute": 50,
-        "type": "normal"
+        "type": "normal",
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
