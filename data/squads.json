@@ -2737,6 +2737,34 @@
       "start": true
     },
     {
+      "id": 33847,
+      "name": "Jason Geria",
+      "number": 6,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 6904,
+      "name": "Connor Metcalfe",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 338014,
+      "name": "Nestory Irankunda",
+      "number": 17,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 342035,
+      "name": "Cristian Volpato",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2741,
       "name": "Mathew Ryan",
       "number": 1,
@@ -2754,13 +2782,6 @@
       "id": 2742,
       "name": "Miloš Degenek",
       "number": 2,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 33847,
-      "name": "Jason Geria",
-      "number": 6,
       "pos": "Defender",
       "start": false
     },
@@ -2783,13 +2804,6 @@
       "name": "Kai Trewin",
       "number": 15,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 6904,
-      "name": "Connor Metcalfe",
-      "number": 8,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -2817,20 +2831,6 @@
       "id": 2755,
       "name": "Awer Mabil",
       "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 342035,
-      "name": "Cristian Volpato",
-      "number": 20,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 338014,
-      "name": "Nestory Irankunda",
-      "number": 17,
       "pos": "Attacker",
       "start": false
     },
@@ -8719,9 +8719,9 @@
       "start": true
     },
     {
-      "id": 19549,
-      "name": "Antonee Robinson",
-      "number": 5,
+      "id": 38735,
+      "name": "Sergiño Dest",
+      "number": 2,
       "pos": "Defender",
       "start": true
     },
@@ -8747,9 +8747,9 @@
       "start": true
     },
     {
-      "id": 38735,
-      "name": "Sergiño Dest",
-      "number": 2,
+      "id": 19549,
+      "name": "Antonee Robinson",
+      "number": 5,
       "pos": "Defender",
       "start": true
     },
