@@ -554,6 +554,34 @@
     "lockedAt": "2026-06-19T01:00:51.374Z",
     "syncedAt": "2026-06-19T01:00:51.374Z"
   },
+  "1489390": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Ismael Saibari",
+        "team": "away",
+        "pos": "нап",
+        "id": "161897"
+      },
+      {
+        "name": "Che Adams",
+        "team": "home",
+        "pos": "нап",
+        "id": "19524"
+      },
+      {
+        "name": "Brahim Díaz",
+        "team": "away",
+        "pos": "пз",
+        "id": "744"
+      }
+    ],
+    "lockedAt": "2026-06-19T22:00:57.952Z",
+    "syncedAt": "2026-06-19T22:00:57.952Z"
+  },
   "1489391": {
     "score": {
       "home": 2,
