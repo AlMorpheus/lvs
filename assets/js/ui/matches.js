@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=60';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=60';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=60';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=60';
-import { renderGreeting } from './greeting.js?v=60';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=61';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=61';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=61';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=61';
+import { renderGreeting } from './greeting.js?v=61';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -579,6 +579,9 @@ function collapsibleCard(m, S, ctx, idx) {
   const card = h('div', { class: 'match collapsible', id: 'm-' + m.id, dataset: { mid: m.id } });
   const body = h('div', { class: 'match-body' });
   let loaded = false;
+  // мои очки за этот матч — из таблицы (perMatch текущего пользователя), без загрузки ставок
+  const mine = (S.standings.table || []).find((r) => r.id === S.session?.userId)?.perMatch?.[m.id];
+  const myPts = mine ? h('span', { class: 'pts' + (mine.total > 0 ? '' : ' zero'), text: '+' + mine.total, title: 'Твои очки за матч' }) : '';
   const head = h('div', { class: 'match-head', onclick: () => {
     const open = card.classList.toggle('open');
     if (open && !loaded) {
@@ -589,7 +592,7 @@ function collapsibleCard(m, S, ctx, idx) {
   } }, [
     h('div', { class: 'match-top' }, [
       h('span', { text: fmtDateTime(m.date) }),
-      h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', statusBadge(m, S), ' ', h('span', { class: 'chev', text: '⌄' })]),
+      h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', myPts, ' ', h('span', { class: 'chev', text: '⌄' })]),
     ]),
     teamRow(m, idx, S),
   ]);
