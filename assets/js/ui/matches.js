@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=57';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=57';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=57';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=57';
-import { renderGreeting } from './greeting.js?v=57';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=58';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=58';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=58';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=58';
+import { renderGreeting } from './greeting.js?v=58';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -242,8 +242,12 @@ function posIndex(S) {
   if (_posIdx) return _posIdx;
   const idx = buildPosIndex(S.squads);
   for (const [id, p] of Object.entries(S.players || {})) if (p?.pos && idx[String(id)] == null) idx[String(id)] = p.pos;
+  // замороженные позиции бомбардиров имеют приоритет — чтобы разбор очков совпадал с таблицей
+  // и не «пересчитывался» при смене позиции в источнике (см. data/scorer-pos.json)
+  for (const [id, pos] of Object.entries(S.scorerPos || {})) idx[String(id)] = pos;
   return (_posIdx = idx);
 }
+export function resetPosIndex() { _posIdx = null; } // сброс кэша после обновления данных
 // «Фамилия · поз» (нап/пз/защ/вр) для отображения авторов в ставке.
 function nameWithPos(id, S, idx) {
   const nm = idx.get(String(id)) || '—';
