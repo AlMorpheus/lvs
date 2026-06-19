@@ -554,6 +554,34 @@
     "lockedAt": "2026-06-19T01:00:51.374Z",
     "syncedAt": "2026-06-19T01:00:51.374Z"
   },
+  "1489391": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Folarin Balogun",
+        "team": "home",
+        "pos": "нап",
+        "id": "138835"
+      },
+      {
+        "name": "Ricardo Pepi",
+        "team": "home",
+        "pos": "пз",
+        "id": "73868"
+      },
+      {
+        "name": "Mohamed Touré",
+        "team": "away",
+        "pos": "нап",
+        "id": "198352"
+      }
+    ],
+    "lockedAt": "2026-06-19T19:01:42.591Z",
+    "syncedAt": "2026-06-19T19:01:42.591Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
