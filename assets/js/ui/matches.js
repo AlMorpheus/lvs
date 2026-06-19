@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=61';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=61';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=61';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=61';
-import { renderGreeting } from './greeting.js?v=61';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=62';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=62';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=62';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=62';
+import { renderGreeting } from './greeting.js?v=62';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -347,7 +347,6 @@ async function revealBlock(m, S, ctx, idx) {
   }
   const standRow = (uid) => (S.standings.table || []).find((r) => r.id === uid);
   const nameOf = (uid) => (uid === AI_ID ? 'Шеф' : S.users.find((u) => u.id === uid)?.name || uid);
-  if (m.finished) wrap.append(h('div', { class: 'potential', text: 'Жми «Как набраны очки» под ставкой — покажу разбор.' }));
 
   // порядок: своя ставка → Шеф → остальные
   const rank = (uid) => (uid === ctx.S.session.userId ? 0 : uid === AI_ID ? 1 : 2);
