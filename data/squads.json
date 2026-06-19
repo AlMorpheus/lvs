@@ -5843,6 +5843,13 @@
       "start": true
     },
     {
+      "id": 343576,
+      "name": "Ben Gannon-Doak",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 44937,
       "name": "Liam Kelly",
       "number": 12,
@@ -5902,13 +5909,6 @@
       "id": 19077,
       "name": "Kenny McLean",
       "number": 23,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 343576,
-      "name": "Ben Gannon-Doak",
-      "number": 17,
       "pos": "Midfielder",
       "start": false
     },
