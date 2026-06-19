@@ -1460,7 +1460,7 @@
   {
     "id": "1489387",
     "date": "2026-06-18T22:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1478,12 +1478,58 @@
       "home": 6,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 6,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-19T00:04:05.962Z",
     "lineupAt": "2026-06-18T20:54:48.758Z",
     "remind2hAt": "2026-06-18T20:01:55.683Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 2001,
+        "name": "C. Larin",
+        "teamId": 5529,
+        "minute": 16,
+        "type": "normal"
+      },
+      {
+        "playerId": 8489,
+        "name": "J. David",
+        "teamId": 5529,
+        "minute": 29,
+        "type": "normal"
+      },
+      {
+        "playerId": 8489,
+        "name": "J. David",
+        "teamId": 5529,
+        "minute": 45,
+        "type": "normal"
+      },
+      {
+        "playerId": 294824,
+        "name": "N. Saliba",
+        "teamId": 5529,
+        "minute": 64,
+        "type": "normal"
+      },
+      {
+        "playerId": 283174,
+        "name": "M. Al Mannai",
+        "teamId": 5529,
+        "minute": 75,
+        "type": "own"
+      },
+      {
+        "playerId": 8489,
+        "name": "J. David",
+        "teamId": 5529,
+        "minute": 90,
+        "type": "normal"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
