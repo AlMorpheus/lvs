@@ -130,7 +130,7 @@
     "team": "20"
   },
   "226": {
-    "name": "Denzel Dumfries",
+    "name": "D. Dumfries",
     "pos": "Defender",
     "team": "1118"
   },
@@ -150,12 +150,12 @@
     "team": "4673"
   },
   "247": {
-    "name": "Cody Gakpo",
+    "name": "C. Gakpo",
     "pos": "Attacker",
     "team": "1118"
   },
   "249": {
-    "name": "Donyell Malen",
+    "name": "D. Malen",
     "pos": "Attacker",
     "team": "1118"
   },
@@ -340,17 +340,17 @@
     "team": "26"
   },
   "538": {
-    "name": "Frenkie de Jong",
+    "name": "F. de Jong",
     "pos": "Midfielder",
     "team": "1118"
   },
   "542": {
-    "name": "Ryan Gravenberch",
+    "name": "R. Gravenberch",
     "pos": "Midfielder",
     "team": "1118"
   },
   "544": {
-    "name": "Noa Lang",
+    "name": "N. Lang",
     "pos": "Attacker",
     "team": "1118"
   },
@@ -445,7 +445,7 @@
     "team": "1532"
   },
   "667": {
-    "name": "Memphis Depay",
+    "name": "M. Depay",
     "pos": "Attacker",
     "team": "1118"
   },
@@ -540,7 +540,7 @@
     "team": "1113"
   },
   "792": {
-    "name": "Justin Kluivert",
+    "name": "J. Kluivert",
     "pos": "Attacker",
     "team": "1118"
   },
@@ -600,7 +600,7 @@
     "team": "27"
   },
   "889": {
-    "name": "Victor Lindelöf",
+    "name": "V. Lindelöf",
     "pos": "Defender",
     "team": "5"
   },
@@ -1395,12 +1395,12 @@
     "team": "15"
   },
   "2851": {
-    "name": "Kristoffer Nordfeldt",
+    "name": "K. Nordfeldt",
     "pos": "Goalkeeper",
     "team": "5"
   },
   "2860": {
-    "name": "Ken Sema",
+    "name": "K. Sema",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -1840,7 +1840,7 @@
     "team": "13"
   },
   "8486": {
-    "name": "Eric Smith",
+    "name": "E. Smith",
     "pos": "Defender",
     "team": "5"
   },
@@ -1990,7 +1990,7 @@
     "team": "1533"
   },
   "15683": {
-    "name": "Gustaf Nilsson",
+    "name": "G. Nilsson",
     "pos": "Attacker",
     "team": "5"
   },
@@ -2140,7 +2140,7 @@
     "team": "1508"
   },
   "18861": {
-    "name": "Nathan Aké",
+    "name": "N. Aké",
     "pos": "Defender",
     "team": "1118"
   },
@@ -2620,7 +2620,7 @@
     "team": "2382"
   },
   "25416": {
-    "name": "Wout Weghorst",
+    "name": "W. Weghorst",
     "pos": "Attacker",
     "team": "1118"
   },
@@ -2650,7 +2650,7 @@
     "team": "2"
   },
   "26232": {
-    "name": "Mark Flekken",
+    "name": "M. Flekken",
     "pos": "Goalkeeper",
     "team": "1118"
   },
@@ -2755,7 +2755,7 @@
     "team": "768"
   },
   "30432": {
-    "name": "Marten de Roon",
+    "name": "M. de Roon",
     "pos": "Midfielder",
     "team": "1118"
   },
@@ -3045,17 +3045,17 @@
     "team": "1117"
   },
   "36899": {
-    "name": "Teun Koopmeiners",
+    "name": "T. Koopmeiners",
     "pos": "Midfielder",
     "team": "1118"
   },
   "36902": {
-    "name": "Tijjani Reijnders",
+    "name": "T. Reijnders",
     "pos": "Midfielder",
     "team": "1118"
   },
   "36905": {
-    "name": "Guus Til",
+    "name": "G. Til",
     "pos": "Midfielder",
     "team": "1118"
   },
@@ -3085,7 +3085,7 @@
     "team": "1090"
   },
   "37143": {
-    "name": "Lutsharel Geertruida",
+    "name": "L. Geertruida",
     "pos": "Defender",
     "team": "1118"
   },
@@ -3140,7 +3140,7 @@
     "team": "20"
   },
   "38695": {
-    "name": "Jan Paul van Hecke",
+    "name": "J. van Hecke",
     "pos": "Defender",
     "team": "1118"
   },
@@ -3160,12 +3160,12 @@
     "team": "1118"
   },
   "38747": {
-    "name": "Quinten Timber",
+    "name": "Q. Timber",
     "pos": "Midfielder",
     "team": "1118"
   },
   "38750": {
-    "name": "Brian Brobbey",
+    "name": "B. Brobbey",
     "pos": "Attacker",
     "team": "1118"
   },
@@ -3640,7 +3640,7 @@
     "team": "8"
   },
   "47696": {
-    "name": "Alexander Bernhardsson",
+    "name": "A. Bernhardsson",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -3650,22 +3650,22 @@
     "team": "1567"
   },
   "47903": {
-    "name": "Hjalmar Ekdal",
+    "name": "H. Ekdal",
     "pos": "Defender",
     "team": "5"
   },
   "47969": {
-    "name": "Gabriel Gudmundsson",
+    "name": "G. Gudmundsson",
     "pos": "Midfielder",
     "team": "5"
   },
   "47988": {
-    "name": "Carl Starfelt",
+    "name": "C. Starfelt",
     "pos": "Defender",
     "team": "5"
   },
   "48002": {
-    "name": "Benjamin Nygren",
+    "name": "B. Nygren",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -3675,12 +3675,12 @@
     "team": "1567"
   },
   "48033": {
-    "name": "Jacob Widell Zetterström",
+    "name": "J. Widell Zetterström",
     "pos": "Goalkeeper",
     "team": "5"
   },
   "48047": {
-    "name": "Jesper Karlström",
+    "name": "J. Karlström",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -4455,8 +4455,8 @@
     "team": "1117"
   },
   "92993": {
-    "name": "Mats Wieffer",
-    "pos": "Midfielder",
+    "name": "M. Wieffer",
+    "pos": "Defender",
     "team": "1118"
   },
   "94322": {
@@ -4750,7 +4750,7 @@
     "team": "1532"
   },
   "129058": {
-    "name": "Bart Verbruggen",
+    "name": "B. Verbruggen",
     "pos": "Goalkeeper",
     "team": "1118"
   },
@@ -4850,12 +4850,12 @@
     "team": "1501"
   },
   "137721": {
-    "name": "Gustaf Lagerbielke",
+    "name": "G. Lagerbielke",
     "pos": "Defender",
     "team": "5"
   },
   "137976": {
-    "name": "Isak Hien",
+    "name": "I. Hien",
     "pos": "Defender",
     "team": "5"
   },
@@ -4950,7 +4950,7 @@
     "team": "1"
   },
   "152849": {
-    "name": "Micky van de Ven",
+    "name": "M. van de Ven",
     "pos": "Defender",
     "team": "1118"
   },
@@ -4960,7 +4960,7 @@
     "team": "7"
   },
   "153430": {
-    "name": "Anthony Elanga",
+    "name": "A. Elanga",
     "pos": "Attacker",
     "team": "5"
   },
@@ -5025,17 +5025,17 @@
     "team": "10"
   },
   "158700": {
-    "name": "Viktor Johansson",
+    "name": "V. Johansson",
     "pos": "Goalkeeper",
     "team": "5"
   },
   "160925": {
-    "name": "Taha Abdi Ali",
+    "name": "T. Ali",
     "pos": "Midfielder",
     "team": "5"
   },
   "161504": {
-    "name": "Herman Johansson",
+    "name": "H. Johansson",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -5370,7 +5370,7 @@
     "team": "1531"
   },
   "194536": {
-    "name": "Robin Roefs",
+    "name": "R. Roefs",
     "pos": "Goalkeeper",
     "team": "1118"
   },
@@ -5445,7 +5445,7 @@
     "team": "20"
   },
   "198654": {
-    "name": "Daniel Svensson",
+    "name": "D. Svensson",
     "pos": "Defender",
     "team": "5"
   },
@@ -5580,7 +5580,7 @@
     "team": "775"
   },
   "226765": {
-    "name": "Elliot Stroud",
+    "name": "E. Stroud",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -6460,7 +6460,7 @@
     "team": "31"
   },
   "341642": {
-    "name": "Jorrel Hato",
+    "name": "J. Hato",
     "pos": "Defender",
     "team": "1118"
   },
@@ -6565,7 +6565,7 @@
     "team": "2"
   },
   "347316": {
-    "name": "Lucas Bergvall",
+    "name": "L. Bergvall",
     "pos": "Midfielder",
     "team": "5"
   },
@@ -6615,7 +6615,7 @@
     "team": "2382"
   },
   "350850": {
-    "name": "Besfort Zeneli",
+    "name": "B. Zeneli",
     "pos": "Midfielder",
     "team": "5"
   },
