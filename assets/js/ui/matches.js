@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=59';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=59';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=59';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=59';
-import { renderGreeting } from './greeting.js?v=59';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=60';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=60';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=60';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=60';
+import { renderGreeting } from './greeting.js?v=60';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -545,12 +545,14 @@ export async function renderHistory(view, ctx) {
 
   const listWrap = h('div', { id: 'historyList' });
   view.append(listWrap);
-  renderGroups(listWrap, finished, ctx, true); // свежие туры и матчи — сверху
+  renderGroups(listWrap, finished, ctx, true, true); // свёрнутые карточки: тап — раскрыть ставки
 }
 
 // Рендер матчей, сгруппированных по турам. reverse — порядок туров и матчей от свежих к старым (для архива).
-function renderGroups(container, matches, ctx, reverse) {
+// collapsible — карточки свёрнуты по умолчанию (раскрытие ставок по тапу); для «Истории».
+function renderGroups(container, matches, ctx, reverse, collapsible = false) {
   const S = ctx.S;
+  const idx = collapsible ? buildPlayerIndex(S) : null;
   const groups = {};
   for (const m of matches) (groups[m.roundKey] ||= []).push(m);
   let keys = Object.keys(groups).sort((a, b) => {
@@ -563,11 +565,36 @@ function renderGroups(container, matches, ctx, reverse) {
     container.append(h('div', { class: 'round-head', text: (ROUND_LABELS[key] || key) + (locked ? ' · 🔒' : '') }));
     const ms = groups[key].sort((a, b) => (reverse ? new Date(b.date) - new Date(a.date) : new Date(a.date) - new Date(b.date)));
     for (const m of ms) {
+      if (collapsible) { container.append(collapsibleCard(m, S, ctx, idx)); continue; }
       const card = h('div', { class: 'match', id: 'm-' + m.id, dataset: { mid: m.id } });
       rerenderCard(card, m, S, ctx);
       container.append(card);
     }
   }
+}
+
+// Свёрнутая карточка: шапка (дата, счёт, команды) — кликабельна; ставки всех участников
+// подгружаются ЛЕНИВО при первом раскрытии (быстрее старт «Истории», меньше скролла).
+function collapsibleCard(m, S, ctx, idx) {
+  const card = h('div', { class: 'match collapsible', id: 'm-' + m.id, dataset: { mid: m.id } });
+  const body = h('div', { class: 'match-body' });
+  let loaded = false;
+  const head = h('div', { class: 'match-head', onclick: () => {
+    const open = card.classList.toggle('open');
+    if (open && !loaded) {
+      loaded = true;
+      body.append(h('div', { class: 'potential', text: 'Загружаем ставки…' }));
+      revealBlock(m, S, ctx, idx).then((b) => { clear(body); body.append(b); }).catch(() => clear(body));
+    }
+  } }, [
+    h('div', { class: 'match-top' }, [
+      h('span', { text: fmtDateTime(m.date) }),
+      h('span', {}, [h('span', { class: 'badge mult', text: '×' + (m.multiplier ?? 1) }), ' ', statusBadge(m, S), ' ', h('span', { class: 'chev', text: '⌄' })]),
+    ]),
+    teamRow(m, idx, S),
+  ]);
+  card.append(head, body);
+  return card;
 }
 
 // Карточка матча в истории игрока — один в один как на главной (.match).

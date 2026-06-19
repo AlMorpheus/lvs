@@ -1,5 +1,5 @@
 // Загрузка конфигурации, вход (распаковка вшитого токена и общего ключа), сессия.
-import { initCrypto, deriveKey, openSecretbox, openSecretboxStr } from './crypto.js?v=59';
+import { initCrypto, deriveKey, openSecretbox, openSecretboxStr } from './crypto.js?v=60';
 
 // base64 без зависимости от sodium (sodium ORIGINAL = стандартный base64 с паддингом).
 const b64ToBytes = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));

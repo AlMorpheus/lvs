@@ -837,6 +837,33 @@ textarea.input:focus {
   color: var(--muted);
   margin-bottom: 12px;
 }
+
+/* Сворачиваемая карточка матча (раздел «История») */
+.match.collapsible .match-head {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.match.collapsible .match-head .teams {
+  margin-bottom: 0;
+}
+.match.collapsible .match-body {
+  display: none;
+}
+.match.collapsible.open .match-body {
+  display: block;
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.match.collapsible .chev {
+  display: inline-block;
+  font-weight: 900;
+  color: var(--muted);
+  transition: transform 0.2s ease;
+}
+.match.collapsible.open .chev {
+  transform: rotate(180deg);
+}
 .badge {
   display: inline-flex;
   align-items: center;
