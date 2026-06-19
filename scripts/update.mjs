@@ -42,13 +42,30 @@ const cfg = app.scoring;
 // id -> { name, pos, team }. Имена/позиции НЕ теряются, когда заявку (lineup) усекают
 // до матчевой — иначе ранее выбранный игрок перестаёт находиться по id («—» без флага).
 const playerDir = readJSON('data/players.json', {});
+
+// ---------- замок позиций игроков ----------
+// Позиция игрока берётся ИЗ ОФИЦИАЛЬНОЙ заявки (/players/squads) и фиксируется ОДИН раз
+// (first-write-wins). Стартовый состав (lineup) и последующие обновления НЕ меняют её —
+// иначе позиция «прыгает» (до матча одна, в заявке на игру другая, после матча третья).
+const lockedPos = readJSON('data/player-pos.json', {});
+let lockedPosChanged = false;
+function lockPos(id, pos) {
+  if (id == null || !pos) return;
+  const k = String(id);
+  if (lockedPos[k]) return; // уже зафиксировано официальной заявкой — не трогаем
+  lockedPos[k] = pos;
+  lockedPosChanged = true;
+}
+// проставить игрокам зафиксированную позицию (где она известна)
+const normPos = (id, pos) => lockedPos[String(id)] || pos || null;
+
 function recordPlayer(p, teamId) {
   if (p?.id == null) return;
   const id = String(p.id);
   const cur = playerDir[id] || {};
   playerDir[id] = {
     name: p.name || cur.name || null,
-    pos: p.pos || cur.pos || null,
+    pos: normPos(id, p.pos || cur.pos), // официальная зафиксированная позиция в приоритете
     team: teamId != null ? String(teamId) : cur.team || null,
   };
 }
@@ -245,13 +262,19 @@ async function updateSquads(matches, doDailyRefresh) {
   const MAX = 14; // бережём дневную квоту API
   let fetched = 0;
 
+  // официальная заявка — ЕДИНСТВЕННЫЙ источник позиций: фиксируем их и нормализуем список
+  const officialSquad = (players) => {
+    for (const p of players) lockPos(p.id, p.pos); // фиксируем официальную позицию (first-write-wins)
+    return players.map((p) => ({ ...p, pos: normPos(p.id, p.pos) }));
+  };
+
   // 1) раз в день обновляем заявки команд ближайших матчей (травмы и т.п.)
   if (doDailyRefresh) {
     for (const tid of priority) {
       if (fetched >= MAX) break;
       try {
         const players = await fetchSquad(tid);
-        if (players.length) { squads[tid] = players; fetched++; }
+        if (players.length) { squads[tid] = officialSquad(players); fetched++; }
       } catch (e) {
         console.warn(`Состав команды ${tid} не обновлён:`, e.message);
       }
@@ -262,7 +285,7 @@ async function updateSquads(matches, doDailyRefresh) {
     if (fetched >= MAX) break;
     if (squads[tid]?.length) continue;
     try {
-      squads[tid] = await fetchSquad(tid);
+      squads[tid] = officialSquad(await fetchSquad(tid));
       fetched++;
     } catch (e) {
       console.warn(`Состав команды ${tid} не получен:`, e.message);
@@ -289,7 +312,15 @@ async function applyLineups(matches, squads) {
       let anyStartXI = false;
       for (const t of resp) {
         const tid = String(t.team?.id);
-        const map = (e, start) => ({ id: e.player?.id, name: e.player?.name, number: e.player?.number, pos: LINEUP_POS[e.player?.pos] || null, start });
+        // позицию НЕ берём из заявки на игру (она часто отличается) — используем официальную:
+        // зафиксированную (lockedPos) или уже известную из общего состава; заявка задаёт лишь старт/запас
+        const prevPos = {};
+        for (const p of squads[tid] || []) prevPos[String(p.id)] = p.pos;
+        const map = (e, start) => {
+          const id = e.player?.id;
+          const pos = lockedPos[String(id)] || prevPos[String(id)] || LINEUP_POS[e.player?.pos] || null;
+          return { id, name: e.player?.name, number: e.player?.number, pos, start };
+        };
         const startXI = (t.startXI || []).map((e) => map(e, true)).filter((p) => p.id != null);
         const subs = (t.substitutes || []).map((e) => map(e, false)).filter((p) => p.id != null);
         if (startXI.length) anyStartXI = true;
@@ -492,6 +523,7 @@ async function recoverPickedPlayers(bets) {
       const resp = await api('/players/profiles', { player: id });
       const pl = resp[0]?.player;
       if (pl) {
+        lockPos(id, pl.position); // профиль — официальный источник позиции, фиксируем
         recordPlayer({ id, name: pl.name, pos: pl.position }, null);
         used++;
       }
@@ -645,6 +677,10 @@ async function main() {
   await applyLineups(matches, squads); // точная заявка (основа/запас) + метка lineupAt для ближайших матчей
   markDueReminders(matches); // отметить матчи, по которым пора слать напоминание «скоро матч» (за ~2 ч)
   // matches.json пишем ПОСЛЕ applyLineups/markDueReminders — иначе метки lineupAt/remind2hAt не сохранятся
+  // финальная нормализация: позиция в составах = зафиксированная официальная (если известна)
+  for (const arr of Object.values(squads)) for (const p of arr || []) p.pos = normPos(p.id, p.pos);
+  if (lockedPosChanged) writeJSON('data/player-pos.json', lockedPos);
+
   writeJSON('data/matches.json', matches);
   writeJSON('data/squads.json', squads);
   await sendPushNotifications(matches).catch((e) => console.warn('push:', e.message)); // «стартовый состав доступен»
@@ -652,6 +688,7 @@ async function main() {
   // пополняем накопительный справочник игроков из составов и авторов голов
   for (const [tid, arr] of Object.entries(squads)) for (const p of arr || []) recordPlayer(p, tid);
   for (const m of matches) for (const s of m.scorers || []) recordPlayer({ id: s.playerId, name: s.name }, null);
+  for (const [id, p] of Object.entries(playerDir)) if (lockedPos[id]) p.pos = lockedPos[id]; // справочник тоже по замку
 
   // конфиг — только при реальных изменениях (чтобы частый цикл не плодил коммиты)
   const opening = matches.find((m) => m.isOpening);
@@ -687,6 +724,7 @@ async function main() {
   const posMap = buildPosIndex(squads);
   // позиции из справочника — на случай игроков, отсутствующих в текущем составе
   for (const [id, p] of Object.entries(playerDir)) if (p.pos && posMap[id] == null) posMap[id] = p.pos;
+  for (const [id, pos] of Object.entries(lockedPos)) posMap[id] = pos; // официальная зафиксированная позиция
 
   // ЗАМОРОЗКА позиций авторов голов. Позиция фиксируется один раз — когда игрок впервые
   // забил в завершённом матче — и больше НЕ меняется. Иначе смена позиции в источнике
