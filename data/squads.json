@@ -623,6 +623,27 @@
       "start": true
     },
     {
+      "id": 350850,
+      "name": "Besfort Zeneli",
+      "number": 22,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 347316,
+      "name": "Lucas Bergvall",
+      "number": 7,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 153430,
+      "name": "Anthony Elanga",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 48033,
       "name": "Jacob Widell Zetterström",
       "number": 1,
@@ -658,13 +679,6 @@
       "start": false
     },
     {
-      "id": 350850,
-      "name": "Besfort Zeneli",
-      "number": 22,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 198654,
       "name": "Daniel Svensson",
       "number": 8,
@@ -693,13 +707,6 @@
       "start": false
     },
     {
-      "id": 347316,
-      "name": "Lucas Bergvall",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 30484,
       "name": "Mattias Svanberg",
       "number": 19,
@@ -710,13 +717,6 @@
       "id": 160925,
       "name": "Taha Abdi Ali",
       "number": 26,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 153430,
-      "name": "Anthony Elanga",
-      "number": 11,
       "pos": "Attacker",
       "start": false
     },
@@ -6304,6 +6304,27 @@
       "start": true
     },
     {
+      "id": 37724,
+      "name": "Crysencio Summerville",
+      "number": 24,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 36905,
+      "name": "Guus Til",
+      "number": 16,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 36899,
+      "name": "Teun Koopmeiners",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 26232,
       "name": "Mark Flekken",
       "number": 23,
@@ -6346,13 +6367,6 @@
       "start": false
     },
     {
-      "id": 36905,
-      "name": "Guus Til",
-      "number": 16,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 792,
       "name": "Justin Kluivert",
       "number": 7,
@@ -6364,20 +6378,6 @@
       "name": "Marten de Roon",
       "number": 3,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 36899,
-      "name": "Teun Koopmeiners",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 37724,
-      "name": "Crysencio Summerville",
-      "number": 24,
-      "pos": "Attacker",
       "start": false
     },
     {
