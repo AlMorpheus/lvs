@@ -1816,7 +1816,7 @@
   {
     "id": "1539006",
     "date": "2026-06-20T03:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1834,12 +1834,24 @@
       "home": 0,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-20T05:07:51.199Z",
     "lineupAt": "2026-06-20T02:30:42.263Z",
     "remind2hAt": "2026-06-20T01:01:08.273Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 305832,
+        "name": "M. Galarza",
+        "teamId": 2380,
+        "minute": 2,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },

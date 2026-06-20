@@ -338,6 +338,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539006": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 2,
@@ -689,6 +700,17 @@
           "multiplier": 1,
           "special": 0,
           "total": 4,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539006": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -1046,6 +1068,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539006": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 4,
@@ -1065,9 +1098,9 @@
     {
       "id": "albert",
       "name": "Альберт",
-      "matchPts": 302,
+      "matchPts": 318,
       "futuresPts": 0,
-      "total": 302,
+      "total": 318,
       "exactCount": 4,
       "perMatch": {
         "1489369": {
@@ -1386,6 +1419,17 @@
           "multiplier": 1,
           "special": 0,
           "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539006": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 16,
           "isExact": false,
           "usedReg": false
         },
@@ -1716,6 +1760,17 @@
           "correctScorers": 0,
           "base": 0,
           "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539006": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
           "special": 0,
           "total": 0,
           "isExact": false,
@@ -2363,6 +2418,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539006": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 7,
           "scorerPts": 2,
@@ -2382,5 +2448,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-20T04:53:37.247Z"
+  "updatedAt": "2026-06-20T05:07:52.866Z"
 }
