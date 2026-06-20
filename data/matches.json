@@ -1807,10 +1807,11 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-06-20T01:01:08.273Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1.3,
+    "remindJustDue": true
   },
   {
     "id": "1539007",
