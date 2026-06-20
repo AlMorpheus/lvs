@@ -190,7 +190,7 @@
     "team": "2"
   },
   "280": {
-    "name": "Alisson Becker",
+    "name": "Alisson",
     "pos": "Goalkeeper",
     "team": "6"
   },
@@ -810,7 +810,7 @@
     "team": "777"
   },
   "1411": {
-    "name": "H. Delcroix",
+    "name": "Hannes Delcroix",
     "pos": "Defender",
     "team": "2386"
   },
@@ -1860,7 +1860,7 @@
     "team": "12"
   },
   "8601": {
-    "name": "F. Pierrot",
+    "name": "Frantzdy Pierrot",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -1880,7 +1880,7 @@
     "team": "1113"
   },
   "10097": {
-    "name": "Éderson Silva",
+    "name": "Éderson",
     "pos": "Midfielder",
     "team": "6"
   },
@@ -1925,7 +1925,7 @@
     "team": "2383"
   },
   "12303": {
-    "name": "Ricardo Ade",
+    "name": "Ricardo Adé",
     "pos": "Defender",
     "team": "2386"
   },
@@ -2380,12 +2380,12 @@
     "team": "1508"
   },
   "20655": {
-    "name": "J. Duverne",
+    "name": "Jean-Kévin Duverne",
     "pos": "Defender",
     "team": "2386"
   },
   "20665": {
-    "name": "J. Bellegarde",
+    "name": "Jean-Ricner Bellegarde",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -2410,7 +2410,7 @@
     "team": "32"
   },
   "20850": {
-    "name": "C. Arcus",
+    "name": "Carlens Arcus",
     "pos": "Defender",
     "team": "2386"
   },
@@ -2455,7 +2455,7 @@
     "team": "28"
   },
   "21613": {
-    "name": "L. Joseph",
+    "name": "Lenny Joseph",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -2745,7 +2745,7 @@
     "team": "768"
   },
   "30424": {
-    "name": "Ibañez",
+    "name": "Roger Ibañez",
     "pos": "Defender",
     "team": "6"
   },
@@ -3500,7 +3500,7 @@
     "team": "774"
   },
   "45020": {
-    "name": "D. Nazon",
+    "name": "Duckens Nazon",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -3730,7 +3730,7 @@
     "team": "1508"
   },
   "48535": {
-    "name": "Y. Fortuné",
+    "name": "Yassin Fortune",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -3885,7 +3885,7 @@
     "team": "11"
   },
   "50958": {
-    "name": "D. Etienne",
+    "name": "Derrick Etienne",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -4430,7 +4430,7 @@
     "team": "767"
   },
   "84087": {
-    "name": "W. Isidor",
+    "name": "Wilson Isidor",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -4440,7 +4440,7 @@
     "team": "1532"
   },
   "87789": {
-    "name": "J. Placide",
+    "name": "Johny Placide",
     "pos": "Goalkeeper",
     "team": "2386"
   },
@@ -4530,7 +4530,7 @@
     "team": "7"
   },
   "102505": {
-    "name": "D. Lacroix",
+    "name": "Duke Lacroix",
     "pos": "Defender",
     "team": "2386"
   },
@@ -4650,7 +4650,7 @@
     "team": "1548"
   },
   "123742": {
-    "name": "J. Duverger",
+    "name": "Josué Duverger",
     "pos": "Goalkeeper",
     "team": "2386"
   },
@@ -4725,7 +4725,7 @@
     "team": "25"
   },
   "128766": {
-    "name": "L. Deedson",
+    "name": "Louicius Don Deedson",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -5155,7 +5155,7 @@
     "team": "1"
   },
   "162733": {
-    "name": "R. Providence",
+    "name": "Ruben Providence",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -5230,12 +5230,12 @@
     "team": "1548"
   },
   "174768": {
-    "name": "A. Pierre",
+    "name": "Alexandre Pierre",
     "pos": "Goalkeeper",
     "team": "2386"
   },
   "174915": {
-    "name": "J. Casimir",
+    "name": "Josué Casimir",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -5325,7 +5325,7 @@
     "team": "32"
   },
   "190747": {
-    "name": "M. Expérience",
+    "name": "Martin Expérience",
     "pos": "Defender",
     "team": "2386"
   },
@@ -5360,7 +5360,7 @@
     "team": "23"
   },
   "194242": {
-    "name": "D. Simon",
+    "name": "Dominique Simon",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -5400,7 +5400,7 @@
     "team": "2380"
   },
   "196156": {
-    "name": "Thiago",
+    "name": "Igor Thiago",
     "pos": "Attacker",
     "team": "6"
   },
@@ -5790,7 +5790,7 @@
     "team": "6"
   },
   "275367": {
-    "name": "W. Paugain",
+    "name": "Wilguens Paugain",
     "pos": "Defender",
     "team": "2386"
   },
@@ -6220,7 +6220,7 @@
     "team": "2383"
   },
   "318930": {
-    "name": "G. Métusala",
+    "name": "Garven-Michee Metusala",
     "pos": "Defender",
     "team": "2386"
   },
@@ -6415,7 +6415,7 @@
     "team": "2382"
   },
   "338367": {
-    "name": "D. Jean-Jacques",
+    "name": "Danley Jean Jacques",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -6755,7 +6755,7 @@
     "team": "774"
   },
   "371050": {
-    "name": "W. Pierre",
+    "name": "Woodensky Pierre",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -7400,7 +7400,7 @@
     "team": "1548"
   },
   "573613": {
-    "name": "K. Thermoncy",
+    "name": "Keeto Thermoncy",
     "pos": "Defender",
     "team": "2386"
   },
