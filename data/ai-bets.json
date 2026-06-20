@@ -859,6 +859,34 @@
     "lockedAt": "2026-06-20T03:01:24.587Z",
     "syncedAt": "2026-06-20T03:01:24.587Z"
   },
+  "1539007": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Cody Gakpo",
+        "team": "home",
+        "pos": "нап",
+        "id": "247"
+      },
+      {
+        "name": "Brian Brobbey",
+        "team": "home",
+        "pos": "нап",
+        "id": "38750"
+      },
+      {
+        "name": "Alexander Isak",
+        "team": "away",
+        "pos": "нап",
+        "id": "2864"
+      }
+    ],
+    "lockedAt": "2026-06-20T17:00:09.884Z",
+    "syncedAt": "2026-06-20T17:00:09.884Z"
+  },
   "1539016": {
     "score": {
       "home": 0,
