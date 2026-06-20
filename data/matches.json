@@ -1758,7 +1758,7 @@
   {
     "id": "1489389",
     "date": "2026-06-20T00:30:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1776,12 +1776,40 @@
       "home": 3,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-20T02:32:45.212Z",
     "lineupAt": "2026-06-20T00:02:17.527Z",
     "remind2hAt": "2026-06-19T22:31:56.701Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 1165,
+        "name": "M. Cunha",
+        "teamId": 6,
+        "minute": 23,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1165,
+        "name": "M. Cunha",
+        "teamId": 6,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
@@ -1810,8 +1838,7 @@
     "remind2hAt": "2026-06-20T01:01:08.273Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3,
-    "lineupJustReady": true
+    "multiplier": 1.3
   },
   {
     "id": "1539007",
