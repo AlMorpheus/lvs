@@ -638,6 +638,34 @@
     "lockedAt": "2026-06-19T19:01:42.591Z",
     "syncedAt": "2026-06-19T19:01:42.591Z"
   },
+  "1489393": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Kai Havertz",
+        "team": "home",
+        "pos": "нап",
+        "id": "978"
+      },
+      {
+        "name": "Jamal Musiala",
+        "team": "home",
+        "pos": "пз",
+        "id": "181812"
+      },
+      {
+        "name": "Florian Wirtz",
+        "team": "home",
+        "pos": null,
+        "id": "203224"
+      }
+    ],
+    "lockedAt": "2026-06-20T20:01:08.346Z",
+    "syncedAt": "2026-06-20T20:01:08.346Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
