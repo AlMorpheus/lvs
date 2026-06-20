@@ -781,6 +781,13 @@
       "start": true
     },
     {
+      "id": 407806,
+      "name": "Rayan",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2410,
       "name": "Weverton",
       "number": 12,
@@ -848,13 +855,6 @@
       "name": "Danilo Santos",
       "number": 18,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 407806,
-      "name": "Rayan",
-      "number": 26,
-      "pos": "Attacker",
       "start": false
     },
     {
