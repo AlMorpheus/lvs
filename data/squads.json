@@ -6465,13 +6465,6 @@
       "start": true
     },
     {
-      "id": 157997,
-      "name": "Amad Diallo",
-      "number": 15,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 1642,
       "name": "Franck Kessié",
       "number": 8,
@@ -6486,9 +6479,16 @@
       "start": true
     },
     {
-      "id": 513776,
-      "name": "Yan Diomande",
-      "number": 11,
+      "id": 474591,
+      "name": "Christ Inao Oulaï",
+      "number": 26,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 157997,
+      "name": "Amad Diallo",
+      "number": 15,
       "pos": "Attacker",
       "start": true
     },
@@ -6500,10 +6500,10 @@
       "start": true
     },
     {
-      "id": 474591,
-      "name": "Christ Inao Oulaï",
-      "number": 26,
-      "pos": "Midfielder",
+      "id": 513776,
+      "name": "Yan Diomande",
+      "number": 11,
+      "pos": "Attacker",
       "start": true
     },
     {
