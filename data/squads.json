@@ -5106,6 +5106,27 @@
       "start": true
     },
     {
+      "id": 63274,
+      "name": "Barış Alper Yılmaz",
+      "number": 21,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 339887,
+      "name": "Can Uzun",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 388570,
+      "name": "Deniz Gül",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 50132,
       "name": "Altay Bayındır",
       "number": 12,
@@ -5162,20 +5183,6 @@
       "start": false
     },
     {
-      "id": 63274,
-      "name": "Barış Alper Yılmaz",
-      "number": 21,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 339887,
-      "name": "Can Uzun",
-      "number": 26,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 37155,
       "name": "Orkun Kökçü",
       "number": 6,
@@ -5200,13 +5207,6 @@
       "id": 49857,
       "name": "İrfan Can Kahveci",
       "number": 17,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 388570,
-      "name": "Deniz Gül",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     }
@@ -8215,6 +8215,13 @@
       "start": true
     },
     {
+      "id": 195107,
+      "name": "Damián Bobadilla",
+      "number": 16,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 51733,
       "name": "Gastón Olveira",
       "number": 22,
@@ -8260,13 +8267,6 @@
       "id": 106485,
       "name": "Mauricio",
       "number": 11,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 195107,
-      "name": "Damián Bobadilla",
-      "number": 16,
       "pos": "Midfielder",
       "start": false
     },
