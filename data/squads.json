@@ -753,13 +753,6 @@
       "start": true
     },
     {
-      "id": 1496,
-      "name": "Raphinha",
-      "number": 11,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 1646,
       "name": "Lucas Paquetá",
       "number": 20,
@@ -767,9 +760,9 @@
       "start": true
     },
     {
-      "id": 762,
-      "name": "Vinícius Júnior",
-      "number": 7,
+      "id": 1496,
+      "name": "Raphinha",
+      "number": 11,
       "pos": "Attacker",
       "start": true
     },
@@ -777,6 +770,13 @@
       "id": 1165,
       "name": "Matheus Cunha",
       "number": 9,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 762,
+      "name": "Vinícius Júnior",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
@@ -8771,16 +8771,16 @@
       "start": true
     },
     {
-      "id": 12303,
-      "name": "Ricardo Adé",
-      "number": 4,
+      "id": 20655,
+      "name": "Jean-Kévin Duverne",
+      "number": 22,
       "pos": "Defender",
       "start": true
     },
     {
-      "id": 20655,
-      "name": "Jean-Kévin Duverne",
-      "number": 22,
+      "id": 12303,
+      "name": "Ricardo Adé",
+      "number": 4,
       "pos": "Defender",
       "start": true
     },
