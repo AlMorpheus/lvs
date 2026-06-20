@@ -554,6 +554,34 @@
     "lockedAt": "2026-06-19T01:00:51.374Z",
     "syncedAt": "2026-06-19T01:00:51.374Z"
   },
+  "1489389": {
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Vinícius Júnior",
+        "team": "home",
+        "pos": "пз",
+        "id": "762"
+      },
+      {
+        "name": "Matheus Cunha",
+        "team": "home",
+        "pos": "нап",
+        "id": "1165"
+      },
+      {
+        "name": "Raphinha",
+        "team": "home",
+        "pos": "пз",
+        "id": "1496"
+      }
+    ],
+    "lockedAt": "2026-06-20T00:30:39.152Z",
+    "syncedAt": "2026-06-20T00:30:39.152Z"
+  },
   "1489390": {
     "score": {
       "home": 1,
