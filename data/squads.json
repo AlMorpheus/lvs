@@ -6465,23 +6465,9 @@
       "start": true
     },
     {
-      "id": 1642,
-      "name": "Franck Kessié",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 22149,
       "name": "Ibrahim Sangaré",
       "number": 18,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 474591,
-      "name": "Christ Inao Oulaï",
-      "number": 26,
       "pos": "Midfielder",
       "start": true
     },
@@ -6493,16 +6479,30 @@
       "start": true
     },
     {
-      "id": 275651,
-      "name": "Ange-Yoan Bonny",
-      "number": 9,
-      "pos": "Attacker",
+      "id": 1642,
+      "name": "Franck Kessié",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 474591,
+      "name": "Christ Inao Oulaï",
+      "number": 26,
+      "pos": "Midfielder",
       "start": true
     },
     {
       "id": 513776,
       "name": "Yan Diomande",
       "number": 11,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 275651,
+      "name": "Ange-Yoan Bonny",
+      "number": 9,
       "pos": "Attacker",
       "start": true
     },
