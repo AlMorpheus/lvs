@@ -680,16 +680,16 @@ async function main() {
   await applyLineups(matches, squads); // точная заявка (основа/запас) + метка lineupAt для ближайших матчей
   markDueReminders(matches); // отметить матчи, по которым пора слать напоминание «скоро матч» (за ~2 ч)
 
-  // ЗАМОРОЗКА позиции автора гола ПО МАТЧУ. Фиксируем один раз и навсегда:
-  // — у сыгранных ранее матчей берём ЗАСЧИТАННУЮ позицию (scorer-pos.json) — результаты не трогаем;
-  // — у матчей, завершающихся дальше, берём актуальную ОФИЦИАЛЬНУЮ позицию (normPos).
-  // Хранится в matches.json (m.scorers[].pos); scoring.mjs отдаёт ей приоритет для этого матча.
-  const countedPos = readJSON('data/scorer-pos.json', {});
+  // ЗАМОРОЗКА позиции автора гола ПО МАТЧУ. Когда матч завершается, позицию его авторов
+  // фиксируем ОДИН раз по ОФИЦИАЛЬНОЙ заявке (normPos) и больше не трогаем. Хранится в
+  // matches.json (m.scorers[].pos); scoring.mjs отдаёт ей приоритет для этого матча.
+  // (Раньше тут был сид из scorer-pos.json по игроку — он ошибочно тащил старую засчитанную
+  //  позицию и на НОВЫЕ матчи игрока, из-за чего позиция «менялась» вопреки официальной.)
   for (const m of matches) {
     if (!m.finished) continue;
     for (const s of m.scorers || []) {
       if (s.playerId == null || s.pos) continue; // уже зафиксировано — не трогаем
-      s.pos = countedPos[String(s.playerId)] || normPos(s.playerId, null) || null;
+      s.pos = normPos(s.playerId, null) || null;
     }
   }
 

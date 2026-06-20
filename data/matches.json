@@ -318,7 +318,7 @@
         "teamId": 31,
         "minute": 21,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       },
       {
         "playerId": 762,
@@ -1749,7 +1749,7 @@
         "teamId": 31,
         "minute": 2,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
