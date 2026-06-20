@@ -831,6 +831,34 @@
     "lockedAt": "2026-06-18T19:01:07.115Z",
     "syncedAt": "2026-06-18T19:01:07.115Z"
   },
+  "1539006": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Kerem Aktürkoğlu",
+        "team": "home",
+        "pos": "нап",
+        "id": "142959"
+      },
+      {
+        "name": "Julio Enciso",
+        "team": "away",
+        "pos": "нап",
+        "id": "70747"
+      },
+      {
+        "name": "Arda Güler",
+        "team": "home",
+        "pos": "пз",
+        "id": "291964"
+      }
+    ],
+    "lockedAt": "2026-06-20T03:01:24.587Z",
+    "syncedAt": "2026-06-20T03:01:24.587Z"
+  },
   "1539016": {
     "score": {
       "home": 0,
