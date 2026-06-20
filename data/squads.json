@@ -3301,6 +3301,34 @@
       "start": true
     },
     {
+      "id": 2285,
+      "name": "Antonio Rüdiger",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 128533,
+      "name": "Jamie Leweling",
+      "number": 9,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 714,
+      "name": "Nadiem Amiri",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 26475,
+      "name": "Deniz Undav",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 399,
       "name": "Alexander Nübel",
       "number": 21,
@@ -3329,13 +3357,6 @@
       "start": false
     },
     {
-      "id": 2285,
-      "name": "Antonio Rüdiger",
-      "number": 2,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 25158,
       "name": "David Raum",
       "number": 22,
@@ -3346,20 +3367,6 @@
       "id": 380978,
       "name": "Assan Ouédraogo",
       "number": 25,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 128533,
-      "name": "Jamie Leweling",
-      "number": 9,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 714,
-      "name": "Nadiem Amiri",
-      "number": 20,
       "pos": "Midfielder",
       "start": false
     },
@@ -3395,13 +3402,6 @@
       "id": 158054,
       "name": "Nick Woltemade",
       "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 26475,
-      "name": "Deniz Undav",
-      "number": 26,
       "pos": "Attacker",
       "start": false
     }
