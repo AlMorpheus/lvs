@@ -1758,7 +1758,7 @@
   {
     "id": "1489389",
     "date": "2026-06-20T00:30:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -1772,7 +1772,10 @@
       "name": "Haiti",
       "flag": "https://media.api-sports.io/football/teams/2386.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
