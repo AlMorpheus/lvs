@@ -722,6 +722,34 @@
     "lockedAt": "2026-06-21T04:00:34.992Z",
     "syncedAt": "2026-06-21T04:00:34.992Z"
   },
+  "1489395": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Romelu Lukaku",
+        "team": "home",
+        "pos": "нап",
+        "id": "907"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "team": "home",
+        "pos": "пз",
+        "id": "629"
+      },
+      {
+        "name": "Leandro Trossard",
+        "team": "home",
+        "pos": "пз",
+        "id": "1946"
+      }
+    ],
+    "lockedAt": "2026-06-21T19:00:14.890Z",
+    "syncedAt": "2026-06-21T19:00:14.890Z"
+  },
   "1489397": {
     "score": {
       "home": 3,
