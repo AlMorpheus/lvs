@@ -20,7 +20,7 @@
     "team": "2384"
   },
   "20": {
-    "name": "A. Witsel",
+    "name": "Axel Witsel",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -50,7 +50,7 @@
     "team": "1504"
   },
   "69": {
-    "name": "B. Mechele",
+    "name": "Brandon Mechele",
     "pos": "Defender",
     "team": "1"
   },
@@ -60,7 +60,7 @@
     "team": "31"
   },
   "78": {
-    "name": "H. Vanaken",
+    "name": "Hans Vanaken",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -165,7 +165,7 @@
     "team": "6"
   },
   "264": {
-    "name": "T. Meunier",
+    "name": "Thomas Meunier",
     "pos": "Defender",
     "team": "1"
   },
@@ -415,7 +415,7 @@
     "team": "10"
   },
   "629": {
-    "name": "K. De Bruyne",
+    "name": "Kevin De Bruyne",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -485,7 +485,7 @@
     "team": "3"
   },
   "730": {
-    "name": "T. Courtois",
+    "name": "Thibaut Courtois",
     "pos": "Goalkeeper",
     "team": "1"
   },
@@ -615,7 +615,7 @@
     "team": "5530"
   },
   "907": {
-    "name": "R. Lukaku",
+    "name": "Romelu Lukaku",
     "pos": "Attacker",
     "team": "1"
   },
@@ -815,7 +815,7 @@
     "team": "2386"
   },
   "1417": {
-    "name": "A. Saelemaekers",
+    "name": "Alexis Saelemaekers",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -970,7 +970,7 @@
     "team": "12"
   },
   "1946": {
-    "name": "L. Trossard",
+    "name": "Leandro Trossard",
     "pos": "Attacker",
     "team": "1"
   },
@@ -990,7 +990,7 @@
     "team": "16"
   },
   "2120": {
-    "name": "N. Raskin",
+    "name": "Nicolas Raskin",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -1275,32 +1275,32 @@
     "team": "27"
   },
   "2681": {
-    "name": "P. Niazmand",
+    "name": "Payam Niazmand",
     "pos": "Goalkeeper",
     "team": "22"
   },
   "2682": {
-    "name": "A. Beiranvand",
+    "name": "Alireza Beiranvand",
     "pos": "Goalkeeper",
     "team": "22"
   },
   "2683": {
-    "name": "R. Cheshmi",
+    "name": "Roozbeh Cheshmi",
     "pos": "Midfielder",
     "team": "22"
   },
   "2685": {
-    "name": "E. Hajisafi",
+    "name": "Ehsan Hajsafi",
     "pos": "Defender",
     "team": "22"
   },
   "2687": {
-    "name": "H. Kanani",
+    "name": "Hossein Kanaani",
     "pos": "Defender",
     "team": "22"
   },
   "2688": {
-    "name": "M. Mohammadi",
+    "name": "Milad Mohammadi",
     "pos": "Defender",
     "team": "22"
   },
@@ -1310,17 +1310,17 @@
     "team": "22"
   },
   "2697": {
-    "name": "M. Torabi",
+    "name": "Mahdi Torabi",
     "pos": "Midfielder",
     "team": "22"
   },
   "2699": {
-    "name": "S. Ghoddos",
+    "name": "Saman Ghoddos",
     "pos": "Midfielder",
     "team": "22"
   },
   "2700": {
-    "name": "A. Jahanbakhsh",
+    "name": "Alireza Jahanbakhsh",
     "pos": "Midfielder",
     "team": "22"
   },
@@ -1480,12 +1480,12 @@
     "team": "17"
   },
   "2920": {
-    "name": "T. Castagne",
+    "name": "Timothy Castagne",
     "pos": "Defender",
     "team": "1"
   },
   "2926": {
-    "name": "Y. Tielemans",
+    "name": "Youri Tielemans",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -2330,7 +2330,7 @@
     "team": "26"
   },
   "19614": {
-    "name": "S. Ezatolahi",
+    "name": "Saeid Ezatolahi",
     "pos": "Midfielder",
     "team": "22"
   },
@@ -2630,7 +2630,7 @@
     "team": "777"
   },
   "25458": {
-    "name": "D. Lukebakio",
+    "name": "Dodi Lukebakio",
     "pos": "Attacker",
     "team": "1"
   },
@@ -2710,22 +2710,22 @@
     "team": "1113"
   },
   "29704": {
-    "name": "S. Khalilzadeh",
+    "name": "Shoja Khalilzadeh",
     "pos": "Defender",
     "team": "22"
   },
   "29720": {
-    "name": "A. Alipour",
+    "name": "Ali Alipour",
     "pos": "Attacker",
     "team": "22"
   },
   "29755": {
-    "name": "H. Hosseini",
+    "name": "Hossein Hosseini",
     "pos": "Goalkeeper",
     "team": "22"
   },
   "29781": {
-    "name": "M. Ghaedi",
+    "name": "Mehdi Ghayedi",
     "pos": "Attacker",
     "team": "22"
   },
@@ -2735,7 +2735,7 @@
     "team": "22"
   },
   "29937": {
-    "name": "A. Hosseinzadeh",
+    "name": "Amirhossein Hosseinzadeh",
     "pos": "Attacker",
     "team": "22"
   },
@@ -3130,7 +3130,7 @@
     "team": "1118"
   },
   "37892": {
-    "name": "D. Eckert Ayensa",
+    "name": "Dennis Eckert Ayensa",
     "pos": "Attacker",
     "team": "22"
   },
@@ -3300,7 +3300,7 @@
     "team": "1569"
   },
   "42315": {
-    "name": "M. Taremi",
+    "name": "Mehdi Taremi",
     "pos": "Attacker",
     "team": "22"
   },
@@ -4450,7 +4450,7 @@
     "team": "2386"
   },
   "89982": {
-    "name": "S. Moghanlou",
+    "name": "Shahriar Moghanlou",
     "pos": "Attacker",
     "team": "22"
   },
@@ -4950,7 +4950,7 @@
     "team": "23"
   },
   "147859": {
-    "name": "C. De Ketelaere",
+    "name": "Charles De Ketelaere",
     "pos": "Attacker",
     "team": "1"
   },
@@ -5090,7 +5090,7 @@
     "team": "27"
   },
   "162007": {
-    "name": "M. De Cuyper",
+    "name": "Maxim De Cuyper",
     "pos": "Defender",
     "team": "1"
   },
@@ -5100,7 +5100,7 @@
     "team": "2384"
   },
   "162141": {
-    "name": "K. De Winter",
+    "name": "Koni De Winter",
     "pos": "Defender",
     "team": "1"
   },
@@ -5145,7 +5145,7 @@
     "team": "10"
   },
   "162511": {
-    "name": "S. Lammens",
+    "name": "Senne Lammens",
     "pos": "Goalkeeper",
     "team": "1"
   },
@@ -5155,7 +5155,7 @@
     "team": "1501"
   },
   "162714": {
-    "name": "A. Onana",
+    "name": "Amadou Onana",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -5525,7 +5525,7 @@
     "team": "25"
   },
   "204043": {
-    "name": "A. Theate",
+    "name": "Arthur Theate",
     "pos": "Defender",
     "team": "1"
   },
@@ -6175,7 +6175,7 @@
     "team": "20"
   },
   "312964": {
-    "name": "N. Ngoy",
+    "name": "Nathan Ngoy",
     "pos": "Defender",
     "team": "1"
   },
@@ -6365,7 +6365,7 @@
     "team": "27"
   },
   "335056": {
-    "name": "D. Moreira",
+    "name": "Diego Moreira",
     "pos": "Midfielder",
     "team": "1"
   },
@@ -6445,12 +6445,12 @@
     "team": "777"
   },
   "340077": {
-    "name": "M. Fernandez-Pardo",
+    "name": "Matías Fernández-Pardo",
     "pos": "Attacker",
     "team": "1"
   },
   "340151": {
-    "name": "M. Penders",
+    "name": "Mike Penders",
     "pos": "Goalkeeper",
     "team": "1"
   },
@@ -6475,7 +6475,7 @@
     "team": "768"
   },
   "341844": {
-    "name": "M. Ghorbani",
+    "name": "Mohammad Ghorbani",
     "pos": "Midfielder",
     "team": "22"
   },
@@ -6530,7 +6530,7 @@
     "team": "1533"
   },
   "343405": {
-    "name": "A. Yousefi",
+    "name": "Aria Yousefi",
     "pos": "Defender",
     "team": "22"
   },
@@ -6800,7 +6800,7 @@
     "team": "12"
   },
   "375974": {
-    "name": "J. Seys",
+    "name": "Joaquin Seys",
     "pos": "Defender",
     "team": "1"
   },
@@ -7050,7 +7050,7 @@
     "team": "1569"
   },
   "423753": {
-    "name": "A. Razzaghinia",
+    "name": "Amirmohammad Razzaghinia",
     "pos": "Midfielder",
     "team": "22"
   },
@@ -7235,7 +7235,7 @@
     "team": "1568"
   },
   "532950": {
-    "name": "D. Eiri",
+    "name": "Danial Eiri",
     "pos": "Defender",
     "team": "22"
   },
