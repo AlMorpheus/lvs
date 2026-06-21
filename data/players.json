@@ -290,7 +290,7 @@
     "team": "7"
   },
   "440": {
-    "name": "Y. Nagatomo",
+    "name": "Yuto Nagatomo",
     "pos": "Defender",
     "team": "12"
   },
@@ -965,7 +965,7 @@
     "team": "1090"
   },
   "1942": {
-    "name": "J. Ito",
+    "name": "Junya Ito",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -1220,12 +1220,12 @@
     "team": "2382"
   },
   "2597": {
-    "name": "T. Tomiyasu",
+    "name": "Takehiro Tomiyasu",
     "pos": "Defender",
     "team": "12"
   },
   "2598": {
-    "name": "R. Doan",
+    "name": "Ritsu Doan",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -1500,12 +1500,12 @@
     "team": "10"
   },
   "2945": {
-    "name": "D. Bronn",
+    "name": "Dylan Bronn",
     "pos": "Defender",
     "team": "28"
   },
   "2962": {
-    "name": "F. Chaouat",
+    "name": "Firas Chaouat",
     "pos": "Attacker",
     "team": "28"
   },
@@ -2175,7 +2175,7 @@
     "team": "5529"
   },
   "18942": {
-    "name": "Y. Valery",
+    "name": "Yan Valery",
     "pos": "Defender",
     "team": "28"
   },
@@ -2450,7 +2450,7 @@
     "team": "2"
   },
   "21587": {
-    "name": "E. Skhiri",
+    "name": "Ellyes Skhiri",
     "pos": "Midfielder",
     "team": "28"
   },
@@ -2590,7 +2590,7 @@
     "team": "775"
   },
   "25300": {
-    "name": "R. Khedira",
+    "name": "Rani Khedira",
     "pos": "Midfielder",
     "team": "28"
   },
@@ -2860,7 +2860,7 @@
     "team": "774"
   },
   "32858": {
-    "name": "T. Watanabe",
+    "name": "Tsuyoshi Watanabe",
     "pos": "Defender",
     "team": "12"
   },
@@ -2870,37 +2870,37 @@
     "team": "12"
   },
   "32887": {
-    "name": "Y. Sugawara",
+    "name": "Yukinari Sugawara",
     "pos": "Defender",
     "team": "12"
   },
   "32893": {
-    "name": "H. Ito",
+    "name": "Hiroki Itō",
     "pos": "Defender",
     "team": "12"
   },
   "32954": {
-    "name": "S. Taniguchi",
+    "name": "Shogo Taniguchi",
     "pos": "Defender",
     "team": "12"
   },
   "32966": {
-    "name": "A. Tanaka",
+    "name": "Ao Tanaka",
     "pos": "Midfielder",
     "team": "12"
   },
   "33034": {
-    "name": "K. Osako",
+    "name": "Keisuke Osako",
     "pos": "Goalkeeper",
     "team": "12"
   },
   "33165": {
-    "name": "A. Seko",
+    "name": "Ayumu Seko",
     "pos": "Defender",
     "team": "12"
   },
   "33224": {
-    "name": "D. Maeda",
+    "name": "Daizen Maeda",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -2920,7 +2920,7 @@
     "team": "20"
   },
   "33889": {
-    "name": "K. Sano",
+    "name": "Kaishu Sano",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -3135,7 +3135,7 @@
     "team": "22"
   },
   "38114": {
-    "name": "K. Itakura",
+    "name": "Ko Itakura",
     "pos": "Defender",
     "team": "12"
   },
@@ -3255,7 +3255,7 @@
     "team": "27"
   },
   "42012": {
-    "name": "E. Achouri",
+    "name": "Elias Achouri",
     "pos": "Attacker",
     "team": "28"
   },
@@ -3750,12 +3750,12 @@
     "team": "15"
   },
   "49423": {
-    "name": "S. Ben Hsan",
+    "name": "Sabri Ben Hessen",
     "pos": "Goalkeeper",
     "team": "28"
   },
   "49424": {
-    "name": "A. Dahmen",
+    "name": "Aymen Dahmen",
     "pos": "Goalkeeper",
     "team": "28"
   },
@@ -3765,12 +3765,12 @@
     "team": "1567"
   },
   "49469": {
-    "name": "M. Ben Ouanes",
+    "name": "Mortadha Ben Ouanes",
     "pos": "Defender",
     "team": "28"
   },
   "49583": {
-    "name": "A. Abdi",
+    "name": "Ali Abdi",
     "pos": "Defender",
     "team": "28"
   },
@@ -3795,7 +3795,7 @@
     "team": "1113"
   },
   "50030": {
-    "name": "M. Talbi",
+    "name": "Montassar Talbi",
     "pos": "Defender",
     "team": "28"
   },
@@ -4065,7 +4065,7 @@
     "team": "1094"
   },
   "57518": {
-    "name": "S. Tounekti",
+    "name": "Sebastian Tounekti",
     "pos": "Midfielder",
     "team": "28"
   },
@@ -4230,7 +4230,7 @@
     "team": "770"
   },
   "67195": {
-    "name": "H. Mahmoud",
+    "name": "Mohamed Belhadj Mahmoud",
     "pos": "Midfielder",
     "team": "28"
   },
@@ -4335,7 +4335,7 @@
     "team": "1548"
   },
   "72155": {
-    "name": "A. Ueda",
+    "name": "Ayase Ueda",
     "pos": "Attacker",
     "team": "12"
   },
@@ -4805,7 +4805,7 @@
     "team": "23"
   },
   "135059": {
-    "name": "A. Ben Hmida",
+    "name": "Amine Ben Hmida",
     "pos": "Defender",
     "team": "28"
   },
@@ -5280,7 +5280,7 @@
     "team": "4673"
   },
   "180560": {
-    "name": "H. Mejbri",
+    "name": "Hannibal Mejbri",
     "pos": "Midfielder",
     "team": "28"
   },
@@ -5455,17 +5455,17 @@
     "team": "5"
   },
   "199143": {
-    "name": "Y. Suzuki",
+    "name": "Yuito Suzuki",
     "pos": "Midfielder",
     "team": "12"
   },
   "199310": {
-    "name": "A. Ben Slimane",
+    "name": "Anis Ben Slimane",
     "pos": "Midfielder",
     "team": "28"
   },
   "199578": {
-    "name": "Z. Suzuki",
+    "name": "Zion Suzuki",
     "pos": "Goalkeeper",
     "team": "12"
   },
@@ -6075,7 +6075,7 @@
     "team": "23"
   },
   "304782": {
-    "name": "T. Hayakawa",
+    "name": "Tomoki Hayakawa",
     "pos": "Goalkeeper",
     "team": "12"
   },
@@ -6130,7 +6130,7 @@
     "team": "5530"
   },
   "310196": {
-    "name": "Ismaël Gharbi",
+    "name": "Ismael Gharbi",
     "pos": "Midfielder",
     "team": "28"
   },
@@ -6260,7 +6260,7 @@
     "team": "26"
   },
   "323974": {
-    "name": "E. Saad",
+    "name": "Elias Saad",
     "pos": "Attacker",
     "team": "28"
   },
@@ -6545,7 +6545,7 @@
     "team": "1108"
   },
   "344862": {
-    "name": "H. Mastouri",
+    "name": "Hazem Mastouri",
     "pos": "Attacker",
     "team": "28"
   },
@@ -6630,7 +6630,7 @@
     "team": "1504"
   },
   "351014": {
-    "name": "J. Suzuki",
+    "name": "Junnosuke Suzuki",
     "pos": "Defender",
     "team": "12"
   },
@@ -6790,12 +6790,12 @@
     "team": "1508"
   },
   "375608": {
-    "name": "M. Neffati",
+    "name": "Moataz Nefati",
     "pos": "Defender",
     "team": "28"
   },
   "375930": {
-    "name": "K. Goto",
+    "name": "Keisuke Goto",
     "pos": "Attacker",
     "team": "12"
   },
@@ -6885,7 +6885,7 @@
     "team": "1117"
   },
   "393977": {
-    "name": "A. Arous",
+    "name": "Adem Arous",
     "pos": "Defender",
     "team": "28"
   },
@@ -7040,7 +7040,7 @@
     "team": "1568"
   },
   "422572": {
-    "name": "K. Shiogai",
+    "name": "Kento Shiogai",
     "pos": "Attacker",
     "team": "12"
   },
@@ -7245,17 +7245,17 @@
     "team": "22"
   },
   "533295": {
-    "name": "K. Ayari",
+    "name": "Khalil Ayari",
     "pos": "Midfielder",
     "team": "28"
   },
   "533360": {
-    "name": "R. Chikhaoui",
+    "name": "Raed Chikhaoui",
     "pos": "Defender",
     "team": "28"
   },
   "533394": {
-    "name": "C. Abdelmouhib",
+    "name": "Abdelmouhib Chamakh",
     "pos": "Goalkeeper",
     "team": "28"
   },
@@ -7390,7 +7390,7 @@
     "team": "1117"
   },
   "566059": {
-    "name": "R. Elloumi",
+    "name": "Rayan Elloumi",
     "pos": "Attacker",
     "team": "28"
   },
