@@ -2163,7 +2163,7 @@
   {
     "id": "1489395",
     "date": "2026-06-21T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2177,7 +2177,10 @@
       "name": "Iran",
       "flag": "https://media.api-sports.io/football/teams/22.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
