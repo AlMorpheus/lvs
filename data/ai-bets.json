@@ -638,6 +638,34 @@
     "lockedAt": "2026-06-19T19:01:42.591Z",
     "syncedAt": "2026-06-19T19:01:42.591Z"
   },
+  "1489392": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Enner Valencia",
+        "team": "home",
+        "pos": "нап",
+        "id": "198347"
+      },
+      {
+        "name": "Kendry Paez",
+        "team": "home",
+        "pos": "пз",
+        "id": "406303"
+      },
+      {
+        "name": "Gonzalo Plata",
+        "team": "home",
+        "pos": "нап",
+        "id": "16369"
+      }
+    ],
+    "lockedAt": "2026-06-21T00:01:58.850Z",
+    "syncedAt": "2026-06-21T00:01:58.850Z"
+  },
   "1489393": {
     "score": {
       "home": 2,
