@@ -694,6 +694,34 @@
     "lockedAt": "2026-06-20T20:01:08.346Z",
     "syncedAt": "2026-06-20T20:01:08.346Z"
   },
+  "1489394": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Ayase Ueda",
+        "team": "away",
+        "pos": "нап",
+        "id": "72155"
+      },
+      {
+        "name": "Junya Ito",
+        "team": "away",
+        "pos": "нап",
+        "id": "1942"
+      },
+      {
+        "name": "Anis Ben Slimane",
+        "team": "home",
+        "pos": "нап",
+        "id": "199310"
+      }
+    ],
+    "lockedAt": "2026-06-21T04:00:34.992Z",
+    "syncedAt": "2026-06-21T04:00:34.992Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
