@@ -778,6 +778,34 @@
     "lockedAt": "2026-06-21T16:00:17.926Z",
     "syncedAt": "2026-06-21T16:00:17.926Z"
   },
+  "1489398": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Federico Viñas",
+        "team": "home",
+        "pos": "нап",
+        "id": "51530"
+      },
+      {
+        "name": "Federico Valverde",
+        "team": "home",
+        "pos": "пз",
+        "id": "756"
+      },
+      {
+        "name": "Maximiliano Araújo",
+        "team": "home",
+        "pos": "пз",
+        "id": "51776"
+      }
+    ],
+    "lockedAt": "2026-06-21T22:00:19.261Z",
+    "syncedAt": "2026-06-21T22:00:19.261Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
