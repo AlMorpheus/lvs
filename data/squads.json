@@ -1307,6 +1307,34 @@
       "start": true
     },
     {
+      "id": 931,
+      "name": "Ferran Torres",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 184226,
+      "name": "Yéremy Pino",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 47311,
+      "name": "Mikel Merino",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 183799,
+      "name": "Nico Williams",
+      "number": 17,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 19465,
       "name": "David Raya",
       "number": 1,
@@ -1349,13 +1377,6 @@
       "start": false
     },
     {
-      "id": 47311,
-      "name": "Mikel Merino",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 328,
       "name": "Fabián Ruiz",
       "number": 8,
@@ -1374,27 +1395,6 @@
       "name": "Martín Zubimendi",
       "number": 18,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 183799,
-      "name": "Nico Williams",
-      "number": 17,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 931,
-      "name": "Ferran Torres",
-      "number": 7,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 184226,
-      "name": "Yéremy Pino",
-      "number": 11,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -3086,6 +3086,34 @@
       "start": true
     },
     {
+      "id": 44349,
+      "name": "Mohamed Kanno",
+      "number": 23,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 44382,
+      "name": "Abdullah Al-Hamdan",
+      "number": 19,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 403087,
+      "name": "Mohammed Abu Al-Shamat",
+      "number": 26,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 43953,
+      "name": "Ala'a Al-Hejji",
+      "number": 18,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 193288,
       "name": "Nawaf Al-Aqidi",
       "number": 1,
@@ -3128,30 +3156,9 @@
       "start": false
     },
     {
-      "id": 403087,
-      "name": "Mohammed Abu Al-Shamat",
-      "number": 26,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 269172,
       "name": "Ziyad Aljohani",
       "number": 16,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 43953,
-      "name": "Ala'a Al-Hejji",
-      "number": 18,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 44349,
-      "name": "Mohamed Kanno",
-      "number": 23,
       "pos": "Midfielder",
       "start": false
     },
@@ -3173,13 +3180,6 @@
       "id": 44701,
       "name": "Khalid Al-Ghannam",
       "number": 17,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 44382,
-      "name": "Abdullah Al-Hamdan",
-      "number": 19,
       "pos": "Attacker",
       "start": false
     },
