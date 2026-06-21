@@ -8349,6 +8349,20 @@
       "start": true
     },
     {
+      "id": 361966,
+      "name": "Kevin Rodriguez",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 311543,
+      "name": "Nilson Angulo",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 81224,
       "name": "Moisés Ramírez",
       "number": 12,
@@ -8398,13 +8412,6 @@
       "start": false
     },
     {
-      "id": 311543,
-      "name": "Nilson Angulo",
-      "number": 20,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 406303,
       "name": "Kendry Páez",
       "number": 10,
@@ -8416,13 +8423,6 @@
       "name": "Denil Castillo",
       "number": 18,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 361966,
-      "name": "Kevin Rodriguez",
-      "number": 11,
-      "pos": "Attacker",
       "start": false
     },
     {
