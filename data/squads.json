@@ -3770,6 +3770,27 @@
       "start": true
     },
     {
+      "id": 135059,
+      "name": "Amine Ben Hmida",
+      "number": 21,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 310196,
+      "name": "Ismael Gharbi",
+      "number": 11,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 2962,
+      "name": "Firas Chaouat",
+      "number": 19,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 533394,
       "name": "Abdelmouhib Chamakh",
       "number": 1,
@@ -3787,13 +3808,6 @@
       "id": 393977,
       "name": "Adem Arous",
       "number": 5,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 135059,
-      "name": "Amine Ben Hmida",
-      "number": 21,
       "pos": "Defender",
       "start": false
     },
@@ -3816,13 +3830,6 @@
       "name": "Elias Achouri",
       "number": 7,
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 310196,
-      "name": "Ismael Gharbi",
-      "number": 11,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -3850,13 +3857,6 @@
       "id": 344862,
       "name": "Hazem Mastouri",
       "number": 9,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 2962,
-      "name": "Firas Chaouat",
-      "number": 19,
       "pos": "Attacker",
       "start": false
     },
