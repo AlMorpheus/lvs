@@ -722,6 +722,34 @@
     "lockedAt": "2026-06-21T04:00:34.992Z",
     "syncedAt": "2026-06-21T04:00:34.992Z"
   },
+  "1489397": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Mikel Oyarzabal",
+        "team": "home",
+        "pos": "нап",
+        "id": "47323"
+      },
+      {
+        "name": "Lamine Yamal",
+        "team": "home",
+        "pos": "пз",
+        "id": "386828"
+      },
+      {
+        "name": "Dani Olmo",
+        "team": "home",
+        "pos": null,
+        "id": "1323"
+      }
+    ],
+    "lockedAt": "2026-06-21T16:00:17.926Z",
+    "syncedAt": "2026-06-21T16:00:17.926Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
