@@ -365,7 +365,7 @@
     "team": "1117"
   },
   "563": {
-    "name": "Álex Grimaldo",
+    "name": "Alejandro Grimaldo",
     "pos": "Defender",
     "team": "9"
   },
@@ -3375,12 +3375,12 @@
     "team": "23"
   },
   "44315": {
-    "name": "Abdullah Al Khaibari",
+    "name": "Abdullah Al-Khaibari",
     "pos": "Midfielder",
     "team": "23"
   },
   "44324": {
-    "name": "Feras Al Brikan",
+    "name": "Firas Al-Buraikan",
     "pos": "Attacker",
     "team": "23"
   },
@@ -3390,12 +3390,12 @@
     "team": "23"
   },
   "44339": {
-    "name": "Nasser Al Dawsari",
+    "name": "Nasser Al-Dawsari",
     "pos": "Midfielder",
     "team": "23"
   },
   "44340": {
-    "name": "Salem Al Dawsari",
+    "name": "Salem Al-Dawsari",
     "pos": "Attacker",
     "team": "23"
   },
@@ -3405,7 +3405,7 @@
     "team": "23"
   },
   "44362": {
-    "name": "Hassan Tambakti",
+    "name": "Hassan Altambakti",
     "pos": "Defender",
     "team": "23"
   },
@@ -3415,12 +3415,12 @@
     "team": "23"
   },
   "44382": {
-    "name": "Abdullah Al Hamdan",
+    "name": "Abdullah Al-Hamdan",
     "pos": "Attacker",
     "team": "23"
   },
   "44411": {
-    "name": "Mohammed Al Owais",
+    "name": "Mohammed Al-Owais",
     "pos": "Goalkeeper",
     "team": "23"
   },
@@ -3430,7 +3430,7 @@
     "team": "774"
   },
   "44449": {
-    "name": "Ahmed Al Kassar",
+    "name": "Ahmed Al-Kassar",
     "pos": "Goalkeeper",
     "team": "23"
   },
@@ -3445,7 +3445,7 @@
     "team": "23"
   },
   "44551": {
-    "name": "Saleh Al Shehri",
+    "name": "Saleh Al-Shehri",
     "pos": "Attacker",
     "team": "23"
   },
@@ -3460,7 +3460,7 @@
     "team": "1533"
   },
   "44701": {
-    "name": "Khalid Al Ghannam",
+    "name": "Khalid Al-Ghannam",
     "pos": "Attacker",
     "team": "23"
   },
@@ -5300,7 +5300,7 @@
     "team": "25"
   },
   "182219": {
-    "name": "Álex Baena",
+    "name": "Alex Baena",
     "pos": "Midfielder",
     "team": "9"
   },
@@ -5315,7 +5315,7 @@
     "team": "9"
   },
   "184226": {
-    "name": "Yeremy Pino",
+    "name": "Yéremy Pino",
     "pos": "Attacker",
     "team": "9"
   },
@@ -5360,7 +5360,7 @@
     "team": "5529"
   },
   "193288": {
-    "name": "Nawaf Al Aqidi",
+    "name": "Nawaf Al-Aqidi",
     "pos": "Goalkeeper",
     "team": "23"
   },
@@ -5510,7 +5510,7 @@
     "team": "1117"
   },
   "202381": {
-    "name": "Moteb Al Harbi",
+    "name": "Moteb Al-Harbi",
     "pos": "Defender",
     "team": "23"
   },
@@ -5735,7 +5735,7 @@
     "team": "1533"
   },
   "269172": {
-    "name": "Ziyad Al Johani",
+    "name": "Ziyad Aljohani",
     "pos": "Midfielder",
     "team": "23"
   },
@@ -6025,7 +6025,7 @@
     "team": "20"
   },
   "296667": {
-    "name": "Gavi",
+    "name": "Pablo Gavi",
     "pos": "Midfielder",
     "team": "9"
   },
@@ -6910,7 +6910,7 @@
     "team": "1113"
   },
   "396623": {
-    "name": "Pau Cubarsí Paredes",
+    "name": "Pau Cubarsí",
     "pos": "Defender",
     "team": "9"
   },
@@ -6925,7 +6925,7 @@
     "team": "13"
   },
   "403087": {
-    "name": "Mohammed Abu Al Shamat",
+    "name": "Mohammed Abu Al-Shamat",
     "pos": "Defender",
     "team": "23"
   },
