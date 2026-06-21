@@ -2898,6 +2898,13 @@
       "start": true
     },
     {
+      "id": 2685,
+      "name": "Ehsan Hajsafi",
+      "number": 3,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 2691,
       "name": "Ramin Rezaeian",
       "number": 23,
@@ -2909,13 +2916,6 @@
       "name": "Saman Ghoddos",
       "number": 14,
       "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 2685,
-      "name": "Ehsan Hajsafi",
-      "number": 3,
-      "pos": "Defender",
       "start": true
     },
     {
