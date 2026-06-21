@@ -2031,7 +2031,7 @@
   {
     "id": "1489394",
     "date": "2026-06-21T04:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2049,12 +2049,48 @@
       "home": 0,
       "away": 4
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 4
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T05:58:28.469Z",
     "lineupAt": "2026-06-21T02:56:44.690Z",
     "remind2hAt": "2026-06-21T02:00:32.570Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 2601,
+        "name": "D. Kamada",
+        "teamId": 12,
+        "minute": 4,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 72155,
+        "name": "A. Ueda",
+        "teamId": 12,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1942,
+        "name": "J. Ito",
+        "teamId": 12,
+        "minute": 69,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 72155,
+        "name": "A. Ueda",
+        "teamId": 12,
+        "minute": 83,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
