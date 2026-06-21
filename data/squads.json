@@ -942,16 +942,16 @@
       "start": true
     },
     {
-      "id": 863,
-      "name": "Rodrigo Bentancur",
-      "number": 6,
+      "id": 51603,
+      "name": "Agustín Canobbio",
+      "number": 14,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 51603,
-      "name": "Agustín Canobbio",
-      "number": 14,
+      "id": 863,
+      "name": "Rodrigo Bentancur",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
@@ -7390,17 +7390,17 @@
       "start": true
     },
     {
-      "id": 265556,
-      "name": "Telmo Arcanjo",
-      "number": 18,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 50270,
       "name": "Ryan Mendes",
       "number": 20,
       "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 265556,
+      "name": "Telmo Arcanjo",
+      "number": 18,
+      "pos": "Midfielder",
       "start": true
     },
     {
