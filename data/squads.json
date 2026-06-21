@@ -1791,9 +1791,9 @@
       "start": true
     },
     {
-      "id": 2601,
-      "name": "Daichi Kamada",
-      "number": 15,
+      "id": 32966,
+      "name": "Ao Tanaka",
+      "number": 7,
       "pos": "Midfielder",
       "start": true
     },
@@ -1812,9 +1812,9 @@
       "start": true
     },
     {
-      "id": 32966,
-      "name": "Ao Tanaka",
-      "number": 7,
+      "id": 2601,
+      "name": "Daichi Kamada",
+      "number": 15,
       "pos": "Midfielder",
       "start": true
     },
@@ -3700,9 +3700,9 @@
       "start": true
     },
     {
-      "id": 163068,
-      "name": "Omar Rekik",
-      "number": 4,
+      "id": 2945,
+      "name": "Dylan Bronn",
+      "number": 6,
       "pos": "Defender",
       "start": true
     },
@@ -3714,9 +3714,9 @@
       "start": true
     },
     {
-      "id": 2945,
-      "name": "Dylan Bronn",
-      "number": 6,
+      "id": 163068,
+      "name": "Omar Rekik",
+      "number": 4,
       "pos": "Defender",
       "start": true
     },
@@ -3728,16 +3728,16 @@
       "start": true
     },
     {
-      "id": 21587,
-      "name": "Ellyes Skhiri",
-      "number": 17,
+      "id": 199310,
+      "name": "Anis Ben Slimane",
+      "number": 25,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 180560,
-      "name": "Hannibal Mejbri",
-      "number": 10,
+      "id": 21587,
+      "name": "Ellyes Skhiri",
+      "number": 17,
       "pos": "Midfielder",
       "start": true
     },
@@ -3756,16 +3756,16 @@
       "start": true
     },
     {
-      "id": 57518,
-      "name": "Sebastian Tounekti",
-      "number": 26,
+      "id": 180560,
+      "name": "Hannibal Mejbri",
+      "number": 10,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 199310,
-      "name": "Anis Ben Slimane",
-      "number": 25,
+      "id": 57518,
+      "name": "Sebastian Tounekti",
+      "number": 26,
       "pos": "Midfielder",
       "start": true
     },
