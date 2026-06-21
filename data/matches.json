@@ -2097,7 +2097,7 @@
   {
     "id": "1489397",
     "date": "2026-06-21T16:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2115,12 +2115,48 @@
       "home": 4,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 4,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T18:02:58.367Z",
     "lineupAt": "2026-06-21T14:55:47.683Z",
     "remind2hAt": "2026-06-21T14:00:21.435Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 386828,
+        "name": "Lamine Yamal",
+        "teamId": 9,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 24,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 44362,
+        "name": "H. Tambakti",
+        "teamId": 9,
+        "minute": 49,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
