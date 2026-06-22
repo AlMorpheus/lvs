@@ -2262,7 +2262,7 @@
   {
     "id": "1489396",
     "date": "2026-06-22T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2280,12 +2280,48 @@
       "home": 1,
       "away": 3
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-22T03:02:09.747Z",
     "lineupAt": "2026-06-22T00:25:54.837Z",
     "remind2hAt": "2026-06-21T23:01:41.500Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 210165,
+        "name": "F. Surman",
+        "teamId": 4673,
+        "minute": 15,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 395075,
+        "name": "M. Ziko",
+        "teamId": 32,
+        "minute": 58,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 306,
+        "name": "M. Salah",
+        "teamId": 32,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2664,
+        "name": "Trezeguet",
+        "teamId": 32,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
