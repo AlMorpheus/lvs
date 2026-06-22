@@ -2196,7 +2196,7 @@
   {
     "id": "1489398",
     "date": "2026-06-21T22:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2214,12 +2214,48 @@
       "home": 2,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-22T00:06:42.533Z",
     "lineupAt": "2026-06-21T20:52:21.838Z",
     "remind2hAt": "2026-06-21T20:01:29.474Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 96512,
+        "name": "K. Lenini",
+        "teamId": 1533,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 51776,
+        "name": "M. Araujo",
+        "teamId": 7,
+        "minute": 44,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 51603,
+        "name": "A. Canobbio",
+        "teamId": 7,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 291024,
+        "name": "H. Varela",
+        "teamId": 1533,
+        "minute": 61,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },

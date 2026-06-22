@@ -1,6 +1,448 @@
 {
   "table": [
     {
+      "id": "sasha",
+      "name": "Мастер",
+      "matchPts": 417,
+      "futuresPts": 0,
+      "total": 417,
+      "exactCount": 3,
+      "perMatch": {
+        "1489369": {
+          "scorePts": 25,
+          "scorerPts": 6,
+          "correctScorers": 2,
+          "base": 31,
+          "multiplier": 2,
+          "special": 0,
+          "total": 62,
+          "isExact": true,
+          "usedReg": false
+        },
+        "1489370": {
+          "scorePts": 7,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 9,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489371": {
+          "scorePts": 25,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 29,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 38,
+          "isExact": true,
+          "usedReg": false
+        },
+        "1489372": {
+          "scorePts": 7,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 11,
+          "multiplier": 1,
+          "special": 0,
+          "total": 11,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489373": {
+          "scorePts": 0,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 2,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 3,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489374": {
+          "scorePts": 7,
+          "scorerPts": 6,
+          "correctScorers": 2,
+          "base": 13,
+          "multiplier": 1,
+          "special": 0,
+          "total": 13,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489375": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489376": {
+          "scorePts": 12,
+          "scorerPts": 7,
+          "correctScorers": 1,
+          "base": 19,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 25,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489377": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489378": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489379": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 1,
+          "special": 0,
+          "total": 5,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489380": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489381": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489382": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489383": {
+          "scorePts": 7,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 9,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489384": {
+          "scorePts": 7,
+          "scorerPts": 6,
+          "correctScorers": 2,
+          "base": 13,
+          "multiplier": 1.6,
+          "special": 0,
+          "total": 21,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489385": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489386": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489387": {
+          "scorePts": 7,
+          "scorerPts": 4,
+          "correctScorers": 2,
+          "base": 11,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 14,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489388": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489389": {
+          "scorePts": 25,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 29,
+          "multiplier": 1,
+          "special": 0,
+          "total": 29,
+          "isExact": true,
+          "usedReg": false
+        },
+        "1489390": {
+          "scorePts": 12,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 16,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 21,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489391": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 9,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489392": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489393": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 9,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489394": {
+          "scorePts": 7,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 9,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489395": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489397": {
+          "scorePts": 7,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 9,
+          "multiplier": 1,
+          "special": 0,
+          "total": 9,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1,
+          "special": 0,
+          "total": 4,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1538999": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539000": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 1,
+          "special": 0,
+          "total": 5,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539001": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539002": {
+          "scorePts": 7,
+          "scorerPts": 4,
+          "correctScorers": 2,
+          "base": 11,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 14,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539003": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539004": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1,
+          "special": 0,
+          "total": 4,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539005": {
+          "scorePts": 7,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 11,
+          "multiplier": 1,
+          "special": 0,
+          "total": 11,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539006": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539007": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 9,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1539016": {
+          "scorePts": 12,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 14,
+          "multiplier": 1.3,
+          "special": 0,
+          "total": 18,
+          "isExact": false,
+          "usedReg": false
+        }
+      },
+      "rank": 1,
+      "champion": "27",
+      "topScorer": "278"
+    },
+    {
       "id": "sergey",
       "name": "Мел",
       "matchPts": 416,
@@ -316,6 +758,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -427,447 +880,16 @@
           "usedReg": false
         }
       },
-      "rank": 1,
+      "rank": 2,
       "champion": "9",
       "topScorer": "184"
     },
     {
-      "id": "sasha",
-      "name": "Мастер",
+      "id": "betanalyse",
+      "name": "🤖 Шеф",
       "matchPts": 413,
       "futuresPts": 0,
       "total": 413,
-      "exactCount": 3,
-      "perMatch": {
-        "1489369": {
-          "scorePts": 25,
-          "scorerPts": 6,
-          "correctScorers": 2,
-          "base": 31,
-          "multiplier": 2,
-          "special": 0,
-          "total": 62,
-          "isExact": true,
-          "usedReg": false
-        },
-        "1489370": {
-          "scorePts": 7,
-          "scorerPts": 2,
-          "correctScorers": 1,
-          "base": 9,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 12,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489371": {
-          "scorePts": 25,
-          "scorerPts": 4,
-          "correctScorers": 1,
-          "base": 29,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 38,
-          "isExact": true,
-          "usedReg": false
-        },
-        "1489372": {
-          "scorePts": 7,
-          "scorerPts": 4,
-          "correctScorers": 1,
-          "base": 11,
-          "multiplier": 1,
-          "special": 0,
-          "total": 11,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489373": {
-          "scorePts": 0,
-          "scorerPts": 2,
-          "correctScorers": 1,
-          "base": 2,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 3,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489374": {
-          "scorePts": 7,
-          "scorerPts": 6,
-          "correctScorers": 2,
-          "base": 13,
-          "multiplier": 1,
-          "special": 0,
-          "total": 13,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489375": {
-          "scorePts": 5,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 5,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 7,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489376": {
-          "scorePts": 12,
-          "scorerPts": 7,
-          "correctScorers": 1,
-          "base": 19,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 25,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489377": {
-          "scorePts": 5,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 5,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 7,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489378": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489379": {
-          "scorePts": 5,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 5,
-          "multiplier": 1,
-          "special": 0,
-          "total": 5,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489380": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489381": {
-          "scorePts": 7,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 7,
-          "multiplier": 1,
-          "special": 0,
-          "total": 7,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489382": {
-          "scorePts": 7,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 7,
-          "multiplier": 1,
-          "special": 0,
-          "total": 7,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489383": {
-          "scorePts": 7,
-          "scorerPts": 2,
-          "correctScorers": 1,
-          "base": 9,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 12,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489384": {
-          "scorePts": 7,
-          "scorerPts": 6,
-          "correctScorers": 2,
-          "base": 13,
-          "multiplier": 1.6,
-          "special": 0,
-          "total": 21,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489385": {
-          "scorePts": 12,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 12,
-          "multiplier": 1,
-          "special": 0,
-          "total": 12,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489386": {
-          "scorePts": 7,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 7,
-          "multiplier": 1,
-          "special": 0,
-          "total": 7,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489387": {
-          "scorePts": 7,
-          "scorerPts": 4,
-          "correctScorers": 2,
-          "base": 11,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 14,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489388": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489389": {
-          "scorePts": 25,
-          "scorerPts": 4,
-          "correctScorers": 1,
-          "base": 29,
-          "multiplier": 1,
-          "special": 0,
-          "total": 29,
-          "isExact": true,
-          "usedReg": false
-        },
-        "1489390": {
-          "scorePts": 12,
-          "scorerPts": 4,
-          "correctScorers": 1,
-          "base": 16,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 21,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489391": {
-          "scorePts": 7,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 7,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 9,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489392": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489393": {
-          "scorePts": 7,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 7,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 9,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489394": {
-          "scorePts": 7,
-          "scorerPts": 2,
-          "correctScorers": 1,
-          "base": 9,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 12,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489395": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1489397": {
-          "scorePts": 7,
-          "scorerPts": 2,
-          "correctScorers": 1,
-          "base": 9,
-          "multiplier": 1,
-          "special": 0,
-          "total": 9,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1538999": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539000": {
-          "scorePts": 5,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 5,
-          "multiplier": 1,
-          "special": 0,
-          "total": 5,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539001": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539002": {
-          "scorePts": 7,
-          "scorerPts": 4,
-          "correctScorers": 2,
-          "base": 11,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 14,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539003": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539004": {
-          "scorePts": 0,
-          "scorerPts": 4,
-          "correctScorers": 1,
-          "base": 4,
-          "multiplier": 1,
-          "special": 0,
-          "total": 4,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539005": {
-          "scorePts": 7,
-          "scorerPts": 4,
-          "correctScorers": 1,
-          "base": 11,
-          "multiplier": 1,
-          "special": 0,
-          "total": 11,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539006": {
-          "scorePts": 0,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 0,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 0,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539007": {
-          "scorePts": 7,
-          "scorerPts": 0,
-          "correctScorers": 0,
-          "base": 7,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 9,
-          "isExact": false,
-          "usedReg": false
-        },
-        "1539016": {
-          "scorePts": 12,
-          "scorerPts": 2,
-          "correctScorers": 1,
-          "base": 14,
-          "multiplier": 1.3,
-          "special": 0,
-          "total": 18,
-          "isExact": false,
-          "usedReg": false
-        }
-      },
-      "rank": 2,
-      "champion": "27",
-      "topScorer": "278"
-    },
-    {
-      "id": "betanalyse",
-      "name": "🤖 Шеф",
-      "matchPts": 409,
-      "futuresPts": 0,
-      "total": 409,
       "exactCount": 2,
       "perMatch": {
         "1489369": {
@@ -1178,6 +1200,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1,
+          "special": 0,
+          "total": 4,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -1296,9 +1329,9 @@
     {
       "id": "albert",
       "name": "Альберт",
-      "matchPts": 407,
+      "matchPts": 411,
       "futuresPts": 0,
-      "total": 407,
+      "total": 411,
       "exactCount": 6,
       "perMatch": {
         "1489369": {
@@ -1596,6 +1629,17 @@
           "special": 0,
           "total": 27,
           "isExact": true,
+          "usedReg": false
+        },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1,
+          "special": 0,
+          "total": 4,
+          "isExact": false,
           "usedReg": false
         },
         "1538999": {
@@ -2007,6 +2051,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -2405,6 +2460,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -2490,9 +2556,9 @@
     {
       "id": "dasha",
       "name": "Даша",
-      "matchPts": 271,
+      "matchPts": 275,
       "futuresPts": 0,
-      "total": 271,
+      "total": 275,
       "exactCount": 1,
       "perMatch": {
         "1489369": {
@@ -2792,6 +2858,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489398": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 1,
+          "special": 0,
+          "total": 4,
+          "isExact": false,
+          "usedReg": false
+        },
         "1538999": {
           "scorePts": 0,
           "scorerPts": 0,
@@ -2910,5 +2987,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-21T21:02:38.749Z"
+  "updatedAt": "2026-06-22T00:06:45.313Z"
 }
