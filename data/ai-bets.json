@@ -750,6 +750,34 @@
     "lockedAt": "2026-06-21T19:00:14.890Z",
     "syncedAt": "2026-06-21T19:00:14.890Z"
   },
+  "1489396": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Mohamed Salah",
+        "team": "away",
+        "pos": "пз",
+        "id": "306"
+      },
+      {
+        "name": "Omar Marmoush",
+        "team": "away",
+        "pos": "нап",
+        "id": "81573"
+      },
+      {
+        "name": "Chris Wood",
+        "team": "home",
+        "pos": "нап",
+        "id": "18931"
+      }
+    ],
+    "lockedAt": "2026-06-22T01:00:50.687Z",
+    "syncedAt": "2026-06-22T01:00:50.687Z"
+  },
   "1489397": {
     "score": {
       "home": 3,
