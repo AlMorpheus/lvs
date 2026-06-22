@@ -3452,6 +3452,27 @@
       "start": true
     },
     {
+      "id": 624,
+      "name": "Nicolás Otamendi",
+      "number": 19,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 26315,
+      "name": "Nicolás González",
+      "number": 15,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 6009,
+      "name": "Julián Alvarez",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2465,
       "name": "Juan Musso",
       "number": 1,
@@ -3469,13 +3490,6 @@
       "id": 529,
       "name": "Nicolás Tagliafico",
       "number": 3,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 624,
-      "name": "Nicolás Otamendi",
-      "number": 19,
       "pos": "Defender",
       "start": false
     },
@@ -3536,23 +3550,9 @@
       "start": false
     },
     {
-      "id": 26315,
-      "name": "Nicolás González",
-      "number": 15,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 295513,
       "name": "José Manuel López",
       "number": 21,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 6009,
-      "name": "Julián Alvarez",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     }
