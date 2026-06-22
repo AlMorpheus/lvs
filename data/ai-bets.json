@@ -834,6 +834,34 @@
     "lockedAt": "2026-06-21T22:00:19.261Z",
     "syncedAt": "2026-06-21T22:00:19.261Z"
   },
+  "1489399": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Lionel Messi",
+        "team": "home",
+        "pos": "нап",
+        "id": "154"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "team": "home",
+        "pos": "нап",
+        "id": "217"
+      },
+      {
+        "name": "Michael Gregoritsch",
+        "team": "away",
+        "pos": "нап",
+        "id": "25297"
+      }
+    ],
+    "lockedAt": "2026-06-22T17:00:20.138Z",
+    "syncedAt": "2026-06-22T17:00:20.138Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
