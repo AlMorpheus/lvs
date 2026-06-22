@@ -1138,5 +1138,33 @@
     ],
     "lockedAt": "2026-06-16T22:01:20.753Z",
     "syncedAt": "2026-06-16T22:01:20.753Z"
+  },
+  "1539017": {
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "home",
+        "pos": "нап",
+        "id": "278"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "home",
+        "pos": "пз",
+        "id": "153"
+      },
+      {
+        "name": "Bradley Barcola",
+        "team": "home",
+        "pos": "пз",
+        "id": "161904"
+      }
+    ],
+    "lockedAt": "2026-06-22T21:01:52.528Z",
+    "syncedAt": "2026-06-22T21:01:52.528Z"
   }
 }
