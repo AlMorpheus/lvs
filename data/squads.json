@@ -220,16 +220,16 @@
       "start": true
     },
     {
-      "id": 19617,
-      "name": "Michael Olise",
-      "number": 11,
+      "id": 153,
+      "name": "Ousmane Dembélé",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
     {
-      "id": 153,
-      "name": "Ousmane Dembélé",
-      "number": 7,
+      "id": 19617,
+      "name": "Michael Olise",
+      "number": 11,
       "pos": "Attacker",
       "start": true
     },
@@ -7673,13 +7673,6 @@
       "start": true
     },
     {
-      "id": 47792,
-      "name": "Amir Al-Ammari",
-      "number": 16,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 626479,
       "name": "Zaid Ismail",
       "number": 24,
@@ -7687,9 +7680,9 @@
       "start": true
     },
     {
-      "id": 140747,
-      "name": "Ibrahim Bayesh",
-      "number": 8,
+      "id": 47792,
+      "name": "Amir Al-Ammari",
+      "number": 16,
       "pos": "Midfielder",
       "start": true
     },
@@ -7712,6 +7705,13 @@
       "name": "Aymen Hussein",
       "number": 18,
       "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 140747,
+      "name": "Ibrahim Bayesh",
+      "number": 8,
+      "pos": "Midfielder",
       "start": true
     },
     {
