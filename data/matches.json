@@ -2378,7 +2378,7 @@
   {
     "id": "1539017",
     "date": "2026-06-22T21:00:00+00:00",
-    "status": "HT",
+    "status": "INT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2430,8 +2430,7 @@
     "remind2hAt": "2026-06-22T22:01:55.471Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3,
-    "remindJustDue": true
+    "multiplier": 1.3
   },
   {
     "id": "1489400",
