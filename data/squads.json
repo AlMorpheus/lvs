@@ -7673,23 +7673,9 @@
       "start": true
     },
     {
-      "id": 626479,
-      "name": "Zaid Ismail",
-      "number": 24,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 47792,
       "name": "Amir Al-Ammari",
       "number": 16,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 284295,
-      "name": "Zidane Iqbal",
-      "number": 14,
       "pos": "Midfielder",
       "start": true
     },
@@ -7701,10 +7687,17 @@
       "start": true
     },
     {
-      "id": 49451,
-      "name": "Aymen Hussein",
-      "number": 18,
-      "pos": "Attacker",
+      "id": 626479,
+      "name": "Zaid Ismail",
+      "number": 24,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 284295,
+      "name": "Zidane Iqbal",
+      "number": 14,
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -7713,6 +7706,20 @@
       "number": 8,
       "pos": "Midfielder",
       "start": true
+    },
+    {
+      "id": 49451,
+      "name": "Aymen Hussein",
+      "number": 18,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 299813,
+      "name": "Ali Al-Hamadi",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
     },
     {
       "id": 123802,
@@ -7802,13 +7809,6 @@
       "id": 163854,
       "name": "Ali Yousif",
       "number": 13,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 299813,
-      "name": "Ali Al-Hamadi",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     },
