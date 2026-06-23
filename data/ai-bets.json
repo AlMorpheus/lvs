@@ -918,6 +918,34 @@
     "lockedAt": "2026-06-23T00:00:28.122Z",
     "syncedAt": "2026-06-23T00:00:28.122Z"
   },
+  "1489402": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Harry Kane",
+        "team": "home",
+        "pos": "нап",
+        "id": "184"
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "home",
+        "pos": "пз",
+        "id": "129718"
+      },
+      {
+        "name": "Anthony Gordon",
+        "team": "home",
+        "pos": "пз",
+        "id": "138787"
+      }
+    ],
+    "lockedAt": "2026-06-23T20:01:17.295Z",
+    "syncedAt": "2026-06-23T20:01:17.295Z"
+  },
   "1489404": {
     "score": {
       "home": 3,
