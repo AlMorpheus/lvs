@@ -862,6 +862,34 @@
     "lockedAt": "2026-06-22T17:00:20.138Z",
     "syncedAt": "2026-06-22T17:00:20.138Z"
   },
+  "1489400": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Riyad Mahrez",
+        "team": "away",
+        "pos": "нап",
+        "id": "635"
+      },
+      {
+        "name": "Amine Gouiri",
+        "team": "away",
+        "pos": "нап",
+        "id": "85041"
+      },
+      {
+        "name": "Mousa Tamari",
+        "team": "home",
+        "pos": "нап",
+        "id": "15286"
+      }
+    ],
+    "lockedAt": "2026-06-23T03:01:35.573Z",
+    "syncedAt": "2026-06-23T03:01:35.573Z"
+  },
   "1489401": {
     "score": {
       "home": 2,
