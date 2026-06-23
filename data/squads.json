@@ -1949,10 +1949,31 @@
       "start": true
     },
     {
+      "id": 158121,
+      "name": "Ismail Jakobs",
+      "number": 14,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 446249,
+      "name": "Ibrahim Mbaye",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 119853,
       "name": "Mory Diaw",
       "number": 23,
       "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 41552,
+      "name": "Pathé Ismaël Ciss",
+      "number": 6,
+      "pos": "Midfielder",
       "start": false
     },
     {
@@ -1970,13 +1991,6 @@
       "start": false
     },
     {
-      "id": 158121,
-      "name": "Ismail Jakobs",
-      "number": 14,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 8450,
       "name": "Abdoulaye Seck",
       "number": 4,
@@ -1988,13 +2002,6 @@
       "name": "Antoine Mendy",
       "number": 24,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 41552,
-      "name": "Pathé Ismaël Ciss",
-      "number": 6,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -2023,13 +2030,6 @@
       "name": "Habib Diarra",
       "number": 21,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 446249,
-      "name": "Ibrahim Mbaye",
-      "number": 20,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -5271,6 +5271,13 @@
       "start": false
     },
     {
+      "id": 39064,
+      "name": "Patrick Berg",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 264378,
       "name": "Sander Tangvik",
       "number": 12,
@@ -5344,13 +5351,6 @@
       "id": 36980,
       "name": "Morten Thorsby",
       "number": 2,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 39064,
-      "name": "Patrick Berg",
-      "number": 6,
       "pos": "Midfielder",
       "start": false
     },
