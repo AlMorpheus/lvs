@@ -3591,6 +3591,27 @@
       "start": true
     },
     {
+      "id": 130,
+      "name": "Nélson Semedo",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 161585,
+      "name": "Francisco Conceição",
+      "number": 26,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 41112,
+      "name": "Francisco Trincão",
+      "number": 16,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 1590,
       "name": "José Sá",
       "number": 12,
@@ -3602,13 +3623,6 @@
       "name": "Rui Silva",
       "number": 22,
       "pos": "Goalkeeper",
-      "start": false
-    },
-    {
-      "id": 130,
-      "name": "Nélson Semedo",
-      "number": 2,
-      "pos": "Defender",
       "start": false
     },
     {
@@ -3668,13 +3682,6 @@
       "start": false
     },
     {
-      "id": 41112,
-      "name": "Francisco Trincão",
-      "number": 16,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 41585,
       "name": "Gonçalo Ramos",
       "number": 9,
@@ -3685,13 +3692,6 @@
       "id": 22236,
       "name": "Rafael Leão",
       "number": 17,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 161585,
-      "name": "Francisco Conceição",
-      "number": 26,
       "pos": "Attacker",
       "start": false
     }
@@ -7854,6 +7854,20 @@
       "start": true
     },
     {
+      "id": 72122,
+      "name": "Khozhiakbar Alizhonov",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 73522,
+      "name": "Akmal Mozgovoy",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 72120,
       "name": "Botirali Ergashev",
       "number": 16,
@@ -7882,13 +7896,6 @@
       "start": false
     },
     {
-      "id": 72122,
-      "name": "Khozhiakbar Alizhonov",
-      "number": 3,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 358427,
       "name": "Jakhongir Urozov",
       "number": 26,
@@ -7900,13 +7907,6 @@
       "name": "Umarbek Eshmuradov",
       "number": 15,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 73522,
-      "name": "Akmal Mozgovoy",
-      "number": 6,
-      "pos": "Midfielder",
       "start": false
     },
     {
