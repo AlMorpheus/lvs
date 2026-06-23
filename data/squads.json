@@ -355,186 +355,160 @@
   ],
   "3": [
     {
-      "id": 1305,
-      "name": "Dominik Livaković",
-      "number": 1,
-      "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 14701,
-      "name": "Josip Šutalo",
-      "number": 6,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 387521,
-      "name": "Luka Vušković",
-      "number": 22,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 129033,
-      "name": "Joško Gvardiol",
-      "number": 4,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 125171,
-      "name": "Josip Stanišić",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 754,
-      "name": "Luka Modrić",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 2763,
-      "name": "Mario Pašalić",
-      "number": 15,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 207,
-      "name": "Ivan Perišić",
-      "number": 14,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 348205,
-      "name": "Petar Sučić",
-      "number": 17,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 295026,
-      "name": "Martin Baturina",
-      "number": 16,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 66055,
-      "name": "Petar Musa",
-      "number": 26,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 2291,
-      "name": "Mateo Kovačić",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 260865,
-      "name": "Marco Pašalić",
-      "number": 24,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 202696,
-      "name": "Igor Matanović",
-      "number": 20,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 524,
-      "name": "Dominik Kotarski",
-      "number": 23,
+      "name": "D. Kotarski",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 23
+    },
+    {
+      "id": 1305,
+      "name": "D. Livakovic",
+      "pos": "Goalkeeper",
+      "number": 1
     },
     {
       "id": 14268,
-      "name": "Ivor Pandur",
-      "number": 12,
+      "name": "I. Pandur",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 12
     },
     {
       "id": 1902,
-      "name": "Duje Ćaleta-Car",
-      "number": 5,
+      "name": "D. Caleta-Car",
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 1084,
-      "name": "Marin Pongračić",
-      "number": 3,
-      "pos": "Defender",
-      "start": false
+      "number": 5
     },
     {
       "id": 30827,
-      "name": "Martin Erlić",
-      "number": 25,
+      "name": "M. Erlic",
       "pos": "Defender",
-      "start": false
+      "number": 25
     },
     {
-      "id": 14395,
-      "name": "Kristijan Jakić",
-      "number": 18,
+      "id": 129033,
+      "name": "J. Gvardiol",
       "pos": "Defender",
-      "start": false
+      "number": 4
     },
     {
-      "id": 7332,
-      "name": "Luka Sučić",
-      "number": 21,
-      "pos": "Midfielder",
-      "start": false
+      "id": 1084,
+      "name": "M. Pongracic",
+      "pos": "Defender",
+      "number": 3
     },
     {
-      "id": 1322,
-      "name": "Nikola Moro",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": false
+      "id": 125171,
+      "name": "J. Stanisic",
+      "pos": "Defender",
+      "number": 2
     },
     {
-      "id": 842,
-      "name": "Nikola Vlašić",
-      "number": 13,
+      "id": 14701,
+      "name": "J. Sutalo",
+      "pos": "Defender",
+      "number": 6
+    },
+    {
+      "id": 387521,
+      "name": "L. Vuskovic",
+      "pos": "Defender",
+      "number": 22
+    },
+    {
+      "id": 295026,
+      "name": "M. Baturina",
       "pos": "Midfielder",
-      "start": false
+      "number": 16
     },
     {
       "id": 284869,
-      "name": "Toni Fruk",
-      "number": 19,
+      "name": "T. Fruk",
       "pos": "Midfielder",
-      "start": false
+      "number": 19
     },
     {
-      "id": 726,
-      "name": "Andrej Kramarić",
-      "number": 9,
-      "pos": "Attacker",
-      "start": false
+      "id": 14395,
+      "name": "K. Jakic",
+      "pos": "Defender",
+      "number": 18
+    },
+    {
+      "id": 2291,
+      "name": "M. Kovacic",
+      "pos": "Midfielder",
+      "number": 8
+    },
+    {
+      "id": 754,
+      "name": "L. Modric",
+      "pos": "Midfielder",
+      "number": 10
+    },
+    {
+      "id": 1322,
+      "name": "N. Moro",
+      "pos": "Midfielder",
+      "number": 7
+    },
+    {
+      "id": 2763,
+      "name": "Mario Pasalic",
+      "pos": "Midfielder",
+      "number": 15
+    },
+    {
+      "id": 7332,
+      "name": "L. Sucic",
+      "pos": "Midfielder",
+      "number": 21
+    },
+    {
+      "id": 348205,
+      "name": "P. Sucic",
+      "pos": "Midfielder",
+      "number": 17
+    },
+    {
+      "id": 842,
+      "name": "N. Vlasic",
+      "pos": "Midfielder",
+      "number": 13
     },
     {
       "id": 46746,
-      "name": "Ante Budimir",
-      "number": 11,
+      "name": "A. Budimir",
       "pos": "Attacker",
-      "start": false
+      "number": 11
+    },
+    {
+      "id": 726,
+      "name": "A. Kramaric",
+      "pos": "Attacker",
+      "number": 9
+    },
+    {
+      "id": 202696,
+      "name": "I. Matanovic",
+      "pos": "Attacker",
+      "number": 20
+    },
+    {
+      "id": 66055,
+      "name": "P. Musa",
+      "pos": "Attacker",
+      "number": 26
+    },
+    {
+      "id": 260865,
+      "name": "Marco Pasalic",
+      "pos": "Attacker",
+      "number": 24
+    },
+    {
+      "id": 207,
+      "name": "I. Perisic",
+      "pos": "Attacker",
+      "number": 14
     }
   ],
   "5": [
@@ -1070,186 +1044,160 @@
   ],
   "8": [
     {
-      "id": 2482,
-      "name": "Camilo Vargas",
-      "number": 12,
-      "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 13736,
-      "name": "Daniel Muñoz",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 168,
-      "name": "Davinson Sánchez",
-      "number": 23,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 1929,
-      "name": "Jhon Lucumí",
-      "number": 3,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 64268,
-      "name": "Johan Mojica",
-      "number": 17,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 324034,
-      "name": "Gustavo Puerta",
-      "number": 14,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 2490,
-      "name": "Jefferson Lerma",
-      "number": 16,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 13708,
-      "name": "Jhon Arias",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 517,
-      "name": "James Rodríguez",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 47237,
-      "name": "Luis Javier Suárez",
-      "number": 25,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 2489,
-      "name": "Luis Díaz",
-      "number": 7,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 2481,
-      "name": "Álvaro Montero",
-      "number": 24,
+      "name": "Á. Montero",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 24
     },
     {
       "id": 313,
-      "name": "David Ospina",
-      "number": 1,
+      "name": "D. Ospina",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 1
     },
     {
-      "id": 2483,
-      "name": "Deiver Machado",
-      "number": 22,
-      "pos": "Defender",
-      "start": false
+      "id": 2482,
+      "name": "C. Vargas",
+      "pos": "Goalkeeper",
+      "number": 12
     },
     {
       "id": 30,
-      "name": "Santiago Arias",
-      "number": 4,
+      "name": "S. Arias",
       "pos": "Defender",
-      "start": false
+      "number": 4
     },
     {
       "id": 13571,
-      "name": "Willer Ditta",
-      "number": 18,
+      "name": "W. Ditta",
       "pos": "Defender",
-      "start": false
+      "number": 18
+    },
+    {
+      "id": 1929,
+      "name": "J. Lucumí",
+      "pos": "Defender",
+      "number": 3
+    },
+    {
+      "id": 2483,
+      "name": "D. Machado",
+      "pos": "Defender",
+      "number": 22
     },
     {
       "id": 2484,
-      "name": "Yerry Mina",
-      "number": 13,
+      "name": "Y. Mina",
       "pos": "Defender",
-      "start": false
+      "number": 13
+    },
+    {
+      "id": 64268,
+      "name": "J. Mojica",
+      "pos": "Defender",
+      "number": 17
+    },
+    {
+      "id": 13736,
+      "name": "D. Muñoz",
+      "pos": "Defender",
+      "number": 2
+    },
+    {
+      "id": 324034,
+      "name": "G. Puerta",
+      "pos": "Defender",
+      "number": 14
+    },
+    {
+      "id": 168,
+      "name": "D. Sánchez",
+      "pos": "Defender",
+      "number": 23
     },
     {
       "id": 289592,
-      "name": "Kevin Castaño",
-      "number": 5,
+      "name": "K. Castaño",
       "pos": "Midfielder",
-      "start": false
+      "number": 5
     },
     {
-      "id": 195104,
-      "name": "Richard Ríos",
-      "number": 6,
+      "id": 2490,
+      "name": "J. Lerma",
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 5994,
-      "name": "Jorge Carrascal",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": false
+      "number": 16
     },
     {
       "id": 13151,
-      "name": "Juan Portilla",
-      "number": 15,
+      "name": "J. Portilla",
       "pos": "Midfielder",
-      "start": false
+      "number": 15
+    },
+    {
+      "id": 13708,
+      "name": "J. Arias",
+      "pos": "Midfielder",
+      "number": 11
+    },
+    {
+      "id": 5994,
+      "name": "J. Carrascal",
+      "pos": "Midfielder",
+      "number": 8
     },
     {
       "id": 6005,
-      "name": "Juan Fernando Quintero",
-      "number": 20,
+      "name": "J. Quintero",
       "pos": "Midfielder",
-      "start": false
+      "number": 20
+    },
+    {
+      "id": 195104,
+      "name": "R. Rios",
+      "pos": "Midfielder",
+      "number": 6
+    },
+    {
+      "id": 517,
+      "name": "J. Rodríguez",
+      "pos": "Midfielder",
+      "number": 10
     },
     {
       "id": 13376,
-      "name": "Jaminton Campaz",
-      "number": 21,
+      "name": "J. Campaz",
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 345748,
-      "name": "Andrés Gómez",
-      "number": 26,
-      "pos": "Attacker",
-      "start": false
+      "number": 21
     },
     {
       "id": 24810,
-      "name": "Jhon Córdoba",
-      "number": 9,
+      "name": "J. Córdoba",
       "pos": "Attacker",
-      "start": false
+      "number": 9
     },
     {
       "id": 47582,
-      "name": "Cucho Hernández",
-      "number": 19,
+      "name": "C. Hernández",
       "pos": "Attacker",
-      "start": false
+      "number": 19
+    },
+    {
+      "id": 2489,
+      "name": "L. Díaz",
+      "pos": "Attacker",
+      "number": 7
+    },
+    {
+      "id": 345748,
+      "name": "A. Gómez",
+      "pos": "Attacker",
+      "number": 26
+    },
+    {
+      "id": 47237,
+      "name": "L. Suárez",
+      "pos": "Attacker",
+      "number": 25
     }
   ],
   "9": [
@@ -1438,363 +1386,318 @@
   ],
   "10": [
     {
-      "id": 2932,
-      "name": "Jordan Pickford",
-      "number": 1,
-      "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 19545,
-      "name": "Reece James",
-      "number": 24,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 19354,
-      "name": "Ezri Konsa",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 626,
-      "name": "John Stones",
-      "number": 5,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 307123,
-      "name": "Nico O'Reilly",
-      "number": 3,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 138908,
-      "name": "Elliot Anderson",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 2937,
-      "name": "Declan Rice",
-      "number": 4,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 136723,
-      "name": "Noni Madueke",
-      "number": 20,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 129718,
-      "name": "Jude Bellingham",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 138787,
-      "name": "Anthony Gordon",
-      "number": 18,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 184,
-      "name": "Harry Kane",
-      "number": 9,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 19088,
-      "name": "Dean Henderson",
-      "number": 13,
+      "name": "D. Henderson",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 13
+    },
+    {
+      "id": 2932,
+      "name": "J. Pickford",
+      "pos": "Goalkeeper",
+      "number": 1
     },
     {
       "id": 162489,
-      "name": "James Trafford",
-      "number": 23,
+      "name": "J. Trafford",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 23
     },
     {
       "id": 18961,
-      "name": "Dan Burn",
-      "number": 15,
+      "name": "D. Burn",
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 19235,
-      "name": "Djed Spence",
-      "number": 25,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 158698,
-      "name": "Jarell Quansah",
-      "number": 26,
-      "pos": "Defender",
-      "start": false
+      "number": 15
     },
     {
       "id": 67971,
-      "name": "Marc Guéhi",
-      "number": 6,
+      "name": "M. Guéhi",
       "pos": "Defender",
-      "start": false
+      "number": 6
+    },
+    {
+      "id": 19545,
+      "name": "R. James",
+      "pos": "Defender",
+      "number": 24
+    },
+    {
+      "id": 19354,
+      "name": "E. Konsa",
+      "pos": "Defender",
+      "number": 2
+    },
+    {
+      "id": 19720,
+      "name": "T. Chalobah",
+      "pos": "Defender",
+      "number": 12
+    },
+    {
+      "id": 307123,
+      "name": "N. Oreilly",
+      "pos": "Defender",
+      "number": 3
+    },
+    {
+      "id": 158698,
+      "name": "J. Quansah",
+      "pos": "Defender",
+      "number": 26
+    },
+    {
+      "id": 19235,
+      "name": "D. Spence",
+      "pos": "Defender",
+      "number": 25
+    },
+    {
+      "id": 626,
+      "name": "J. Stones",
+      "pos": "Defender",
+      "number": 5
+    },
+    {
+      "id": 138908,
+      "name": "E. Anderson",
+      "pos": "Midfielder",
+      "number": 8
+    },
+    {
+      "id": 129718,
+      "name": "J. Bellingham",
+      "pos": "Midfielder",
+      "number": 10
     },
     {
       "id": 19586,
-      "name": "Eberechi Eze",
-      "number": 21,
+      "name": "E. Eze",
       "pos": "Midfielder",
-      "start": false
+      "number": 21
     },
     {
       "id": 292,
-      "name": "Jordan Henderson",
-      "number": 14,
+      "name": "J. Henderson",
       "pos": "Midfielder",
-      "start": false
+      "number": 14
     },
     {
       "id": 284322,
-      "name": "Kobbie Mainoo",
-      "number": 16,
+      "name": "K. Mainoo",
       "pos": "Midfielder",
-      "start": false
+      "number": 16
+    },
+    {
+      "id": 2937,
+      "name": "D. Rice",
+      "pos": "Midfielder",
+      "number": 4
     },
     {
       "id": 19170,
-      "name": "Morgan Rogers",
-      "number": 17,
+      "name": "M. Rogers",
       "pos": "Midfielder",
-      "start": false
+      "number": 17
     },
     {
-      "id": 1460,
-      "name": "Bukayo Saka",
-      "number": 7,
+      "id": 138787,
+      "name": "A. Gordon",
       "pos": "Attacker",
-      "start": false
+      "number": 18
     },
     {
-      "id": 19974,
-      "name": "Ivan Toney",
-      "number": 22,
+      "id": 184,
+      "name": "H. Kane",
       "pos": "Attacker",
-      "start": false
+      "number": 9
+    },
+    {
+      "id": 136723,
+      "name": "N. Madueke",
+      "pos": "Attacker",
+      "number": 20
     },
     {
       "id": 909,
-      "name": "Marcus Rashford",
-      "number": 11,
+      "name": "M. Rashford",
       "pos": "Attacker",
-      "start": false
+      "number": 11
+    },
+    {
+      "id": 1460,
+      "name": "B. Saka",
+      "pos": "Attacker",
+      "number": 7
+    },
+    {
+      "id": 19974,
+      "name": "I. Toney",
+      "pos": "Attacker",
+      "number": 22
     },
     {
       "id": 19366,
-      "name": "Ollie Watkins",
-      "number": 19,
+      "name": "O. Watkins",
       "pos": "Attacker",
-      "start": false
+      "number": 19
     }
   ],
   "11": [
     {
-      "id": 2968,
-      "name": "Orlando Mosquera",
-      "number": 22,
+      "id": 2967,
+      "name": "L. Mejía",
       "pos": "Goalkeeper",
-      "start": true
+      "number": 1
     },
     {
-      "id": 57667,
-      "name": "Jiovany Ramos",
-      "number": 13,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 57739,
-      "name": "José Córdoba",
-      "number": 3,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 7197,
-      "name": "Andrés Andrade",
-      "number": 16,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 2973,
-      "name": "Amir Murillo",
-      "number": 23,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 71230,
-      "name": "Carlos Harvey",
-      "number": 14,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 46855,
-      "name": "Yoel Bárcenas",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 2975,
-      "name": "César Blackman",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 50911,
-      "name": "Cristian Martínez",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 51648,
-      "name": "Cecilio Waterman",
-      "number": 18,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 2979,
-      "name": "José Luis Rodríguez",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": true
+      "id": 2968,
+      "name": "O. Mosquera",
+      "pos": "Goalkeeper",
+      "number": 22
     },
     {
       "id": 57861,
-      "name": "César Samudio",
-      "number": 12,
+      "name": "C. Samudio",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 12
     },
     {
-      "id": 2967,
-      "name": "Luis Mejía",
-      "number": 1,
-      "pos": "Goalkeeper",
-      "start": false
-    },
-    {
-      "id": 2971,
-      "name": "Fidel Escobar",
-      "number": 4,
+      "id": 7197,
+      "name": "A. Andrade",
       "pos": "Defender",
-      "start": false
+      "number": 16
     },
     {
-      "id": 328148,
-      "name": "Edgardo Fariña",
-      "number": 5,
+      "id": 2975,
+      "name": "C. Blackman",
       "pos": "Defender",
-      "start": false
+      "number": 2
+    },
+    {
+      "id": 57739,
+      "name": "J. Córdoba",
+      "pos": "Defender",
+      "number": 3
     },
     {
       "id": 2970,
-      "name": "Éric Davis",
-      "number": 15,
+      "name": "É. Davis",
       "pos": "Defender",
-      "start": false
+      "number": 15
     },
     {
-      "id": 81659,
-      "name": "Roderick Miller",
-      "number": 25,
+      "id": 2971,
+      "name": "F. Escobar",
       "pos": "Defender",
-      "start": false
+      "number": 4
+    },
+    {
+      "id": 328148,
+      "name": "E. Fariña",
+      "pos": "Defender",
+      "number": 5
     },
     {
       "id": 57803,
-      "name": "Jorge Gutiérrez",
-      "number": 26,
+      "name": "J. Gutiérrez",
       "pos": "Defender",
-      "start": false
+      "number": 26
+    },
+    {
+      "id": 71230,
+      "name": "C. Harvey",
+      "pos": "Defender",
+      "number": 14
+    },
+    {
+      "id": 81659,
+      "name": "R. Miller",
+      "pos": "Defender",
+      "number": 25
+    },
+    {
+      "id": 2973,
+      "name": "A. Murillo",
+      "pos": "Defender",
+      "number": 23
+    },
+    {
+      "id": 57667,
+      "name": "J. Ramos",
+      "pos": "Defender",
+      "number": 13
     },
     {
       "id": 57807,
-      "name": "Adalberto Carrasquilla",
-      "number": 8,
+      "name": "A. Carrasquilla",
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 96615,
-      "name": "Ismael Díaz",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 2978,
-      "name": "Alberto Quintero",
-      "number": 19,
-      "pos": "Midfielder",
-      "start": false
+      "number": 8
     },
     {
       "id": 2977,
-      "name": "Aníbal Godoy",
-      "number": 20,
+      "name": "A. Godoy",
       "pos": "Midfielder",
-      "start": false
+      "number": 20
+    },
+    {
+      "id": 554208,
+      "name": "C. Martinez",
+      "pos": "Midfielder",
+      "number": 6
+    },
+    {
+      "id": 2979,
+      "name": "J. Rodríguez",
+      "pos": "Midfielder",
+      "number": 7
+    },
+    {
+      "id": 46855,
+      "name": "Y. Bárcenas",
+      "pos": "Midfielder",
+      "number": 11
+    },
+    {
+      "id": 96615,
+      "name": "I. Díaz",
+      "pos": "Midfielder",
+      "number": 10
+    },
+    {
+      "id": 2978,
+      "name": "A. Quintero",
+      "pos": "Midfielder",
+      "number": 19
     },
     {
       "id": 57875,
-      "name": "César Yanis",
-      "number": 21,
+      "name": "C. Yanis",
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 292396,
-      "name": "Azarias Londoño",
-      "number": 24,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 57910,
-      "name": "Tomás Rodríguez",
-      "number": 9,
-      "pos": "Attacker",
-      "start": false
+      "number": 21
     },
     {
       "id": 2983,
-      "name": "José Fajardo",
-      "number": 17,
+      "name": "J. Fajardo",
       "pos": "Attacker",
-      "start": false
+      "number": 17
+    },
+    {
+      "id": 292396,
+      "name": "A. Londoño",
+      "pos": "Attacker",
+      "number": 24
+    },
+    {
+      "id": 57910,
+      "name": "T. Rodríguez",
+      "pos": "Attacker",
+      "number": 9
+    },
+    {
+      "id": 51648,
+      "name": "C. Waterman",
+      "pos": "Attacker",
+      "number": 18
     }
   ],
   "12": [
@@ -1969,160 +1872,186 @@
   ],
   "13": [
     {
-      "id": 119853,
-      "name": "M. Diaw",
-      "pos": "Goalkeeper",
-      "number": 23
-    },
-    {
-      "id": 20566,
-      "name": "Y. Diouf",
-      "pos": "Goalkeeper",
-      "number": 1
-    },
-    {
       "id": 2986,
-      "name": "É. Mendy",
+      "name": "Edouard Mendy",
+      "number": 16,
       "pos": "Goalkeeper",
-      "number": 16
-    },
-    {
-      "id": 409303,
-      "name": "E. Diouf",
-      "pos": "Defender",
-      "number": 25
-    },
-    {
-      "id": 158121,
-      "name": "I. Jakobs",
-      "pos": "Defender",
-      "number": 14
-    },
-    {
-      "id": 318,
-      "name": "K. Koulibaly",
-      "pos": "Defender",
-      "number": 3
-    },
-    {
-      "id": 313937,
-      "name": "A. Mendy",
-      "pos": "Defender",
-      "number": 24
-    },
-    {
-      "id": 25916,
-      "name": "M. Niakhaté",
-      "pos": "Defender",
-      "number": 19
-    },
-    {
-      "id": 276184,
-      "name": "M. Sarr",
-      "pos": "Defender",
-      "number": 2
-    },
-    {
-      "id": 8450,
-      "name": "A. Seck",
-      "pos": "Defender",
-      "number": 4
+      "start": true
     },
     {
       "id": 81,
-      "name": "K. Diatta",
+      "name": "Krépin Diatta",
+      "number": 15,
       "pos": "Defender",
-      "number": 15
+      "start": true
     },
     {
-      "id": 374058,
-      "name": "L. Camara",
-      "pos": "Midfielder",
-      "number": 8
+      "id": 318,
+      "name": "Kalidou Koulibaly",
+      "number": 3,
+      "pos": "Defender",
+      "start": true
     },
     {
-      "id": 41552,
-      "name": "P. Ciss",
-      "pos": "Midfielder",
-      "number": 6
+      "id": 25916,
+      "name": "Moussa Niakhaté",
+      "number": 19,
+      "pos": "Defender",
+      "start": true
     },
     {
-      "id": 327631,
-      "name": "H. Diarra",
-      "pos": "Midfielder",
-      "number": 21
+      "id": 409303,
+      "name": "El Hadji Malick Diouf",
+      "number": 25,
+      "pos": "Defender",
+      "start": true
     },
     {
       "id": 2990,
-      "name": "I. Gueye",
+      "name": "Idrissa Gana Gueye",
+      "number": 5,
       "pos": "Midfielder",
-      "number": 5
+      "start": true
     },
     {
       "id": 20696,
-      "name": "P. Gueye",
+      "name": "Pape Gueye",
+      "number": 26,
       "pos": "Midfielder",
-      "number": 26
+      "start": true
+    },
+    {
+      "id": 2218,
+      "name": "Ismaïla Sarr",
+      "number": 18,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 374058,
+      "name": "Lamine Camara",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 304,
+      "name": "Sadio Mané",
+      "number": 10,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 283058,
+      "name": "Nicolas Jackson",
+      "number": 11,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 119853,
+      "name": "Mory Diaw",
+      "number": 23,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 20566,
+      "name": "Yehvann Diouf",
+      "number": 1,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 276184,
+      "name": "Mamadou Sarr",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 158121,
+      "name": "Ismail Jakobs",
+      "number": 14,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 8450,
+      "name": "Abdoulaye Seck",
+      "number": 4,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 313937,
+      "name": "Antoine Mendy",
+      "number": 24,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 41552,
+      "name": "Pathé Ismaël Ciss",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 630895,
-      "name": "Bara Ndiaye",
+      "name": "Bara Sapoko Ndiaye",
+      "number": 22,
       "pos": "Midfielder",
-      "number": 22
+      "start": false
+    },
+    {
+      "id": 18592,
+      "name": "Iliman Ndiaye",
+      "number": 13,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 237129,
-      "name": "P. Sarr",
+      "name": "Pape Matar Sarr",
+      "number": 17,
       "pos": "Midfielder",
-      "number": 17
+      "start": false
+    },
+    {
+      "id": 327631,
+      "name": "Habib Diarra",
+      "number": 21,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 446249,
+      "name": "Ibrahim Mbaye",
+      "number": 20,
+      "pos": "Attacker",
+      "start": false
     },
     {
       "id": 400948,
       "name": "Assane Diao",
+      "number": 7,
       "pos": "Attacker",
-      "number": 7
+      "start": false
     },
     {
       "id": 284072,
-      "name": "B. Dieng",
+      "name": "Ahmadou Bamba Dieng",
+      "number": 9,
       "pos": "Attacker",
-      "number": 9
-    },
-    {
-      "id": 283058,
-      "name": "N. Jackson",
-      "pos": "Attacker",
-      "number": 11
-    },
-    {
-      "id": 304,
-      "name": "S. Mané",
-      "pos": "Attacker",
-      "number": 10
-    },
-    {
-      "id": 446249,
-      "name": "I. Mbaye",
-      "pos": "Attacker",
-      "number": 20
+      "start": false
     },
     {
       "id": 14379,
-      "name": "C. Ndiaye",
+      "name": "Cherif Ndiaye",
+      "number": 12,
       "pos": "Attacker",
-      "number": 12
-    },
-    {
-      "id": 18592,
-      "name": "I. Ndiaye",
-      "pos": "Midfielder",
-      "number": 13
-    },
-    {
-      "id": 2218,
-      "name": "I. Sarr",
-      "pos": "Midfielder",
-      "number": 18
+      "start": false
     }
   ],
   "15": [
@@ -3587,184 +3516,158 @@
     {
       "id": 369,
       "name": "Diogo Costa",
-      "number": 1,
       "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 855,
-      "name": "João Cancelo",
-      "number": 20,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 161939,
-      "name": "Tomás Araújo",
-      "number": 4,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 336671,
-      "name": "Renato Veiga",
-      "number": 13,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 263482,
-      "name": "Nuno Mendes",
-      "number": 25,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 335051,
-      "name": "João Neves",
-      "number": 15,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 128384,
-      "name": "Vitinha",
-      "number": 23,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 636,
-      "name": "Bernardo Silva",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 1485,
-      "name": "Bruno Fernandes",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 1864,
-      "name": "Pedro Neto",
-      "number": 18,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 874,
-      "name": "Cristiano Ronaldo",
-      "number": 7,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 161585,
-      "name": "Francisco Conceição",
-      "number": 26,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 130,
-      "name": "Nélson Semedo",
-      "number": 2,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 22236,
-      "name": "Rafael Leão",
-      "number": 17,
-      "pos": "Attacker",
-      "start": false
+      "number": 1
     },
     {
       "id": 1590,
       "name": "José Sá",
-      "number": 12,
       "pos": "Goalkeeper",
-      "start": false
+      "number": 12
     },
     {
       "id": 46672,
       "name": "Rui Silva",
-      "number": 22,
       "pos": "Goalkeeper",
-      "start": false
+      "number": 22
     },
     {
-      "id": 567,
-      "name": "Rúben Dias",
-      "number": 3,
+      "id": 161939,
+      "name": "Tomás Araújo",
       "pos": "Defender",
-      "start": false
+      "number": 4
+    },
+    {
+      "id": 855,
+      "name": "João Cancelo",
+      "pos": "Defender",
+      "number": 20
     },
     {
       "id": 886,
       "name": "Diogo Dalot",
-      "number": 5,
       "pos": "Defender",
-      "start": false
+      "number": 5
+    },
+    {
+      "id": 567,
+      "name": "Rúben Dias",
+      "pos": "Defender",
+      "number": 3
     },
     {
       "id": 265595,
       "name": "Gonçalo Inácio",
-      "number": 14,
       "pos": "Defender",
-      "start": false
+      "number": 14
     },
     {
-      "id": 41621,
-      "name": "Matheus Nunes",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": false
+      "id": 263482,
+      "name": "Nuno Mendes",
+      "pos": "Defender",
+      "number": 25
+    },
+    {
+      "id": 130,
+      "name": "Nélson Semedo",
+      "pos": "Defender",
+      "number": 2
+    },
+    {
+      "id": 336671,
+      "name": "Renato Veiga",
+      "pos": "Defender",
+      "number": 13
     },
     {
       "id": 190485,
       "name": "Samú Costa",
-      "number": 24,
       "pos": "Midfielder",
-      "start": false
+      "number": 24
+    },
+    {
+      "id": 1485,
+      "name": "Bruno Fernandes",
+      "pos": "Midfielder",
+      "number": 8
+    },
+    {
+      "id": 335051,
+      "name": "João Neves",
+      "pos": "Midfielder",
+      "number": 15
     },
     {
       "id": 2676,
       "name": "Rúben Neves",
-      "number": 21,
       "pos": "Midfielder",
-      "start": false
+      "number": 21
     },
     {
-      "id": 41112,
-      "name": "Francisco Trincão",
-      "number": 16,
+      "id": 41621,
+      "name": "Matheus Nunes",
+      "pos": "Midfielder",
+      "number": 6
+    },
+    {
+      "id": 636,
+      "name": "Bernardo Silva",
+      "pos": "Midfielder",
+      "number": 10
+    },
+    {
+      "id": 128384,
+      "name": "Vitinha",
+      "pos": "Midfielder",
+      "number": 23
+    },
+    {
+      "id": 161585,
+      "name": "Francisco Conceição",
       "pos": "Attacker",
-      "start": false
+      "number": 26
     },
     {
       "id": 925,
       "name": "Gonçalo Guedes",
-      "number": 19,
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 41585,
-      "name": "Gonçalo Ramos",
-      "number": 9,
-      "pos": "Attacker",
-      "start": false
+      "number": 19
     },
     {
       "id": 583,
       "name": "João Félix",
-      "number": 11,
       "pos": "Attacker",
-      "start": false
+      "number": 11
+    },
+    {
+      "id": 22236,
+      "name": "Rafael Leão",
+      "pos": "Attacker",
+      "number": 17
+    },
+    {
+      "id": 1864,
+      "name": "Pedro Neto",
+      "pos": "Attacker",
+      "number": 18
+    },
+    {
+      "id": 41585,
+      "name": "Gonçalo Ramos",
+      "pos": "Attacker",
+      "number": 9
+    },
+    {
+      "id": 874,
+      "name": "Cristiano Ronaldo",
+      "pos": "Attacker",
+      "number": 7
+    },
+    {
+      "id": 41112,
+      "name": "Trincão",
+      "pos": "Attacker",
+      "number": 16
     }
   ],
   "28": [
@@ -5285,159 +5188,185 @@
   "1090": [
     {
       "id": 19172,
-      "name": "Ø. Nyland",
+      "name": "Ørjan Nyland",
+      "number": 1,
       "pos": "Goalkeeper",
-      "number": 1
+      "start": true
     },
     {
-      "id": 39082,
-      "name": "E. Selvik",
-      "pos": "Goalkeeper",
-      "number": 13
-    },
-    {
-      "id": 264378,
-      "name": "S. Tangvik",
-      "pos": "Goalkeeper",
-      "number": 12
+      "id": 24845,
+      "name": "Julian Ryerson",
+      "number": 26,
+      "pos": "Attacker",
+      "start": true
     },
     {
       "id": 1119,
-      "name": "K. Ajer",
+      "name": "Kristoffer Ajer",
+      "number": 3,
       "pos": "Defender",
-      "number": 3
-    },
-    {
-      "id": 39058,
-      "name": "F. Bjørkan",
-      "pos": "Defender",
-      "number": 15
-    },
-    {
-      "id": 180937,
-      "name": "H. Falchener",
-      "pos": "Defender",
-      "number": 25
-    },
-    {
-      "id": 265444,
-      "name": "S. Langås",
-      "pos": "Defender",
-      "number": 24
+      "start": true
     },
     {
       "id": 39254,
-      "name": "T. Heggem",
+      "name": "Torbjørn Heggem",
+      "number": 17,
       "pos": "Defender",
-      "number": 17
-    },
-    {
-      "id": 18967,
-      "name": "L. Østigård",
-      "pos": "Defender",
-      "number": 4
-    },
-    {
-      "id": 39362,
-      "name": "M. Pedersen",
-      "pos": "Defender",
-      "number": 16
+      "start": true
     },
     {
       "id": 265782,
-      "name": "D. Møller Wolfe",
+      "name": "David Møller Wolfe",
+      "number": 5,
       "pos": "Defender",
-      "number": 5
+      "start": true
     },
     {
-      "id": 277930,
-      "name": "T. Aasgaard",
+      "id": 37127,
+      "name": "Martin Ødegaard",
+      "number": 10,
       "pos": "Midfielder",
-      "number": 19
-    },
-    {
-      "id": 39043,
-      "name": "F. Aursnes",
-      "pos": "Midfielder",
-      "number": 14
-    },
-    {
-      "id": 39064,
-      "name": "P. Berg",
-      "pos": "Midfielder",
-      "number": 6
+      "start": true
     },
     {
       "id": 1934,
-      "name": "S. Berge",
+      "name": "Sander Berge",
+      "number": 8,
       "pos": "Midfielder",
-      "number": 8
+      "start": true
+    },
+    {
+      "id": 39043,
+      "name": "Fredrik Aursnes",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 8492,
+      "name": "Alexander Sørloth",
+      "number": 7,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 1100,
+      "name": "Erling Haaland",
+      "number": 9,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 314511,
+      "name": "Antonio Nusa",
+      "number": 20,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 264378,
+      "name": "Sander Tangvik",
+      "number": 12,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 39082,
+      "name": "Egil Selvik",
+      "number": 13,
+      "pos": "Goalkeeper",
+      "start": false
+    },
+    {
+      "id": 18967,
+      "name": "Leo Østigård",
+      "number": 4,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 39058,
+      "name": "Fredrik André Bjørkan",
+      "number": 15,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 265444,
+      "name": "Sondre Langås",
+      "number": 24,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 180937,
+      "name": "Henrik Sælebakke Falchener",
+      "number": 25,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 277930,
+      "name": "Thelo Aasgaard",
+      "number": 19,
+      "pos": "Midfielder",
+      "start": false
     },
     {
       "id": 278133,
       "name": "Oscar Bobb",
+      "number": 22,
       "pos": "Midfielder",
-      "number": 22
-    },
-    {
-      "id": 37127,
-      "name": "M. Ødegaard",
-      "pos": "Midfielder",
-      "number": 10
-    },
-    {
-      "id": 36980,
-      "name": "M. Thorsby",
-      "pos": "Midfielder",
-      "number": 2
-    },
-    {
-      "id": 39143,
-      "name": "K. Thorstvedt",
-      "pos": "Midfielder",
-      "number": 18
+      "start": false
     },
     {
       "id": 301528,
-      "name": "A. Schjelderup",
+      "name": "Andreas Schjelderup",
+      "number": 21,
       "pos": "Midfielder",
-      "number": 21
+      "start": false
     },
     {
-      "id": 39073,
-      "name": "J. Hauge",
+      "id": 39143,
+      "name": "Kristian Thorstvedt",
+      "number": 18,
       "pos": "Midfielder",
-      "number": 23
+      "start": false
     },
     {
-      "id": 1100,
-      "name": "E. Haaland",
-      "pos": "Attacker",
-      "number": 9
+      "id": 36980,
+      "name": "Morten Thorsby",
+      "number": 2,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 39064,
+      "name": "Patrick Berg",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 39362,
+      "name": "Marcus Pedersen",
+      "number": 16,
+      "pos": "Defender",
+      "start": false
     },
     {
       "id": 2032,
-      "name": "J. Strand Larsen",
+      "name": "Jørgen Strand Larsen",
+      "number": 11,
       "pos": "Attacker",
-      "number": 11
+      "start": false
     },
     {
-      "id": 314511,
-      "name": "A. Nusa",
-      "pos": "Attacker",
-      "number": 20
-    },
-    {
-      "id": 8492,
-      "name": "A. Sørloth",
-      "pos": "Attacker",
-      "number": 7
-    },
-    {
-      "id": 24845,
-      "name": "J. Ryerson",
-      "pos": "Attacker",
-      "number": 26
+      "id": 39073,
+      "name": "Jens Petter Hauge",
+      "number": 23,
+      "pos": "Midfielder",
+      "start": false
     }
   ],
   "1094": [
@@ -6607,363 +6536,318 @@
   ],
   "1504": [
     {
-      "id": 3412,
-      "name": "Lawrence Ati Zigi",
-      "number": 1,
+      "id": 480108,
+      "name": "B. Asare",
       "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 191240,
-      "name": "Marvin Senaya",
-      "number": 26,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 369425,
-      "name": "Jonas Adjei Adjetey",
-      "number": 4,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 137223,
-      "name": "Jerome Opoku",
-      "number": 18,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 7578,
-      "name": "Gideon Mensah",
-      "number": 14,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 350856,
-      "name": "Ernest Nuamah",
-      "number": 24,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 475575,
-      "name": "Caleb Yirenkyi",
-      "number": 3,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 21010,
-      "name": "Elisha Owusu",
-      "number": 15,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 19281,
-      "name": "Antoine Semenyo",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 199837,
-      "name": "Kamaldeen Sulemana",
-      "number": 22,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 3428,
-      "name": "Jordan Ayew",
-      "number": 9,
-      "pos": "Attacker",
-      "start": true
+      "number": 16
     },
     {
       "id": 144709,
-      "name": "Joseph Anang",
-      "number": 12,
+      "name": "J. Anang",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 12
     },
     {
-      "id": 480108,
-      "name": "Benjamin Asare",
-      "number": 16,
+      "id": 3412,
+      "name": "L. Zigi",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 1
     },
     {
-      "id": 196187,
-      "name": "Alidu Seidu",
-      "number": 2,
+      "id": 369425,
+      "name": "J. Adjetey",
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 15900,
-      "name": "Abdul Mumin",
-      "number": 6,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 21996,
-      "name": "Rahman Baba",
-      "number": 17,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 404172,
-      "name": "Kojo Peprah Oppong",
-      "number": 21,
-      "pos": "Defender",
-      "start": false
+      "number": 4
     },
     {
       "id": 25341,
-      "name": "Derrick Luckassen",
-      "number": 23,
+      "name": "D. Luckassen",
       "pos": "Defender",
-      "start": false
+      "number": 23
+    },
+    {
+      "id": 7578,
+      "name": "G. Mensah",
+      "pos": "Defender",
+      "number": 14
+    },
+    {
+      "id": 196187,
+      "name": "A. Seidu",
+      "pos": "Defender",
+      "number": 2
+    },
+    {
+      "id": 137223,
+      "name": "J. Opoku",
+      "pos": "Defender",
+      "number": 18
+    },
+    {
+      "id": 404172,
+      "name": "K. Peprah Oppong",
+      "pos": "Defender",
+      "number": 21
+    },
+    {
+      "id": 15900,
+      "name": "A. Mumin",
+      "pos": "Defender",
+      "number": 6
+    },
+    {
+      "id": 191240,
+      "name": "M. Senaya",
+      "pos": "Defender",
+      "number": 26
+    },
+    {
+      "id": 21996,
+      "name": "A. Baba",
+      "pos": "Defender",
+      "number": 17
+    },
+    {
+      "id": 21010,
+      "name": "E. Owusu",
+      "pos": "Midfielder",
+      "number": 15
+    },
+    {
+      "id": 49,
+      "name": "T. Partey",
+      "pos": "Midfielder",
+      "number": 5
     },
     {
       "id": 3608,
-      "name": "Kwasi Sibo",
-      "number": 8,
+      "name": "K. Sibo",
       "pos": "Midfielder",
-      "start": false
+      "number": 8
     },
     {
-      "id": 303467,
-      "name": "Abdul Fatawu Issahaku",
-      "number": 7,
-      "pos": "Attacker",
-      "start": false
+      "id": 475575,
+      "name": "Caleb Marfo Yirenkyi",
+      "pos": "Midfielder",
+      "number": 3
     },
     {
-      "id": 411800,
-      "name": "Christopher Baah",
-      "number": 13,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 47294,
-      "name": "Iñaki Williams",
-      "number": 19,
-      "pos": "Attacker",
-      "start": false
+      "id": 19281,
+      "name": "A. Semenyo",
+      "pos": "Midfielder",
+      "number": 11
     },
     {
       "id": 337426,
-      "name": "Augustine Boakye",
-      "number": 20,
+      "name": "A. Boakye",
       "pos": "Midfielder",
-      "start": false
+      "number": 20
     },
     {
-      "id": 82090,
-      "name": "Brandon Thomas-Asante",
-      "number": 10,
+      "id": 303467,
+      "name": "A. Fatawu",
       "pos": "Attacker",
-      "start": false
+      "number": 7
     },
     {
       "id": 410016,
-      "name": "Prince Kwabena Adu",
-      "number": 25,
+      "name": "P. Adu",
       "pos": "Attacker",
-      "start": false
+      "number": 25
+    },
+    {
+      "id": 82090,
+      "name": "B. Thomas-Asante",
+      "pos": "Attacker",
+      "number": 10
+    },
+    {
+      "id": 3428,
+      "name": "J. Ayew",
+      "pos": "Attacker",
+      "number": 9
+    },
+    {
+      "id": 411800,
+      "name": "C. Bonsu Baah",
+      "pos": "Attacker",
+      "number": 13
+    },
+    {
+      "id": 47294,
+      "name": "I. Williams",
+      "pos": "Attacker",
+      "number": 19
+    },
+    {
+      "id": 350856,
+      "name": "E. Nuamah",
+      "pos": "Attacker",
+      "number": 24
+    },
+    {
+      "id": 199837,
+      "name": "K. Sulemana",
+      "pos": "Attacker",
+      "number": 22
     }
   ],
   "1508": [
     {
-      "id": 24012,
-      "name": "Lionel Mpasi Nzau",
-      "number": 1,
+      "id": 314509,
+      "name": "M. Epolo",
       "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 18846,
-      "name": "Aaron Wan-Bissaka",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 375,
-      "name": "Chancel Mbemba",
-      "number": 22,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 19182,
-      "name": "Axel Tuanzebe",
-      "number": 4,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 199767,
-      "name": "Steve Kapuadi",
-      "number": 3,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 18816,
-      "name": "Arthur Masuaku",
-      "number": 26,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 375598,
-      "name": "Ngal'ayel Mukau",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 21101,
-      "name": "Samuel Moutoussamy",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 1424,
-      "name": "Edo Kayembe",
-      "number": 25,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 20649,
-      "name": "Yoane Wissa",
-      "number": 20,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 3033,
-      "name": "Cédric Bakambu",
-      "number": 17,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 365331,
-      "name": "Noah Sadiki",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": false
+      "number": 21
     },
     {
       "id": 48501,
-      "name": "Timothy Fayulu",
-      "number": 16,
+      "name": "T. Fayulu",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 16
     },
     {
-      "id": 314509,
-      "name": "Matthieu Epolo",
-      "number": 21,
+      "id": 24012,
+      "name": "L. Mpasi",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 1
     },
     {
       "id": 8445,
-      "name": "Dylan Batubinsika",
-      "number": 5,
+      "name": "D. Batubinsika",
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 21098,
-      "name": "Joris Kayembe",
-      "number": 12,
-      "pos": "Defender",
-      "start": false
+      "number": 5
     },
     {
       "id": 24245,
-      "name": "Gedeon Kalulu",
-      "number": 24,
+      "name": "G. Kalulu",
       "pos": "Defender",
-      "start": false
+      "number": 24
     },
     {
-      "id": 129670,
-      "name": "Nathanaël Mbuku",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": false
+      "id": 199767,
+      "name": "S. Kapuadi",
+      "pos": "Defender",
+      "number": 3
     },
     {
-      "id": 8627,
-      "name": "Théo Bongonda",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": false
+      "id": 21098,
+      "name": "J. Kayembe",
+      "pos": "Defender",
+      "number": 12
     },
     {
-      "id": 44791,
-      "name": "Aaron Tshibola",
-      "number": 15,
+      "id": 18816,
+      "name": "A. Masuaku",
+      "pos": "Defender",
+      "number": 26
+    },
+    {
+      "id": 375,
+      "name": "C. Mbemba",
+      "pos": "Defender",
+      "number": 22
+    },
+    {
+      "id": 19182,
+      "name": "A. Tuanzebe",
+      "pos": "Defender",
+      "number": 4
+    },
+    {
+      "id": 18846,
+      "name": "A. Wan-Bissaka",
+      "pos": "Defender",
+      "number": 2
+    },
+    {
+      "id": 1424,
+      "name": "E. Kayembe",
       "pos": "Midfielder",
-      "start": false
+      "number": 25
+    },
+    {
+      "id": 21101,
+      "name": "S. Moutoussamy",
+      "pos": "Midfielder",
+      "number": 8
+    },
+    {
+      "id": 375598,
+      "name": "N. Mukau",
+      "pos": "Midfielder",
+      "number": 6
     },
     {
       "id": 48555,
-      "name": "Charles Pickel",
-      "number": 18,
+      "name": "C. Pickel",
       "pos": "Midfielder",
-      "start": false
+      "number": 18
     },
     {
-      "id": 279482,
-      "name": "Brian Cipenga",
-      "number": 9,
-      "pos": "Attacker",
-      "start": false
+      "id": 365331,
+      "name": "N. Sadiki",
+      "pos": "Midfielder",
+      "number": 14
     },
     {
-      "id": 47545,
-      "name": "Gaël Kakuta",
-      "number": 11,
-      "pos": "Attacker",
-      "start": false
+      "id": 44791,
+      "name": "A. Tshibola",
+      "pos": "Midfielder",
+      "number": 15
     },
     {
-      "id": 3034,
-      "name": "Meschak Elia",
-      "number": 13,
-      "pos": "Attacker",
-      "start": false
+      "id": 129670,
+      "name": "N. Mbuku",
+      "pos": "Midfielder",
+      "number": 7
     },
     {
-      "id": 179699,
-      "name": "Fiston Mayele",
-      "number": 19,
+      "id": 8627,
+      "name": "T. Bongonda",
+      "pos": "Midfielder",
+      "number": 10
+    },
+    {
+      "id": 3033,
+      "name": "C. Bakambu",
       "pos": "Attacker",
-      "start": false
+      "number": 17
     },
     {
       "id": 20674,
-      "name": "Simon Banza",
-      "number": 23,
+      "name": "S. Banza",
       "pos": "Attacker",
-      "start": false
+      "number": 23
+    },
+    {
+      "id": 279482,
+      "name": "B. Cipenga",
+      "pos": "Attacker",
+      "number": 9
+    },
+    {
+      "id": 3034,
+      "name": "M. Elia",
+      "pos": "Attacker",
+      "number": 13
+    },
+    {
+      "id": 47545,
+      "name": "G. Kakuta",
+      "pos": "Attacker",
+      "number": 11
+    },
+    {
+      "id": 179699,
+      "name": "F. Mayele",
+      "pos": "Attacker",
+      "number": 19
+    },
+    {
+      "id": 20649,
+      "name": "Y. Wissa",
+      "pos": "Attacker",
+      "number": 20
     }
   ],
   "1531": [
@@ -7822,186 +7706,160 @@
   ],
   "1568": [
     {
-      "id": 73534,
-      "name": "Utkir Yusupov",
-      "number": 1,
+      "id": 72120,
+      "name": "B. Ergashev",
       "pos": "Goalkeeper",
-      "start": true
-    },
-    {
-      "id": 360114,
-      "name": "Abdukodir Khusanov",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 73418,
-      "name": "Abdulla Abdullaev",
-      "number": 18,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 34121,
-      "name": "Rustam Ashurmatov",
-      "number": 5,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 416964,
-      "name": "Bekhruz Karimov",
-      "number": 24,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 73522,
-      "name": "Akmal Mozgovoy",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 50272,
-      "name": "Otabek Shukurov",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 73514,
-      "name": "Sherzod Nasrullaev",
-      "number": 13,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 263676,
-      "name": "Abbosbek Fayzullaev",
-      "number": 22,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 72127,
-      "name": "Oston Urunov",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 53535,
-      "name": "Eldor Shomurodov",
-      "number": 14,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 53830,
-      "name": "Farrukh Sayfiev",
-      "number": 4,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 53834,
-      "name": "Dostonbek Khamdamov",
-      "number": 17,
-      "pos": "Midfielder",
-      "start": false
+      "number": 16
     },
     {
       "id": 73507,
-      "name": "Abduvokhid Nematov",
-      "number": 12,
+      "name": "A. Nematov",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 12
     },
     {
-      "id": 72120,
-      "name": "Botirali Ergashev",
-      "number": 16,
+      "id": 73534,
+      "name": "U. Yusupov",
       "pos": "Goalkeeper",
-      "start": false
+      "number": 1
     },
     {
       "id": 72122,
-      "name": "Khozhiakbar Alizhonov",
-      "number": 3,
+      "name": "K. Alijonov",
       "pos": "Defender",
-      "start": false
+      "number": 3
+    },
+    {
+      "id": 34121,
+      "name": "R. Ashurmatov",
+      "pos": "Defender",
+      "number": 5
     },
     {
       "id": 73510,
-      "name": "Umarbek Eshmuradov",
-      "number": 15,
+      "name": "U. Eshmurodov",
       "pos": "Defender",
-      "start": false
+      "number": 15
     },
     {
-      "id": 65571,
-      "name": "Avazbek Ulmasaliyev",
-      "number": 25,
+      "id": 416964,
+      "name": "B. Karimov",
       "pos": "Defender",
-      "start": false
+      "number": 24
+    },
+    {
+      "id": 360114,
+      "name": "A. Khusanov",
+      "pos": "Defender",
+      "number": 2
+    },
+    {
+      "id": 73514,
+      "name": "S. Nasrullayev",
+      "pos": "Defender",
+      "number": 13
+    },
+    {
+      "id": 532759,
+      "name": "F. Sayfiev",
+      "pos": "Defender",
+      "number": 4
     },
     {
       "id": 358427,
-      "name": "Jakhongir Urozov",
-      "number": 26,
+      "name": "J. Urozov",
       "pos": "Defender",
-      "start": false
+      "number": 26
     },
     {
-      "id": 65576,
-      "name": "Jamshid Iskandarov",
-      "number": 8,
-      "pos": "Midfielder",
-      "start": false
+      "id": 73418,
+      "name": "A. Abdullaev",
+      "pos": "Defender",
+      "number": 18
     },
     {
-      "id": 53835,
-      "name": "Odiljon Khamrobekov",
-      "number": 9,
-      "pos": "Midfielder",
-      "start": false
+      "id": 65571,
+      "name": "A. Ulmasaliev",
+      "pos": "Defender",
+      "number": 25
     },
     {
       "id": 312231,
       "name": "Ruslanbek Jiyanov",
-      "number": 10,
       "pos": "Midfielder",
-      "start": false
+      "number": 10
     },
     {
       "id": 73520,
-      "name": "Azizjon Ganiev",
-      "number": 19,
+      "name": "A. Ganiyev",
       "pos": "Midfielder",
-      "start": false
+      "number": 19
+    },
+    {
+      "id": 65576,
+      "name": "J. Iskanderov",
+      "pos": "Midfielder",
+      "number": 8
+    },
+    {
+      "id": 53835,
+      "name": "O. Hamrobekov",
+      "pos": "Midfielder",
+      "number": 9
+    },
+    {
+      "id": 73522,
+      "name": "A. Mozgovoy",
+      "pos": "Midfielder",
+      "number": 6
+    },
+    {
+      "id": 50272,
+      "name": "O. Shukurov",
+      "pos": "Midfielder",
+      "number": 7
+    },
+    {
+      "id": 263676,
+      "name": "A. Fayzullaev",
+      "pos": "Midfielder",
+      "number": 22
     },
     {
       "id": 363723,
-      "name": "Sherzod Esanov",
-      "number": 23,
+      "name": "S. Esanov",
       "pos": "Midfielder",
-      "start": false
+      "number": 23
+    },
+    {
+      "id": 72127,
+      "name": "O. Orunov",
+      "pos": "Midfielder",
+      "number": 11
+    },
+    {
+      "id": 53834,
+      "name": "D. Khamdamov",
+      "pos": "Midfielder",
+      "number": 17
     },
     {
       "id": 65584,
-      "name": "Azizbek Amanov",
-      "number": 20,
+      "name": "A. Amonov",
       "pos": "Attacker",
-      "start": false
+      "number": 20
     },
     {
       "id": 72128,
-      "name": "Igor Sergeev",
-      "number": 21,
+      "name": "I. Sergeev",
       "pos": "Attacker",
-      "start": false
+      "number": 21
+    },
+    {
+      "id": 53535,
+      "name": "E. Shomurodov",
+      "pos": "Attacker",
+      "number": 14
     }
   ],
   "1569": [

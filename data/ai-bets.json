@@ -862,6 +862,34 @@
     "lockedAt": "2026-06-22T17:00:20.138Z",
     "syncedAt": "2026-06-22T17:00:20.138Z"
   },
+  "1489401": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Erling Haaland",
+        "team": "home",
+        "pos": "нап",
+        "id": "1100"
+      },
+      {
+        "name": "Sadio Mane",
+        "team": "away",
+        "pos": "нап",
+        "id": "304"
+      },
+      {
+        "name": "Alexander Sorloth",
+        "team": "home",
+        "pos": "нап",
+        "id": null
+      }
+    ],
+    "lockedAt": "2026-06-23T00:00:28.122Z",
+    "syncedAt": "2026-06-23T00:00:28.122Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
