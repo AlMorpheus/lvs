@@ -1463,6 +1463,20 @@
       "start": true
     },
     {
+      "id": 307123,
+      "name": "Nico O'Reilly",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 1460,
+      "name": "Bukayo Saka",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 162489,
       "name": "James Trafford",
       "number": 23,
@@ -1474,13 +1488,6 @@
       "name": "Dean Henderson",
       "number": 13,
       "pos": "Goalkeeper",
-      "start": false
-    },
-    {
-      "id": 307123,
-      "name": "Nico O'Reilly",
-      "number": 3,
-      "pos": "Defender",
       "start": false
     },
     {
@@ -1543,13 +1550,6 @@
       "id": 19974,
       "name": "Ivan Toney",
       "number": 22,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 1460,
-      "name": "Bukayo Saka",
-      "number": 7,
       "pos": "Attacker",
       "start": false
     },
@@ -6665,6 +6665,20 @@
       "start": true
     },
     {
+      "id": 303467,
+      "name": "Abdul Fatawu Issahaku",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 410016,
+      "name": "Prince Kwabena Adu",
+      "number": 25,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 3412,
       "name": "Lawrence Ati Zigi",
       "number": 1,
@@ -6728,13 +6742,6 @@
       "start": false
     },
     {
-      "id": 303467,
-      "name": "Abdul Fatawu Issahaku",
-      "number": 7,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 82090,
       "name": "Brandon Thomas-Asante",
       "number": 10,
@@ -6746,13 +6753,6 @@
       "name": "Augustine Boakye",
       "number": 20,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 410016,
-      "name": "Prince Kwabena Adu",
-      "number": 25,
-      "pos": "Attacker",
       "start": false
     },
     {
