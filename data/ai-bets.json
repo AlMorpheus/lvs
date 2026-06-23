@@ -918,6 +918,34 @@
     "lockedAt": "2026-06-23T00:00:28.122Z",
     "syncedAt": "2026-06-23T00:00:28.122Z"
   },
+  "1489404": {
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "home",
+        "pos": "нап",
+        "id": "874"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "team": "home",
+        "pos": "пз",
+        "id": "1485"
+      },
+      {
+        "name": "João Félix",
+        "team": "home",
+        "pos": "пз",
+        "id": "583"
+      }
+    ],
+    "lockedAt": "2026-06-23T17:01:25.665Z",
+    "syncedAt": "2026-06-23T17:01:25.665Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
