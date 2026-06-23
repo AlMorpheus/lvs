@@ -1603,6 +1603,13 @@
       "start": true
     },
     {
+      "id": 2973,
+      "name": "Amir Murillo",
+      "number": 23,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 57667,
       "name": "Jiovany Ramos",
       "number": 13,
@@ -1624,10 +1631,17 @@
       "start": true
     },
     {
-      "id": 2973,
-      "name": "Amir Murillo",
-      "number": 23,
+      "id": 2975,
+      "name": "César Blackman",
+      "number": 2,
       "pos": "Defender",
+      "start": true
+    },
+    {
+      "id": 50911,
+      "name": "Cristian Martínez",
+      "number": 6,
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -1645,16 +1659,9 @@
       "start": true
     },
     {
-      "id": 2975,
-      "name": "César Blackman",
-      "number": 2,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 50911,
-      "name": "Cristian Martínez",
-      "number": 6,
+      "id": 2979,
+      "name": "José Luis Rodríguez",
+      "number": 7,
       "pos": "Midfielder",
       "start": true
     },
@@ -1663,13 +1670,6 @@
       "name": "José Fajardo",
       "number": 17,
       "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 2979,
-      "name": "José Luis Rodríguez",
-      "number": 7,
-      "pos": "Midfielder",
       "start": true
     },
     {
