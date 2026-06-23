@@ -2436,7 +2436,7 @@
   {
     "id": "1489401",
     "date": "2026-06-23T00:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2454,12 +2454,56 @@
       "home": 3,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 3,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T02:01:59.531Z",
     "lineupAt": "2026-06-23T00:00:25.874Z",
     "remind2hAt": "2026-06-22T22:01:55.471Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 39362,
+        "name": "M. Pedersen",
+        "teamId": 1090,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 48,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 53,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 58,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
