@@ -7099,6 +7099,20 @@
       "start": true
     },
     {
+      "id": 409,
+      "name": "Nabil Bentaleb",
+      "number": 19,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 292924,
+      "name": "Ahmed Nadhir Benbouali",
+      "number": 12,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 304229,
       "name": "Melvin Mastil",
       "number": 1,
@@ -7155,13 +7169,6 @@
       "start": false
     },
     {
-      "id": 409,
-      "name": "Nabil Bentaleb",
-      "number": 19,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 327599,
       "name": "Yassine Titraoui",
       "number": 24,
@@ -7179,13 +7186,6 @@
       "id": 329163,
       "name": "Adil Boulbina",
       "number": 20,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 292924,
-      "name": "Ahmed Nadhir Benbouali",
-      "number": 12,
       "pos": "Attacker",
       "start": false
     },
