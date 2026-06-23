@@ -2642,7 +2642,7 @@
   {
     "id": "1489402",
     "date": "2026-06-23T20:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2660,9 +2660,12 @@
       "home": 0,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T22:01:49.565Z",
     "lineupAt": "2026-06-23T18:53:31.590Z",
     "remind2hAt": "2026-06-23T18:01:57.549Z",
     "scorers": [],

@@ -371,6 +371,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489402": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489404": {
           "scorePts": 7,
           "scorerPts": 2,
@@ -879,6 +890,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489402": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489404": {
           "scorePts": 7,
           "scorerPts": 2,
@@ -1362,6 +1384,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 18,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489402": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -2359,6 +2392,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1489402": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
+        },
         "1489404": {
           "scorePts": 7,
           "scorerPts": 2,
@@ -2842,6 +2886,17 @@
           "multiplier": 1.3,
           "special": 0,
           "total": 23,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1489402": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 1,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         },
@@ -3372,5 +3427,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-23T19:01:51.109Z"
+  "updatedAt": "2026-06-23T22:01:52.431Z"
 }
