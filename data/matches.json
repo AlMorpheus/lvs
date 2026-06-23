@@ -2568,7 +2568,7 @@
   {
     "id": "1489404",
     "date": "2026-06-23T17:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2586,12 +2586,56 @@
       "home": 5,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 5,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T19:01:47.978Z",
     "lineupAt": "2026-06-23T15:52:13.211Z",
     "remind2hAt": "2026-06-23T15:01:10.346Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 874,
+        "name": "C. Ronaldo",
+        "teamId": 27,
+        "minute": 6,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 263482,
+        "name": "N. Mendes",
+        "teamId": 27,
+        "minute": 17,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 874,
+        "name": "C. Ronaldo",
+        "teamId": 27,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 73507,
+        "name": "A. Nematov",
+        "teamId": 27,
+        "minute": 60,
+        "type": "own",
+        "pos": "Goalkeeper"
+      },
+      {
+        "playerId": 22236,
+        "name": "R. Leao",
+        "teamId": 27,
+        "minute": 87,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
