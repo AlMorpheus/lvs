@@ -5264,6 +5264,13 @@
       "start": true
     },
     {
+      "id": 39362,
+      "name": "Marcus Pedersen",
+      "number": 16,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 264378,
       "name": "Sander Tangvik",
       "number": 12,
@@ -5345,13 +5352,6 @@
       "name": "Patrick Berg",
       "number": 6,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 39362,
-      "name": "Marcus Pedersen",
-      "number": 16,
-      "pos": "Defender",
       "start": false
     },
     {
