@@ -2510,7 +2510,7 @@
   {
     "id": "1489400",
     "date": "2026-06-23T03:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2528,12 +2528,40 @@
       "home": 1,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T05:02:28.577Z",
     "lineupAt": "2026-06-23T02:12:16.634Z",
     "remind2hAt": "2026-06-23T01:02:02.762Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 213980,
+        "name": "N. Al Rashdan",
+        "teamId": 1548,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 292924,
+        "name": "N. Benbouali",
+        "teamId": 1532,
+        "minute": 69,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 85041,
+        "name": "A. Gouiri",
+        "teamId": 1532,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
