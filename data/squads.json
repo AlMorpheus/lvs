@@ -6623,23 +6623,9 @@
       "start": true
     },
     {
-      "id": 475575,
-      "name": "Caleb Yirenkyi",
-      "number": 3,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 49,
       "name": "Thomas Partey",
       "number": 5,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 3608,
-      "name": "Kwasi Sibo",
-      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -6651,10 +6637,17 @@
       "start": true
     },
     {
-      "id": 3428,
-      "name": "Jordan Ayew",
-      "number": 9,
-      "pos": "Attacker",
+      "id": 475575,
+      "name": "Caleb Yirenkyi",
+      "number": 3,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 3608,
+      "name": "Kwasi Sibo",
+      "number": 8,
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -6662,6 +6655,13 @@
       "name": "Antoine Semenyo",
       "number": 11,
       "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 3428,
+      "name": "Jordan Ayew",
+      "number": 9,
+      "pos": "Attacker",
       "start": true
     },
     {
