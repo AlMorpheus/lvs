@@ -1002,6 +1002,62 @@
     "lockedAt": "2026-06-23T17:01:25.665Z",
     "syncedAt": "2026-06-23T17:01:25.665Z"
   },
+  "1489405": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Ayoub El Kaabi",
+        "team": "home",
+        "pos": "нап",
+        "id": "2722"
+      },
+      {
+        "name": "Brahim Díaz",
+        "team": "home",
+        "pos": "пз",
+        "id": "744"
+      },
+      {
+        "name": "Ismael Saibari",
+        "team": "home",
+        "pos": "пз",
+        "id": "161897"
+      }
+    ],
+    "lockedAt": "2026-06-24T22:01:56.090Z",
+    "syncedAt": "2026-06-24T22:01:56.090Z"
+  },
+  "1489406": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Vinícius Júnior",
+        "team": "away",
+        "pos": "нап",
+        "id": "762"
+      },
+      {
+        "name": "Matheus Cunha",
+        "team": "away",
+        "pos": "нап",
+        "id": "1165"
+      },
+      {
+        "name": "Scott McTominay",
+        "team": "home",
+        "pos": "нап",
+        "id": "903"
+      }
+    ],
+    "lockedAt": "2026-06-24T22:01:56.091Z",
+    "syncedAt": "2026-06-24T22:01:56.091Z"
+  },
   "1489408": {
     "score": {
       "home": 2,

@@ -2883,7 +2883,7 @@
   {
     "id": "1489405",
     "date": "2026-06-24T22:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -2897,7 +2897,10 @@
       "name": "Haiti",
       "flag": "https://media.api-sports.io/football/teams/2386.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -2910,7 +2913,7 @@
   {
     "id": "1489406",
     "date": "2026-06-24T22:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -2924,7 +2927,10 @@
       "name": "Brazil",
       "flag": "https://media.api-sports.io/football/teams/6.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
