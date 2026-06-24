@@ -2759,7 +2759,7 @@
   {
     "id": "1489408",
     "date": "2026-06-24T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -2773,7 +2773,10 @@
       "name": "Canada",
       "flag": "https://media.api-sports.io/football/teams/5529.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,

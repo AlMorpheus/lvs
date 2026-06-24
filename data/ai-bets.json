@@ -1002,6 +1002,34 @@
     "lockedAt": "2026-06-23T17:01:25.665Z",
     "syncedAt": "2026-06-23T17:01:25.665Z"
   },
+  "1489408": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Breel Embolo",
+        "team": "home",
+        "pos": "нап",
+        "id": "421"
+      },
+      {
+        "name": "Jonathan David",
+        "team": "away",
+        "pos": "нап",
+        "id": "8489"
+      },
+      {
+        "name": "Rubén Vargas",
+        "team": "home",
+        "pos": "пз",
+        "id": "48471"
+      }
+    ],
+    "lockedAt": "2026-06-24T19:00:52.448Z",
+    "syncedAt": "2026-06-24T19:00:52.448Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
@@ -1278,6 +1306,34 @@
     ],
     "lockedAt": "2026-06-24T02:01:38.257Z",
     "syncedAt": "2026-06-24T02:01:38.257Z"
+  },
+  "1539009": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Edin Džeko",
+        "team": "home",
+        "pos": "нап",
+        "id": "790"
+      },
+      {
+        "name": "Ermedin Demirović",
+        "team": "home",
+        "pos": "нап",
+        "id": "46930"
+      },
+      {
+        "name": "Akram Afif",
+        "team": "away",
+        "pos": "нап",
+        "id": "2544"
+      }
+    ],
+    "lockedAt": "2026-06-24T19:00:52.449Z",
+    "syncedAt": "2026-06-24T19:00:52.449Z"
   },
   "1539016": {
     "score": {
