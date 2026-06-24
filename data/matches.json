@@ -2789,7 +2789,7 @@
   {
     "id": "1539009",
     "date": "2026-06-24T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -2803,7 +2803,10 @@
       "name": "Qatar",
       "flag": "https://media.api-sports.io/football/teams/1569.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
