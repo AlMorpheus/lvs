@@ -3,9 +3,9 @@
     {
       "id": "betanalyse",
       "name": "🤖 Шеф",
-      "matchPts": 544,
+      "matchPts": 551,
       "futuresPts": 0,
-      "total": 544,
+      "total": 551,
       "exactCount": 4,
       "perMatch": {
         "1489369": {
@@ -503,6 +503,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539008": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 4,
@@ -533,9 +544,9 @@
     {
       "id": "sergey",
       "name": "Мел",
-      "matchPts": 532,
+      "matchPts": 544,
       "futuresPts": 0,
-      "total": 532,
+      "total": 544,
       "exactCount": 5,
       "perMatch": {
         "1489369": {
@@ -1033,6 +1044,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539008": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 2,
@@ -1063,9 +1085,9 @@
     {
       "id": "albert",
       "name": "Альберт",
-      "matchPts": 525,
+      "matchPts": 532,
       "futuresPts": 0,
-      "total": 525,
+      "total": 532,
       "exactCount": 8,
       "perMatch": {
         "1489369": {
@@ -1541,6 +1563,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539008": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 2,
@@ -1571,9 +1604,9 @@
     {
       "id": "sasha",
       "name": "Мастер",
-      "matchPts": 521,
+      "matchPts": 528,
       "futuresPts": 0,
-      "total": 521,
+      "total": 528,
       "exactCount": 5,
       "perMatch": {
         "1489369": {
@@ -2060,6 +2093,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539008": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 1,
+          "special": 0,
+          "total": 7,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 2,
@@ -2090,9 +2134,9 @@
     {
       "id": "liza",
       "name": "Лиза",
-      "matchPts": 420,
+      "matchPts": 432,
       "futuresPts": 0,
-      "total": 420,
+      "total": 432,
       "exactCount": 3,
       "perMatch": {
         "1489369": {
@@ -2568,6 +2612,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539008": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 12,
           "scorerPts": 2,
@@ -2587,9 +2642,9 @@
     {
       "id": "dasha",
       "name": "Даша",
-      "matchPts": 391,
+      "matchPts": 403,
       "futuresPts": 0,
-      "total": 391,
+      "total": 403,
       "exactCount": 2,
       "perMatch": {
         "1489369": {
@@ -3076,6 +3131,17 @@
           "isExact": false,
           "usedReg": false
         },
+        "1539008": {
+          "scorePts": 12,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 12,
+          "multiplier": 1,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
+        },
         "1539016": {
           "scorePts": 7,
           "scorerPts": 2,
@@ -3493,5 +3559,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-24T00:55:18.253Z"
+  "updatedAt": "2026-06-24T03:58:41.628Z"
 }

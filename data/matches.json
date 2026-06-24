@@ -2717,7 +2717,7 @@
   {
     "id": "1539008",
     "date": "2026-06-24T02:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2735,12 +2735,24 @@
       "home": 1,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T03:58:38.865Z",
     "lineupAt": "2026-06-24T00:57:20.897Z",
     "remind2hAt": "2026-06-24T00:00:50.318Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 13736,
+        "name": "D. Munoz",
+        "teamId": 8,
+        "minute": 76,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
