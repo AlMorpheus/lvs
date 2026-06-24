@@ -2838,10 +2838,11 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-06-24T20:00:44.411Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1
+    "multiplier": 1,
+    "remindJustDue": true
   },
   {
     "id": "1489406",
@@ -2865,10 +2866,11 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-06-24T20:00:44.411Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1
+    "multiplier": 1,
+    "remindJustDue": true
   },
   {
     "id": "1539010",
