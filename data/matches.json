@@ -2675,7 +2675,7 @@
   {
     "id": "1489403",
     "date": "2026-06-23T23:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 2",
     "roundKey": "group-2",
     "stage": "group",
@@ -2693,12 +2693,24 @@
       "home": 0,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T00:55:15.204Z",
     "lineupAt": "2026-06-23T21:51:32.267Z",
     "remind2hAt": "2026-06-23T21:00:43.245Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 46746,
+        "name": "A. Budimir",
+        "teamId": 3,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
