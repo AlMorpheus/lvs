@@ -1086,17 +1086,17 @@
       "start": true
     },
     {
-      "id": 2490,
-      "name": "Jefferson Lerma",
-      "number": 16,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 324034,
       "name": "Gustavo Puerta",
       "number": 14,
       "pos": "Defender",
+      "start": true
+    },
+    {
+      "id": 2490,
+      "name": "Jefferson Lerma",
+      "number": 16,
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -1114,16 +1114,16 @@
       "start": true
     },
     {
-      "id": 2489,
-      "name": "Luis Díaz",
-      "number": 7,
+      "id": 47237,
+      "name": "Luis Javier Suárez",
+      "number": 25,
       "pos": "Attacker",
       "start": true
     },
     {
-      "id": 47237,
-      "name": "Luis Javier Suárez",
-      "number": 25,
+      "id": 2489,
+      "name": "Luis Díaz",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
@@ -6898,6 +6898,13 @@
       "id": 129670,
       "name": "Nathanaël Mbuku",
       "number": 7,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 8627,
+      "name": "Théo Bongonda",
+      "number": 10,
       "pos": "Midfielder",
       "start": false
     },
