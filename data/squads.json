@@ -1128,6 +1128,20 @@
       "start": true
     },
     {
+      "id": 6005,
+      "name": "Juan Fernando Quintero",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 24810,
+      "name": "Jhon Córdoba",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 2481,
       "name": "Álvaro Montero",
       "number": 24,
@@ -1205,13 +1219,6 @@
       "start": false
     },
     {
-      "id": 6005,
-      "name": "Juan Fernando Quintero",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 289592,
       "name": "Kevin Castaño",
       "number": 5,
@@ -1222,13 +1229,6 @@
       "id": 47582,
       "name": "Cucho Hernández",
       "number": 19,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 24810,
-      "name": "Jhon Córdoba",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     }
@@ -6825,6 +6825,20 @@
       "start": true
     },
     {
+      "id": 365331,
+      "name": "Noah Sadiki",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 20674,
+      "name": "Simon Banza",
+      "number": 23,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 314509,
       "name": "Matthieu Epolo",
       "number": 21,
@@ -6888,13 +6902,6 @@
       "start": false
     },
     {
-      "id": 365331,
-      "name": "Noah Sadiki",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 129670,
       "name": "Nathanaël Mbuku",
       "number": 7,
@@ -6906,13 +6913,6 @@
       "name": "Théo Bongonda",
       "number": 10,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 20674,
-      "name": "Simon Banza",
-      "number": 23,
-      "pos": "Attacker",
       "start": false
     },
     {
