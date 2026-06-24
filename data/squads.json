@@ -5989,6 +5989,34 @@
       "start": true
     },
     {
+      "id": 264094,
+      "name": "Benjamin Tahirović",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 322101,
+      "name": "Amar Memić",
+      "number": 15,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 53517,
+      "name": "Dennis Hadžikadunić",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 340173,
+      "name": "Ermin Mahmić",
+      "number": 26,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 108370,
       "name": "Martin Zlomislić",
       "number": 22,
@@ -6006,13 +6034,6 @@
       "id": 76867,
       "name": "Nihad Mujakić",
       "number": 2,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 53517,
-      "name": "Dennis Hadžikadunić",
-      "number": 3,
       "pos": "Defender",
       "start": false
     },
@@ -6038,30 +6059,9 @@
       "start": false
     },
     {
-      "id": 264094,
-      "name": "Benjamin Tahirović",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 25129,
       "name": "Dženis Burnić",
       "number": 17,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 340173,
-      "name": "Ermin Mahmić",
-      "number": 26,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 322101,
-      "name": "Amar Memić",
-      "number": 15,
       "pos": "Midfielder",
       "start": false
     },
@@ -8130,6 +8130,20 @@
       "start": true
     },
     {
+      "id": 2533,
+      "name": "Abdelaziz Hatem",
+      "number": 6,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 42286,
+      "name": "Ahmed Al-Ganehi",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 42021,
       "name": "Meshaal Barsham",
       "number": 22,
@@ -8175,20 +8189,6 @@
       "id": 283174,
       "name": "Mohamed Naceur Almanai",
       "number": 26,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 2533,
-      "name": "Abdelaziz Hatem",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 42286,
-      "name": "Ahmed Al-Ganehi",
-      "number": 17,
       "pos": "Midfielder",
       "start": false
     },
@@ -9339,6 +9339,27 @@
       "start": true
     },
     {
+      "id": 35570,
+      "name": "Stephen Eustaquio",
+      "number": 7,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 44798,
+      "name": "Liam Millar",
+      "number": 11,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 351587,
+      "name": "Tani Oluwaseyi",
+      "number": 12,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 51148,
       "name": "Dayne St. Clair",
       "number": 1,
@@ -9381,20 +9402,6 @@
       "start": false
     },
     {
-      "id": 35570,
-      "name": "Stephen Eustaquio",
-      "number": 7,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 44798,
-      "name": "Liam Millar",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 50817,
       "name": "Jonathan Osorio",
       "number": 21,
@@ -9406,13 +9413,6 @@
       "name": "Jacob Shaffelburg",
       "number": 14,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 351587,
-      "name": "Tani Oluwaseyi",
-      "number": 12,
-      "pos": "Attacker",
       "start": false
     },
     {
