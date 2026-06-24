@@ -1251,6 +1251,34 @@
     "lockedAt": "2026-06-20T17:00:09.884Z",
     "syncedAt": "2026-06-20T17:00:09.884Z"
   },
+  "1539008": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Luis Díaz",
+        "team": "home",
+        "pos": "нап",
+        "id": "2489"
+      },
+      {
+        "name": "James Rodríguez",
+        "team": "home",
+        "pos": "нап",
+        "id": "517"
+      },
+      {
+        "name": "Yoane Wissa",
+        "team": "away",
+        "pos": "нап",
+        "id": "20649"
+      }
+    ],
+    "lockedAt": "2026-06-24T02:01:38.257Z",
+    "syncedAt": "2026-06-24T02:01:38.257Z"
+  },
   "1539016": {
     "score": {
       "home": 0,
