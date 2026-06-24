@@ -5876,6 +5876,13 @@
       "start": true
     },
     {
+      "id": 1117,
+      "name": "Kieran Tierney",
+      "number": 6,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 44937,
       "name": "Liam Kelly",
       "number": 12,
@@ -5900,13 +5907,6 @@
       "id": 19066,
       "name": "Grant Hanley",
       "number": 5,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 1117,
-      "name": "Kieran Tierney",
-      "number": 6,
       "pos": "Defender",
       "start": false
     },
@@ -9068,6 +9068,20 @@
       "start": true
     },
     {
+      "id": 128766,
+      "name": "Louicius Don Deedson",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 45020,
+      "name": "Duckens Nazon",
+      "number": 9,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 174768,
       "name": "Alexandre Pierre",
       "number": 12,
@@ -9152,23 +9166,9 @@
       "start": false
     },
     {
-      "id": 128766,
-      "name": "Louicius Don Deedson",
-      "number": 11,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 48535,
       "name": "Yassin Fortune",
       "number": 19,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 45020,
-      "name": "Duckens Nazon",
-      "number": 9,
       "pos": "Attacker",
       "start": false
     }
