@@ -1,6 +1,6 @@
 {
   "5": {
-    "name": "Manuel Akanji",
+    "name": "M. Akanji",
     "pos": "Defender",
     "team": "15"
   },
@@ -190,7 +190,7 @@
     "team": "2"
   },
   "280": {
-    "name": "Alisson",
+    "name": "Alisson Becker",
     "pos": "Goalkeeper",
     "team": "6"
   },
@@ -315,7 +315,7 @@
     "team": "775"
   },
   "509": {
-    "name": "Alphonso Davies",
+    "name": "A. Davies",
     "pos": "Defender",
     "team": "5529"
   },
@@ -535,7 +535,7 @@
     "team": "768"
   },
   "790": {
-    "name": "Edin Džeko",
+    "name": "E. Dzeko",
     "pos": "Attacker",
     "team": "1113"
   },
@@ -545,12 +545,12 @@
     "team": "1118"
   },
   "794": {
-    "name": "Patrik Schick",
+    "name": "P. Schick",
     "pos": "Attacker",
     "team": "770"
   },
   "818": {
-    "name": "Tomáš Chorý",
+    "name": "T. Chorý",
     "pos": "Attacker",
     "team": "770"
   },
@@ -640,17 +640,17 @@
     "team": "9"
   },
   "951": {
-    "name": "Michel Aebischer",
+    "name": "M. Aebischer",
     "pos": "Midfielder",
     "team": "15"
   },
   "952": {
-    "name": "Christian Fassnacht",
+    "name": "C. Fassnacht",
     "pos": "Attacker",
     "team": "15"
   },
   "957": {
-    "name": "Djibril Sow",
+    "name": "D. Sow",
     "pos": "Midfielder",
     "team": "15"
   },
@@ -720,7 +720,7 @@
     "team": "2384"
   },
   "1142": {
-    "name": "Yvon Mvogo",
+    "name": "Y. Mvogo",
     "pos": "Goalkeeper",
     "team": "15"
   },
@@ -755,17 +755,17 @@
     "team": "6"
   },
   "1231": {
-    "name": "Vladimír Coufal",
+    "name": "V. Coufal",
     "pos": "Defender",
     "team": "770"
   },
   "1237": {
-    "name": "Jaroslav Zelený",
+    "name": "J. Zelený",
     "pos": "Defender",
     "team": "770"
   },
   "1243": {
-    "name": "Tomáš Souček",
+    "name": "T. Soucek",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -800,7 +800,7 @@
     "team": "9"
   },
   "1324": {
-    "name": "Ivan Šunjić",
+    "name": "I. Sunjic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -810,7 +810,7 @@
     "team": "777"
   },
   "1411": {
-    "name": "Hannes Delcroix",
+    "name": "H. Delcroix",
     "pos": "Defender",
     "team": "2386"
   },
@@ -830,7 +830,7 @@
     "team": "1508"
   },
   "1442": {
-    "name": "Sead Kolašinac",
+    "name": "S. Kolasinac",
     "pos": "Defender",
     "team": "1113"
   },
@@ -905,7 +905,7 @@
     "team": "768"
   },
   "1631": {
-    "name": "Ricardo Rodríguez",
+    "name": "R. Rodríguez",
     "pos": "Defender",
     "team": "15"
   },
@@ -935,7 +935,7 @@
     "team": "775"
   },
   "1741": {
-    "name": "Nikola Katić",
+    "name": "N. Katic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -985,7 +985,7 @@
     "team": "1090"
   },
   "2098": {
-    "name": "Guillermo Ochoa",
+    "name": "G. Ochoa",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -1010,7 +1010,7 @@
     "team": "1095"
   },
   "2252": {
-    "name": "Tomáš Holeš",
+    "name": "T. Holes",
     "pos": "Defender",
     "team": "770"
   },
@@ -1145,7 +1145,7 @@
     "team": "1569"
   },
   "2533": {
-    "name": "Abdelaziz Hatem",
+    "name": "Abdulaziz Hatem",
     "pos": "Midfielder",
     "team": "1569"
   },
@@ -1165,7 +1165,7 @@
     "team": "1569"
   },
   "2542": {
-    "name": "Ahmed Alaaeldin",
+    "name": "Ahmed Alaa",
     "pos": "Attacker",
     "team": "1569"
   },
@@ -1380,17 +1380,17 @@
     "team": "3"
   },
   "2803": {
-    "name": "Nico Elvedi",
+    "name": "N. Elvedi",
     "pos": "Defender",
     "team": "15"
   },
   "2807": {
-    "name": "Remo Freuler",
+    "name": "R. Freuler",
     "pos": "Midfielder",
     "team": "15"
   },
   "2810": {
-    "name": "Denis Zakaria",
+    "name": "D. Zakaria",
     "pos": "Midfielder",
     "team": "15"
   },
@@ -1410,7 +1410,7 @@
     "team": "5"
   },
   "2869": {
-    "name": "Edson Álvarez",
+    "name": "E. Álvarez",
     "pos": "Defender",
     "team": "16"
   },
@@ -1420,17 +1420,17 @@
     "team": "16"
   },
   "2878": {
-    "name": "Jorge Sánchez",
+    "name": "J. Sánchez",
     "pos": "Defender",
     "team": "16"
   },
   "2879": {
-    "name": "Roberto Alvarado",
+    "name": "R. Alvarado",
     "pos": "Attacker",
     "team": "16"
   },
   "2881": {
-    "name": "Jesús Gallardo",
+    "name": "J. Gallardo",
     "pos": "Defender",
     "team": "16"
   },
@@ -1440,7 +1440,7 @@
     "team": "16"
   },
   "2889": {
-    "name": "Alexis Vega",
+    "name": "A. Vega",
     "pos": "Attacker",
     "team": "16"
   },
@@ -1785,7 +1785,7 @@
     "team": "11"
   },
   "7318": {
-    "name": "Amar Dedić",
+    "name": "A. Dedic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -1860,7 +1860,7 @@
     "team": "12"
   },
   "8601": {
-    "name": "Frantzdy Pierrot",
+    "name": "F. Pierrot",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -1875,12 +1875,12 @@
     "team": "1108"
   },
   "9026": {
-    "name": "Nikola Vasilj",
+    "name": "N. Vasilj",
     "pos": "Goalkeeper",
     "team": "1113"
   },
   "10097": {
-    "name": "Éderson",
+    "name": "Éderson Silva",
     "pos": "Midfielder",
     "team": "6"
   },
@@ -1925,7 +1925,7 @@
     "team": "2383"
   },
   "12303": {
-    "name": "Ricardo Adé",
+    "name": "Ricardo Ade",
     "pos": "Defender",
     "team": "2386"
   },
@@ -1960,7 +1960,7 @@
     "team": "3"
   },
   "14301": {
-    "name": "Stjepan Radeljić",
+    "name": "S. Radeljic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -2385,12 +2385,12 @@
     "team": "1508"
   },
   "20655": {
-    "name": "Jean-Kévin Duverne",
+    "name": "J. Duverne",
     "pos": "Defender",
     "team": "2386"
   },
   "20665": {
-    "name": "Jean-Ricner Bellegarde",
+    "name": "J. Bellegarde",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -2415,7 +2415,7 @@
     "team": "32"
   },
   "20850": {
-    "name": "Carlens Arcus",
+    "name": "C. Arcus",
     "pos": "Defender",
     "team": "2386"
   },
@@ -2460,7 +2460,7 @@
     "team": "28"
   },
   "21613": {
-    "name": "Lenny Joseph",
+    "name": "L. Joseph",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -2570,7 +2570,7 @@
     "team": "17"
   },
   "25129": {
-    "name": "Dženis Burnić",
+    "name": "D. Burnic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -2580,7 +2580,7 @@
     "team": "25"
   },
   "25282": {
-    "name": "Gregor Kobel",
+    "name": "G. Kobel",
     "pos": "Goalkeeper",
     "team": "15"
   },
@@ -2610,7 +2610,7 @@
     "team": "1504"
   },
   "25348": {
-    "name": "Vladimír Darida",
+    "name": "V. Darida",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -2710,7 +2710,7 @@
     "team": "1117"
   },
   "28382": {
-    "name": "Haris Tabaković",
+    "name": "H. Tabakovic",
     "pos": "Attacker",
     "team": "1113"
   },
@@ -2755,7 +2755,7 @@
     "team": "768"
   },
   "30424": {
-    "name": "Roger Ibañez",
+    "name": "Ibañez",
     "pos": "Defender",
     "team": "6"
   },
@@ -2975,27 +2975,27 @@
     "team": "2382"
   },
   "35544": {
-    "name": "Johan Vásquez",
+    "name": "J. Vásquez",
     "pos": "Defender",
     "team": "16"
   },
   "35570": {
-    "name": "Stephen Eustaquio",
+    "name": "S. Eustáquio",
     "pos": "Midfielder",
     "team": "5529"
   },
   "35576": {
-    "name": "Orbelín Pineda",
+    "name": "O. Pineda",
     "pos": "Midfielder",
     "team": "16"
   },
   "35690": {
-    "name": "Luis Chávez",
+    "name": "L. Chávez",
     "pos": "Midfielder",
     "team": "16"
   },
   "35769": {
-    "name": "Carlos Acevedo",
+    "name": "C. Acevedo",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -3015,12 +3015,12 @@
     "team": "16"
   },
   "36088": {
-    "name": "Guillermo Martínez",
+    "name": "G. Martínez",
     "pos": "Attacker",
     "team": "16"
   },
   "36111": {
-    "name": "César Huerta",
+    "name": "C. Huerta",
     "pos": "Attacker",
     "team": "16"
   },
@@ -3270,7 +3270,7 @@
     "team": "1569"
   },
   "42060": {
-    "name": "Sultan Al-Brake",
+    "name": "Sultan Al Braik",
     "pos": "Defender",
     "team": "1569"
   },
@@ -3295,7 +3295,7 @@
     "team": "1567"
   },
   "42286": {
-    "name": "Ahmed Al-Ganehi",
+    "name": "Ahmed Al Ganehi",
     "pos": "Midfielder",
     "team": "1569"
   },
@@ -3475,7 +3475,7 @@
     "team": "1508"
   },
   "44798": {
-    "name": "Liam Millar",
+    "name": "L. Millar",
     "pos": "Midfielder",
     "team": "5529"
   },
@@ -3510,7 +3510,7 @@
     "team": "774"
   },
   "45020": {
-    "name": "Duckens Nazon",
+    "name": "D. Nazon",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -3575,7 +3575,7 @@
     "team": "11"
   },
   "46930": {
-    "name": "Ermedin Demirović",
+    "name": "E. Demirovic",
     "pos": "Attacker",
     "team": "1113"
   },
@@ -3705,17 +3705,17 @@
     "team": "1567"
   },
   "48372": {
-    "name": "Eray Cömert",
+    "name": "E. Cömert",
     "pos": "Defender",
     "team": "15"
   },
   "48378": {
-    "name": "Silvan Widmer",
+    "name": "S. Widmer",
     "pos": "Defender",
     "team": "15"
   },
   "48389": {
-    "name": "Noah Okafor",
+    "name": "N. Okafor",
     "pos": "Attacker",
     "team": "15"
   },
@@ -3730,7 +3730,7 @@
     "team": "15"
   },
   "48497": {
-    "name": "Cédric Itten",
+    "name": "C. Itten",
     "pos": "Attacker",
     "team": "15"
   },
@@ -3740,7 +3740,7 @@
     "team": "1508"
   },
   "48535": {
-    "name": "Yassin Fortune",
+    "name": "Y. Fortuné",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -3750,7 +3750,7 @@
     "team": "1508"
   },
   "48648": {
-    "name": "Dan Ndoye",
+    "name": "D. Ndoye",
     "pos": "Attacker",
     "team": "15"
   },
@@ -3795,7 +3795,7 @@
     "team": "777"
   },
   "50006": {
-    "name": "Amir Hadžiahmetović",
+    "name": "A. Hadziahmetovic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -3860,22 +3860,22 @@
     "team": "1533"
   },
   "50788": {
-    "name": "Mathieu Choinière",
+    "name": "M. Choinière",
     "pos": "Midfielder",
     "team": "5529"
   },
   "50816": {
-    "name": "Richie Laryea",
+    "name": "R. Laryea",
     "pos": "Defender",
     "team": "5529"
   },
   "50817": {
-    "name": "Jonathan Osorio",
+    "name": "J. Osorio",
     "pos": "Midfielder",
     "team": "5529"
   },
   "50826": {
-    "name": "Jacob Shaffelburg",
+    "name": "J. Shaffelburg",
     "pos": "Midfielder",
     "team": "5529"
   },
@@ -3895,7 +3895,7 @@
     "team": "11"
   },
   "50958": {
-    "name": "Derrick Etienne",
+    "name": "D. Etienne",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -3905,7 +3905,7 @@
     "team": "2384"
   },
   "51016": {
-    "name": "Tajon Buchanan",
+    "name": "T. Buchanan",
     "pos": "Attacker",
     "team": "5529"
   },
@@ -3915,7 +3915,7 @@
     "team": "2384"
   },
   "51148": {
-    "name": "Dayne St. Clair",
+    "name": "D. St. Clair",
     "pos": "Goalkeeper",
     "team": "5529"
   },
@@ -3925,12 +3925,12 @@
     "team": "4673"
   },
   "51274": {
-    "name": "Maxime Crépeau",
+    "name": "M. Crépeau",
     "pos": "Goalkeeper",
     "team": "5529"
   },
   "51295": {
-    "name": "Derek Cornelius",
+    "name": "D. Cornelius",
     "pos": "Defender",
     "team": "5529"
   },
@@ -3995,7 +3995,7 @@
     "team": "7"
   },
   "53517": {
-    "name": "Dennis Hadžikadunić",
+    "name": "D. Hadzikadunic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -4195,7 +4195,7 @@
     "team": "1568"
   },
   "66019": {
-    "name": "Adam Hložek",
+    "name": "A. Hlozek",
     "pos": "Attacker",
     "team": "770"
   },
@@ -4205,32 +4205,32 @@
     "team": "3"
   },
   "66214": {
-    "name": "David Douděra",
+    "name": "D. Doudera",
     "pos": "Defender",
     "team": "770"
   },
   "66275": {
-    "name": "Mojmír Chytil",
+    "name": "M. Chytil",
     "pos": "Attacker",
     "team": "770"
   },
   "66340": {
-    "name": "Jan Kuchta",
+    "name": "J. Kuchta",
     "pos": "Attacker",
     "team": "770"
   },
   "66347": {
-    "name": "Jindřich Staněk",
+    "name": "J. Stanek",
     "pos": "Goalkeeper",
     "team": "770"
   },
   "66353": {
-    "name": "Lukáš Provod",
+    "name": "L. Provod",
     "pos": "Midfielder",
     "team": "770"
   },
   "66387": {
-    "name": "Pavel Šulc",
+    "name": "P. Sulc",
     "pos": "Attacker",
     "team": "770"
   },
@@ -4275,7 +4275,7 @@
     "team": "2383"
   },
   "70514": {
-    "name": "Armin Gigović",
+    "name": "A. Gigovic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -4395,7 +4395,7 @@
     "team": "1094"
   },
   "76867": {
-    "name": "Nihad Mujakić",
+    "name": "N. Mujakic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -4405,12 +4405,12 @@
     "team": "1113"
   },
   "78494": {
-    "name": "Joel Waterman",
+    "name": "J. Waterman",
     "pos": "Defender",
     "team": "5529"
   },
   "78547": {
-    "name": "Alistair Johnston",
+    "name": "A. Johnston",
     "pos": "Defender",
     "team": "5529"
   },
@@ -4445,7 +4445,7 @@
     "team": "767"
   },
   "84087": {
-    "name": "Wilson Isidor",
+    "name": "W. Isidor",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -4455,7 +4455,7 @@
     "team": "1532"
   },
   "87789": {
-    "name": "Johny Placide",
+    "name": "J. Placide",
     "pos": "Goalkeeper",
     "team": "2386"
   },
@@ -4510,7 +4510,7 @@
     "team": "4673"
   },
   "94562": {
-    "name": "Santiago Giménez",
+    "name": "S. Giménez",
     "pos": "Attacker",
     "team": "16"
   },
@@ -4545,7 +4545,7 @@
     "team": "7"
   },
   "102505": {
-    "name": "Duke Lacroix",
+    "name": "D. Lacroix",
     "pos": "Defender",
     "team": "2386"
   },
@@ -4575,7 +4575,7 @@
     "team": "12"
   },
   "108370": {
-    "name": "Martin Zlomislić",
+    "name": "M. Zlomislic",
     "pos": "Goalkeeper",
     "team": "1113"
   },
@@ -4650,12 +4650,12 @@
     "team": "1095"
   },
   "123468": {
-    "name": "Marvin Keller",
+    "name": "M. Keller",
     "pos": "Goalkeeper",
     "team": "15"
   },
   "123469": {
-    "name": "Zeki Amdouni",
+    "name": "Z. Amdouni",
     "pos": "Attacker",
     "team": "15"
   },
@@ -4665,7 +4665,7 @@
     "team": "1548"
   },
   "123742": {
-    "name": "Josué Duverger",
+    "name": "J. Duverger",
     "pos": "Goalkeeper",
     "team": "2386"
   },
@@ -4705,7 +4705,7 @@
     "team": "768"
   },
   "127227": {
-    "name": "Israel Reyes",
+    "name": "I. Reyes",
     "pos": "Defender",
     "team": "16"
   },
@@ -4740,12 +4740,12 @@
     "team": "25"
   },
   "128766": {
-    "name": "Louicius Don Deedson",
+    "name": "L. Deedson",
     "pos": "Attacker",
     "team": "2386"
   },
   "128772": {
-    "name": "David Zima",
+    "name": "D. Zima",
     "pos": "Defender",
     "team": "770"
   },
@@ -4890,7 +4890,7 @@
     "team": "10"
   },
   "138804": {
-    "name": "Matěj Kovář",
+    "name": "M. Kovár",
     "pos": "Goalkeeper",
     "team": "770"
   },
@@ -5115,7 +5115,7 @@
     "team": "1"
   },
   "162194": {
-    "name": "Lukáš Červ",
+    "name": "L. Cerv",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -5125,7 +5125,7 @@
     "team": "5530"
   },
   "162222": {
-    "name": "Ivan Bašić",
+    "name": "I. Basic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -5140,7 +5140,7 @@
     "team": "1117"
   },
   "162414": {
-    "name": "Aurèle Amenda",
+    "name": "A. Amenda",
     "pos": "Defender",
     "team": "15"
   },
@@ -5170,7 +5170,7 @@
     "team": "1"
   },
   "162733": {
-    "name": "Ruben Providence",
+    "name": "R. Providence",
     "pos": "Attacker",
     "team": "2386"
   },
@@ -5185,12 +5185,12 @@
     "team": "1094"
   },
   "162964": {
-    "name": "Robin Hranáč",
+    "name": "R. Hranác",
     "pos": "Defender",
     "team": "770"
   },
   "163032": {
-    "name": "Fabian Rieder",
+    "name": "F. Rieder",
     "pos": "Midfielder",
     "team": "15"
   },
@@ -5245,17 +5245,17 @@
     "team": "1548"
   },
   "174768": {
-    "name": "Alexandre Pierre",
+    "name": "A. Pierre",
     "pos": "Goalkeeper",
     "team": "2386"
   },
   "174915": {
-    "name": "Josué Casimir",
+    "name": "J. Casimir",
     "pos": "Attacker",
     "team": "2386"
   },
   "175439": {
-    "name": "Homam Al-Amin",
+    "name": "Homam Ahmed",
     "pos": "Defender",
     "team": "1569"
   },
@@ -5340,7 +5340,7 @@
     "team": "32"
   },
   "190747": {
-    "name": "Martin Expérience",
+    "name": "M. Expérience",
     "pos": "Defender",
     "team": "2386"
   },
@@ -5365,7 +5365,7 @@
     "team": "1094"
   },
   "193279": {
-    "name": "Jayden Nelson",
+    "name": "J. Nelson",
     "pos": "Attacker",
     "team": "5529"
   },
@@ -5375,7 +5375,7 @@
     "team": "23"
   },
   "194242": {
-    "name": "Dominique Simon",
+    "name": "D. Simon",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -5415,7 +5415,7 @@
     "team": "2380"
   },
   "196156": {
-    "name": "Igor Thiago",
+    "name": "Thiago",
     "pos": "Attacker",
     "team": "6"
   },
@@ -5495,7 +5495,7 @@
     "team": "1532"
   },
   "200981": {
-    "name": "Jassem Gaber Abdulsallam",
+    "name": "Jassem Gaber",
     "pos": "Defender",
     "team": "1569"
   },
@@ -5550,7 +5550,7 @@
     "team": "4673"
   },
   "212233": {
-    "name": "Brian Gutiérrez",
+    "name": "B. Gutiérrez",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -5660,7 +5660,7 @@
     "team": "774"
   },
   "264094": {
-    "name": "Benjamin Tahirović",
+    "name": "B. Tahirovic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -5670,7 +5670,7 @@
     "team": "1090"
   },
   "264705": {
-    "name": "Ardon Jashari",
+    "name": "A. Jashari",
     "pos": "Midfielder",
     "team": "15"
   },
@@ -5720,7 +5720,7 @@
     "team": "5"
   },
   "266345": {
-    "name": "Erik Lira",
+    "name": "É. Lira",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -5755,7 +5755,7 @@
     "team": "32"
   },
   "269349": {
-    "name": "Lukáš Horníček",
+    "name": "L. Hornícek",
     "pos": "Goalkeeper",
     "team": "770"
   },
@@ -5770,12 +5770,12 @@
     "team": "32"
   },
   "270774": {
-    "name": "Raúl Rangel",
+    "name": "J. Rangel",
     "pos": "Goalkeeper",
     "team": "16"
   },
   "271350": {
-    "name": "Tarik Muharemović",
+    "name": "T. Muharemovic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -5805,7 +5805,7 @@
     "team": "6"
   },
   "275367": {
-    "name": "Wilguens Paugain",
+    "name": "W. Paugain",
     "pos": "Defender",
     "team": "2386"
   },
@@ -5930,7 +5930,7 @@
     "team": "10"
   },
   "284554": {
-    "name": "Owen Goodman",
+    "name": "O. Goodman",
     "pos": "Goalkeeper",
     "team": "5529"
   },
@@ -5950,7 +5950,7 @@
     "team": "768"
   },
   "290212": {
-    "name": "Denis Višinský",
+    "name": "D. Visinský",
     "pos": "Attacker",
     "team": "770"
   },
@@ -5960,7 +5960,7 @@
     "team": "1533"
   },
   "291713": {
-    "name": "Armando González",
+    "name": "A. González",
     "pos": "Attacker",
     "team": "16"
   },
@@ -6190,12 +6190,12 @@
     "team": "1"
   },
   "313353": {
-    "name": "Promise David",
+    "name": "P. David",
     "pos": "Attacker",
     "team": "5529"
   },
   "313383": {
-    "name": "Obed Vargas",
+    "name": "O. Vargas",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -6205,7 +6205,7 @@
     "team": "13"
   },
   "314377": {
-    "name": "Samed Baždar",
+    "name": "S. Bazdar",
     "pos": "Attacker",
     "team": "1113"
   },
@@ -6235,7 +6235,7 @@
     "team": "2383"
   },
   "318930": {
-    "name": "Garven-Michee Metusala",
+    "name": "G. Métusala",
     "pos": "Defender",
     "team": "2386"
   },
@@ -6250,7 +6250,7 @@
     "team": "26"
   },
   "322101": {
-    "name": "Amar Memić",
+    "name": "A. Memic",
     "pos": "Midfielder",
     "team": "1113"
   },
@@ -6305,7 +6305,7 @@
     "team": "13"
   },
   "327738": {
-    "name": "Luc De Fougerolles",
+    "name": "L. De Fougerolles",
     "pos": "Defender",
     "team": "5529"
   },
@@ -6325,7 +6325,7 @@
     "team": "25"
   },
   "328046": {
-    "name": "Ismael Koné",
+    "name": "I. Koné",
     "pos": "Midfielder",
     "team": "5529"
   },
@@ -6345,7 +6345,7 @@
     "team": "1532"
   },
   "329409": {
-    "name": "Esmir Bajraktarević",
+    "name": "E. Bajraktarevic",
     "pos": "Attacker",
     "team": "1113"
   },
@@ -6415,7 +6415,7 @@
     "team": "20"
   },
   "337740": {
-    "name": "Štěpán Chaloupek",
+    "name": "S. Chaloupek",
     "pos": "Defender",
     "team": "770"
   },
@@ -6430,7 +6430,7 @@
     "team": "2382"
   },
   "338367": {
-    "name": "Danley Jean Jacques",
+    "name": "D. Jean-Jacques",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -6615,7 +6615,7 @@
     "team": "774"
   },
   "349344": {
-    "name": "Luca Jaquez",
+    "name": "L. Jaquez",
     "pos": "Defender",
     "team": "15"
   },
@@ -6645,7 +6645,7 @@
     "team": "12"
   },
   "351587": {
-    "name": "Tani Oluwaseyi",
+    "name": "T. Oluwaseyi",
     "pos": "Attacker",
     "team": "5529"
   },
@@ -6730,7 +6730,7 @@
     "team": "2382"
   },
   "362145": {
-    "name": "Ali Ahmed",
+    "name": "A. Ahmed",
     "pos": "Attacker",
     "team": "5529"
   },
@@ -6750,7 +6750,7 @@
     "team": "1508"
   },
   "366516": {
-    "name": "Issa Laye",
+    "name": "G. Laye",
     "pos": "Defender",
     "team": "1569"
   },
@@ -6770,7 +6770,7 @@
     "team": "774"
   },
   "371050": {
-    "name": "Woodensky Pierre",
+    "name": "W. Pierre",
     "pos": "Midfielder",
     "team": "2386"
   },
@@ -6820,7 +6820,7 @@
     "team": "6"
   },
   "377930": {
-    "name": "Ayoub Al Oui",
+    "name": "A. Al Oui",
     "pos": "Defender",
     "team": "1569"
   },
@@ -6855,7 +6855,7 @@
     "team": "9"
   },
   "386837": {
-    "name": "Alexandr Sojka",
+    "name": "A. Sojka",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -6875,7 +6875,7 @@
     "team": "777"
   },
   "390002": {
-    "name": "Mateo Chávez",
+    "name": "M. Chávez",
     "pos": "Defender",
     "team": "16"
   },
@@ -6910,7 +6910,7 @@
     "team": "32"
   },
   "395559": {
-    "name": "Kerim Alajbegović",
+    "name": "Kerim-Sam Alajbegovic",
     "pos": "Attacker",
     "team": "1113"
   },
@@ -6980,7 +6980,7 @@
     "team": "5530"
   },
   "407017": {
-    "name": "Moise Bombito",
+    "name": "M. Bombito",
     "pos": "Defender",
     "team": "5529"
   },
@@ -6995,7 +6995,7 @@
     "team": "13"
   },
   "409670": {
-    "name": "Arjan Malić",
+    "name": "A. Malic",
     "pos": "Defender",
     "team": "1113"
   },
@@ -7035,7 +7035,7 @@
     "team": "31"
   },
   "416901": {
-    "name": "Niko Sigur",
+    "name": "N. Sigur",
     "pos": "Defender",
     "team": "5529"
   },
@@ -7055,7 +7055,7 @@
     "team": "12"
   },
   "423737": {
-    "name": "Tahsin Mohammed Jamshid",
+    "name": "Tahsin Jamshid",
     "pos": "Attacker",
     "team": "1569"
   },
@@ -7135,7 +7135,7 @@
     "team": "1095"
   },
   "446130": {
-    "name": "Mladen Jurkas",
+    "name": "M. Jurkas",
     "pos": "Goalkeeper",
     "team": "1113"
   },
@@ -7205,7 +7205,7 @@
     "team": "1504"
   },
   "482605": {
-    "name": "Gilberto Mora",
+    "name": "G. Mora",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -7285,7 +7285,7 @@
     "team": "2386"
   },
   "542541": {
-    "name": "Yusuf Abdurisag",
+    "name": "Y. Abdurisag",
     "pos": "Attacker",
     "team": "1569"
   },
@@ -7385,7 +7385,7 @@
     "team": "11"
   },
   "555437": {
-    "name": "Hugo Sochurek",
+    "name": "H. Sochurek",
     "pos": "Midfielder",
     "team": "770"
   },
@@ -7415,7 +7415,7 @@
     "team": "1548"
   },
   "573613": {
-    "name": "Keeto Thermoncy",
+    "name": "K. Thermoncy",
     "pos": "Defender",
     "team": "2386"
   },
