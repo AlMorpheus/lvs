@@ -5813,16 +5813,16 @@
       "start": true
     },
     {
-      "id": 44811,
-      "name": "Scott McKenna",
-      "number": 26,
+      "id": 1111,
+      "name": "Jack Hendry",
+      "number": 13,
       "pos": "Defender",
       "start": true
     },
     {
-      "id": 1111,
-      "name": "Jack Hendry",
-      "number": 13,
+      "id": 44811,
+      "name": "Scott McKenna",
+      "number": 26,
       "pos": "Defender",
       "start": true
     },
@@ -5834,9 +5834,9 @@
       "start": true
     },
     {
-      "id": 343576,
-      "name": "Ben Gannon-Doak",
-      "number": 17,
+      "id": 44814,
+      "name": "Lewis Ferguson",
+      "number": 19,
       "pos": "Midfielder",
       "start": true
     },
@@ -5848,16 +5848,9 @@
       "start": true
     },
     {
-      "id": 44814,
-      "name": "Lewis Ferguson",
-      "number": 19,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 19191,
-      "name": "John McGinn",
-      "number": 7,
+      "id": 343576,
+      "name": "Ben Gannon-Doak",
+      "number": 17,
       "pos": "Midfielder",
       "start": true
     },
@@ -5865,6 +5858,13 @@
       "id": 903,
       "name": "Scott McTominay",
       "number": 4,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 19191,
+      "name": "John McGinn",
+      "number": 7,
       "pos": "Midfielder",
       "start": true
     },
