@@ -2881,36 +2881,6 @@
     "multiplier": 1
   },
   {
-    "id": "1489405",
-    "date": "2026-06-24T22:00:00+00:00",
-    "status": "2H",
-    "round": "Group Stage - 3",
-    "roundKey": "group-3",
-    "stage": "group",
-    "home": {
-      "id": 31,
-      "name": "Morocco",
-      "flag": "https://media.api-sports.io/football/teams/31.png"
-    },
-    "away": {
-      "id": 2386,
-      "name": "Haiti",
-      "flag": "https://media.api-sports.io/football/teams/2386.png"
-    },
-    "score": {
-      "home": 4,
-      "away": 2
-    },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "lineupAt": "2026-06-24T20:57:01.262Z",
-    "remind2hAt": "2026-06-24T20:00:44.411Z",
-    "scorers": [],
-    "multiplierOverride": null,
-    "multiplier": 1
-  },
-  {
     "id": "1489406",
     "date": "2026-06-24T22:00:00+00:00",
     "status": "2H",
@@ -2937,6 +2907,88 @@
     "lineupAt": "2026-06-24T20:57:01.374Z",
     "remind2hAt": "2026-06-24T20:00:44.411Z",
     "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489405",
+    "date": "2026-06-24T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "away": {
+      "id": 2386,
+      "name": "Haiti",
+      "flag": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "scoreReg": {
+      "home": 4,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T00:01:39.607Z",
+    "lineupAt": "2026-06-24T20:57:01.262Z",
+    "remind2hAt": "2026-06-24T20:00:44.411Z",
+    "scorers": [
+      {
+        "playerId": 2701,
+        "name": "Bono",
+        "teamId": 2386,
+        "minute": 10,
+        "type": "own",
+        "pos": "Goalkeeper"
+      },
+      {
+        "playerId": 9,
+        "name": "A. Hakimi",
+        "teamId": 31,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 84087,
+        "name": "W. Isidor",
+        "teamId": 2386,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 161897,
+        "name": "I. Saibari",
+        "teamId": 31,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 36579,
+        "name": "S. Rahimi",
+        "teamId": 31,
+        "minute": 78,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 369544,
+        "name": "G. Yassine",
+        "teamId": 31,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
