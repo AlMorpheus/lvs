@@ -3253,8 +3253,7 @@
     "remind2hAt": "2026-06-25T21:01:52.561Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3,
-    "lineupJustReady": true
+    "multiplier": 1.3
   },
   {
     "id": "1489412",
@@ -3281,8 +3280,7 @@
     "remind2hAt": "2026-06-25T21:01:52.562Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1,
-    "lineupJustReady": true
+    "multiplier": 1
   },
   {
     "id": "1539012",
