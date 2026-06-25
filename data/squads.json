@@ -2376,6 +2376,20 @@
       "start": true
     },
     {
+      "id": 313383,
+      "name": "Obed Vargas",
+      "number": 18,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 94562,
+      "name": "Santiago Giménez",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 35769,
       "name": "Carlos Acevedo",
       "number": 12,
@@ -2425,13 +2439,6 @@
       "start": false
     },
     {
-      "id": 313383,
-      "name": "Obed Vargas",
-      "number": 18,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 35690,
       "name": "Luis Chávez",
       "number": 24,
@@ -2463,13 +2470,6 @@
       "id": 2887,
       "name": "Raúl Jiménez",
       "number": 9,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 94562,
-      "name": "Santiago Giménez",
-      "number": 11,
       "pos": "Attacker",
       "start": false
     },
@@ -4646,6 +4646,27 @@
       "start": true
     },
     {
+      "id": 66353,
+      "name": "Lukáš Provod",
+      "number": 17,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 1243,
+      "name": "Tomáš Souček",
+      "number": 22,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 794,
+      "name": "Patrik Schick",
+      "number": 10,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 66347,
       "name": "Jindřich Staněk",
       "number": 16,
@@ -4695,13 +4716,6 @@
       "start": false
     },
     {
-      "id": 1243,
-      "name": "Tomáš Souček",
-      "number": 22,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 25348,
       "name": "Vladimír Darida",
       "number": 8,
@@ -4709,24 +4723,10 @@
       "start": false
     },
     {
-      "id": 794,
-      "name": "Patrik Schick",
-      "number": 10,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 66340,
       "name": "Jan Kuchta",
       "number": 11,
       "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 66353,
-      "name": "Lukáš Provod",
-      "number": 17,
-      "pos": "Midfielder",
       "start": false
     },
     {
