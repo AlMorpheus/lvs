@@ -1058,6 +1058,34 @@
     "lockedAt": "2026-06-24T22:01:56.091Z",
     "syncedAt": "2026-06-24T22:01:56.091Z"
   },
+  "1489407": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Hwang Hee-chan",
+        "team": "away",
+        "pos": "нап",
+        "id": "24888"
+      },
+      {
+        "name": "Kang-in Lee",
+        "team": "away",
+        "pos": "нап",
+        "id": "927"
+      },
+      {
+        "name": "Hyeon-gyu Oh",
+        "team": "away",
+        "pos": "нап",
+        "id": "34710"
+      }
+    ],
+    "lockedAt": "2026-06-25T01:00:19.570Z",
+    "syncedAt": "2026-06-25T01:00:19.570Z"
+  },
   "1489408": {
     "score": {
       "home": 2,
@@ -1390,6 +1418,34 @@
     ],
     "lockedAt": "2026-06-24T19:00:52.449Z",
     "syncedAt": "2026-06-24T19:00:52.449Z"
+  },
+  "1539010": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Julián Quiñones",
+        "team": "away",
+        "pos": "нап",
+        "id": "35532"
+      },
+      {
+        "name": "Adam Hložek",
+        "team": "home",
+        "pos": "нап",
+        "id": "66019"
+      },
+      {
+        "name": "Guillermo Martínez",
+        "team": "away",
+        "pos": "нап",
+        "id": "36088"
+      }
+    ],
+    "lockedAt": "2026-06-25T01:00:19.570Z",
+    "syncedAt": "2026-06-25T01:00:19.570Z"
   },
   "1539016": {
     "score": {
