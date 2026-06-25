@@ -2560,6 +2560,34 @@
       "start": true
     },
     {
+      "id": 280358,
+      "name": "Jens Castrop",
+      "number": 23,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 34168,
+      "name": "Jin-gyu Kim",
+      "number": 24,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 186,
+      "name": "Son Heung-min",
+      "number": 7,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 99211,
+      "name": "Jin-seob Park",
+      "number": 16,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 2890,
       "name": "Jo Hyeonwoo",
       "number": 21,
@@ -2609,31 +2637,10 @@
       "start": false
     },
     {
-      "id": 280358,
-      "name": "Jens Castrop",
-      "number": 23,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 237050,
       "name": "Ji-sung Eom",
       "number": 25,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 34168,
-      "name": "Jin-gyu Kim",
-      "number": 24,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 99211,
-      "name": "Jin-seob Park",
-      "number": 16,
-      "pos": "Defender",
       "start": false
     },
     {
@@ -2655,13 +2662,6 @@
       "name": "Yang Hyun-Jun",
       "number": 20,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 186,
-      "name": "Son Heung-min",
-      "number": 7,
-      "pos": "Attacker",
       "start": false
     }
   ],
@@ -7047,6 +7047,13 @@
       "start": true
     },
     {
+      "id": 295977,
+      "name": "Tshepang Moremi",
+      "number": 8,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 46245,
       "name": "Ricardo Goss",
       "number": 22,
@@ -7113,13 +7120,6 @@
       "id": 359561,
       "name": "Kamogelo Sebelebele",
       "number": 25,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 295977,
-      "name": "Tshepang Moremi",
-      "number": 8,
       "pos": "Attacker",
       "start": false
     },
