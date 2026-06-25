@@ -3231,7 +3231,7 @@
   {
     "id": "1539011",
     "date": "2026-06-25T23:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3245,7 +3245,10 @@
       "name": "Sweden",
       "flag": "https://media.api-sports.io/football/teams/5.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -3258,7 +3261,7 @@
   {
     "id": "1489412",
     "date": "2026-06-25T23:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3272,7 +3275,10 @@
       "name": "Netherlands",
       "flag": "https://media.api-sports.io/football/teams/1118.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,

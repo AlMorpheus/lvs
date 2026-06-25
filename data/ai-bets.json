@@ -1170,6 +1170,34 @@
     "lockedAt": "2026-06-25T20:00:27.387Z",
     "syncedAt": "2026-06-25T20:00:27.387Z"
   },
+  "1489412": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "C. Gakpo",
+        "team": "away",
+        "pos": "нап",
+        "id": "247"
+      },
+      {
+        "name": "D. Malen",
+        "team": "away",
+        "pos": "нап",
+        "id": "249"
+      },
+      {
+        "name": "B. Brobbey",
+        "team": "away",
+        "pos": "нап",
+        "id": "38750"
+      }
+    ],
+    "lockedAt": "2026-06-25T23:01:35.060Z",
+    "syncedAt": "2026-06-25T23:01:35.060Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
@@ -1502,6 +1530,34 @@
     ],
     "lockedAt": "2026-06-25T01:00:19.570Z",
     "syncedAt": "2026-06-25T01:00:19.570Z"
+  },
+  "1539011": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "A. Ueda",
+        "team": "home",
+        "pos": "нап",
+        "id": "72155"
+      },
+      {
+        "name": "A. Isak",
+        "team": "away",
+        "pos": "нап",
+        "id": "2864"
+      },
+      {
+        "name": "V. Gyökeres",
+        "team": "away",
+        "pos": "нап",
+        "id": "18979"
+      }
+    ],
+    "lockedAt": "2026-06-25T23:01:35.060Z",
+    "syncedAt": "2026-06-25T23:01:35.060Z"
   },
   "1539016": {
     "score": {
