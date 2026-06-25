@@ -3023,7 +3023,7 @@
   {
     "id": "1539010",
     "date": "2026-06-25T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3041,19 +3041,47 @@
       "home": 0,
       "away": 3
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T02:58:00.467Z",
     "lineupAt": "2026-06-25T00:16:55.611Z",
     "remind2hAt": "2026-06-24T23:01:27.251Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 390002,
+        "name": "M. Chavez Garcia",
+        "teamId": 16,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 61,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 750,
+        "name": "A. Fidalgo",
+        "teamId": 16,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
   {
     "id": "1489407",
     "date": "2026-06-25T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3071,12 +3099,24 @@
       "home": 1,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T02:58:00.467Z",
     "lineupAt": "2026-06-25T00:16:55.708Z",
     "remind2hAt": "2026-06-24T23:01:27.251Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 354831,
+        "name": "T. Maseko",
+        "teamId": 1531,
+        "minute": 63,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
