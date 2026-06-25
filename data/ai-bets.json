@@ -1114,6 +1114,62 @@
     "lockedAt": "2026-06-24T19:00:52.448Z",
     "syncedAt": "2026-06-24T19:00:52.448Z"
   },
+  "1489409": {
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "N. Pépé",
+        "team": "away",
+        "pos": "нап",
+        "id": "3246"
+      },
+      {
+        "name": "A. Bonny",
+        "team": "away",
+        "pos": "нап",
+        "id": "275651"
+      },
+      {
+        "name": "J. Locadia",
+        "team": "home",
+        "pos": "нап",
+        "id": "18981"
+      }
+    ],
+    "lockedAt": "2026-06-25T20:00:27.388Z",
+    "syncedAt": "2026-06-25T20:00:27.388Z"
+  },
+  "1489410": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "K. Havertz",
+        "team": "away",
+        "pos": "нап",
+        "id": "978"
+      },
+      {
+        "name": "E. Valencia",
+        "team": "home",
+        "pos": "нап",
+        "id": "35533"
+      },
+      {
+        "name": "J. Musiala",
+        "team": "away",
+        "pos": "пз",
+        "id": "181812"
+      }
+    ],
+    "lockedAt": "2026-06-25T20:00:27.387Z",
+    "syncedAt": "2026-06-25T20:00:27.387Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
