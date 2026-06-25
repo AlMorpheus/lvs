@@ -2881,36 +2881,6 @@
     "multiplier": 1
   },
   {
-    "id": "1489406",
-    "date": "2026-06-24T22:00:00+00:00",
-    "status": "2H",
-    "round": "Group Stage - 3",
-    "roundKey": "group-3",
-    "stage": "group",
-    "home": {
-      "id": 1108,
-      "name": "Scotland",
-      "flag": "https://media.api-sports.io/football/teams/1108.png"
-    },
-    "away": {
-      "id": 6,
-      "name": "Brazil",
-      "flag": "https://media.api-sports.io/football/teams/6.png"
-    },
-    "score": {
-      "home": 0,
-      "away": 3
-    },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "lineupAt": "2026-06-24T20:57:01.374Z",
-    "remind2hAt": "2026-06-24T20:00:44.411Z",
-    "scorers": [],
-    "multiplierOverride": null,
-    "multiplier": 1
-  },
-  {
     "id": "1489405",
     "date": "2026-06-24T22:00:00+00:00",
     "status": "FT",
@@ -2987,6 +2957,64 @@
         "minute": 89,
         "type": "normal",
         "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489406",
+    "date": "2026-06-24T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1108,
+      "name": "Scotland",
+      "flag": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "away": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scoreReg": {
+      "home": 0,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T00:02:53.529Z",
+    "lineupAt": "2026-06-24T20:57:01.374Z",
+    "remind2hAt": "2026-06-24T20:00:44.411Z",
+    "scorers": [
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1165,
+        "name": "M. Cunha",
+        "teamId": 6,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
       }
     ],
     "multiplierOverride": null,
