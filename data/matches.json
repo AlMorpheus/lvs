@@ -3023,7 +3023,7 @@
   {
     "id": "1539010",
     "date": "2026-06-25T01:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3037,7 +3037,10 @@
       "name": "Mexico",
       "flag": "https://media.api-sports.io/football/teams/16.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -3050,7 +3053,7 @@
   {
     "id": "1489407",
     "date": "2026-06-25T01:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3064,7 +3067,10 @@
       "name": "South Korea",
       "flag": "https://media.api-sports.io/football/teams/17.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
