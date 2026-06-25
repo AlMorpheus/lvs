@@ -3816,16 +3816,16 @@
       "start": true
     },
     {
-      "id": 50030,
-      "name": "M. Talbi",
-      "number": 3,
-      "pos": "Defender",
+      "id": 25300,
+      "name": "R. Khedira",
+      "number": 13,
+      "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 49583,
-      "name": "A. Abdi",
-      "number": 2,
+      "id": 50030,
+      "name": "M. Talbi",
+      "number": 3,
       "pos": "Defender",
       "start": true
     },
@@ -3837,23 +3837,16 @@
       "start": true
     },
     {
+      "id": 49583,
+      "name": "A. Abdi",
+      "number": 2,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 21587,
       "name": "E. Skhiri",
       "number": 17,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 25300,
-      "name": "R. Khedira",
-      "number": 13,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 199310,
-      "name": "A. Ben Slimane",
-      "number": 25,
       "pos": "Midfielder",
       "start": true
     },
@@ -3876,6 +3869,13 @@
       "name": "H. Mastouri",
       "number": 9,
       "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 199310,
+      "name": "A. Ben Slimane",
+      "number": 25,
+      "pos": "Midfielder",
       "start": true
     },
     {
