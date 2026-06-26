@@ -1980,6 +1980,13 @@
       "start": true
     },
     {
+      "id": 327631,
+      "name": "Habib Diarra",
+      "number": 21,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 2990,
       "name": "Idrissa Gana Gueye",
       "number": 5,
@@ -1987,9 +1994,9 @@
       "start": true
     },
     {
-      "id": 327631,
-      "name": "Habib Diarra",
-      "number": 21,
+      "id": 374058,
+      "name": "Lamine Camara",
+      "number": 8,
       "pos": "Midfielder",
       "start": true
     },
@@ -2001,9 +2008,9 @@
       "start": true
     },
     {
-      "id": 374058,
-      "name": "Lamine Camara",
-      "number": 8,
+      "id": 2218,
+      "name": "Ismaïla Sarr",
+      "number": 18,
       "pos": "Midfielder",
       "start": true
     },
@@ -2012,13 +2019,6 @@
       "name": "Sadio Mané",
       "number": 10,
       "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 2218,
-      "name": "Ismaïla Sarr",
-      "number": 18,
-      "pos": "Midfielder",
       "start": true
     },
     {
@@ -7779,6 +7779,13 @@
       "start": true
     },
     {
+      "id": 295394,
+      "name": "Munaf Younus",
+      "number": 6,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 123802,
       "name": "Fahad Talib",
       "number": 1,
@@ -7790,13 +7797,6 @@
       "name": "Jalal Hassan",
       "number": 12,
       "pos": "Goalkeeper",
-      "start": false
-    },
-    {
-      "id": 295394,
-      "name": "Munaf Younus",
-      "number": 6,
-      "pos": "Defender",
       "start": false
     },
     {
