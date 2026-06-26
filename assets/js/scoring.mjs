@@ -99,7 +99,7 @@ export function matchMultiplier(match, ranks, cfg) {
 
   const stage = match.stage;
   if (stage === 'qf' || stage === 'sf' || stage === 'final' || stage === 'third') return cfg.knockoutQfPlus;
-  if (stage === 'r16') return cfg.round16; // 1/8 финала — ×2.0
+  if (stage === 'r32' || stage === 'r16') return cfg.round16; // 1/16 и 1/8 финала — плей-офф ×2.0
 
   // Групповой этап
   const big = 999;
@@ -124,7 +124,7 @@ export function isFinished(match) {
 
 // Порядок туров и от какого тура зависит открытие ставок.
 export const ROUND_SEQUENCE = ['group-1', 'group-2', 'group-3', 'r16', 'qf', 'sf', 'third', 'final'];
-const ROUND_PREV = { 'group-2': 'group-1', 'group-3': 'group-2', r16: 'group-3', qf: 'r16', sf: 'qf', third: 'sf', final: 'sf' };
+const ROUND_PREV = { 'group-2': 'group-1', 'group-3': 'group-2', r32: 'group-3', r16: 'r32', qf: 'r16', sf: 'qf', third: 'sf', final: 'sf' };
 
 /**
  * Открыт ли тур для ставок. Тур открывается, когда ПОЛНОСТЬЮ завершён предыдущий

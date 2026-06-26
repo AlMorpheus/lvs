@@ -93,6 +93,7 @@ function classifyRound(round = '') {
   const r = round.toLowerCase();
   const md = (round.match(/-\s*(\d+)/) || [])[1];
   if (r.includes('group') || r.includes('groups')) return { stage: 'group', roundKey: `group-${md || 1}` };
+  if (r.includes('32')) return { stage: 'r32', roundKey: 'r32' }; // ЧМ-2026: 1/16 финала (48 команд)
   if (r.includes('16') || r.includes('round of 16')) return { stage: 'r16', roundKey: 'r16' };
   if (r.includes('quarter')) return { stage: 'qf', roundKey: 'qf' };
   if (r.includes('semi')) return { stage: 'sf', roundKey: 'sf' };

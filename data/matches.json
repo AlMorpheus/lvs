@@ -3780,8 +3780,8 @@
     "date": "2026-06-28T19:00:00+00:00",
     "status": "NS",
     "round": "Round of 32",
-    "roundKey": "group-1",
-    "stage": "group",
+    "roundKey": "r32",
+    "stage": "r32",
     "home": {
       "id": 1531,
       "name": "South Africa",
@@ -3800,6 +3800,6 @@
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 2
   }
 ]
