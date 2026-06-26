@@ -3452,6 +3452,36 @@
     "multiplier": 1.3
   },
   {
+    "id": "1539074",
+    "date": "2026-06-26T19:00:00+00:00",
+    "status": "HT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 13,
+      "name": "Senegal",
+      "flag": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "away": {
+      "id": 1567,
+      "name": "Iraq",
+      "flag": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": "2026-06-26T18:07:05.969Z",
+    "remind2hAt": "2026-06-26T17:00:43.254Z",
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
     "id": "1489416",
     "date": "2026-06-26T19:00:00+00:00",
     "status": "HT",
@@ -3480,36 +3510,6 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1.3
-  },
-  {
-    "id": "1539074",
-    "date": "2026-06-26T19:00:00+00:00",
-    "status": "1H",
-    "round": "Group Stage - 3",
-    "roundKey": "group-3",
-    "stage": "group",
-    "home": {
-      "id": 13,
-      "name": "Senegal",
-      "flag": "https://media.api-sports.io/football/teams/13.png"
-    },
-    "away": {
-      "id": 1567,
-      "name": "Iraq",
-      "flag": "https://media.api-sports.io/football/teams/1567.png"
-    },
-    "score": {
-      "home": 1,
-      "away": 0
-    },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "lineupAt": "2026-06-26T18:07:05.969Z",
-    "remind2hAt": "2026-06-26T17:00:43.254Z",
-    "scorers": [],
-    "multiplierOverride": null,
-    "multiplier": 1
   },
   {
     "id": "1489417",
