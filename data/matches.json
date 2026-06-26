@@ -3620,11 +3620,12 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
-    "lineupAt": null,
+    "lineupAt": "2026-06-26T22:57:52.966Z",
     "remind2hAt": "2026-06-26T22:00:39.792Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.6
+    "multiplier": 1.6,
+    "lineupJustReady": true
   },
   {
     "id": "1489413",
@@ -3647,11 +3648,12 @@
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
-    "lineupAt": null,
+    "lineupAt": "2026-06-26T22:57:53.094Z",
     "remind2hAt": "2026-06-26T22:00:39.792Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1.3,
+    "lineupJustReady": true
   },
   {
     "id": "1489414",
