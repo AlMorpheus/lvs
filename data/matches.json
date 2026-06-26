@@ -3347,7 +3347,7 @@
   {
     "id": "1539012",
     "date": "2026-06-26T02:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3361,7 +3361,10 @@
       "name": "USA",
       "flag": "https://media.api-sports.io/football/teams/2384.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -3374,7 +3377,7 @@
   {
     "id": "1489411",
     "date": "2026-06-26T02:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3388,7 +3391,10 @@
       "name": "Australia",
       "flag": "https://media.api-sports.io/football/teams/20.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
