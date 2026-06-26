@@ -3855,5 +3855,32 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1562586",
+    "date": "2026-07-02T00:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "flag": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
