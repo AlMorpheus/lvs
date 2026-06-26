@@ -1226,6 +1226,34 @@
     "lockedAt": "2026-06-25T23:01:35.060Z",
     "syncedAt": "2026-06-25T23:01:35.060Z"
   },
+  "1489416": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Kylian Mbappé",
+        "team": "away",
+        "pos": "нап",
+        "id": "278"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "team": "away",
+        "pos": "пз",
+        "id": "153"
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "team": "home",
+        "pos": "нап",
+        "id": "2032"
+      }
+    ],
+    "lockedAt": "2026-06-26T19:01:44.094Z",
+    "syncedAt": "2026-06-26T19:01:44.094Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
@@ -1670,5 +1698,33 @@
     ],
     "lockedAt": "2026-06-22T21:01:52.528Z",
     "syncedAt": "2026-06-22T21:01:52.528Z"
+  },
+  "1539074": {
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "scorers": [
+      {
+        "name": "Ismaïla Sarr",
+        "team": "home",
+        "pos": "нап",
+        "id": "2218"
+      },
+      {
+        "name": "Sadio Mané",
+        "team": "home",
+        "pos": "пз",
+        "id": "304"
+      },
+      {
+        "name": "Ali Al-Hamadi",
+        "team": "away",
+        "pos": "нап",
+        "id": "299813"
+      }
+    ],
+    "lockedAt": "2026-06-26T19:01:44.093Z",
+    "syncedAt": "2026-06-26T19:01:44.093Z"
   }
 }
