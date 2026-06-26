@@ -3454,7 +3454,7 @@
   {
     "id": "1539074",
     "date": "2026-06-26T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3472,12 +3472,56 @@
       "home": 5,
       "away": 0
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 5,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-26T21:05:15.817Z",
     "lineupAt": "2026-06-26T18:07:05.969Z",
     "remind2hAt": "2026-06-26T17:00:43.254Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 327631,
+        "name": "H. Diarra",
+        "teamId": 13,
+        "minute": 4,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 56,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 20696,
+        "name": "P. Gueye",
+        "teamId": 13,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 20696,
+        "name": "P. Gueye",
+        "teamId": 13,
+        "minute": 71,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 18592,
+        "name": "I. Ndiaye",
+        "teamId": 13,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
