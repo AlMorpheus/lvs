@@ -3310,10 +3310,11 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-06-26T00:00:33.384Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1.3,
+    "remindJustDue": true
   },
   {
     "id": "1489411",
@@ -3337,10 +3338,11 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-06-26T00:00:33.385Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3
+    "multiplier": 1.3,
+    "remindJustDue": true
   },
   {
     "id": "1539074",
