@@ -3801,5 +3801,59 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1562344",
+    "date": "2026-06-29T17:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away": {
+      "id": 12,
+      "name": "Japan",
+      "flag": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1562345",
+    "date": "2026-06-30T01:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 1118,
+      "name": "Netherlands",
+      "flag": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
