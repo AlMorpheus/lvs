@@ -3707,7 +3707,7 @@
   {
     "id": "1489415",
     "date": "2026-06-27T03:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3721,7 +3721,10 @@
       "name": "Belgium",
       "flag": "https://media.api-sports.io/football/teams/1.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
