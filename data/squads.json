@@ -1119,10 +1119,10 @@
       "start": true
     },
     {
-      "id": 324034,
-      "name": "Gustavo Puerta",
-      "number": 14,
-      "pos": "Defender",
+      "id": 13708,
+      "name": "Jhon Arias",
+      "number": 11,
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -1133,10 +1133,10 @@
       "start": true
     },
     {
-      "id": 13708,
-      "name": "Jhon Arias",
-      "number": 11,
-      "pos": "Midfielder",
+      "id": 324034,
+      "name": "Gustavo Puerta",
+      "number": 14,
+      "pos": "Defender",
       "start": true
     },
     {
@@ -7910,6 +7910,13 @@
       "start": true
     },
     {
+      "id": 34121,
+      "name": "Rustam Ashurmatov",
+      "number": 5,
+      "pos": "Defender",
+      "start": true
+    },
+    {
       "id": 360114,
       "name": "Abdukodir Khusanov",
       "number": 2,
@@ -7920,13 +7927,6 @@
       "id": 358427,
       "name": "Jakhongir Urozov",
       "number": 26,
-      "pos": "Defender",
-      "start": true
-    },
-    {
-      "id": 34121,
-      "name": "Rustam Ashurmatov",
-      "number": 5,
       "pos": "Defender",
       "start": true
     },

@@ -3962,7 +3962,7 @@
       "flag": "https://media.api-sports.io/football/teams/1568.png"
     },
     "score": {
-      "home": 1,
+      "home": 0,
       "away": 1
     },
     "scoreReg": null,
