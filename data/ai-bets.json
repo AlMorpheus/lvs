@@ -1254,6 +1254,62 @@
     "lockedAt": "2026-06-27T00:01:12.656Z",
     "syncedAt": "2026-06-27T00:01:12.656Z"
   },
+  "1489414": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Mohamed Salah",
+        "team": "home",
+        "pos": "пз",
+        "id": "306"
+      },
+      {
+        "name": "Mahmoud Trézéguet",
+        "team": "home",
+        "pos": "нап",
+        "id": "2664"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "team": "away",
+        "pos": "нап",
+        "id": "42315"
+      }
+    ],
+    "lockedAt": "2026-06-27T03:01:42.330Z",
+    "syncedAt": "2026-06-27T03:01:42.330Z"
+  },
+  "1489415": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scorers": [
+      {
+        "name": "Kevin De Bruyne",
+        "team": "away",
+        "pos": "пз",
+        "id": "629"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "team": "away",
+        "pos": "нап",
+        "id": "147859"
+      },
+      {
+        "name": "Jérémy Doku",
+        "team": "away",
+        "pos": "пз",
+        "id": "1422"
+      }
+    ],
+    "lockedAt": "2026-06-27T03:01:42.331Z",
+    "syncedAt": "2026-06-27T03:01:42.331Z"
+  },
   "1489416": {
     "score": {
       "home": 1,
