@@ -3809,7 +3809,7 @@
   {
     "id": "1489420",
     "date": "2026-06-27T21:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3827,12 +3827,40 @@
       "home": 2,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T23:00:07.453Z",
     "lineupAt": "2026-06-27T19:54:03.613Z",
     "remind2hAt": "2026-06-27T19:01:33.829Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 348205,
+        "name": "P. Sucic",
+        "teamId": 3,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 25341,
+        "name": "D. Luckassen",
+        "teamId": 1504,
+        "minute": 73,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 842,
+        "name": "N. Vlasic",
+        "teamId": 3,
+        "minute": 83,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
