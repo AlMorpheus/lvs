@@ -3917,7 +3917,7 @@
   {
     "id": "1489419",
     "date": "2026-06-27T23:30:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3931,7 +3931,10 @@
       "name": "Portugal",
       "flag": "https://media.api-sports.io/football/teams/27.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -3944,7 +3947,7 @@
   {
     "id": "1539013",
     "date": "2026-06-27T23:30:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3958,7 +3961,10 @@
       "name": "Uzbekistan",
       "flag": "https://media.api-sports.io/football/teams/1568.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,

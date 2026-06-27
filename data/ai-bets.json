@@ -1366,6 +1366,34 @@
     "lockedAt": "2026-06-27T00:01:12.655Z",
     "syncedAt": "2026-06-27T00:01:12.655Z"
   },
+  "1489419": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "team": "away",
+        "pos": "нап",
+        "id": "874"
+      },
+      {
+        "name": "Luis Díaz",
+        "team": "home",
+        "pos": "нап",
+        "id": "2489"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "team": "away",
+        "pos": "пз",
+        "id": "1485"
+      }
+    ],
+    "lockedAt": "2026-06-27T23:31:59.286Z",
+    "syncedAt": "2026-06-27T23:31:59.286Z"
+  },
   "1489420": {
     "score": {
       "home": 2,
@@ -1810,6 +1838,34 @@
     ],
     "lockedAt": "2026-06-26T02:00:34.586Z",
     "syncedAt": "2026-06-26T02:00:34.586Z"
+  },
+  "1539013": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Yoane Wissa",
+        "team": "home",
+        "pos": "нап",
+        "id": "20649"
+      },
+      {
+        "name": "Eldor Shomurodov",
+        "team": "away",
+        "pos": "нап",
+        "id": "53535"
+      },
+      {
+        "name": "Cédric Bakambu",
+        "team": "home",
+        "pos": "нап",
+        "id": "3033"
+      }
+    ],
+    "lockedAt": "2026-06-27T23:31:59.287Z",
+    "syncedAt": "2026-06-27T23:31:59.287Z"
   },
   "1539016": {
     "score": {
