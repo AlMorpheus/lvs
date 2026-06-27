@@ -3675,6 +3675,36 @@
     "multiplier": 1.3
   },
   {
+    "id": "1489414",
+    "date": "2026-06-27T03:00:00+00:00",
+    "status": "2H",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 32,
+      "name": "Egypt",
+      "flag": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "away": {
+      "id": 22,
+      "name": "Iran",
+      "flag": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": "2026-06-27T02:02:06.918Z",
+    "remind2hAt": "2026-06-27T01:01:26.178Z",
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
     "id": "1489415",
     "date": "2026-06-27T03:00:00+00:00",
     "status": "2H",
@@ -3703,36 +3733,6 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 1
-  },
-  {
-    "id": "1489414",
-    "date": "2026-06-27T03:00:00+00:00",
-    "status": "HT",
-    "round": "Group Stage - 3",
-    "roundKey": "group-3",
-    "stage": "group",
-    "home": {
-      "id": 32,
-      "name": "Egypt",
-      "flag": "https://media.api-sports.io/football/teams/32.png"
-    },
-    "away": {
-      "id": 22,
-      "name": "Iran",
-      "flag": "https://media.api-sports.io/football/teams/22.png"
-    },
-    "score": {
-      "home": 1,
-      "away": 1
-    },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "lineupAt": "2026-06-27T02:02:06.918Z",
-    "remind2hAt": "2026-06-27T01:01:26.178Z",
-    "scorers": [],
-    "multiplierOverride": null,
-    "multiplier": 1.3
   },
   {
     "id": "1489420",
