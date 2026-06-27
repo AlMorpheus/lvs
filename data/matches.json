@@ -3677,7 +3677,7 @@
   {
     "id": "1489414",
     "date": "2026-06-27T03:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3695,12 +3695,32 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T05:05:33.419Z",
     "lineupAt": "2026-06-27T02:02:06.918Z",
     "remind2hAt": "2026-06-27T01:01:26.178Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 69196,
+        "name": "M. Saber",
+        "teamId": 32,
+        "minute": 5,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2691,
+        "name": "R. Rezaeian",
+        "teamId": 22,
+        "minute": 14,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
