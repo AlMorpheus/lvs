@@ -3809,7 +3809,7 @@
   {
     "id": "1489420",
     "date": "2026-06-27T21:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3823,7 +3823,10 @@
       "name": "Ghana",
       "flag": "https://media.api-sports.io/football/teams/1504.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -3836,7 +3839,7 @@
   {
     "id": "1489422",
     "date": "2026-06-27T21:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3850,7 +3853,10 @@
       "name": "England",
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,

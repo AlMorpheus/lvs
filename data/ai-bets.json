@@ -1366,6 +1366,62 @@
     "lockedAt": "2026-06-27T00:01:12.655Z",
     "syncedAt": "2026-06-27T00:01:12.655Z"
   },
+  "1489420": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Ante Budimir",
+        "team": "home",
+        "pos": "нап",
+        "id": "46746"
+      },
+      {
+        "name": "Antoine Semenyo",
+        "team": "away",
+        "pos": "нап",
+        "id": "19281"
+      },
+      {
+        "name": "Martin Baturina",
+        "team": "home",
+        "pos": "пз",
+        "id": "295026"
+      }
+    ],
+    "lockedAt": "2026-06-27T21:01:49.488Z",
+    "syncedAt": "2026-06-27T21:01:49.488Z"
+  },
+  "1489422": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scorers": [
+      {
+        "name": "Harry Kane",
+        "team": "away",
+        "pos": "нап",
+        "id": "184"
+      },
+      {
+        "name": "Bukayo Saka",
+        "team": "away",
+        "pos": "пз",
+        "id": "1460"
+      },
+      {
+        "name": "Jude Bellingham",
+        "team": "away",
+        "pos": "пз",
+        "id": "129718"
+      }
+    ],
+    "lockedAt": "2026-06-27T21:01:49.489Z",
+    "syncedAt": "2026-06-27T21:01:49.489Z"
+  },
   "1538999": {
     "score": {
       "home": 1,
