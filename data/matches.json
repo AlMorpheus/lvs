@@ -3722,7 +3722,7 @@
       "flag": "https://media.api-sports.io/football/teams/1.png"
     },
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 3
     },
     "scoreReg": null,
