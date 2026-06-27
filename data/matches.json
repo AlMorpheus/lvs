@@ -3693,7 +3693,7 @@
     },
     "score": {
       "home": 1,
-      "away": 1
+      "away": 2
     },
     "scoreReg": null,
     "finished": false,
@@ -3707,7 +3707,7 @@
   {
     "id": "1489415",
     "date": "2026-06-27T03:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3723,14 +3723,66 @@
     },
     "score": {
       "home": 1,
-      "away": 4
+      "away": 5
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 5
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T04:57:59.948Z",
     "lineupAt": "2026-06-27T02:04:12.562Z",
     "remind2hAt": "2026-06-27T01:01:26.178Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 1946,
+        "name": "L. Trossard",
+        "teamId": 1,
+        "minute": 28,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1946,
+        "name": "L. Trossard",
+        "teamId": 1,
+        "minute": 50,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 629,
+        "name": "K. De Bruyne",
+        "teamId": 1,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 94333,
+        "name": "E. Just",
+        "teamId": 4673,
+        "minute": 84,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 907,
+        "name": "R. Lukaku",
+        "teamId": 1,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1417,
+        "name": "A. Saelemaekers",
+        "teamId": 1,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
