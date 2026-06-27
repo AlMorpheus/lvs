@@ -1226,6 +1226,34 @@
     "lockedAt": "2026-06-25T23:01:35.060Z",
     "syncedAt": "2026-06-25T23:01:35.060Z"
   },
+  "1489413": {
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Firas Al-Buraikan",
+        "team": "away",
+        "pos": "нап",
+        "id": "44324"
+      },
+      {
+        "name": "Dailon Rocha Livramento",
+        "team": "home",
+        "pos": "нап",
+        "id": "343287"
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "team": "away",
+        "pos": "пз",
+        "id": "44340"
+      }
+    ],
+    "lockedAt": "2026-06-27T00:01:12.656Z",
+    "syncedAt": "2026-06-27T00:01:12.656Z"
+  },
   "1489416": {
     "score": {
       "home": 1,
@@ -1253,6 +1281,34 @@
     ],
     "lockedAt": "2026-06-26T19:01:44.094Z",
     "syncedAt": "2026-06-26T19:01:44.094Z"
+  },
+  "1489417": {
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "scorers": [
+      {
+        "name": "Darwin Núñez",
+        "team": "home",
+        "pos": "нап",
+        "id": "51617"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "team": "away",
+        "pos": "нап",
+        "id": "47323"
+      },
+      {
+        "name": "Lamine Yamal",
+        "team": "away",
+        "pos": "нап",
+        "id": "386828"
+      }
+    ],
+    "lockedAt": "2026-06-27T00:01:12.655Z",
+    "syncedAt": "2026-06-27T00:01:12.655Z"
   },
   "1538999": {
     "score": {
