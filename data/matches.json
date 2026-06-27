@@ -3839,7 +3839,7 @@
   {
     "id": "1489422",
     "date": "2026-06-27T21:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -3857,12 +3857,32 @@
       "home": 0,
       "away": 2
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T22:55:54.369Z",
     "lineupAt": "2026-06-27T19:54:03.786Z",
     "remind2hAt": "2026-06-27T19:01:33.829Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 62,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
