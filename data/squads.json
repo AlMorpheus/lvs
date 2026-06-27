@@ -404,16 +404,16 @@
       "start": true
     },
     {
-      "id": 842,
-      "name": "Nikola Vlašić",
-      "number": 13,
+      "id": 348205,
+      "name": "Petar Sučić",
+      "number": 17,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 348205,
-      "name": "Petar Sučić",
-      "number": 17,
+      "id": 842,
+      "name": "Nikola Vlašić",
+      "number": 13,
       "pos": "Midfielder",
       "start": true
     },
@@ -6640,6 +6640,13 @@
       "start": true
     },
     {
+      "id": 19281,
+      "name": "Antoine Semenyo",
+      "number": 11,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 21010,
       "name": "Elisha Owusu",
       "number": 15,
@@ -6665,13 +6672,6 @@
       "name": "Jordan Ayew",
       "number": 9,
       "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 19281,
-      "name": "Antoine Semenyo",
-      "number": 11,
-      "pos": "Midfielder",
       "start": true
     },
     {
