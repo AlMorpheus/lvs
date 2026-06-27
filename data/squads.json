@@ -897,13 +897,6 @@
       "start": true
     },
     {
-      "id": 863,
-      "name": "Rodrigo Bentancur",
-      "number": 6,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 51494,
       "name": "Manuel Ugarte",
       "number": 5,
@@ -914,6 +907,13 @@
       "id": 51603,
       "name": "Agustín Canobbio",
       "number": 14,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 863,
+      "name": "Rodrigo Bentancur",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
@@ -1239,9 +1239,9 @@
       "start": true
     },
     {
-      "id": 133609,
-      "name": "Pedri",
-      "number": 20,
+      "id": 47311,
+      "name": "Mikel Merino",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
@@ -1253,9 +1253,9 @@
       "start": true
     },
     {
-      "id": 47311,
-      "name": "Mikel Merino",
-      "number": 6,
+      "id": 133609,
+      "name": "Pedri",
+      "number": 20,
       "pos": "Midfielder",
       "start": true
     },
@@ -2938,9 +2938,9 @@
       "start": true
     },
     {
-      "id": 134995,
-      "name": "Nawaf Boushal",
-      "number": 13,
+      "id": 44594,
+      "name": "Saud Abdulhamid",
+      "number": 12,
       "pos": "Defender",
       "start": true
     },
@@ -2959,17 +2959,17 @@
       "start": true
     },
     {
-      "id": 44339,
-      "name": "Nasser Al-Dawsari",
-      "number": 6,
-      "pos": "Midfielder",
+      "id": 134995,
+      "name": "Nawaf Boushal",
+      "number": 13,
+      "pos": "Defender",
       "start": true
     },
     {
-      "id": 44594,
-      "name": "Saud Abdulhamid",
-      "number": 12,
-      "pos": "Defender",
+      "id": 2639,
+      "name": "Sultan Mandash",
+      "number": 20,
+      "pos": "Attacker",
       "start": true
     },
     {
@@ -2980,9 +2980,9 @@
       "start": true
     },
     {
-      "id": 44349,
-      "name": "Mohamed Kanno",
-      "number": 23,
+      "id": 44339,
+      "name": "Nasser Al-Dawsari",
+      "number": 6,
       "pos": "Midfielder",
       "start": true
     },
@@ -2994,16 +2994,16 @@
       "start": true
     },
     {
-      "id": 44324,
-      "name": "Firas Al-Buraikan",
-      "number": 9,
-      "pos": "Attacker",
+      "id": 44349,
+      "name": "Mohamed Kanno",
+      "number": 23,
+      "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 2639,
-      "name": "Sultan Mandash",
-      "number": 20,
+      "id": 44324,
+      "name": "Firas Al-Buraikan",
+      "number": 9,
       "pos": "Attacker",
       "start": true
     },
@@ -7180,16 +7180,16 @@
       "start": true
     },
     {
-      "id": 41608,
-      "name": "Diney Borges",
-      "number": 3,
+      "id": 69260,
+      "name": "Pico",
+      "number": 4,
       "pos": "Defender",
       "start": true
     },
     {
-      "id": 69260,
-      "name": "Pico",
-      "number": 4,
+      "id": 41608,
+      "name": "Diney Borges",
+      "number": 3,
       "pos": "Defender",
       "start": true
     },
@@ -7208,17 +7208,17 @@
       "start": true
     },
     {
-      "id": 37435,
-      "name": "Deroy Duarte",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 50270,
       "name": "Ryan Mendes",
       "number": 20,
       "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 37435,
+      "name": "Deroy Duarte",
+      "number": 14,
+      "pos": "Midfielder",
       "start": true
     },
     {
