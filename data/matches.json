@@ -4016,7 +4016,7 @@
   {
     "id": "1489418",
     "date": "2026-06-28T02:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -4032,21 +4032,73 @@
     },
     "score": {
       "home": 3,
-      "away": 2
+      "away": 3
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 3,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T03:59:51.705Z",
     "lineupAt": "2026-06-28T01:10:12.317Z",
     "remind2hAt": "2026-06-28T00:00:51.198Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 18830,
+        "name": "M. Arnautovic",
+        "teamId": 775,
+        "minute": 28,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 303362,
+        "name": "R. Belghali",
+        "teamId": 1532,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 1159,
+        "name": "M. Sabitzer",
+        "teamId": 775,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 635,
+        "name": "R. Mahrez",
+        "teamId": 1532,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 635,
+        "name": "R. Mahrez",
+        "teamId": 1532,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 7722,
+        "name": "S. Kalajdzic",
+        "teamId": 775,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
   {
     "id": "1489421",
     "date": "2026-06-28T02:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -4064,12 +4116,48 @@
       "home": 1,
       "away": 3
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T03:59:51.705Z",
     "lineupAt": "2026-06-28T01:10:12.425Z",
     "remind2hAt": "2026-06-28T00:00:51.198Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 1578,
+        "name": "G. Lo Celso",
+        "teamId": 26,
+        "minute": 19,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 217,
+        "name": "L. Martinez",
+        "teamId": 26,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 15286,
+        "name": "M. Tamari",
+        "teamId": 1548,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 80,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1
   },
