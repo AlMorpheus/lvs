@@ -3497,6 +3497,27 @@
       "start": true
     },
     {
+      "id": 6067,
+      "name": "Thiago Almada",
+      "number": 16,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 154,
+      "name": "Lionel Messi",
+      "number": 10,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 6716,
+      "name": "Alexis Mac Allister",
+      "number": 20,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 47296,
       "name": "Gerónimo Rulli",
       "number": 12,
@@ -3546,13 +3567,6 @@
       "start": false
     },
     {
-      "id": 6716,
-      "name": "Alexis Mac Allister",
-      "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 5996,
       "name": "Enzo Fernández",
       "number": 24,
@@ -3574,13 +3588,6 @@
       "start": false
     },
     {
-      "id": 6067,
-      "name": "Thiago Almada",
-      "number": 16,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
       "id": 319572,
       "name": "Valentín Barco",
       "number": 8,
@@ -3591,13 +3598,6 @@
       "id": 295513,
       "name": "José Manuel López",
       "number": 21,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 154,
-      "name": "Lionel Messi",
-      "number": 10,
       "pos": "Attacker",
       "start": false
     }
@@ -4984,6 +4984,34 @@
       "start": true
     },
     {
+      "id": 719,
+      "name": "Florian Grillitsch",
+      "number": 10,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 327895,
+      "name": "Paul Wanner",
+      "number": 24,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 25297,
+      "name": "Michael Gregoritsch",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 25287,
+      "name": "Kevin Danso",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 221605,
       "name": "Florian Wiegele",
       "number": 12,
@@ -5005,13 +5033,6 @@
       "start": false
     },
     {
-      "id": 25287,
-      "name": "Kevin Danso",
-      "number": 3,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 25314,
       "name": "Marco Friedl",
       "number": 23,
@@ -5023,13 +5044,6 @@
       "name": "Michael Svoboda",
       "number": 25,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 719,
-      "name": "Florian Grillitsch",
-      "number": 10,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -5054,13 +5068,6 @@
       "start": false
     },
     {
-      "id": 327895,
-      "name": "Paul Wanner",
-      "number": 24,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 417,
       "name": "Alessandro Schöpf",
       "number": 26,
@@ -5071,13 +5078,6 @@
       "id": 126642,
       "name": "Patrick Wimmer",
       "number": 21,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 25297,
-      "name": "Michael Gregoritsch",
-      "number": 11,
       "pos": "Attacker",
       "start": false
     },
@@ -7600,6 +7600,20 @@
       "start": true
     },
     {
+      "id": 123530,
+      "name": "Mahmoud Al-Mardi",
+      "number": 13,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 15286,
+      "name": "Mousa Tamari",
+      "number": 10,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 163884,
       "name": "Abdallah Al-Fakhouri",
       "number": 22,
@@ -7687,20 +7701,6 @@
       "id": 104242,
       "name": "Rajaei Ayed",
       "number": 14,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 123530,
-      "name": "Mahmoud Al-Mardi",
-      "number": 13,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 15286,
-      "name": "Mousa Tamari",
-      "number": 10,
       "pos": "Midfielder",
       "start": false
     }
