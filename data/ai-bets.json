@@ -1366,6 +1366,34 @@
     "lockedAt": "2026-06-27T00:01:12.655Z",
     "syncedAt": "2026-06-27T00:01:12.655Z"
   },
+  "1489418": {
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "scorers": [
+      {
+        "name": "Riyad Mahrez",
+        "team": "home",
+        "pos": "нап",
+        "id": "635"
+      },
+      {
+        "name": "Marko Arnautović",
+        "team": "away",
+        "pos": "нап",
+        "id": "18830"
+      },
+      {
+        "name": "Amine Gouiri",
+        "team": "home",
+        "pos": "нап",
+        "id": "85041"
+      }
+    ],
+    "lockedAt": "2026-06-28T02:00:43.151Z",
+    "syncedAt": "2026-06-28T02:00:43.151Z"
+  },
   "1489419": {
     "score": {
       "home": 1,
@@ -1421,6 +1449,34 @@
     ],
     "lockedAt": "2026-06-27T21:01:49.488Z",
     "syncedAt": "2026-06-27T21:01:49.488Z"
+  },
+  "1489421": {
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "scorers": [
+      {
+        "name": "Lautaro Martínez",
+        "team": "away",
+        "pos": "нап",
+        "id": "217"
+      },
+      {
+        "name": "Julián Alvarez",
+        "team": "away",
+        "pos": "нап",
+        "id": "6009"
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "team": "away",
+        "pos": "пз",
+        "id": "1578"
+      }
+    ],
+    "lockedAt": "2026-06-28T02:00:43.152Z",
+    "syncedAt": "2026-06-28T02:00:43.152Z"
   },
   "1489422": {
     "score": {
