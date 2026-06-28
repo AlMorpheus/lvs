@@ -4016,7 +4016,7 @@
   {
     "id": "1489418",
     "date": "2026-06-28T02:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -4030,7 +4030,10 @@
       "name": "Austria",
       "flag": "https://media.api-sports.io/football/teams/775.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4043,7 +4046,7 @@
   {
     "id": "1489421",
     "date": "2026-06-28T02:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Group Stage - 3",
     "roundKey": "group-3",
     "stage": "group",
@@ -4057,7 +4060,10 @@
       "name": "Argentina",
       "flag": "https://media.api-sports.io/football/teams/26.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
