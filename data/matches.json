@@ -4432,6 +4432,33 @@
     "multiplier": 2
   },
   {
+    "id": "1567311",
+    "date": "2026-07-02T19:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away": {
+      "id": 775,
+      "name": "Austria",
+      "flag": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
     "id": "1567309",
     "date": "2026-07-02T23:00:00+00:00",
     "status": "NS",
@@ -4447,6 +4474,33 @@
       "id": 3,
       "name": "Croatia",
       "flag": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567312",
+    "date": "2026-07-03T03:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away": {
+      "id": 1532,
+      "name": "Algeria",
+      "flag": "https://media.api-sports.io/football/teams/1532.png"
     },
     "score": null,
     "scoreReg": null,
