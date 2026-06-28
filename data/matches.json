@@ -3999,8 +3999,7 @@
     "remind2hAt": "2026-06-28T00:00:51.198Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1.3,
-    "remindJustDue": true
+    "multiplier": 1.3
   },
   {
     "id": "1489421",
@@ -4027,8 +4026,7 @@
     "remind2hAt": "2026-06-28T00:00:51.198Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 1,
-    "remindJustDue": true
+    "multiplier": 1
   },
   {
     "id": "1561329",
