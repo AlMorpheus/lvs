@@ -7095,6 +7095,13 @@
       "start": true
     },
     {
+      "id": 194430,
+      "name": "Thalente Mbatha",
+      "number": 5,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 46417,
       "name": "Sipho Chaine",
       "number": 16,
@@ -7148,13 +7155,6 @@
       "name": "Bradley Cross",
       "number": 26,
       "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 194430,
-      "name": "Thalente Mbatha",
-      "number": 5,
-      "pos": "Midfielder",
       "start": false
     },
     {
@@ -9373,6 +9373,34 @@
       "start": true
     },
     {
+      "id": 327738,
+      "name": "Luc De Fougerolles",
+      "number": 4,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 416901,
+      "name": "Niko Sigur",
+      "number": 23,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 50826,
+      "name": "Jacob Shaffelburg",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 313353,
+      "name": "Promise David",
+      "number": 24,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 51148,
       "name": "Dayne St. Clair",
       "number": 1,
@@ -9394,13 +9422,6 @@
       "start": false
     },
     {
-      "id": 327738,
-      "name": "Luc De Fougerolles",
-      "number": 4,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 78494,
       "name": "Joel Waterman",
       "number": 5,
@@ -9415,23 +9436,9 @@
       "start": false
     },
     {
-      "id": 416901,
-      "name": "Niko Sigur",
-      "number": 23,
-      "pos": "Defender",
-      "start": false
-    },
-    {
       "id": 50788,
       "name": "Mathieu Choinière",
       "number": 6,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 50826,
-      "name": "Jacob Shaffelburg",
-      "number": 14,
       "pos": "Midfielder",
       "start": false
     },
@@ -9453,13 +9460,6 @@
       "id": 2001,
       "name": "Cyle Larin",
       "number": 9,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 313353,
-      "name": "Promise David",
-      "number": 24,
       "pos": "Attacker",
       "start": false
     },
