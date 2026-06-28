@@ -7211,9 +7211,9 @@
       "start": true
     },
     {
-      "id": 658,
-      "name": "Houssem Aouar",
-      "number": 8,
+      "id": 276670,
+      "name": "Farès Chaïbi",
+      "number": 10,
       "pos": "Midfielder",
       "start": true
     },
@@ -7225,13 +7225,6 @@
       "start": true
     },
     {
-      "id": 380587,
-      "name": "Ibrahim Maza",
-      "number": 22,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 635,
       "name": "Riyad Mahrez",
       "number": 7,
@@ -7239,17 +7232,24 @@
       "start": true
     },
     {
+      "id": 380587,
+      "name": "Ibrahim Maza",
+      "number": 22,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
+      "id": 658,
+      "name": "Houssem Aouar",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 85041,
       "name": "Amine Gouiri",
       "number": 9,
       "pos": "Attacker",
-      "start": true
-    },
-    {
-      "id": 276670,
-      "name": "Farès Chaïbi",
-      "number": 10,
-      "pos": "Midfielder",
       "start": true
     },
     {
