@@ -2,7 +2,7 @@
   "table": [
     {
       "id": "betanalyse",
-      "name": "🤖 Шеф",
+      "name": "Шеф",
       "matchPts": 846,
       "futuresPts": 0,
       "total": 846,
@@ -5121,5 +5121,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-28T03:59:56.570Z"
+  "updatedAt": "2026-06-28T05:20:55.106Z"
 }
