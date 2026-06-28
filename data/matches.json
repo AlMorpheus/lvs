@@ -4257,6 +4257,60 @@
     "multiplier": 2
   },
   {
+    "id": "1567307",
+    "date": "2026-07-01T16:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away": {
+      "id": 1508,
+      "name": "Congo DR",
+      "flag": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567308",
+    "date": "2026-07-01T20:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away": {
+      "id": 13,
+      "name": "Senegal",
+      "flag": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
     "id": "1562586",
     "date": "2026-07-02T00:00:00+00:00",
     "status": "NS",
@@ -4272,6 +4326,33 @@
       "id": 1113,
       "name": "Bosnia & Herzegovina",
       "flag": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567309",
+    "date": "2026-07-02T23:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 3,
+      "name": "Croatia",
+      "flag": "https://media.api-sports.io/football/teams/3.png"
     },
     "score": null,
     "scoreReg": null,
@@ -4326,6 +4407,33 @@
       "id": 1533,
       "name": "Cape Verde Islands",
       "flag": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "score": null,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567310",
+    "date": "2026-07-04T01:30:00+00:00",
+    "status": "NS",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 8,
+      "name": "Colombia",
+      "flag": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "away": {
+      "id": 1504,
+      "name": "Ghana",
+      "flag": "https://media.api-sports.io/football/teams/1504.png"
     },
     "score": null,
     "scoreReg": null,
