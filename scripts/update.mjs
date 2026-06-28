@@ -379,7 +379,7 @@ async function fetchExpertPredictions() {
 // ---------- виртуальный игрок betanalyse.pro ----------
 // Полноценный участник: на свистке фиксируем его ПОСЛЕДНИЙ прогноз как ставку и считаем очки.
 const AI_ID = 'betanalyse';
-const AI_NAME = '🤖 Шеф';
+const AI_NAME = 'Шеф'; // Шеф теперь реальный игрок (id оставлен прежним для непрерывности истории)
 
 const _norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
 const _lastName = (s) => _norm(s).split(/\s+/).pop().replace(/[^a-zа-яё]/g, '');
@@ -717,19 +717,19 @@ async function main() {
 
   const bets = readAllBets(matches);
 
-  // betanalyse.pro: прогноз НЕ публикуем (ставка Шефа скрыта до свистка, как у участников).
-  // Свежего запроса достаточно для фиксации ставки на старте матча.
-  const aiPred = (await fetchExpertPredictions()) || {};
-  const aiBets = lockAiBets(matches, aiPred, squads);
-  bets[AI_ID] = {
-    matches: Object.fromEntries(Object.entries(aiBets).map(([id, b]) => [id, {
-      score: b.score,
-      scorers: (b.scorers || []).map((s) => s.id).filter(Boolean), // id — для подсчёта очков
-      scorerInfo: b.scorers, // полная инфа (имя/команда/поз) — чтобы показать всех троих
-      submittedAt: b.lockedAt,
-    }])),
-    tournament: overrides.aiTournament || null, // прогноз ИИ на чемпиона/бомбардира (правка организатора)
-  };
+  // Шеф теперь РЕАЛЬНЫЙ игрок: новые ставки приходят как у всех (data/bets/betanalyse/, уже в
+  // bets[AI_ID] из readAllBets). Исторические — пока за Шефа ставил AI — берём из data/ai-bets.json
+  // и подставляем туда, где человек ещё не ставил (его собственная ставка всегда важнее).
+  const aiStore = readJSON('data/ai-bets.json', {});
+  const aiPast = Object.fromEntries(Object.entries(aiStore).map(([id, b]) => [id, {
+    score: b.score,
+    scorers: (b.scorers || []).map((s) => s.id).filter(Boolean),
+    scorerInfo: b.scorers,
+    submittedAt: b.lockedAt,
+  }]));
+  bets[AI_ID] = bets[AI_ID] || { matches: {}, tournament: null };
+  bets[AI_ID].matches = { ...aiPast, ...bets[AI_ID].matches };
+  bets[AI_ID].tournament = bets[AI_ID].tournament || overrides.aiTournament || null;
 
   await recoverPickedPlayers(bets); // имена/позиции выбранных авторов (в т.ч. у ИИ)
   writeReveals(matches, bets);      // раскрытие включает ставку betanalyse.pro
@@ -747,7 +747,8 @@ async function main() {
   // Заморозка позиций сыгранных матчей теперь ПО МАТЧУ (m.scorers[].pos, см. выше) — её
   // учитывает scoring.mjs для конкретного матча. posMap здесь — актуальная (официальная) база.
 
-  const usersForStandings = [...usersCfg.map((u) => ({ id: u.id, name: u.name })), { id: AI_ID, name: AI_NAME }];
+  // Шеф (betanalyse) теперь в config/users.json — отдельно добавлять не нужно
+  const usersForStandings = usersCfg.map((u) => ({ id: u.id, name: u.name }));
   const result = computeStandings(usersForStandings, matches, bets, tr, cfg, posMap);
 
   // Прогнозы (чемпион/бомбардир) сразу публикуем в таблицу — видно, кто за кого болеет.

@@ -77,6 +77,19 @@
         "nonce": "uEBndwDr4XWKFI98WI/NxSsup9xXzHV4",
         "cipher": "OuYV9L9BSRXmQCmMFXPnuUazxL/8AFwrdhZqWdLOhJTf1UaS0scIHLUcE7eVvNRu"
       }
+    },
+    {
+      "id": "betanalyse",
+      "name": "Шеф",
+      "salt": "a5+zT59VK0Jg0DrwDr7YDw==",
+      "wrappedToken": {
+        "nonce": "PCsK8QD3mltxHjvf/aUZg0LqPzQ604HZ",
+        "cipher": "Jn86c46awg5nAZgwTUEK67FPFdAXr/2xIKHIzV++vhdk16LTnDyDU5gK+fi+Yz19+iJLRYoBXfI8XRXlpt6prvFKygCIhGLgr7iRZUMESW7Yyw8daOBFsTa+VIkNgtu5WHmhtwp5ZO+AB4akeA=="
+      },
+      "wrappedSK": {
+        "nonce": "JcEpUn48B7+r08o5Kf89axC4I2J19Cnr",
+        "cipher": "3a81jx6OhmdIRtAcolST9H9ER0F4P69fwTJQWXEQiKLP/r9/6unJD2DQ47u0e8e9"
+      }
     }
   ]
 }

@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=65';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=65';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=65';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=65';
-import { renderGreeting } from './greeting.js?v=65';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=66';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=66';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=66';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=66';
+import { renderGreeting } from './greeting.js?v=66';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r32', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -361,11 +361,9 @@ async function revealBlock(m, S, ctx, idx) {
       ? aiScorerChips(bet.scorerInfo, m, S, idx) // у Шефа показываем всех троих
       : (bet.scorers || []).map(String).map((id) => scorerChip(id, m, S, idx)); // дубли показываем (ставка на дубль/хет-трик)
 
-    const whoChildren = isAI
-      ? [h('span', { class: 'ai-ava', text: '🤖' }), h('b', { text: 'Шеф' })]
-      : [h('b', { text: nameOf(uid) }), me ? h('span', { class: 'you-tag', text: 'я' }) : ''];
+    const whoChildren = [h('b', { text: nameOf(uid) }), me ? h('span', { class: 'you-tag', text: 'я' }) : ''];
 
-    const entry = h('div', { class: 'reveal-entry' + (me ? ' me' : '') + (isAI ? ' ai' : '') }, [
+    const entry = h('div', { class: 'reveal-entry' + (me ? ' me' : '') }, [
       h('div', { class: 'reveal-head' }, [
         h('div', { class: 'reveal-who' }, whoChildren),
         h('div', { class: 'reveal-score' }, [h('span', { class: 'rscore', text: `${bet.score.home}:${bet.score.away}` }), pts]),
