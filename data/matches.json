@@ -4164,7 +4164,7 @@
   {
     "id": "1561329",
     "date": "2026-06-28T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4182,12 +4182,24 @@
       "home": 0,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T20:59:14.832Z",
     "lineupAt": "2026-06-28T18:16:07.898Z",
     "remind2hAt": "2026-06-28T17:01:50.326Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 35570,
+        "name": "S. Eustaquio",
+        "teamId": 5529,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
