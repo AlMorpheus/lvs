@@ -3915,36 +3915,6 @@
     "multiplier": 1.3
   },
   {
-    "id": "1539013",
-    "date": "2026-06-27T23:30:00+00:00",
-    "status": "2H",
-    "round": "Group Stage - 3",
-    "roundKey": "group-3",
-    "stage": "group",
-    "home": {
-      "id": 1508,
-      "name": "Congo DR",
-      "flag": "https://media.api-sports.io/football/teams/1508.png"
-    },
-    "away": {
-      "id": 1568,
-      "name": "Uzbekistan",
-      "flag": "https://media.api-sports.io/football/teams/1568.png"
-    },
-    "score": {
-      "home": 3,
-      "away": 1
-    },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "lineupAt": "2026-06-27T22:36:52.581Z",
-    "remind2hAt": "2026-06-27T21:30:58.692Z",
-    "scorers": [],
-    "multiplierOverride": null,
-    "multiplier": 1.3
-  },
-  {
     "id": "1489419",
     "date": "2026-06-27T23:30:00+00:00",
     "status": "FT",
@@ -3974,6 +3944,72 @@
     "lineupAt": "2026-06-27T22:36:52.483Z",
     "remind2hAt": "2026-06-27T21:30:58.692Z",
     "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539013",
+    "date": "2026-06-27T23:30:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1508,
+      "name": "Congo DR",
+      "flag": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "away": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "flag": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T01:33:15.229Z",
+    "lineupAt": "2026-06-27T22:36:52.581Z",
+    "remind2hAt": "2026-06-27T21:30:58.692Z",
+    "scorers": [
+      {
+        "playerId": 53535,
+        "name": "E. Shomurodov",
+        "teamId": 1568,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 20649,
+        "name": "Y. Wissa",
+        "teamId": 1508,
+        "minute": 68,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 179699,
+        "name": "F. Mayele",
+        "teamId": 1508,
+        "minute": 78,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 20649,
+        "name": "Y. Wissa",
+        "teamId": 1508,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 1.3
   },
