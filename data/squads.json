@@ -3427,10 +3427,10 @@
       "start": true
     },
     {
-      "id": 323935,
-      "name": "Giuliano Simeone",
-      "number": 17,
-      "pos": "Attacker",
+      "id": 6002,
+      "name": "Exequiel Palacios",
+      "number": 14,
+      "pos": "Midfielder",
       "start": true
     },
     {
@@ -3455,6 +3455,13 @@
       "start": true
     },
     {
+      "id": 323935,
+      "name": "Giuliano Simeone",
+      "number": 17,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
       "id": 350037,
       "name": "Nico Paz",
       "number": 18,
@@ -3469,13 +3476,6 @@
       "start": true
     },
     {
-      "id": 6002,
-      "name": "Exequiel Palacios",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 1578,
       "name": "Giovani Lo Celso",
       "number": 11,
@@ -3483,16 +3483,16 @@
       "start": true
     },
     {
-      "id": 6009,
-      "name": "Julián Alvarez",
-      "number": 9,
+      "id": 217,
+      "name": "Lautaro Martínez",
+      "number": 22,
       "pos": "Attacker",
       "start": true
     },
     {
-      "id": 217,
-      "name": "Lautaro Martínez",
-      "number": 22,
+      "id": 6009,
+      "name": "Julián Alvarez",
+      "number": 9,
       "pos": "Attacker",
       "start": true
     },
@@ -4956,16 +4956,16 @@
       "start": true
     },
     {
-      "id": 7562,
-      "name": "Romano Schmid",
-      "number": 18,
+      "id": 1157,
+      "name": "Konrad Laimer",
+      "number": 20,
       "pos": "Midfielder",
       "start": true
     },
     {
-      "id": 1157,
-      "name": "Konrad Laimer",
-      "number": 20,
+      "id": 7562,
+      "name": "Romano Schmid",
+      "number": 18,
       "pos": "Midfielder",
       "start": true
     },
