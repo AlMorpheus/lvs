@@ -3334,6 +3334,34 @@
       "start": true
     },
     {
+      "id": 511,
+      "name": "Leon Goretzka",
+      "number": 8,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 181812,
+      "name": "Jamal Musiala",
+      "number": 10,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 25368,
+      "name": "Waldemar Anton",
+      "number": 3,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 158054,
+      "name": "Nick Woltemade",
+      "number": 11,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 399,
       "name": "Alexander Nübel",
       "number": 21,
@@ -3351,13 +3379,6 @@
       "id": 25158,
       "name": "David Raum",
       "number": 22,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 25368,
-      "name": "Waldemar Anton",
-      "number": 3,
       "pos": "Defender",
       "start": false
     },
@@ -3390,23 +3411,9 @@
       "start": false
     },
     {
-      "id": 181812,
-      "name": "Jamal Musiala",
-      "number": 10,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 128533,
       "name": "Jamie Leweling",
       "number": 9,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 511,
-      "name": "Leon Goretzka",
-      "number": 8,
       "pos": "Midfielder",
       "start": false
     },
@@ -3415,13 +3422,6 @@
       "name": "Nadiem Amiri",
       "number": 20,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 158054,
-      "name": "Nick Woltemade",
-      "number": 11,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -8329,6 +8329,20 @@
       "start": true
     },
     {
+      "id": 119128,
+      "name": "Gustavo Caballero",
+      "number": 24,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
+      "id": 106485,
+      "name": "Mauricio",
+      "number": 11,
+      "pos": "Midfielder",
+      "start": false
+    },
+    {
       "id": 51733,
       "name": "Gastón Olveira",
       "number": 22,
@@ -8371,23 +8385,9 @@
       "start": false
     },
     {
-      "id": 106485,
-      "name": "Mauricio",
-      "number": 11,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
       "id": 70767,
       "name": "Braian Ojeda",
       "number": 20,
-      "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 119128,
-      "name": "Gustavo Caballero",
-      "number": 24,
       "pos": "Midfielder",
       "start": false
     },
