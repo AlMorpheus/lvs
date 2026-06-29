@@ -147,6 +147,19 @@ async function buildMatches() {
 
     const finished = FINISHED.has(f.fixture?.status?.short);
     const prevM = prevById.get(String(f.fixture?.id));
+
+    // Счёт. Если матч решён СЕРИЕЙ ПЕНАЛЬТИ (status PEN) — победителю серии +1 гол к итогу,
+    // чтобы итог был «1:2 (по пенальти)». Счёт игрового времени (1:1) остаётся вторым
+    // кандидатом, поэтому зачитываются и поставившие 1:1, и поставившие 1:2.
+    const goals = f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null;
+    const penShootout = f.fixture?.status?.short === 'PEN';
+    const pen = f.score?.penalty;
+    let score = goals;
+    if (penShootout && goals && pen && pen.home != null && pen.away != null) {
+      const homeWin = pen.home > pen.away;
+      score = { home: goals.home + (homeWin ? 1 : 0), away: goals.away + (homeWin ? 0 : 1) };
+    }
+
     const m = {
       id: String(f.fixture?.id),
       date: f.fixture?.date,
@@ -156,9 +169,10 @@ async function buildMatches() {
       stage,
       home,
       away,
-      score: f.goals?.home != null ? { home: f.goals.home, away: f.goals.away } : null,
-      // счёт основного времени (для плей-офф: 1:1 в осн. + 2:1 итог — оба «точный счёт»)
-      scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : null,
+      score,
+      pen: penShootout, // матч решён серией пенальти — для отметки в UI
+      // счёт игрового времени (для плей-офф: 1:1 в осн. + итог — оба «точный счёт»)
+      scoreReg: f.score?.fulltime?.home != null ? { home: f.score.fulltime.home, away: f.score.fulltime.away } : (goals || null),
       finished,
       finishedAt: finishedAtFor(finished, prevM, f.fixture?.date),
       lineupAt: prevM?.lineupAt || null, // когда впервые появился стартовый состав (для пуша + UI)
@@ -223,7 +237,8 @@ async function buildMatches() {
       try {
         const events = await api('/fixtures/events', { fixture: m.id });
         m.scorers = events
-          .filter((e) => norm(e.type) === 'goal' && norm(e.detail) !== 'missed penalty')
+          // голы серии послематчевых пенальти НЕ считаем авторами (comments: "Penalty Shootout")
+          .filter((e) => norm(e.type) === 'goal' && norm(e.detail) !== 'missed penalty' && !/shoot\s?out/.test(norm(e.comments)))
           .map((e) => ({
             playerId: e.player?.id,
             name: e.player?.name,

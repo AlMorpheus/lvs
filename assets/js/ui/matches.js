@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=66';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=66';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=66';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=66';
-import { renderGreeting } from './greeting.js?v=66';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=67';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=67';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=67';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=67';
+import { renderGreeting } from './greeting.js?v=67';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r32', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -77,8 +77,8 @@ function teamRow(m, idx, S) {
       ? [
           `${m.score.home} : ${m.score.away}`,
           m.scoreReg && (m.scoreReg.home !== m.score.home || m.scoreReg.away !== m.score.away)
-            ? h('small', { class: 'reg-note', text: `осн. ${m.scoreReg.home}:${m.scoreReg.away}` })
-            : '',
+            ? h('small', { class: 'reg-note', text: (m.pen ? 'по пенальти · ' : '') + `осн. ${m.scoreReg.home}:${m.scoreReg.away}` })
+            : (m.pen ? h('small', { class: 'reg-note', text: 'по пенальти' }) : ''),
         ]
       : [h('span', { class: 'vs', text: 'vs' })]),
     h('div', { class: 'team away' }, [flagEl(m.away), nameEl(m.away, S)]),

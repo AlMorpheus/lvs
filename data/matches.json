@@ -4280,7 +4280,7 @@
     },
     "score": {
       "home": 1,
-      "away": 1
+      "away": 2
     },
     "scoreReg": {
       "home": 1,
@@ -4306,66 +4306,11 @@
         "minute": 54,
         "type": "normal",
         "pos": "Attacker"
-      },
-      {
-        "playerId": 106485,
-        "name": "Mauricio",
-        "teamId": 2380,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Midfielder"
-      },
-      {
-        "playerId": 502,
-        "name": "J. Kimmich",
-        "teamId": 25,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Defender"
-      },
-      {
-        "playerId": 2502,
-        "name": "G. Gomez",
-        "teamId": 2380,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Defender"
-      },
-      {
-        "playerId": 181812,
-        "name": "J. Musiala",
-        "teamId": 25,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Midfielder"
-      },
-      {
-        "playerId": 305832,
-        "name": "M. Galarza",
-        "teamId": 2380,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Midfielder"
-      },
-      {
-        "playerId": 714,
-        "name": "N. Amiri",
-        "teamId": 25,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Midfielder"
-      },
-      {
-        "playerId": 70732,
-        "name": "J. Canale",
-        "teamId": 2380,
-        "minute": 120,
-        "type": "normal",
-        "pos": "Defender"
       }
     ],
     "multiplierOverride": null,
-    "multiplier": 2
+    "multiplier": 2,
+    "pen": true
   },
   {
     "id": "1562345",
