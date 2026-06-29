@@ -20,6 +20,7 @@
       "home": 2,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 0
@@ -71,6 +72,7 @@
       "home": 2,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 1
@@ -129,6 +131,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -179,6 +182,7 @@
       "home": 4,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 4,
       "away": 1
@@ -253,6 +257,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -303,6 +308,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -353,6 +359,7 @@
       "home": 0,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 1
@@ -395,6 +402,7 @@
       "home": 2,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 0
@@ -445,6 +453,7 @@
       "home": 7,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 7,
       "away": 1
@@ -543,6 +552,7 @@
       "home": 2,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 2
@@ -609,6 +619,7 @@
       "home": 1,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 0
@@ -651,6 +662,7 @@
       "home": 5,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 5,
       "away": 1
@@ -733,6 +745,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -766,6 +779,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -816,6 +830,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -866,6 +881,7 @@
       "home": 2,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 2
@@ -932,6 +948,7 @@
       "home": 3,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 1
@@ -998,6 +1015,7 @@
       "home": 1,
       "away": 4
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 4
@@ -1072,6 +1090,7 @@
       "home": 3,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 0
@@ -1130,6 +1149,7 @@
       "home": 3,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 1
@@ -1196,6 +1216,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -1246,6 +1267,7 @@
       "home": 4,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 4,
       "away": 2
@@ -1328,6 +1350,7 @@
       "home": 1,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 0
@@ -1370,6 +1393,7 @@
       "home": 1,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 3
@@ -1436,6 +1460,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -1486,6 +1511,7 @@
       "home": 4,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 4,
       "away": 1
@@ -1560,6 +1586,7 @@
       "home": 6,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 6,
       "away": 0
@@ -1642,6 +1669,7 @@
       "home": 1,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 0
@@ -1684,6 +1712,7 @@
       "home": 2,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 0
@@ -1734,6 +1763,7 @@
       "home": 0,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 1
@@ -1776,6 +1806,7 @@
       "home": 3,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 0
@@ -1834,6 +1865,7 @@
       "home": 0,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 1
@@ -1876,6 +1908,7 @@
       "home": 5,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 5,
       "away": 1
@@ -1958,6 +1991,7 @@
       "home": 2,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 1
@@ -2016,6 +2050,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -2049,6 +2084,7 @@
       "home": 0,
       "away": 4
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 4
@@ -2115,6 +2151,7 @@
       "home": 4,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 4,
       "away": 0
@@ -2181,6 +2218,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -2214,6 +2252,7 @@
       "home": 2,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 2
@@ -2280,6 +2319,7 @@
       "home": 1,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 3
@@ -2346,6 +2386,7 @@
       "home": 2,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 0
@@ -2396,6 +2437,7 @@
       "home": 3,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 0
@@ -2454,6 +2496,7 @@
       "home": 3,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 2
@@ -2528,6 +2571,7 @@
       "home": 1,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 2
@@ -2586,6 +2630,7 @@
       "home": 5,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 5,
       "away": 0
@@ -2660,6 +2705,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -2693,6 +2739,7 @@
       "home": 0,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 1
@@ -2735,6 +2782,7 @@
       "home": 1,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 0
@@ -2777,6 +2825,7 @@
       "home": 2,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 1
@@ -2835,6 +2884,7 @@
       "home": 3,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 1
@@ -2901,6 +2951,7 @@
       "home": 4,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 4,
       "away": 2
@@ -2983,6 +3034,7 @@
       "home": 0,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 3
@@ -3041,6 +3093,7 @@
       "home": 0,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 3
@@ -3099,6 +3152,7 @@
       "home": 1,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 0
@@ -3141,6 +3195,7 @@
       "home": 2,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 1
@@ -3199,6 +3254,7 @@
       "home": 0,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 2
@@ -3249,6 +3305,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -3299,6 +3356,7 @@
       "home": 1,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 3
@@ -3365,6 +3423,7 @@
       "home": 3,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 2
@@ -3439,6 +3498,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -3472,6 +3532,7 @@
       "home": 5,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 5,
       "away": 0
@@ -3546,6 +3607,7 @@
       "home": 1,
       "away": 4
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 4
@@ -3620,6 +3682,7 @@
       "home": 0,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 1
@@ -3662,6 +3725,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -3695,6 +3759,7 @@
       "home": 1,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -3745,6 +3810,7 @@
       "home": 1,
       "away": 5
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 5
@@ -3827,6 +3893,7 @@
       "home": 2,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 1
@@ -3885,6 +3952,7 @@
       "home": 0,
       "away": 2
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 2
@@ -3935,6 +4003,7 @@
       "home": 0,
       "away": 0
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 0
@@ -3968,6 +4037,7 @@
       "home": 3,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 1
@@ -4034,6 +4104,7 @@
       "home": 3,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 3,
       "away": 3
@@ -4116,6 +4187,7 @@
       "home": 1,
       "away": 3
     },
+    "pen": false,
     "scoreReg": {
       "home": 1,
       "away": 3
@@ -4182,6 +4254,7 @@
       "home": 0,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 0,
       "away": 1
@@ -4224,6 +4297,7 @@
       "home": 2,
       "away": 1
     },
+    "pen": false,
     "scoreReg": {
       "home": 2,
       "away": 1
@@ -4282,6 +4356,7 @@
       "home": 1,
       "away": 2
     },
+    "pen": true,
     "scoreReg": {
       "home": 1,
       "away": 1
@@ -4309,8 +4384,7 @@
       }
     ],
     "multiplierOverride": null,
-    "multiplier": 2,
-    "pen": true
+    "multiplier": 2
   },
   {
     "id": "1562345",
@@ -4330,6 +4404,7 @@
       "flag": "https://media.api-sports.io/football/teams/31.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4357,6 +4432,7 @@
       "flag": "https://media.api-sports.io/football/teams/1090.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4384,6 +4460,7 @@
       "flag": "https://media.api-sports.io/football/teams/5.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4411,6 +4488,7 @@
       "flag": "https://media.api-sports.io/football/teams/2382.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4438,6 +4516,7 @@
       "flag": "https://media.api-sports.io/football/teams/1508.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4465,6 +4544,7 @@
       "flag": "https://media.api-sports.io/football/teams/13.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4492,6 +4572,7 @@
       "flag": "https://media.api-sports.io/football/teams/1113.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4519,6 +4600,7 @@
       "flag": "https://media.api-sports.io/football/teams/775.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4546,6 +4628,7 @@
       "flag": "https://media.api-sports.io/football/teams/3.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4573,6 +4656,7 @@
       "flag": "https://media.api-sports.io/football/teams/1532.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4600,6 +4684,7 @@
       "flag": "https://media.api-sports.io/football/teams/32.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4627,6 +4712,7 @@
       "flag": "https://media.api-sports.io/football/teams/1533.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
@@ -4654,6 +4740,7 @@
       "flag": "https://media.api-sports.io/football/teams/1504.png"
     },
     "score": null,
+    "pen": false,
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
