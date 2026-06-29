@@ -4264,7 +4264,7 @@
   {
     "id": "1565176",
     "date": "2026-06-29T20:30:00+00:00",
-    "status": "2H",
+    "status": "BT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4282,7 +4282,10 @@
       "home": 1,
       "away": 1
     },
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-06-29T19:24:06.314Z",
