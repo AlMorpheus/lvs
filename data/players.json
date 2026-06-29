@@ -190,7 +190,7 @@
     "team": "2"
   },
   "280": {
-    "name": "Alisson Becker",
+    "name": "Alisson",
     "pos": "Goalkeeper",
     "team": "6"
   },
@@ -290,7 +290,7 @@
     "team": "7"
   },
   "440": {
-    "name": "Y. Nagatomo",
+    "name": "Yuto Nagatomo",
     "pos": "Defender",
     "team": "12"
   },
@@ -1220,12 +1220,12 @@
     "team": "2382"
   },
   "2597": {
-    "name": "T. Tomiyasu",
+    "name": "Takehiro Tomiyasu",
     "pos": "Defender",
     "team": "12"
   },
   "2598": {
-    "name": "R. Doan",
+    "name": "Ritsu Doan",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -1880,7 +1880,7 @@
     "team": "1113"
   },
   "10097": {
-    "name": "Éderson Silva",
+    "name": "Éderson",
     "pos": "Midfielder",
     "team": "6"
   },
@@ -2755,7 +2755,7 @@
     "team": "768"
   },
   "30424": {
-    "name": "Ibañez",
+    "name": "Roger Ibañez",
     "pos": "Defender",
     "team": "6"
   },
@@ -2865,42 +2865,42 @@
     "team": "774"
   },
   "32858": {
-    "name": "T. Watanabe",
+    "name": "Tsuyoshi Watanabe",
     "pos": "Defender",
     "team": "12"
   },
   "32862": {
-    "name": "T. Kubo",
+    "name": "Takefusa Kubo",
     "pos": "Midfielder",
     "team": "12"
   },
   "32887": {
-    "name": "Y. Sugawara",
+    "name": "Yukinari Sugawara",
     "pos": "Defender",
     "team": "12"
   },
   "32893": {
-    "name": "H. Ito",
+    "name": "Hiroki Itō",
     "pos": "Defender",
     "team": "12"
   },
   "32954": {
-    "name": "S. Taniguchi",
+    "name": "Shogo Taniguchi",
     "pos": "Defender",
     "team": "12"
   },
   "32966": {
-    "name": "A. Tanaka",
+    "name": "Ao Tanaka",
     "pos": "Midfielder",
     "team": "12"
   },
   "33034": {
-    "name": "K. Osako",
+    "name": "Keisuke Osako",
     "pos": "Goalkeeper",
     "team": "12"
   },
   "33165": {
-    "name": "A. Seko",
+    "name": "Ayumu Seko",
     "pos": "Defender",
     "team": "12"
   },
@@ -2925,7 +2925,7 @@
     "team": "20"
   },
   "33889": {
-    "name": "K. Sano",
+    "name": "Kaishu Sano",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -3140,7 +3140,7 @@
     "team": "22"
   },
   "38114": {
-    "name": "K. Itakura",
+    "name": "Ko Itakura",
     "pos": "Defender",
     "team": "12"
   },
@@ -4570,7 +4570,7 @@
     "team": "2380"
   },
   "106851": {
-    "name": "S. Machino",
+    "name": "Shuto Machino",
     "pos": "Attacker",
     "team": "12"
   },
@@ -5415,7 +5415,7 @@
     "team": "2380"
   },
   "196156": {
-    "name": "Thiago",
+    "name": "Igor Thiago",
     "pos": "Attacker",
     "team": "6"
   },
@@ -5465,7 +5465,7 @@
     "team": "5"
   },
   "199143": {
-    "name": "Y. Suzuki",
+    "name": "Yuito Suzuki",
     "pos": "Midfielder",
     "team": "12"
   },
@@ -5475,7 +5475,7 @@
     "team": "28"
   },
   "199578": {
-    "name": "Z. Suzuki",
+    "name": "Zion Suzuki",
     "pos": "Goalkeeper",
     "team": "12"
   },
@@ -6085,7 +6085,7 @@
     "team": "23"
   },
   "304782": {
-    "name": "T. Hayakawa",
+    "name": "Tomoki Hayakawa",
     "pos": "Goalkeeper",
     "team": "12"
   },
@@ -6640,7 +6640,7 @@
     "team": "1504"
   },
   "351014": {
-    "name": "J. Suzuki",
+    "name": "Junnosuke Suzuki",
     "pos": "Defender",
     "team": "12"
   },
@@ -6805,7 +6805,7 @@
     "team": "28"
   },
   "375930": {
-    "name": "K. Goto",
+    "name": "Keisuke Goto",
     "pos": "Attacker",
     "team": "12"
   },
@@ -7050,7 +7050,7 @@
     "team": "1568"
   },
   "422572": {
-    "name": "K. Shiogai",
+    "name": "Kento Shiogai",
     "pos": "Attacker",
     "team": "12"
   },
