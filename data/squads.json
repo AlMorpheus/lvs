@@ -3292,6 +3292,13 @@
       "start": true
     },
     {
+      "id": 644,
+      "name": "Leroy Sané",
+      "number": 19,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 637,
       "name": "Felix Nmecha",
       "number": 23,
@@ -3306,20 +3313,6 @@
       "start": true
     },
     {
-      "id": 644,
-      "name": "Leroy Sané",
-      "number": 19,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 26475,
-      "name": "Deniz Undav",
-      "number": 26,
-      "pos": "Attacker",
-      "start": true
-    },
-    {
       "id": 203224,
       "name": "Florian Wirtz",
       "number": 17,
@@ -3330,6 +3323,13 @@
       "id": 978,
       "name": "Kai Havertz",
       "number": 7,
+      "pos": "Attacker",
+      "start": true
+    },
+    {
+      "id": 26475,
+      "name": "Deniz Undav",
+      "number": 26,
       "pos": "Attacker",
       "start": true
     },
@@ -8287,13 +8287,6 @@
       "start": true
     },
     {
-      "id": 6236,
-      "name": "Andrés Cubas",
-      "number": 14,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
       "id": 2507,
       "name": "Miguel Almirón",
       "number": 10,
@@ -8308,6 +8301,13 @@
       "start": true
     },
     {
+      "id": 6236,
+      "name": "Andrés Cubas",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 305832,
       "name": "Matías Galarza",
       "number": 23,
@@ -8315,16 +8315,16 @@
       "start": true
     },
     {
-      "id": 70747,
-      "name": "Julio Enciso",
-      "number": 19,
+      "id": 6483,
+      "name": "Gabriel Ávalos",
+      "number": 21,
       "pos": "Attacker",
       "start": true
     },
     {
-      "id": 6483,
-      "name": "Gabriel Ávalos",
-      "number": 21,
+      "id": 70747,
+      "name": "Julio Enciso",
+      "number": 19,
       "pos": "Attacker",
       "start": true
     },
