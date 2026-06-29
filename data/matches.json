@@ -4206,7 +4206,7 @@
   {
     "id": "1562344",
     "date": "2026-06-29T17:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4220,7 +4220,10 @@
       "name": "Japan",
       "flag": "https://media.api-sports.io/football/teams/12.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
