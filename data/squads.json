@@ -800,6 +800,20 @@
       "start": true
     },
     {
+      "id": 377122,
+      "name": "Endrick",
+      "number": 19,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
+      "id": 127769,
+      "name": "Gabriel Martinelli",
+      "number": 22,
+      "pos": "Attacker",
+      "start": false
+    },
+    {
       "id": 617,
       "name": "Ederson",
       "number": 23,
@@ -867,20 +881,6 @@
       "name": "Danilo Santos",
       "number": 18,
       "pos": "Midfielder",
-      "start": false
-    },
-    {
-      "id": 377122,
-      "name": "Endrick",
-      "number": 19,
-      "pos": "Attacker",
-      "start": false
-    },
-    {
-      "id": 127769,
-      "name": "Gabriel Martinelli",
-      "number": 22,
-      "pos": "Attacker",
       "start": false
     },
     {
@@ -1890,6 +1890,20 @@
       "start": true
     },
     {
+      "id": 32887,
+      "name": "Yukinari Sugawara",
+      "number": 2,
+      "pos": "Defender",
+      "start": false
+    },
+    {
+      "id": 351014,
+      "name": "Junnosuke Suzuki",
+      "number": 25,
+      "pos": "Defender",
+      "start": false
+    },
+    {
       "id": 33034,
       "name": "Keisuke Osako",
       "number": 12,
@@ -1901,13 +1915,6 @@
       "name": "Tomoki Hayakawa",
       "number": 23,
       "pos": "Goalkeeper",
-      "start": false
-    },
-    {
-      "id": 32887,
-      "name": "Yukinari Sugawara",
-      "number": 2,
-      "pos": "Defender",
       "start": false
     },
     {
@@ -1935,13 +1942,6 @@
       "id": 33165,
       "name": "Ayumu Seko",
       "number": 20,
-      "pos": "Defender",
-      "start": false
-    },
-    {
-      "id": 351014,
-      "name": "Junnosuke Suzuki",
-      "number": 25,
       "pos": "Defender",
       "start": false
     },
