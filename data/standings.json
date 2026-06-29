@@ -3,9 +3,9 @@
     {
       "id": "sasha",
       "name": "Мастер",
-      "matchPts": 908,
+      "matchPts": 922,
       "futuresPts": 0,
-      "total": 908,
+      "total": 922,
       "exactCount": 8,
       "perMatch": {
         "1489369": {
@@ -810,6 +810,17 @@
           "total": 50,
           "isExact": true,
           "usedReg": false
+        },
+        "1565176": {
+          "scorePts": 5,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 7,
+          "multiplier": 2,
+          "special": 0,
+          "total": 14,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 1,
@@ -819,9 +830,9 @@
     {
       "id": "betanalyse",
       "name": "Шеф",
-      "matchPts": 880,
+      "matchPts": 888,
       "futuresPts": 0,
-      "total": 880,
+      "total": 888,
       "exactCount": 7,
       "perMatch": {
         "1489369": {
@@ -1637,6 +1648,17 @@
           "total": 24,
           "isExact": false,
           "usedReg": false
+        },
+        "1565176": {
+          "scorePts": 0,
+          "scorerPts": 4,
+          "correctScorers": 1,
+          "base": 4,
+          "multiplier": 2,
+          "special": 0,
+          "total": 8,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 2,
@@ -1646,9 +1668,9 @@
     {
       "id": "albert",
       "name": "Альберт",
-      "matchPts": 845,
+      "matchPts": 849,
       "futuresPts": 0,
-      "total": 845,
+      "total": 849,
       "exactCount": 11,
       "perMatch": {
         "1489369": {
@@ -2442,6 +2464,17 @@
           "total": 14,
           "isExact": false,
           "usedReg": false
+        },
+        "1565176": {
+          "scorePts": 0,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 2,
+          "multiplier": 2,
+          "special": 0,
+          "total": 4,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 3,
@@ -2451,9 +2484,9 @@
     {
       "id": "sergey",
       "name": "Мел",
-      "matchPts": 823,
+      "matchPts": 835,
       "futuresPts": 0,
-      "total": 823,
+      "total": 835,
       "exactCount": 8,
       "perMatch": {
         "1489369": {
@@ -3269,6 +3302,17 @@
           "total": 14,
           "isExact": false,
           "usedReg": false
+        },
+        "1565176": {
+          "scorePts": 0,
+          "scorerPts": 6,
+          "correctScorers": 2,
+          "base": 6,
+          "multiplier": 2,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 4,
@@ -3278,9 +3322,9 @@
     {
       "id": "liza",
       "name": "Лиза",
-      "matchPts": 704,
+      "matchPts": 716,
       "futuresPts": 0,
-      "total": 704,
+      "total": 716,
       "exactCount": 6,
       "perMatch": {
         "1489369": {
@@ -4041,6 +4085,17 @@
           "total": 14,
           "isExact": false,
           "usedReg": false
+        },
+        "1565176": {
+          "scorePts": 0,
+          "scorerPts": 6,
+          "correctScorers": 2,
+          "base": 6,
+          "multiplier": 2,
+          "special": 0,
+          "total": 12,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 5,
@@ -4050,9 +4105,9 @@
     {
       "id": "dasha",
       "name": "Даша",
-      "matchPts": 698,
+      "matchPts": 712,
       "futuresPts": 0,
-      "total": 698,
+      "total": 712,
       "exactCount": 4,
       "perMatch": {
         "1489369": {
@@ -4857,6 +4912,17 @@
           "total": 24,
           "isExact": false,
           "usedReg": false
+        },
+        "1565176": {
+          "scorePts": 5,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 7,
+          "multiplier": 2,
+          "special": 0,
+          "total": 14,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 6,
@@ -5253,5 +5319,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-06-29T19:03:31.884Z"
+  "updatedAt": "2026-06-29T23:30:53.524Z"
 }
