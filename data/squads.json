@@ -3313,9 +3313,9 @@
       "start": true
     },
     {
-      "id": 978,
-      "name": "Kai Havertz",
-      "number": 7,
+      "id": 26475,
+      "name": "Deniz Undav",
+      "number": 26,
       "pos": "Attacker",
       "start": true
     },
@@ -3327,9 +3327,9 @@
       "start": true
     },
     {
-      "id": 26475,
-      "name": "Deniz Undav",
-      "number": 26,
+      "id": 978,
+      "name": "Kai Havertz",
+      "number": 7,
       "pos": "Attacker",
       "start": true
     },
@@ -8287,6 +8287,13 @@
       "start": true
     },
     {
+      "id": 6236,
+      "name": "Andrés Cubas",
+      "number": 14,
+      "pos": "Midfielder",
+      "start": true
+    },
+    {
       "id": 2507,
       "name": "Miguel Almirón",
       "number": 10,
@@ -8297,13 +8304,6 @@
       "id": 195107,
       "name": "Damián Bobadilla",
       "number": 16,
-      "pos": "Midfielder",
-      "start": true
-    },
-    {
-      "id": 6236,
-      "name": "Andrés Cubas",
-      "number": 14,
       "pos": "Midfielder",
       "start": true
     },
@@ -8352,7 +8352,7 @@
     {
       "id": 6168,
       "name": "Omar Alderete",
-      "number": 15,
+      "number": 3,
       "pos": "Defender",
       "start": false
     },
