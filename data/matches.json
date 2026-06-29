@@ -4264,7 +4264,7 @@
   {
     "id": "1565176",
     "date": "2026-06-29T20:30:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4278,7 +4278,10 @@
       "name": "Paraguay",
       "flag": "https://media.api-sports.io/football/teams/2380.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "scoreReg": null,
     "finished": false,
     "finishedAt": null,
