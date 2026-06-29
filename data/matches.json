@@ -4206,7 +4206,7 @@
   {
     "id": "1562344",
     "date": "2026-06-29T17:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4224,12 +4224,40 @@
       "home": 2,
       "away": 1
     },
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-29T19:03:26.215Z",
     "lineupAt": "2026-06-29T15:53:50.004Z",
     "remind2hAt": "2026-06-29T15:01:42.507Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 33889,
+        "name": "K. Sano",
+        "teamId": 12,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 747,
+        "name": "Casemiro",
+        "teamId": 6,
+        "minute": 56,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 127769,
+        "name": "G. Martinelli",
+        "teamId": 6,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
