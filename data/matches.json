@@ -4464,7 +4464,7 @@
   {
     "id": "1562345",
     "date": "2026-06-30T01:00:00+00:00",
-    "status": "P",
+    "status": "PEN",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4480,15 +4480,15 @@
     },
     "score": {
       "home": 1,
-      "away": 1
+      "away": 2
     },
-    "pen": false,
+    "pen": true,
     "scoreReg": {
       "home": 1,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-06-30T03:54:46.911Z",
     "lineupAt": "2026-06-30T00:04:57.590Z",
     "lineup": {
       "31": {
@@ -4557,7 +4557,24 @@
       }
     },
     "remind2hAt": "2026-06-29T23:01:32.724Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 247,
+        "name": "C. Gakpo",
+        "teamId": 1118,
+        "minute": 72,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 18814,
+        "name": "I. Diop",
+        "teamId": 31,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
