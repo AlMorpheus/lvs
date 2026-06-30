@@ -4581,7 +4581,7 @@
   {
     "id": "1564789",
     "date": "2026-06-30T17:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4595,9 +4595,15 @@
       "name": "Norway",
       "flag": "https://media.api-sports.io/football/teams/1090.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-06-30T15:51:53.318Z",
