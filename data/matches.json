@@ -4597,12 +4597,12 @@
     },
     "score": {
       "home": 1,
-      "away": 1
+      "away": 2
     },
     "pen": false,
     "scoreReg": {
       "home": 1,
-      "away": 1
+      "away": 2
     },
     "finished": false,
     "finishedAt": null,
