@@ -1,9 +1,9 @@
 // Экран «Матчи»: карточки, форма ставки (до свистка) и раскрытие ставок (после).
-import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=67';
-import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=67';
-import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=67';
-import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=67';
-import { renderGreeting } from './greeting.js?v=67';
+import { h, clear, flagEl, flagSrc, fmtDateTime, countdown, toast } from './components.js?v=68';
+import { maxPotential, roundUnlocked, explainMatch, buildPosIndex } from '../scoring.mjs?v=68';
+import { submitBet, loadOwnBet, loadRevealed, listOwnBets, loadOwnTournament } from '../bets.js?v=68';
+import { forceOnboard, teamLabel, playerLabel } from './onboarding.js?v=68';
+import { renderGreeting } from './greeting.js?v=68';
 
 const ROUND_ORDER = ['test', 'group-1', 'group-2', 'group-3', 'r32', 'r16', 'qf', 'sf', 'third', 'final'];
 const ROUND_LABELS = {
@@ -136,10 +136,13 @@ function scorerSelect(m, S, value) {
   for (const team of [m.home, m.away]) {
     const raw = (S.squads || {})[team?.id] || (S.squads || {})[String(team?.id)] || [];
     if (!raw.length) continue;
-    // если вышел стартовый состав (есть пометка start) — основа отдельной группой и выше, затем запас
-    if (raw.some((p) => p.start === true)) {
-      addGroup(`${team.name} · основа`, sortSquad(raw.filter((p) => p.start === true), S));
-      addGroup(`${team.name} · запас`, sortSquad(raw.filter((p) => p.start !== true), S));
+    // стартовый состав берём ИМЕННО для этого матча (m.lineup), а не общие флаги команды —
+    // иначе на будущей игре показывалась бы основа из её предыдущего матча.
+    const lu = m.lineup && (m.lineup[team?.id] || m.lineup[String(team?.id)]);
+    if (lu && lu.start && lu.start.length) {
+      const startSet = new Set(lu.start.map(String));
+      addGroup(`${team.name} · основа`, sortSquad(raw.filter((p) => startSet.has(String(p.id))), S));
+      addGroup(`${team.name} · запас`, sortSquad(raw.filter((p) => !startSet.has(String(p.id))), S));
     } else {
       addGroup(team.name, sortSquad(raw, S));
     }
@@ -191,7 +194,7 @@ function betForm(card, m, S, ctx, existing) {
   const s3 = scorerSelect(m, S, existing?.scorers?.[2]);
 
   // вышли ли стартовые составы (есть пометка start) — подсветим это в заголовке выбора
-  const lineupOut = [m.home, m.away].some((t) => ((S.squads || {})[t?.id] || (S.squads || {})[String(t?.id)] || []).some((p) => p.start === true));
+  const lineupOut = !!(m.lineupAt && m.lineup && Object.keys(m.lineup).length); // стартовый состав вышел ИМЕННО для этого матча
   const scorersLabel = lineupOut
     ? h('div', { class: 'label' }, ['Три автора голов ', h('span', { class: 'lineup-tag', text: '📋 стартовые составы вышли' })])
     : h('div', { class: 'label', text: 'Три автора голов' });

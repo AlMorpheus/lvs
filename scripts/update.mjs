@@ -176,6 +176,7 @@ async function buildMatches() {
       finished,
       finishedAt: finishedAtFor(finished, prevM, f.fixture?.date),
       lineupAt: prevM?.lineupAt || null, // когда впервые появился стартовый состав (для пуша + UI)
+      lineup: prevM?.lineup || null, // стартовый состав ИМЕННО этого матча: { teamId: {start:[ids], sub:[ids]} }
       remind2hAt: prevM?.remind2hAt || null, // когда отправили напоминание «скоро матч» (за ~2 ч)
       scorers: prevM?.scorers || [],
       multiplierOverride: overrides.matches?.[String(f.fixture?.id)]?.multiplier ?? null,
@@ -329,22 +330,23 @@ async function applyLineups(matches, squads) {
       const resp = await api('/fixtures/lineups', { fixture: m.id });
       if (!resp.length) continue;
       let anyStartXI = false;
+      m.lineup = m.lineup || {};
       for (const t of resp) {
         const tid = String(t.team?.id);
-        // позицию НЕ берём из заявки на игру (она часто отличается) — используем официальную:
-        // зафиксированную (lockedPos) или уже известную из общего состава; заявка задаёт лишь старт/запас
-        const prevPos = {};
-        for (const p of squads[tid] || []) prevPos[String(p.id)] = p.pos;
-        const map = (e, start) => {
-          const id = e.player?.id;
-          const pos = lockedPos[String(id)] || prevPos[String(id)] || LINEUP_POS[e.player?.pos] || null;
-          return { id, name: e.player?.name, number: e.player?.number, pos, start };
-        };
-        const startXI = (t.startXI || []).map((e) => map(e, true)).filter((p) => p.id != null);
-        const subs = (t.substitutes || []).map((e) => map(e, false)).filter((p) => p.id != null);
-        if (startXI.length) anyStartXI = true;
-        const list = [...startXI, ...subs];
-        if (list.length) squads[tid] = list; // основа помечена start:true, запас — start:false
+        const startIds = (t.startXI || []).map((e) => e.player?.id).filter((x) => x != null).map(String);
+        const subIds = (t.substitutes || []).map((e) => e.player?.id).filter((x) => x != null).map(String);
+        if (!startIds.length && !subIds.length) continue;
+        if (startIds.length) anyStartXI = true;
+        // стартовый состав храним ПО МАТЧУ (m.lineup), а НЕ как start-флаги в общий состав команды —
+        // иначе они «прилипают» к следующей игре этой команды и сбивают людей на будущих матчах.
+        m.lineup[tid] = { start: startIds, sub: subIds };
+        // добираем в общий состав игроков заявки, которых там ещё нет (только имя/позиция для отображения)
+        const have = new Set((squads[tid] || []).map((p) => String(p.id)));
+        const extra = [...(t.startXI || []), ...(t.substitutes || [])]
+          .map((e) => e.player)
+          .filter((p) => p && p.id != null && !have.has(String(p.id)))
+          .map((p) => ({ id: p.id, name: p.name, number: p.number, pos: normPos(p.id, LINEUP_POS[p.pos]) }));
+        if (extra.length) squads[tid] = [...(squads[tid] || []), ...extra];
       }
       // момент появления стартового состава фиксируем один раз — по нему шлём пуш «состав доступен»
       if (anyStartXI && !m.lineupAt) {
@@ -711,7 +713,7 @@ async function main() {
 
   // matches.json пишем ПОСЛЕ applyLineups/markDueReminders/заморозки — иначе метки не сохранятся
   // финальная нормализация: позиция в составах = зафиксированная официальная (если известна)
-  for (const arr of Object.values(squads)) for (const p of arr || []) p.pos = normPos(p.id, p.pos);
+  for (const arr of Object.values(squads)) for (const p of arr || []) { p.pos = normPos(p.id, p.pos); delete p.start; } // start теперь хранится по матчу (m.lineup), в общем составе не нужен
   if (lockedPosChanged) writeJSON('data/player-pos.json', lockedPos);
 
   writeJSON('data/matches.json', matches);

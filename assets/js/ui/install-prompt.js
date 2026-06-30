@@ -1,8 +1,8 @@
 // Полноэкранная подсказка «Добавьте на экран „Домой"» для тех, кто открыл сайт во вкладке
 // браузера (не в установленном PWA). На iOS это единственный способ получать пуши; плюс
 // приложение работает на весь экран и стабильнее. Не надоедаем: после закрытия молчим 7 дней.
-import { h } from './components.js?v=67';
-import { isIOS, isStandalone } from '../push.js?v=67';
+import { h } from './components.js?v=68';
+import { isIOS, isStandalone } from '../push.js?v=68';
 
 const KEY = 'lvs.a2hs.dismissedAt';
 const SNOOZE_MS = 7 * 24 * 3600 * 1000;
@@ -105,7 +105,7 @@ function showOverlay(ios) {
 
   const card = h('div', { class: 'a2hs-card' }, [
     h('button', { class: 'a2hs-x', text: '✕', 'aria-label': 'Закрыть', onclick: close }),
-    h('img', { class: 'a2hs-logo', src: 'assets/img/logo.png?v=67', alt: 'ЛВС', width: 64, height: 64 }),
+    h('img', { class: 'a2hs-logo', src: 'assets/img/logo.png?v=68', alt: 'ЛВС', width: 64, height: 64 }),
     h('h2', { class: 'a2hs-title', text: 'Установите ЛВС на экран «Домой»' }),
     h('p', { class: 'a2hs-sub', text: 'Так удобнее — и только так приходят уведомления о матчах:' }),
     benefits,
