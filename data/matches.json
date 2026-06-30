@@ -4925,5 +4925,34 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1567824",
+    "date": "2026-07-04T17:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 5529,
+      "name": "Canada",
+      "flag": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
