@@ -28,6 +28,7 @@
     "finished": true,
     "finishedAt": "2026-06-11T21:10:04.655Z",
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [
       {
@@ -80,6 +81,7 @@
     "finished": true,
     "finishedAt": "2026-06-12T03:55:51.086Z",
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [
       {
@@ -139,6 +141,7 @@
     "finished": true,
     "finishedAt": "2026-06-12T20:58:29.624Z",
     "lineupAt": "2026-06-12T18:00:47.798Z",
+    "lineup": null,
     "remind2hAt": "2026-06-12T17:00:06.258Z",
     "scorers": [
       {
@@ -190,6 +193,7 @@
     "finished": true,
     "finishedAt": "2026-06-13T03:05:02.977Z",
     "lineupAt": "2026-06-13T00:31:58.786Z",
+    "lineup": null,
     "remind2hAt": "2026-06-12T23:00:49.533Z",
     "scorers": [
       {
@@ -265,6 +269,7 @@
     "finished": true,
     "finishedAt": "2026-06-13T21:05:40.487Z",
     "lineupAt": "2026-06-13T17:55:38.953Z",
+    "lineup": null,
     "remind2hAt": "2026-06-13T17:00:04.894Z",
     "scorers": [
       {
@@ -316,6 +321,7 @@
     "finished": true,
     "finishedAt": "2026-06-14T00:06:28.809Z",
     "lineupAt": "2026-06-13T20:56:22.846Z",
+    "lineup": null,
     "remind2hAt": "2026-06-13T20:01:50.722Z",
     "scorers": [
       {
@@ -367,6 +373,7 @@
     "finished": true,
     "finishedAt": "2026-06-14T03:03:55.228Z",
     "lineupAt": "2026-06-14T00:32:26.505Z",
+    "lineup": null,
     "remind2hAt": "2026-06-13T23:01:11.638Z",
     "scorers": [
       {
@@ -410,6 +417,7 @@
     "finished": true,
     "finishedAt": "2026-06-14T05:57:40.498Z",
     "lineupAt": "2026-06-14T03:31:16.378Z",
+    "lineup": null,
     "remind2hAt": "2026-06-14T02:01:15.874Z",
     "scorers": [
       {
@@ -461,6 +469,7 @@
     "finished": true,
     "finishedAt": "2026-06-14T18:59:21.476Z",
     "lineupAt": "2026-06-14T15:52:49.832Z",
+    "lineup": null,
     "remind2hAt": "2026-06-14T15:01:28.318Z",
     "scorers": [
       {
@@ -560,6 +569,7 @@
     "finished": true,
     "finishedAt": "2026-06-14T21:56:53.581Z",
     "lineupAt": "2026-06-14T18:53:16.329Z",
+    "lineup": null,
     "remind2hAt": "2026-06-14T18:01:46.661Z",
     "scorers": [
       {
@@ -627,6 +637,7 @@
     "finished": true,
     "finishedAt": "2026-06-15T01:05:08.867Z",
     "lineupAt": "2026-06-14T21:53:31.010Z",
+    "lineup": null,
     "remind2hAt": "2026-06-14T21:00:45.551Z",
     "scorers": [
       {
@@ -670,6 +681,7 @@
     "finished": true,
     "finishedAt": "2026-06-15T03:59:32.756Z",
     "lineupAt": "2026-06-15T01:07:11.685Z",
+    "lineup": null,
     "remind2hAt": "2026-06-15T00:00:22.929Z",
     "scorers": [
       {
@@ -753,6 +765,7 @@
     "finished": true,
     "finishedAt": "2026-06-15T17:57:22.576Z",
     "lineupAt": "2026-06-15T14:59:23.518Z",
+    "lineup": null,
     "remind2hAt": "2026-06-15T14:00:53.100Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -787,6 +800,7 @@
     "finished": true,
     "finishedAt": "2026-06-15T20:59:23.730Z",
     "lineupAt": "2026-06-15T17:53:18.501Z",
+    "lineup": null,
     "remind2hAt": "2026-06-15T17:00:45.644Z",
     "scorers": [
       {
@@ -838,6 +852,7 @@
     "finished": true,
     "finishedAt": "2026-06-16T00:05:17.290Z",
     "lineupAt": "2026-06-15T20:59:24.178Z",
+    "lineup": null,
     "remind2hAt": "2026-06-15T20:00:30.588Z",
     "scorers": [
       {
@@ -889,6 +904,7 @@
     "finished": true,
     "finishedAt": "2026-06-16T03:04:14.962Z",
     "lineupAt": "2026-06-16T00:31:34.206Z",
+    "lineup": null,
     "remind2hAt": "2026-06-15T23:00:53.357Z",
     "scorers": [
       {
@@ -956,6 +972,7 @@
     "finished": true,
     "finishedAt": "2026-06-16T21:05:17.553Z",
     "lineupAt": "2026-06-16T17:55:22.008Z",
+    "lineup": null,
     "remind2hAt": "2026-06-16T17:01:59.238Z",
     "scorers": [
       {
@@ -1023,6 +1040,7 @@
     "finished": true,
     "finishedAt": "2026-06-17T00:02:53.311Z",
     "lineupAt": "2026-06-16T21:30:19.987Z",
+    "lineup": null,
     "remind2hAt": "2026-06-16T20:00:10.707Z",
     "scorers": [
       {
@@ -1098,6 +1116,7 @@
     "finished": true,
     "finishedAt": "2026-06-17T03:00:46.562Z",
     "lineupAt": "2026-06-17T00:22:37.030Z",
+    "lineup": null,
     "remind2hAt": "2026-06-16T23:01:52.971Z",
     "scorers": [
       {
@@ -1157,6 +1176,7 @@
     "finished": true,
     "finishedAt": "2026-06-17T06:10:03.049Z",
     "lineupAt": "2026-06-17T03:12:57.142Z",
+    "lineup": null,
     "remind2hAt": "2026-06-17T02:01:53.868Z",
     "scorers": [
       {
@@ -1224,6 +1244,7 @@
     "finished": true,
     "finishedAt": "2026-06-17T19:01:16.358Z",
     "lineupAt": "2026-06-17T15:54:52.999Z",
+    "lineup": null,
     "remind2hAt": "2026-06-17T15:00:46.619Z",
     "scorers": [
       {
@@ -1275,6 +1296,7 @@
     "finished": true,
     "finishedAt": "2026-06-17T22:00:52.281Z",
     "lineupAt": "2026-06-17T19:01:16.841Z",
+    "lineup": null,
     "remind2hAt": "2026-06-17T18:01:30.120Z",
     "scorers": [
       {
@@ -1358,6 +1380,7 @@
     "finished": true,
     "finishedAt": "2026-06-18T01:04:05.240Z",
     "lineupAt": "2026-06-17T22:02:56.313Z",
+    "lineup": null,
     "remind2hAt": "2026-06-17T21:00:16.902Z",
     "scorers": [
       {
@@ -1401,6 +1424,7 @@
     "finished": true,
     "finishedAt": "2026-06-18T04:03:44.180Z",
     "lineupAt": "2026-06-18T01:14:14.956Z",
+    "lineup": null,
     "remind2hAt": "2026-06-18T00:02:05.100Z",
     "scorers": [
       {
@@ -1468,6 +1492,7 @@
     "finished": true,
     "finishedAt": "2026-06-18T17:59:05.218Z",
     "lineupAt": "2026-06-18T15:10:10.231Z",
+    "lineup": null,
     "remind2hAt": "2026-06-18T14:02:01.276Z",
     "scorers": [
       {
@@ -1519,6 +1544,7 @@
     "finished": true,
     "finishedAt": "2026-06-18T20:58:54.408Z",
     "lineupAt": "2026-06-18T18:01:08.468Z",
+    "lineup": null,
     "remind2hAt": "2026-06-18T17:00:07.618Z",
     "scorers": [
       {
@@ -1594,6 +1620,7 @@
     "finished": true,
     "finishedAt": "2026-06-19T00:04:05.962Z",
     "lineupAt": "2026-06-18T20:54:48.758Z",
+    "lineup": null,
     "remind2hAt": "2026-06-18T20:01:55.683Z",
     "scorers": [
       {
@@ -1677,6 +1704,7 @@
     "finished": true,
     "finishedAt": "2026-06-19T02:57:30.641Z",
     "lineupAt": "2026-06-19T00:06:08.946Z",
+    "lineup": null,
     "remind2hAt": "2026-06-18T23:01:08.176Z",
     "scorers": [
       {
@@ -1720,6 +1748,7 @@
     "finished": true,
     "finishedAt": "2026-06-19T21:06:09.663Z",
     "lineupAt": "2026-06-19T17:55:13.050Z",
+    "lineup": null,
     "remind2hAt": "2026-06-19T17:00:27.958Z",
     "scorers": [
       {
@@ -1771,6 +1800,7 @@
     "finished": true,
     "finishedAt": "2026-06-20T00:01:10.769Z",
     "lineupAt": "2026-06-19T21:08:13.052Z",
+    "lineup": null,
     "remind2hAt": "2026-06-19T20:01:39.060Z",
     "scorers": [
       {
@@ -1814,6 +1844,7 @@
     "finished": true,
     "finishedAt": "2026-06-20T02:32:45.212Z",
     "lineupAt": "2026-06-20T00:02:17.527Z",
+    "lineup": null,
     "remind2hAt": "2026-06-19T22:31:56.701Z",
     "scorers": [
       {
@@ -1873,6 +1904,7 @@
     "finished": true,
     "finishedAt": "2026-06-20T05:07:51.199Z",
     "lineupAt": "2026-06-20T02:30:42.263Z",
+    "lineup": null,
     "remind2hAt": "2026-06-20T01:01:08.273Z",
     "scorers": [
       {
@@ -1916,6 +1948,7 @@
     "finished": true,
     "finishedAt": "2026-06-20T18:57:54.173Z",
     "lineupAt": "2026-06-20T15:57:46.679Z",
+    "lineup": null,
     "remind2hAt": "2026-06-20T15:02:00.485Z",
     "scorers": [
       {
@@ -1999,6 +2032,7 @@
     "finished": true,
     "finishedAt": "2026-06-20T22:00:57.014Z",
     "lineupAt": "2026-06-20T18:52:22.357Z",
+    "lineup": null,
     "remind2hAt": "2026-06-20T18:01:11.878Z",
     "scorers": [
       {
@@ -2058,6 +2092,7 @@
     "finished": true,
     "finishedAt": "2026-06-21T01:56:25.297Z",
     "lineupAt": "2026-06-21T00:04:01.247Z",
+    "lineup": null,
     "remind2hAt": "2026-06-20T22:00:57.400Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -2092,6 +2127,7 @@
     "finished": true,
     "finishedAt": "2026-06-21T05:58:28.469Z",
     "lineupAt": "2026-06-21T02:56:44.690Z",
+    "lineup": null,
     "remind2hAt": "2026-06-21T02:00:32.570Z",
     "scorers": [
       {
@@ -2159,6 +2195,7 @@
     "finished": true,
     "finishedAt": "2026-06-21T18:02:58.367Z",
     "lineupAt": "2026-06-21T14:55:47.683Z",
+    "lineup": null,
     "remind2hAt": "2026-06-21T14:00:21.435Z",
     "scorers": [
       {
@@ -2226,6 +2263,7 @@
     "finished": true,
     "finishedAt": "2026-06-21T21:02:36.657Z",
     "lineupAt": "2026-06-21T17:51:18.221Z",
+    "lineup": null,
     "remind2hAt": "2026-06-21T17:01:58.282Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -2260,6 +2298,7 @@
     "finished": true,
     "finishedAt": "2026-06-22T00:06:42.533Z",
     "lineupAt": "2026-06-21T20:52:21.838Z",
+    "lineup": null,
     "remind2hAt": "2026-06-21T20:01:29.474Z",
     "scorers": [
       {
@@ -2327,6 +2366,7 @@
     "finished": true,
     "finishedAt": "2026-06-22T03:02:09.747Z",
     "lineupAt": "2026-06-22T00:25:54.837Z",
+    "lineup": null,
     "remind2hAt": "2026-06-21T23:01:41.500Z",
     "scorers": [
       {
@@ -2394,6 +2434,7 @@
     "finished": true,
     "finishedAt": "2026-06-22T19:03:12.162Z",
     "lineupAt": "2026-06-22T15:58:50.372Z",
+    "lineup": null,
     "remind2hAt": "2026-06-22T15:01:26.341Z",
     "scorers": [
       {
@@ -2445,6 +2486,7 @@
     "finished": true,
     "finishedAt": "2026-06-23T00:49:43.492Z",
     "lineupAt": "2026-06-22T19:51:51.737Z",
+    "lineup": null,
     "remind2hAt": "2026-06-22T19:01:08.193Z",
     "scorers": [
       {
@@ -2504,6 +2546,7 @@
     "finished": true,
     "finishedAt": "2026-06-23T02:01:59.531Z",
     "lineupAt": "2026-06-23T00:00:25.874Z",
+    "lineup": null,
     "remind2hAt": "2026-06-22T22:01:55.471Z",
     "scorers": [
       {
@@ -2579,6 +2622,7 @@
     "finished": true,
     "finishedAt": "2026-06-23T05:02:28.577Z",
     "lineupAt": "2026-06-23T02:12:16.634Z",
+    "lineup": null,
     "remind2hAt": "2026-06-23T01:02:02.762Z",
     "scorers": [
       {
@@ -2638,6 +2682,7 @@
     "finished": true,
     "finishedAt": "2026-06-23T19:01:47.978Z",
     "lineupAt": "2026-06-23T15:52:13.211Z",
+    "lineup": null,
     "remind2hAt": "2026-06-23T15:01:10.346Z",
     "scorers": [
       {
@@ -2713,6 +2758,7 @@
     "finished": true,
     "finishedAt": "2026-06-23T22:01:49.565Z",
     "lineupAt": "2026-06-23T18:53:31.590Z",
+    "lineup": null,
     "remind2hAt": "2026-06-23T18:01:57.549Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -2747,6 +2793,7 @@
     "finished": true,
     "finishedAt": "2026-06-24T00:55:15.204Z",
     "lineupAt": "2026-06-23T21:51:32.267Z",
+    "lineup": null,
     "remind2hAt": "2026-06-23T21:00:43.245Z",
     "scorers": [
       {
@@ -2790,6 +2837,7 @@
     "finished": true,
     "finishedAt": "2026-06-24T03:58:38.865Z",
     "lineupAt": "2026-06-24T00:57:20.897Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T00:00:50.318Z",
     "scorers": [
       {
@@ -2833,6 +2881,7 @@
     "finished": true,
     "finishedAt": "2026-06-24T20:57:00.334Z",
     "lineupAt": "2026-06-24T17:56:02.039Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T17:01:14.793Z",
     "scorers": [
       {
@@ -2892,6 +2941,7 @@
     "finished": true,
     "finishedAt": "2026-06-24T20:59:05.719Z",
     "lineupAt": "2026-06-24T17:53:56.696Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T17:01:14.793Z",
     "scorers": [
       {
@@ -2959,6 +3009,7 @@
     "finished": true,
     "finishedAt": "2026-06-25T00:01:39.607Z",
     "lineupAt": "2026-06-24T20:57:01.262Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T20:00:44.411Z",
     "scorers": [
       {
@@ -3042,6 +3093,7 @@
     "finished": true,
     "finishedAt": "2026-06-25T00:02:53.529Z",
     "lineupAt": "2026-06-24T20:57:01.374Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T20:00:44.411Z",
     "scorers": [
       {
@@ -3101,6 +3153,7 @@
     "finished": true,
     "finishedAt": "2026-06-25T02:58:00.467Z",
     "lineupAt": "2026-06-25T00:16:55.611Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T23:01:27.251Z",
     "scorers": [
       {
@@ -3160,6 +3213,7 @@
     "finished": true,
     "finishedAt": "2026-06-25T02:58:00.467Z",
     "lineupAt": "2026-06-25T00:16:55.708Z",
+    "lineup": null,
     "remind2hAt": "2026-06-24T23:01:27.251Z",
     "scorers": [
       {
@@ -3203,6 +3257,7 @@
     "finished": true,
     "finishedAt": "2026-06-25T22:00:55.479Z",
     "lineupAt": "2026-06-25T19:31:15.774Z",
+    "lineup": null,
     "remind2hAt": "2026-06-25T18:01:08.345Z",
     "scorers": [
       {
@@ -3262,6 +3317,7 @@
     "finished": true,
     "finishedAt": "2026-06-25T21:58:49.699Z",
     "lineupAt": "2026-06-25T19:31:15.882Z",
+    "lineup": null,
     "remind2hAt": "2026-06-25T18:01:08.345Z",
     "scorers": [
       {
@@ -3313,6 +3369,7 @@
     "finished": true,
     "finishedAt": "2026-06-26T01:00:19.595Z",
     "lineupAt": "2026-06-25T22:01:02.055Z",
+    "lineup": null,
     "remind2hAt": "2026-06-25T21:01:52.561Z",
     "scorers": [
       {
@@ -3364,6 +3421,7 @@
     "finished": true,
     "finishedAt": "2026-06-26T00:54:45.389Z",
     "lineupAt": "2026-06-25T22:01:07.574Z",
+    "lineup": null,
     "remind2hAt": "2026-06-25T21:01:52.562Z",
     "scorers": [
       {
@@ -3431,6 +3489,7 @@
     "finished": true,
     "finishedAt": "2026-06-26T04:04:43.027Z",
     "lineupAt": "2026-06-26T01:27:14.012Z",
+    "lineup": null,
     "remind2hAt": "2026-06-26T00:00:33.384Z",
     "scorers": [
       {
@@ -3506,6 +3565,7 @@
     "finished": true,
     "finishedAt": "2026-06-26T04:00:30.616Z",
     "lineupAt": "2026-06-26T01:25:08.494Z",
+    "lineup": null,
     "remind2hAt": "2026-06-26T00:00:33.385Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -3540,6 +3600,7 @@
     "finished": true,
     "finishedAt": "2026-06-26T21:05:15.817Z",
     "lineupAt": "2026-06-26T18:07:05.969Z",
+    "lineup": null,
     "remind2hAt": "2026-06-26T17:00:43.254Z",
     "scorers": [
       {
@@ -3615,6 +3676,7 @@
     "finished": true,
     "finishedAt": "2026-06-26T21:01:03.941Z",
     "lineupAt": "2026-06-26T18:07:06.133Z",
+    "lineup": null,
     "remind2hAt": "2026-06-26T17:00:43.254Z",
     "scorers": [
       {
@@ -3690,6 +3752,7 @@
     "finished": true,
     "finishedAt": "2026-06-27T02:02:04.151Z",
     "lineupAt": "2026-06-26T22:57:52.966Z",
+    "lineup": null,
     "remind2hAt": "2026-06-26T22:00:39.792Z",
     "scorers": [
       {
@@ -3733,6 +3796,7 @@
     "finished": true,
     "finishedAt": "2026-06-27T01:59:58.934Z",
     "lineupAt": "2026-06-26T22:57:53.094Z",
+    "lineup": null,
     "remind2hAt": "2026-06-26T22:00:39.792Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -3767,6 +3831,7 @@
     "finished": true,
     "finishedAt": "2026-06-27T05:05:33.419Z",
     "lineupAt": "2026-06-27T02:02:06.918Z",
+    "lineup": null,
     "remind2hAt": "2026-06-27T01:01:26.178Z",
     "scorers": [
       {
@@ -3818,6 +3883,7 @@
     "finished": true,
     "finishedAt": "2026-06-27T04:57:59.948Z",
     "lineupAt": "2026-06-27T02:04:12.562Z",
+    "lineup": null,
     "remind2hAt": "2026-06-27T01:01:26.178Z",
     "scorers": [
       {
@@ -3901,6 +3967,7 @@
     "finished": true,
     "finishedAt": "2026-06-27T23:00:07.453Z",
     "lineupAt": "2026-06-27T19:54:03.613Z",
+    "lineup": null,
     "remind2hAt": "2026-06-27T19:01:33.829Z",
     "scorers": [
       {
@@ -3960,6 +4027,7 @@
     "finished": true,
     "finishedAt": "2026-06-27T22:55:54.369Z",
     "lineupAt": "2026-06-27T19:54:03.786Z",
+    "lineup": null,
     "remind2hAt": "2026-06-27T19:01:33.829Z",
     "scorers": [
       {
@@ -4011,6 +4079,7 @@
     "finished": true,
     "finishedAt": "2026-06-28T01:29:02.695Z",
     "lineupAt": "2026-06-27T22:36:52.483Z",
+    "lineup": null,
     "remind2hAt": "2026-06-27T21:30:58.692Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -4045,6 +4114,7 @@
     "finished": true,
     "finishedAt": "2026-06-28T01:33:15.229Z",
     "lineupAt": "2026-06-27T22:36:52.581Z",
+    "lineup": null,
     "remind2hAt": "2026-06-27T21:30:58.692Z",
     "scorers": [
       {
@@ -4112,6 +4182,7 @@
     "finished": true,
     "finishedAt": "2026-06-28T03:59:51.705Z",
     "lineupAt": "2026-06-28T01:10:12.317Z",
+    "lineup": null,
     "remind2hAt": "2026-06-28T00:00:51.198Z",
     "scorers": [
       {
@@ -4195,6 +4266,7 @@
     "finished": true,
     "finishedAt": "2026-06-28T03:59:51.705Z",
     "lineupAt": "2026-06-28T01:10:12.425Z",
+    "lineup": null,
     "remind2hAt": "2026-06-28T00:00:51.198Z",
     "scorers": [
       {
@@ -4262,6 +4334,7 @@
     "finished": true,
     "finishedAt": "2026-06-28T20:59:14.832Z",
     "lineupAt": "2026-06-28T18:16:07.898Z",
+    "lineup": null,
     "remind2hAt": "2026-06-28T17:01:50.326Z",
     "scorers": [
       {
@@ -4305,6 +4378,7 @@
     "finished": true,
     "finishedAt": "2026-06-29T19:03:26.215Z",
     "lineupAt": "2026-06-29T15:53:50.004Z",
+    "lineup": null,
     "remind2hAt": "2026-06-29T15:01:42.507Z",
     "scorers": [
       {
@@ -4364,6 +4438,7 @@
     "finished": true,
     "finishedAt": "2026-06-29T23:30:48.577Z",
     "lineupAt": "2026-06-29T19:24:06.314Z",
+    "lineup": null,
     "remind2hAt": "2026-06-29T18:31:49.769Z",
     "scorers": [
       {
@@ -4409,6 +4484,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": "2026-06-29T23:01:32.724Z",
     "scorers": [],
     "multiplierOverride": null,
@@ -4437,6 +4513,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4465,6 +4542,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4493,6 +4571,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4521,6 +4600,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4549,6 +4629,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4577,6 +4658,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4605,6 +4687,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4633,6 +4716,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4661,6 +4745,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4689,6 +4774,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4717,6 +4803,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
@@ -4745,6 +4832,7 @@
     "finished": false,
     "finishedAt": null,
     "lineupAt": null,
+    "lineup": null,
     "remind2hAt": null,
     "scorers": [],
     "multiplierOverride": null,
