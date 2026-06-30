@@ -4581,7 +4581,7 @@
   {
     "id": "1564789",
     "date": "2026-06-30T17:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4604,8 +4604,8 @@
       "home": 1,
       "away": 2
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-06-30T18:59:09.144Z",
     "lineupAt": "2026-06-30T15:51:53.318Z",
     "lineup": {
       "1090": {
@@ -4674,7 +4674,32 @@
       }
     },
     "remind2hAt": "2026-06-30T15:00:41.350Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 314511,
+        "name": "A. Nusa",
+        "teamId": 1090,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 157997,
+        "name": "A. Diallo",
+        "teamId": 1501,
+        "minute": 74,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
