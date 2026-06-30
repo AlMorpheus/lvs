@@ -4730,8 +4730,7 @@
     "remind2hAt": "2026-06-30T19:01:16.275Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2,
-    "remindJustDue": true
+    "multiplier": 2
   },
   {
     "id": "1567306",
@@ -5039,6 +5038,35 @@
       "id": 31,
       "name": "Morocco",
       "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1568100",
+    "date": "2026-07-05T20:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
     },
     "score": null,
     "pen": false,
