@@ -4706,7 +4706,7 @@
   {
     "id": "1565177",
     "date": "2026-06-30T21:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4729,8 +4729,8 @@
       "home": 3,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-06-30T22:55:27.319Z",
     "lineupAt": "2026-06-30T19:53:25.225Z",
     "lineup": {
       "2": {
@@ -4798,7 +4798,32 @@
       }
     },
     "remind2hAt": "2026-06-30T19:01:16.275Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 161904,
+        "name": "B. Barcola",
+        "teamId": 2,
+        "minute": 53,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 74,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
