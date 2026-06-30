@@ -35,7 +35,7 @@
     "team": "7"
   },
   "33": {
-    "name": "Lucas Hernández",
+    "name": "L. Hernández",
     "pos": "Defender",
     "team": "2"
   },
@@ -175,7 +175,7 @@
     "team": "26"
   },
   "272": {
-    "name": "Adrien Rabiot",
+    "name": "A. Rabiot",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -705,7 +705,7 @@
     "team": "1108"
   },
   "1119": {
-    "name": "Kristoffer Ajer",
+    "name": "K. Ajer",
     "pos": "Defender",
     "team": "1090"
   },
@@ -725,12 +725,12 @@
     "team": "15"
   },
   "1145": {
-    "name": "Ibrahima Konaté",
+    "name": "I. Konaté",
     "pos": "Defender",
     "team": "2"
   },
   "1149": {
-    "name": "Dayot Upamecano",
+    "name": "D. Upamecano",
     "pos": "Defender",
     "team": "2"
   },
@@ -770,12 +770,12 @@
     "team": "770"
   },
   "1257": {
-    "name": "Jules Koundé",
+    "name": "J. Koundé",
     "pos": "Defender",
     "team": "2"
   },
   "1271": {
-    "name": "Aurélien Tchouaméni",
+    "name": "A. Tchouaméni",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -960,7 +960,7 @@
     "team": "8"
   },
   "1934": {
-    "name": "Sander Berge",
+    "name": "S. Berge",
     "pos": "Midfielder",
     "team": "1090"
   },
@@ -980,12 +980,12 @@
     "team": "5529"
   },
   "2032": {
-    "name": "Jørgen Strand Larsen",
+    "name": "J. Strand Larsen",
     "pos": "Attacker",
     "team": "1090"
   },
   "2098": {
-    "name": "Guillermo Ochoa",
+    "name": "G. Ochoa",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -1025,7 +1025,7 @@
     "team": "25"
   },
   "2290": {
-    "name": "N'Golo Kanté",
+    "name": "N. Kanté",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -1345,7 +1345,7 @@
     "team": "31"
   },
   "2724": {
-    "name": "Lucas Digne",
+    "name": "L. Digne",
     "pos": "Defender",
     "team": "2"
   },
@@ -1410,27 +1410,27 @@
     "team": "5"
   },
   "2869": {
-    "name": "Edson Álvarez",
+    "name": "E. Álvarez",
     "pos": "Defender",
     "team": "16"
   },
   "2873": {
-    "name": "César Montes",
+    "name": "C. Montes",
     "pos": "Defender",
     "team": "16"
   },
   "2878": {
-    "name": "Jorge Sánchez",
+    "name": "J. Sánchez",
     "pos": "Defender",
     "team": "16"
   },
   "2879": {
-    "name": "Roberto Alvarado",
+    "name": "R. Alvarado",
     "pos": "Attacker",
     "team": "16"
   },
   "2881": {
-    "name": "Jesús Gallardo",
+    "name": "J. Gallardo",
     "pos": "Defender",
     "team": "16"
   },
@@ -1440,7 +1440,7 @@
     "team": "16"
   },
   "2889": {
-    "name": "Alexis Vega",
+    "name": "A. Vega",
     "pos": "Attacker",
     "team": "16"
   },
@@ -1850,7 +1850,7 @@
     "team": "5529"
   },
   "8492": {
-    "name": "Alexander Sørloth",
+    "name": "A. Sørloth",
     "pos": "Attacker",
     "team": "1090"
   },
@@ -2240,7 +2240,7 @@
     "team": "10"
   },
   "19172": {
-    "name": "Ørjan Nyland",
+    "name": "Ø. Nyland",
     "pos": "Goalkeeper",
     "team": "1090"
   },
@@ -2335,7 +2335,7 @@
     "team": "22"
   },
   "19617": {
-    "name": "Michael Olise",
+    "name": "M. Olise",
     "pos": "Attacker",
     "team": "2"
   },
@@ -2425,7 +2425,7 @@
     "team": "1532"
   },
   "20995": {
-    "name": "Maxence Lacroix",
+    "name": "M. Lacroix",
     "pos": "Defender",
     "team": "2"
   },
@@ -2450,7 +2450,7 @@
     "team": "1532"
   },
   "21509": {
-    "name": "Marcus Thuram",
+    "name": "M. Thuram",
     "pos": "Attacker",
     "team": "2"
   },
@@ -2465,7 +2465,7 @@
     "team": "2386"
   },
   "21628": {
-    "name": "Brice Samba",
+    "name": "B. Samba",
     "pos": "Goalkeeper",
     "team": "2"
   },
@@ -2490,7 +2490,7 @@
     "team": "1501"
   },
   "22090": {
-    "name": "William Saliba",
+    "name": "W. Saliba",
     "pos": "Defender",
     "team": "2"
   },
@@ -2500,7 +2500,7 @@
     "team": "1533"
   },
   "22147": {
-    "name": "Manu Koné",
+    "name": "M. Koné",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -2510,7 +2510,7 @@
     "team": "1501"
   },
   "22221": {
-    "name": "Mike Maignan",
+    "name": "M. Maignan",
     "pos": "Goalkeeper",
     "team": "2"
   },
@@ -2555,7 +2555,7 @@
     "team": "8"
   },
   "24845": {
-    "name": "Julian Ryerson",
+    "name": "J. Ryerson",
     "pos": "Attacker",
     "team": "1090"
   },
@@ -2650,7 +2650,7 @@
     "team": "13"
   },
   "25927": {
-    "name": "Jean-Philippe Mateta",
+    "name": "J. Mateta",
     "pos": "Attacker",
     "team": "2"
   },
@@ -2975,7 +2975,7 @@
     "team": "2382"
   },
   "35544": {
-    "name": "Johan Vásquez",
+    "name": "J. Vásquez",
     "pos": "Defender",
     "team": "16"
   },
@@ -2985,17 +2985,17 @@
     "team": "5529"
   },
   "35576": {
-    "name": "Orbelín Pineda",
+    "name": "O. Pineda",
     "pos": "Midfielder",
     "team": "16"
   },
   "35690": {
-    "name": "Luis Chávez",
+    "name": "L. Chávez",
     "pos": "Midfielder",
     "team": "16"
   },
   "35769": {
-    "name": "Carlos Acevedo",
+    "name": "C. Acevedo",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -3015,12 +3015,12 @@
     "team": "16"
   },
   "36088": {
-    "name": "Guillermo Martínez",
+    "name": "G. Martínez",
     "pos": "Attacker",
     "team": "16"
   },
   "36111": {
-    "name": "César Huerta",
+    "name": "C. Huerta",
     "pos": "Attacker",
     "team": "16"
   },
@@ -3080,7 +3080,7 @@
     "team": "5530"
   },
   "36980": {
-    "name": "Morten Thorsby",
+    "name": "M. Thorsby",
     "pos": "Midfielder",
     "team": "1090"
   },
@@ -3090,7 +3090,7 @@
     "team": "5530"
   },
   "37127": {
-    "name": "Martin Ødegaard",
+    "name": "M. Ødegaard",
     "pos": "Midfielder",
     "team": "1090"
   },
@@ -3180,37 +3180,37 @@
     "team": "1118"
   },
   "39043": {
-    "name": "Fredrik Aursnes",
+    "name": "F. Aursnes",
     "pos": "Midfielder",
     "team": "1090"
   },
   "39058": {
-    "name": "Fredrik André Bjørkan",
+    "name": "F. Bjørkan",
     "pos": "Defender",
     "team": "1090"
   },
   "39064": {
-    "name": "Patrick Berg",
+    "name": "P. Berg",
     "pos": "Midfielder",
     "team": "1090"
   },
   "39073": {
-    "name": "Jens Petter Hauge",
+    "name": "J. Hauge",
     "pos": "Midfielder",
     "team": "1090"
   },
   "39082": {
-    "name": "Egil Selvik",
+    "name": "E. Selvik",
     "pos": "Goalkeeper",
     "team": "1090"
   },
   "39143": {
-    "name": "Kristian Thorstvedt",
+    "name": "K. Thorstvedt",
     "pos": "Midfielder",
     "team": "1090"
   },
   "39254": {
-    "name": "Torbjørn Heggem",
+    "name": "T. Heggem",
     "pos": "Defender",
     "team": "1090"
   },
@@ -3605,7 +3605,7 @@
     "team": "26"
   },
   "47300": {
-    "name": "Theo Hernández",
+    "name": "T. Hernández",
     "pos": "Defender",
     "team": "2"
   },
@@ -4510,7 +4510,7 @@
     "team": "4673"
   },
   "94562": {
-    "name": "Santiago Giménez",
+    "name": "S. Giménez",
     "pos": "Attacker",
     "team": "16"
   },
@@ -4705,7 +4705,7 @@
     "team": "768"
   },
   "127227": {
-    "name": "Israel Reyes",
+    "name": "I. Reyes",
     "pos": "Defender",
     "team": "16"
   },
@@ -4990,7 +4990,7 @@
     "team": "1567"
   },
   "156477": {
-    "name": "Rayan Cherki",
+    "name": "R. Cherki",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -5085,7 +5085,7 @@
     "team": "2"
   },
   "161907": {
-    "name": "Malo Gusto",
+    "name": "M. Gusto",
     "pos": "Defender",
     "team": "2"
   },
@@ -5295,7 +5295,7 @@
     "team": "28"
   },
   "180937": {
-    "name": "Henrik Sælebakke Falchener",
+    "name": "H. Falchener",
     "pos": "Defender",
     "team": "1090"
   },
@@ -5550,7 +5550,7 @@
     "team": "4673"
   },
   "212233": {
-    "name": "Brian Gutiérrez",
+    "name": "B. Gutiérrez",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -5665,7 +5665,7 @@
     "team": "1113"
   },
   "264378": {
-    "name": "Sander Tangvik",
+    "name": "S. Tangvik",
     "pos": "Goalkeeper",
     "team": "1090"
   },
@@ -5675,7 +5675,7 @@
     "team": "15"
   },
   "265444": {
-    "name": "Sondre Langås",
+    "name": "S. Langås",
     "pos": "Defender",
     "team": "1090"
   },
@@ -5705,7 +5705,7 @@
     "team": "2383"
   },
   "265782": {
-    "name": "David Møller Wolfe",
+    "name": "D. Møller Wolfe",
     "pos": "Defender",
     "team": "1090"
   },
@@ -5720,7 +5720,7 @@
     "team": "5"
   },
   "266345": {
-    "name": "Erik Lira",
+    "name": "É. Lira",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -5770,7 +5770,7 @@
     "team": "32"
   },
   "270774": {
-    "name": "Raúl Rangel",
+    "name": "J. Rangel",
     "pos": "Goalkeeper",
     "team": "16"
   },
@@ -5795,7 +5795,7 @@
     "team": "1094"
   },
   "274300": {
-    "name": "Maghnes Akliouche",
+    "name": "M. Akliouche",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -5960,7 +5960,7 @@
     "team": "1533"
   },
   "291713": {
-    "name": "Armando González",
+    "name": "A. González",
     "pos": "Attacker",
     "team": "16"
   },
@@ -6050,7 +6050,7 @@
     "team": "1567"
   },
   "301528": {
-    "name": "Andreas Schjelderup",
+    "name": "A. Schjelderup",
     "pos": "Midfielder",
     "team": "1090"
   },
@@ -6195,7 +6195,7 @@
     "team": "5529"
   },
   "313383": {
-    "name": "Obed Vargas",
+    "name": "O. Vargas",
     "pos": "Midfielder",
     "team": "16"
   },
@@ -6215,7 +6215,7 @@
     "team": "1508"
   },
   "314511": {
-    "name": "Antonio Nusa",
+    "name": "A. Nusa",
     "pos": "Attacker",
     "team": "1090"
   },
@@ -6385,7 +6385,7 @@
     "team": "768"
   },
   "336657": {
-    "name": "Warren Zaïre-Emery",
+    "name": "W. Zaïre-Emery",
     "pos": "Midfielder",
     "team": "2"
   },
@@ -6575,7 +6575,7 @@
     "team": "768"
   },
   "347211": {
-    "name": "Robin Risser",
+    "name": "R. Risser",
     "pos": "Goalkeeper",
     "team": "2"
   },
@@ -7180,7 +7180,7 @@
     "team": "2383"
   },
   "474591": {
-    "name": "C. Inao OulaÃ¯",
+    "name": "C. Inao Oulai",
     "pos": "Midfielder",
     "team": "1501"
   },
@@ -7205,7 +7205,7 @@
     "team": "1504"
   },
   "482605": {
-    "name": "Gilberto Mora",
+    "name": "G. Mora",
     "pos": "Midfielder",
     "team": "16"
   },
