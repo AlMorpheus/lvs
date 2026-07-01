@@ -4963,12 +4963,12 @@
     },
     "score": {
       "home": 0,
-      "away": 0
+      "away": 1
     },
     "pen": false,
     "scoreReg": {
       "home": 0,
-      "away": 0
+      "away": 1
     },
     "finished": false,
     "finishedAt": null,
