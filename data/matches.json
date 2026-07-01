@@ -4962,12 +4962,12 @@
       "flag": "https://media.api-sports.io/football/teams/1508.png"
     },
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 1
     },
     "pen": false,
     "scoreReg": {
-      "home": 1,
+      "home": 2,
       "away": 1
     },
     "finished": false,
