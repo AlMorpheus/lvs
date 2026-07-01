@@ -5072,7 +5072,7 @@
   {
     "id": "1567308",
     "date": "2026-07-01T20:00:00+00:00",
-    "status": "ET",
+    "status": "AET",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5095,8 +5095,8 @@
       "home": 2,
       "away": 2
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-01T22:50:30.143Z",
     "lineupAt": "2026-07-01T18:52:46.384Z",
     "lineup": {
       "1": {
@@ -5163,7 +5163,48 @@
       }
     },
     "remind2hAt": "2026-07-01T18:00:52.548Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 327631,
+        "name": "H. Diarra",
+        "teamId": 13,
+        "minute": 25,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 51,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 907,
+        "name": "R. Lukaku",
+        "teamId": 1,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2926,
+        "name": "Y. Tielemans",
+        "teamId": 1,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2926,
+        "name": "Y. Tielemans",
+        "teamId": 1,
+        "minute": 120,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
