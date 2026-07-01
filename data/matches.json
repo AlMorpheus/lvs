@@ -4830,7 +4830,7 @@
   {
     "id": "1567306",
     "date": "2026-07-01T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4853,8 +4853,8 @@
       "home": 2,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-01T04:01:58.656Z",
     "lineupAt": "2026-07-01T00:22:47.252Z",
     "lineup": {
       "16": {
@@ -4923,7 +4923,24 @@
       }
     },
     "remind2hAt": "2026-06-30T23:01:44.771Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 22,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2887,
+        "name": "R. Jimenez",
+        "teamId": 16,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
