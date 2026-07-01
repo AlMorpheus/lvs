@@ -4947,7 +4947,7 @@
   {
     "id": "1567307",
     "date": "2026-07-01T16:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -4970,8 +4970,8 @@
       "home": 2,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-01T18:00:39.718Z",
     "lineupAt": "2026-07-01T14:51:25.688Z",
     "lineup": {
       "10": {
@@ -5040,7 +5040,32 @@
       }
     },
     "remind2hAt": "2026-07-01T14:01:38.695Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 279482,
+        "name": "B. Cipenga",
+        "teamId": 1508,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 75,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
@@ -5068,10 +5093,11 @@
     "finishedAt": null,
     "lineupAt": null,
     "lineup": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-07-01T18:00:52.548Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2
+    "multiplier": 2,
+    "remindJustDue": true
   },
   {
     "id": "1562586",
