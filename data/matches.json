@@ -5211,7 +5211,7 @@
   {
     "id": "1562586",
     "date": "2026-07-02T00:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5225,9 +5225,15 @@
       "name": "Bosnia & Herzegovina",
       "flag": "https://media.api-sports.io/football/teams/1113.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-01T23:07:55.626Z",
