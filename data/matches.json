@@ -5583,5 +5583,63 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1570714",
+    "date": "2026-07-06T00:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 16,
+      "name": "Mexico",
+      "flag": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1570715",
+    "date": "2026-07-07T00:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
