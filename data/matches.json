@@ -5326,7 +5326,7 @@
   {
     "id": "1567311",
     "date": "2026-07-02T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5349,8 +5349,8 @@
       "home": 3,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-02T21:00:08.655Z",
     "lineupAt": "2026-07-02T18:21:26.758Z",
     "lineup": {
       "9": {
@@ -5419,7 +5419,32 @@
       }
     },
     "remind2hAt": "2026-07-02T17:01:01.865Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47519,
+        "name": "P. Porro",
+        "teamId": 9,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
@@ -5447,10 +5472,11 @@
     "finishedAt": null,
     "lineupAt": null,
     "lineup": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-07-02T21:00:20.457Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2
+    "multiplier": 2,
+    "remindJustDue": true
   },
   {
     "id": "1567312",
