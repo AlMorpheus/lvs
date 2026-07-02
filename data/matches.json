@@ -5211,7 +5211,7 @@
   {
     "id": "1562586",
     "date": "2026-07-02T00:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5234,8 +5234,8 @@
       "home": 2,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-02T02:08:41.568Z",
     "lineupAt": "2026-07-01T23:07:55.626Z",
     "lineup": {
       "1113": {
@@ -5302,7 +5302,24 @@
       }
     },
     "remind2hAt": "2026-07-01T22:01:20.658Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 138835,
+        "name": "F. Balogun",
+        "teamId": 2384,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 162037,
+        "name": "M. Tillman",
+        "teamId": 2384,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
