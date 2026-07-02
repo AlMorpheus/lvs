@@ -5451,7 +5451,7 @@
   {
     "id": "1567309",
     "date": "2026-07-02T23:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5465,9 +5465,15 @@
       "name": "Croatia",
       "flag": "https://media.api-sports.io/football/teams/3.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-02T22:09:17.463Z",
