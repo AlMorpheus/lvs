@@ -5690,7 +5690,7 @@
   {
     "id": "1565178",
     "date": "2026-07-03T18:00:00+00:00",
-    "status": "P",
+    "status": "PEN",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5706,15 +5706,15 @@
     },
     "score": {
       "home": 1,
-      "away": 1
+      "away": 2
     },
-    "pen": false,
+    "pen": true,
     "scoreReg": {
       "home": 1,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-03T20:53:24.241Z",
     "lineupAt": "2026-07-03T16:57:06.693Z",
     "lineup": {
       "20": {
@@ -5778,7 +5778,24 @@
       }
     },
     "remind2hAt": "2026-07-03T16:00:49.530Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 17269,
+        "name": "E. Ashour",
+        "teamId": 32,
+        "minute": 13,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2654,
+        "name": "M. Hany",
+        "teamId": 20,
+        "minute": 55,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
