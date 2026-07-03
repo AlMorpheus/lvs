@@ -5576,7 +5576,7 @@
   {
     "id": "1567312",
     "date": "2026-07-03T03:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5599,8 +5599,8 @@
       "home": 2,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-03T04:57:07.365Z",
     "lineupAt": "2026-07-03T02:05:54.638Z",
     "lineup": {
       "15": {
@@ -5666,7 +5666,24 @@
       }
     },
     "remind2hAt": "2026-07-03T01:00:29.810Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 421,
+        "name": "Breel Embolo",
+        "teamId": 15,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 48648,
+        "name": "Dan Ndoye",
+        "teamId": 15,
+        "minute": 46,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
