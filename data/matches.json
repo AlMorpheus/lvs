@@ -5891,6 +5891,35 @@
     "multiplier": 2
   },
   {
+    "id": "1576756",
+    "date": "2026-07-06T19:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
     "id": "1570715",
     "date": "2026-07-07T00:00:00+00:00",
     "status": "NS",
