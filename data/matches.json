@@ -5809,8 +5809,7 @@
     "remind2hAt": "2026-07-03T20:00:38.186Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2,
-    "remindJustDue": true
+    "multiplier": 2
   },
   {
     "id": "1567310",
