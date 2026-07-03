@@ -5451,7 +5451,7 @@
   {
     "id": "1567309",
     "date": "2026-07-02T23:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5474,8 +5474,8 @@
       "home": 2,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-03T01:11:04.681Z",
     "lineupAt": "2026-07-02T22:09:17.463Z",
     "lineup": {
       "3": {
@@ -5544,7 +5544,32 @@
       }
     },
     "remind2hAt": "2026-07-02T21:00:20.457Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 207,
+        "name": "I. Perisic",
+        "teamId": 3,
+        "minute": 53,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 874,
+        "name": "C. Ronaldo",
+        "teamId": 27,
+        "minute": 68,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 41585,
+        "name": "G. Ramos",
+        "teamId": 27,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
