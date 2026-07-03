@@ -5466,12 +5466,12 @@
       "flag": "https://media.api-sports.io/football/teams/3.png"
     },
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 1
     },
     "pen": false,
     "scoreReg": {
-      "home": 0,
+      "home": 1,
       "away": 1
     },
     "finished": false,
