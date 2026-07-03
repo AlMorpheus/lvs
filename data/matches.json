@@ -5576,7 +5576,7 @@
   {
     "id": "1567312",
     "date": "2026-07-03T03:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5590,9 +5590,15 @@
       "name": "Algeria",
       "flag": "https://media.api-sports.io/football/teams/1532.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-03T02:05:54.638Z",
