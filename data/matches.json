@@ -5690,7 +5690,7 @@
   {
     "id": "1565178",
     "date": "2026-07-03T18:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5704,9 +5704,15 @@
       "name": "Egypt",
       "flag": "https://media.api-sports.io/football/teams/32.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-03T16:57:06.693Z",
