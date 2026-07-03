@@ -5576,7 +5576,7 @@
   {
     "id": "1567312",
     "date": "2026-07-03T03:00:00+00:00",
-    "status": "HT",
+    "status": "2H",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5591,12 +5591,12 @@
       "flag": "https://media.api-sports.io/football/teams/1532.png"
     },
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 0
     },
     "pen": false,
     "scoreReg": {
-      "home": 1,
+      "home": 2,
       "away": 0
     },
     "finished": false,
