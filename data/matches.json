@@ -6176,7 +6176,7 @@
   {
     "id": "1569870",
     "date": "2026-07-04T21:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -6199,8 +6199,8 @@
       "home": 0,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-04T23:04:57.931Z",
     "lineupAt": "2026-07-04T19:53:35.891Z",
     "lineup": {
       "2": {
@@ -6269,7 +6269,16 @@
       }
     },
     "remind2hAt": "2026-07-04T19:02:05.958Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 70,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
