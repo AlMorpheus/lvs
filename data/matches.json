@@ -6068,12 +6068,12 @@
     },
     "score": {
       "home": 0,
-      "away": 2
+      "away": 3
     },
     "pen": false,
     "scoreReg": {
       "home": 0,
-      "away": 2
+      "away": 3
     },
     "finished": false,
     "finishedAt": null,
@@ -6175,8 +6175,7 @@
     "remind2hAt": "2026-07-04T19:02:05.958Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2,
-    "remindJustDue": true
+    "multiplier": 2
   },
   {
     "id": "1568100",
