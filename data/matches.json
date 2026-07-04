@@ -5802,7 +5802,7 @@
   {
     "id": "1565179",
     "date": "2026-07-03T22:00:00+00:00",
-    "status": "ET",
+    "status": "AET",
     "round": "Round of 32",
     "roundKey": "r32",
     "stage": "r32",
@@ -5825,8 +5825,8 @@
       "home": 1,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-04T00:45:23.743Z",
     "lineupAt": "2026-07-03T21:08:12.671Z",
     "lineup": {
       "26": {
@@ -5895,7 +5895,48 @@
       }
     },
     "remind2hAt": "2026-07-03T20:00:38.186Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 37435,
+        "name": "D. Duarte",
+        "teamId": 1533,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2467,
+        "name": "L. Martinez",
+        "teamId": 26,
+        "minute": 92,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 308689,
+        "name": "S. Lopes Cabral",
+        "teamId": 1533,
+        "minute": 103,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 41608,
+        "name": "D. Borges",
+        "teamId": 26,
+        "minute": 111,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
