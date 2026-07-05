@@ -6285,7 +6285,7 @@
   {
     "id": "1568100",
     "date": "2026-07-05T20:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -6300,16 +6300,16 @@
       "flag": "https://media.api-sports.io/football/teams/1090.png"
     },
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 2
     },
     "pen": false,
     "scoreReg": {
-      "home": 0,
+      "home": 1,
       "away": 2
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-05T22:04:38.216Z",
     "lineupAt": "2026-07-05T19:31:33.534Z",
     "lineup": {
       "6": {
@@ -6376,7 +6376,32 @@
       }
     },
     "remind2hAt": "2026-07-05T18:01:29.255Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 79,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 276,
+        "name": "Neymar",
+        "teamId": 6,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
