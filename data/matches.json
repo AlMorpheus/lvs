@@ -6455,5 +6455,34 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1578539",
+    "date": "2026-07-09T20:00:00+00:00",
+    "status": "NS",
+    "round": "Quarter-finals",
+    "roundKey": "qf",
+    "stage": "qf",
+    "home": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
