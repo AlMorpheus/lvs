@@ -5460,7 +5460,7 @@
   {
     "id": "1576756",
     "date": "2026-07-06T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5474,9 +5474,15 @@
       "name": "Spain",
       "flag": "https://media.api-sports.io/football/teams/9.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-06T18:04:32.432Z",
