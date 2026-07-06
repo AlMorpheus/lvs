@@ -136,6 +136,15 @@ async function buildMatches() {
     return Array.isArray(prev) ? prev : [];
   }
 
+  // Пустой ответ = сбой API, а НЕ «матчей нет». Истёкшая подписка / превышенный лимит
+  // api-football отдаёт HTTP 200 с { errors: {...}, response: [] } — обычный catch выше это
+  // не ловит. Никогда не затираем уже собранное расписание пустотой (иначе на сайте
+  // «расписание не загружено»). При живой подписке fixtures всегда непустой.
+  if (!fixtures.length) {
+    console.error('API вернул пустое расписание — оставляю прежнее (', prevById.size, 'матчей )');
+    return Array.isArray(prev) ? prev : [];
+  }
+
   const ranksById = {}; // teamId -> rank (для множителя)
   const matches = [];
   for (const f of fixtures) {
