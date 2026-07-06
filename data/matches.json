@@ -6423,12 +6423,12 @@
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 3
     },
     "pen": false,
     "scoreReg": {
-      "home": 1,
+      "home": 2,
       "away": 3
     },
     "finished": false,
