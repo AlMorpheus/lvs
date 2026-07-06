@@ -6424,12 +6424,12 @@
     },
     "score": {
       "home": 1,
-      "away": 2
+      "away": 3
     },
     "pen": false,
     "scoreReg": {
       "home": 1,
-      "away": 2
+      "away": 3
     },
     "finished": false,
     "finishedAt": null,
