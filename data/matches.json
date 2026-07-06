@@ -5460,7 +5460,7 @@
   {
     "id": "1576756",
     "date": "2026-07-06T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5483,8 +5483,8 @@
       "home": 0,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-06T21:02:05.637Z",
     "lineupAt": "2026-07-06T18:04:32.432Z",
     "lineup": {
       "9": {
@@ -5553,7 +5553,16 @@
       }
     },
     "remind2hAt": "2026-07-06T17:00:12.378Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 47311,
+        "name": "M. Merino",
+        "teamId": 9,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
