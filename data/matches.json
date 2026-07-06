@@ -5630,34 +5630,5 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
-  },
-  {
-    "id": "1581821",
-    "date": "2026-07-11T21:00:00+00:00",
-    "status": "NS",
-    "round": "Quarter-finals",
-    "roundKey": "qf",
-    "stage": "qf",
-    "home": {
-      "id": 1090,
-      "name": "Norway",
-      "flag": "https://media.api-sports.io/football/teams/1090.png"
-    },
-    "away": {
-      "id": 10,
-      "name": "England",
-      "flag": "https://media.api-sports.io/football/teams/10.png"
-    },
-    "score": null,
-    "pen": false,
-    "scoreReg": null,
-    "finished": false,
-    "finishedAt": null,
-    "lineupAt": null,
-    "lineup": null,
-    "remind2hAt": null,
-    "scorers": [],
-    "multiplierOverride": null,
-    "multiplier": 2
   }
 ]
