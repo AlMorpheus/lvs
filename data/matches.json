@@ -6408,7 +6408,7 @@
   {
     "id": "1570714",
     "date": "2026-07-06T01:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -6431,8 +6431,8 @@
       "home": 2,
       "away": 3
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-06T03:06:19.087Z",
     "lineupAt": "2026-07-05T22:57:23.376Z",
     "lineup": {
       "10": {
@@ -6501,7 +6501,48 @@
       }
     },
     "remind2hAt": "2026-07-05T22:00:21.545Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 38,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 42,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2887,
+        "name": "R. Jimenez",
+        "teamId": 16,
+        "minute": 69,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
