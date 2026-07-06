@@ -37,7 +37,7 @@
         "teamId": 16,
         "minute": 9,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       },
       {
         "playerId": 2887,
@@ -198,7 +198,7 @@
     "scorers": [
       {
         "playerId": 195107,
-        "name": "D. Bobadilla",
+        "name": "Damian Bobadilla",
         "teamId": 2384,
         "minute": 7,
         "type": "own",
@@ -206,7 +206,7 @@
       },
       {
         "playerId": 138835,
-        "name": "F. Balogun",
+        "name": "Folarin Balogun",
         "teamId": 2384,
         "minute": 31,
         "type": "normal",
@@ -214,15 +214,15 @@
       },
       {
         "playerId": 138835,
-        "name": "F. Balogun",
+        "name": "Folarin Balogun",
         "teamId": 2384,
-        "minute": 45,
+        "minute": 50,
         "type": "normal",
         "pos": "Attacker"
       },
       {
         "playerId": 106485,
-        "name": "Mauricio",
+        "name": "Maurício Magalhães Prado",
         "teamId": 2380,
         "minute": 73,
         "type": "normal",
@@ -230,9 +230,9 @@
       },
       {
         "playerId": 161921,
-        "name": "G. Reyna",
+        "name": "Giovanni Reyna",
         "teamId": 2384,
-        "minute": 90,
+        "minute": 98,
         "type": "normal",
         "pos": "Midfielder"
       }
@@ -281,11 +281,11 @@
         "pos": "Attacker"
       },
       {
-        "playerId": 48489,
-        "name": "M. Muheim",
+        "playerId": 2532,
+        "name": "B. Khoukhi",
         "teamId": 1569,
         "minute": 90,
-        "type": "own",
+        "type": "normal",
         "pos": "Defender"
       }
     ],
@@ -326,7 +326,7 @@
     "scorers": [
       {
         "playerId": 161897,
-        "name": "I. Saibari",
+        "name": "Ismael Saibari",
         "teamId": 31,
         "minute": 21,
         "type": "normal",
@@ -334,11 +334,11 @@
       },
       {
         "playerId": 762,
-        "name": "Vinicius Junior",
+        "name": "Vinícius",
         "teamId": 6,
         "minute": 32,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -426,7 +426,7 @@
         "teamId": 20,
         "minute": 27,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       },
       {
         "playerId": 6904,
@@ -600,7 +600,7 @@
         "playerId": 2601,
         "name": "D. Kamada",
         "teamId": 12,
-        "minute": 89,
+        "minute": 88,
         "type": "normal",
         "pos": "Midfielder"
       }
@@ -807,7 +807,7 @@
         "playerId": 17269,
         "name": "E. Ashour",
         "teamId": 32,
-        "minute": 20,
+        "minute": 19,
         "type": "normal",
         "pos": "Midfielder"
       },
@@ -1313,7 +1313,7 @@
         "teamId": 3,
         "minute": 36,
         "type": "normal",
-        "pos": "Midfielder"
+        "pos": "Attacker"
       },
       {
         "playerId": 184,
@@ -1441,7 +1441,7 @@
         "teamId": 1568,
         "minute": 60,
         "type": "normal",
-        "pos": "Midfielder"
+        "pos": "Attacker"
       },
       {
         "playerId": 2489,
@@ -1457,7 +1457,7 @@
         "teamId": 8,
         "minute": 90,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -1561,7 +1561,7 @@
         "teamId": 15,
         "minute": 84,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       },
       {
         "playerId": 406244,
@@ -1638,13 +1638,6 @@
         "minute": 29,
         "type": "normal",
         "pos": "Attacker"
-      },
-      {
-        "playerId": null,
-        "name": null,
-        "teamId": 5529,
-        "minute": 33,
-        "type": "normal"
       },
       {
         "playerId": 8489,
@@ -1876,7 +1869,7 @@
         "teamId": 6,
         "minute": 45,
         "type": "normal",
-        "pos": "Attacker"
+        "pos": "Midfielder"
       }
     ],
     "multiplierOverride": null,
@@ -2498,7 +2491,7 @@
     "scorers": [
       {
         "playerId": 278,
-        "name": "K. Mbappe",
+        "name": "Kylian Mbappé",
         "teamId": 2,
         "minute": 14,
         "type": "normal",
@@ -2506,7 +2499,7 @@
       },
       {
         "playerId": 278,
-        "name": "K. Mbappe",
+        "name": "Kylian Mbappé",
         "teamId": 2,
         "minute": 54,
         "type": "normal",
@@ -2514,7 +2507,7 @@
       },
       {
         "playerId": 153,
-        "name": "O. Dembele",
+        "name": "Ousmane Dembélé",
         "teamId": 2,
         "minute": 66,
         "type": "normal",
@@ -3269,7 +3262,7 @@
     "scorers": [
       {
         "playerId": 644,
-        "name": "L. Sane",
+        "name": "Leroy Sané",
         "teamId": 25,
         "minute": 2,
         "type": "normal",
@@ -3277,22 +3270,15 @@
       },
       {
         "playerId": 311543,
-        "name": "N. Angulo",
+        "name": "Nilson Angulo",
         "teamId": 2382,
         "minute": 9,
         "type": "normal",
         "pos": "Attacker"
       },
       {
-        "playerId": null,
-        "name": null,
-        "teamId": 25,
-        "minute": 47,
-        "type": "normal"
-      },
-      {
         "playerId": 16369,
-        "name": "G. Plata",
+        "name": "Gonzalo Plata",
         "teamId": 2382,
         "minute": 77,
         "type": "normal",
@@ -3336,7 +3322,7 @@
     "scorers": [
       {
         "playerId": 3246,
-        "name": "N. Pepe",
+        "name": "Nicolas Pépé",
         "teamId": 1501,
         "minute": 7,
         "type": "normal",
@@ -3344,7 +3330,7 @@
       },
       {
         "playerId": 3246,
-        "name": "N. Pepe",
+        "name": "Nicolas Pépé",
         "teamId": 1501,
         "minute": 64,
         "type": "normal",
@@ -3388,7 +3374,7 @@
     "scorers": [
       {
         "playerId": 33224,
-        "name": "D. Maeda",
+        "name": "Daizen Maeda",
         "teamId": 12,
         "minute": 56,
         "type": "normal",
@@ -3396,7 +3382,7 @@
       },
       {
         "playerId": 153430,
-        "name": "A. Elanga",
+        "name": "Anthony Elanga",
         "teamId": 5,
         "minute": 62,
         "type": "normal",
@@ -3440,7 +3426,7 @@
     "scorers": [
       {
         "playerId": 21587,
-        "name": "E. Skhiri",
+        "name": "Ellyes Skhiri",
         "teamId": 1118,
         "minute": 3,
         "type": "own",
@@ -3448,7 +3434,7 @@
       },
       {
         "playerId": 38750,
-        "name": "B. Brobbey",
+        "name": "Brian Brobbey",
         "teamId": 1118,
         "minute": 7,
         "type": "normal",
@@ -3456,7 +3442,7 @@
       },
       {
         "playerId": 344862,
-        "name": "H. Mastouri",
+        "name": "Hazem Mastouri",
         "teamId": 28,
         "minute": 54,
         "type": "normal",
@@ -3464,7 +3450,7 @@
       },
       {
         "playerId": 38695,
-        "name": "J. P. van Hecke",
+        "name": "Jan Paul van Hecke",
         "teamId": 1118,
         "minute": 62,
         "type": "normal",
@@ -3508,7 +3494,7 @@
     "scorers": [
       {
         "playerId": 50737,
-        "name": "A. Trusty",
+        "name": "Auston Trusty",
         "teamId": 2384,
         "minute": 3,
         "type": "normal",
@@ -3516,7 +3502,7 @@
       },
       {
         "playerId": 291964,
-        "name": "A. Guler",
+        "name": "Arda Güler",
         "teamId": 777,
         "minute": 10,
         "type": "normal",
@@ -3524,7 +3510,7 @@
       },
       {
         "playerId": 63274,
-        "name": "B. Yilmaz",
+        "name": "Baris Alper Yilmaz",
         "teamId": 777,
         "minute": 31,
         "type": "normal",
@@ -3532,7 +3518,7 @@
       },
       {
         "playerId": 201713,
-        "name": "S. Berhalter",
+        "name": "Sebastian Berhalter",
         "teamId": 2384,
         "minute": 49,
         "type": "normal",
@@ -3540,9 +3526,9 @@
       },
       {
         "playerId": 25448,
-        "name": "K. Ayhan",
+        "name": "Kaan Ayhan",
         "teamId": 777,
-        "minute": 90,
+        "minute": 98,
         "type": "normal",
         "pos": "Midfielder"
       }
@@ -3900,13 +3886,6 @@
     "lineup": null,
     "remind2hAt": null,
     "scorers": [
-      {
-        "playerId": null,
-        "name": null,
-        "teamId": 1,
-        "minute": 21,
-        "type": "normal"
-      },
       {
         "playerId": 1946,
         "name": "L. Trossard",
@@ -4802,7 +4781,7 @@
         "playerId": 327631,
         "name": "H. Diarra",
         "teamId": 13,
-        "minute": 24,
+        "minute": 25,
         "type": "normal",
         "pos": "Midfielder"
       },
@@ -5048,7 +5027,7 @@
     "scorers": [
       {
         "playerId": 421,
-        "name": "B. Embolo",
+        "name": "Breel Embolo",
         "teamId": 15,
         "minute": 10,
         "type": "normal",
@@ -5056,7 +5035,7 @@
       },
       {
         "playerId": 48648,
-        "name": "D. Ndoye",
+        "name": "Dan Ndoye",
         "teamId": 15,
         "minute": 46,
         "type": "normal",
@@ -5376,9 +5355,17 @@
     "scorers": [
       {
         "playerId": 1100,
-        "name": "Erling Haaland",
+        "name": "E. Haaland",
         "teamId": 1090,
-        "minute": 80,
+        "minute": 79,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 90,
         "type": "normal",
         "pos": "Attacker"
       },
@@ -5386,14 +5373,6 @@
         "playerId": 276,
         "name": "Neymar",
         "teamId": 6,
-        "minute": 90,
-        "type": "normal",
-        "pos": "Attacker"
-      },
-      {
-        "playerId": 1100,
-        "name": "Erling Haaland",
-        "teamId": 1090,
         "minute": 90,
         "type": "normal",
         "pos": "Attacker"
