@@ -1,1 +1,5655 @@
-[]
+[
+  {
+    "id": "1489369",
+    "date": "2026-06-11T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 16,
+      "name": "Mexico",
+      "flag": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away": {
+      "id": 1531,
+      "name": "South Africa",
+      "flag": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-11T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 9,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2887,
+        "name": "R. Jimenez",
+        "teamId": 16,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "isOpening": true,
+    "multiplier": 2
+  },
+  {
+    "id": "1538999",
+    "date": "2026-06-12T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 17,
+      "name": "South Korea",
+      "flag": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "away": {
+      "id": 770,
+      "name": "Czechia",
+      "flag": "https://media.api-sports.io/football/teams/770.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-12T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 66407,
+        "name": "L. Krejci",
+        "teamId": 770,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 2901,
+        "name": "Hwang In-Beom",
+        "teamId": 17,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 34710,
+        "name": "Oh Hyeon-Gyu",
+        "teamId": 17,
+        "minute": 80,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539000",
+    "date": "2026-06-12T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 5529,
+      "name": "Canada",
+      "flag": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "flag": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-12T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 77037,
+        "name": "J. Lukic",
+        "teamId": 1113,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2001,
+        "name": "C. Larin",
+        "teamId": 5529,
+        "minute": 78,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489370",
+    "date": "2026-06-13T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 2380,
+      "name": "Paraguay",
+      "flag": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 4,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-13T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 195107,
+        "name": "D. Bobadilla",
+        "teamId": 2384,
+        "minute": 7,
+        "type": "own",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 138835,
+        "name": "F. Balogun",
+        "teamId": 2384,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 138835,
+        "name": "F. Balogun",
+        "teamId": 2384,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 106485,
+        "name": "Mauricio",
+        "teamId": 2380,
+        "minute": 73,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 161921,
+        "name": "G. Reyna",
+        "teamId": 2384,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489373",
+    "date": "2026-06-13T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1569,
+      "name": "Qatar",
+      "flag": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "away": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-13T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 421,
+        "name": "B. Embolo",
+        "teamId": 15,
+        "minute": 17,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 48489,
+        "name": "M. Muheim",
+        "teamId": 1569,
+        "minute": 90,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489371",
+    "date": "2026-06-13T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-13T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 161897,
+        "name": "I. Saibari",
+        "teamId": 31,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 32,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489372",
+    "date": "2026-06-14T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 2386,
+      "name": "Haiti",
+      "flag": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "away": {
+      "id": 1108,
+      "name": "Scotland",
+      "flag": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 19191,
+        "name": "J. McGinn",
+        "teamId": 1108,
+        "minute": 28,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539001",
+    "date": "2026-06-14T04:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 20,
+      "name": "Australia",
+      "flag": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "away": {
+      "id": 777,
+      "name": "Türkiye",
+      "flag": "https://media.api-sports.io/football/teams/777.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T04:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 338014,
+        "name": "N. Irankunda",
+        "teamId": 20,
+        "minute": 27,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 6904,
+        "name": "C. Metcalfe",
+        "teamId": 20,
+        "minute": 75,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489374",
+    "date": "2026-06-14T17:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 25,
+      "name": "Germany",
+      "flag": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "away": {
+      "id": 5530,
+      "name": "Curaçao",
+      "flag": "https://media.api-sports.io/football/teams/5530.png"
+    },
+    "score": {
+      "home": 7,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 7,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 637,
+        "name": "F. Nmecha",
+        "teamId": 25,
+        "minute": 6,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 309763,
+        "name": "L. Comenencia",
+        "teamId": 5530,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 26243,
+        "name": "N. Schlotterbeck",
+        "teamId": 25,
+        "minute": 38,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 978,
+        "name": "K. Havertz",
+        "teamId": 25,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 181812,
+        "name": "J. Musiala",
+        "teamId": 25,
+        "minute": 47,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 280074,
+        "name": "N. Brown",
+        "teamId": 25,
+        "minute": 68,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 26475,
+        "name": "D. Undav",
+        "teamId": 25,
+        "minute": 78,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 978,
+        "name": "K. Havertz",
+        "teamId": 25,
+        "minute": 88,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489376",
+    "date": "2026-06-14T20:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1118,
+      "name": "Netherlands",
+      "flag": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away": {
+      "id": 12,
+      "name": "Japan",
+      "flag": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 290,
+        "name": "V. van Dijk",
+        "teamId": 1118,
+        "minute": 51,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 33321,
+        "name": "K. Nakamura",
+        "teamId": 12,
+        "minute": 57,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 37724,
+        "name": "C. Summerville",
+        "teamId": 1118,
+        "minute": 64,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2601,
+        "name": "D. Kamada",
+        "teamId": 12,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489375",
+    "date": "2026-06-14T23:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "flag": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "away": {
+      "id": 2382,
+      "name": "Ecuador",
+      "flag": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-14T23:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 157997,
+        "name": "A. Diallo",
+        "teamId": 1501,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539002",
+    "date": "2026-06-15T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 5,
+      "name": "Sweden",
+      "flag": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "away": {
+      "id": 28,
+      "name": "Tunisia",
+      "flag": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 5,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-15T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 265820,
+        "name": "Y. Ayari",
+        "teamId": 5,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2864,
+        "name": "A. Isak",
+        "teamId": 5,
+        "minute": 30,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 163068,
+        "name": "O. Rekik",
+        "teamId": 28,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 18979,
+        "name": "V. Gyokeres",
+        "teamId": 5,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 30484,
+        "name": "M. Svanberg",
+        "teamId": 5,
+        "minute": 84,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 265820,
+        "name": "Y. Ayari",
+        "teamId": 5,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489380",
+    "date": "2026-06-15T16:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "flag": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-15T16:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489377",
+    "date": "2026-06-15T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away": {
+      "id": 32,
+      "name": "Egypt",
+      "flag": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-15T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 17269,
+        "name": "E. Ashour",
+        "teamId": 32,
+        "minute": 20,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2654,
+        "name": "M. Hany",
+        "teamId": 1,
+        "minute": 66,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489379",
+    "date": "2026-06-15T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "flag": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "away": {
+      "id": 7,
+      "name": "Uruguay",
+      "flag": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-15T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 44475,
+        "name": "A. Al Amri",
+        "teamId": 23,
+        "minute": 41,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 51776,
+        "name": "M. Araujo",
+        "teamId": 7,
+        "minute": 80,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489378",
+    "date": "2026-06-16T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 22,
+      "name": "Iran",
+      "flag": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "away": {
+      "id": 4673,
+      "name": "New Zealand",
+      "flag": "https://media.api-sports.io/football/teams/4673.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-16T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 94333,
+        "name": "E. Just",
+        "teamId": 4673,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2691,
+        "name": "R. Rezaeian",
+        "teamId": 22,
+        "minute": 32,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 94333,
+        "name": "E. Just",
+        "teamId": 4673,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 134217,
+        "name": "M. Mohebi",
+        "teamId": 22,
+        "minute": 64,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489383",
+    "date": "2026-06-16T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away": {
+      "id": 13,
+      "name": "Senegal",
+      "flag": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-16T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 161904,
+        "name": "B. Barcola",
+        "teamId": 2,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 446249,
+        "name": "I. Mbaye",
+        "teamId": 13,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539016",
+    "date": "2026-06-16T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1567,
+      "name": "Iraq",
+      "flag": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "away": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 4
+    },
+    "finished": true,
+    "finishedAt": "2026-06-16T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 49451,
+        "name": "A. Hussein",
+        "teamId": 1567,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 18967,
+        "name": "L. Ostigard",
+        "teamId": 1090,
+        "minute": 76,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 49451,
+        "name": "A. Hussein",
+        "teamId": 1090,
+        "minute": 90,
+        "type": "own",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489381",
+    "date": "2026-06-17T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away": {
+      "id": 1532,
+      "name": "Algeria",
+      "flag": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 17,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 76,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489382",
+    "date": "2026-06-17T04:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 775,
+      "name": "Austria",
+      "flag": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "away": {
+      "id": 1548,
+      "name": "Jordan",
+      "flag": "https://media.api-sports.io/football/teams/1548.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T04:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 7562,
+        "name": "R. Schmid",
+        "teamId": 775,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 164026,
+        "name": "A. Olwan",
+        "teamId": 1548,
+        "minute": 50,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 53900,
+        "name": "Y. Al Arab",
+        "teamId": 775,
+        "minute": 76,
+        "type": "own",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 18830,
+        "name": "M. Arnautovic",
+        "teamId": 775,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539003",
+    "date": "2026-06-17T17:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 1508,
+      "name": "Congo DR",
+      "flag": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 335051,
+        "name": "J. Neves",
+        "teamId": 27,
+        "minute": 6,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 20649,
+        "name": "Y. Wissa",
+        "teamId": 1508,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489384",
+    "date": "2026-06-17T20:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away": {
+      "id": 3,
+      "name": "Croatia",
+      "flag": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 4,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 12,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 295026,
+        "name": "M. Baturina",
+        "teamId": 3,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 42,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 66055,
+        "name": "P. Musa",
+        "teamId": 3,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 47,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 909,
+        "name": "M. Rashford",
+        "teamId": 10,
+        "minute": 85,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.6
+  },
+  {
+    "id": "1489385",
+    "date": "2026-06-17T23:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1504,
+      "name": "Ghana",
+      "flag": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "away": {
+      "id": 11,
+      "name": "Panama",
+      "flag": "https://media.api-sports.io/football/teams/11.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-17T23:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 475575,
+        "name": "C. Yirenkyi",
+        "teamId": 1504,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489386",
+    "date": "2026-06-18T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 1",
+    "roundKey": "group-1",
+    "stage": "group",
+    "home": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "flag": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "away": {
+      "id": 8,
+      "name": "Colombia",
+      "flag": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-18T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 13736,
+        "name": "D. Munoz",
+        "teamId": 8,
+        "minute": 40,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 263676,
+        "name": "A. Fayzullaev",
+        "teamId": 1568,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2489,
+        "name": "L. Diaz",
+        "teamId": 8,
+        "minute": 65,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 13376,
+        "name": "J. Campaz",
+        "teamId": 8,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539004",
+    "date": "2026-06-18T16:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 770,
+      "name": "Czechia",
+      "flag": "https://media.api-sports.io/football/teams/770.png"
+    },
+    "away": {
+      "id": 1531,
+      "name": "South Africa",
+      "flag": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-18T16:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 241,
+        "name": "M. Sadilek",
+        "teamId": 770,
+        "minute": 6,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 3287,
+        "name": "T. Mokoena",
+        "teamId": 1531,
+        "minute": 83,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539005",
+    "date": "2026-06-18T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "flag": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 4,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-18T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 406244,
+        "name": "J. Manzambi",
+        "teamId": 15,
+        "minute": 74,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 48471,
+        "name": "R. Vargas",
+        "teamId": 15,
+        "minute": 84,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 406244,
+        "name": "J. Manzambi",
+        "teamId": 15,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 340173,
+        "name": "E. Mahmic",
+        "teamId": 1113,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 1464,
+        "name": "G. Xhaka",
+        "teamId": 15,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489387",
+    "date": "2026-06-18T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 5529,
+      "name": "Canada",
+      "flag": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away": {
+      "id": 1569,
+      "name": "Qatar",
+      "flag": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "score": {
+      "home": 6,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 6,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-18T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 2001,
+        "name": "C. Larin",
+        "teamId": 5529,
+        "minute": 16,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 8489,
+        "name": "J. David",
+        "teamId": 5529,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": null,
+        "name": null,
+        "teamId": 5529,
+        "minute": 33,
+        "type": "normal"
+      },
+      {
+        "playerId": 8489,
+        "name": "J. David",
+        "teamId": 5529,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 294824,
+        "name": "N. Saliba",
+        "teamId": 5529,
+        "minute": 64,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 283174,
+        "name": "M. Al Mannai",
+        "teamId": 5529,
+        "minute": 75,
+        "type": "own",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 8489,
+        "name": "J. David",
+        "teamId": 5529,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489388",
+    "date": "2026-06-19T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 16,
+      "name": "Mexico",
+      "flag": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away": {
+      "id": 17,
+      "name": "South Korea",
+      "flag": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-19T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 35970,
+        "name": "L. Romo",
+        "teamId": 16,
+        "minute": 50,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489391",
+    "date": "2026-06-19T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 20,
+      "name": "Australia",
+      "flag": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-19T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 20457,
+        "name": "C. Burgess",
+        "teamId": 2384,
+        "minute": 11,
+        "type": "own",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 355994,
+        "name": "A. Freeman",
+        "teamId": 2384,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489390",
+    "date": "2026-06-19T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 1108,
+      "name": "Scotland",
+      "flag": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-19T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 161897,
+        "name": "I. Saibari",
+        "teamId": 31,
+        "minute": 2,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489389",
+    "date": "2026-06-20T00:30:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away": {
+      "id": 2386,
+      "name": "Haiti",
+      "flag": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-20T00:30:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 1165,
+        "name": "M. Cunha",
+        "teamId": 6,
+        "minute": 23,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1165,
+        "name": "M. Cunha",
+        "teamId": 6,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539006",
+    "date": "2026-06-20T03:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 777,
+      "name": "Türkiye",
+      "flag": "https://media.api-sports.io/football/teams/777.png"
+    },
+    "away": {
+      "id": 2380,
+      "name": "Paraguay",
+      "flag": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-20T03:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 305832,
+        "name": "M. Galarza",
+        "teamId": 2380,
+        "minute": 2,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539007",
+    "date": "2026-06-20T17:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 1118,
+      "name": "Netherlands",
+      "flag": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away": {
+      "id": 5,
+      "name": "Sweden",
+      "flag": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 5,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-20T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 38750,
+        "name": "B. Brobbey",
+        "teamId": 1118,
+        "minute": 5,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 38750,
+        "name": "B. Brobbey",
+        "teamId": 1118,
+        "minute": 17,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 247,
+        "name": "C. Gakpo",
+        "teamId": 1118,
+        "minute": 47,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 247,
+        "name": "C. Gakpo",
+        "teamId": 1118,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 153430,
+        "name": "A. Elanga",
+        "teamId": 5,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 37724,
+        "name": "C. Summerville",
+        "teamId": 1118,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489393",
+    "date": "2026-06-20T20:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 25,
+      "name": "Germany",
+      "flag": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "away": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "flag": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-20T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 1642,
+        "name": "F. Kessie",
+        "teamId": 1501,
+        "minute": 30,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 26475,
+        "name": "D. Undav",
+        "teamId": 25,
+        "minute": 68,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 26475,
+        "name": "D. Undav",
+        "teamId": 25,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489392",
+    "date": "2026-06-21T00:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 2382,
+      "name": "Ecuador",
+      "flag": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "away": {
+      "id": 5530,
+      "name": "Curaçao",
+      "flag": "https://media.api-sports.io/football/teams/5530.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T00:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489394",
+    "date": "2026-06-21T04:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 28,
+      "name": "Tunisia",
+      "flag": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "away": {
+      "id": 12,
+      "name": "Japan",
+      "flag": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 4
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T04:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 2601,
+        "name": "D. Kamada",
+        "teamId": 12,
+        "minute": 4,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 72155,
+        "name": "A. Ueda",
+        "teamId": 12,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1942,
+        "name": "J. Ito",
+        "teamId": 12,
+        "minute": 69,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 72155,
+        "name": "A. Ueda",
+        "teamId": 12,
+        "minute": 83,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489397",
+    "date": "2026-06-21T16:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "flag": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 4,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T16:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 386828,
+        "name": "Lamine Yamal",
+        "teamId": 9,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 24,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 44362,
+        "name": "H. Tambakti",
+        "teamId": 9,
+        "minute": 49,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489395",
+    "date": "2026-06-21T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away": {
+      "id": 22,
+      "name": "Iran",
+      "flag": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489398",
+    "date": "2026-06-21T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 7,
+      "name": "Uruguay",
+      "flag": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "away": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "flag": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-21T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 96512,
+        "name": "K. Lenini",
+        "teamId": 1533,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 51776,
+        "name": "M. Araujo",
+        "teamId": 7,
+        "minute": 44,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 51603,
+        "name": "A. Canobbio",
+        "teamId": 7,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 291024,
+        "name": "H. Varela",
+        "teamId": 1533,
+        "minute": 61,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489396",
+    "date": "2026-06-22T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 4673,
+      "name": "New Zealand",
+      "flag": "https://media.api-sports.io/football/teams/4673.png"
+    },
+    "away": {
+      "id": 32,
+      "name": "Egypt",
+      "flag": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-22T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 210165,
+        "name": "F. Surman",
+        "teamId": 4673,
+        "minute": 15,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 395075,
+        "name": "M. Ziko",
+        "teamId": 32,
+        "minute": 58,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 306,
+        "name": "M. Salah",
+        "teamId": 32,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2664,
+        "name": "Trezeguet",
+        "teamId": 32,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489399",
+    "date": "2026-06-22T17:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away": {
+      "id": 775,
+      "name": "Austria",
+      "flag": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-22T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 38,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539017",
+    "date": "2026-06-22T21:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away": {
+      "id": 1567,
+      "name": "Iraq",
+      "flag": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-22T21:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 14,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 153,
+        "name": "O. Dembele",
+        "teamId": 2,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489401",
+    "date": "2026-06-23T00:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "away": {
+      "id": 13,
+      "name": "Senegal",
+      "flag": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T00:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 39362,
+        "name": "M. Pedersen",
+        "teamId": 1090,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 48,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 53,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 58,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489400",
+    "date": "2026-06-23T03:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 1548,
+      "name": "Jordan",
+      "flag": "https://media.api-sports.io/football/teams/1548.png"
+    },
+    "away": {
+      "id": 1532,
+      "name": "Algeria",
+      "flag": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T03:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 213980,
+        "name": "N. Al Rashdan",
+        "teamId": 1548,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 292924,
+        "name": "N. Benbouali",
+        "teamId": 1532,
+        "minute": 69,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 85041,
+        "name": "A. Gouiri",
+        "teamId": 1532,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489404",
+    "date": "2026-06-23T17:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "flag": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 5,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 874,
+        "name": "C. Ronaldo",
+        "teamId": 27,
+        "minute": 6,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 263482,
+        "name": "N. Mendes",
+        "teamId": 27,
+        "minute": 17,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 874,
+        "name": "C. Ronaldo",
+        "teamId": 27,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 73507,
+        "name": "A. Nematov",
+        "teamId": 27,
+        "minute": 60,
+        "type": "own",
+        "pos": "Goalkeeper"
+      },
+      {
+        "playerId": 22236,
+        "name": "R. Leao",
+        "teamId": 27,
+        "minute": 87,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489402",
+    "date": "2026-06-23T20:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away": {
+      "id": 1504,
+      "name": "Ghana",
+      "flag": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489403",
+    "date": "2026-06-23T23:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 11,
+      "name": "Panama",
+      "flag": "https://media.api-sports.io/football/teams/11.png"
+    },
+    "away": {
+      "id": 3,
+      "name": "Croatia",
+      "flag": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-23T23:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 46746,
+        "name": "A. Budimir",
+        "teamId": 3,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539008",
+    "date": "2026-06-24T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 2",
+    "roundKey": "group-2",
+    "stage": "group",
+    "home": {
+      "id": 8,
+      "name": "Colombia",
+      "flag": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "away": {
+      "id": 1508,
+      "name": "Congo DR",
+      "flag": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 13736,
+        "name": "D. Munoz",
+        "teamId": 8,
+        "minute": 76,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489408",
+    "date": "2026-06-24T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away": {
+      "id": 5529,
+      "name": "Canada",
+      "flag": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 48471,
+        "name": "R. Vargas",
+        "teamId": 15,
+        "minute": 46,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 406244,
+        "name": "J. Manzambi",
+        "teamId": 15,
+        "minute": 57,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 313353,
+        "name": "P. David",
+        "teamId": 5529,
+        "minute": 76,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539009",
+    "date": "2026-06-24T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "flag": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "away": {
+      "id": 1569,
+      "name": "Qatar",
+      "flag": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 395559,
+        "name": "K. Alajbegovic",
+        "teamId": 1113,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 42207,
+        "name": "M. Abunada",
+        "teamId": 1113,
+        "minute": 34,
+        "type": "own",
+        "pos": "Goalkeeper"
+      },
+      {
+        "playerId": 2545,
+        "name": "H. Al Haydos",
+        "teamId": 1569,
+        "minute": 42,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 340173,
+        "name": "E. Mahmic",
+        "teamId": 1113,
+        "minute": 80,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489405",
+    "date": "2026-06-24T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "away": {
+      "id": 2386,
+      "name": "Haiti",
+      "flag": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 4,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 2701,
+        "name": "Bono",
+        "teamId": 2386,
+        "minute": 10,
+        "type": "own",
+        "pos": "Goalkeeper"
+      },
+      {
+        "playerId": 9,
+        "name": "A. Hakimi",
+        "teamId": 31,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 84087,
+        "name": "W. Isidor",
+        "teamId": 2386,
+        "minute": 43,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 161897,
+        "name": "I. Saibari",
+        "teamId": 31,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 36579,
+        "name": "S. Rahimi",
+        "teamId": 31,
+        "minute": 78,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 369544,
+        "name": "G. Yassine",
+        "teamId": 31,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489406",
+    "date": "2026-06-24T22:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1108,
+      "name": "Scotland",
+      "flag": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "away": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-24T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 762,
+        "name": "Vinicius Junior",
+        "teamId": 6,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1165,
+        "name": "M. Cunha",
+        "teamId": 6,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539010",
+    "date": "2026-06-25T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 770,
+      "name": "Czechia",
+      "flag": "https://media.api-sports.io/football/teams/770.png"
+    },
+    "away": {
+      "id": 16,
+      "name": "Mexico",
+      "flag": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 390002,
+        "name": "M. Chavez Garcia",
+        "teamId": 16,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 61,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 750,
+        "name": "A. Fidalgo",
+        "teamId": 16,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489407",
+    "date": "2026-06-25T01:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1531,
+      "name": "South Africa",
+      "flag": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "away": {
+      "id": 17,
+      "name": "South Korea",
+      "flag": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 354831,
+        "name": "T. Maseko",
+        "teamId": 1531,
+        "minute": 63,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489410",
+    "date": "2026-06-25T20:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 2382,
+      "name": "Ecuador",
+      "flag": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "away": {
+      "id": 25,
+      "name": "Germany",
+      "flag": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 644,
+        "name": "L. Sane",
+        "teamId": 25,
+        "minute": 2,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 311543,
+        "name": "N. Angulo",
+        "teamId": 2382,
+        "minute": 9,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": null,
+        "name": null,
+        "teamId": 25,
+        "minute": 47,
+        "type": "normal"
+      },
+      {
+        "playerId": 16369,
+        "name": "G. Plata",
+        "teamId": 2382,
+        "minute": 77,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489409",
+    "date": "2026-06-25T20:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 5530,
+      "name": "Curaçao",
+      "flag": "https://media.api-sports.io/football/teams/5530.png"
+    },
+    "away": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "flag": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 3246,
+        "name": "N. Pepe",
+        "teamId": 1501,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 3246,
+        "name": "N. Pepe",
+        "teamId": 1501,
+        "minute": 64,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539011",
+    "date": "2026-06-25T23:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 12,
+      "name": "Japan",
+      "flag": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "away": {
+      "id": 5,
+      "name": "Sweden",
+      "flag": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T23:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 33224,
+        "name": "D. Maeda",
+        "teamId": 12,
+        "minute": 56,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 153430,
+        "name": "A. Elanga",
+        "teamId": 5,
+        "minute": 62,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489412",
+    "date": "2026-06-25T23:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 28,
+      "name": "Tunisia",
+      "flag": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "away": {
+      "id": 1118,
+      "name": "Netherlands",
+      "flag": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-25T23:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 21587,
+        "name": "E. Skhiri",
+        "teamId": 1118,
+        "minute": 3,
+        "type": "own",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 38750,
+        "name": "B. Brobbey",
+        "teamId": 1118,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 344862,
+        "name": "H. Mastouri",
+        "teamId": 28,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 38695,
+        "name": "J. P. van Hecke",
+        "teamId": 1118,
+        "minute": 62,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1539012",
+    "date": "2026-06-26T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 777,
+      "name": "Türkiye",
+      "flag": "https://media.api-sports.io/football/teams/777.png"
+    },
+    "away": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-26T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 50737,
+        "name": "A. Trusty",
+        "teamId": 2384,
+        "minute": 3,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 291964,
+        "name": "A. Guler",
+        "teamId": 777,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 63274,
+        "name": "B. Yilmaz",
+        "teamId": 777,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 201713,
+        "name": "S. Berhalter",
+        "teamId": 2384,
+        "minute": 49,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 25448,
+        "name": "K. Ayhan",
+        "teamId": 777,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489411",
+    "date": "2026-06-26T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 2380,
+      "name": "Paraguay",
+      "flag": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "away": {
+      "id": 20,
+      "name": "Australia",
+      "flag": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-26T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539074",
+    "date": "2026-06-26T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 13,
+      "name": "Senegal",
+      "flag": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "away": {
+      "id": 1567,
+      "name": "Iraq",
+      "flag": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 5,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-26T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 327631,
+        "name": "H. Diarra",
+        "teamId": 13,
+        "minute": 4,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 56,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 20696,
+        "name": "P. Gueye",
+        "teamId": 13,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 20696,
+        "name": "P. Gueye",
+        "teamId": 13,
+        "minute": 71,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 18592,
+        "name": "I. Ndiaye",
+        "teamId": 13,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489416",
+    "date": "2026-06-26T19:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "away": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 4
+    },
+    "finished": true,
+    "finishedAt": "2026-06-26T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 153,
+        "name": "O. Dembele",
+        "teamId": 2,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 153,
+        "name": "O. Dembele",
+        "teamId": 2,
+        "minute": 20,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 277930,
+        "name": "T. Aasgaard",
+        "teamId": 1090,
+        "minute": 21,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 153,
+        "name": "O. Dembele",
+        "teamId": 2,
+        "minute": 32,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 343027,
+        "name": "D. Doue",
+        "teamId": 2,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489417",
+    "date": "2026-06-27T00:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 7,
+      "name": "Uruguay",
+      "flag": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "away": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T00:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 182219,
+        "name": "A. Baena",
+        "teamId": 9,
+        "minute": 42,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.6
+  },
+  {
+    "id": "1489413",
+    "date": "2026-06-27T00:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "flag": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "away": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "flag": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T00:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489414",
+    "date": "2026-06-27T03:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 32,
+      "name": "Egypt",
+      "flag": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "away": {
+      "id": 22,
+      "name": "Iran",
+      "flag": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T03:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 69196,
+        "name": "M. Saber",
+        "teamId": 32,
+        "minute": 5,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2691,
+        "name": "R. Rezaeian",
+        "teamId": 22,
+        "minute": 14,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489415",
+    "date": "2026-06-27T03:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 4673,
+      "name": "New Zealand",
+      "flag": "https://media.api-sports.io/football/teams/4673.png"
+    },
+    "away": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 5
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T03:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": null,
+        "name": null,
+        "teamId": 1,
+        "minute": 21,
+        "type": "normal"
+      },
+      {
+        "playerId": 1946,
+        "name": "L. Trossard",
+        "teamId": 1,
+        "minute": 28,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1946,
+        "name": "L. Trossard",
+        "teamId": 1,
+        "minute": 50,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 629,
+        "name": "K. De Bruyne",
+        "teamId": 1,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 94333,
+        "name": "E. Just",
+        "teamId": 4673,
+        "minute": 84,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 907,
+        "name": "R. Lukaku",
+        "teamId": 1,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1417,
+        "name": "A. Saelemaekers",
+        "teamId": 1,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489420",
+    "date": "2026-06-27T21:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 3,
+      "name": "Croatia",
+      "flag": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "away": {
+      "id": 1504,
+      "name": "Ghana",
+      "flag": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T21:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 348205,
+        "name": "P. Sucic",
+        "teamId": 3,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 25341,
+        "name": "D. Luckassen",
+        "teamId": 1504,
+        "minute": 73,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 842,
+        "name": "N. Vlasic",
+        "teamId": 3,
+        "minute": 83,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1489422",
+    "date": "2026-06-27T21:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 11,
+      "name": "Panama",
+      "flag": "https://media.api-sports.io/football/teams/11.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T21:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 62,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489419",
+    "date": "2026-06-27T23:30:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 8,
+      "name": "Colombia",
+      "flag": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "away": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T23:30:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1539013",
+    "date": "2026-06-27T23:30:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1508,
+      "name": "Congo DR",
+      "flag": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "away": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "flag": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-27T23:30:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 53535,
+        "name": "E. Shomurodov",
+        "teamId": 1568,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 20649,
+        "name": "Y. Wissa",
+        "teamId": 1508,
+        "minute": 68,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 179699,
+        "name": "F. Mayele",
+        "teamId": 1508,
+        "minute": 78,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 20649,
+        "name": "Y. Wissa",
+        "teamId": 1508,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489418",
+    "date": "2026-06-28T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1532,
+      "name": "Algeria",
+      "flag": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "away": {
+      "id": 775,
+      "name": "Austria",
+      "flag": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 18830,
+        "name": "M. Arnautovic",
+        "teamId": 775,
+        "minute": 28,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 303362,
+        "name": "R. Belghali",
+        "teamId": 1532,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 1159,
+        "name": "M. Sabitzer",
+        "teamId": 775,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 635,
+        "name": "R. Mahrez",
+        "teamId": 1532,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 635,
+        "name": "R. Mahrez",
+        "teamId": 1532,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 7722,
+        "name": "S. Kalajdzic",
+        "teamId": 775,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1.3
+  },
+  {
+    "id": "1489421",
+    "date": "2026-06-28T02:00:00+00:00",
+    "status": "FT",
+    "round": "Group Stage - 3",
+    "roundKey": "group-3",
+    "stage": "group",
+    "home": {
+      "id": 1548,
+      "name": "Jordan",
+      "flag": "https://media.api-sports.io/football/teams/1548.png"
+    },
+    "away": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T02:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 1578,
+        "name": "G. Lo Celso",
+        "teamId": 26,
+        "minute": 19,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 217,
+        "name": "L. Martinez",
+        "teamId": 26,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 15286,
+        "name": "M. Tamari",
+        "teamId": 1548,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 80,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 1
+  },
+  {
+    "id": "1561329",
+    "date": "2026-06-28T19:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 1531,
+      "name": "South Africa",
+      "flag": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "away": {
+      "id": 5529,
+      "name": "Canada",
+      "flag": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-28T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 35570,
+        "name": "S. Eustaquio",
+        "teamId": 5529,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1562344",
+    "date": "2026-06-29T17:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away": {
+      "id": 12,
+      "name": "Japan",
+      "flag": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-29T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 33889,
+        "name": "K. Sano",
+        "teamId": 12,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 747,
+        "name": "Casemiro",
+        "teamId": 6,
+        "minute": 56,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 127769,
+        "name": "G. Martinelli",
+        "teamId": 6,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1565176",
+    "date": "2026-06-29T20:30:00+00:00",
+    "status": "PEN",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 25,
+      "name": "Germany",
+      "flag": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "away": {
+      "id": 2380,
+      "name": "Paraguay",
+      "flag": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "pen": true,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-29T20:30:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 70747,
+        "name": "J. Enciso",
+        "teamId": 2380,
+        "minute": 42,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 978,
+        "name": "K. Havertz",
+        "teamId": 25,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1562345",
+    "date": "2026-06-30T01:00:00+00:00",
+    "status": "PEN",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 1118,
+      "name": "Netherlands",
+      "flag": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "pen": true,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-06-30T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 247,
+        "name": "C. Gakpo",
+        "teamId": 1118,
+        "minute": 72,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 18814,
+        "name": "I. Diop",
+        "teamId": 31,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1564789",
+    "date": "2026-06-30T17:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "flag": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "away": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-06-30T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 314511,
+        "name": "A. Nusa",
+        "teamId": 1090,
+        "minute": 39,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 157997,
+        "name": "A. Diallo",
+        "teamId": 1501,
+        "minute": 74,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1100,
+        "name": "E. Haaland",
+        "teamId": 1090,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1565177",
+    "date": "2026-06-30T21:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away": {
+      "id": 5,
+      "name": "Sweden",
+      "flag": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-06-30T21:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 161904,
+        "name": "B. Barcola",
+        "teamId": 2,
+        "minute": 53,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 74,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567306",
+    "date": "2026-07-01T01:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 16,
+      "name": "Mexico",
+      "flag": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away": {
+      "id": 2382,
+      "name": "Ecuador",
+      "flag": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-07-01T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 22,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2887,
+        "name": "R. Jimenez",
+        "teamId": 16,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567307",
+    "date": "2026-07-01T16:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away": {
+      "id": 1508,
+      "name": "Congo DR",
+      "flag": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-07-01T16:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 279482,
+        "name": "B. Cipenga",
+        "teamId": 1508,
+        "minute": 7,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 75,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567308",
+    "date": "2026-07-01T20:00:00+00:00",
+    "status": "AET",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away": {
+      "id": 13,
+      "name": "Senegal",
+      "flag": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-07-01T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 327631,
+        "name": "H. Diarra",
+        "teamId": 13,
+        "minute": 24,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2218,
+        "name": "I. Sarr",
+        "teamId": 13,
+        "minute": 51,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 907,
+        "name": "R. Lukaku",
+        "teamId": 1,
+        "minute": 86,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2926,
+        "name": "Y. Tielemans",
+        "teamId": 1,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2926,
+        "name": "Y. Tielemans",
+        "teamId": 1,
+        "minute": 120,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1562586",
+    "date": "2026-07-02T00:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "flag": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-07-02T00:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 138835,
+        "name": "F. Balogun",
+        "teamId": 2384,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 162037,
+        "name": "M. Tillman",
+        "teamId": 2384,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567311",
+    "date": "2026-07-02T19:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away": {
+      "id": 775,
+      "name": "Austria",
+      "flag": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 3,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-07-02T19:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47519,
+        "name": "P. Porro",
+        "teamId": 9,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 47323,
+        "name": "M. Oyarzabal",
+        "teamId": 9,
+        "minute": 89,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567309",
+    "date": "2026-07-02T23:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 3,
+      "name": "Croatia",
+      "flag": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-07-02T23:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 207,
+        "name": "I. Perisic",
+        "teamId": 3,
+        "minute": 53,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 874,
+        "name": "C. Ronaldo",
+        "teamId": 27,
+        "minute": 68,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 41585,
+        "name": "G. Ramos",
+        "teamId": 27,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567312",
+    "date": "2026-07-03T03:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away": {
+      "id": 1532,
+      "name": "Algeria",
+      "flag": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-07-03T03:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 421,
+        "name": "B. Embolo",
+        "teamId": 15,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 48648,
+        "name": "D. Ndoye",
+        "teamId": 15,
+        "minute": 46,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1565178",
+    "date": "2026-07-03T18:00:00+00:00",
+    "status": "PEN",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 20,
+      "name": "Australia",
+      "flag": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "away": {
+      "id": 32,
+      "name": "Egypt",
+      "flag": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "pen": true,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-07-03T18:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 17269,
+        "name": "E. Ashour",
+        "teamId": 32,
+        "minute": 13,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2654,
+        "name": "M. Hany",
+        "teamId": 20,
+        "minute": 55,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1565179",
+    "date": "2026-07-03T22:00:00+00:00",
+    "status": "AET",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "flag": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-07-03T22:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 29,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 37435,
+        "name": "D. Duarte",
+        "teamId": 1533,
+        "minute": 59,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 2467,
+        "name": "L. Martinez",
+        "teamId": 26,
+        "minute": 92,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 308689,
+        "name": "S. Lopes Cabral",
+        "teamId": 1533,
+        "minute": 103,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 41608,
+        "name": "D. Borges",
+        "teamId": 26,
+        "minute": 111,
+        "type": "own",
+        "pos": "Defender"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567310",
+    "date": "2026-07-04T01:30:00+00:00",
+    "status": "FT",
+    "round": "Round of 32",
+    "roundKey": "r32",
+    "stage": "r32",
+    "home": {
+      "id": 8,
+      "name": "Colombia",
+      "flag": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "away": {
+      "id": 1504,
+      "name": "Ghana",
+      "flag": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 0
+    },
+    "finished": true,
+    "finishedAt": "2026-07-04T01:30:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 13708,
+        "name": "J. Arias",
+        "teamId": 8,
+        "minute": 14,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1567824",
+    "date": "2026-07-04T17:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 5529,
+      "name": "Canada",
+      "flag": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-07-04T17:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 129678,
+        "name": "A. Ounahi",
+        "teamId": 31,
+        "minute": 50,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 129678,
+        "name": "A. Ounahi",
+        "teamId": 31,
+        "minute": 82,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 36579,
+        "name": "S. Rahimi",
+        "teamId": 31,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1569870",
+    "date": "2026-07-04T21:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 2380,
+      "name": "Paraguay",
+      "flag": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "away": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 0,
+      "away": 1
+    },
+    "finished": true,
+    "finishedAt": "2026-07-04T21:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 70,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1568100",
+    "date": "2026-07-05T20:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 6,
+      "name": "Brazil",
+      "flag": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 1,
+      "away": 2
+    },
+    "finished": true,
+    "finishedAt": "2026-07-05T20:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 1100,
+        "name": "Erling Haaland",
+        "teamId": 1090,
+        "minute": 80,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 276,
+        "name": "Neymar",
+        "teamId": 6,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1100,
+        "name": "Erling Haaland",
+        "teamId": 1090,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1570714",
+    "date": "2026-07-06T01:00:00+00:00",
+    "status": "FT",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 16,
+      "name": "Mexico",
+      "flag": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "pen": false,
+    "scoreReg": {
+      "home": 2,
+      "away": 3
+    },
+    "finished": true,
+    "finishedAt": "2026-07-06T01:00:00+00:00",
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 36,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 38,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 35532,
+        "name": "J. Quinones",
+        "teamId": 16,
+        "minute": 42,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 184,
+        "name": "H. Kane",
+        "teamId": 10,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 2887,
+        "name": "R. Jimenez",
+        "teamId": 16,
+        "minute": 69,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1576756",
+    "date": "2026-07-06T19:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 27,
+      "name": "Portugal",
+      "flag": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1570715",
+    "date": "2026-07-07T00:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 2384,
+      "name": "USA",
+      "flag": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1576804",
+    "date": "2026-07-07T16:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away": {
+      "id": 32,
+      "name": "Egypt",
+      "flag": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1576805",
+    "date": "2026-07-07T20:00:00+00:00",
+    "status": "NS",
+    "round": "Round of 16",
+    "roundKey": "r16",
+    "stage": "r16",
+    "home": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away": {
+      "id": 8,
+      "name": "Colombia",
+      "flag": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1578539",
+    "date": "2026-07-09T20:00:00+00:00",
+    "status": "NS",
+    "round": "Quarter-finals",
+    "roundKey": "qf",
+    "stage": "qf",
+    "home": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away": {
+      "id": 31,
+      "name": "Morocco",
+      "flag": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1581037",
+    "date": "2026-07-11T21:00:00+00:00",
+    "status": "NS",
+    "round": "Quarter-finals",
+    "roundKey": "qf",
+    "stage": "qf",
+    "home": {
+      "id": 1090,
+      "name": "Norway",
+      "flag": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  }
+]
