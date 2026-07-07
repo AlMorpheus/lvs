@@ -5569,7 +5569,7 @@
   {
     "id": "1570715",
     "date": "2026-07-07T00:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5592,8 +5592,8 @@
       "home": 1,
       "away": 4
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-07T02:00:37.615Z",
     "lineupAt": "2026-07-06T23:05:18.603Z",
     "lineup": {
       "1": {
@@ -5661,7 +5661,48 @@
       }
     },
     "remind2hAt": "2026-07-06T22:01:23.205Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 147859,
+        "name": "C. De Ketelaere",
+        "teamId": 1,
+        "minute": 9,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 162037,
+        "name": "M. Tillman",
+        "teamId": 2384,
+        "minute": 31,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 147859,
+        "name": "C. De Ketelaere",
+        "teamId": 1,
+        "minute": 33,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 78,
+        "name": "H. Vanaken",
+        "teamId": 1,
+        "minute": 57,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 907,
+        "name": "R. Lukaku",
+        "teamId": 1,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
