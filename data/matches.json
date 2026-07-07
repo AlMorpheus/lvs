@@ -6028,5 +6028,34 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1582681",
+    "date": "2026-07-12T01:00:00+00:00",
+    "status": "NS",
+    "round": "Quarter-finals",
+    "roundKey": "qf",
+    "stage": "qf",
+    "home": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away": {
+      "id": 15,
+      "name": "Switzerland",
+      "flag": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
