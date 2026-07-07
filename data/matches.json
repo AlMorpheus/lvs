@@ -5709,7 +5709,7 @@
   {
     "id": "1576804",
     "date": "2026-07-07T16:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5732,8 +5732,8 @@
       "home": 3,
       "away": 2
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-07T18:06:44.164Z",
     "lineupAt": "2026-07-07T15:22:40.197Z",
     "lineup": {
       "26": {
@@ -5800,7 +5800,48 @@
       }
     },
     "remind2hAt": "2026-07-07T14:01:07.585Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 16804,
+        "name": "Y. Ibrahim",
+        "teamId": 32,
+        "minute": 15,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 395075,
+        "name": "M. Ziko",
+        "teamId": 32,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 30776,
+        "name": "C. Romero",
+        "teamId": 26,
+        "minute": 79,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 154,
+        "name": "L. Messi",
+        "teamId": 26,
+        "minute": 83,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 5996,
+        "name": "E. Fernandez",
+        "teamId": 26,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
