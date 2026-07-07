@@ -5848,7 +5848,7 @@
   {
     "id": "1576805",
     "date": "2026-07-07T20:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5862,9 +5862,15 @@
       "name": "Colombia",
       "flag": "https://media.api-sports.io/football/teams/8.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-07T18:50:49.375Z",
