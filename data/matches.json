@@ -5848,7 +5848,7 @@
   {
     "id": "1576805",
     "date": "2026-07-07T20:00:00+00:00",
-    "status": "P",
+    "status": "PEN",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5863,16 +5863,16 @@
       "flag": "https://media.api-sports.io/football/teams/8.png"
     },
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 0
     },
-    "pen": false,
+    "pen": true,
     "scoreReg": {
       "home": 0,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-07T22:51:26.490Z",
     "lineupAt": "2026-07-07T18:50:49.375Z",
     "lineup": {
       "8": {
