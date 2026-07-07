@@ -5794,6 +5794,35 @@
     "multiplier": 2
   },
   {
+    "id": "1581821",
+    "date": "2026-07-10T19:00:00+00:00",
+    "status": "NS",
+    "round": "Quarter-finals",
+    "roundKey": "qf",
+    "stage": "qf",
+    "home": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away": {
+      "id": 1,
+      "name": "Belgium",
+      "flag": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
     "id": "1581037",
     "date": "2026-07-11T21:00:00+00:00",
     "status": "NS",
