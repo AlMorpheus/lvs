@@ -5724,12 +5724,12 @@
       "flag": "https://media.api-sports.io/football/teams/32.png"
     },
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 2
     },
     "pen": false,
     "scoreReg": {
-      "home": 1,
+      "home": 2,
       "away": 2
     },
     "finished": false,
