@@ -5569,7 +5569,7 @@
   {
     "id": "1570715",
     "date": "2026-07-07T00:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Round of 16",
     "roundKey": "r16",
     "stage": "r16",
@@ -5583,9 +5583,15 @@
       "name": "Belgium",
       "flag": "https://media.api-sports.io/football/teams/1.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-06T23:05:18.603Z",
