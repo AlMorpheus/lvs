@@ -5945,7 +5945,7 @@
   {
     "id": "1578539",
     "date": "2026-07-09T20:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -5959,9 +5959,15 @@
       "name": "Morocco",
       "flag": "https://media.api-sports.io/football/teams/31.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-09T18:58:37.813Z",
