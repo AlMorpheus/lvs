@@ -5945,7 +5945,7 @@
   {
     "id": "1578539",
     "date": "2026-07-09T20:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -5968,8 +5968,8 @@
       "home": 2,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-09T22:02:52.855Z",
     "lineupAt": "2026-07-09T18:58:37.813Z",
     "lineup": {
       "2": {
@@ -6038,7 +6038,24 @@
       }
     },
     "remind2hAt": "2026-07-09T18:00:31.435Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 60,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 153,
+        "name": "O. Dembele",
+        "teamId": 2,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
