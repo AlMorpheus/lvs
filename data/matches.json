@@ -6062,7 +6062,7 @@
   {
     "id": "1581821",
     "date": "2026-07-10T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -6085,8 +6085,8 @@
       "home": 2,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-10T21:00:51.069Z",
     "lineupAt": "2026-07-10T17:54:28.702Z",
     "lineup": {
       "1": {
@@ -6152,7 +6152,32 @@
       }
     },
     "remind2hAt": "2026-07-10T17:00:23.053Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 328,
+        "name": "F. Ruiz",
+        "teamId": 9,
+        "minute": 30,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 147859,
+        "name": "C. De Ketelaere",
+        "teamId": 1,
+        "minute": 41,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47311,
+        "name": "M. Merino",
+        "teamId": 9,
+        "minute": 88,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
