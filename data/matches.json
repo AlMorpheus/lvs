@@ -6062,7 +6062,7 @@
   {
     "id": "1581821",
     "date": "2026-07-10T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -6076,9 +6076,15 @@
       "name": "Belgium",
       "flag": "https://media.api-sports.io/football/teams/1.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-10T17:54:28.702Z",
