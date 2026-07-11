@@ -6199,12 +6199,12 @@
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
     "score": {
-      "home": 2,
+      "home": 1,
       "away": 1
     },
     "pen": false,
     "scoreReg": {
-      "home": 2,
+      "home": 1,
       "away": 1
     },
     "finished": false,
