@@ -6184,7 +6184,7 @@
   {
     "id": "1581037",
     "date": "2026-07-11T21:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -6198,9 +6198,15 @@
       "name": "England",
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-11T19:59:22.535Z",
