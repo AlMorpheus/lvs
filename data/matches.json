@@ -6184,7 +6184,7 @@
   {
     "id": "1581037",
     "date": "2026-07-11T21:00:00+00:00",
-    "status": "2H",
+    "status": "BT",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -6304,10 +6304,11 @@
     "finishedAt": null,
     "lineupAt": null,
     "lineup": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-07-11T23:01:39.865Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2
+    "multiplier": 2,
+    "remindJustDue": true
   },
   {
     "id": "1585131",
