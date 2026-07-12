@@ -6308,7 +6308,7 @@
   {
     "id": "1582681",
     "date": "2026-07-12T01:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -6322,9 +6322,15 @@
       "name": "Switzerland",
       "flag": "https://media.api-sports.io/football/teams/15.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-12T00:30:40.988Z",
