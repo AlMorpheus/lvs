@@ -6465,5 +6465,34 @@
     "scorers": [],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1586077",
+    "date": "2026-07-15T19:00:00+00:00",
+    "status": "NS",
+    "round": "Semi-finals",
+    "roundKey": "sf",
+    "stage": "sf",
+    "home": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
