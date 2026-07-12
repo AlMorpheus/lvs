@@ -3,9 +3,9 @@
     {
       "id": "sasha",
       "name": "Мастер",
-      "matchPts": 1600,
+      "matchPts": 1614,
       "futuresPts": 0,
-      "total": 1600,
+      "total": 1614,
       "exactCount": 13,
       "perMatch": {
         "1489369": {
@@ -1083,6 +1083,17 @@
           "multiplier": 2,
           "special": 0,
           "total": 24,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1582681": {
+          "scorePts": 7,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 7,
+          "multiplier": 2,
+          "special": 0,
+          "total": 14,
           "isExact": false,
           "usedReg": false
         }
@@ -2174,10 +2185,10 @@
     {
       "id": "sergey",
       "name": "Мел",
-      "matchPts": 1409,
+      "matchPts": 1459,
       "futuresPts": 0,
-      "total": 1409,
-      "exactCount": 13,
+      "total": 1459,
+      "exactCount": 14,
       "perMatch": {
         "1489369": {
           "scorePts": 25,
@@ -3267,6 +3278,17 @@
           "total": 14,
           "isExact": false,
           "usedReg": false
+        },
+        "1582681": {
+          "scorePts": 25,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 25,
+          "multiplier": 2,
+          "special": 0,
+          "total": 50,
+          "isExact": true,
+          "usedReg": true
         }
       },
       "rank": 3,
@@ -3276,9 +3298,9 @@
     {
       "id": "betanalyse",
       "name": "Шеф",
-      "matchPts": 1356,
+      "matchPts": 1384,
       "futuresPts": 0,
-      "total": 1356,
+      "total": 1384,
       "exactCount": 10,
       "perMatch": {
         "1489369": {
@@ -4336,6 +4358,17 @@
           "total": 50,
           "isExact": true,
           "usedReg": false
+        },
+        "1582681": {
+          "scorePts": 12,
+          "scorerPts": 2,
+          "correctScorers": 1,
+          "base": 14,
+          "multiplier": 2,
+          "special": 0,
+          "total": 28,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 4,
@@ -4345,9 +4378,9 @@
     {
       "id": "liza",
       "name": "Лиза",
-      "matchPts": 1278,
+      "matchPts": 1314,
       "futuresPts": 0,
-      "total": 1278,
+      "total": 1314,
       "exactCount": 10,
       "perMatch": {
         "1489369": {
@@ -5370,6 +5403,17 @@
           "multiplier": 2,
           "special": 0,
           "total": 14,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1582681": {
+          "scorePts": 12,
+          "scorerPts": 6,
+          "correctScorers": 2,
+          "base": 18,
+          "multiplier": 2,
+          "special": 0,
+          "total": 36,
           "isExact": false,
           "usedReg": false
         }
@@ -6837,5 +6881,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-07-11T23:47:44.859Z"
+  "updatedAt": "2026-07-12T03:45:36.959Z"
 }

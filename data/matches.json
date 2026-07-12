@@ -6308,7 +6308,7 @@
   {
     "id": "1582681",
     "date": "2026-07-12T01:00:00+00:00",
-    "status": "ET",
+    "status": "AET",
     "round": "Quarter-finals",
     "roundKey": "qf",
     "stage": "qf",
@@ -6331,8 +6331,8 @@
       "home": 1,
       "away": 1
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-12T03:45:29.189Z",
     "lineupAt": "2026-07-12T00:30:40.988Z",
     "lineup": {
       "15": {
@@ -6400,7 +6400,40 @@
       }
     },
     "remind2hAt": "2026-07-11T23:01:39.865Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 6716,
+        "name": "A. Mac Allister",
+        "teamId": 26,
+        "minute": 10,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 48648,
+        "name": "D. Ndoye",
+        "teamId": 15,
+        "minute": 67,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 6009,
+        "name": "J. Alvarez",
+        "teamId": 26,
+        "minute": 112,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 217,
+        "name": "L. Martinez",
+        "teamId": 26,
+        "minute": 120,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
