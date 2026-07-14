@@ -6461,10 +6461,11 @@
     "finishedAt": null,
     "lineupAt": null,
     "lineup": null,
-    "remind2hAt": null,
+    "remind2hAt": "2026-07-14T17:01:00.705Z",
     "scorers": [],
     "multiplierOverride": null,
-    "multiplier": 2
+    "multiplier": 2,
+    "remindJustDue": true
   },
   {
     "id": "1586077",
