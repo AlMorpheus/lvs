@@ -1096,6 +1096,17 @@
           "total": 14,
           "isExact": false,
           "usedReg": false
+        },
+        "1585131": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 2,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 1,
@@ -2176,6 +2187,17 @@
           "total": 50,
           "isExact": true,
           "usedReg": false
+        },
+        "1585131": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 2,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 2,
@@ -2185,9 +2207,9 @@
     {
       "id": "sergey",
       "name": "Мел",
-      "matchPts": 1459,
+      "matchPts": 1469,
       "futuresPts": 0,
-      "total": 1459,
+      "total": 1469,
       "exactCount": 14,
       "perMatch": {
         "1489369": {
@@ -3289,6 +3311,17 @@
           "total": 50,
           "isExact": true,
           "usedReg": true
+        },
+        "1585131": {
+          "scorePts": 5,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 5,
+          "multiplier": 2,
+          "special": 0,
+          "total": 10,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 3,
@@ -4369,6 +4402,17 @@
           "total": 28,
           "isExact": false,
           "usedReg": false
+        },
+        "1585131": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 2,
+          "special": 0,
+          "total": 0,
+          "isExact": false,
+          "usedReg": false
         }
       },
       "rank": 4,
@@ -5414,6 +5458,17 @@
           "multiplier": 2,
           "special": 0,
           "total": 36,
+          "isExact": false,
+          "usedReg": false
+        },
+        "1585131": {
+          "scorePts": 0,
+          "scorerPts": 0,
+          "correctScorers": 0,
+          "base": 0,
+          "multiplier": 2,
+          "special": 0,
+          "total": 0,
           "isExact": false,
           "usedReg": false
         }
@@ -6881,5 +6936,5 @@
   ],
   "rounds": {},
   "tournamentResult": null,
-  "updatedAt": "2026-07-12T03:45:36.959Z"
+  "updatedAt": "2026-07-14T21:01:43.822Z"
 }

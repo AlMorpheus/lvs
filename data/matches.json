@@ -6440,7 +6440,7 @@
   {
     "id": "1585131",
     "date": "2026-07-14T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Semi-finals",
     "roundKey": "sf",
     "stage": "sf",
@@ -6463,8 +6463,8 @@
       "home": 0,
       "away": 2
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-14T21:01:36.437Z",
     "lineupAt": "2026-07-14T17:52:51.664Z",
     "lineup": {
       "2": {
@@ -6533,7 +6533,24 @@
       }
     },
     "remind2hAt": "2026-07-14T17:01:00.705Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 47323,
+        "name": "Mikel Oyarzabal",
+        "teamId": 9,
+        "minute": 22,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 47519,
+        "name": "Pedro Porro",
+        "teamId": 9,
+        "minute": 58,
+        "type": "normal",
+        "pos": "Defender"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
