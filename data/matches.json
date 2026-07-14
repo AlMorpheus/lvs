@@ -6440,7 +6440,7 @@
   {
     "id": "1585131",
     "date": "2026-07-14T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Semi-finals",
     "roundKey": "sf",
     "stage": "sf",
@@ -6454,9 +6454,15 @@
       "name": "Spain",
       "flag": "https://media.api-sports.io/football/teams/9.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-14T17:52:51.664Z",
