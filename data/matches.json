@@ -6557,7 +6557,7 @@
   {
     "id": "1586077",
     "date": "2026-07-15T19:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "Semi-finals",
     "roundKey": "sf",
     "stage": "sf",
@@ -6580,8 +6580,8 @@
       "home": 1,
       "away": 2
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-15T21:04:44.886Z",
     "lineupAt": "2026-07-15T17:53:32.716Z",
     "lineup": {
       "10": {
@@ -6649,7 +6649,32 @@
       }
     },
     "remind2hAt": "2026-07-15T17:00:19.181Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 138787,
+        "name": "A. Gordon",
+        "teamId": 10,
+        "minute": 55,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 5996,
+        "name": "E. Fernandez",
+        "teamId": 26,
+        "minute": 85,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 217,
+        "name": "L. Martinez",
+        "teamId": 26,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   }
