@@ -6677,5 +6677,63 @@
     ],
     "multiplierOverride": null,
     "multiplier": 2
+  },
+  {
+    "id": "1591865",
+    "date": "2026-07-18T21:00:00+00:00",
+    "status": "NS",
+    "round": "3rd Place Final",
+    "roundKey": "third",
+    "stage": "third",
+    "home": {
+      "id": 2,
+      "name": "France",
+      "flag": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away": {
+      "id": 10,
+      "name": "England",
+      "flag": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
+  },
+  {
+    "id": "1591866",
+    "date": "2026-07-19T19:00:00+00:00",
+    "status": "NS",
+    "round": "Final",
+    "roundKey": "final",
+    "stage": "final",
+    "home": {
+      "id": 9,
+      "name": "Spain",
+      "flag": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away": {
+      "id": 26,
+      "name": "Argentina",
+      "flag": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "score": null,
+    "pen": false,
+    "scoreReg": null,
+    "finished": false,
+    "finishedAt": null,
+    "lineupAt": null,
+    "lineup": null,
+    "remind2hAt": null,
+    "scorers": [],
+    "multiplierOverride": null,
+    "multiplier": 2
   }
 ]
