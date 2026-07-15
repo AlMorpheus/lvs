@@ -6572,12 +6572,12 @@
       "flag": "https://media.api-sports.io/football/teams/26.png"
     },
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 0
     },
     "pen": false,
     "scoreReg": {
-      "home": 0,
+      "home": 1,
       "away": 0
     },
     "finished": false,
