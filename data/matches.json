@@ -6557,7 +6557,7 @@
   {
     "id": "1586077",
     "date": "2026-07-15T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Semi-finals",
     "roundKey": "sf",
     "stage": "sf",
@@ -6571,9 +6571,15 @@
       "name": "Argentina",
       "flag": "https://media.api-sports.io/football/teams/26.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-15T17:53:32.716Z",
