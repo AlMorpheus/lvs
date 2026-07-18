@@ -6681,7 +6681,7 @@
   {
     "id": "1591865",
     "date": "2026-07-18T21:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "3rd Place Final",
     "roundKey": "third",
     "stage": "third",
@@ -6695,9 +6695,15 @@
       "name": "England",
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-18T19:59:05.149Z",
