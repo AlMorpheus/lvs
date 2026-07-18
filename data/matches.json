@@ -6696,12 +6696,12 @@
       "flag": "https://media.api-sports.io/football/teams/10.png"
     },
     "score": {
-      "home": 2,
+      "home": 3,
       "away": 4
     },
     "pen": false,
     "scoreReg": {
-      "home": 2,
+      "home": 3,
       "away": 4
     },
     "finished": false,
