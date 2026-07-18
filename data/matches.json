@@ -6681,7 +6681,7 @@
   {
     "id": "1591865",
     "date": "2026-07-18T21:00:00+00:00",
-    "status": "2H",
+    "status": "FT",
     "round": "3rd Place Final",
     "roundKey": "third",
     "stage": "third",
@@ -6704,8 +6704,8 @@
       "home": 4,
       "away": 6
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-18T23:03:57.819Z",
     "lineupAt": "2026-07-18T19:59:05.149Z",
     "lineup": {
       "2": {
@@ -6773,7 +6773,88 @@
       }
     },
     "remind2hAt": "2026-07-18T19:00:09.906Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 2937,
+        "name": "D. Rice",
+        "teamId": 10,
+        "minute": 3,
+        "type": "normal",
+        "pos": "Midfielder"
+      },
+      {
+        "playerId": 19354,
+        "name": "E. Konsa",
+        "teamId": 10,
+        "minute": 18,
+        "type": "normal",
+        "pos": "Defender"
+      },
+      {
+        "playerId": 1460,
+        "name": "B. Saka",
+        "teamId": 10,
+        "minute": 37,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1460,
+        "name": "B. Saka",
+        "teamId": 10,
+        "minute": 45,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 48,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 161904,
+        "name": "B. Barcola",
+        "teamId": 2,
+        "minute": 54,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 278,
+        "name": "K. Mbappe",
+        "teamId": 2,
+        "minute": 66,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 1460,
+        "name": "B. Saka",
+        "teamId": 10,
+        "minute": 87,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 153,
+        "name": "O. Dembele",
+        "teamId": 2,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Attacker"
+      },
+      {
+        "playerId": 129718,
+        "name": "J. Bellingham",
+        "teamId": 10,
+        "minute": 90,
+        "type": "normal",
+        "pos": "Midfielder"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   },
