@@ -6861,7 +6861,7 @@
   {
     "id": "1591866",
     "date": "2026-07-19T19:00:00+00:00",
-    "status": "NS",
+    "status": "1H",
     "round": "Final",
     "roundKey": "final",
     "stage": "final",
@@ -6875,9 +6875,15 @@
       "name": "Argentina",
       "flag": "https://media.api-sports.io/football/teams/26.png"
     },
-    "score": null,
+    "score": {
+      "home": 0,
+      "away": 0
+    },
     "pen": false,
-    "scoreReg": null,
+    "scoreReg": {
+      "home": 0,
+      "away": 0
+    },
     "finished": false,
     "finishedAt": null,
     "lineupAt": "2026-07-19T18:01:51.687Z",
