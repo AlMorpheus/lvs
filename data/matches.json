@@ -6861,7 +6861,7 @@
   {
     "id": "1591866",
     "date": "2026-07-19T19:00:00+00:00",
-    "status": "BT",
+    "status": "AET",
     "round": "Final",
     "roundKey": "final",
     "stage": "final",
@@ -6884,8 +6884,8 @@
       "home": 0,
       "away": 0
     },
-    "finished": false,
-    "finishedAt": null,
+    "finished": true,
+    "finishedAt": "2026-07-19T22:04:44.170Z",
     "lineupAt": "2026-07-19T18:01:51.687Z",
     "lineup": {
       "9": {
@@ -6954,7 +6954,16 @@
       }
     },
     "remind2hAt": "2026-07-19T17:01:59.417Z",
-    "scorers": [],
+    "scorers": [
+      {
+        "playerId": 931,
+        "name": "Ferrán Torres",
+        "teamId": 9,
+        "minute": 106,
+        "type": "normal",
+        "pos": "Attacker"
+      }
+    ],
     "multiplierOverride": null,
     "multiplier": 2
   }
