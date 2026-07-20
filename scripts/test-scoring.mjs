@@ -81,5 +81,10 @@ const st2 = standings(users, [], bets2, tr, cfg);
 eq('A чемп+бомб', st2.table.find((x) => x.id === 'a').total, cfg.championBonus + cfg.topScorerBonus);
 eq('B только бомб', st2.table.find((x) => x.id === 'b').total, cfg.topScorerBonus);
 
+// Прогноз хранится строкой, а из API id приходят числом — бонусы всё равно должны начислиться
+const bets3 = { a: { matches: {}, tournament: { champion: '5', topScorer: '7' } }, b: { matches: {}, tournament: null } };
+const st3 = standings(users, [], bets3, tr, cfg);
+eq('A чемп+бомб (id строкой)', st3.table.find((x) => x.id === 'a').total, cfg.championBonus + cfg.topScorerBonus);
+
 console.log(fails ? `\n❌ Провалено: ${fails}` : '\n✅ Все проверки прошли');
 process.exit(fails ? 1 : 0);

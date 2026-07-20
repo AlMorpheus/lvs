@@ -284,12 +284,14 @@ export function standings(users, matches, bets, tournamentResult, cfg, posMap) {
 
   // Долгосрочные прогнозы (чемпион / бомбардир) — в самом конце
   if (tournamentResult && tournamentResult.finished) {
-    const topSet = new Set(tournamentResult.topScorers || []);
+    // id сравниваем как строки: в прогнозах они хранятся строкой, а из API приходят числом
+    const topSet = new Set((tournamentResult.topScorers || []).map(String));
+    const champ = tournamentResult.champion != null ? String(tournamentResult.champion) : null;
     for (const u of users) {
       const pred = bets[u.id]?.tournament;
       if (!pred) continue;
-      if (pred.champion != null && pred.champion === tournamentResult.champion) byUser[u.id].futuresPts += cfg.championBonus;
-      if (pred.topScorer != null && topSet.has(pred.topScorer)) byUser[u.id].futuresPts += cfg.topScorerBonus;
+      if (pred.champion != null && champ != null && String(pred.champion) === champ) byUser[u.id].futuresPts += cfg.championBonus;
+      if (pred.topScorer != null && topSet.has(String(pred.topScorer))) byUser[u.id].futuresPts += cfg.topScorerBonus;
     }
   }
 
