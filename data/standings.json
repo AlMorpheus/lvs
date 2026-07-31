@@ -4,8 +4,8 @@
       "id": "sasha",
       "name": "Мастер",
       "matchPts": 1618,
-      "futuresPts": 0,
-      "total": 1618,
+      "futuresPts": 50,
+      "total": 1668,
       "exactCount": 13,
       "perMatch": {
         "1489369": {
@@ -4522,8 +4522,8 @@
       "id": "betanalyse",
       "name": "Шеф",
       "matchPts": 1406,
-      "futuresPts": 0,
-      "total": 1406,
+      "futuresPts": 50,
+      "total": 1456,
       "exactCount": 10,
       "perMatch": {
         "1489369": {
@@ -7103,7 +7103,9 @@
   "tournamentResult": {
     "finished": true,
     "champion": 9,
-    "topScorers": []
+    "topScorers": [
+      278
+    ]
   },
-  "updatedAt": "2026-07-30T22:58:28.420Z"
+  "updatedAt": "2026-07-31T00:02:36.044Z"
 }
